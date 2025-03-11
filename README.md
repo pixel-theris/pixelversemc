@@ -5,8 +5,14 @@ The newest and best version of SigMC
 none
 
 # Server launchers
-chmod +x hub.sh
+chmod +x hub.sh 
+
 ./hub.sh
 
 chmod +x velocity.sh
+
 ./velocity.sh
+
+chmod +x minigames.sh 
+
+./minigames.sh
