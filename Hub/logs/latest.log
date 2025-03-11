@@ -1,1 +1,152 @@
 [16:17:23] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:17:25] [ServerMain/INFO]: Loaded 7 recipes
+[16:17:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:17:26] [Server thread/INFO]: Loading properties
+[16:17:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:17:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:17:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:17:27] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:17:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:17:28] [Server thread/INFO]: Default game type: ADVENTURE
+[16:17:28] [Server thread/INFO]: Generating keypair
+[16:17:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:17:28] [Server thread/INFO]: Using epoll channel type
+[16:17:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:17:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:17:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[16:17:28] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[16:17:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:17:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:17:29] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:17:29] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:17:29] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[16:17:31] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[16:17:31] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[16:17:31] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:17:31] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
+[16:17:31] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
+[16:17:31] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[16:17:31] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
+[16:17:31] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.29-SNAPSHOT (build 2500)
+[16:17:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[16:17:31] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[16:17:31] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[16:17:31] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
+[16:17:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:17:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[16:17:32] [Server thread/INFO]:         __    
+[16:17:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[16:17:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:17:32] [Server thread/INFO]: 
+[16:17:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:17:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:17:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:17:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:17:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2143ms)
+[16:17:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:17:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:17:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:17:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:17:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:17:34] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
+[16:17:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:17:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:17:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:17:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:17:34] [Server thread/INFO]: Preparing level "world"
+[16:17:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:17:34] [Server thread/INFO]: Time elapsed: 302 ms
+[16:17:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:17:34] [Server thread/INFO]: Time elapsed: 96 ms
+[16:17:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[16:17:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[16:17:34] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:17:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:17:35] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[16:17:35] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[16:17:35] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[16:17:35] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[16:17:35] [Server thread/INFO]: [DeluxeHub] 
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[16:17:35] [Server thread/INFO]: [DeluxeHub] 
+[16:17:35] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[16:17:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[16:17:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[16:17:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[16:17:35] [Server thread/INFO]: [DeluxeHub] 
+[16:17:35] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 444ms
+[16:17:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[16:17:35] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[16:17:35] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[16:17:35] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[16:17:35] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:17:35] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:17:36] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[16:17:36] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[16:17:36] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[16:17:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[16:17:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[16:17:36] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[16:17:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[16:17:36] [Server thread/INFO]: [Essentials] Using locale en
+[16:17:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:17:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:17:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:17:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:17:36] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
+[16:17:36] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2500)
+[16:17:36] [Server thread/INFO]: Creating file: config.yml
+[16:17:36] [Server thread/ERROR]: [Citizens] v2.0.29-SNAPSHOT (build 2500) is not compatible with Minecraft v1_20_R1 - try upgrading or downgrading Citizens. Disabling.
+[16:17:36] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2500)
+[16:17:36] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling Citizens v2.0.29-SNAPSHOT (build 2500) (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "net.citizensnpcs.util.NMSBridge.shutdown()" because "net.citizensnpcs.util.NMS.BRIDGE" is null
+	at net.citizensnpcs.util.NMS.shutdown(NMS.java:601) ~[Citizens-2.0.29-b2500.jar:?]
+	at net.citizensnpcs.Citizens.onDisable(Citizens.java:299) ~[Citizens-2.0.29-b2500.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at net.citizensnpcs.Citizens.onEnable(Citizens.java:318) ~[Citizens-2.0.29-b2500.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[16:17:36] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[16:17:36] [Server thread/INFO]: [TAB] Loaded NMS hook in 61ms
+[16:17:36] [Server thread/INFO]: [TAB] Enabled in 199ms
+[16:17:36] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[16:17:36] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:17:36] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[16:17:36] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:17:36] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[16:17:36] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:17:36] [Server thread/INFO]: [GadgetsMenu]    GadgetsMenu is no longer support server 1.20.1.
+[16:17:36] [Server thread/INFO]: [GadgetsMenu]    Please update the server to the latest supported
+[16:17:36] [Server thread/INFO]: [GadgetsMenu]         version. The plugin will be disabled.
+[16:17:36] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:17:36] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
+[16:17:37] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:17:37] [Server thread/INFO]: Running delayed init tasks
+[16:17:37] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:17:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:17:37] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:17:37] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[16:17:37] [Server thread/INFO]: Done (11.228s)! For help, type "help"
+[16:17:37] [Server thread/INFO]: Timings Reset
+[16:17:37] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:17:37] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
+[16:17:37] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
