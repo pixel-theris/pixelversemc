@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
@@ -47,18 +41,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2025-03-11 14:16:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
@@ -83,12 +65,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
@@ -110,12 +86,6 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
     },
     "done": true
   },
@@ -209,12 +179,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-03-11 14:15:32 +0000"
@@ -269,12 +233,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
@@ -284,12 +242,6 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
     },
     "done": true
   },
@@ -323,18 +275,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-03-11 14:15:32 +0000"
@@ -347,12 +287,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-03-11 14:15:32 +0000"
@@ -362,12 +296,6 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
     },
     "done": true
   },
@@ -401,12 +329,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-03-11 14:15:32 +0000"
@@ -425,21 +347,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/armor_stand": {
-    "criteria": {
-      "has_stone_slab": "2025-03-11 14:21:28 +0000"
     },
     "done": true
   },
@@ -449,21 +359,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-03-11 14:24:29 +0000"
     },
     "done": true
   },
@@ -484,13 +382,6 @@
       "has_copper_ingot": "2025-03-11 14:15:32 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:creeper": "2025-03-11 14:24:33 +0000",
-      "minecraft:zombie": "2025-03-11 14:24:29 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
@@ -534,12 +425,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
@@ -558,25 +443,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2025-03-11 14:24:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-03-11 14:15:33 +0000",
-      "minecraft:plains": "2025-03-11 14:16:02 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2025-03-11 14:15:32 +0000"
@@ -586,12 +452,6 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
     },
     "done": true
   },
@@ -607,51 +467,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/andesite_wall": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_slab": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-03-11 14:15:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2025-03-11 14:24:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-03-11 14:24:34 +0000"
     },
     "done": true
   },
@@ -664,12 +488,6 @@
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
       "has_diamond": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/activator_rail": {
-    "criteria": {
-      "has_rail": "2025-03-11 14:16:31 +0000"
     },
     "done": true
   },
@@ -703,12 +521,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-03-11 14:21:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-03-11 14:15:32 +0000"
@@ -733,33 +545,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2025-03-11 14:16:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-03-11 14:15:32 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-03-11 14:15:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_stone": "2025-03-11 14:17:42 +0000"
     },
     "done": true
   },
@@ -772,6 +566,244 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-03-11 14:15:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2025-03-11 14:15:33 +0000",
+      "minecraft:plains": "2025-03-11 14:16:02 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-03-11 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-03-11 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-03-11 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-03-11 14:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-03-11 14:21:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-03-11 14:21:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-03-11 14:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-03-11 15:06:49 +0000",
+      "minecraft:creeper": "2025-03-11 14:24:33 +0000",
+      "minecraft:slime": "2025-03-11 15:09:03 +0000",
+      "minecraft:zombie": "2025-03-11 14:24:29 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-03-11 14:24:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-11 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-03-11 15:06:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-03-11 15:07:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-03-11 15:09:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-03-11 15:09:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-03-11 15:09:21 +0000"
     },
     "done": true
   },

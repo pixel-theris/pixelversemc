@@ -16,3 +16,7 @@ chmod +x velocity.sh
 chmod +x minigames.sh 
 
 ./minigames.sh
+
+chmod +x limbo.sh
+
+./limbo.sh

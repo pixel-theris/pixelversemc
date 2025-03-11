@@ -1,0 +1,41 @@
+14:39:08.578 INFO  Limbo -- Starting server...
+14:39:09.080 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+14:39:48.097 INFO  Limbo -- Unknown command. Type "help" to get commands list
+14:39:49.077 INFO  Limbo -- Unknown command. Type "help" to get commands list
+14:39:54.143 INFO  Limbo -- Available commands:
+14:39:54.143 INFO  Limbo -- help - Show this message
+14:39:54.143 INFO  Limbo -- conn - Display connections count
+14:39:54.144 INFO  Limbo -- ver - Display limbo version
+14:39:54.144 INFO  Limbo -- mem - Display memory usage
+14:39:54.144 INFO  Limbo -- stop - Stop the server
+14:39:54.144 INFO  Limbo -- version - Display limbo version
+14:41:39.546 INFO  Limbo -- Connections: 0
+14:42:25.246 INFO  Limbo -- Stopping server...
+14:42:25.247 INFO  Limbo -- Server stopped, Goodbye!
+14:42:28.212 INFO  Limbo -- Starting server...
+14:42:28.700 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+14:45:06.843 INFO  Limbo -- Stopping server...
+14:45:06.844 INFO  Limbo -- Server stopped, Goodbye!
+14:45:08.602 INFO  Limbo -- Starting server...
+14:45:09.147 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+14:46:17.832 INFO  Limbo -- Player Pingdaking8 connected (/127.0.0.1:55742) [V1_8]
+14:46:21.504 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:55752) [V1_8]
+14:46:22.715 INFO  Limbo -- Player Pingdaking8 disconnected
+14:46:25.712 INFO  Limbo -- Player ysyyayyyayya disconnected
+14:49:43.786 INFO  Limbo -- Stopping server...
+14:49:43.787 INFO  Limbo -- Server stopped, Goodbye!
+15:03:11.329 INFO  Limbo -- Starting server...
+15:03:12.411 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+15:03:46.791 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:33264) [V1_8]
+15:03:59.311 INFO  Limbo -- Player ysyyayyyayya disconnected
+15:04:07.715 INFO  Limbo -- Player Pingdaking8 connected (/127.0.0.1:36494) [V1_8]
+15:04:15.555 INFO  Limbo -- Player Pingdaking8 disconnected
+15:06:11.119 INFO  Limbo -- Player iglentoften connected (/127.0.0.1:36648) [V1_8]
+15:06:18.316 INFO  Limbo -- Player iglentoften disconnected
+15:13:18.043 INFO  Limbo -- Player iglentoften connected (/127.0.0.1:54292) [V1_8]
+15:13:21.447 INFO  Limbo -- Player iglentoften disconnected
+15:14:08.599 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:48704) [V1_8]
+15:14:08.606 INFO  Limbo -- Player Pingdaking8 connected (/127.0.0.1:48712) [V1_8]
+15:14:08.606 INFO  Limbo -- Player iglentoften connected (/127.0.0.1:48722) [V1_8]
+15:14:12.715 INFO  Limbo -- Stopping server...
+15:14:12.715 INFO  Limbo -- Server stopped, Goodbye!

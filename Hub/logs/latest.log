@@ -1,95 +1,133 @@
-[14:06:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:06:37] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[14:06:39] [ServerMain/INFO]: Loaded 7 recipes
-[14:06:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:06:39] [Server thread/INFO]: Loading properties
-[14:06:39] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[14:06:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:06:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:06:40] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:03:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:03:15] [ServerMain/INFO]: Loaded 7 recipes
+[15:03:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:03:16] [Server thread/INFO]: Loading properties
+[15:03:16] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:03:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:03:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:03:17] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:06:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[14:06:40] [Server thread/INFO]: Default game type: ADVENTURE
-[14:06:40] [Server thread/INFO]: Generating keypair
-[14:06:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:06:41] [Server thread/INFO]: Using epoll channel type
-[14:06:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:06:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:06:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[14:06:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[14:06:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:06:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:06:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:06:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:06:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[14:06:42] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
-[14:06:42] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
-[14:06:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:06:42] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
-[14:06:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:06:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:06:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:06:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:06:42] [Server thread/INFO]: Preparing level "world"
-[14:06:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:06:42] [Server thread/INFO]: Time elapsed: 256 ms
-[14:06:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:06:42] [Server thread/INFO]: Time elapsed: 91 ms
-[14:06:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[14:06:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
-[14:06:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[14:06:43] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
-[14:06:43] [Server thread/INFO]: Running delayed init tasks
-[14:06:43] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[14:06:43] [Server thread/INFO]: Done (3.991s)! For help, type "help"
-[14:06:43] [Server thread/INFO]: Timings Reset
-[14:06:43] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
-[14:13:34] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[14:13:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Custom worlds heights are NOT SUPPORTED for 1.16 players and older and may lead to errors!
-[14:13:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] You have min/max set to -64/256
-[14:13:34] [Server thread/INFO]: ysyyayyyayya joined the game
-[14:13:34] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:33804] logged in with entity id 1 at ([world]242.0452770951228, 64.5, 1309.2632150993165)
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:13:35] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:13:50] [User Authenticator #0/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
-[14:13:50] [Server thread/INFO]: iglentoften joined the game
-[14:13:50] [Server thread/INFO]: iglentoften[/127.0.0.1:50202] logged in with entity id 2 at ([world]242.5, 63.0, 1348.5)
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:13:50] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:13:54] [Server thread/INFO]: iglentoften issued server command: /login abcdef
-[14:15:08] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
-[14:15:08] [Server thread/INFO]: ysyyayyyayya left the game
-[14:15:32] [Server thread/INFO]: iglentoften lost connection: Disconnected
-[14:15:32] [Server thread/INFO]: iglentoften left the game
-[14:23:27] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[14:23:27] [Server thread/INFO]: ysyyayyyayya joined the game
-[14:23:27] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:52904] logged in with entity id 3 at ([world]243.02096619942395, 62.5, 1323.9761211213477)
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:23:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:25:44] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
-[14:25:44] [Server thread/INFO]: ysyyayyyayya left the game
+[15:03:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:03:17] [Server thread/INFO]: Default game type: ADVENTURE
+[15:03:17] [Server thread/INFO]: Generating keypair
+[15:03:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:03:18] [Server thread/INFO]: Using epoll channel type
+[15:03:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:03:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:03:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[15:03:18] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[15:03:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:03:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:03:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:03:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:03:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[15:03:19] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
+[15:03:19] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
+[15:03:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:03:19] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
+[15:03:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:03:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:03:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:03:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:03:19] [Server thread/INFO]: Preparing level "world"
+[15:03:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:03:20] [Server thread/INFO]: Time elapsed: 257 ms
+[15:03:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:03:20] [Server thread/INFO]: Time elapsed: 123 ms
+[15:03:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[15:03:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[15:03:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[15:03:20] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
+[15:03:20] [Server thread/INFO]: Running delayed init tasks
+[15:03:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[15:03:20] [Server thread/INFO]: Done (4.641s)! For help, type "help"
+[15:03:20] [Server thread/INFO]: Timings Reset
+[15:03:21] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
+[15:03:59] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[15:03:59] [Server thread/INFO]: ysyyayyyayya joined the game
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Custom worlds heights are NOT SUPPORTED for 1.16 players and older and may lead to errors!
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] You have min/max set to -64/256
+[15:03:59] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:50594] logged in with entity id 1 at ([world]242.3571162213332, 68.39300516149105, 1351.7292146492039)
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[15:03:59] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[15:04:15] [User Authenticator #0/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[15:04:15] [Server thread/INFO]: Pingdaking8 joined the game
+[15:04:15] [Server thread/INFO]: Pingdaking8[/127.0.0.1:37758] logged in with entity id 2 at ([world]247.64949233601928, 62.0, 1342.2183306157403)
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[15:04:15] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[15:04:41] [Server thread/INFO]: Pingdaking8 lost connection: Disconnected
+[15:04:41] [Server thread/INFO]: Pingdaking8 left the game
+[15:04:42] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[15:04:42] [Server thread/INFO]: ysyyayyyayya left the game
+[15:06:18] [User Authenticator #1/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
+[15:06:18] [Server thread/INFO]: iglentoften joined the game
+[15:06:18] [Server thread/INFO]: iglentoften[/127.0.0.1:35484] logged in with entity id 3 at ([world]255.30000001192093, 61.5, 1355.983103033378)
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[15:06:18] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[15:06:26] [Server thread/INFO]: iglentoften lost connection: Disconnected
+[15:06:26] [Server thread/INFO]: iglentoften left the game
+[15:13:21] [User Authenticator #2/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
+[15:13:21] [Server thread/INFO]: iglentoften joined the game
+[15:13:21] [Server thread/INFO]: iglentoften[/127.0.0.1:36560] logged in with entity id 4 at ([world]260.1064702941874, 60.0, 1349.9021596421292)
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[15:13:21] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[15:13:34] [Server thread/INFO]: iglentoften lost connection: Disconnected
+[15:13:34] [Server thread/INFO]: iglentoften left the game
+[15:14:19] [Server thread/INFO]: Stopping the server
+[15:14:19] [Server thread/INFO]: Stopping server
+[15:14:19] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.2
+[15:14:19] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
+[15:14:19] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[15:14:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[15:14:19] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[15:14:19] [Server thread/INFO]: Saving players
+[15:14:19] [Server thread/INFO]: Saving worlds
+[15:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[15:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:14:19] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[15:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:14:19] [Server thread/INFO]: Flushing Chunk IO
+[15:14:19] [Server thread/INFO]: Closing Thread Pool
+[15:14:19] [Server thread/INFO]: Closing Server

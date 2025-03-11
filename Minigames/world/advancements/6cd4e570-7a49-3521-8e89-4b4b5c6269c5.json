@@ -5,6 +5,20 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2025-03-11 14:16:50 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-11 14:15:14 +0000",
+      "minecraft:plains": "2025-03-11 14:16:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-03-11 14:18:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2025-03-11 14:20:57 +0000"
@@ -25,14 +39,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:dark_forest": "2025-03-11 14:16:50 +0000",
-      "minecraft:old_growth_birch_forest": "2025-03-11 14:15:14 +0000",
-      "minecraft:plains": "2025-03-11 14:16:59 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-03-11 14:21:58 +0000"
@@ -42,12 +48,6 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-03-11 14:21:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-03-11 14:18:39 +0000"
     },
     "done": true
   },
