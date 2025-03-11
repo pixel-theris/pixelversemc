@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1741710299076
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741710661006
+  login: 1741710617849
+money: '0'
+last-account-name: ysyyayyyayya
+lastlocation:
+  world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
+  world-name: world
+  x: 239.4804522504559
+  y: 62.0
+  z: 1355.8140136890834
+  yaw: -18.60003662109375
+  pitch: 7.499992847442627
+logoutlocation:
+  world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
+  world-name: world
+  x: 245.3813433971297
+  y: 64.5
+  z: 1304.1853171781977
+  yaw: -179.40000915527344
+  pitch: 26.699995040893555

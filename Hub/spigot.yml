@@ -22,9 +22,6 @@ advancements:
   disabled:
   - minecraft:story/disabled
 settings:
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
   bungeecord: false
@@ -32,6 +29,9 @@ settings:
   user-cache-size: 1000
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
   netty-threads: 4
   attribute:
     maxHealth:
@@ -43,6 +43,18 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
   debug: false
+commands:
+  tab-complete: 0
+  send-namespaced: true
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
 world-settings:
   default:
     below-zero-generation-in-existing-chunks: true
@@ -62,6 +74,7 @@ world-settings:
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
     hanging-tick-frequency: 100
+    unload-frozen-chunks: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -141,6 +154,7 @@ world-settings:
     seed-portal: 34222645
     seed-ancientcity: 20083232
     seed-trailruins: 83469867
+    seed-trialchambers: 94251327
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
@@ -157,18 +171,6 @@ world-settings:
       tile: 50
       entity: 50
     verbose: false
-commands:
-  log: true
-  tab-complete: 0
-  send-namespaced: true
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
 players:
   disable-saving: false
 config-version: 12
