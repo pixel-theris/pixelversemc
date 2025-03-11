@@ -1,129 +1,63 @@
-[15:03:05] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
-[15:03:05] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[15:03:06] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[15:03:06] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[15:03:06] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[15:03:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[15:03:06] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:03:06] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
-[15:03:07] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
-[15:03:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
-[15:03:07] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[15:03:07] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[15:03:07] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[15:03:07] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[15:03:08] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[15:03:08] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.69s)
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
-[15:03:10] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
-[15:03:11] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Generating RSA keypair... (this may take a while)
-[15:03:13] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: The RSA key pair was successfully generated. Took 2.76s
-[15:03:14] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
-[15:03:14] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (9.23s)!
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
-[15:03:19] [nLogin - Task Executor #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[15:03:44] [Netty epoll Worker #0/WARN] [eaglerxvelocity]: Server icon is not a file: /workspaces/SigMCX/Velocity/server-icon.png
-[15:03:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:54162]: Connected via websocket
-[15:03:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:54162]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
-[15:03:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:54162) has connected
-[15:03:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
-[15:03:58] [nLogin - Task Executor #1/INFO] [nlogin]: The user ysyyayyyayya has successfully registered.
-[15:03:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has connected
-[15:03:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
-[15:04:07] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34896]: Connected via websocket
-[15:04:07] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34896]: Origin header is https://sigmauncher-ten.vercel.app
-[15:04:07] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] Pingdaking8 (/[0:0:0:0:0:0:0:1]:34896) has connected
-[15:04:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> login has connected
-[15:04:14] [nLogin - Task Executor #1/INFO] [nlogin]: The user Pingdaking8 has successfully registered.
-[15:04:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> lobby has connected
-[15:04:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> login has disconnected
-[15:04:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> minigames has connected
-[15:04:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> minigames has connected
-[15:04:41] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> lobby has disconnected
-[15:04:41] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has disconnected
-[15:06:11] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:48248]: Connected via websocket
-[15:06:11] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:48248]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
-[15:06:11] [Netty epoll Worker #4/INFO] [eaglerxvelocity]: [connected player] iglentoften (/[0:0:0:0:0:0:0:1]:48248) has connected
-[15:06:11] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has connected
-[15:06:17] [nLogin - Task Executor #4/INFO] [nlogin]: The user iglentoften has successfully registered.
-[15:06:18] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> lobby has connected
-[15:06:18] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has disconnected
-[15:06:26] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> minigames has connected
-[15:06:26] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> lobby has disconnected
-[15:12:04] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] iglentoften (/[0:0:0:0:0:0:0:1]:48248) has disconnected
-[15:12:04] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> minigames has disconnected
-[15:13:17] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:51262]: Connected via websocket
-[15:13:17] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:51262]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
-[15:13:18] [Netty epoll Worker #5/INFO] [eaglerxvelocity]: [connected player] iglentoften (/[0:0:0:0:0:0:0:1]:51262) has connected
-[15:13:18] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has connected
-[15:13:20] [nLogin - Task Executor #8/INFO] [nlogin]: The user iglentoften has successfully logged in.
-[15:13:21] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> lobby has connected
-[15:13:21] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has disconnected
-[15:13:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> minigames has connected
-[15:13:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> lobby has disconnected
-[15:14:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:54162): kicked from server minigames: Server closed
-[15:14:08] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] iglentoften (/[0:0:0:0:0:0:0:1]:51262): kicked from server minigames: Server closed
-[15:14:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> minigames has disconnected
-[15:14:08] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> minigames has disconnected
-[15:14:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Pingdaking8 (/[0:0:0:0:0:0:0:1]:34896): kicked from server minigames: Server closed
-[15:14:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> minigames has disconnected
-[15:14:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> login has connected
-[15:14:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
-[15:14:08] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has connected
-[15:14:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Pingdaking8 (/[0:0:0:0:0:0:0:1]:34896): kicked from server login: An internal server connection error occurred.
-[15:14:12] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@528ed0e1
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[15:14:12] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@30f70c56
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[15:14:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Pingdaking8 -> login has disconnected
-[15:14:12] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] iglentoften (/[0:0:0:0:0:0:0:1]:51262) has disconnected: Your connection to login encountered a problem.
-[15:14:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Pingdaking8 (/[0:0:0:0:0:0:0:1]:34896) has disconnected: You were kicked from login: An internal server connection error occurred.
-[15:14:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:54162) has disconnected: Your connection to login encountered a problem.
-[15:14:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
-[15:14:12] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] iglentoften -> login has disconnected
-[15:14:15] [Thread-6/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[15:14:15] [Thread-6/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25765
-[15:14:15] [EaglercraftXVelocity - Task Executor #4/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[15:14:15] [EaglercraftXVelocity - Task Executor #4/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[15:14:15] [EaglercraftXVelocity - Task Executor #4/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[16:11:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
+[16:11:29] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[16:11:30] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[16:11:30] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[16:11:30] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[16:11:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[16:11:30] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[16:11:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
+[16:11:30] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
+[16:11:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
+[16:11:30] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[16:11:30] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[16:11:30] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[16:11:31] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[16:11:31] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[16:11:31] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.18s)
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
+[16:11:32] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[16:11:33] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
+[16:11:33] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (4.07s)!
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[16:11:38] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
