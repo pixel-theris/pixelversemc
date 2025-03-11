@@ -41,3 +41,5 @@
 15:14:12.715 INFO  Limbo -- Server stopped, Goodbye!
 16:11:37.904 INFO  Limbo -- Starting server...
 16:11:38.601 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+16:12:24.158 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:46726) [V1_8]
+16:12:32.305 INFO  Limbo -- Player ysyyayyyayya disconnected
