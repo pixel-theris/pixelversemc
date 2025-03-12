@@ -168,6 +168,7 @@ Mystery-Boxes:
       - '&c{MYSTERY_BOXES} Available'
       - '&f{MYSTERY_BOXES} Available'
       Zero-Mystery-Box-Available: '&cNo Box Available'
+    Hologram-Height: 1.21
   Broadcast:
     Opening-Mystery-Box:
       Enabled: true

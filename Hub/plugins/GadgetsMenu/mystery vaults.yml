@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  box1:
+    BlockFace: EAST
+    Location:
+      world: world
+      x: 236.0
+      y: 63.0
+      z: 1348.0
+  box2:
+    BlockFace: WEST
+    Location:
+      world: world
+      x: 248.0
+      y: 63.0
+      z: 1348.0

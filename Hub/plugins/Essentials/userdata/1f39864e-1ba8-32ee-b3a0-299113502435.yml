@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741804074270
+  login: 1741803712620
+money: '0'
+last-account-name: iglentoften
+logoutlocation:
+  world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
+  world-name: world
+  x: 234.56935857456034
+  y: 15.19938168532099
+  z: 1290.71331783523
+  yaw: -117.99676513671875
+  pitch: 45.401187896728516

@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1741789361846
+  lastteleport: 1741806256874
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741791681441
-  login: 1741791502192
+  logout: 1741807107466
+  login: 1741806180726
 money: '0'
 last-account-name: ysyyayyyayya
 lastlocation:
   world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
   world-name: world
-  x: 242.16495268092996
+  x: 236.31422955422735
   y: 62.0
-  z: 1345.6044326285453
-  yaw: 176.09996032714844
-  pitch: 17.399993896484375
+  z: 1338.2999859432757
+  yaw: 4.400094985961914
+  pitch: 27.149993896484375
 logoutlocation:
   world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
   world-name: world
-  x: 241.19708404531445
+  x: 231.92286334712054
   y: 62.0
-  z: 1340.7874030387784
-  yaw: -2.2000162601470947
-  pitch: 11.150001525878906
+  z: 1354.3037290860202
+  yaw: 142.55001831054688
+  pitch: 14.249993324279785
