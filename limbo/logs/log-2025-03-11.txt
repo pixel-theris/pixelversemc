@@ -57,3 +57,7 @@
 18:01:44.524 INFO  Limbo -- Player ysyyayyyayya disconnected
 18:03:16.821 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:40450) [V1_8]
 18:03:34.313 INFO  Limbo -- Player ysyyayyyayya disconnected
+18:06:55.163 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:56218) [V1_8]
+18:07:05.762 INFO  Limbo -- Player ysyyayyyayya disconnected
+18:15:07.117 INFO  Limbo -- Stopping server...
+18:15:07.118 INFO  Limbo -- Server stopped, Goodbye!

@@ -1,274 +1,95 @@
-[18:02:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:02:39] [ServerMain/INFO]: Loaded 1175 recipes
-[18:02:39] [ServerMain/INFO]: Loaded 1276 advancements
-[18:02:40] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[18:02:40] [Server thread/INFO]: Loading properties
-[18:02:40] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[18:02:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:02:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:02:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[14:41:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SuperLobbyDeluxe-4.7.6-shaded.jar'...
+[14:41:45] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/DecentHolograms-2.8.15.jar'...
+[14:41:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SuperLobbyDeluxe-4.7.6-shaded.jar' in 582ms.
+[14:41:46] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DecentHolograms-2.8.15.jar' in 1141ms.
+[14:41:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:41:52] [ServerMain/INFO]: Loaded 1175 recipes
+[14:41:52] [ServerMain/INFO]: Loaded 1276 advancements
+[14:41:53] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[14:41:53] [Server thread/INFO]: Loading properties
+[14:41:53] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[14:41:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:41:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:41:54] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:02:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:02:41] [Server thread/INFO]: Default game type: ADVENTURE
-[18:02:41] [Server thread/INFO]: Generating keypair
-[18:02:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:02:42] [Server thread/INFO]: Using epoll channel type
-[18:02:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:02:42] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:02:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[18:02:42] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[18:02:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[18:02:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[18:02:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[18:02:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[18:02:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[18:02:45] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[18:02:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[18:02:45] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[18:02:45] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
-[18:02:45] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
-[18:02:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[18:02:45] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
-[18:02:45] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.29-SNAPSHOT (build 2500)
-[18:02:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[18:02:45] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[18:02:45] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[18:02:45] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
-[18:02:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:02:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[18:02:45] [Server thread/INFO]:         __    
-[18:02:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[18:02:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:02:45] [Server thread/INFO]: 
-[18:02:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:02:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:02:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:02:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:02:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1230ms)
-[18:02:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[18:02:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:02:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:02:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[18:02:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:02:47] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
-[18:02:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:02:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:02:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:02:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:02:47] [Server thread/INFO]: Preparing level "world"
-[18:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:02:47] [Server thread/INFO]: Time elapsed: 5 ms
-[18:02:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:02:48] [Server thread/INFO]: Time elapsed: 568 ms
-[18:02:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[18:02:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: Unknown (766) (766)
-[18:02:48] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
-[18:02:48] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
-[18:02:48] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
-[18:02:48] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
-[18:02:48] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
-[18:02:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[18:02:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:02:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[18:02:48] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
-[18:02:48] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[18:02:48] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[18:02:48] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[18:02:48] [Server thread/INFO]: [DeluxeHub] 
-[18:02:48] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
-[18:02:48] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[18:02:48] [Server thread/INFO]: [DeluxeHub] 
-[18:02:48] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[18:02:48] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[18:02:49] [Server thread/WARN]: [NBTAPI] [NBTAPI] Error while trying to resolve the class 'inventory.CraftItemStack'!
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.getVersion(MinecraftVersion.java:111) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.isAtLeastVersion(MinecraftVersion.java:88) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:86) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:72) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<clinit>(ClassWrapper.java:17) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ReflectionMethod.<clinit>(ReflectionMethod.java:24) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.NBTCompound.setString(NBTCompound.java:176) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95) ~[DeluxeHub-3.5.5.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:49] [Server thread/WARN]: [NBTAPI] [NBTAPI] Error while trying to resolve the class 'inventory.CraftMetaItem'!
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.getVersion(MinecraftVersion.java:111) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.isAtLeastVersion(MinecraftVersion.java:88) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:86) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:72) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<clinit>(ClassWrapper.java:18) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ReflectionMethod.<clinit>(ReflectionMethod.java:24) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.NBTCompound.setString(NBTCompound.java:176) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95) ~[DeluxeHub-3.5.5.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:49] [Server thread/WARN]: [NBTAPI] [NBTAPI] Error while trying to resolve the class 'entity.CraftEntity'!
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.getVersion(MinecraftVersion.java:111) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.isAtLeastVersion(MinecraftVersion.java:88) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:86) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:72) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<clinit>(ClassWrapper.java:19) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ReflectionMethod.<clinit>(ReflectionMethod.java:24) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.NBTCompound.setString(NBTCompound.java:176) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95) ~[DeluxeHub-3.5.5.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:49] [Server thread/WARN]: [NBTAPI] [NBTAPI] Error while trying to resolve the class 'CraftWorld'!
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.getVersion(MinecraftVersion.java:111) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.isAtLeastVersion(MinecraftVersion.java:88) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:86) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:72) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<clinit>(ClassWrapper.java:20) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ReflectionMethod.<clinit>(ReflectionMethod.java:24) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.NBTCompound.setString(NBTCompound.java:176) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95) ~[DeluxeHub-3.5.5.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:49] [Server thread/ERROR]: Error occurred while enabling DeluxeHub v3.5.5 (Is it up to date?)
-java.lang.ExceptionInInitializerError: null
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ReflectionMethod.<clinit>(ReflectionMethod.java:24) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.NBTCompound.setString(NBTCompound.java:176) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarItem.<init>(HotbarItem.java:37) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.items.CustomItem.<init>(CustomItem.java:16) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.modules.hotbar.HotbarManager.onEnable(HotbarManager.java:34) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.module.ModuleManager.loadModules(ModuleManager.java:73) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:95) ~[DeluxeHub-3.5.5.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.MinecraftVersion.getVersion(MinecraftVersion.java:111) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:78) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<init>(ClassWrapper.java:72) ~[DeluxeHub-3.5.5.jar:?]
-	at DeluxeHub-3.5.5.jar/fun.lewisdev.deluxehub.libs.nbt.utils.nmsmappings.ClassWrapper.<clinit>(ClassWrapper.java:21) ~[DeluxeHub-3.5.5.jar:?]
-	... 19 more
-[18:02:49] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.5
-[18:02:49] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.util.Set.forEach(java.util.function.Consumer)" because "this.holograms" is null
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.module.modules.hologram.HologramManager.saveHolograms(HologramManager.java:61)
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.module.modules.hologram.HologramManager.onDisable(HologramManager.java:36)
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.module.ModuleManager.unloadModules(ModuleManager.java:92)
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
-[18:02:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[18:02:49] [Server thread/ERROR]: [DeluxeHub] There was an error unloading the HOLOGRAMS module.
-[18:02:49] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.util.List.clear()" because "this.vanished" is null
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.module.modules.player.PlayerVanish.onDisable(PlayerVanish.java:34)
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.module.ModuleManager.unloadModules(ModuleManager.java:92)
-[18:02:49] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206)
-[18:02:49] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:626)
-[18:02:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:575)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:675)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:323)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136)
-[18:02:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323)
-[18:02:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[18:02:49] [Server thread/ERROR]: [DeluxeHub] There was an error unloading the VANISH module.
-[18:02:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[18:02:49] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[18:02:50] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[18:02:50] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[18:02:50] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[18:02:50] [Server thread/INFO]: [Essentials] Using locale en
-[18:02:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:02:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:02:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[18:02:50] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[18:02:50] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
-[18:02:50] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2500)
-[18:02:50] [Server thread/ERROR]: [Citizens] v2.0.29-SNAPSHOT (build 2500) is not compatible with Minecraft vraftbukkit - try upgrading or downgrading Citizens. Disabling.
-[18:02:50] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2500)
-[18:02:50] [Server thread/ERROR]: Error occurred while disabling Citizens v2.0.29-SNAPSHOT (build 2500)
+[14:41:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[14:41:54] [Server thread/INFO]: Default game type: ADVENTURE
+[14:41:54] [Server thread/INFO]: Generating keypair
+[14:41:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:41:55] [Server thread/INFO]: Using epoll channel type
+[14:41:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:41:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:41:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[14:41:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[14:41:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:41:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:41:58] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:41:58] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:41:59] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[14:41:59] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[14:42:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[14:42:00] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[14:42:00] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[14:42:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[14:42:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[14:42:00] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[14:42:00] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.29-SNAPSHOT (build 2500)
+[14:42:00] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[14:42:00] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[14:42:00] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[14:42:00] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[14:42:00] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
+[14:42:00] [Server thread/INFO]: [SuperLobby] Loading server plugin SuperLobby v4.7.6
+[14:42:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:42:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[14:42:00] [Server thread/INFO]:         __    
+[14:42:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[14:42:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[14:42:00] [Server thread/INFO]: 
+[14:42:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:42:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[14:42:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:42:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:42:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1414ms)
+[14:42:01] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:42:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:42:01] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:42:01] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:42:01] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:42:01] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[14:42:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:42:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:42:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:42:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:42:01] [Server thread/INFO]: Preparing level "world"
+[14:42:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:42:02] [Server thread/INFO]: Time elapsed: 1 ms
+[14:42:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:42:02] [Server thread/INFO]: Time elapsed: 675 ms
+[14:42:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[14:42:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[14:42:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[14:42:02] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[14:42:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:42:03] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[14:42:03] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[14:42:04] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:42:04] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:42:04] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[14:42:04] [Server thread/INFO]: [Essentials] Using locale en
+[14:42:04] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:42:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:42:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[14:42:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[14:42:04] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[14:42:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[14:42:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[14:42:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[14:42:05] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2500)
+[14:42:05] [Server thread/ERROR]: [Citizens] v2.0.29-SNAPSHOT (build 2500) is not compatible with Minecraft vraftbukkit - try upgrading or downgrading Citizens. Disabling.
+[14:42:05] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2500)
+[14:42:05] [Server thread/ERROR]: Error occurred while disabling Citizens v2.0.29-SNAPSHOT (build 2500)
 java.lang.NullPointerException: Cannot invoke "net.citizensnpcs.util.NMSBridge.shutdown()" because "net.citizensnpcs.util.NMS.BRIDGE" is null
 	at Citizens-2.0.29-b2500.jar/net.citizensnpcs.util.NMS.shutdown(NMS.java:601) ~[Citizens-2.0.29-b2500.jar:?]
 	at Citizens-2.0.29-b2500.jar/net.citizensnpcs.Citizens.onDisable(Citizens.java:299) ~[Citizens-2.0.29-b2500.jar:?]
@@ -289,259 +110,293 @@ java.lang.NullPointerException: Cannot invoke "net.citizensnpcs.util.NMSBridge.s
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1136) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:50] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[18:02:50] [Server thread/INFO]: [TAB] Loaded NMS hook in 84ms
-[18:02:51] [Server thread/INFO]: [TAB] Enabled in 386ms
-[18:02:51] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[18:02:51] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[18:02:51] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[18:02:51] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[18:02:51] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
-[18:02:51] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]                            
-[18:02:51] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
-[18:02:51] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[18:02:51] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
-[18:02:51] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
-[18:02:52] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 56ms)
-[18:02:52] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:02:53] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[18:02:53] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[18:02:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
-[18:02:53] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[18:02:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[18:02:53] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[18:02:53] [Server thread/INFO]: Running delayed init tasks
-[18:02:53] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[18:02:53] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[18:02:53] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[18:02:53] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:02:53] [Craft Scheduler Thread - 4 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[18:02:53] [Server thread/ERROR]: [ViaRewind-Legacy-Support] Could not fix lily pad bounding box.
-java.lang.IllegalStateException: Unknown bounding box type: com.mojang.serialization.codecs.RecordCodecBuilder$2
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.setBoundingBox(BoundingBoxFixer.java:100) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:23) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1147) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+[14:42:05] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[14:42:05] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[14:42:05] [Server thread/INFO]: [TAB] Loaded NMS hook in 88ms
+[14:42:05] [Server thread/INFO]: [TAB] Enabled in 359ms
+[14:42:05] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[14:42:05] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[14:42:05] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[14:42:05] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[14:42:05] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[14:42:05] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]                            
+[14:42:05] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
+[14:42:05] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[14:42:06] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[14:42:06] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[14:42:06] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 53ms)
+[14:42:06] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:42:07] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[14:42:07] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[14:42:07] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[14:42:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[14:42:07] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[14:42:07] [Server thread/INFO]: [SuperLobby] Enabling SuperLobby v4.7.6
+[14:42:07] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]    _____                       _           _     _           
+[14:42:07] [Server thread/WARN]: Nag author(s): '[PedroJM96, PedroJM96]' of 'SuperLobby v4.7.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]   / ____|                     | |         | |   | |          
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _ 
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | |
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| |
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]               | |                                       __/ |
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]               |_|                                      |___/ 
+[14:42:07] [Server thread/INFO]: [SuperLobby] [STDOUT]     
+[14:42:07] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:42:07] [Server thread/INFO]: [SuperLobby] Deluxe Version: V4.7.6
+[14:42:07] [Server thread/INFO]: [SuperLobby] Plugin Create by PedroJM96.
+[14:42:07] [Server thread/INFO]: [SuperLobby] Loading Libraries...
+[14:42:07] [Server thread/INFO]: [SuperLobby] Downloading librarie commons-lang-commons-lang-2.6
+[14:42:07] [Server thread/INFO]: [SuperLobby] Librarie 'commons-lang-commons-lang-2.6' successfully downloaded.
+[14:42:07] [Server thread/INFO]: [SuperLobby] commons-lang-commons-lang-2.6 library loaded successfully.
+[14:42:07] [Server thread/INFO]: [SuperLobby] Downloading librarie commons-codec-commons-codec-1.15
+[14:42:07] [Server thread/INFO]: [SuperLobby] Librarie 'commons-codec-commons-codec-1.15' successfully downloaded.
+[14:42:07] [Server thread/INFO]: [SuperLobby] commons-codec-commons-codec-1.15 library loaded successfully.
+[14:42:07] [Server thread/INFO]: [SuperLobby] Downloading librarie com.google.code.gson-gson-2.9.0
+[14:42:07] [Server thread/INFO]: [SuperLobby] Librarie 'com.google.code.gson-gson-2.9.0' successfully downloaded.
+[14:42:07] [Server thread/INFO]: [SuperLobby] com.google.code.gson-gson-2.9.0 library loaded successfully.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Loading configuration...
+[14:42:08] [Server thread/INFO]: [SuperLobby] The config.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file config.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] config.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The messages_EN.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file messages_EN.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] messages_EN.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The spawn.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file spawn.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] spawn.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The chat.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file chat.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] chat.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The infocommands.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file infocommands.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] infocommands.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /info
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /youtubers
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /socialpages
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /rewards
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /rules
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register info command /help
+[14:42:08] [Server thread/INFO]: [SuperLobby] The customevents.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file customevents.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] customevents.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The items.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file items.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] items.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Lobby-Item: The item menu has an invalid item Material: SIGN.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The menus.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file menus.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] menus.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register command menu /menu
+[14:42:08] [Server thread/INFO]: [SuperLobby] Menu-Item: The item survival has an invalid item Material: GRASS.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register command menu /game
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register command menu /profile
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register command menu /shop
+[14:42:08] [Server thread/INFO]: [SuperLobby] The board.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file board.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] board.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The announcer.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file announcer.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] announcer.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] The firstjoin.yml file does not exist yet.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Creating and loading file firstjoin.yml.
+[14:42:08] [Server thread/INFO]: [SuperLobby] firstjoin.yml  create.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register commands...
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register main command superlobby
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawn
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnpermission
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnradius
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command remspawn
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command reload
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command help
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register sub-command openmenu
+[14:42:08] [Server thread/INFO]: [SuperLobby] Register command  /spawn
+[14:42:08] [Server thread/INFO]: [SuperLobby] Hooked Vault Permissions
+[14:42:08] [Server thread/INFO]: [SuperLobby] Hooked Vault Chat
+[14:42:08] [Server thread/INFO]: [SuperLobby] Hooked Vault economy
+[14:42:08] [Server thread/INFO]: [SuperLobby] Achievements are now hidden.
+[14:42:08] [Server thread/INFO]: [SuperLobby] Hooked PlaceholderAPI
+[14:42:08] [Server thread/INFO]: [SuperLobby] Hooked ViaVersion
+[14:42:08] [Server thread/INFO]: [SuperLobby] A total of 4 menus were loaded.
+[14:42:08] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[14:42:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:42:08] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:42:08] [Server thread/INFO]: Running delayed init tasks
+[14:42:08] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:42:08] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:42:08] [Craft Scheduler Thread - 3 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/animations
+[14:42:08] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/holograms
+[14:42:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[14:42:08] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[14:42:08] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[14:42:09] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[14:42:09] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
+[14:42:09] [Server thread/INFO]: Done (16.064s)! For help, type "help"
+[14:42:09] [Server thread/INFO]: Timings Reset
+[14:42:34] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[14:42:34] [Server thread/INFO]: The owner ysyyayyyayya joined the server!
+[14:42:34] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:42220] logged in with entity id 11 at ([world]238.1435464845619, 64.0, 1315.4527198467026)
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[14:42:34] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[14:43:25] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[14:43:26] [Server thread/INFO]: The owner ysyyayyyayya leave the server!
+[14:43:34] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[14:43:35] [Server thread/INFO]: The owner ysyyayyyayya joined the server!
+[14:43:35] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:51302] logged in with entity id 17 at ([world]242.11215362219036, 63.0, 1347.311795111374)
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[14:43:35] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[14:43:59] [Server thread/INFO]: ysyyayyyayya issued server command: /pl
+[14:44:04] [Server thread/INFO]: ysyyayyyayya issued server command: /version SuperLobby
+[14:44:12] [Server thread/INFO]: ysyyayyyayya issued server command: /help superlobby
+[14:44:25] [Server thread/INFO]: ysyyayyyayya issued server command: /help
+[14:44:32] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby
+[14:44:35] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby help
+[14:45:29] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby help
+[14:45:56] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby openmenu ysyyayyyayya
+[14:46:16] [Server thread/INFO]: ysyyayyyayya issued server command: /spawn
+[14:46:22] [Server thread/INFO]: ysyyayyyayya issued server command: /essentials spawn
+[14:46:44] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby setspawn
+[14:46:47] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby setspawn spawn
+[14:46:47] [Server thread/INFO]: [SuperLobby] spawn.yml  save.
+[14:46:49] [Server thread/INFO]: ysyyayyyayya issued server command: /spawn
+[14:46:53] [Server thread/INFO]: ysyyayyyayya issued server command: /setspawn
+[14:47:01] [Server thread/INFO]: ysyyayyyayya issued server command: /setworldspawn
+[14:47:01] [Server thread/INFO]: [ysyyayyyayya: Set the world spawn point to 242, 63, 1348 [0.0]]
+[14:47:02] [Server thread/INFO]: ysyyayyyayya issued server command: /spawn
+[14:47:05] [Server thread/INFO]: ysyyayyyayya issued server command: /spawn
+[14:48:26] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby help
+[14:49:44] [Async Chat Thread - #1/INFO]: [Not Secure]  ysyyayyyayya > hi
+[14:58:12] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[14:58:12] [Server thread/INFO]: The owner ysyyayyyayya leave the server!
+[14:58:22] [User Authenticator #2/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[14:58:22] [Server thread/INFO]: The owner ysyyayyyayya joined the server!
+[14:58:22] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:55128] logged in with entity id 23 at ([world]242.48389455027134, 63.0, 1348.631258321349)
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[14:58:22] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[14:58:38] [Server thread/INFO]: ysyyayyyayya issued server command: /kill
+[14:58:42] [Server thread/INFO]: ysyyayyyayya issued server command: /kill ysyyayyyayya
+[14:58:42] [Server thread/INFO]: ysyyayyyayya died
+[15:00:03] [Server thread/INFO]: ysyyayyyayya issued server command: /player:menu
+[15:00:12] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby player:menu
+[15:00:22] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby ysyyayyyayya :menu
+[15:00:51] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby ysyyayyyayya menu
+[15:00:58] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby menu ysyyayyyayya menu
+[15:01:10] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby help
+[15:01:17] [Server thread/INFO]: ysyyayyyayya issued server command: /superlobby openmenu ysyyayyyayya menu
+[15:01:17] [Server thread/ERROR]: Command exception: /superlobby openmenu ysyyayyyayya menu
+org.bukkit.command.CommandException: Unhandled exception executing command 'superlobby' in plugin SuperLobby v4.7.6
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2253) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2215) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:53] [Server thread/ERROR]: [ViaRewind-Legacy-Support] Could not fix carpet bounding box.
-java.lang.IllegalStateException: Unknown bounding box type: com.mojang.serialization.codecs.RecordCodecBuilder$2
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.setBoundingBox(BoundingBoxFixer.java:100) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixCarpet(BoundingBoxFixer.java:39) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1147) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:53] [Server thread/ERROR]: [ViaRewind-Legacy-Support] Could not fix ladder bounding box.
-java.lang.IllegalStateException: Unknown bounding box type: java.lang.Float
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.setBoundingBox(BoundingBoxFixer.java:100) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:74) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at viarewind-legacy-support-1.4.2.jar/de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:42) ~[viarewind-legacy-support-1.4.2.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1147) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:02:53] [Server thread/INFO]: Done (13.404s)! For help, type "help"
-[18:02:53] [Server thread/INFO]: Timings Reset
-[18:02:53] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
-[18:02:53] [Craft Scheduler Thread - 4 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
-[18:02:53] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
-[18:03:18] [Netty Epoll Server IO #1/WARN]: [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0x716a53e7, L:/127.0.0.1:25565 - R:/127.0.0.1:39464]
-java.util.NoSuchElementException: encoder
-	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:248) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:237) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.handlers.BukkitChannelInitializer.afterChannelInitialize(BukkitChannelInitializer.java:83) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.platform.PaperViaInjector.lambda$setPaperChannelInitializeListener$0(PaperViaInjector.java:40) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/jdk.proxy3/jdk.proxy3.$Proxy62.afterInitChannel(Unknown Source) ~[ViaVersion-4.9.3.jar:?]
-	at io.papermc.paper.network.ChannelInitializeListenerHolder.callListeners(ChannelInitializeListenerHolder.java:71) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerConnectionListener$1.initChannel(ServerConnectionListener.java:167) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1114) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:416) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:03:23] [Netty Epoll Server IO #2/WARN]: [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0x63e971c3, L:/127.0.0.1:25565 - R:/127.0.0.1:39478]
-java.util.NoSuchElementException: encoder
-	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:248) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:237) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.handlers.BukkitChannelInitializer.afterChannelInitialize(BukkitChannelInitializer.java:83) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.platform.PaperViaInjector.lambda$setPaperChannelInitializeListener$0(PaperViaInjector.java:40) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/jdk.proxy3/jdk.proxy3.$Proxy62.afterInitChannel(Unknown Source) ~[ViaVersion-4.9.3.jar:?]
-	at io.papermc.paper.network.ChannelInitializeListenerHolder.callListeners(ChannelInitializeListenerHolder.java:71) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerConnectionListener$1.initChannel(ServerConnectionListener.java:167) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1114) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:416) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:03:28] [Netty Epoll Server IO #3/WARN]: [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0xbfa081cc, L:/127.0.0.1:25565 - R:/127.0.0.1:59076]
-java.util.NoSuchElementException: encoder
-	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:248) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:237) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.handlers.BukkitChannelInitializer.afterChannelInitialize(BukkitChannelInitializer.java:83) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.platform.PaperViaInjector.lambda$setPaperChannelInitializeListener$0(PaperViaInjector.java:40) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/jdk.proxy3/jdk.proxy3.$Proxy62.afterInitChannel(Unknown Source) ~[ViaVersion-4.9.3.jar:?]
-	at io.papermc.paper.network.ChannelInitializeListenerHolder.callListeners(ChannelInitializeListenerHolder.java:71) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerConnectionListener$1.initChannel(ServerConnectionListener.java:167) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1114) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:416) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:03:30] [Netty Epoll Server IO #0/WARN]: [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0xa503600c, L:/127.0.0.1:25565 - R:/127.0.0.1:59078]
-java.util.NoSuchElementException: encoder
-	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:248) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:237) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.handlers.BukkitChannelInitializer.afterChannelInitialize(BukkitChannelInitializer.java:83) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.platform.PaperViaInjector.lambda$setPaperChannelInitializeListener$0(PaperViaInjector.java:40) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/jdk.proxy3/jdk.proxy3.$Proxy62.afterInitChannel(Unknown Source) ~[ViaVersion-4.9.3.jar:?]
-	at io.papermc.paper.network.ChannelInitializeListenerHolder.callListeners(ChannelInitializeListenerHolder.java:71) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerConnectionListener$1.initChannel(ServerConnectionListener.java:167) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1114) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register(AbstractChannel.java:480) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:89) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:83) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.MultithreadEventLoopGroup.register(MultithreadEventLoopGroup.java:86) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor.channelRead(ServerBootstrap.java:215) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:03:33] [Netty Epoll Server IO #1/WARN]: [io.netty.channel.ChannelInitializer] Failed to initialize a channel. Closing: [id: 0x576421aa, L:/127.0.0.1:25565 - R:/127.0.0.1:59088]
-java.util.NoSuchElementException: encoder
-	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1073) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:248) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.addBefore(DefaultChannelPipeline.java:237) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.handlers.BukkitChannelInitializer.afterChannelInitialize(BukkitChannelInitializer.java:83) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/com.viaversion.viaversion.bukkit.platform.PaperViaInjector.lambda$setPaperChannelInitializeListener$0(PaperViaInjector.java:40) ~[ViaVersion-4.9.3.jar:?]
-	at ViaVersion-4.9.3.jar/jdk.proxy3/jdk.proxy3.$Proxy62.afterInitChannel(Unknown Source) ~[ViaVersion-4.9.3.jar:?]
-	at io.papermc.paper.network.ChannelInitializeListenerHolder.callListeners(ChannelInitializeListenerHolder.java:71) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerConnectionListener$1.initChannel(ServerConnectionListener.java:167) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1114) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:609) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:46) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1463) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1115) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:650) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:514) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:429) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:486) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:413) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[18:04:56] [Server thread/INFO]: Stopping the server
-[18:04:56] [Server thread/INFO]: Stopping server
-[18:04:56] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
-[18:04:56] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
-[18:04:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
-[18:04:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
-[18:04:56] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[18:04:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[18:04:56] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.2
-[18:04:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[18:04:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[18:04:56] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
-[18:04:56] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[18:04:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[18:04:56] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[18:04:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[18:04:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:04:56] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:04:56] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:04:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[18:04:56] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[18:04:56] [Server thread/INFO]: Saving players
-[18:04:56] [Server thread/INFO]: Saving worlds
-[18:04:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[18:04:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:04:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:04:56] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
-[18:04:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:04:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:04:56] [Server thread/INFO]: Flushing Chunk IO
-[18:04:56] [Server thread/INFO]: Closing Thread Pool
-[18:04:56] [Server thread/INFO]: Closing Server
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at com.pedrojm96.superlobby.CoreReflection.getCraftClass(CoreReflection.java:52) ~[?:?]
+	at com.pedrojm96.superlobby.CoreUtils.getPlayerTextureLocal(CoreUtils.java:46) ~[?:?]
+	at com.pedrojm96.superlobby.inventory.CoreItemMaker.PLAYER(CoreItemMaker.java:207) ~[?:?]
+	at com.pedrojm96.superlobby.inventory.CoreItemMaker.getItemStack(CoreItemMaker.java:73) ~[?:?]
+	at com.pedrojm96.superlobby.inventory.menu.CoreMenuItem.create(CoreMenuItem.java:273) ~[?:?]
+	at com.pedrojm96.superlobby.inventory.menu.CoreMenu.create(CoreMenu.java:93) ~[?:?]
+	at com.pedrojm96.superlobby.inventory.menu.CoreMenu.open(CoreMenu.java:262) ~[?:?]
+	at com.pedrojm96.superlobby.subcommand.OpenMenuCMD.onSubCommand(OpenMenuCMD.java:55) ~[?:?]
+	at com.pedrojm96.superlobby.command.CoreSubCommand.rum(CoreSubCommand.java:37) ~[?:?]
+	at com.pedrojm96.superlobby.command.CorePluginCommand.onCommand(CorePluginCommand.java:129) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
+	... 26 more
+[15:01:21] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[15:01:21] [Server thread/INFO]: The owner ysyyayyyayya leave the server!
+[15:01:26] [Server thread/INFO]: Stopping the server
+[15:01:26] [Server thread/INFO]: Stopping server
+[15:01:26] [Server thread/INFO]: [SuperLobby] Disabling SuperLobby v4.7.6
+[15:01:26] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
+[15:01:26] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[15:01:26] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[15:01:26] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[15:01:26] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[15:01:26] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:01:26] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[15:01:26] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[15:01:26] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[15:01:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[15:01:26] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[15:01:26] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[15:01:26] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[15:01:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[15:01:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[15:01:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:01:26] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:01:26] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:01:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[15:01:26] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[15:01:26] [Server thread/INFO]: Saving players
+[15:01:26] [Server thread/INFO]: Saving worlds
+[15:01:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:01:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:01:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:01:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:01:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[15:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:01:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:01:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:01:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:01:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:01:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[15:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:01:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:01:27] [Server thread/INFO]: Flushing Chunk IO
+[15:01:27] [Server thread/INFO]: Closing Thread Pool
+[15:01:27] [Server thread/INFO]: Closing Server

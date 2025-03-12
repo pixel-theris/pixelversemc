@@ -1,0 +1,82 @@
+
+settings-enable: true
+settings-update-title: 3
+settings-world:
+- world
+- lobby
+- hub
+settings-title:
+- '&7< &6&lSuperLobby &7>'
+- '&7< &6&lSuperLobby &7>'
+- '&7< &6&lSuperLobby &7>'
+- '&7> &6&lSuperLobby &7<'
+- '&7> &6&lperLob &7<'
+- '&7> &6&lrL &7<'
+- '&7> &7<'
+- '&7< &6&lrL &7>'
+- '&7< &6&lperLob &7>'
+- '&7< &6&lSuperLobby &7>'
+- '&7< &6&lSuperLobby &7>'
+- '&7< &e&lS&6&luperLobby &7>'
+- '&7< &6&lS&e&lu&6&lperLobby &7>'
+- '&7< &6&lSu&e&lp&6&lerLobby &7>'
+- '&7< &6&lSup&e&le&6&lrLobby &7>'
+- '&7< &6&lSupe&e&lr&6&lLobby &7>'
+- '&7< &6&lSuper&e&lL&6&lobby &7>'
+- '&7< &6&lSuperL&e&lo&6&lbby &7>'
+- '&7< &6&lSuperLo&e&lb&6&lby &7>'
+- '&7< &6&lSuperLob&e&lb&6&ly &7>'
+- '&7< &6&lSuperLobb&e&ly &7>'
+board:
+  line1:
+    content:
+    - ' '
+    update: 1000
+  line2:
+    content:
+    - '&a&lName: &7<player>'
+    - '&a&lNick: &7%essentials_nickname%'
+    update: 120
+  line3:
+    content:
+    - '                    '
+    update: 1000
+  line4:
+    content:
+    - '&a&lRank: &7User '
+    update: 1000
+  line5:
+    content:
+    - ' '
+    update: 1000
+  line6:
+    content:
+    - '&a&lCoins: &70 '
+    update: 1000
+  line7:
+    content:
+    - ' '
+    update: 1000
+  line8:
+    content:
+    - '&7Buy you rank in y&7_'
+    - '&7uy you rank in yo&8_'
+    - '&7y you rank in you&7_'
+    - '&7 you rank in yous&8_'
+    - '&7you rank in youse&7_'
+    - '&7ou rank in youser&8_'
+    - '&7u rank in youserv&7_'
+    - '&7 rank in youserve&8_'
+    - '&7rank in youserver&7_'
+    - '&7ank in youservern&8_'
+    - '&7nk in youserverna&7_'
+    - '&7k in youservernam&8_'
+    - '&7 in youservername&7_'
+    - '&7in youservername.&8_'
+    - '&7n youservername.c&7_'
+    - '&7 youservername.co&8_'
+    - '&7youservername.com&7_'
+    - '&7youservername.com&8_'
+    - '&7youservername.com&7_'
+    - '&7youservername.com&8_'
+    update: 10
