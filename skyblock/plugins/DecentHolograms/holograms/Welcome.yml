@@ -1,0 +1,22 @@
+location: spawn:4.608:100.500:0.589
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 90.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lSkyblock &8| &f&lWelcome'
+    height: 0.8
+  - content: '&fTo begin your journey playing on our network'
+    height: 0.3
+  - content: '&fdo &b/Island&f and create your own &eIsland &fworld!'
+    height: 0.3
+  - content: '&fif you need to change some settings do &b/is panel &for'
+    height: 0.3
+  - content: '&fclick your &bSkyblock Menu!'
+    height: 0.7
+  actions: {}
+always-face-player: true

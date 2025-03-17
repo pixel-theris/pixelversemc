@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.161.99.54
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1706435630219
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1706435719067
+  login: 1706434560396
+money: '0'
+last-account-name: Sukoyo
+lastlocation:
+  world: ee51650a-aa17-4042-a27b-c8ef35254f7a
+  world-name: SuperiorWorld
+  x: -597.5
+  y: 100.0
+  z: -599.5
+  yaw: -89.5150146484375
+  pitch: 14.390337944030762
+logoutlocation:
+  world: bbb2403f-161c-457c-8f1f-6313e6b80774
+  world-name: spawn
+  x: 2.2413056086036045
+  y: 98.0
+  z: 3.9296024580253173
+  yaw: -4.533599853515625
+  pitch: 32.698707580566406
+homes:
+  home:
+    world: bbb2403f-161c-457c-8f1f-6313e6b80774
+    world-name: spawn
+    x: 18.831256058915862
+    y: 96.0
+    z: -1.8936612617842272
+    yaw: -88.66781616210938
+    pitch: 0.7499378323554993

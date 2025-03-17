@@ -1,0 +1,178 @@
+#
+# 自1.16版本后，您可以使用Hex格式的颜色代码。
+# 替换 &f 的我的世界颜色格式为 <#ffffff> 即可。
+# 对于渐变：<#ffffff>文本将在这里应用渐变</#000000>。
+#
+# Everything about the models and colouring can be found at https://ultimaterewards.athelion.eu/colors-and-models
+#
+lang:
+  prefix: "&e[&6&lDailyRewards&e]"
+  unknown-command: "%prefix% &4Unknown command, use /rw help to list all available commands"
+  auto-claim-notification:
+    - " "
+    - "&a ✔ &f%rewards% 礼包已自动领取！"
+    - " "
+  unclaimed-rewards-notification-hover-text: "&2点击领取礼包！"
+  reward-reset: "&e%prefix% &f您已重置玩家 &e%player% 的 &e%type%&f 礼包。"
+  unavailable-player: "%prefix% &c该玩家不存在！"
+  unavailable-setting: "%prefix% &c该设置项不存在！"
+  reward-disabled: "%prefix% &c无法获得该礼包！"
+  insufficient-permission: "%prefix% &c您需要 %permission% 才能执行此操作！"
+  rewards-are-not-set: "%prefix% &c尚未设置任何礼包！"
+  reload-msg: "&e%prefix% &f插件已重载"
+  incomplete-reward-reset: "%prefix% &c请指定您要重置的内容（daily/weekly/monthly/all）"
+  full-inventory-message: "%prefix% &c领取失败：您的背包已满！"
+  claiming-in-disabled-world: "%prefix% &c您无法在该世界中领取礼包（%world%）。"
+  not-enough-required-time-to-claim: "%prefix% &c您必须在线至少 %requiredMinutes% 分钟才能领取该礼包（剩余 %minutes% 分钟）"
+  command-usage: "%prefix% &c用法：%usage%"
+  available: "&a&l可用"
+  loading: "&b加载中..."
+  back: "&c返回"
+  click-to-perform: "&7点击执行 %command% 命令"
+  claim-command-description: "兑换指定奖励"
+  reset-command-description: "重置指定奖励"
+  settings-command-description: "打开设置菜单"
+  toggle-command-description: "切换某些设置"
+  reload-command-description: "重新加载插件配置"
+  import-command-description: "将所有本地数据导入数据库"
+  help-command-description: "显示所有可用命令"
+  #
+  # 设置
+  #
+  settings-title: "设置"
+  settings-display-name: "&e设置"
+  setting-enabled: "%prefix% &a已启用 %setting%！"
+  setting-disabled: "%prefix% &c已禁用 %setting%！"
+  auto-claim-failed: "%prefix% &c部分礼包无法自动领取，悬停以获取更多信息。"
+  auto-claim-failed-hover-text-list-format: "%reward% - %reason%"
+  auto-claim-failed-hover-text: "&c无法自动领取以下礼包：%format%"
+  join-auto-claim-notification:
+    - " "
+    - "&a ✔ 已自动领取以下礼包：&f%listOfRewards%"
+    - " "
+  join-notification-setting-name: "进服提示"
+  join-auto-claim-setting-name: "进服自动领取"
+  no-permission-setting-display-name: "&c&l%settingType%"
+  no-permission-setting-lore:
+    - "&c您没有权限修改此设置项！"
+    - "&c缺少权限：%permission%"
+  join-notification-display-name: "&a进服提示"
+  join-notification-enabled-lore:
+    - "&7如果您有未领取的礼包"
+    - "&7将在进服时进行提示"
+    - " "
+    - "&c► 点击以禁用"
+  join-notification-disabled-lore:
+    - "&7如果您有未领取的礼包"
+    - "&7将在进服时进行提示"
+    - " "
+    - "&a► 点击以启用"
+  auto-claim-display-name: "&a进服自动领取"
+  auto-claim-enabled-lore:
+    - "&7如果您有未领取的礼包"
+    - "&7将在进服时全部领取"
+    - " "
+    - "&c► 点击以禁用"
+  auto-claim-disabled-lore:
+    - "&7如果您有未领取的礼包"
+    - "&7将在进服时全部领取"
+    - " "
+    - "&a► 点击以启用"
+
+  located-in-restricted-world: "在线礼包在当前世界中已关闭"
+  insufficient-play-time: "游戏时间不足，无法领取"
+  insufficient-permissions: "权限不足"
+  not-enough-free-inventory-slots: "背包空间不足"
+  unavailable-reward: "礼包不可用"
+  #
+  # 礼包菜单
+  #
+  menu-title: "礼包"
+  join-hover-message: "&7点击领取您的礼包"
+  join-notification:
+    - ' '
+    - '&2 Hi %player%， &a%rewards% 礼包正在等你！ &f(点击这里)'
+    - ' '
+  cooldown-message: "%prefix% &c对于 &l%type% &c礼包，您需要再等待 &n%time%"
+  daily-name: "每日礼包"
+  daily-title: "&a&l礼包"
+  daily-subtitle: "&7已领取 &a每日礼包&7！"
+  daily-collected: "&a%player% &7已领取 &a&l每日礼包&7！"
+  daily-premium-collected: "&a%player% &7已领取 &a&l高级每日礼包&7！"
+  daily-displayname-available: "&a&l每日礼包"
+  daily-premium-displayname-available: "&e&l每日礼包"
+  daily-available-lore:
+    - "&7礼包包含："
+    - "&a 8x &f铁锭"
+    - " "
+    - "&c❌ 高级礼包未解锁"
+  daily-available-premium-lore:
+    - "&7礼包包含："
+    - "&a 16x &f铁锭"
+    - "&a  3x &f金锭"
+    - " "
+    - "&e✔ 高级礼包已解锁"
+  daily-displayname-unavailable: "&c&l每日礼包"
+  daily-premium-displayname-unavailable: "&4&l每日礼包"
+  daily-unavailable-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"
+  daily-unavailable-premium-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"
+  weekly-name: "每周礼包"
+  weekly-title: "&e&l礼包"
+  weekly-subtitle: "&7已领取 &e每周礼包&7！"
+  weekly-collected: "&e%player% &7已领取 &e&l每周礼包&7！"
+  weekly-premium-collected: "&e%player% &7已领取 &e&l高级每周礼包&7！"
+  weekly-displayname-available: "&a&l每周礼包"
+  weekly-premium-displayname-available: "&e&l每周礼包"
+  weekly-available-lore:
+    - "&7礼包包含："
+    - "&a 1x &f钻石"
+    - " "
+    - "&c❌ 高级礼包未解锁"
+  weekly-available-premium-lore:
+    - "&7礼包包含："
+    - "&a 5x &f钻石"
+    - "&a 3x &f绿宝石"
+    - " "
+    - "&e✔ 高级礼包已解锁"
+  weekly-displayname-unavailable: "&c&l每周礼包"
+  weekly-premium-displayname-unavailable: "&4&l每周礼包"
+  weekly-unavailable-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"
+  weekly-unavailable-premium-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"
+  monthly-name: "每月礼包"
+  monthly-title: "&9&l礼包"
+  monthly-subtitle: "&7您已领取 &9每月礼包&7！"
+  monthly-collected: "&9%player% &7已领取 &9&l每月礼包&7！"
+  monthly-premium-collected: "&9%player% &7已领取 &9&l高级每月礼包&7！"
+  monthly-displayname-available: "&a&l每月礼包"
+  monthly-premium-displayname-available: "&e&l每月礼包"
+  monthly-available-lore:
+    - "&7礼包包含："
+    - "&a 8x &f钻石"
+    - "&a 32x &f铁锭"
+    - "&a 16x &f金锭"
+    - " "
+    - "&c❌ 高级礼包未解锁"
+  monthly-available-premium-lore:
+    - "&7礼包包含："
+    - "&a 1x &f下界之星"
+    - "&a 16x &f钻石"
+    - "&a 64x &f铁锭"
+    - "&a 32x &f金锭"
+    - " "
+    - "&e✔ 高级礼包已解锁"
+  monthly-displayname-unavailable: "&c&l每月礼包"
+  monthly-premium-displayname-unavailable: "&4&l每月礼包"
+  monthly-unavailable-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"
+  monthly-unavailable-premium-lore:
+    - " "
+    - "&c可在 %cooldown%s 后领取"

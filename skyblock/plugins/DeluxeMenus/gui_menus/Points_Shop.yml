@@ -1,0 +1,238 @@
+menu_title: '&8Points Shop'
+open_command:
+  - Points
+  - points
+  - keys
+  - pointss
+  - pointsshop
+size: 27
+register_command: true
+items:
+
+  '1':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-8
+    - 18-26
+  'close':
+    material: BARRIER
+    display_name: '&c&l❌ &cClose'
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+    slot: 22
+
+  'Vote_Key':
+    material: YELLOW_CANDLE
+    priority: 47
+    slot: 9    
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&e&lVOTE CRATE KEY'
+    lore:
+      - ''
+      - '&fGet a key to open a'
+      - '&eVote crate &ffor rewards.'
+      - ''
+      - '&fPunch a &eVote crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&ePrice&6: &f40 &epoints'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 40'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 40'
+      - '[console] crate key give %player_name% vote 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]'
+  'Vote_Key_Bundle':
+    material: YELLOW_CANDLE
+    amount: 12
+    slot: 11
+    priority: 46
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&e&l12 VOTE CRATE KEY'
+    lore:
+      - ''
+      - '&fGet 12 key to open a'
+      - '&eVote crate &ffor rewards.'
+      - ''
+      - '&fPunch a &eVote crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&ePrice&6: &f400 &epoints'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 400'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 400'
+      - '[console] crate key give %player_name% vote 12'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]'
+  'fire_Key':
+    material: WHITE_CANDLE
+    slot: 12
+    priority: 45
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&f&lWILD CRATE KEY'
+    lore:
+      - ''
+      - '&fGet a key to open a'
+      - '&fWild Crate &ffor rewards.'
+      - ''
+      - '&fPunch a &fWild Crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&fPrice&f: &f100 &fpoints'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 100'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 100'
+      - '[console] crate key give %player_name% wild 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]' 
+  'fire_Key_Bundle':
+    material: WHITE_CANDLE
+    amount: 12
+    slot: 14
+    priority: 44
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&f&l12 WILD CRATE KEY'
+    lore:
+      - ''
+      - '&fGet 12 key to open a'
+      - '&fWild Crate &ffor rewards.'
+      - ''
+      - '&fPunch a &fWild Crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&fPrice&f: &f1,000 &fpoints'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 1000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 1000'
+      - '[console] crate key give %player_name% wild 12'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]' 
+  'insane_Key':
+    material: ORANGE_CANDLE
+    slot: 15
+    priority: 43
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6&lINSANE CRATE KEY'
+    lore:
+      - ''
+      - '&fGet a key to open a'
+      - '&f&6Insane crate &ffor rewards.'
+      - ''
+      - '&fPunch a &6insane crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&6Price&6: &f200 &6points'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 200'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 200'
+      - '[console] crate key give %player_name% insane 1'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]' 
+  'insane_Key_Bundle':
+    material: ORANGE_CANDLE
+    amount: 12
+    slot: 17
+    priority: 42
+    update: true
+    enchantments:
+      - DURABILITY;1
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6&l12 INSANE CRATE KEY'
+    lore:
+      - ''
+      - '&fGet 12 key to open a'
+      - '&f&6Insane crate &ffor rewards.'
+      - ''
+      - '&fPunch a &6insane crate'
+      - '&fat /spawn to view the loot'
+      - ''
+      - '&6Price&6: &f2,000 &6points'
+      - ''
+      - '&eClick to get this item.'
+    click_requirement:
+      requirements:
+        TOKENS:
+          type: 'javascript'
+          expression: '%playerpoints_points% >= 2000'
+      deny_commands:
+      - '[sound] ENTITY_VILLAGER_NO'
+      - '[message] &b&lSKYBLOCK &8&l┃ &7You don''t have enough tokens to buy this!'
+    click_commands:
+      - '[console] playerpoints:p take %player_name% 2000'
+      - '[console] crate key give %player_name% insane 12'
+      - '[sound] ENTITY_PLAYER_LEVELUP'      
+      - '[close]'      

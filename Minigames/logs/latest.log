@@ -1,360 +1,523 @@
-[13:45:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:45:37] [ServerMain/INFO]: Loaded 7 recipes
-[13:45:37] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:45:37] [Server thread/INFO]: Loading properties
-[13:45:37] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[13:45:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:45:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:45:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:50:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:50:04] [ServerMain/INFO]: Loaded 7 recipes
+[13:50:05] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:50:05] [Server thread/INFO]: Loading properties
+[13:50:05] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[13:50:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:50:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:50:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:45:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[13:45:39] [Server thread/INFO]: Default game type: CREATIVE
-[13:45:39] [Server thread/INFO]: Generating keypair
-[13:45:39] [Server thread/INFO]: Starting Minecraft server on *:25566
-[13:45:39] [Server thread/INFO]: Using epoll channel type
-[13:45:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:45:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[13:45:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
-[13:45:39] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[13:45:39] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:45:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[13:45:40] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:45:40] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:45:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
-[13:45:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
-[13:45:40] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[13:45:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4dd00c10]
-[13:45:41] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
-[13:45:41] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
-[13:45:41] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
-[13:45:41] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
-[13:45:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:45:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[13:45:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:45:41] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:45:41] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[13:45:42] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
-[13:45:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:45:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:45:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:45:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:45:42] [Server thread/INFO]: Preparing level "world"
-[13:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:45:43] [Server thread/INFO]: Time elapsed: 193 ms
-[13:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:45:43] [Server thread/INFO]: Time elapsed: 44 ms
-[13:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:45:43] [Server thread/INFO]: Time elapsed: 66 ms
-[13:45:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[13:45:44] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
-[13:45:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[13:45:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
-[13:45:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[13:45:44] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[13:45:44] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: sig
-[13:45:44] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[13:45:44] [Server thread/INFO]: Preparing start region for dimension minecraft:skybattle
-[13:45:44] [Server thread/INFO]: Time elapsed: 212 ms
-[13:45:44] [Server thread/INFO]: Preparing start region for dimension minecraft:sigm
-[13:45:44] [Server thread/INFO]: Time elapsed: 49 ms
-[13:45:44] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[13:45:44] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[13:45:44] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[13:45:44] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
-[13:45:44] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
-[13:45:44] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
-[13:45:44] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
-[13:45:44] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[13:45:44] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[13:45:44] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
-[13:45:45] [Server thread/INFO]: Running delayed init tasks
-[13:45:45] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[13:45:45] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[13:45:45] [Server thread/INFO]: Done (7.341s)! For help, type "help"
-[13:45:45] [Server thread/INFO]: Timings Reset
-[13:45:45] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
-[13:46:28] [User Authenticator #0/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
-[13:46:28] [Server thread/INFO]: iglentoften joined the game
-[13:46:28] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Custom worlds heights are NOT SUPPORTED for 1.16 players and older and may lead to errors!
-[13:46:28] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] You have min/max set to -64/256
-[13:46:28] [Server thread/INFO]: iglentoften[/127.0.0.1:45852] logged in with entity id 400 at ([sigm]107.37166554496517, 13.802397986440901, -128.97453951011678)
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[13:46:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[13:46:33] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
-[13:46:33] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
-[13:46:37] [Server thread/INFO]: iglentoften fell out of the world
-[13:47:15] [Server thread/INFO]: iglentoften issued server command: //br sphere stone 3
-[13:47:27] [Server thread/INFO]: iglentoften issued server command: //br sphere stone 3
-[13:47:47] [Server thread/INFO]: iglentoften issued server command: //br sphere stone 3
-[13:47:56] [Server thread/INFO]: iglentoften issued server command: //undo
-[13:48:09] [Server thread/INFO]: iglentoften issued server command: //undo
-[13:51:10] [Server thread/INFO]: iglentoften issued server command: //undo
-[13:51:41] [Server thread/INFO]: iglentoften issued server command: //undo
-[13:53:57] [User Authenticator #1/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
-[13:53:57] [Server thread/INFO]: Pingdaking8 joined the game
-[13:53:57] [Server thread/INFO]: Pingdaking8[/127.0.0.1:45392] logged in with entity id 1048 at ([sigm]101.67795448070441, 13.053143205854838, -96.5722480845738)
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[13:53:58] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[13:54:04] [Server thread/INFO]: Pingdaking8 fell out of the world
-[13:54:04] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[13:54:04] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
-[13:54:40] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere block number 1
-[13:54:49] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere block stone 1
-[13:55:12] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere stone 1
-[13:55:28] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere stone 1
-[13:56:26] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere air 1
-[13:56:39] [Server thread/WARN]: Pingdaking8 moved too quickly! 2.821891329638305,11.046753552302714,31.414746609861467
-[13:59:07] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:09] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:11] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:13] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:18] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:20] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:24] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:26] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:27] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:28] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:30] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:32] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:33] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:34] [Server thread/INFO]: Pingdaking8 issued server command: /
-[13:59:36] [Server thread/INFO]: Pingdaking8 issued server command: /
-[13:59:38] [Server thread/INFO]: Pingdaking8 issued server command: /
-[13:59:43] [Server thread/INFO]: Pingdaking8 issued server command: /undo/\
-[13:59:47] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:49] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:50] [Server thread/INFO]: Pingdaking8 issued server command: /undo
-[13:59:52] [Server thread/INFO]: Pingdaking8 issued server command: /
-[14:00:15] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:00:19] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:00:21] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:00:49] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:01:24] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:01:31] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:03:46] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere stone 1
-[14:04:23] [Server thread/INFO]: iglentoften lost connection: Disconnected
-[14:04:23] [Server thread/INFO]: iglentoften left the game
-[14:04:23] [Server thread/INFO]: Pingdaking8 lost connection: Disconnected
-[14:04:23] [Server thread/INFO]: Pingdaking8 left the game
-[14:05:12] [User Authenticator #2/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
-[14:05:12] [Server thread/INFO]: iglentoften joined the game
-[14:05:12] [Server thread/INFO]: iglentoften[/127.0.0.1:46792] logged in with entity id 1639 at ([sigm]116.88323784169921, 23.404686961952613, -120.4253411950165)
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:05:12] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:05:17] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
-[14:05:17] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
-[14:06:41] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
-[14:06:41] [Server thread/INFO]: Pingdaking8 joined the game
-[14:06:41] [Server thread/INFO]: Pingdaking8[/127.0.0.1:57152] logged in with entity id 1780 at ([sigm]93.30415367833007, 20.052767765913504, -109.92877117849355)
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:06:41] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:06:48] [Server thread/INFO]: Pingdaking8 fell out of the world
-[14:06:56] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:06:56] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
-[14:07:23] [Server thread/INFO]: No entity was found
-[14:07:45] [Server thread/INFO]: iglentoften lost connection: Kicked by an operator
-[14:07:45] [Server thread/INFO]: iglentoften left the game
-[14:07:45] [Server thread/INFO]: Kicked iglentoften: Kicked by an operator
-[14:07:50] [User Authenticator #4/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
-[14:07:51] [Server thread/INFO]: iglentoften joined the game
-[14:07:51] [Server thread/INFO]: iglentoften[/127.0.0.1:55696] logged in with entity id 1870 at ([sigm]112.79035866321477, 10.0, -113.2426047343058)
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:07:51] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:07:56] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
-[14:07:56] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
-[14:17:56] [Server thread/INFO]: Pingdaking8 issued server command: /
-[14:18:09] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere stone 1
-[14:21:00] [Server thread/INFO]: iglentoften lost connection: Disconnected
-[14:21:00] [Server thread/INFO]: iglentoften left the game
-[14:21:30] [Server thread/INFO]: Pingdaking8 was killed
-[14:21:30] [Server thread/INFO]: Killed Pingdaking8
-[14:21:42] [Server thread/INFO]: Pingdaking8 lost connection: Disconnected
-[14:21:42] [Server thread/INFO]: Pingdaking8 left the game
-[14:22:06] [User Authenticator #5/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
-[14:22:06] [Server thread/INFO]: Pingdaking8 joined the game
-[14:22:06] [Server thread/INFO]: Pingdaking8[/127.0.0.1:38984] logged in with entity id 2779 at ([sigm]91.73713740256818, 22.120636455727965, -123.4509812345562)
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:22:06] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:22:11] [Server thread/INFO]: Pingdaking8 issued server command: /
-[14:22:14] [Server thread/INFO]: Pingdaking8 lost connection: Kicked by an operator
-[14:22:14] [Server thread/INFO]: Pingdaking8 left the game
-[14:22:14] [Server thread/INFO]: Kicked Pingdaking8: Kicked by an operator
-[14:22:27] [User Authenticator #5/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
-[14:22:27] [Server thread/INFO]: Pingdaking8 joined the game
-[14:22:27] [Server thread/INFO]: Pingdaking8[/127.0.0.1:33206] logged in with entity id 2834 at ([sigm]116.29736625517353, 12.0, -79.6946764772972)
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:22:27] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:22:29] [User Authenticator #5/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
-[14:22:29] [Server thread/INFO]: iglentoften joined the game
-[14:22:29] [Server thread/INFO]: iglentoften[/127.0.0.1:33218] logged in with entity id 2844 at ([sigm]113.01549498472987, 10.0, -116.26510033304756)
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
-[14:22:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
-[14:22:32] [Server thread/INFO]: Pingdaking8 issued server command: /gamemdoe creative
-[14:22:38] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
-[14:22:38] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
-[14:22:38] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:22:38] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
-[14:22:43] [Server thread/INFO]: Pingdaking8 was killed
-[14:22:43] [Server thread/INFO]: Killed Pingdaking8
-[14:22:52] [Server thread/INFO]: No player was found
-[14:22:55] [Server thread/INFO]: Set Pingdaking8's game mode to Spectator Mode
-[14:23:06] [Server thread/INFO]: Made Pingdaking8 no longer a server operator
-[14:23:24] [Server thread/INFO]: No player was found
-[14:23:28] [Server thread/INFO]: Set Pingdaking8's game mode to Survival Mode
-[14:23:33] [Server thread/INFO]: Pingdaking8 has made the advancement [Stone Age]
-[14:23:38] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:23:43] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:23:48] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:23:50] [Server thread/INFO]: Made Pingdaking8 a server operator
-[14:24:01] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
-[14:24:01] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
-[14:24:03] [Server thread/INFO]: Removed 1 item(s) from player Pingdaking8
-[14:24:08] [Server thread/INFO]: No items were found on player Pingdaking8
-[14:24:08] [Server thread/INFO]: No items were found on player Pingdaking8
-[14:24:15] [Server thread/INFO]: No items were found on player Pingdaking8
-[14:24:25] [Server thread/INFO]: Unknown item 'minecraft:ston'
-...ingdaking ston 100000<--[HERE]
-[14:24:32] [Server thread/INFO]: No player was found
-[14:24:39] [Server thread/INFO]: Can't give more than 6400 of [Stone]
-[14:24:51] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:05] [Server thread/INFO]: No player was found
-[14:25:08] [Server thread/INFO]: Removed 2304 item(s) from player Pingdaking8
-[14:25:12] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:25:15] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:16] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:17] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:18] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:19] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:19] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:19] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:25:20] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:21] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:22] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:23] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:24] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:24] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:25] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:26] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:25:26] [Server thread/INFO]: Gave 6400 [Stone] to Pingdaking8
-[14:25:33] [Server thread/INFO]: Removed 2304 item(s) from player Pingdaking8
-[14:25:40] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:25:41] [Server thread/INFO]: iglentoften issued server command: //undo
-[14:25:42] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[14:25:46] [Server thread/INFO]: Stopping the server
-[14:25:46] [Server thread/INFO]: Stopping server
-[14:25:46] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
-[14:25:46] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
-[14:25:46] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.2
-[14:25:46] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
-[14:25:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[14:25:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:25:46] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
-[14:25:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[14:25:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[14:25:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[14:25:46] [Server thread/INFO]: Saving players
-[14:25:46] [Server thread/INFO]: iglentoften lost connection: Server closed
-[14:25:46] [Server thread/INFO]: iglentoften left the game
-[14:25:46] [Server thread/INFO]: Pingdaking8 lost connection: Server closed
-[14:25:46] [Server thread/INFO]: Pingdaking8 left the game
-[14:25:47] [Server thread/INFO]: Saving worlds
-[14:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 67 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skybattle]'/minecraft:skybattle
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Skybattle'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Skybattle'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Skybattle'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 77 entity chunks, 0 poi chunks in world 'Skybattle' in 0.01s
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (Skybattle): All chunks are saved
-[14:25:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[sigm]'/minecraft:sigm
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sigm'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sigm'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'sigm'
-[14:25:47] [Server thread/INFO]: [ChunkHolderManager] Saved 133 block chunks, 128 entity chunks, 0 poi chunks in world 'sigm' in 0.07s
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (sigm): All chunks are saved
-[14:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:25:47] [Server thread/INFO]: Flushing Chunk IO
-[14:25:47] [Server thread/INFO]: Closing Thread Pool
-[14:25:47] [Server thread/INFO]: Closing Server
+[13:50:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:50:06] [Server thread/INFO]: Default game type: CREATIVE
+[13:50:06] [Server thread/INFO]: Generating keypair
+[13:50:07] [Server thread/INFO]: Starting Minecraft server on *:25566
+[13:50:07] [Server thread/INFO]: Using epoll channel type
+[13:50:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:50:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:50:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[13:50:07] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[13:50:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:50:08] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:50:08] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:50:08] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:50:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[13:50:09] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[13:50:09] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[13:50:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1e3266b0]
+[13:50:09] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v3.0.6
+[13:50:09] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
+[13:50:09] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v4.2.6
+[13:50:09] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v4.2.3
+[13:50:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:50:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[13:50:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:50:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:50:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[13:50:11] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
+[13:50:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:50:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:50:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:50:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:50:11] [Server thread/INFO]: Preparing level "world"
+[13:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:50:12] [Server thread/INFO]: Time elapsed: 264 ms
+[13:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:50:12] [Server thread/INFO]: Time elapsed: 67 ms
+[13:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:50:12] [Server thread/INFO]: Time elapsed: 69 ms
+[13:50:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[13:50:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20/1.20.1 (763)
+[13:50:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[13:50:13] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[13:50:13] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[13:50:13] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[13:50:13] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: sig
+[13:50:13] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[13:50:13] [Server thread/INFO]: Preparing start region for dimension minecraft:skybattle
+[13:50:14] [Server thread/INFO]: Time elapsed: 365 ms
+[13:50:14] [Server thread/INFO]: Preparing start region for dimension minecraft:sigm
+[13:50:14] [Server thread/INFO]: Time elapsed: 55 ms
+[13:50:14] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[13:50:14] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[13:50:14] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[13:50:14] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
+[13:50:14] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.6
+[13:50:14] [Server thread/INFO]: [Multiverse-Inventories 4.2.6] enabled.
+[13:50:14] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.3
+[13:50:14] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[13:50:14] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[13:50:14] [Server thread/INFO]: [Multiverse-Portals 4.2.3]  Enabled - By Rigby and fernferret
+[13:50:15] [Server thread/INFO]: Running delayed init tasks
+[13:50:15] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[13:50:15] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[13:50:15] [Server thread/INFO]: Done (9.834s)! For help, type "help"
+[13:50:15] [Server thread/INFO]: Timings Reset
+[13:50:15] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 4.9.3
+[13:50:33] [User Authenticator #0/INFO]: UUID of player iglentoften is 1f39864e-1ba8-32ee-b3a0-299113502435
+[13:50:33] [Server thread/INFO]: iglentoften joined the game
+[13:50:33] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Custom worlds heights are NOT SUPPORTED for 1.16 players and older and may lead to errors!
+[13:50:33] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] You have min/max set to -64/256
+[13:50:33] [Server thread/INFO]: iglentoften[/127.0.0.1:58804] logged in with entity id 383 at ([sigm]91.7924582373883, 23.31901852826616, -131.71337676449937)
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[13:50:34] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[13:50:41] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[13:50:41] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[13:50:50] [User Authenticator #0/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[13:50:50] [Server thread/INFO]: Pingdaking8 joined the game
+[13:50:50] [Server thread/INFO]: Pingdaking8[/127.0.0.1:42418] logged in with entity id 399 at ([sigm]124.15286796650246, 17.419999986886978, -64.62807727638591)
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[13:50:51] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[13:50:58] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[13:50:58] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[13:51:12] [Server thread/INFO]: Pingdaking8 lost connection: Disconnected
+[13:51:12] [Server thread/INFO]: Pingdaking8 left the game
+[13:51:23] [User Authenticator #0/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[13:51:23] [Server thread/INFO]: Pingdaking8 joined the game
+[13:51:23] [Server thread/INFO]: Pingdaking8[/127.0.0.1:55314] logged in with entity id 453 at ([sigm]95.90859074047096, 17.989090735310867, -104.73959770208367)
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[13:51:23] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[13:51:27] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[13:51:27] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[13:51:29] [Server thread/INFO]: Pingdaking8 fell out of the world
+[13:51:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:51:34] [Server thread/INFO]: Pingdaking8 issued server command: /
+[13:51:35] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...mond_sword[custom_name='["",{"text":"Sig Sword","italic":false,"bold":true,"color":"light_purple"}]',lore=['["",{"text":"The sword of the legendary sig","italic":false,"color":"gold"}]'],enchantment_glint_override=true,enchantments={levels:{sharpness:200},show_in_tooltip:false},unbreakable={show_in_tooltip:false}] 1<--[HERE]
+[13:51:39] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...mond_sword[custom_name='["",{"text":"Sig Sword","italic":false,"bold":true,"color":"light_purple"}]',lore=['["",{"text":"The sword of the legendary sig","italic":false,"color":"gold"}]'],enchantment_glint_override=true,enchantments={levels:{sharpness:200},show_in_tooltip:false},unbreakable={show_in_tooltip:false}]<--[HERE]
+[13:51:46] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere stone 1
+[13:51:53] [Server thread/INFO]: No player was found
+[13:51:54] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere air 1
+[13:52:15] [Server thread/INFO]: No player was found
+[13:52:29] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[13:52:29] [Server thread/INFO]: ysyyayyyayya joined the game
+[13:52:29] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:43418] logged in with entity id 513 at ([sigm]118.93478677499748, -17.819951333142516, -41.45524458065116)
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[13:52:29] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[13:52:36] [Server thread/INFO]: ysyyayyyayya fell out of the world
+[13:52:44] [Server thread/INFO]: ysyyayyyayya fell out of the world
+[13:52:48] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode creative
+[13:52:48] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Creative Mode]
+[13:52:58] [Server thread/INFO]: Gave 1 [Sig Sword] to ysyyayyyayya
+[13:53:35] [Server thread/INFO]: iglentoften issued server command: //br sphere stone 3
+[13:53:51] [Server thread/INFO]: iglentoften issued server command: //undo
+[13:54:09] [Server thread/INFO]: iglentoften issued server command: //undo
+[13:55:05] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8 ysyyayyyayya
+[13:55:05] [Server thread/INFO]: [ysyyayyyayya: Teleported Pingdaking8 to ysyyayyyayya]
+[13:55:13] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[13:55:13] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[13:55:19] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode pingdaking8 survival
+[13:55:25] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[13:55:25] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[13:55:29] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survival
+[13:55:30] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Survival Mode]
+[13:55:32] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[13:55:43] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[13:55:43] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[13:55:43] [Server thread/INFO]: ysyyayyyayya issued server command: /kill iglentoften
+[13:55:43] [Server thread/INFO]: iglentoften was killed
+[13:55:43] [Server thread/INFO]: [ysyyayyyayya: Killed iglentoften]
+[13:55:44] [Server thread/INFO]: ysyyayyyayya has made the advancement [Hot Stuff]
+[13:55:45] [Server thread/INFO]: ysyyayyyayya tried to swim in lava
+[13:55:53] [Server thread/INFO]: ysyyayyyayya fell out of the world
+[13:55:58] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode creative
+[13:55:58] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Creative Mode]
+[13:56:06] [Server thread/INFO]: Gave 1 [Sig Sword] to ysyyayyyayya
+[13:56:38] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[13:56:45] [Server thread/INFO]: Pingdaking8 issued server command: /tpa igle
+[13:56:50] [Server thread/INFO]: iglentoften issued server command: /gamemode survial
+[13:56:53] [Server thread/INFO]: Pingdaking8 issued server command: /
+[13:56:53] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[13:56:53] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[13:57:02] [Server thread/INFO]: Pingdaking8 issued server command: /tpa iglent
+[13:57:10] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglent
+[13:57:15] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[13:57:15] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[13:57:20] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdakin8
+[13:57:23] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[13:57:23] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[13:57:23] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8
+[13:57:23] [Server thread/INFO]: [ysyyayyyayya: Teleported ysyyayyyayya to Pingdaking8]
+[13:57:37] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[13:57:48] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[13:57:48] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[13:57:50] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdakin8 ysyyayyyayya
+[13:57:55] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8 ysyyayyyayya
+[13:57:55] [Server thread/INFO]: [ysyyayyyayya: Teleported Pingdaking8 to ysyyayyyayya]
+[13:57:55] [Server thread/WARN]: Pingdaking8 moved too quickly! 111.05026855711012,-8.0,-56.010054122719225
+[13:58:15] [Server thread/INFO]: iglentoften was slain by ysyyayyyayya using [Sig Sword]
+[13:58:21] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[13:58:21] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[13:58:21] [Server thread/INFO]: iglentoften fell from a high place
+[13:58:23] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8 ysyyayyyayya
+[13:58:23] [Server thread/INFO]: [ysyyayyyayya: Teleported Pingdaking8 to ysyyayyyayya]
+[13:58:24] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[13:58:24] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[13:58:28] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[13:58:30] [Server thread/INFO]: iglentoften issued server command: /gamemode creaitve
+[13:58:30] [Server thread/INFO]: iglentoften fell out of the world
+[13:58:35] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[13:58:35] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[13:58:38] [Server thread/INFO]: iglentoften fell out of the world
+[13:58:40] [Server thread/INFO]: Pingdaking8 fell out of the world
+[13:58:46] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[13:58:46] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[13:58:56] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[13:58:56] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[13:59:17] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[13:59:21] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[13:59:21] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[13:59:26] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[13:59:30] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8 ysyyayyyayya
+[13:59:30] [Server thread/INFO]: [ysyyayyyayya: Teleported Pingdaking8 to ysyyayyyayya]
+[14:00:40] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[14:00:49] [Server thread/INFO]: ysyyayyyayya issued server command: /tp pingdaking8 ysyyayyyayya
+[14:00:49] [Server thread/INFO]: [ysyyayyyayya: Teleported Pingdaking8 to ysyyayyyayya]
+[14:00:54] [Server thread/INFO]: iglentoften was slain by Slime
+[14:00:58] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:00:58] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:00:59] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:00:59] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:01:03] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[14:01:03] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[14:01:03] [Server thread/WARN]: iglentoften moved too quickly! 217.85849491088453,108.41538198631791,-99.17830640198088
+[14:01:20] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:01:20] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:01:34] [Server thread/INFO]: Gave 1 [Sig Sword] to Pingdaking8
+[14:01:36] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:01:47] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglent
+[14:01:51] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:01:51] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:01:56] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:01:56] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:02:19] [Server thread/INFO]: iglentoften was slain by Pingdaking8 using [Sig Sword]
+[14:02:25] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[14:02:26] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:02:26] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:02:28] [Server thread/INFO]: iglentoften fell out of the world
+[14:02:33] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[14:02:33] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[14:02:55] [Server thread/INFO]: Pingdaking8 has made the advancement [Sweet Dreams]
+[14:02:56] [Async Chat Thread - #1/INFO]: [Not Secure] <Pingdaking8> m
+[14:02:58] [Server thread/INFO]: ysyyayyyayya has made the advancement [Spooky Scary Skeleton]
+[14:03:05] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:03:05] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:03:08] [Server thread/INFO]: ysyyayyyayya has made the advancement [Withering Heights]
+[14:03:42] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:03:42] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:03:48] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:03:48] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:03:54] [Server thread/INFO]: Gave 1 [Sig Sword] to ysyyayyyayya
+[14:04:08] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:04:08] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:04:22] [Server thread/INFO]: Gave 1 [Sig Sword] to ysyyayyyayya
+[14:04:52] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:04:59] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:04:59] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:05:17] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[14:05:24] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:05:24] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:05:32] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:05:32] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:05:41] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:05:41] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:06:03] [Server thread/INFO]: ysyyayyyayya issued server command: //
+[14:06:17] [Server thread/INFO]: ysyyayyyayya issued server command: //br sphere air 5
+[14:06:32] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:06:32] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:06:37] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survival
+[14:06:37] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Survival Mode]
+[14:06:41] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:06:41] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:07:03] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:07:03] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:07:17] [Server thread/INFO]: Pingdaking8 issued server command: /
+[14:07:19] [Server thread/INFO]: Pingdaking8 fell out of the world
+[14:07:28] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:07:28] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:07:31] [Server thread/INFO]: iglentoften fell out of the world
+[14:07:33] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:07:33] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:07:40] [Server thread/INFO]: iglentoften issued server command: /tp ysyyayyyayya
+[14:07:40] [Server thread/INFO]: [iglentoften: Teleported iglentoften to ysyyayyyayya]
+[14:08:08] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode creative
+[14:08:08] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Creative Mode]
+[14:08:18] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:08:18] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:08:20] [Server thread/INFO]: ysyyayyyayya issued server command: //br sphere lava 5
+[14:08:27] [Server thread/INFO]: ysyyayyyayya issued server command: //undo
+[14:08:35] [Server thread/INFO]: ysyyayyyayya issued server command: /timeset day
+[14:08:41] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere air 2
+[14:08:44] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:08:47] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:08:47] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:08:49] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:08:49] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:08:53] [Server thread/INFO]: ysyyayyyayya issued server command: //undo
+[14:09:00] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:09:00] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:09:31] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survival
+[14:09:31] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Survival Mode]
+[14:09:37] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:09:37] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:09:59] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:09:59] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:10:03] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[14:10:11] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:10:11] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:10:17] [Server thread/INFO]: iglentoften has made the advancement [Take Aim]
+[14:10:22] [Server thread/INFO]: Pingdaking8 was slain by ysyyayyyayya using [Sig Sword]
+[14:10:29] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survival
+[14:10:30] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:10:30] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:11:00] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:11:00] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:11:04] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode creative
+[14:11:04] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Creative Mode]
+[14:11:17] [Server thread/INFO]: ysyyayyyayya issued server command: //br sphere lava
+[14:11:22] [Server thread/INFO]: ysyyayyyayya issued server command: //undo
+[14:11:46] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:11:46] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:11:49] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:11:50] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:11:50] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:12:01] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:12:01] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:12:04] [Server thread/INFO]: ysyyayyyayya issued server command: /tp iglentoften
+[14:12:04] [Server thread/INFO]: [ysyyayyyayya: Teleported ysyyayyyayya to iglentoften]
+[14:12:14] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survial
+[14:12:16] [Server thread/INFO]: ysyyayyyayya issued server command: /gamemode survival
+[14:12:16] [Server thread/INFO]: [ysyyayyyayya: Set own game mode to Survival Mode]
+[14:12:22] [Server thread/INFO]: ysyyayyyayya was burnt to a crisp whilst fighting iglentoften
+[14:12:22] [Server thread/INFO]: Villager EntityVillager['Toolsmith'/411, uuid='58158467-4d3e-4ab5-a369-3f340f35e0ce', l='ServerLevel[sigm]', x=350.39, y=4.00, z=-180.40, cpos=[21, -12], tl=31851, v=true] died, message: 'Toolsmith burned to death'
+[14:12:29] [Server thread/INFO]: ysyyayyyayya issued server command: /
+[14:12:31] [Server thread/INFO]: ysyyayyyayya fell out of the world
+[14:12:39] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[14:12:39] [Server thread/INFO]: ysyyayyyayya left the game
+[14:12:50] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:13:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:13:27] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:13:27] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:13:28] [Server thread/INFO]: Pingdaking8 fell out of the world
+[14:13:43] [Server thread/INFO]: Removed 16 item(s) from player Pingdaking8
+[14:13:47] [Server thread/INFO]: Removed 16 item(s) from player Pingdaking8
+[14:13:49] [Server thread/INFO]: Removed 14 item(s) from player Pingdaking8
+[14:13:53] [Server thread/INFO]: No items were found on player Pingdaking8
+[14:13:55] [Server thread/INFO]: Removed 16 item(s) from player Pingdaking8
+[14:14:07] [Server thread/INFO]: Removed 71 item(s) from player iglentoften
+[14:14:15] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:14:19] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:14:20] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:14:20] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:14:20] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:14:23] [Server thread/INFO]: iglentoften fell out of the world
+[14:14:28] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:14:45] [Server thread/INFO]: Gave 1 [Shulker Box] to iglentoften
+[14:14:59] [Server thread/INFO]: Removed 88 item(s) from player Pingdaking8
+[14:15:04] [Server thread/INFO]: Removed 1 item(s) from player Pingdaking8
+[14:15:12] [Server thread/INFO]: Pingdaking8 lost connection: Kicked by an operator
+[14:15:12] [Server thread/INFO]: Pingdaking8 left the game
+[14:15:12] [Server thread/INFO]: Kicked Pingdaking8: Kicked by an operator
+[14:15:29] [User Authenticator #2/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:15:29] [Server thread/INFO]: Pingdaking8 joined the game
+[14:15:29] [Server thread/INFO]: Pingdaking8[/127.0.0.1:60262] logged in with entity id 3679 at ([sigm]121.60692157556181, 15.979028510192826, -79.2409045381809)
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[14:15:29] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[14:15:35] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:15:35] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:15:36] [Server thread/INFO]: Gave 1 [Sig Sword] to iglentoften
+[14:15:43] [Server thread/INFO]: Gave 1 [Sig Sword] to Pingdaking8
+[14:15:53] [Server thread/INFO]: Pingdaking8 lost connection: Kicked by an operator
+[14:15:53] [Server thread/INFO]: Pingdaking8 left the game
+[14:15:53] [Server thread/INFO]: Kicked Pingdaking8: Kicked by an operator
+[14:16:01] [User Authenticator #2/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:16:01] [Server thread/INFO]: Pingdaking8 joined the game
+[14:16:01] [Server thread/INFO]: Pingdaking8[/127.0.0.1:57220] logged in with entity id 3721 at ([sigm]119.74665665521263, 12.0, -75.37555525681307)
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|GetDomain
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Voice-1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-RPC
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|1.8-Ready
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|FNAWSEn-1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Capes-1.8
+[14:16:01] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring incoming plugin message with channel: EAG|1.8-Ready
+[14:16:05] [Server thread/INFO]: Made Pingdaking8 no longer a server operator
+[14:16:26] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:16:29] [Server thread/INFO]: Nothing changed. The player is not an operator
+[14:16:34] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:16:34] [Server thread/INFO]: Made Pingdaking8 a server operator
+[14:16:39] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode creative
+[14:16:39] [Server thread/INFO]: [Pingdaking8: Set own game mode to Creative Mode]
+[14:16:40] [Async Chat Thread - #2/INFO]: [Not Secure] <iglentoften> HURRY UP BRADLEY
+[14:17:06] [Server thread/INFO]: Pingdaking8 issued server command: /tp iglentoften
+[14:17:06] [Server thread/INFO]: [Pingdaking8: Teleported Pingdaking8 to iglentoften]
+[14:17:11] [Server thread/INFO]: Pingdaking8 issued server command: //br sphere air 2
+[14:17:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Pingdaking8> ds
+[14:17:14] [Async Chat Thread - #2/INFO]: [Not Secure] <Pingdaking8> sd
+[14:17:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Pingdaking8> sd
+[14:17:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Pingdaking8> sd
+[14:17:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Pingdaking8> s
+[14:17:24] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:17:24] [Server thread/INFO]: [iglentoften: Set own game mode to Survival Mode]
+[14:17:27] [Server thread/INFO]: Pingdaking8 issued server command: /gamemode survival
+[14:17:27] [Server thread/INFO]: [Pingdaking8: Set own game mode to Survival Mode]
+[14:17:39] [Server thread/INFO]: iglentoften issued server command: /gamemode survival
+[14:17:39] [Server thread/INFO]: iglentoften fell out of the world
+[14:17:52] [Server thread/INFO]: iglentoften issued server command: /gamemode creative
+[14:17:52] [Server thread/INFO]: [iglentoften: Set own game mode to Creative Mode]
+[14:18:10] [Server thread/INFO]: No entity was found
+[14:18:12] [Server thread/INFO]: Pingdaking8 was killed
+[14:18:12] [Server thread/INFO]: Killed Pingdaking8
+[14:18:17] [Server thread/INFO]: Banned Pingdaking8: Banned by an operator.
+[14:18:17] [Server thread/INFO]: Pingdaking8 lost connection: You are banned from this server
+[14:18:17] [Server thread/INFO]: Pingdaking8 left the game
+[14:18:23] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:23] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4f7877ae[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:34584): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f7877ae[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:34584) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:34] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:34] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3fe68489[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52658): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@3fe68489[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52658) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:35] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:35] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@59dc703[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52664): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@59dc703[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52664) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:37] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:37] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@7a72cd28[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52678): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@7a72cd28[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52678) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:39] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:39] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@11b90aed[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52684): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@11b90aed[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52684) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:40] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:40] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@432c4b78[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52696): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@432c4b78[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:52696) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:18:56] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[14:18:59] [User Authenticator #3/INFO]: UUID of player Pingdaking8 is ad21c3ff-4dd4-3157-a1f3-59e6631de973
+[14:18:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@d156df1[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:60844): You are banned from this server.
+Reason: Banned by an operator.
+[14:18:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@d156df1[id=ad21c3ff-4dd4-3157-a1f3-59e6631de973,name=Pingdaking8,properties={},legacy=false] (/127.0.0.1:60844) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:19:19] [Server thread/INFO]: iglentoften issued server command: //br sphere air 3
+[14:19:24] [Server thread/INFO]: Stopping the server
+[14:19:24] [Server thread/INFO]: Stopping server
+[14:19:24] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.3
+[14:19:24] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.6
+[14:19:24] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.2
+[14:19:24] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
+[14:19:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[14:19:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:19:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
+[14:19:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[14:19:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[14:19:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:19:24] [Server thread/INFO]: Saving players
+[14:19:24] [Server thread/INFO]: iglentoften lost connection: Server closed
+[14:19:24] [Server thread/INFO]: iglentoften left the game
+[14:19:24] [Server thread/INFO]: Saving worlds
+[14:19:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 67 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[14:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:19:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[14:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:19:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[14:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:19:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Skybattle]'/minecraft:skybattle
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Skybattle'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Skybattle'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Skybattle'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 73 entity chunks, 0 poi chunks in world 'Skybattle' in 0.01s
+[14:19:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (Skybattle): All chunks are saved
+[14:19:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[sigm]'/minecraft:sigm
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'sigm'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'sigm'
+[14:19:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'sigm'
+[14:19:25] [Server thread/INFO]: [ChunkHolderManager] Saved 492 block chunks, 372 entity chunks, 13 poi chunks in world 'sigm' in 0.18s
+[14:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (sigm): All chunks are saved
+[14:19:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:19:25] [Server thread/INFO]: Flushing Chunk IO
+[14:19:25] [Server thread/INFO]: Closing Thread Pool
+[14:19:25] [Server thread/INFO]: Closing Server

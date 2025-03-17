@@ -1,0 +1,33 @@
+JumpPads:
+  spawn, -30, 81, 47:
+    owners:
+    - 40f4cca1-2980-3140-92d9-58c6904b4721
+    plate: SLIME_BLOCK
+    power: 30.0
+    angle: 45.0
+    direction: 34.628113
+    particle: VILLAGER_HAPPY
+  spawn, -55, 88, 83:
+    owners:
+    - 40f4cca1-2980-3140-92d9-58c6904b4721
+    plate: SLIME_BLOCK
+    power: 30.0
+    angle: 10.0
+    direction: -145.24037
+    particle: VILLAGER_HAPPY
+  spawn, 33, 84, 50:
+    owners:
+    - 40f4cca1-2980-3140-92d9-58c6904b4721
+    plate: SLIME_BLOCK
+    power: 34.0
+    angle: 50.0
+    direction: -61.17505
+    particle: VILLAGER_HAPPY
+  spawn, 69, 97, 70:
+    owners:
+    - 40f4cca1-2980-3140-92d9-58c6904b4721
+    plate: SLIME_BLOCK
+    power: 25.0
+    angle: 15.0
+    direction: 119.07068
+    particle: VILLAGER_HAPPY

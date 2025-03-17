@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 49.36.189.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1699717221282
+  login: 1699717176289
+money: '0'
+last-account-name: karthikvnair
+lastlocation:
+  world: ddc760f5-a4ed-4d08-8496-1fcb555a9f10
+  world-name: spawn
+  x: 20.5
+  y: 119.0
+  z: -16.5
+  yaw: -74.95751953125
+  pitch: 10.228477478027344
+logoutlocation:
+  world: ddc760f5-a4ed-4d08-8496-1fcb555a9f10
+  world-name: spawn
+  x: 26.5
+  y: 118.0
+  z: -14.5
+  yaw: -74.18359375
+  pitch: 20.787845611572266

@@ -1,0 +1,168 @@
+menu_title: '&8Help'
+open_command:
+  - helpgui
+  - helper
+  - help
+  - helpp
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+size: 9
+register_command: true
+# as always, only cool people can open this menu :)
+items:
+
+  'Spawn':
+    material: 'sunflower'
+    slot: 0
+    priority: 11
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Spawn'
+    lore:
+      - '&fTeleport to Spawn!'
+      - '&eClick to Teleport.'
+    left_click_commands:
+      - '[player] spawn'
+
+    right_click_commands:
+      - '[player] spawn'
+      - '[close]'
+  'GamemodeSettings':
+    material: 'paper'
+    slot: 1
+    priority: 12
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Skyblock Settings'
+    lore:
+      - '&fKeepinventory: &aon'
+      - '&fDifficulty: &cHard'
+  'shop':
+    material: 'gold_ingot'
+    slot: 2
+    priority: 13
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Shop'
+    lore:
+      - '&fBuy and sell items at the'
+      - '&fserver shop.'
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] shop'
+
+    right_click_commands:
+      - '[player] shop'
+      - '[close]'      
+  'Auction':
+    material: 'emerald'
+    slot: 3
+    priority: 14
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Auction House'
+    lore:
+      - '&fBid and list items at the'
+      - '&fauction house.'
+      - '&eYour Purse &f%vault_eco_balance_commas%'
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] ah'
+
+    right_click_commands:
+      - '[player] ah'
+      - '[close]'      
+  'Points':
+    material: 'iron_nugget'
+    slot: 4
+    priority: 15
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Points'
+    lore:
+      - '&fBuy special items and perks'
+      - '&fat the Points shop'
+      - '&eClick to view.'
+    click_commands:
+      - '[player] keys'     
+  'Rules':
+    material: 'book'
+    slot: 5
+    priority: 16
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Rules'
+    lore:
+      - '&eClick to view.'
+    left_click_commands:
+      - '[player] Rules'
+
+    right_click_commands:
+      - '[player] Rules'
+      - '[close]'
+  'general':
+    material: 'book'
+    slot: 6
+    priority: 17
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6General Commands'
+    lore:
+      - '&6/spawn &fTeleport to the Spawn'
+      - '&6/wild &fTeleport to the Wild'
+      - '&6/home &fTeleport to your home'
+      - '&6/sethome &fSet your home location'
+      - '&6/shop &fOpens the Server''s Shop'
+      - '&6/ah &fOpens The Server''s Auction house'
+      - '&6/Points &fOpens the Points shop'
+      - '&6/menu &fOpens the Prison Menu'
+  'general2':
+    material: 'book'
+    slot: 7
+    priority: 18
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6General Commands'
+    lore:
+      - '&6/msg &fSends a Msg to the player'
+      - '&6/r &fReply to a message'
+      - '&6/Ignore &fIgnore a player'
+      - '&6/help &fFor more commands'
+  'island':
+    material: 'book'
+    slot: 8
+    priority: 19
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&6Island Commands'
+    lore:
+      - '&6/island create <Name> fclaims a island'
+      - '&6/island close &fClose the island to the public'
+      - '&6/island coops &fOpens the Coop menu'
+      - '&6/island coop <player name> &finvites a player to your Co-op!'
+      - '&eClick to view more.'
+    left_click_commands:
+      - '[player] islands help'
+
+    right_click_commands:
+      - '[player] islands help'
+      - '[close]'          
+      

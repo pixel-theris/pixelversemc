@@ -1,0 +1,19 @@
+# DeluxeMenus 1.14.1-DEV-184 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  advanced_menu:
+    file: Ranks.yml
+  Points_shop:
+    file: Points_Shop.yml
+  MainMenu:
+    file: SkyblockMenu.yml
+  Warps:
+    file: Warps.yml
+  helpgui:
+    file: Helpgui.yml
+

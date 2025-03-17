@@ -1,0 +1,72 @@
+menu_title: '&8Rank Menu'
+open_command:
+- ranks
+- rank
+#register_command: true
+size: 36
+items:
+  'BACKGROUND_BODY':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: ' &r '
+    slots:
+    - 0-36
+  'close':
+    material: BARRIER
+    display_name: "&c&l✘ &cClose"
+    click_commands:
+    - "[close]"
+    - "[sound] BLOCK_CHEST_CLOSE"
+    slot: 31
+  'vip':
+    material: NAME_TAG
+    display_name: "&a[VIP] &8| &fPerks"
+    lore:
+      - ''
+      - '&f• /tpahere command'
+      - '&f• /craft command'
+      - '&f• /condense command'
+    slot: 11
+  'vip+':
+    material: NAME_TAG
+    display_name: "&a[VIP&c+&a] &8| &fPerks"
+    lore:
+      - ''
+      - '&f• /craft command'
+      - '&f• /tpahere command'
+      - '&f• /condense command'
+    slot: 12
+  'mvp':
+    material: NAME_TAG
+    display_name: "&b[MVP] &8| &fPerks"
+    lore:
+      - '' 
+      - '&f• /craft command'
+      - '&f• /anvil command'
+      - '&f• /stonecutter command'
+      - '&f• /condense command'
+      - '&f• /tpahere command'
+    slot: 13
+  'mvp+':
+    material: NAME_TAG
+    display_name: "&b[MVP&c+&b] &8| &fPerks"
+    lore:
+      - '' 
+      - '&f• /craft command'
+      - '&f• /anvil command'
+      - '&f• /stonecutter command'
+      - '&f• /condense command'
+      - '&f• /tpahere command'
+    slot: 14
+  'mvp++':
+    material: NAME_TAG
+    display_name: "&6[MVP&c++&6] &8| &fPerks"
+    lore:
+      - ''
+      - '&f• /craft command'
+      - '&f• /anvil command'
+      - '&f• /condense command'
+      - '&f• /fix command' 
+      - '&f• /nick command'   
+      - '&f• /stonecutter command'
+      - '&f• /tpahere command'
+    slot: 15

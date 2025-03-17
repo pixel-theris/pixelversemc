@@ -1,0 +1,369 @@
+Name: Vote Crate
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - vote
+Block:
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: SIMPLE
+    Particle:
+      Name: 'null'
+  Positions:
+  - 3,97,15,spawn
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    chainmail_helmet:
+      Name: Chainmail Helmet
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i006jdd5n6aoric5j78ej3d1gmirjdc5kmonr8clm6qpbk18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i006jdd5n6aoric5j78ej3d1gmirjdc5kmonr8clm6qpbk18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    chainmail_chestplate:
+      Name: Chainmail Chestplate
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800udlkmspb3e9gmct1qcdk62qbedlgmir2vcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800udlkmspb3e9gmct1qcdk62qbedlgmir2vcdk6asrke1m62t3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    chainmail_leggings:
+      Name: Chainmail Leggings
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400e6qqbeclhn4ob6egt66q31d5n6qob9dhfmopb7ctkmsprj18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt66q31d5n6qob9dhfmopb7ctkmsprj18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    chainmail_boots:
+      Name: Chainmail Boots
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcdk62qbedlgmir2vc9nmut3j18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcdk62qbedlgmir2vc9nmut3j18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    iron_sword:
+      Name: Iron Sword
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    diamond_pickaxe:
+      Name: Diamond Pickaxe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    iron_axe:
+      Name: Iron Axe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb40096qqbeclhn4ob6egt6isjfdpfm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt6isjfdpfm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    iron_shovel:
+      Name: Iron Shovel
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej9e9nmsnrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej9e9nmsnrjd1nncpbc18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    iron_hoe:
+      Name: Iron Hoe
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb40096qqbeclhn4ob6egt6isjfdpfmgrr518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt6isjfdpfmgrr518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    water_bucket:
+      Name: Water Bucket
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3ktr1ehin4nr2elhmmpbk0400agrfeln78080
+      Commands: []
+      Items:
+      - 2g0004000j9cg01crb9dpim6sj1cpq3ktr1ehin4nr2elhmmpbk0400agrfeln78080
+      Ignored_For_Permissions: []
+    flint_and_steel:
+      Name: Flint and Steel
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800pdlkmspb3e9gmct1qcpm6irjkbtgmsp2vedq6apbc18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800pdlkmspb3e9gmct1qcpm6irjkbtgmsp2vedq6apbc18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    brush:
+      Name: Brush
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800fdlkmspb3e9gmct1qc9p7asr818006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands: []
+      Items:
+      - 1800020009km800fdlkmspb3e9gmct1qc9p7asr818006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Ignored_For_Permissions: []
+    ender_pearl:
+      Name: Ender Pearl
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78400
+      Commands: []
+      Items:
+      - a0000g002d5i005bdd5n6aoric5j78ej5dpi6asive1im2sjc0400agrfeln78400
+      Ignored_For_Permissions: []
+    spyglass:
+      Name: Spyglass
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb40096qqbeclhn4ob6egt76s3pctm62srj0400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb40096qqbeclhn4ob6egt76s3pctm62srj0400agrfeln78080
+      Ignored_For_Permissions: []
+    music_disc:
+      Name: Music Disc
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfm6obk0400agrfeln78080
+      Commands: []
+      Items:
+      - 5000080016ip0031mmirj5cdp62pjk79mnasr9cdfm8qbjcdfm6obk0400agrfeln78080
+      Ignored_For_Permissions: []
+    music_disc1:
+      Name: Music Disc
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlurb5dhm6uq390400agrfeln78080
+      Commands: []
+      Items:
+      - k00010004qb400e6qqbeclhn4ob6egt6qtbjd5hlup39edhlurb5dhm6uq390400agrfeln78080
+      Ignored_For_Permissions: []
+Last_Opener: ItzOverWolf
+Last_Reward: Water Bucket
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fVote Crate'

@@ -1,0 +1,16 @@
+backup_version: 2
+users:
+    40f4cca1-2980-3140-92d9-58c6904b4721:
+        skills:
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/fighting: {level: 0, xp: 0.0}
+            auraskills/agility: {level: 0, xp: 18.439999999999998}
+            auraskills/excavation: {level: 0, xp: 2.8}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/alchemy: {level: 0, xp: 0.0}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 0, xp: 50.8}
+            auraskills/defense: {level: 0, xp: 0.0}
+        mana: 20.0

@@ -1,0 +1,10 @@
+command /rules:
+    trigger:
+        send "&b&m                                                       "
+        send "&b&lSKYBLOCK &f&lSERVER RULES"
+        send "&fNo Griefing"
+        send "&fNo Steal"
+        send "&fNo Adverting"
+        send "&fNo Hacking"
+        send "&fNo Spamming"
+        send "&b&m                                                       "

@@ -1,0 +1,194 @@
+#
+#
+#    ____        _ _       ____                            _
+#   |  _ \  __ _(_) |_   _|  _ \ _____      ____ _ _ __ __| |
+#   | | | |/ _` | | | | | | |_) / _ \ \ /\ / / _` | '__/ _` |
+#   | |_| | (_| | | | |_| |  _ <  __/\ V  V / (_| | | | (_| |
+#   |____/ \__,_|_|_|\__, |_| \_\___| \_/\_/ \__,_|_|  \__,_|
+#                    |___/
+#                                      by Athelion Development
+#
+#
+#  UPGRADE TO THE ULTIMATE EDITION AND UNLOCK UNLIMITED REWARD POSSIBILITIES!
+#  CREATE CUSTOM REWARDS WITHOUT ANY LIMITATIONS AND ELEVATE YOUR SERVER EXPERIENCE!
+#  DISCOVER MORE AT: https://www.spigotmc.org/resources/%E2%9C%A8-ultimaterewards-create-a-whole-network-reward-system-with-ease-1-8-1-19-3.108055/
+#
+#
+# If you have some questions, join https://discord.gg/TfUC8uJ for help
+#
+# All about models & colors can be found here: https://ultimaterewards.athelion.eu/colors-and-models
+#
+# Note that item & sound names are slightly different between >1.12 & 1.13< versions!
+# So make sure you are using valid item names (default one are used from 1.13+ versions)
+# otherwise will be replaced by stone if invalid name is in use.
+#
+config:
+  #
+  # Database section
+  #
+
+  # What type of database do you want to use?
+  # Valid values: SQLITE, MYSQL, MARIADB, POSTGRESQL
+  backend: SQLITE
+  mysql-ip: 127.0.0.1
+  mysql-port: 3306
+  mysql-database-name: database
+  mysql-username: user
+  mysql-password: password
+
+  # MySQL's connection pool settings
+  mysql-pool-settings-maximum-pool-size: 10
+  mysql-pool-settings-minimum-idle: 5
+  mysql-pool-settings-maximum-lifetime: 1800000
+  mysql-pool-settings-connection-timeout: 5000
+
+  # Additional MySQL properties
+  mysql-properties:
+    useUnicode: true
+    characterEncoding: utf8
+
+  #
+  # Global settings section
+  #
+
+  # All available languages can be found in lang folder
+  # Not that it's case-sensitive
+  language: English
+
+  update-checker: true
+
+  help-header: '&2&m---------------&f &lAVAILABLE COMMANDS&2 &m---------------'
+  help-message-format: '&2 • &a%syntax% &7- &f%description%'
+  help-footer: '&2&m------------------------------------------------'
+
+  menu-size: 45
+  fill-background-enabled: true
+  background-item: BLACK_STAINED_GLASS_PANE
+  open-menu-after-claiming: true
+  join-notification-sound: BLOCK_NOTE_BLOCK_PLING
+  join-notification-by-default: false
+  join-notification-position: 21
+  join-notification-command: /rewards
+  auto-claim-rewards-on-join-by-default: false
+  auto-claim-rewards-position: 23
+  announce-enabled: false
+  # In seconds
+  join-notification-delay: 3
+  join-auto-claim-delay: 3
+  unavailable-reward-sound: ENTITY_ENDER_DRAGON_HURT
+  check-for-full-inventory: true
+  # How much time (in minutes) a player must have played
+  # on the server to be able to obtain rewards
+  # Set to 0 to disable it.
+  first-time-join-required-play-time: 100
+  # Players won't be able to claim & open rewards
+  # also won't receive notification
+  disabled-worlds:
+  - 'disabledworld1'
+  - 'disabledworld2'
+  #
+  #
+  # Settings menu section
+  #
+  #
+  settings-menu-size: 45
+  settings-enabled-in-menu: true
+  settings-position: 40
+  settings-item: REPEATER
+
+  settings-join-notification-enabled-item: LIME_DYE
+  settings-join-notification-disabled-item: GRAY_DYE
+
+  settings-auto-claim-enabled-item: LIME_DYE
+  settings-auto-claim-disabled-item: GRAY_DYE
+
+  settings-back-item: STONE_BUTTON
+  settings-back-position: 40
+  #
+  #
+  # DAILY REWARD SECTION
+  #
+  #
+  daily-enabled: true
+  # Make reward available after first join
+  daily-available-after-first-join: false
+  daily-placeholder: daily
+  # In hours
+  daily-cooldown: 24
+  daily-cooldown-format: '%hours%:%minutes%:%seconds%'
+  daily-positions:
+  - 20
+  daily-sound: ENTITY_PLAYER_LEVELUP
+  daily-available-item: CHEST_MINECART
+  daily-unavailable-item: MINECART
+  # Following commands will be executed when player claims his
+  # reward with dailyreward.daily permission
+  #
+  # Available actions:
+  # [console] - entered statement will be executed from console
+  # [player] - statement performed as player command execution
+  # [message] - messages the player with specified text
+  # [actionbar] - shows the text in actionbar for the player
+  # [title] - sends primary title with entered text
+  # [subtitle] - sends secondary title with entered text
+  # [sound] - plays specified sound for the player
+  # [firework] - launches a firework above the player
+  #
+  daily-rewards:
+  - '[console] give %player% iron_ingot 8'
+  - '[console] give %player% gold_ingot 2'
+  - '[actionbar] &aClaimed daily reward!'
+  # In the other hand, when player has dailyreward.daily.premium
+  # this commands will be executed (same way for weekly and monthly rewards)
+  daily-premium-rewards:
+  - '[console] give %player% iron_ingot 16'
+  - '[console] give %player% gold_ingot 4'
+  - '[actionbar] &aClaimed daily reward!'
+  #
+  #
+  # WEEKLY REWARD SECTION
+  #
+  #
+  weekly-enabled: true
+  # Make reward available after first join
+  weekly-available-after-first-join: false
+  weekly-placeholder: weekly
+  # In hours
+  weekly-cooldown: 168
+  weekly-cooldown-format: '%days% days %hours% hours %minutes% minutes'
+  weekly-positions:
+  - 22
+  weekly-sound: ENTITY_FIREWORK_ROCKET_LARGE_BLAST
+  weekly-available-item: CHEST_MINECART
+  weekly-unavailable-item: MINECART
+  weekly-rewards:
+  - '[console] give %player% diamond 2'
+  - '[console] give %player% emerald 1'
+  weekly-premium-rewards:
+  - '[console] give %player% diamond 4'
+  - '[console] give %player% emerald 2'
+  #
+  #
+  # MONTHLY REWARD SECTION
+  #
+  #
+  monthly-enabled: true
+  # Make reward available after first join
+  monthly-available-after-first-join: false
+  monthly-placeholder: monthly
+  # In hours
+  monthly-cooldown: 720
+  monthly-cooldown-format: '%days% days %hours% hours %minutes% minutes'
+  monthly-positions:
+  - 24
+  monthly-sound: ENTITY_FIREWORK_ROCKET_BLAST
+  monthly-available-item: CHEST_MINECART
+  monthly-unavailable-item: MINECART
+  monthly-rewards:
+  - '[console] give %player% diamond 8'
+  - '[console] give %player% iron_ingot 32'
+  - '[console] give %player% gold_ingot 16'
+  monthly-premium-rewards:
+  - '[console] give %player% diamond 16'
+  - '[console] give %player% iron_ingot 64'
+  - '[console] give %player% gold_ingot 32'

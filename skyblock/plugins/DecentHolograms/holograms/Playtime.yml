@@ -1,0 +1,64 @@
+location: spawn:87.300:104.000:89.670
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 10
+facing: 0.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: CLOCK'
+    height: 0.5
+  - content: '&b&lPLAYTIME LEADERBOARD'
+    height: 0.3
+  - content: '&b&l1st &f%ajlb_lb_statistic_time_played_1_alltime_name% &8➟ &b⌚&l%ajlb_lb_statistic_time_played:days_1_alltime_value%d
+      &l%ajlb_lb_statistic_time_played:hours_1_alltime_value%h &l%ajlb_lb_statistic_time_played:minutes_1_alltime_value%m'
+    height: 0.3
+  - content: '&b&l2nd &f%ajlb_lb_statistic_time_played_2_alltime_name% &8➟ &b⌚&l%ajlb_lb_statistic_time_played:days_2_alltime_value%d
+      &l%ajlb_lb_statistic_time_played:hours_2_alltime_value%h &l%ajlb_lb_statistic_time_played:minutes_2_alltime_value%m'
+    height: 0.3
+  - content: '&b&l3rd &f%ajlb_lb_statistic_time_played_3_alltime_name% &8➟ &b⌚&l%ajlb_lb_statistic_time_played:days_3_alltime_value%d
+      &l%ajlb_lb_statistic_time_played:hours_3_alltime_value%h &l%ajlb_lb_statistic_time_played:minutes_3_alltime_value%m'
+    height: 0.3
+  - content: '&b4. &f%ajlb_lb_statistic_time_played_4_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_4_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_4_alltime_value%h %ajlb_lb_statistic_time_played:minutes_4_alltime_value%m'
+    height: 0.3
+  - content: '&b5. &f%ajlb_lb_statistic_time_played_5_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_5_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_5_alltime_value%h %ajlb_lb_statistic_time_played:minutes_5_alltime_value%m'
+    height: 0.3
+  - content: '&b6. &f%ajlb_lb_statistic_time_played_6_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_6_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_6_alltime_value%h %ajlb_lb_statistic_time_played:minutes_6_alltime_value%m'
+    height: 0.3
+  - content: '&b7. &f%ajlb_lb_statistic_time_played_7_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_7_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_7_alltime_value%h %ajlb_lb_statistic_time_played:minutes_7_alltime_value%m'
+    height: 0.3
+  - content: '&b8. &f%ajlb_lb_statistic_time_played_8_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_8_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_8_alltime_value%h %ajlb_lb_statistic_time_played:minutes_8_alltime_value%m'
+    height: 0.3
+  - content: '&b9. &f%ajlb_lb_statistic_time_played_9_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_9_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_9_alltime_value%h %ajlb_lb_statistic_time_played:minutes_9_alltime_value%m'
+    height: 0.3
+  - content: '&b&l10th &f%ajlb_lb_statistic_time_played_10_alltime_name% &8➟ &b⌚%ajlb_lb_statistic_time_played:days_10_alltime_value%d
+      %ajlb_lb_statistic_time_played:hours_10_alltime_value%h %ajlb_lb_statistic_time_played:minutes_10_alltime_value%m'
+    height: 0.5
+  - content: '&fYour Playtime: &b⌚%statistic_time_played%'
+    height: 0.3
+  - content: '&b&l(ʀᴇꜰʀᴇꜱʜ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ)'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:ajlb updateplayer statistic_time_played %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:days %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:hours %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:minutes %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&b&lʟᴇᴀᴅᴇʀʙᴏᴀʀᴅs &8&l┃ &7You've updated the &fPlaytime Leaderboard&7!
+    RIGHT:
+    - CONSOLE:ajlb updateplayer statistic_time_played %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:days %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:hours %player_name%
+    - CONSOLE:ajlb updateplayer statistic_time_played:minutes %player_name%
+    - SOUND:ENTITY_EXPERIENCE_ORB_PICKUP
+    - MESSAGE:&b&lʟᴇᴀᴅᴇʀʙᴏᴀʀᴅs &8&l┃ &7You've updated the &fPlaytime Leaderboard&7!
+always-face-player: true

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 39.32.148.56
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1699709482214
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1699965554016
+  login: 1699964508691
+money: '268200'
+last-account-name: JiniMaestro
+lastlocation:
+  world: ddc760f5-a4ed-4d08-8496-1fcb555a9f10
+  world-name: spawn
+  x: -48.06019979010627
+  y: 92.0
+  z: -6.865446532805567
+  yaw: 143.93865966796875
+  pitch: 4.4262189865112305
+logoutlocation:
+  world: ddc760f5-a4ed-4d08-8496-1fcb555a9f10
+  world-name: spawn
+  x: 18.31318489695295
+  y: 118.0
+  z: 6.934907892642665
+  yaw: 103.06006622314453
+  pitch: 16.865070343017578

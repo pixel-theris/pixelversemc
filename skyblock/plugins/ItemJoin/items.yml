@@ -1,0 +1,35 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items functionality.
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section that the custom created items will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  bungeecord-item:
+    id: NETHER_STAR
+    slot: 8
+    name: '&bSkyblock menu &7(Right-Click)'
+    lore:
+    - '&7View all of your Oneblock'
+    - '&7progress. including your skills,'
+    - '&7and more!'
+    - ''
+    - '&e&l| &eᴄʟɪᴄᴋ ᴛᴏ ᴠɪᴇᴡ'
+    interact:
+    - 'player: menu'
+    inventory:
+    - 'player: menu'
+    commands-sound: BLOCK_NOTE_BLOCK_IRON_XYLOPHONE
+    commands-cooldown: 2
+    itemflags: HIDE-ATTRIBUTES, HIDE-ENCHANTS, HIDE-FLAGS, HIDE-DURABILITY, PLACEMENT,
+      INVENTORY-MODIFY, DYNAMIC, ITEM-STORE, DEATH-DROPS, SELF-DROPS
+    triggers: join, respawn, world-switch

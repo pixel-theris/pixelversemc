@@ -1,0 +1,32 @@
+command /help:
+    executable by: players
+    trigger:
+        make player execute command "/helper"        
+command /dailyrewards:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:drewards" 
+command /drewards:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:drewards" 
+command /rewards:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:drewards"
+command /Rewards:
+    executable by: players
+    trigger:
+        make player execute command "/dailyrewards:drewards         
+command /bank:
+    executable by: players
+    trigger:
+        make player execute command "/is bank"
+command /ce:
+    executable by: players
+    trigger:
+        make player execute command "/excellentenchants:eenchants list"
+command /heal:
+    executable by: players
+    trigger:
+        make player execute command "/essentials:heal"        

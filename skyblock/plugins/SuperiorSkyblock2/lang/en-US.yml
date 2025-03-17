@@ -1,0 +1,947 @@
+######################################################
+##                                                  ##
+##                SuperiorSkyblock 2                ##
+##                Developed by Ome_R                ##
+##                                                  ##
+######################################################
+
+# If you wish to create a new language file, please copy this one.
+# Make sure you give the name a correct language name.
+# https://www.oracle.com/technetwork/java/javase/java8locales-2095355.html
+# You can find a tutorial about configuring messages here:
+# https://wiki.bg-software.com/superiorskyblock/messages
+
+ADMIN_ADD_PLAYER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully added the player {0} to {1}''s sᴋʏʙʟᴏᴄᴋ.'
+ADMIN_ADD_PLAYER_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully added the player {0} to the
+  sᴋʏʙʟᴏᴄᴋ {1}.'
+ADMIN_DEPOSIT_MONEY: '&6&lBank | &7You deposited ${0} into {1}''s sᴋʏʙʟᴏᴄᴋ bank.'
+ADMIN_DEPOSIT_MONEY_NAME: '&6&lBank | &7You deposited ${0} into the bank of the sᴋʏʙʟᴏᴄᴋ
+  {1}.'
+ADMIN_HELP_FOOTER: '&6&lSuperiorSkyblock &7Developed by Ome_R'
+ADMIN_HELP_HEADER: '&6&lSuperiorSkyblock &7Admin Commands List [{0}/{1}]:'
+ADMIN_HELP_LINE: '&e/{0} &f- &7{1}'
+ADMIN_HELP_NEXT_PAGE: '&6&lSuperiorSkyblock &7Use /is admin {0} for the next page.'
+ALREADY_IN_ISLAND: '&c&lError | &7You are already in an island.'
+ALREADY_IN_ISLAND_OTHER: '&c&lError | &7This player is already a member of your island.'
+BAN_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} was BANNED from the sᴋʏʙʟᴏᴄᴋ by {1}.'
+BAN_PLAYERS_WITH_LOWER_ROLE: '&c&lError | &7You can only ban players with a lower
+  sᴋʏʙʟᴏᴄᴋ role than yours.'
+BANK_DEPOSIT_CUSTOM: '&6&lBank | &7Type the amount you want to deposit:'
+BANK_DEPOSIT_COMPLETED: Deposit Completed
+BANK_LIMIT_EXCEED: '&c&lError | &7You have exceeded your bank limit.'
+BANK_WITHDRAW_CUSTOM: '&6&lBank | &7Type the amount you want to withdraw:'
+BANK_WITHDRAW_COMPLETED: Withdraw Completed
+BANNED_FROM_ISLAND: '&c&lError | &7You are banned from this island.'
+BLOCK_COUNT_CHECK: '&6&lsᴋʏʙʟᴏᴄᴋ | &7This sᴋʏʙʟᴏᴄᴋ has x{0} {1}.'
+BLOCK_COUNTS_CHECK: |
+  &6&lsᴋʏʙʟᴏᴄᴋ | &7This sᴋʏʙʟᴏᴄᴋ has the following blocks:
+  &7{0}
+BLOCK_COUNTS_CHECK_EMPTY: '&6&lsᴋʏʙʟᴏᴄᴋ | &7This sᴋʏʙʟᴏᴄᴋ has no tracked blocks.'
+BLOCK_COUNTS_CHECK_MATERIAL: x{0} {1}
+BLOCK_LEVEL: '&6&lLevel | &7The block {0}''s level is {1}.'
+BLOCK_LEVEL_WORTHLESS: '&6&lLevel | &7The block {0} is worthless.'
+BLOCK_VALUE: '&6&lWorth | &7The block {0} worth {1}.'
+BLOCK_VALUE_WORTHLESS: '&6&lWorth | &7The block {0} is worthless.'
+BONUS_SET_SUCCESS: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the sᴋʏʙʟᴏᴄᴋ bonus to {0}.'
+BONUS_SYNC_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully synced the sᴋʏʙʟᴏᴄᴋ bonus to all the
+  sᴋʏʙʟᴏᴄᴋs'
+BONUS_SYNC_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully synced the sᴋʏʙʟᴏᴄᴋ bonus to {0}.'
+BONUS_SYNC: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully synced the sᴋʏʙʟᴏᴄᴋ bonus to {0}''s sᴋʏʙʟᴏᴄᴋ.'
+BORDER_PLAYER_COLOR_NAME_BLUE: Blue
+BORDER_PLAYER_COLOR_NAME_RED: Red
+BORDER_PLAYER_COLOR_NAME_GREEN: Green
+BORDER_PLAYER_COLOR_UPDATED: '&6&lBorder | &7Successfully changed your personal border
+  color to {0}.'
+BUILD_OUTSIDE_ISLAND: '&c&lError | &7You cannot build outside of your protection range.'
+CANNOT_SET_ROLE: '&c&lError | &7You cannot set the player''s role to {0}.'
+CHANGE_PERMISSION_FOR_HIGHER_ROLE: '&c&lError | &7You can only change permissions
+  to lower sᴋʏʙʟᴏᴄᴋ role than yours.'
+CHANGED_BANK_LIMIT: '&6&lUpgrades | &7Successfully updated the bank limit of {0}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_BANK_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the bank limit of all
+  the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_BANK_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the bank limit of
+  {0}.'
+CHANGED_BIOME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed biome to {0}. You might need
+  to reconnect to the server to see changes.'
+CHANGED_BIOME_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed biome to {0} for all the
+  sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_BIOME_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed biome to {0} for the sᴋʏʙʟᴏᴄᴋ
+  {1}.'
+CHANGED_BIOME_OTHER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed biome to {0} for {1}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_BLOCK_AMOUNT: '&6&lBlocks | &7Successfully changed the block amount at {0}
+  to {1}.'
+CHANGED_BLOCK_LIMIT: '&6&lUpgrades | &7Successfully updated the {0} Block limit of
+  {1}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_BLOCK_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the {0} Block limit
+  of all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_BLOCK_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the {0} Block limit
+  of {1}.'
+CHANGED_CHEST_SIZE: '&6&lChest | &7Successfully updated the rows of page #{0} to {1}
+  for {2}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_CHEST_SIZE_ALL: '&6&lChest | &7Successfully updated the rows of page #{0}
+  to {1} for all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_CHEST_SIZE_NAME: '&6&lChest | &7Successfully updated the rows of page #{0}
+  to {1} for {2}.'
+CHANGED_COOP_LIMIT: '&6&lUpgrades | &7Successfully updated the coop players limit
+  of {0}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_COOP_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the coop players limit
+  of all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_COOP_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the coop players limit
+  of {0}.'
+CHANGED_CROP_GROWTH: '&6&lUpgrades | &7Successfully updated the crop growth multiplier
+  of {0}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_CROP_GROWTH_ALL: '&6&lUpgrades | &7Successfully updated the crop growth multiplier
+  of all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_CROP_GROWTH_NAME: '&6&lUpgrades | &7Successfully updated the crop growth multiplier
+  of {0}.'
+CHANGED_DISCORD: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed sᴋʏʙʟᴏᴄᴋ discord to {0}.'
+CHANGED_ENTITY_LIMIT: '&6&lUpgrades | &7Successfully updated the limit of {0} entities
+  for {1}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_ENTITY_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the limit of {0}
+  entities for all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_ENTITY_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the limit of {0}
+  entities for {1}.'
+CHANGED_ISLAND_EFFECT_LEVEL: '&e&lUpgrades | &7Successfully updated the level of the
+  island effect {0} for {1}''s island.'
+CHANGED_ISLAND_EFFECT_LEVEL_ALL: '&e&lUpgrades | &7Successfully updated the level
+  of the island effect {0} for all the islands.'
+CHANGED_ISLAND_EFFECT_LEVEL_NAME: '&e&lUpgrades | &7Successfully updated the level
+  of the island effect {0} for {1}.'
+CHANGED_ISLAND_SIZE: '&e&lUpgrades | &7Successfully updated the island size of {0}''s
+  island.'
+CHANGED_ISLAND_SIZE_ALL: '&e&lUpgrades | &7Successfully updated the island size of
+  all the islands.'
+CHANGED_ISLAND_SIZE_NAME: '&e&lUpgrades | &7Successfully updated the island size of
+  {0}.'
+CHANGED_ISLAND_SIZE_BUILD_OUTSIDE: '&7&oPlayers are able to build outside their island,
+  so the island size has no affect. You can toggle that feature off in the config
+  so island size will have affect again.'
+CHANGED_LANGUAGE: '&6&lLanguage | &7Successfully changed your language to English.'
+CHANGED_MOB_DROPS: '&6&lUpgrades | &7Successfully updated the mob drops multiplier
+  of {0}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_MOB_DROPS_ALL: '&6&lUpgrades | &7Successfully updated the mob drops multiplier
+  of all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_MOB_DROPS_NAME: '&6&lUpgrades | &7Successfully updated the mob drops multiplier
+  of {0}.'
+CHANGED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You changed your sᴋʏʙʟᴏᴄᴋ''s name to {0}.'
+CHANGED_NAME_OTHER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You changed the {0} sᴋʏʙʟᴏᴄᴋ''s name to {1}.'
+CHANGED_NAME_OTHER_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You changed the name of {0} to {1}.'
+CHANGED_PAYPAL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully changed sᴋʏʙʟᴏᴄᴋ paypal to {0}.'
+CHANGED_ROLE_LIMIT: '&6&lUpgrades | &7Successfully updated the limit of the role {0}
+  for {1}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_ROLE_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the limit of the role
+  {0} for all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_ROLE_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the limit of the role
+  {0} for {1}.'
+CHANGED_SPAWNER_RATES: '&6&lUpgrades | &7Successfully updated the spawner rates multiplier
+  of {0}''s sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_SPAWNER_RATES_ALL: '&6&lUpgrades | &7Successfully updated the spawner rates
+  multiplier of all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_SPAWNER_RATES_NAME: '&6&lUpgrades | &7Successfully updated the spawner rates
+  multiplier of {0}.'
+CHANGED_TEAM_LIMIT: '&6&lUpgrades | &7Successfully updated the team limit of {0}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_TEAM_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the team limit of all
+  the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_TEAM_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the team limit of
+  {0}.'
+CHANGED_TELEPORT_LOCATION: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated teleport location.'
+CHANGED_WARPS_LIMIT: '&6&lUpgrades | &7Successfully updated the warps limit of {0}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+CHANGED_WARPS_LIMIT_ALL: '&6&lUpgrades | &7Successfully updated the warps limit of
+  all the sᴋʏʙʟᴏᴄᴋs.'
+CHANGED_WARPS_LIMIT_NAME: '&6&lUpgrades | &7Successfully updated the warps limit of
+  {0}.'
+COMMAND_ARGUMENT_ALL_ISLANDS: '*'
+COMMAND_ARGUMENT_ALL_PLAYERS: '*'
+COMMAND_ARGUMENT_AMOUNT: amount
+COMMAND_ARGUMENT_BIOME: biome
+COMMAND_ARGUMENT_BORDER_COLOR: border-color
+COMMAND_ARGUMENT_COMMAND: command...
+COMMAND_ARGUMENT_DISCORD: discord...
+COMMAND_ARGUMENT_EFFECT: potion-effect
+COMMAND_ARGUMENT_EMAIL: email
+COMMAND_ARGUMENT_ENTITY: entity
+COMMAND_ARGUMENT_ISLAND_NAME: island-name
+COMMAND_ARGUMENT_ISLAND_ROLE: island-role
+COMMAND_ARGUMENT_LEADER: leader
+COMMAND_ARGUMENT_LEVEL: level
+COMMAND_ARGUMENT_LIMIT: limit
+COMMAND_ARGUMENT_MATERIAL: material
+COMMAND_ARGUMENT_MENU: menu-name
+COMMAND_ARGUMENT_MESSAGE: message...
+COMMAND_ARGUMENT_MISSION_NAME: mission-name
+COMMAND_ARGUMENT_MODULE_NAME: module-name
+COMMAND_ARGUMENT_MULTIPLIER: multiplier
+COMMAND_ARGUMENT_NAME: name
+COMMAND_ARGUMENT_NEW_LEADER: new-leader
+COMMAND_ARGUMENT_PAGE: page
+COMMAND_ARGUMENT_PATH: path
+COMMAND_ARGUMENT_PERMISSION: permission
+COMMAND_ARGUMENT_PLAYER_NAME: player-name
+COMMAND_ARGUMENT_PRIVATE: private
+COMMAND_ARGUMENT_RATING: rating
+COMMAND_ARGUMENT_ROWS: rows
+COMMAND_ARGUMENT_SCHEMATIC_NAME: schematic-name
+COMMAND_ARGUMENT_SETTINGS: settings
+COMMAND_ARGUMENT_SIZE: size
+COMMAND_ARGUMENT_TIME: time
+COMMAND_ARGUMENT_TITLE_DURATION: duration
+COMMAND_ARGUMENT_TITLE_FADE_IN: fade-in
+COMMAND_ARGUMENT_TITLE_FADE_OUT: fade-out
+COMMAND_ARGUMENT_UPGRADE_NAME: upgrade-name
+COMMAND_ARGUMENT_VALUE: value
+COMMAND_ARGUMENT_WARP_NAME: warp-name
+COMMAND_ARGUMENT_WARP_CATEGORY: warp-category
+COMMAND_ARGUMENT_WORLD: world
+COMMAND_COOLDOWN_FORMAT: '&c&lError | &7You may only use the command in {0}.'
+COMMAND_DESCRIPTION_ACCEPT: Accept an invitation from a player.
+COMMAND_DESCRIPTION_ADMIN: Use the admin commands.
+COMMAND_DESCRIPTION_ADMIN_ADD: Add a user to an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_BLOCK_LIMIT: Increase block limit for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_BONUS: Add a bonus to a player.
+COMMAND_DESCRIPTION_ADMIN_ADD_COOP_LIMIT: Increase coop players limit for another
+  player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_CROP_GROWTH: Increase the crop growth multiplier for
+  another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_EFFECT: Add an sᴋʏʙʟᴏᴄᴋ effect for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_ENTITY_LIMIT: Increase entity limit for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_GENERATOR: Add percentage of a material for the cobblestone
+  generator.
+COMMAND_DESCRIPTION_ADMIN_ADD_MOB_DROPS: Increase the mob drops multiplier for another
+  player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_SIZE: Expand another player's sᴋʏʙʟᴏᴄᴋ size.
+COMMAND_DESCRIPTION_ADMIN_ADD_SPAWNER_RATES: Increase the spawner rates multiplier
+  for another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_TEAM_LIMIT: Increase members limit for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_ADD_WARPS_LIMIT: Increase the warps limit of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_BONUS: Grant a bonus to a player.
+COMMAND_DESCRIPTION_ADMIN_BYPASS: Toggle bypass mode.
+COMMAND_DESCRIPTION_ADMIN_CHEST: Open sᴋʏʙʟᴏᴄᴋ's chest of another sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_CLEAR_GENERATOR: Clear generator rates for a specific sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_CLOSE: Close an sᴋʏʙʟᴏᴄᴋ to the public.
+COMMAND_DESCRIPTION_ADMIN_CMD_ALL: Execute a command for all members of sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_COUNT: Check a block count on a specific sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_DATA: Interact with persistent data of players or sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_DEBUG: Toggle debug outputs.
+COMMAND_DESCRIPTION_ADMIN_DEL_WARP: Delete a warp for an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_DEMOTE: Demote a member in another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_DEPOSIT: Deposit money into another player's sᴋʏʙʟᴏᴄᴋ bank.
+COMMAND_DESCRIPTION_ADMIN_DISBAND: Disband another player's sᴋʏʙʟᴏᴄᴋ permanently.
+COMMAND_DESCRIPTION_ADMIN_GIVE_DISBANDS: Give disbands to a player.
+COMMAND_DESCRIPTION_ADMIN_IGNORE: Ignore an sᴋʏʙʟᴏᴄᴋ from top sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_JOIN: Join an sᴋʏʙʟᴏᴄᴋ without an invitation.
+COMMAND_DESCRIPTION_ADMIN_KICK: Kick a player from his sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_MODULES: Manage modules of the plugin.
+COMMAND_DESCRIPTION_ADMIN_MISSION: Change the status of a mission for a player.
+COMMAND_DESCRIPTION_ADMIN_MSG: Send a player a message without any prefixes.
+COMMAND_DESCRIPTION_ADMIN_MSG_ALL: Send to all sᴋʏʙʟᴏᴄᴋ members a message without
+  any prefixes.
+COMMAND_DESCRIPTION_ADMIN_NAME: Change the name of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_OPEN: Open an sᴋʏʙʟᴏᴄᴋ to the public.
+COMMAND_DESCRIPTION_ADMIN_OPEN_MENU: Open a custom menu for a player.
+COMMAND_DESCRIPTION_ADMIN_PROMOTE: Promote a member in another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_PURGE: Purge sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_RANKUP: Rankup an upgrade for an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_RECALC: Re-calculates the worth of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_RELOAD: Reload all configurations and tasks of the plugin.
+COMMAND_DESCRIPTION_ADMIN_REMOVE_BLOCK_LIMIT: Remove a block limit from an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_REMOVE_RATINGS: Remove all ratings given by a player.
+COMMAND_DESCRIPTION_ADMIN_RESET_WORLD: Reset a world for an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SCHEMATIC: Create schematics for the plugin.
+COMMAND_DESCRIPTION_ADMIN_SET_BANK_LIMIT: Set a bank limit to an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_BIOME: Set the biome of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_AMOUNT: Set the block amount in a specific location.
+COMMAND_DESCRIPTION_ADMIN_SET_BLOCK_LIMIT: Set block limit for another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_CHEST_ROW: Set the chest rows for another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_COOP_LIMIT: Set coop players limit for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_CROP_GROWTH: Set the crop growth multiplier for another
+  player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_DISBANDS: Set a player's amount of sᴋʏʙʟᴏᴄᴋ disbands.
+COMMAND_DESCRIPTION_ADMIN_SET_EFFECT: Set the sᴋʏʙʟᴏᴄᴋ effect level of another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_ENTITY_LIMIT: Set entity limit for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_LEADER: Transfer an sᴋʏʙʟᴏᴄᴋ to someone else.
+COMMAND_DESCRIPTION_ADMIN_SET_MOB_DROPS: Set the mob drops multiplier for another
+  player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_PERMISSION: Set a required role for a permission for
+  all the sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_SET_RATE: Set the rating of another player.
+COMMAND_DESCRIPTION_ADMIN_SET_ROLE_LIMIT: Set role limit for another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_SETTINGS: Toggle settings for a specific sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_GENERATOR: Change percentage of a material for the cobblestone
+  generator.
+COMMAND_DESCRIPTION_ADMIN_SET_SIZE: Change another player's sᴋʏʙʟᴏᴄᴋ size.
+COMMAND_DESCRIPTION_ADMIN_SET_SPAWN: Set the spawn location of the server.
+COMMAND_DESCRIPTION_ADMIN_SET_SPAWNER_RATES: Set the spawner rates multiplier for
+  another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_TEAM_LIMIT: Set members limit for another player's sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_UPGRADE: Set the level of an upgrade for another player's
+  sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SET_WARPS_LIMIT: Set the warps limit of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SETTINGS: Open the plugin settings editor.
+COMMAND_DESCRIPTION_ADMIN_SHOW: Get information about an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_SPAWN: Teleport to the spawn location.
+COMMAND_DESCRIPTION_ADMIN_SPY: Toggle chat spy mode
+COMMAND_DESCRIPTION_ADMIN_STATS: Show stats about the plugin.
+COMMAND_DESCRIPTION_ADMIN_SYNC_BONUS: Sync the bonus of an sᴋʏʙʟᴏᴄᴋ with the generated
+  worlds.
+COMMAND_DESCRIPTION_ADMIN_SYNC_UPGRADES: Sync upgrade values for an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_TELEPORT: Teleport to other sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_TITLE: Send a player a title.
+COMMAND_DESCRIPTION_ADMIN_TITLE_ALL: Send to all sᴋʏʙʟᴏᴄᴋ members a title.
+COMMAND_DESCRIPTION_ADMIN_UNIGNORE: Unignore an sᴋʏʙʟᴏᴄᴋ from top sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_ADMIN_UNLOCK_WORLD: Unlock a world for an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_ADMIN_WITHDRAW: Withdraw money from another player's sᴋʏʙʟᴏᴄᴋ
+  bank.
+COMMAND_DESCRIPTION_BALANCE: Check the amount of money inside an sᴋʏʙʟᴏᴄᴋ's bank.
+COMMAND_DESCRIPTION_BAN: Ban a player from your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_BANK: Open the sᴋʏʙʟᴏᴄᴋ's bank.
+COMMAND_DESCRIPTION_BIOME: Change the biome of the sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_BORDER: Change the border color of the sᴋʏʙʟᴏᴄᴋs.
+COMMAND_DESCRIPTION_CHEST: Open the sᴋʏʙʟᴏᴄᴋ's chest.
+COMMAND_DESCRIPTION_CLOSE: Close the sᴋʏʙʟᴏᴄᴋ to the public.
+COMMAND_DESCRIPTION_COOP: Add a player as a co-op to your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_COOPS: Open the coops menu.
+COMMAND_DESCRIPTION_COUNTS: See block counts in your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_CREATE: Create a new sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_DEL_WARP: Delete an sᴋʏʙʟᴏᴄᴋ warp.
+COMMAND_DESCRIPTION_DEMOTE: Demote a member in your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_DEPOSIT: Deposit money from your personal account into the sᴋʏʙʟᴏᴄᴋ's
+  bank.
+COMMAND_DESCRIPTION_DISBAND: Disband your sᴋʏʙʟᴏᴄᴋ permanently.
+COMMAND_DESCRIPTION_EXPEL: Kick a visitor from your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_FLY: Toggle sᴋʏʙʟᴏᴄᴋ fly.
+COMMAND_DESCRIPTION_HELP: List of all commands.
+COMMAND_DESCRIPTION_INVITE: Invite a player to your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_KICK: Kick a player from your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_LANG: Change your personal language.
+COMMAND_DESCRIPTION_LEAVE: Leave your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_MEMBERS: Open the members menu.
+COMMAND_DESCRIPTION_MISSION: Complete a mission.
+COMMAND_DESCRIPTION_MISSIONS: Open the missions menu.
+COMMAND_DESCRIPTION_NAME: Change the name of your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_OPEN: Open the sᴋʏʙʟᴏᴄᴋ to the public.
+COMMAND_DESCRIPTION_PANEL: Open sᴋʏʙʟᴏᴄᴋ panel.
+COMMAND_DESCRIPTION_PARDON: Unban a player from your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_PERMISSIONS: Get all permissions for an sᴋʏʙʟᴏᴄᴋ role.
+COMMAND_DESCRIPTION_PROMOTE: Promote a member in your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_RANKUP: Level up an upgrade.
+COMMAND_DESCRIPTION_RATE: Rate an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_RATINGS: Show all sᴋʏʙʟᴏᴄᴋ ratings.
+COMMAND_DESCRIPTION_SETTINGS: Open the settings menu.
+COMMAND_DESCRIPTION_RECALC: Re-calculates the sᴋʏʙʟᴏᴄᴋ worth.
+COMMAND_DESCRIPTION_SET_DISCORD: Set the discord of the sᴋʏʙʟᴏᴄᴋ for sᴋʏʙʟᴏᴄᴋ payouts.
+COMMAND_DESCRIPTION_SET_PAYPAL: Set the paypal email of the sᴋʏʙʟᴏᴄᴋ for sᴋʏʙʟᴏᴄᴋ
+  payouts.
+COMMAND_DESCRIPTION_SET_ROLE: Change the role of a player in your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_SET_TELEPORT: Change the teleport location of your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_SET_WARP: Create a new sᴋʏʙʟᴏᴄᴋ warp.
+COMMAND_DESCRIPTION_SHOW: Get information about an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_TEAM: Get information about sᴋʏʙʟᴏᴄᴋ members status.
+COMMAND_DESCRIPTION_TEAM_CHAT: Toggle team chat mode.
+COMMAND_DESCRIPTION_TELEPORT: Teleport to your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_TOGGLE: Toggle sᴋʏʙʟᴏᴄᴋ borders and stacked blocks placements.
+COMMAND_DESCRIPTION_TOP: Open top sᴋʏʙʟᴏᴄᴋs panel.
+COMMAND_DESCRIPTION_TRANSFER: Transfer your sᴋʏʙʟᴏᴄᴋ's leadership.
+COMMAND_DESCRIPTION_UNCOOP: Remove a player from being a co-op in your sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_UPGRADE: Open upgrades panel.
+COMMAND_DESCRIPTION_VALUE: Get the worth value of a block.
+COMMAND_DESCRIPTION_VALUES: Open the values menu.
+COMMAND_DESCRIPTION_VISIT: Teleport to the visitors location of an sᴋʏʙʟᴏᴄᴋ.
+COMMAND_DESCRIPTION_VISITORS: Open the visitors menu.
+COMMAND_DESCRIPTION_WARP: Warp to an sᴋʏʙʟᴏᴄᴋ warp.
+COMMAND_DESCRIPTION_WARPS: Open the warps menu.
+COMMAND_DESCRIPTION_WITHDRAW: Withdraw money from your sᴋʏʙʟᴏᴄᴋ's bank into your personal
+  account.
+COMMAND_USAGE: '&cUsage: /{0}'
+COOP_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} added {1} as a co-op member.'
+COOP_BANNED_PLAYER: '&c&lError | &7This player is banned from the sᴋʏʙʟᴏᴄᴋ and cannot
+  be coop.'
+COOP_LIMIT_EXCEED: '&c&lError | &7You reached the maximum amount of coop players the
+  sᴋʏʙʟᴏᴄᴋ can have.'
+CREATE_ISLAND: '&e&lIsland | &7Created a new island at {0} in {1}ms.'
+CREATE_ISLAND_FAILURE: '&c&lError | &7An error occurred while creating your island.
+  Please contact the administrator to investigate the issue.'
+CREATE_WORLD_FAILURE: '&c&lError | &7An error occurred while generating your world.
+  Please contact the administrator to investigate the issue.'
+DEBUG_MODE_DISABLED: '&6&lDebug | &7Toggled debug mode &cOFF&7.'
+DEBUG_MODE_ENABLED: '&6&lDebug | &7Toggled debug mode &aON&7.'
+DEBUG_MODE_FILTER_ADD: '&6&lDebug | &7Toggled debug filter {0} &aON&7.'
+DEBUG_MODE_FILTER_CLEAR: '&6&lDebug | &7Toggled all debug filters &cOFF&7.'
+DEBUG_MODE_FILTER_REMOVE: '&6&lDebug | &7Toggled debug filter {0} &cOFF&7.'
+DELETE_WARP: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You deleted the warp {0}.'
+DELETE_WARP_SIGN_BROKE: '&7&oThere was a sign for that warp, it got broken...'
+DEMOTE_LEADER: '&c&lError | &7You cannot demote sᴋʏʙʟᴏᴄᴋ leaders.'
+DEMOTE_PLAYERS_WITH_LOWER_ROLE: '&c&lError | &7You can only demote players with a
+  lower sᴋʏʙʟᴏᴄᴋ role than yours.'
+DEMOTED_MEMBER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You demoted {0} to a {1} in his sᴋʏʙʟᴏᴄᴋ.'
+DEPOSIT_ANNOUNCEMENT: '&6&lBank | &7{0} deposited ${1} into the sᴋʏʙʟᴏᴄᴋ bank!'
+DEPOSIT_ERROR: '&c&lError | &7{0}.'
+DESTROY_OUTSIDE_ISLAND: '&c&lError | &7You cannot destroy outside of your protection
+  range.'
+DISBAND_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Your sᴋʏʙʟᴏᴄᴋ was disbanded by {0}.'
+DISBAND_GIVE: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You received {0} disbands.'
+DISBAND_GIVE_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You gave {0} disbands to all players.'
+DISBAND_GIVE_OTHER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You gave {0} disbands to {1}.'
+DISBAND_ISLAND_BALANCE_REFUND: '&7&oYour island was disbanded and ${0} dollars were
+  refunded to your account from the island bank'
+DISBAND_SET: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Your disband count was set to {0}.'
+DISBAND_SET_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You set the disband count of all players to {0}.'
+DISBAND_SET_OTHER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You set {0}''s disband count to {1}.'
+DISBANDED_ISLAND: '&e&lIsland | &7You disbanded your island.'
+DISBANDED_ISLAND_OTHER: '&e&lIsland | &7You disbanded {0}''s island.'
+DISBANDED_ISLAND_OTHER_NAME: '&e&lIsland | &7You disbanded the island {0}.'
+ENTER_PVP_ISLAND: '&7&oYou were teleported into an island that has PVP enabled. You
+  are immuned to PVP for the next 10 seconds...'
+EXPELLED_PLAYER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} was expelled from the sᴋʏʙʟᴏᴄᴋ.'
+FORMAT_QUAD: Q
+FORMAT_TRILLION: T
+FORMAT_BILLION: B
+FORMAT_MILLION: M
+FORMAT_THOUSANDS: K
+FORMAT_SECONDS_NAME: seconds
+FORMAT_SECOND_NAME: second
+FORMAT_MINUTES_NAME: minutes
+FORMAT_MINUTE_NAME: minute
+FORMAT_HOURS_NAME: hours
+FORMAT_HOUR_NAME: hour
+FORMAT_DAYS_NAME: days
+FORMAT_DAY_NAME: day
+GENERATOR_CLEARED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully cleared the generator amounts for
+  {0}''s sᴋʏʙʟᴏᴄᴋ.'
+GENERATOR_CLEARED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully cleared the generator amounts
+  for the sᴋʏʙʟᴏᴄᴋ of {0}.'
+GENERATOR_CLEARED_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully cleared the generator amounts
+  for all the sᴋʏʙʟᴏᴄᴋs.'
+GENERATOR_UPDATED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the generator amount of
+  {0} to {1}''s sᴋʏʙʟᴏᴄᴋ.'
+GENERATOR_UPDATED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the generator amount
+  of {0} to the sᴋʏʙʟᴏᴄᴋ of {1}.'
+GENERATOR_UPDATED_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the generator amount
+  of {0} to all the sᴋʏʙʟᴏᴄᴋs.'
+GLOBAL_COMMAND_EXECUTED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully executed the command on {0}''s
+  sᴋʏʙʟᴏᴄᴋ members!'
+GLOBAL_COMMAND_EXECUTED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully executed the command
+  on the sᴋʏʙʟᴏᴄᴋ members of {0}!'
+GLOBAL_MESSAGE_SENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent to {0}''s sᴋʏʙʟᴏᴄᴋ members
+  the message!'
+GLOBAL_MESSAGE_SENT_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent to the sᴋʏʙʟᴏᴄᴋ members
+  of {0} the message!'
+GLOBAL_TITLE_SENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent to {0}''s sᴋʏʙʟᴏᴄᴋ members
+  the title!'
+GLOBAL_TITLE_SENT_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent to the sᴋʏʙʟᴏᴄᴋ members
+  of {0} the title!'
+GOT_BANNED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were BANNED from {0}''s sᴋʏʙʟᴏᴄᴋ.'
+GOT_DEMOTED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were demoted to a {0} in your sᴋʏʙʟᴏᴄᴋ.'
+GOT_EXPELLED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7&oYou were expelled from the sᴋʏʙʟᴏᴄᴋ by {0}.'
+GOT_INVITE: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} invited you to his sᴋʏʙʟᴏᴄᴋ.'
+GOT_INVITE_TOOLTIP: '&7Click the message in order to accept the invite.'
+GOT_KICKED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were kicked from your sᴋʏʙʟᴏᴄᴋ by {0}.'
+GOT_PROMOTED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were promoted to a {0} in your sᴋʏʙʟᴏᴄᴋ.'
+GOT_REVOKED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} revoked your invitation to his sᴋʏʙʟᴏᴄᴋ.'
+GOT_UNBANNED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were UNBANNED from {0}''s sᴋʏʙʟᴏᴄᴋ.'
+HIT_ISLAND_MEMBER: '&c&lError | &7You cannot hit your island members.'
+HIT_PLAYER_IN_ISLAND: '&c&lError | &7You cannot hit players inside islands.'
+IGNORED_ISLAND: '&e&lIsland | &7{0}''s island is now ignored from top islands.'
+IGNORED_ISLAND_NAME: '&e&lIsland | &7The island {0} is now ignored from top islands.'
+INTERACT_OUTSIDE_ISLAND: '&c&lError | &7You cannot interact outside of your protection
+  range.'
+INVALID_AMOUNT: '&c&lError | &7Invalid amount {0}.'
+INVALID_BIOME: '&c&lError | &7Invalid biome {0}.'
+INVALID_BLOCK: '&c&lError | &7Invalid block location {0}.'
+INVALID_BORDER_COLOR: '&c&lError | &7Invalid border color {0}.'
+INVALID_EFFECT: '&c&lError | &7Invalid effect {0}.'
+INVALID_ENTITY: '&c&lError | &7Invalid entity {0}.'
+INVALID_ENVIRONMENT: '&c&lError | &7Invalid world {0}.'
+INVALID_INTERVAL: '&c&lError | &7Invalid interval {0}.'
+INVALID_ISLAND: '&c&lError | &7You don''t have an island.'
+INVALID_ISLAND_LOCATION: '&c&lError | &7There is no island in your location.'
+INVALID_ISLAND_OTHER: '&c&lError | &7{0} doesn''t have an island.'
+INVALID_ISLAND_OTHER_NAME: '&c&lError | &7There is no island with the name {0}.'
+INVALID_ISLAND_PERMISSION: |
+  &c&lError | &7Couldn't find the island permission {0}.
+  &c&lError | &7Island Permissions: {1}
+INVALID_LEVEL: '&c&lError | &7Invalid level {0}.'
+INVALID_LIMIT: '&c&lError | &7Invalid limit {0}.'
+INVALID_MATERIAL: '&c&lError | &7Invalid material {0}.'
+INVALID_MATERIAL_DATA: '&c&lError | &7Invalid material-data {0}.'
+INVALID_MISSION: '&c&lError | &7Invalid mission {0}.'
+INVALID_MODULE: '&c&lError | &7Invalid module {0}.'
+INVALID_MULTIPLIER: '&c&lError | &7Invalid multiplier {0}.'
+INVALID_PAGE: '&c&lError | &7Invalid page {0}.'
+INVALID_PERCENTAGE: '&c&lError | &7Percentage must be between 0 and 100.'
+INVALID_PLAYER: '&c&lError | &7Cannot find a player called {0}'
+INVALID_RATE: |
+  &c&lError | &7Couldn't find a rating with the name {0}.
+  &c&lError | &7sᴋʏʙʟᴏᴄᴋ Ratings: {1}
+INVALID_ROWS: '&c&lError | &7Invalid amount of rows: {0}'
+INVALID_ROLE: |
+  &c&lError | &7Couldn't find the sᴋʏʙʟᴏᴄᴋ role {0}.
+  &c&lError | &7sᴋʏʙʟᴏᴄᴋ Roles: {1}
+INVALID_SCHEMATIC: '&c&lError | &7Couldn''t find a schematic with the name {0}.'
+INVALID_SETTINGS: |
+  &c&lError | &7Couldn't find the sᴋʏʙʟᴏᴄᴋ settings {0}.
+  &c&lError | &7sᴋʏʙʟᴏᴄᴋ Settings: {1}
+INVALID_SIZE: '&c&lError | &7Invalid size {0}.'
+INVALID_SLOT: '&c&lError | &7Invalid slot {0}.'
+INVALID_TITLE: '&c&lError | &7Invalid title entered.'
+INVALID_TOGGLE_MODE: '&c&lError | &7Cannot toggle {0}.'
+INVALID_UPGRADE: |
+  &c&lError | &7Couldn't find an upgrade called {0}.
+  &c&lError | &7Upgrades: {1}
+INVALID_VISIT_LOCATION: '&c&lError | &7This sᴋʏʙʟᴏᴄᴋ has no visitors location.'
+INVALID_VISIT_LOCATION_BYPASS: '&7&oYou have bypass mode, teleporting you to the sᴋʏʙʟᴏᴄᴋ...'
+INVALID_WARP: '&c&lError | &7Invalid warp {0}.'
+INVALID_WORLD: '&c&lError | &7Invalid world {0}.'
+INVITE_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} invited {1} to the sᴋʏʙʟᴏᴄᴋ.'
+INVITE_BANNED_PLAYER: '&c&lError | &7This player is banned from the sᴋʏʙʟᴏᴄᴋ and cannot
+  get invited.'
+INVITE_TO_FULL_ISLAND: '&c&lError | &7You cannot invite more members to your island.'
+ISLAND_ALREADY_EXIST: '&c&lError | &7An island with that name already exists.'
+ISLAND_BANK_EMPTY: '&e&lBank | &7Island bank is empty.'
+ISLAND_BANK_SHOW: '&e&lBank | &7Your island has ${0}.'
+ISLAND_BANK_SHOW_OTHER: '&e&lBank | &7{0}''s island has ${1}.'
+ISLAND_BANK_SHOW_OTHER_NAME: '&e&lBank | &7The island {0} has ${1}.'
+ISLAND_BEING_CALCULATED: '&c&lError | &7You cannot interact with blocks when island
+  is being recalculated!'
+ISLAND_CLOSED: '&e&lIsland | &7Successfully closed the island to the public.'
+ISLAND_CREATE_PROCESS_FAIL: '&c&lError | &7You have an already ongoing island creation
+  task.'
+ISLAND_CREATE_PROCCESS_REQUEST: '&e&lIsland | &7Processing your request...'
+ISLAND_FLY_DISABLED: '&e&lFly | &7Island fly was automatically &cdisabled&7.'
+ISLAND_FLY_ENABLED: '&e&lFly | &7Island fly was automatically &aenabled&7.'
+ISLAND_GOT_DELETED_WHILE_INSIDE: '&e&lIsland | &7&oYou had been inside an island that
+  been disbanded, so you were teleported back to spawn...'
+ISLAND_GOT_PVP_ENABLED_WHILE_INSIDE: '&e&lIsland | &7&oYou had been inside an island
+  that had turned pvp on, so you were teleported back to spawn...'
+ISLAND_HELP_FOOTER: '&e&lSuperiorSkyblock &7Developed by Ome_R'
+ISLAND_HELP_HEADER: '&e&lSuperiorSkyblock &7Commands List [{0}/{1}]:'
+ISLAND_HELP_LINE: '&e/{0} &f- &7{1}'
+ISLAND_HELP_NEXT_PAGE: '&e&lSuperiorSkyblock &7Use /is help {0} for the next page.'
+ISLAND_INFO_ADMIN_BANK_LIMIT: '&e&lIsland | &7Bank Limit: {0}'
+ISLAND_INFO_ADMIN_BLOCKS_LIMITS: |
+  &e&lIsland | &7Blocks Limits:
+  {0}
+ISLAND_INFO_ADMIN_BLOCKS_LIMITS_LINE: '&e&lIsland | &7  {0}: {1}'
+ISLAND_INFO_ADMIN_COOP_LIMIT: '&e&lIsland | &7Coop Limit: {0}'
+ISLAND_INFO_ADMIN_CROPS_MULTIPLIER: '&e&lIsland | &7Crops Multiplier: {0}'
+ISLAND_INFO_ADMIN_DROPS_MULTIPLIER: '&e&lIsland | &7Drops Multiplier: {0}'
+ISLAND_INFO_ADMIN_ISLAND_EFFECTS: |
+  &e&lIsland | &7Island Effects:
+  {0}
+ISLAND_INFO_ADMIN_ISLAND_EFFECTS_LINE: '&e&lIsland | &7  {0}: {1}'
+ISLAND_INFO_ADMIN_ENTITIES_LIMITS: |
+  &e&lIsland | &7Entities Limits:
+  {0}
+ISLAND_INFO_ADMIN_ENTITIES_LIMITS_LINE: '&e&lIsland | &7  {0}: {1}'
+ISLAND_INFO_ADMIN_GENERATOR_RATES: |
+  &e&lIsland | &7Generator Rates ({1}):
+  {0}
+ISLAND_INFO_ADMIN_GENERATOR_RATES_LINE: '&e&lIsland | &7  {0}: {1}% ({2})'
+ISLAND_INFO_ADMIN_ROLE_LIMITS: |
+  &e&lIsland | &7Role Limits:
+  {0}
+ISLAND_INFO_ADMIN_ROLE_LIMITS_LINE: '&e&lIsland | &7  {0}: {1}'
+ISLAND_INFO_ADMIN_SIZE: '&e&lIsland | &7Border Size: {0}'
+ISLAND_INFO_ADMIN_SPAWNERS_MULTIPLIER: '&e&lIsland | &7Spawners Multiplier: {0}'
+ISLAND_INFO_ADMIN_TEAM_LIMIT: '&e&lIsland | &7Team Limit: {0}'
+ISLAND_INFO_ADMIN_UPGRADES: |
+  &e&lIsland | &7Upgrades:
+  {0}
+ISLAND_INFO_ADMIN_UPGRADE_LINE: '&e&lIsland | &7  {0}: {1}'
+ISLAND_INFO_ADMIN_VALUE_SYNCED: '&a∞'
+ISLAND_INFO_ADMIN_WARPS_LIMIT: '&e&lIsland | &7Warps Limit: {0}'
+ISLAND_INFO_BANK: '&e&lIsland | &7Bank: {0}'
+ISLAND_INFO_BONUS: '&e&lIsland | &7Worth Bonus: {0}'
+ISLAND_INFO_BONUS_LEVEL: '&e&lIsland | &7Level Bonus: {0}'
+ISLAND_INFO_CREATION_TIME: '&e&lIsland | &7Creation Time: {0}'
+ISLAND_INFO_DISCORD: '&e&lIsland | &7Discord: {0}'
+ISLAND_INFO_FOOTER: ''
+ISLAND_INFO_HEADER: ''
+ISLAND_INFO_LAST_TIME_UPDATED: '&e&lIsland | &7Last Time Updated: {0} ago'
+ISLAND_INFO_LAST_TIME_UPDATED_CURRENTLY_ACTIVE: '&e&lIsland | &7Last Time Updated:
+  &aCurrently Active'
+ISLAND_INFO_LEVEL: '&e&lIsland | &7Level: {0}'
+ISLAND_INFO_LOCATION: '&e&lIsland | &7Home: {0}'
+ISLAND_INFO_NAME: '&e&lIsland | &7Name: {0}'
+ISLAND_INFO_OWNER: '&e&lIsland | &7Leader: {0}'
+ISLAND_INFO_PAYPAL: '&e&lIsland | &7Paypal: {0}'
+ISLAND_INFO_PLAYER_LINE: '&e&lIsland | &7 - {0}'
+ISLAND_INFO_RATE: '&e&lIsland | &7Rate: {0} &7({1}/5) - {2} total ratings.'
+ISLAND_INFO_RATE_EMPTY_SYMBOL: '&f✧'
+ISLAND_INFO_RATE_SYMBOL: ✦
+ISLAND_INFO_RATE_ONE_COLOR: '&4'
+ISLAND_INFO_RATE_TWO_COLOR: '&6'
+ISLAND_INFO_RATE_THREE_COLOR: '&e'
+ISLAND_INFO_RATE_FOUR_COLOR: '&a'
+ISLAND_INFO_RATE_FIVE_COLOR: '&2'
+ISLAND_INFO_ROLES: |
+  &e&lIsland | &7{0}s:
+  {1}
+ISLAND_INFO_VISITORS_COUNT: '&e&lIsland | &7Visitors Count: {0}'
+ISLAND_INFO_WORTH: '&e&lIsland | &7Worth: {0}'
+ISLAND_OPENED: '&e&lIsland | &7Successfully opened the island to the public.'
+ISLAND_PREVIEW_CANCEL_DISTANCE: '&e&lPreview | &7You went too far away, and you are
+  no longer in preview mode.'
+ISLAND_PREVIEW_CANCEL: '&e&lPreview | &7You cancelled the preview mode.'
+ISLAND_PREVIEW_CONFIRM_TEXT: CONFIRM
+ISLAND_PREVIEW_CANCEL_TEXT: CANCEL
+ISLAND_PREVIEW_START: |
+  &e&lPreview | &7You started the preview mode for the schematic {0}.
+  &e&lPreview | &7Type &a&lCONFIRM &7to create a new island, or &c&lCANCEL &7to cancel the preview mode.
+  &e&lPreview | &7You cannot leave the area of the island, otherwise the preview mode will be cancelled automatically.
+ISLAND_PROTECTED: '&c&lError | &7This island is protected.'
+ISLAND_PROTECTED_OPPED: '&7&oYou can bypass this restriction by using "/is admin bypass".'
+ISLAND_TEAM_STATUS_FOOTER: ''
+ISLAND_TEAM_STATUS_HEADER: '&e&lIsland | &7Members of {0}''s Island &8[&e{1}&8/&e{2}&8]&7:'
+ISLAND_TEAM_STATUS_OFFLINE: '&c(Offline)'
+ISLAND_TEAM_STATUS_ONLINE: '&a(Online)'
+ISLAND_TEAM_STATUS_ROLES: '&e&lIsland | &7 * [{0}] {1} {2} &7({3})'
+ISLAND_TOP_STATUS_OFFLINE: '&c(Offline)'
+ISLAND_TOP_STATUS_ONLINE: '&a(Online)'
+ISLAND_WARP_PUBLIC: ''
+ISLAND_WARP_PRIVATE: '&c[Private]'
+ISLAND_WAS_CLOSED: '&e&lIsland | &7&oThe island you were in was closed and you were
+  teleported back to spawn...'
+ISLAND_WORTH_ERROR: '&c&lError | &7An unexpected error occurred while calculating
+  your island. Contact administrators if the issue persists.'
+ISLAND_WORTH_RESULT: '&e&lIsland | &7Your island worth is {0} [Level {1}]'
+ISLAND_WORTH_TIME_OUT: '&c&lError | &7The calculation task has timed out. Try again
+  later...'
+JOIN_ADMIN_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} has joined your sᴋʏʙʟᴏᴄᴋ.'
+JOIN_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} has joined your sᴋʏʙʟᴏᴄᴋ.'
+JOIN_FULL_ISLAND: '&c&lError | &7This island reached the maximum amount of allowed
+  members.'
+JOIN_WHILE_IN_ISLAND: '&c&lError | &7You are already inside an island.'
+JOINED_ISLAND: '&e&lIsland | &7You joined {0}''s island.'
+JOINED_ISLAND_NAME: '&e&lIsland | &7You joined the island {0}.'
+JOINED_ISLAND_AS_COOP: '&e&lIsland | &7You are now a co-op member of {0}''s island.'
+JOINED_ISLAND_AS_COOP_NAME: '&e&lIsland | &7You are now a co-op member of the island
+  {0}.'
+KICK_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} was kicked from the sᴋʏʙʟᴏᴄᴋ by {1}.'
+KICK_ISLAND_LEADER: '&c&lError | &7You cannot kick the leader of the island, use /is
+  admin disband instead.'
+KICK_PLAYERS_WITH_LOWER_ROLE: '&c&lError | &7You can only kick players with a lower
+  sᴋʏʙʟᴏᴄᴋ role than yours.'
+LACK_CHANGE_PERMISSION: '&c&lError | &7You must have this permission in order to change
+  it to other roles.'
+LAST_ROLE_DEMOTE: '&c&lError | &7You cannot demote this player anymore.'
+LAST_ROLE_PROMOTE: '&c&lError | &7You cannot promote this player anymore.'
+LEAVE_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} left the sᴋʏʙʟᴏᴄᴋ.'
+LEAVE_ISLAND_AS_LEADER: |-
+  &c&lError | &7You cannot leave your island when you own it.
+  &c&lError | &7You can transfer the ownership using /is transfer.
+LEFT_ISLAND: '&e&lIsland | &7You left your island.'
+LEFT_ISLAND_COOP: '&e&lIsland | &7You are no longer a co-op member of {0}''s island.'
+LEFT_ISLAND_COOP_NAME: '&e&lIsland | &7You are no longer a co-op member of the island
+  {0}.'
+MATERIAL_NOT_SOLID: '&c&lError | &7You must provide a solid material.'
+MAXIMUM_LEVEL: '&c&lError | &7The maximum level for this upgrade is {0}.'
+MESSAGE_SENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent {0} the message!'
+MISSION_CANNOT_COMPLETE: '&c&lError | &7You cannot complete this mission yet.'
+MISSION_NO_AUTO_REWARD: '&6&lMission | &7You have all the required materials to finish
+  {0} - use /is missions to complete!'
+MISSION_NOT_COMPLETE_REQUIRED_MISSIONS: '&c&lError | &7You must complete {0} before
+  completing this mission.'
+MISSION_STATUS_COMPLETE: '&6&lMission | &7Changed the status of the mission {0} to
+  completed for {1}.'
+MISSION_STATUS_COMPLETE_ALL: '&6&lMission | &7Changed the status of all the missions
+  to completed for {0}.'
+MISSION_STATUS_RESET: '&6&lMission | &7Reset the status of the mission {0} for {1}.'
+MISSION_STATUS_RESET_ALL: '&6&lMission | &7Reset the status of all the missions for
+  {0}.'
+MODULE_ALREADY_INITIALIZED: '&6&lModule | &7This module is already loaded.'
+MODULE_INFO: |
+  &6&lModule | &7{0} by {1}
+  &6&lModule | &7&m--------------------
+  &6&lModule | &7{2}
+MODULE_LOADED_SUCCESS: '&6&lModule | &7Successfully loaded the module {0}.'
+MODULE_LOADED_FAILURE: '&6&lModule | &7Couldn''t load the module {0}. Check out the
+  console for more information.'
+MODULE_UNLOADED_SUCCESS: '&6&lModule | &7Successfully unloaded the module.'
+MODULES_LIST: '&fModules ({0}): {1}'
+MODULES_LIST_MODULE_NAME: '&a{0}'
+MODULES_LIST_SEPARATOR: '&f, '
+NAME_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} changed his sᴋʏʙʟᴏᴄᴋ name to {1}.'
+NAME_BLACKLISTED: '&c&lError | &7You cannot use that name.'
+NAME_CHAT_FORMAT: '&8[&e{0}&8] &r'
+NAME_SAME_AS_PLAYER: '&c&lError | &7You cannot use player names as sᴋʏʙʟᴏᴄᴋ names.'
+NAME_TOO_LONG: '&c&lError | &7sᴋʏʙʟᴏᴄᴋ names cannot be more than 16 chars long.'
+NAME_TOO_SHORT: '&c&lError | &7sᴋʏʙʟᴏᴄᴋ names cannot be less than 3 chars long.'
+NO_BAN_PERMISSION: '&c&lError | &7You must be at least {0} in order to ban players.'
+NO_CLOSE_BYPASS: '&c&lError | &7This sᴋʏʙʟᴏᴄᴋ is not opened to the public.'
+NO_CLOSE_PERMISSION: '&c&lError | &7You must be at least {0} in order to close the
+  sᴋʏʙʟᴏᴄᴋ to the public.'
+NO_COMMAND_PERMISSION: '&fUnknown command. Type "/help" for help.'
+NO_COOP_PERMISSION: '&c&lError | &7You must be at least {0} in order to add players
+  as co-op members.'
+NO_DELETE_WARP_PERMISSION: '&c&lError | &7You must be at least {0} in order to delete
+  warps.'
+NO_DEMOTE_PERMISSION: '&c&lError | &7You must be at least {0} in order to demote players.'
+NO_DEPOSIT_PERMISSION: '&c&lError | &7You must be at least {0} in order to deposit
+  money to sᴋʏʙʟᴏᴄᴋ bank.'
+NO_DISBAND_PERMISSION: '&c&lError | &7You must be at least {0} in order to disband
+  your sᴋʏʙʟᴏᴄᴋ.'
+NO_EXPEL_PERMISSION: '&c&lError | &7You must be at least {0} in order to expel players
+  from your sᴋʏʙʟᴏᴄᴋ.'
+NO_INVITE_PERMISSION: '&c&lError | &7You must be at least {0} in order to invite players.'
+NO_ISLAND_CHEST_PERMISSION: '&c&lError | &7You must be at least {0} in order to access
+  the island''s chest.'
+NO_ISLAND_INVITE: '&c&lError | &7Could not find any invites from this island.'
+NO_ISLANDS_TO_PURGE: '&c&lError | &7There were no islands to purge.'
+NO_KICK_PERMISSION: '&c&lError | &7You must be at least {0} in order to kick players.'
+NO_MORE_DISBANDS: '&c&lError | &7You can''t disband any more sᴋʏʙʟᴏᴄᴋs.'
+NO_MORE_WARPS: '&c&lError | &7Your sᴋʏʙʟᴏᴄᴋ can''t have any more warps.'
+NO_NAME_PERMISSION: '&c&lError | &7You cannot change the name of your sᴋʏʙʟᴏᴄᴋ.'
+NO_OPEN_PERMISSION: '&c&lError | &7You must be at least {0} in order to open the sᴋʏʙʟᴏᴄᴋ
+  to the public.'
+NO_PERMISSION_CHECK_PERMISSION: '&c&lError | &7You must be at least {0} in order to
+  get information about permissions.'
+NO_PROMOTE_PERMISSION: '&c&lError | &7You must be at least {0} in order to promote
+  players.'
+NO_RANKUP_PERMISSION: '&c&lError | &7You must be at least {0} in order to rankup upgrades.'
+NO_RATINGS_PERMISSION: '&c&lError | &7You must be at least {0} in order to check ratings.'
+NO_SET_BIOME_PERMISSION: '&c&lError | &7You must be at least {0} in order to change
+  sᴋʏʙʟᴏᴄᴋ biome.'
+NO_SET_DISCORD_PERMISSION: '&c&lError | &7You must be at least {0} in order to change
+  sᴋʏʙʟᴏᴄᴋ discord.'
+NO_SET_HOME_PERMISSION: '&c&lError | &7You must be at least {0} in order to set the
+  teleport location of the sᴋʏʙʟᴏᴄᴋ.'
+NO_SET_PAYPAL_PERMISSION: '&c&lError | &7You must be at least {0} in order to change
+  sᴋʏʙʟᴏᴄᴋ paypal email.'
+NO_SET_ROLE_PERMISSION: '&c&lError | &7You must be at least {0} in order to set roles
+  for players.'
+NO_SET_SETTINGS_PERMISSION: '&c&lError | &7You must be at least {0} in order to change
+  sᴋʏʙʟᴏᴄᴋ settings.'
+NO_SET_WARP_PERMISSION: '&c&lError | &7You must be at least {0} in order to set sᴋʏʙʟᴏᴄᴋ
+  warps.'
+NO_TRANSFER_PERMISSION: '&c&lError | &7You must be the sᴋʏʙʟᴏᴄᴋ''s leader in order
+  to transfer the leadership.'
+NO_UNCOOP_PERMISSION: '&c&lError | &7You must be at least {0} in order to remove players
+  from being co-op members.'
+NO_UPGRADE_PERMISSION: '&c&lError | &7You are lacking the permission to upgrade into
+  another level.'
+NO_WITHDRAW_PERMISSION: '&c&lError | &7You must be at least {0} in order to withdraw
+  money from sᴋʏʙʟᴏᴄᴋ bank.'
+NOT_ENOUGH_MONEY_TO_DEPOSIT: '&c&lError | &7You don''t have enough money to deposit
+  {0} dollars into your sᴋʏʙʟᴏᴄᴋ''s bank.'
+NOT_ENOUGH_MONEY_TO_UPGRADE: '&c&lError | &7You don''t have enough money.'
+NOT_ENOUGH_MONEY_TO_WARP: '&c&lError | &7You don''t have enough money to use sᴋʏʙʟᴏᴄᴋ
+  warps.'
+OPEN_MENU_WHILE_SLEEPING: '&7&oYou''re too tired to interact with menus, don''t you
+  think?'
+PANEL_TOGGLE_OFF: |-
+  &6&lPanel | &7Toggled sᴋʏʙʟᴏᴄᴋ panel &cOFF&7.
+  &6&lPanel | &7Running /is will teleport you to the sᴋʏʙʟᴏᴄᴋ.
+PANEL_TOGGLE_ON: |-
+  &6&lPanel | &7Toggled sᴋʏʙʟᴏᴄᴋ panel &aON&7.
+  &6&lPanel | &7Running /is will open the panel for you.
+PERMISSION_CHANGED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the permission {0} of {1}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+PERMISSION_CHANGED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the permission {0}
+  of the sᴋʏʙʟᴏᴄᴋ {1}.'
+PERMISSION_CHANGED_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the permission {0}
+  for all the sᴋʏʙʟᴏᴄᴋs.'
+PERSISTENT_DATA_EMPTY: '&c&lError | &7No data was found for your query.'
+PERSISTENT_DATA_MODIFY: '&6&lData | &7Successfully set data for {0} with {1}: {2}'
+PERSISTENT_DATA_SHOW: '&6&lData | &7Data of {0}: &f{{1}}'
+PERSISTENT_DATA_SHOW_PATH: '&b{0}&f: '
+PERSISTENT_DATA_SHOW_SPACER: '&f, '
+PERSISTENT_DATA_SHOW_VALUE: '&6{0}&c{1}&f'
+PERSISTENT_DATA_REMOVED: '&6&lData | &7Successfully removed data for {0} from path
+  {1}.'
+PERMISSIONS_RESET_PLAYER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully reset all the permissions
+  for {0} to default values!'
+PERMISSIONS_RESET_ROLES: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully reset all the permissions
+  of the sᴋʏʙʟᴏᴄᴋ to default values!'
+PLACEHOLDER_NO: 'No'
+PLACEHOLDER_YES: 'Yes'
+PLAYER_ALREADY_BANNED: '&c&lError | &7This player is already banned.'
+PLAYER_ALREADY_COOP: '&c&lError | &7This player is already coop.'
+PLAYER_ALREADY_IN_ISLAND: '&c&lError | &7This player is already inside an island.'
+PLAYER_ALREADY_IN_ROLE: '&c&lError | &7{0} is already a {1}.'
+PLAYER_EXPEL_BYPASS: '&c&lError | &7This user cannot be expelled from the sᴋʏʙʟᴏᴄᴋ.'
+PLAYER_JOIN_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} joined the server.'
+PLAYER_NOT_BANNED: '&c&lError | &7This player is not banned.'
+PLAYER_NOT_COOP: '&c&lError | &7This player is not co-op.'
+PLAYER_NOT_INSIDE_ISLAND: '&c&lError | &7This player is not inside your island.'
+PLAYER_NOT_ONLINE: '&c&lError | &7This player is not online!'
+PLAYER_QUIT_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} left the server.'
+PROMOTE_PLAYERS_WITH_LOWER_ROLE: '&c&lError | &7You can only promote players with
+  a lower sᴋʏʙʟᴏᴄᴋ role than yours.'
+PROMOTED_MEMBER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You promoted {0} to a {1} in his sᴋʏʙʟᴏᴄᴋ.'
+PURGE_CLEAR: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully cleared all the queued sᴋʏʙʟᴏᴄᴋs to be
+  purged.'
+PURGED_ISLANDS: |-
+  &e&lIsland | &7{0} islands will be purged when server restarts.
+  &e&lIsland | &7You can cancel it anytime using /is admin purge cancel.
+RANKUP_SUCCESS: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the level of the upgrade {0}
+  for {1}''s sᴋʏʙʟᴏᴄᴋ.'
+RANKUP_SUCCESS_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the level of the upgrade
+  {0} for all the sᴋʏʙʟᴏᴄᴋs.'
+RANKUP_SUCCESS_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the level of the upgrade
+  {0} for {1}.'
+RATE_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} has rated your sᴋʏʙʟᴏᴄᴋ {1} out of 5!.'
+RATE_CHANGE_OTHER: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You changed the rating of {0} to {1}.'
+RATE_OWN_ISLAND: '&c&lError | &7You can''t rate your own island.'
+RATE_REMOVE_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully removed all ratings of {0}.'
+RATE_REMOVE_ALL_ISLANDS: '&e&lIsland | &7Successfully removed all ratings of all the
+  islands.'
+RATE_SUCCESS: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You rated this sᴋʏʙʟᴏᴄᴋ with {0} stars!'
+REACHED_BLOCK_LIMIT: '&6&lUpgrades | &7You have reached the sᴋʏʙʟᴏᴄᴋ''s limit for
+  {0} Block.'
+REACHED_ENTITY_LIMIT: '&e&lUpgrades | &7You have reached the island''s limit for the
+  entity {0}.'
+RECALC_ALREADY_RUNNING: '&c&lError | &7Your sᴋʏʙʟᴏᴄᴋ is already being recalculated.'
+RECALC_ALREADY_RUNNING_OTHER: '&c&lError | &7This sᴋʏʙʟᴏᴄᴋ is already being recalculated.'
+RECALC_ALL_ISLANDS: '&e&lIsland | &7Recalculating all islands...'
+RECALC_ALL_ISLANDS_DONE: '&e&lIsland | &7Successfully finished recalculating all islands.'
+RECALC_PROCCESS_REQUEST: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Processing your request...'
+RELOAD_COMPLETED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Reload is finished!'
+RELOAD_PROCCESS_REQUEST: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Starting to reload configurations...'
+REVOKE_INVITE_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} revoked the invitation of {1} to
+  the sᴋʏʙʟᴏᴄᴋ.'
+RESET_WORLD_SUCCEED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully reset the world {0} for {1}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+RESET_WORLD_SUCCEED_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully reset the world {0} for all
+  the sᴋʏʙʟᴏᴄᴋs.'
+RESET_WORLD_SUCCEED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully reset the world {0} for {1}.'
+SAME_NAME_CHANGE: '&c&lError | &7You must enter a different name from your current
+  sᴋʏʙʟᴏᴄᴋ name.'
+SCHEMATIC_LEFT_SELECT: '&6&lSchematics | &7Selected position #2 ({0})'
+SCHEMATIC_NOT_READY: '&c&lError | &7You haven''t selected two positions.'
+SCHEMATIC_PROCCESS_REQUEST: '&6&lSchematics | &7Processing your request...'
+SCHEMATIC_READY_TO_CREATE: |
+  &6&lSchematics | &7You have selected two positions. Run /is admin schematic <name> to create a new schematic.
+  &6&lSchematics | &7Make sure you stand at the teleportation location when executing the command.
+SCHEMATIC_RIGHT_SELECT: '&6&lSchematics | &7Selected position #1 ({0})'
+SCHEMATIC_SAVED: '&6&lSchematics | &7Successfully saved schematic!'
+SELF_ROLE_CHANGE: '&c&lError | &7You cannot change the role of yourself.'
+SET_UPGRADE_LEVEL: '&6&lUpgrades | &7Successfully updated the level of {0} for {1}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+SET_UPGRADE_LEVEL_NAME: '&6&lUpgrades | &7Successfully updated the level of {0} for
+  {1}.'
+SET_WARP: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully created a new warp at {0}.'
+SET_WARP_OUTSIDE: '&c&lError | &7You cannot set warps outside your sᴋʏʙʟᴏᴄᴋ.'
+SETTINGS_UPDATED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the settings {0} to {1}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+SETTINGS_UPDATED_NAME: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the settings {0} to
+  the sᴋʏʙʟᴏᴄᴋ {1}.'
+SETTINGS_UPDATED_ALL: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully updated the settings {0} to all
+  the sᴋʏʙʟᴏᴄᴋs.'
+SIZE_BIGGER_MAX: '&c&lError | &7You cannot set a size bigger than the max sᴋʏʙʟᴏᴄᴋ
+  size.'
+SPAWN_TELEPORT_SUCCESS: '&6&lSpawn | &7Successfully teleported {0} to spawn.'
+SPAWN_SET_SUCCESS: '&6&lSpawn | &7Successfully updated the spawn location to {0}.'
+SPY_TEAM_CHAT_FORMAT: '&7[Spy] &e[{0}] {1}&f: &7{2}'
+SYNC_UPGRADES: '&6&lUpgrades | &7Successfully synced all upgrade values of {0}''s
+  sᴋʏʙʟᴏᴄᴋ.'
+SYNC_UPGRADES_ALL: '&6&lUpgrades | &7Successfully synced all upgrade values of all
+  the sᴋʏʙʟᴏᴄᴋs.'
+SYNC_UPGRADES_NAME: '&6&lUpgrades | &7Successfully synced all upgrade values of {0}.'
+TEAM_CHAT_FORMAT: '&e[{0}] {1}&f: &7{2}'
+TELEPORT_LOCATION_OUTSIDE_ISLAND: '&c&lError | &7You are not inside your island.'
+TELEPORT_OUTSIDE_ISLAND: '&c&lError | &7You cannot teleport outside of your protection
+  range.'
+TELEPORT_WARMUP: '&7&oYou will be teleported in {0}... Do not move!'
+TELEPORT_WARMUP_CANCEL: '&7&oYou moved and so the teleportation was cancelled.'
+TITLE_SENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully sent {0} the title!'
+TELEPORTED_FAILED: '&6&lsᴋʏʙʟᴏᴄᴋ | &7It seems like this sᴋʏʙʟᴏᴄᴋ has no safe blocks.
+  Please contact a staff member.'
+TELEPORTED_SUCCESS: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You were teleported to your sᴋʏʙʟᴏᴄᴋ.'
+TELEPORTED_TO_WARP: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Successfully teleported to this sᴋʏʙʟᴏᴄᴋ warp.'
+TELEPORTED_TO_WARP_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7The player {0} teleported to the
+  sᴋʏʙʟᴏᴄᴋ warp {1}.'
+TOGGLED_BYPASS_OFF: '&6&lBypass | &7Toggled bypass mode &cOFF&7.'
+TOGGLED_BYPASS_ON: '&6&lBypass | &7Toggled bypass mode &aON&7.'
+TOGGLED_FLY_OFF: '&6&lFly | &7Toggled sᴋʏʙʟᴏᴄᴋ fly &cOFF&7.'
+TOGGLED_FLY_ON: '&6&lFly | &7Toggled sᴋʏʙʟᴏᴄᴋ fly &aON&7.'
+TOGGLED_SCHEMATIC_OFF: '&6&lSchematics | &7Toggling schematic mode &cOFF&7.'
+TOGGLED_SCHEMATIC_ON: |-
+  &6&lSchematics | &7Toggling schematic mode &aON&7.
+  &6&lSchematics | &7Select an area using a golden axe.
+TOGGLED_SPY_OFF: '&6&lSpy | &7Toggled spy chat &cOFF&7.'
+TOGGLED_SPY_ON: '&6&lSpy | &7Toggled spy chat &aON&7.'
+TOGGLED_STACKED_BLOCKS_OFF: '&6&lStacker | &7Toggling blocks stacker &cOFF&7.'
+TOGGLED_STACKED_BLOCKS_ON: '&6&lStacker | &7Toggling blocks stacker &aON&7.'
+TOGGLED_TEAM_CHAT_OFF: '&6&lChat | &7Toggling team chat &cOFF&7.'
+TOGGLED_TEAM_CHAT_ON: '&6&lChat | &7Toggling team chat &aON&7.'
+TOGGLED_WORLD_BORDER_OFF: '&6&lBorder | &7Toggling world border &cOFF&7.'
+TOGGLED_WORLD_BORDER_ON: '&6&lBorder | &7Toggling world border &aON&7.'
+TRANSFER_ADMIN: '&6&lsᴋʏʙʟᴏᴄᴋ | &7You transferred {0}''s leadership to {1}.'
+TRANSFER_ADMIN_ALREADY_LEADER: '&c&lError | &7{0} is already the leader of his sᴋʏʙʟᴏᴄᴋ.'
+TRANSFER_ADMIN_DIFFERENT_ISLAND: '&c&lError | &7These players are not in the same
+  islands.'
+TRANSFER_ADMIN_NOT_LEADER: '&c&lError | &7This player is not a leader of any sᴋʏʙʟᴏᴄᴋs.'
+TRANSFER_ALREADY_LEADER: '&c&lError | &7You''re already the leader of this sᴋʏʙʟᴏᴄᴋ.'
+TRANSFER_BROADCAST: '&6&lsᴋʏʙʟᴏᴄᴋ | &7The sᴋʏʙʟᴏᴄᴋ''s leadership has been transferred
+  to {0}.'
+UNBAN_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} was UNBANNED from the sᴋʏʙʟᴏᴄᴋ by {1}.'
+UNCOOP_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} removed {1} from being a co-op member.'
+UNCOOP_AUTO_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7There are no sᴋʏʙʟᴏᴄᴋ members online and
+  therefore you were un-cooped automatically.'
+UNCOOP_LEFT_ANNOUNCEMENT: '&6&lsᴋʏʙʟᴏᴄᴋ | &7{0} left the game and is no longer a co-op
+  member.'
+UNIGNORED_ISLAND: '&e&lIsland | &7{0}''s island is now un-ignored from top islands.'
+UNIGNORED_ISLAND_NAME: '&e&lIsland | &7The island {0} is now un-ignored from top islands.'
+UNLOCK_WORLD_ANNOUNCEMENT: '&6&lWorlds | &7Your {0} world is now unlocked!'
+UNSAFE_WARP: '&6&lsᴋʏʙʟᴏᴄᴋ | &7&oLooks like this warp is unsafe. Please try another
+  warp.'
+UPDATED_PERMISSION: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Updated permissions for {0}.'
+UPDATED_SETTINGS: '&6&lsᴋʏʙʟᴏᴄᴋ | &7Updated the sᴋʏʙʟᴏᴄᴋ settings {0}.'
+UPGRADE_COOLDOWN_FORMAT: '&c&lError | &7You may only upgrade again in {0}.'
+VISITOR_BLOCK_COMMAND: '&c&lError | &7You cannot use that command on other sᴋʏʙʟᴏᴄᴋs.'
+WARP_ALREADY_EXIST: '&c&lError | &7There is already a warp with this name.'
+WARP_CATEGORY_ICON_NEW_LORE: |
+  &6&lWarps | &7Enter a new lore (Type "-cancel" to cancel):
+  &6&lWarps | &7You can separate lines by using "\n".
+WARP_CATEGORY_ICON_NEW_NAME: '&6&lWarps | &7Enter a name (Type "-cancel" to cancel):'
+WARP_CATEGORY_ICON_NEW_TYPE: '&6&lWarps | &7Enter a new material type (Type "-cancel"
+  to cancel):'
+WARP_CATEGORY_ICON_UPDATED: '&6&lWarps | &7Successfully updated the category''s icon.'
+WARP_CATEGORY_ILLEGAL_NAME: '&c&lError | &7Warp category names cannot be empty.'
+WARP_CATEGORY_NAME_TOO_LONG: '&c&lError | Warp category names cannot be longer than
+  255 chars.'
+WARP_CATEGORY_SLOT: '&6&lWarps | &7Enter a new slot (Type "-cancel" to cancel):'
+WARP_CATEGORY_SLOT_ALREADY_TAKEN: '&c&lError | &7This slot is already taken by another
+  category.'
+WARP_CATEGORY_SLOT_SUCCESS: '&6&lWarps | &7Successfully changed the category''s slot
+  to {0}.'
+WARP_CATEGORY_RENAME: '&6&lWarps | &7Enter a new name (Type "-cancel" to cancel):'
+WARP_CATEGORY_RENAME_ALREADY_EXIST: '&c&lError | &7This name is already taken by another
+  category.'
+WARP_CATEGORY_RENAME_SUCCESS: '&6&lWarps | &7Successfully renamed the category to
+  {0}.'
+WARP_ICON_NEW_LORE: |
+  &6&lWarps | &7Enter a new lore (Type "-cancel" to cancel):
+  &6&lWarps | &7You can separate lines by using "\n".
+WARP_ICON_NEW_NAME: '&6&lWarps | &7Enter a name (Type "-cancel" to cancel):'
+WARP_ICON_NEW_TYPE: '&6&lWarps | &7Enter a new material type (Type "-cancel" to cancel):'
+WARP_ICON_UPDATED: '&6&lWarps | &7Successfully updated the warp''s icon.'
+WARP_ILLEGAL_NAME: '&c&lError | &7Warp names cannot be empty.'
+WARP_LOCATION_UPDATE: '&6&lWarps | &7Successfully updated the warp''s location to
+  your location.'
+WARP_NAME_TOO_LONG: '&c&lError | Warp names cannot be longer than 255 chars.'
+WARP_PUBLIC_UPDATE: '&6&lWarps | &7Successfully opened the warp to the public.'
+WARP_PRIVATE_UPDATE: '&6&lWarps | &7Successfully closed the warp to the public.'
+WARP_RENAME: '&6&lWarps | &7Enter a new name (Type "-cancel" to cancel):'
+WARP_RENAME_ALREADY_EXIST: '&c&lError | &7This name is already taken by another warp.'
+WARP_RENAME_SUCCESS: '&6&lWarps | &7Successfully renamed the warp to {0}.'
+WITHDRAW_ALL_MONEY: |-
+  &6&lBank | &7sᴋʏʙʟᴏᴄᴋ bank has only {0} dollars inside it.
+  &6&lBank | &7&oWithdrawing all money..."
+WITHDRAW_ANNOUNCEMENT: '&6&lBank | &7{0} withdrawn ${1} from the sᴋʏʙʟᴏᴄᴋ bank!'
+WITHDRAW_ERROR: '&c&lError | &7{0}.'
+WITHDRAWN_MONEY: '&6&lBank | &7You withdrawn ${0} from {1}''s sᴋʏʙʟᴏᴄᴋ bank!'
+WITHDRAWN_MONEY_NAME: '&6&lBank | &7You withdrawn ${0} from the sᴋʏʙʟᴏᴄᴋ bank of {1}!'
+WORLD_NOT_ENABLED: '&6&lWorlds | &7This world is not enabled on the server.'
+WORLD_NOT_UNLOCKED: '&6&lWorlds | &7The {0} world is not unlocked yet!'

@@ -1,0 +1,20 @@
+location: spawn:0.416:99.000:10.173
+enabled: true
+display-range: 64
+update-range: 64
+update-interval: 20
+facing: 0.0
+origin: UP
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: LIGHT_BLUE_CANDLE'
+    height: 0.5
+  - content: '&b&lSkyblock &8| &f&lCrates'
+    height: 0.8
+  - content: '&fUse your keys to open the crates'
+    height: 0.3
+  - content: '&fand get a rewards!, you can get more keys by &aVoting!'
+    height: 0.3
+  actions: {}
+always-face-player: true

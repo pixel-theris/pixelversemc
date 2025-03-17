@@ -1,0 +1,250 @@
+menu_title: "&8Skyblock Menu"
+size: 53
+open_command:
+- menu
+- main
+register_command: true
+items:
+
+  'CLOSE':
+    material: BARRIER
+    update: true
+    display_name: '&b&l✘ &bClose'
+    slot: 49
+    click_commands:
+    - '[close]'
+    - '[sound] BLOCK_CHEST_CLOSE'
+
+  'stats':
+    material: head-%player_name%
+    update: true
+    display_name: '&b&lProfile &f%player_name%'
+    slot: 13
+    lore:
+    - ' '
+    - '&bInformation:'
+    - ' &8| &7Rank: &b%vault_prefix%'
+    - ' &8| &7Playtime: &b%statistic_time_played%'
+
+  'help':
+    material: EMERALD
+    update: true
+    display_name: '&b&lHelp?'
+    slot: 23
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Do you need help with something?'
+    - ' &e| &fClick to view!'
+    click_commands:
+    - '[player] help'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'rules':
+    material: BOOK
+    update: true
+    display_name: '&b&lRules'
+    slot: 21
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Have you agree to our rules?'
+    - ' &b| &7please read our rules & agreements first!'
+    - ' &e| &fClick to view!'
+    click_commands:
+    - '[player] rules'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+    - '[close]'
+
+  'auction':
+    material: gold_ingot
+    update: true
+    display_name: '&b&lAuction House'
+    slot: 22
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Sell or Bid items on auctionhouse'
+    - ' &b| &7With more better price!'
+    - ' &e| &fClick to open!'
+    click_commands:
+    - '[player] ah'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+  'skills':
+    material: Diamond_Sword
+    update: true
+    item_flags:
+    - [HIDE_ATTRIBUTES]
+    - [HIDE_ENCHANTMENTS]
+    display_name: '&b&lYour Skills'
+    slot: 19
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7View Your Skill progression and'
+    - ' &b| &7rewards'
+    - ' &e| &fClick to view!'
+    click_commands:
+    - '[player] skills'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE' 
+    
+  'ranks':
+    material: Painting
+    update: true
+    display_name: '&b&lRanks'
+    slot: 20
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Donate for our server and unlock'
+    - ' &b| &7a special perks!'
+    - ' &e| &fClick to view.'
+    - '&bInformation'
+    - ' &8▪ &7Rank: &f%vault_prefix%'
+    click_commands:
+    - '[player] ranks'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'craft':
+    material: 'crafting_table'
+    update: true
+    display_name: '&b&lCrafting Table'
+    slot: 31
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Opens the crafting grid.'
+    - ' &e| &fClick to open!'
+    click_commands:
+    - '[player] craft'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+    
+  'daily':
+    material: 'clock'
+    update: true
+    display_name: '&b&lDaily Rewards'
+    slot: 24
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7View your Daily rewards'
+    - ' &e| &fClick to view.'
+    click_commands:
+    - '[player] dailyrewards'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'    
+    
+  'bank':
+    material: 'gold_block'
+    update: true
+    display_name: '&b&lBank'
+    slot: 32
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Deposit or Withdraw!'
+    - ' &b| &7In the Bank!'
+    - ' &e| &fClick to view.'
+    click_commands:
+    - '[player] bank'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'  
+
+  'warps':
+    material: 'spyglass'
+    update: true
+    display_name: '&b&lFast Travel'
+    slot: 47
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Teleport to warps you'
+    - ' &b| &7have already visited'
+    - ' &e| &fClick to open.'
+    click_commands:
+    - '[player] warps'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'enderchest':
+    material: 'ender_chest'
+    update: true
+    display_name: '&b&lStorage'
+    slot: 25
+    lore:
+    - ' '
+    - '&bDescription'
+    - ' &b| &7Store global items that you want'
+    - ' &b| &7to access at time from'
+    - ' &b| &7anywhere here.'
+    - ' &e| &fClick to view!'
+    click_commands:
+    - '[player] ec'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'trash':
+    material: 'bucket'
+    update: true
+    display_name: '&b&lTrash'
+    lore: 
+    - ''
+    - '&bDescription'    
+    - ' &b| &7a Trash bin... what do you expect?'
+    - ' &e| &fClick to view!'
+    slot: 51
+    click_commands:
+    - '[player] trash'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'shop':
+    material: 'gold_nugget'
+    update: true
+    display_name: '&b&lShop'
+    lore: 
+    - ''
+    - '&bDescription'    
+    - ' &b| &7Buy and sell items instanly'
+    - ' &e| &fClick to view!'
+    slot: 30
+    click_commands:
+    - '[player] shop'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+  'pointsshop':
+    material: 'iron_nugget'
+    update: true
+    display_name: '&b&lPoints Shop'
+    lore: 
+    - ''
+    - '&bDescription'    
+    - ' &b| &7Open the points shop'
+    - ' &e| &fClick to view!'
+    slot: 48
+    click_commands:
+    - '[player] points'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+
+  'Island Panel':
+    material: 'Grass_Block'
+    update: true
+    display_name: '&b&lIsland Menu'
+    lore: 
+    - ''
+    - '&bDescription'    
+    - ' &b| &7Open the Island Menu'
+    - ' &e| &fClick to view!'
+    slot: 50
+    click_commands:
+    - '[player] is panel'
+    - '[sound] BLOCK_NOTE_BLOCK_IRON_XYLOPHONE'
+
+
+  'background_head':
+    material: BLACK_STAINED_GLASS_PANE
+    display_name: " &r "
+    slots:
+    - 0-8
+    - 9-12
+    - 14-18
+    - 26-29
+    - 33-44
+    - 45-46
+    - 52-53

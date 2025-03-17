@@ -1,0 +1,16 @@
+RewardsInfo:
+  ==: net.playavalon.mythicdungeons.dungeons.rewards.PlayerLootData
+  Player: ItzOverWolf
+  UUID: 1f94f176-d12e-4907-86fb-439e3fb36d02
+  Loot:
+  - ==: net.playavalon.mythicdungeons.dungeons.rewards.LootCooldown
+    LootedTime: 1705596829149
+    LootLocation:
+      ==: org.bukkit.Location
+      x: -46.0
+      y: 17.0
+      z: -51.0
+      pitch: 0.0
+      yaw: 0.0
+    ResetTime: 1705596829149
+Finished: true

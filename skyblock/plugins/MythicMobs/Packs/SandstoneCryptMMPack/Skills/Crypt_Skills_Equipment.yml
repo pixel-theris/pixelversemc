@@ -1,0 +1,190 @@
+#+-------------------------------+#
+#        Equipment Selector       #
+#+-------------------------------+#
+
+SkeletonRandomEquipment_Skeletonling:
+  Cooldown: 1
+  Skills:
+  - randomskill{skills=SkeletonArmor_Leather_1,SkeletonArmor_Leather_2,SkeletonArmor_Leather_3,SkeletonArmor_Leather_4,SkeletonArmor_Leather_5}
+  - randomskill{skills=SkeletonlingWeapon_1,SkeletonlingWeapon_2,SkeletonlingWeapon_3,SkeletonlingWeapon_4,SkeletonlingWeapon_5,SkeletonlingWeapon_5,SkeletonlingWeapon_6,SkeletonlingWeapon_6,SkeletonlingWeapon_7,SkeletonlingWeapon_7}
+
+SkeletonRandomEquipment_Knight:
+  Conditions:
+  - stance knight
+  Skills:
+  - randomskill{skills=SkeletonArmor_Chainmail,SkeletonArmor_Chainmail,SkeletonArmor_Chainmail,SkeletonArmor_Chainmail,SkeletonArmor_Iron,SkeletonArmor_Iron,SkeletonArmor_Iron,SkeletonArmor_Iron,SkeletonArmor_Iron}
+  - randomskill{skills=SkeletonWeapon_1,SkeletonWeapon_1,SkeletonWeapon_2,SkeletonWeapon_2,SkeletonWeapon_3,SkeletonWeapon_4,SkeletonWeapon_4,SkeletonWeapon_4,SkeletonWeapon_4,SkeletonWeapon_5,SkeletonWeapon_5,SkeletonWeapon_6}
+
+SkeletonRandomEquipment_Archer:
+  Conditions:
+  - stance archer
+  Skills:
+  - randomskill{skills=SkeletonArmor_Leather_1,SkeletonArmor_Leather_2,SkeletonArmor_Leather_3,SkeletonArmor_Leather_4,SkeletonArmor_Leather_5,SkeletonArmor_Chainmail,SkeletonArmor_Archer}
+
+SkeletonRandomEquipment_WarMage:
+  Conditions:
+  - stance warmage
+  Skills:
+  - randomskill{skills=SkeletonHelmet_Leather_6,SkeletonHelmet_Leather_6,SkeletonHelmet_Leather_6_E}
+  - randomskill{skills=SkeletonChestplate_Leather_6,SkeletonChestplate_Leather_6,SkeletonChestplate_Leather_6_E}
+  - randomskill{skills=SkeletonLeggings_Leather_6,SkeletonLeggings_Leather_6,SkeletonLeggings_Leather_6_E}
+  - randomskill{skills=SkeletonBoots_Leather_6,SkeletonBoots_Leather_6,SkeletonBoots_Leather_6_E}
+  - randomskill{skills=SkeletonWeapon_Wand_1,SkeletonWeapon_Wand_2}
+
+SkeletonRandomEquipment_AxeThrower:
+  Conditions:
+  - stance axethrower
+  Skills:
+  - randomskill{skills=SkeletonArmor_Leather_1,SkeletonArmor_Leather_2,SkeletonArmor_Leather_3,SkeletonArmor_Leather_4,SkeletonArmor_Leather_5}
+
+#+-------------------------------+#
+#         Equipment Skills        #
+#+-------------------------------+#
+
+#+-------------------------------+#
+#          Skeleton Equipment          #
+#+-------------------------------+#
+
+SkeletonArmor_Leather_1:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_1:4}
+  - equip{i=SkeletonChestplate_Leather_1:3}
+  - equip{i=SkeletonLeggings_Leather_1:2}
+  - equip{i=SkeletonBoots_Leather_1:1}
+SkeletonArmor_Leather_2:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_2:4}
+  - equip{i=SkeletonChestplate_Leather_2:3}
+  - equip{i=SkeletonLeggings_Leather_2:2}
+  - equip{i=SkeletonBoots_Leather_2:1}
+SkeletonArmor_Leather_3:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_3:4}
+  - equip{i=SkeletonChestplate_Leather_3:3}
+  - equip{i=SkeletonLeggings_Leather_3:2}
+  - equip{i=SkeletonBoots_Leather_3:1}
+SkeletonArmor_Leather_4:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_4:4}
+  - equip{i=SkeletonChestplate_Leather_4:3}
+  - equip{i=SkeletonLeggings_Leather_4:2}
+  - equip{i=SkeletonBoots_Leather_4:1}
+SkeletonArmor_Leather_5:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_5:4}
+  - equip{i=SkeletonChestplate_Leather_5:3}
+  - equip{i=SkeletonLeggings_Leather_5:2}
+  - equip{i=SkeletonBoots_Leather_5:1}
+#SkeletonArmor_Leather_6:
+#  Skills:
+#  - equip{i=SkeletonHelmet_Leather_6:4}
+#  - equip{i=SkeletonChestplate_Leather_6:3}
+#  - equip{i=SkeletonLeggings_Leather_6:2}
+#  - equip{i=SkeletonBoots_Leather_6:1}
+#SkeletonArmor_Leather_6_E:
+#  Skills:
+#  - equip{i=SkeletonHelmet_Leather_6_E:4}
+#  - equip{i=SkeletonChestplate_Leather_6_E:3}
+#  - equip{i=SkeletonLeggings_Leather_6_E:2}
+#  - equip{i=SkeletonBoots_Leather_6_E:1}
+SkeletonArmor_Chainmail:
+  Skills:
+  - equip{i=SkeletonHelmet_Chainmail:4}
+  - equip{i=SkeletonChestplate_Chainmail:3}
+  - equip{i=SkeletonLeggings_Chainmail:2}
+  - equip{i=SkeletonBoots_Chainmail:1}
+SkeletonArmor_Iron:
+  Skills:
+  - equip{i=SkeletonHelmet_Iron:4}
+  - equip{i=SkeletonChestplate_Iron:3}
+  - equip{i=SkeletonLeggings_Iron:2}
+  - equip{i=SkeletonBoots_Iron:1}
+SkeletonArmor_Archer:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_1:4}
+  - equip{i=SkeletonChestplate_Chainmail:3}
+  - equip{i=SkeletonLeggings_Chainmail:2}
+  - equip{i=SkeletonBoots_Chainmail:1}
+
+SkeletonHelmet_Leather_6:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_6:4}
+SkeletonChestplate_Leather_6:
+  Skills:
+  - equip{i=SkeletonChestplate_Leather_6:3},
+SkeletonLeggings_Leather_6:
+  Skills:
+  - equip{i=SkeletonLeggings_Leather_6:2}
+SkeletonBoots_Leather_6:
+  Skills:
+  - equip{i=SkeletonBoots_Leather_6:1}
+SkeletonHelmet_Leather_6_E:
+  Skills:
+  - equip{i=SkeletonHelmet_Leather_6_E:4}
+SkeletonChestplate_Leather_6_E:
+  Skills:
+  - equip{i=SkeletonChestplate_Leather_6_E:3},
+SkeletonLeggings_Leather_6_E:
+  Skills:
+  - equip{i=SkeletonLeggings_Leather_6_E:2}
+SkeletonBoots_Leather_6_E:
+  Skills:
+  - equip{i=SkeletonBoots_Leather_6_E:1}
+
+SkeletonWeapon_1:
+  Skills:
+  - equip{i=SkeletonWeapon_1:0}
+SkeletonWeapon_2:
+  Skills:
+  - equip{i=SkeletonWeapon_2:0}
+SkeletonWeapon_3:
+  Skills:
+  - equip{i=SkeletonWeapon_3:0}
+  - equip{i=SkeletonWeapon_Shield:5}
+SkeletonWeapon_4:
+  Skills:
+  - equip{i=SkeletonWeapon_4:0}
+SkeletonWeapon_5:
+  Skills:
+  - equip{i=SkeletonWeapon_5:0}
+SkeletonWeapon_6:
+  Skills:
+  - equip{i=SkeletonWeapon_6:0}
+  - equip{i=SkeletonWeapon_Shield:5}
+SkeletonWeapon_Bow_1:
+  Skills:
+  - equip{i=SkeletonWeapon_Bow_1:0}
+SkeletonWeapon_Bow_2:
+  Skills:
+  - equip{i=SkeletonWeapon_Bow_2:0}
+SkeletonWeapon_Wand_1:
+  Skills:
+  - equip{i=SkeletonWeapon_Wand_1:0}
+SkeletonWeapon_Wand_2:
+  Skills:
+  - equip{i=SkeletonWeapon_Wand_2:0}
+SkeletonWeapon_Lighter:
+  Skills:
+  - equip{i=SkeletonWeapon_Lighter:0}
+
+SkeletonlingWeapon_1:
+  Skills:
+  - equip{i=SkeletonlingWeapon_1:0}
+SkeletonlingWeapon_2:
+  Skills:
+  - equip{i=SkeletonlingWeapon_2:0}
+SkeletonlingWeapon_3:
+  Skills:
+  - equip{i=SkeletonlingWeapon_3:0}
+SkeletonlingWeapon_4:
+  Skills:
+  - equip{i=SkeletonlingWeapon_4:0}
+SkeletonlingWeapon_5:
+  Skills:
+  - equip{i=SkeletonlingWeapon_5:0}
+SkeletonlingWeapon_6:
+  Skills:
+  - equip{i=SkeletonlingWeapon_6:0}
+SkeletonlingWeapon_7:
+  Skills:
+  - equip{i=SkeletonlingWeapon_7:0}

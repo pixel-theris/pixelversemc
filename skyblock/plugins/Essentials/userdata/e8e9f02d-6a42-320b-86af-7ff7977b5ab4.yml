@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 171.233.88.38
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1706362208039
+  login: 1706361852031
+money: '0'
+last-account-name: Coconutium
+lastlocation:
+  world: bbb2403f-161c-457c-8f1f-6313e6b80774
+  world-name: spawn
+  x: -1.9459331972972869
+  y: 103.0326014164125
+  z: 13.345169620833213
+  yaw: 57.73217010498047
+  pitch: 5.099943161010742
+logoutlocation:
+  world: bbb2403f-161c-457c-8f1f-6313e6b80774
+  world-name: spawn
+  x: -11.468539225171911
+  y: 99.37254795596608
+  z: 10.57583081576985
+  yaw: -99.61944580078125
+  pitch: -17.25002670288086

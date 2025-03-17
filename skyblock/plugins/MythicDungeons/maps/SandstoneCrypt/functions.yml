@@ -1,0 +1,1709 @@
+Version: 1
+Functions:
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: &id001
+    ==: net.playavalon.mythicdungeons.api.parents.FunctionTargetType
+    value: PARTY
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 17.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionCheckpoint
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 128.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 3.0
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: &id002
+    ==: net.playavalon.mythicdungeons.api.parents.FunctionTargetType
+    value: NONE
+  location:
+    ==: org.bukkit.Location
+    x: 98.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 18.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 20.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 19.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 25.0
+    y: 16.0
+    z: -56.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionRemoteTrigger
+  triggerName: OPENBOSS
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 110.0
+    y: 18.0
+    z: -26.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -21.0
+    y: 16.0
+    z: -77.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionAllowBlock
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 95.0
+    y: 16.0
+    z: -74.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 25.0
+    y: 16.0
+    z: -46.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 107.0
+    y: 15.0
+    z: -21.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -11.0
+    y: 16.0
+    z: -77.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionMessage
+  messageType: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 95.0
+    y: 15.0
+    z: -70.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 3.0
+    conditions: []
+  message: §cSkeleton Mage §f> Don't think about stealing my treasure!
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 36.0
+    y: 16.0
+    z: -46.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionAllowBlock
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 94.0
+    y: 16.0
+    z: -75.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 20.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionMessage
+  messageType: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 111.0
+    y: 17.0
+    z: -25.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  message: §6System §f> Gate Opened
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 90.0
+    y: 15.0
+    z: -64.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skeletonling
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -14.0
+    y: 16.0
+    z: -76.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 18.0
+    z: -49.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 16.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 17.0
+    z: -53.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skeletonling
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -14.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 2
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonDrummer
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 107.0
+    y: 15.0
+    z: -26.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 19.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 20.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionRemoteTrigger
+  triggerName: OPENBEGIN
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -16.0
+    y: 19.0
+    z: -78.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 16.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 79.0
+    y: 14.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionMessage
+  messageType: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: -16.0
+    y: 16.0
+    z: -41.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 5.0
+    conditions: []
+  message: §6Sandstone Crypt§f, by §bThe Nexus
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 17.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 18.0
+    z: -53.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 100.0
+    y: 15.0
+    z: -38.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionDoorControl
+  lockedByDefault: true
+  openOnUnlock: true
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 118.0
+    y: 17.0
+    z: -26.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerKeyItem
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: TRIPWIRE_HOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Dungeon
+          Key"}],"text":""}'
+        PublicBukkitValues:
+          mythicdungeons:dungeonkey: 1i
+    useAnywhere: false
+    allowRetrigger: false
+    consumeItem: true
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skeletonling
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -18.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 2
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionMessage
+  messageType: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: -3.0
+    y: 16.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  message: §6System §f> Gate Opened
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionCheckpoint
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 64.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 3.0
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 17.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 18.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 20.0
+    z: -53.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 19.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 92.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skeletonling
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -18.0
+    y: 16.0
+    z: -76.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionMessage
+  messageType: 0
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: -16.0
+    y: 16.0
+    z: -43.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 3.0
+    conditions: []
+  message: §cSkeleton Mage §f> Who dares entire my Crypt. Those who enter, always
+    die. Guards, get this tresspassor.
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 20.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.rewards.FunctionRandomReward
+  period: 0
+  targetType: &id003
+    ==: net.playavalon.mythicdungeons.api.parents.FunctionTargetType
+    value: PLAYER
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: false
+    conditions: []
+  rewardMinCount: 1
+  cooldownDisabled: false
+  resetDay: 1
+  overrideCooldown: false
+  xp: 20
+  location:
+    ==: org.bukkit.Location
+    x: -46.0
+    y: 17.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  rewardMaxCount: 3
+  cooldownTime: 0
+  rewards: &id004
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: NETHERITE_INGOT
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: NETHERITE_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: GOLD_INGOT
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: GOLD_INGOT
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: GOLD_INGOT
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: EMERALD
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: EMERALD
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: EMERALD
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: DIAMOND
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: DIAMOND
+    amount: 8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  levels: 0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 105.0
+    y: 15.0
+    z: -29.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 17.0
+    z: -49.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 18.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 19.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 19.0
+    z: -49.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 20.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonWarMage
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 138.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 6.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -39.0
+    y: 16.0
+    z: -49.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 11.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 105.0
+    y: 15.0
+    z: -23.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionGiveKey
+  drop: false
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3218
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Dungeon
+        Key"}],"text":""}'
+      PublicBukkitValues:
+        mythicdungeons:dungeonkey: 1i
+  targetType: *id003
+  location:
+    ==: org.bukkit.Location
+    x: 37.0
+    y: 17.0
+    z: -43.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionFinishDungeon
+  leave: true
+  targetType: *id003
+  location:
+    ==: org.bukkit.Location
+    x: 146.0
+    y: 17.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: true
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonDrummer
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 60.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 10.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 116.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 17.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 18.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -42.0
+    y: 16.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 8.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skeletonling
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -16.0
+    y: 16.0
+    z: -76.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 19.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionAllowBlock
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 95.0
+    y: 17.0
+    z: -75.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 16.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 17.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 18.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 19.0
+    z: -53.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: -39.0
+    y: 16.0
+    z: -53.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 8.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionAllowBlock
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 96.0
+    y: 16.0
+    z: -75.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 18.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 19.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 36.0
+    y: 16.0
+    z: -56.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 130.0
+    y: 20.0
+    z: -49.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBOSS
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 14.0
+    y: 16.0
+    z: -46.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 107.0
+    y: 15.0
+    z: -30.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionAllowBlock
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 95.0
+    y: 16.0
+    z: -76.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDungeonStart
+    allowRetrigger: false
+    conditions: []
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 17.0
+    z: -52.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 90.0
+    y: 15.0
+    z: -38.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonArcher
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 100.0
+    y: 15.0
+    z: -64.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 15.0
+    conditions: []
+  maxCount: 1
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: Skele
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 14.0
+    y: 16.0
+    z: -56.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 7.0
+    conditions: []
+  maxCount: 4
+  yaw: 0.0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.rewards.FunctionRandomReward
+  period: 0
+  targetType: *id003
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerInteract
+    allowRetrigger: false
+    conditions: []
+  rewardMinCount: 1
+  cooldownDisabled: false
+  resetDay: 1
+  overrideCooldown: false
+  xp: 20
+  location:
+    ==: org.bukkit.Location
+    x: 121.0
+    y: 17.0
+    z: -26.0
+    pitch: 0.0
+    yaw: 0.0
+  rewardMaxCount: 3
+  cooldownTime: 0
+  rewards: *id004
+  levels: 0
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionBlockEditor
+  blockType: SMOOTH_SANDSTONE
+  targetType: *id001
+  location:
+    ==: org.bukkit.Location
+    x: 0.0
+    y: 20.0
+    z: -50.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerRemote
+    triggerName: OPENBEGIN
+    allowRetrigger: false
+    conditions: []
+  remove: true
+  direction: NORTH
+- ==: net.playavalon.mythicdungeons.dungeons.functions.FunctionSpawnMythicMob
+  mob: SkeletonKnight
+  delay: 0
+  level: 0
+  interval: 0
+  targetType: *id002
+  location:
+    ==: org.bukkit.Location
+    x: 56.0
+    y: 15.0
+    z: -51.0
+    pitch: 0.0
+    yaw: 0.0
+  trigger:
+    ==: net.playavalon.mythicdungeons.dungeons.triggers.TriggerDistance
+    forEachPlayer: false
+    count: 1
+    allowRetrigger: false
+    radius: 9.0
+    conditions: []
+  maxCount: 2
+  yaw: 0.0

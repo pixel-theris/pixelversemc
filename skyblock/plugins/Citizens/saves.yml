@@ -1,0 +1,794 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 24
+npc:
+  '2':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: 86902335-f0b3-40eb-bd2e-d6aec9ef8989
+    name: '&e&lCLICK'
+    uuid: ca1b9739-fb3e-4790-8965-3f2658a10b44
+    traits:
+      location:
+        bodyYaw: 24.644814
+        world: spawn
+        x: 8.5
+        y: 96.0
+        z: -20.5
+        yaw: 24.6448
+        pitch: -1.9814
+      type: PLAYER
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      skintrait:
+        signature: Rofk1tcnuTyDmahHEo1PGVAQUKUP7msZTr+ke358dvrNoFHPq8Iy2J/q/3SxR0ppBDLRNh29j66TDeP7gtq3CyZvKQGIHYCM6H4RqaFJZ7+Uu9YZ1zBy25Db8im6WCryxKvrRhqQ6a8T4gkMfPdPeSo+yi+Q1/QOlFwL94JGPx0wYaoLrekZbVfH8o9uRGE0XWjUt4R7xo7teah7wACkAxBzIlrrnX4FJ6YGFcpnZUXxKSpJIbtlOboO2PDAabmGcTFsSyIOAZjAgf9coyoJVq2N7FI2gnpLPnUXOuSrm1JAaIpjsvJzxo3qvjnPOtJeGW2tellUQ0cfRmpLRL1Lt3Gasj07b9ze/X84rPGtppWYTFYtE0pZvOMPI3OXaolqyYHUyUL6ZZZ0Z1eYhrTCZMWFu+Jx18eatUWLGUbo+lFy48m93Znuaa5Ob96Gurzgm9v4lsh5uHA+xxikva75rs9xslUHESkdYFyJ585QMIoc7PQrWPjM5NW93+UGnDLR54FURIt0rFA6RnC0p/wtO+4sieOLed3UbyA0Z9rUNoWa6gHbW+eQ/HbrePaAVKN1DEgn3wMz4JRkwqIG+2msVYTQYZqDtWTCHoqWVPMTuRGlOkRFYf/Jali4G0jaIjw+WuLixUhVNZz/1zC9+VyvGaqwsJ8dwrGoZFEvipH9Ois=
+        skinName: 86902335-f0b3-40eb-bd2e-d6aec9ef8989
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5ODE3MzkxMDA5MiwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE5NzFkNzk2ZGM0ZGM5YWYzOGNjOTcwNjc5NjNkZTRlZDJiZjk5OTIyNDI1NzQxNmRmYjg0MTQ4OGZkOWUwZCIKICAgIH0KICB9Cn0=
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lAUCTION HOUSE'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: ah
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '10':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: b030b5db-5401-4094-918a-0b2be01ce4d7
+    name: '&e&lCLICK'
+    uuid: 59a56cbf-b151-4daf-8f7a-273a9a3221fe
+    traits:
+      skintrait:
+        signature: UiJR7XMUsmXbMCWnG8HXNPGNFLQDWlm51I2dU2/hHOOrfEQIR1o0/8szYJ7zqUUyLvtJwtEzOKMPxGvWRFsjc07Z+gCgqfVb05+4KvQHHGTrkd7rf+vJN3hjafnQvn8zxU1kyRi86W+uIUJxMlNDY62oQ4DCpK/j7ir5psDC38xDh0/bsFiGEraIC7NwDWoqspwCUyYA+F+k9aaPwgMtEX+OJlQ6PTNSS6wsg0gRcN1am4025AGIbdk9cK3i2JGJjz/UzrpnF5t6HmuN47Eo/4iVEn05RCTjrhqu0oAmKUMk4peGy+sFKKLbeOCnWJ7TNMaxK/uxLgLD/V6aCD/05ryaavBtitZUdzEaZgf6rfYG1Me6kp7PFYJqFsxvKLOsASuZITbXo95UR3FjS0YDjBwkNjS0qaX24GnDVZ2jF3dYcHzpkiEPrRJdLVmD7VLBr9QUQK6dRhuGf7B/Smo0uKhnmIZWOnPYS0+0uVUvorhpl7ZGbx84c2VZdQ30w8SDYL5z9w1btLajF9hGT5j6tpGxdTw0B1GNwhtaLq2rGhHlnC4ThCkGLpK2WKZmxtcrpE5Yv4F4Yd8WaJLcaKTuHtD0Q4jIXgSnxMdy+qkisVKC82cPht6z/iGzG8V5OpfquJ6YLRw4hF0bw0USIKX4lTmJZ1iVmla9w1uu5di4qpo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMTcxNjg1OTAyMCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmZTJkY2RhNDFlYzNhZmY4YWY1MGYyNzJlYzJlMDZhOGY1MDllMGY4MDdmMjM1NWExZjVhMzNjMWI2NmU5YjQiCiAgICB9CiAgfQp9
+        skinName: b030b5db-5401-4094-918a-0b2be01ce4d7
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -2.8001633
+        world: spawn
+        x: -12.5
+        y: 96.0
+        z: -15.5
+        yaw: -2.8002
+        pitch: -6.1552
+      commandtrait:
+        commands:
+          '0':
+            command: shop
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lBAZAAR'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '12':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: 72824a88-9c7c-4753-bce7-35ead89705d3
+    name: '&e&lCLICK'
+    uuid: a716013b-b968-457a-8d78-4ada5206efa7
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: mortisbank
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: bank
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      skintrait:
+        signature: AQPJtP1C02FBvFZQlkE2K+sThg8GlOy9JrZJCu27PRECsZtc4UQkoJQRanPKiJn7aw6iilv/VZH9uKuYY9X51gSfmI13lNL5/t279V8CVsNIgh6z7bsLgS0jtqTHrMe2hhDc5hZ4UEV7THDtszs+6nNY+Ua56kU3S1RFx30mPccjLg3tB50vPgT7npHaqsCsS90qs1iJzy9FrQ2p2+tM3tQmeSIgb0zqjWbTw3JDIZPnsleYEZ2nfhLRym4YTOTuv/dc3HsQvB8rxmGhjEkZNm5ki8o3uCRkkA9umrbb/t3iLY07l8yg90/EHItmgTXcBDj3h9QWbtQqiESQi9WzAYD/A1yN0tIZRz9Wi0iK8BIy9iRWXBiw4tnpmBGz7Xx8gMJVvV5znatL1AB/NZbbdheCtvlwGRAM+sRGU6lPicydhXayAjd7UpfavQS6RECtqRCq7GOss/GP3QZZQALpKHrTMRIDSVtK/wJ74FGx01gjJck9JkRqw48SDgvjxg6G2nzCkuDvNljVw3isOgT/TqranvwBTrIlzQmb8QfnvPcP7yUImqvGGW1R1bq9sQM1FyFufmq6QS3nBhTsEqSzDP8ADz5uty3qP6gaCmKy1dN6cdBeABpJOxgt5ySsBHjyDcIbk5a7Jh+YHWNP3Tq5QfrVdl+6pXVnQqYpnmYMbMU=
+        skinName: 72824a88-9c7c-4753-bce7-35ead89705d3
+        textureRaw: eyJ0aW1lc3RhbXAiOjE1ODgxMDQxNDI2NzUsInByb2ZpbGVJZCI6IjRkNzA0ODZmNTA5MjRkMzM4NmJiZmM5YzEyYmFiNGFlIiwicHJvZmlsZU5hbWUiOiJzaXJGYWJpb3pzY2hlIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZDEyNzY1MTBhOTM2ZmE0YmIwNjFiMzBkODdkZWI5ZjRiOGI2NDBiYmI1MGE2ZDc4ZDk5ZTkyMGYwYTE4YmZiIn19fQ==
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      location:
+        bodyYaw: -13.162361
+        world: spawn
+        x: -17.5
+        y: 90.0
+        z: -40.5
+        yaw: -13.1624
+        pitch: -29.9262
+      spawned: true
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lBanker'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '13':
+    metadata:
+      cached-skin-uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      cached-skin-uuid-name: itzoverwolf
+    name: '&e&lCLICK'
+    uuid: a6768bb6-dded-4821-8e85-054cacb98819
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -138.50554
+        world: spawn
+        x: -5.4633
+        y: 96.0
+        z: 14.4557
+        yaw: -138.5055
+        pitch: -5.3747
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      skintrait:
+        signature: hFYLddOJO+m2GH55W1Pn1DJGvas3M+R1y3fZ023eDJihbI0wkb7p4ilBny27Vt4tPkdsjH6trKIeYBlGBOmZg7yvb12nNIY2V0WHcs0ZH5TN1alwLsLOmUPi1aKGMUX0FrVdjpk4fOEeHhnOAWNjEFzXEGkzkuxbb2h5K4xhhnlS6NQ9TUwfHE80DFXka90YRB9jmOL+eIExxnmYVkdyVKm0IHD1c3LElSvTqS5mLNho2ahaaSbRC9IUApKADEWbnhIJKiLi0amcSpUBzFNT1vKuBzOO+l6BTlljWAX0JD5Ca6Qnc6Eu6mpOZrBkcgcHc8w3acIUogtvDjCk0V8jO49YJbjVxkEk67ml9WdIPGtbRyaoOV2k32tKtqzchcx55EplhYedur+LxusLo4VCsoePxSp/XR/fSk5LRhaZ/6/8KO7qU9yboThKbY8UgZ/OYzcffql4b9xrnXUiiPHIv1xrMPiZbNeDZTMNiQ++YUbvrGkbokI3ZigqZEFTy9SA/K/mMiZ+59thTQu5l6gjUN613PhA6W7WeqM9uf9K1i/6k0uZ20yC0S40Xr7HyHPvEIEIm3/EvtOSJ+N/cnhbEilkHK4SfanSaQNworCxEdTxEZFEF4X7XD+vNrhrzORl830OXK4ef4ipB1N9AurfxKmbyLrHrVQJb83tyVSH44A=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNDk2NDQ4OTA3NywKICAicHJvZmlsZUlkIiA6ICIxZjk0ZjE3NmQxMmU0OTA3ODZmYjQzOWUzZmIzNmQwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJJdHpPdmVyV29sZiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jN2Y1YTY2MDI5YjhiMzgxYmVlODgwYTNlNGFhN2NhMzFmOTljMjdiNDcxZGQwZDNiMGQwNTVlNzE0MDQ4M2IzIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+        skinName: ItzOverWolf
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&LPOINTS SHOP'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: pointss
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    metadata:
+      cached-skin-uuid: be3e9c9d-9adb-426e-a61e-680f72ec20ff
+      cached-skin-uuid-name: kasun
+    name: '&e&lCLICK'
+    uuid: 2b5937aa-aba1-4db6-84c0-943c67d340da
+    traits:
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6&lRANKS'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      commandtrait:
+        commands:
+          '0':
+            command: ranks
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      skintrait:
+        signature: hbgBnMO3erIU14rbqJUmUPfoSsRBqGWzgS/yAK5cLc2CV7AwxhP8JxxIT23aiQ9/ut4b6ewd7Sjie2MDJ8VbgTJerXgxnt3XGumzQxAL2vH1U6X+58zx81+0dRTtQm6yC+Q9hsjd3eDzePGtY2sDrZNrqtyL3Q4oC+oMaWlpAlDL82QGKNCUW6ALlKbw1g5Nb1Wpcu43FC8Y8OW0H6IZXsRPab+XEwaf/E7H10nFIYiT9qTqtzxlwl55JkgPoJnufTQoT6OpvfRSGV77+Eux+pPUks3oaTk6jMhEmPTzTbyNjCFNCFpb9uoIlqKBJPdGY5JKxYYqzVCOsuK2WPVYZdfBZz+xajJApbdVyacwBsCvPo7S3JWdScCeaRef9iCr/KaLIEqTvn74rWluWjmJnDrqgEKFr7njbr8vMByBb4FIeWf5SwP+uOHE3sZrAuDYKLOjw0sjb7MDgbFAYO+Yc1cuyZiHZqCgJGt6FyeqVPzbU5RqNh2ERvYCknuSsxETo7MN0TCaO29mbIeujlZ9Dk+2OSwxFDOc0FbQdd0w0+Gat8eFqCPDCao4fXhQiwpBa2mc0YCmkp+xJjoBCIdh/IyaxNs+pBJLhTNWigTDltJ6vSO3CR848C31+ypgnpmYKvEGmERyrJAJ5Zx3TaNwq01PPTLS0hSd5yHwiZS1uOU=
+        skinName: Kasun
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNDk2ODkxMDYxNSwKICAicHJvZmlsZUlkIiA6ICJiZTNlOWM5ZDlhZGI0MjZlYTYxZTY4MGY3MmVjMjBmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYXN1biIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYWYyYTU2YjhkZmYyMGY0YWVhZmE5MTFhNWMxNWY1MjhlMzM2MWJkZTVmZmY0NzQwYzgxZGU1YjA3NDg0MDlhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      spawned: true
+      location:
+        bodyYaw: 34.573105
+        world: spawn
+        x: -15.5
+        y: 96.0
+        z: 11.5
+        yaw: 34.5731
+        pitch: -3.9139
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '16':
+    metadata:
+      cached-skin-uuid: c3ddd011-ffb6-4d95-9fea-945a55876ed3
+      cached-skin-uuid-name: opss
+    name: '&e&lCLICK'
+    uuid: aec38581-52a1-4a8e-aec1-42e9d5f3939e
+    traits:
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      commandtrait:
+        commands:
+          '0':
+            command: help
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      hologramtrait:
+        lines:
+          '0':
+            text: '&e&lHelp?'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 102.12567
+        world: spawn
+        x: 17.5
+        y: 96.0
+        z: -7.5
+        yaw: 110.5621
+        pitch: -3.8422
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: DR9oPNzSSKFrtM1FQ/BZVl5aGK0t7y0yJBQAu8bYXObG12yPYjPSHRnVPWzjvVaDAkYFCgo+NqBiWvDxB+vN236p9i/LLZe9jjYzZ8DV54YIw/+USFa+pE3RSqVvVGaGPVpLdrCdkiYKBPAs3Ypcu4lAc63Uut/x619qbPvTLTqBnE/mo2OhJJAaABSG/9Db/26lZvS0EMYlPjICf2X39MxUzXVFQWBMREJLFPGNhTkEM5BsF2/lP4J/Co2Ef/HPaBVKD5ipCe6d1q5XR6QxdiruJzpPO1zYL2Qs3jqaSPu5KM2bA5nf2H2+/GXCvLyhcn1FJVEEOp3gs5is3CMSqgKkmqZ2kbb3+sqRfBHm4/S5555dWgv77f7La3vuuv7UL113ey3xsBxDbVOt5WxLd2pQnsc+KskUYvVuMv+hxtsBmLJ4bsrtX78U/U9k6sy/hgta3HceexFqNJko+mE52AgIMmo4wihTJ1GTrxMREWOALkA69ef6sbZYv3QSD9/dKc0QZl48/mYfJ5Giv46UgXFH8Jt47rdV8xJfcsliNX7IKYfioA/XKYotNAGFgpwsaX+kvD7NvlzVasgTDAb96AuGevxNahKsy5D+UQL8rBqCldShoa4dSckBYUtUc8Eu2mUEmATDZMfmVSxJuJ+tvQlPjobb1PRmRyy/aZPKFl4=
+        skinName: opss
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNDk2ODkzMTU4MiwKICAicHJvZmlsZUlkIiA6ICJjM2RkZDAxMWZmYjY0ZDk1OWZlYTk0NWE1NTg3NmVkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5NTBhYTE2ZDk2NDUyZjBmOTI1ZDZjODhhYjkyZGQ2YzgxZWY0MGMxMzMwODNiNTJjMjZmMDJhMzVkNDM0ZTAiCiAgICB9CiAgfQp9
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '15':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: 933556df-5df7-49e6-bf29-09e94f5c118b
+    name: '&e&lCLICK'
+    uuid: 2faa0dfa-f14b-462a-a291-3d653bd29700
+    traits:
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      commandtrait:
+        commands:
+          '0':
+            command: discord
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      hologramtrait:
+        lines:
+          '0':
+            text: '&9&lDiscord'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -179.99988
+        world: spawn
+        x: 18.5
+        y: 96.0
+        z: 9.5
+        yaw: 179.697
+        pitch: -1.9334
+      skintrait:
+        signature: u46zG5/LLIiPwm4rbUBnpjquDA7D0C76mmpPJ3AWgpqimmMWZgz2Z4sAcHbEctUWFeuq6kzZRSLfMjfQ36/B3a03WBrIzJo3LS/D7QM7TsR5Q3sEoaQ6OikL6sWRGhcYJzZQWqdEk23t59FYnqTAzSkdjIYxSR16tDIGZwx0F1EQHBHHg6KmIzzr4PVvE3YqX0pF0p1lBcdcdGuyUX1Dn7w7QENIrmQ8UoW7aU9+2BB/sEmdiazOHsoNoZDDmLc5orD4eXmftY8AaH7ucolJ8ZVX4qu90FUSadG8xes14S6fcNiJczpNVqp85EAcTHH5Zl28sQ9ukW83k3TuNYHiMieAi0Ge2NM24NO2AJEIUHSx7ALafQjcJuBHiho9QpsEoaY5HhMPZtvO6M4qjaLFGIRxIMC/PLmPMO/XQMWsbI+P1aujuKSIh1QHbqSyt7xf2zTImJokOggX7bxvmddVtuOwnE39cYSDuOcPuqz/ohYOsMnVRI5hXpfUY5c9fE2gwFOETMBBy/Qq/Fl3/CZIo02ZexlBWmTXYVs6nBnxRn8PYYE9TioejFoLr1HvLjjPq0EzMCwLuI0WjKOOJP7FDGijQC7VIoMdyheBbD9oBU5J6r1B3dGGbcwEQtBojWEAtiqwqhbhAH90DMi7ycIeZi0jBOWZcyy80owht2TtzKA=
+        skinName: 933556df-5df7-49e6-bf29-09e94f5c118b
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5OTE1Mzg5Mjk0NCwKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk1ODU4YzcwNzFmZDViYjgzY2YzMGViYWFjMzkwNTRiZGEwNTc0ZThjNmE2NDY5ODU1OWQ1NzEwNGEyYTU1ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '19':
+    metadata:
+      cached-skin-uuid: 64da3c08-45f7-4897-b74e-5efca81a8537
+      cached-skin-uuid-name: oldman
+    name: '&e&lCLICK'
+    uuid: c808d34b-9a33-43c2-a50c-0ba5641d2fe7
+    traits:
+      location:
+        bodyYaw: 60.818497
+        world: spawn
+        x: 93.5
+        y: 99.0
+        z: 73.5
+        yaw: 60.8185
+        pitch: 3.8694
+      hologramtrait:
+        lines:
+          '0':
+            text: '&d&lTalismans'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: mo2g55zwJwnL+cTLWKvOST1A+rBIg2VEpfIqc/cc15nBuLEbLoic6KM4M8M24KbN2NXSsMU5EVZ+ME/mCbX0ZWifVn85TSotFWXCkdWcZ5FLPO7HOq4Nhnj1joa5OiRZIjlNWC+1WUHK7aHPYCfebl8cb5G6ZHJ0plmANO6hYeEuH3+XOd5mnKvc6fAeUC5raoj1KpBGsiqcYEjlS0bCTpFQkxR5rPuA6/sqmG/nEhdmfH9CfPjuZ4lyk2F7GKbZ+f0++UY+EinPTdIdZofL+w1cOpcEmob2JeDDVZhFRtyVO6Ahf4Csnefj+X9NAFzcJgffhsekvJ3HQDd7Auq6wuo3E24uzMgPU9q2+XEQ0mm0SqQFz8s3uc9dFtSfO/cVaSmSG9nOuNkgqEr7fw6wQwTUrbcDOXI0Dgq3jfepV46NQqmuJTyLVINTTTr3fVmRMpoEwgzx4f/zmGWhv/B6D/TbUCnNi1SVGS+Huzc7IK3itgcMdDUqot0hZ1ZlUQ+V/fBjg4yIgoIluVKncX5u00wdCoEd3q3gBwANbWHJ2ic+8MQPfq5py2AvDiTb/4GSls68PSswR32c0EP0/Am1gbaT1QA5b42M3v4wx16z6MV6pmNzqMUymt2kGZPuGpUi7694xRzOG0AU4JhF1u+21WL0iiYDnVwbXzs9N7Tce4w=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNjM1NTYxODM2OCwKICAicHJvZmlsZUlkIiA6ICI2NGRhM2MwODQ1Zjc0ODk3Yjc0ZTVlZmNhODFhODUzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRtYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNjNzg0NjdlN2JkZjQyZGY4YTIzNTBmNmM5M2E2YTIxMzg5Nzk2NzI1YTZjNDkwMmYzM2Q0YzA0MmU1ZDc3OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        skinName: oldman
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      commandtrait:
+        commands:
+          '0':
+            command: bettertalisman talismans
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '18':
+    metadata:
+      cached-skin-uuid: 97c240ba-5dba-42c3-8965-cfcf5e56485d
+      cached-skin-uuid-name: smith
+    name: '&e&lCLICK'
+    uuid: 590c024b-b733-4890-a578-d26e18ec0060
+    traits:
+      location:
+        bodyYaw: -174.33032
+        world: spawn
+        x: 92.5
+        y: 99.0
+        z: 87.5
+        yaw: -174.3303
+        pitch: -1.3502
+      hologramtrait:
+        lines:
+          '0':
+            text: '&b&lSKILLS'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: qvFJ2NY8bNrvfvzYb7pQ/UM0Q07BoQxOolTQpeZqE/cb1AUJfwZDfzEDd0JbQyflDrgM/wau+Gwz4bkC0rOvo94cLCTIJ2eaBNbmMaE6LHKPo2Ykp30b53jTLFC2VUmA17QYZyK3HsWTr0dp1WDHtyIfrl9si/7e7BlhNR9G2c2qLwpyPrpBoZtNYFIFPbtrb4oLTdlII/glaFElj0MqrzF/ahZqUUFkhrVuLd47cA0CT4gdG48t01PXUt2juYBUaLZeYN1InO0l+3pdKDYekQnjgElP+B+AZTJQw8C1GH/Fe7kNzHq7wBOz0vuz91HsvT9P6lVnVLticK6EPchi5lcyONNc8fT5rRCT1B+zcio1/2xy8ToQq/xoq0HbRNGypPmnICw3kp7tf+BFobyQtMRXKAaVlE1R2PjKdAOv9MAj5TnBZc3PU3lD+XGaDNUH/c4zc/I/2CpqdMX0h910VgWWvni5l4p1DuEZUhctAYdBzEJNj1xFM+mb+0lVfro1WVv0coNnkoJA+Z9+6fvz0w2eJHnk8RMMamdba7lTo2mB744dXMGSAqSPebLip5r/UL6/EsPswPtIp46kL2ewSTVpIdUT/oXzc6ipEJVo2XFuPz+W3U/ALx+ip8OoKjRMuHCh8wPRBz9cNlBLK1O/Yd0U6SpO2UmO1oHs8CWcvxA=
+        skinName: smith
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNjE4NzYxOTA3NywKICAicHJvZmlsZUlkIiA6ICI5N2MyNDBiYTVkYmE0MmMzODk2NWNmY2Y1ZTU2NDg1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbWl0aCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYTNhNDlmY2U1ZjU3MDM5ZmI2MjMwMmZhNmY5OWNjMDY5M2QwNGI3OTI1OGJhYzBiMWRhYmM2ZGNlMzgzYmIxIgogICAgfQogIH0KfQ==
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      commandtrait:
+        commands:
+          '0':
+            command: skills
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '17':
+    metadata:
+      cached-skin-uuid: fd363183-6ef5-418f-b8bf-257adb11cce5
+      cached-skin-uuid-name: wizard
+    name: '&e&lCLICK'
+    uuid: e96e2ad0-0d30-48a7-b93b-fd9891683142
+    traits:
+      location:
+        bodyYaw: 80.21947
+        world: spawn
+        x: 110.5
+        y: 102.0
+        z: 83.5
+        yaw: 80.2195
+        pitch: 4.4025
+      hologramtrait:
+        lines:
+          '0':
+            text: '&c&lCustom Enchants'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      type: PLAYER
+      spawned: true
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: GJ0b2y+KkCcQSrXHZ08/Msy7feuL07tsPmP3khqQV3N3Bqmo3LrRg4MUNcrPJ7ZCqA//oAL6ZU3p0spm0bQBoAk7K2DxaP4TPI/o27ZczL9JsyqvAXisfFvGAoKyu9P0y9ab1ZY90pINYYq/jCJXqSL3y51pIXzlkD+nZ7GpAcVi7JEkOW+FQ+q846WRAAaNAVO8/wUmhaTHZb+irdzvif2W/nmE/R+sr6ZS0mzDlIK8ziIbUyBrkYaw2vENIYS0MIN2B5YZxf2cA1B2IoNYdeUYw7MhqhCNlRLA3PD+/Mf+f06Wt2wj4mPtOq1hqQ+H11C5+gFL1iXLVaRB/KUB4JEoq5xRUIqQGVJt7Lrid5DMxBqWyOCuJkMngxgyKfsSzzcBRvsPW2Q2oRXYOyx2IXeWZbRs1ieHNkTO0+S1BCEXcAP2P/WqRAtgGZYQjaE/wwKCIHv6JCaYhzE3T6Wb1Xcw2BSUuMKeYhvcrLlVcoHcPRnwLzj4UUR3u+oWCocBuH6nF8045wIJ3fLTQcIiwHmV1yI1MmPyCB1QXEBse7bdf9q2pN6XMH29kJawUdFvrSjlZdtLDwusGIb8Hr3Wyd3YSPIyIwGiom1x+A/UGpoogQnCcwfz0U+9m7CXnClWwk7pRRwU+HfldJTbFVUcTIZW0Vxwx3ZAHZZvWZXowjs=
+        skinName: wizard
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNjE4NzU3Mzg3NywKICAicHJvZmlsZUlkIiA6ICJmZDM2MzE4MzZlZjU0MThmYjhiZjI1N2FkYjExY2NlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaXphcmQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMxNWRjNzRiNTQxMDUxMTAxODhlZGQwYzU0MmQ4NjZhNjM3ZjE1NzUzNmNhZjAzNzhhMDZkNTRjNWI3ZWQ1MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      commandtrait:
+        commands:
+          '0':
+            command: ce
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: ce
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '21':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: a8ddb7d3-74af-43df-973e-012a79c49c1b
+    name: '&e&lCLICK'
+    uuid: 02906c09-bef9-4b06-b778-94bafa1a0c9b
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: -151.78717
+        world: spawn
+        x: -73.1112
+        y: 85.0
+        z: 108.1403
+        yaw: -151.7872
+        pitch: 0.0
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&c&lDUNGEONS'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      skintrait:
+        signature: xXo2X8ZYkBYk8HPRfxWCWWsYlmniC8DG6CSDcI1HbU8GZZC1B5u3qjRJcuttUXCN8UvmOJJxP6AeqQ7mRDGsSTiRwm+afhM7u5vMM4R18fxSnQm3HN5szB6rwITXjUtyJx2D8D1VlEs1E25xX5hpAyHi8pgQRlcsYJTCo27FUUBl0kJU3zOeZO9fauT1uvlzq26bqBqD3khQBFeshu0C8aKbNCjVerp76zIBzWeKKsbP7cDwDz+K4DAgx5kETPbmC6xcfIfp6UI/722fj3JoHoDC9+dXbU6TO5yK3jWuK4tino/t7m2GuT92+6F4Yc4w3HMAzyv9ecP/dqeOrSF2CKNc6ZKupi03pfCWbWqWgkg5IgAAkH6cXNIWQukE/jwyBP3NyYqs4VdaJR14Uc4Bh7O0TXcqp2Tv1Sb/hMTlKLXQop9ipFVjGLtm2Q+cvNREAhotPXnQpd7sFCpAxjpEMzXSeREFDwrUhxaW7H2WEFyXKeelQrsq4gDO28Qwr8zVrSRKIl8YnV3qa+jXpXpES8utffWwuH4VopgSQN9Bytc2FU5OXUGZrMikjkf54x/CVDW1MRuUGLoP3nrikaHcob5jL5+ACkn8Q1J9DUSkSNnEyIwK+9q+UgiQKnxpnAp+IaJnthxcjtrXjy4i+Vl8qLC2inadGqXz1OvsbXxFHmQ=
+        skinName: a8ddb7d3-74af-43df-973e-012a79c49c1b
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNjI2NTExMTgxNSwKICAicHJvZmlsZUlkIiA6ICI1ODc5MjNlNDkxMzM0ZDMzYWE4ZjQ3ZWJkZTljOTc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGV2ZW5mb3VyMTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFlZTExZDg1MDJiOWZkOTE3YjBkOTFkY2ZhNDc4ZjYzNDQ0NGE3MjViMTI4YjIyNDQ5MTE2ZWQwNTMwYjU5ZSIKICAgIH0KICB9Cn0=
+      commandtrait:
+        commands:
+          '0':
+            command: md play SandstoneCrypt
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '24':
+    metadata:
+      cached-skin-uuid: d3bdd847-5457-44cc-9c21-787279ecd2b4
+      cached-skin-uuid-name: ocean
+    name: '&e&lCLICK'
+    uuid: a6ed41e1-389d-4770-b821-6526c84f3767
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 52.556107
+        world: spawn
+        x: 33.5
+        y: 85.0
+        z: -40.5
+        yaw: 52.5561
+        pitch: -23.9278
+      hologramtrait:
+        lines:
+          '0':
+            text: '&6Daily Rewards'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      owner:
+        uuid: 40f4cca1-2980-3140-92d9-58c6904b4721
+      type: PLAYER
+      skintrait:
+        signature: qVyS0fqsbo/094sLWnVYdk4S6FfD/maZm32I6VoQxm+oqDkkwJJWJncJiWVWk8V1TZL8YZxyzdeT+j75DGhFcwb0GGqZlIDpCyUz2C2NiRu1LRSHYz6CY2Q2fhlkstJZaw2tUCj4sEwcDg01b/psd0VoResMAo1t0gMxOiS9PsZmJ5DZmr6C6QVgPVhm0xIXZ6bIFLvwkf9VNMY1KuJf59nIxeliGdcJvaGJeLPVVuqVx3a5CcyPTm8QYVhad3e1Yia1d25jy0l7j+pTvISdvFXNuGncLDzMoHc9ZDjfqYgatSjzm0Z6AR2OMN7F/IKvDhnzgswbGaR1z4ZWFeTzMRAd2N2Ruv1VyKLOr/1o3wwOYO9Rv1MxKyf8U22kvyynRHEMyb/dPJpftJt67z+3PETJhaWe6/Q3q8bUevwHL758oFfOrLAXymBAe86LcZtwzfamAZQk2jh2lUlgVcBXr9USYirqb0W/V+ZhWUEUMJWvHt8PQ9D+OeglblRDk0QrJsvcSO1j/RbhhPdJ3As78v7GynhEoM6n/6lddT0AJDHLJleTN+MEYUu5navNeNHyo8tvhMV3rd8m+OWiu+z43iHZ2/Yz9WUkJSCnae6fo0ZWbx1tSk8ilyHcD4UYALzJEQliC09f3QiI+I455/ApCoOBAoLOj41DIofhTcGS8b8=
+        skinName: ocean
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwNjM0NjI1NzY3NSwKICAicHJvZmlsZUlkIiA6ICJkM2JkZDg0NzU0NTc0NGNjOWMyMTc4NzI3OWVjZDJiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJvY2VhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMWM1ODIwZGUzNTMxM2JhMmRkMzVkYTVhYzlhNWMzNDFkNTYzZDU0NWY1MGNiYjJkMzI0YWZjMWM0YjQ5Mzg0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '0':
+            command: dailyrewards:rws
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '1':
+            command: dailyrewards
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '0':
+    metadata:
+      cached-skin-uuid: cb58fd93-567f-45f0-8a60-171f15b66e5f
+      cached-skin-uuid-name: 33e62617-f198-4680-afdb-b617ab2477ed
+    name: '&e&lCLICK'
+    uuid: f36bd6fb-b5d8-47c9-9e8a-a993f15df8a6
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 114.932816
+        world: spawn
+        x: 5.5
+        y: 98.0
+        z: 5.5
+        yaw: 134.9328
+        pitch: 0.0
+      hologramtrait:
+        lines:
+          '0':
+            text: '&7Warps'
+            margin:
+              top: 0.0
+              bottom: 0.0
+      owner:
+        uuid: 1f94f176-d12e-4907-86fb-439e3fb36d02
+      commandtrait:
+        commands:
+          '0':
+            command: warps
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+      type: PLAYER
+      skintrait:
+        signature: FMumIXTnACAVKUn/ezXAcin8gbj1EDBPwJYUsApDlZMH7AMj1RgOgAbtBuowBNxU0zNXbWvt9LFBRIT6nKEdACb7yf4t27Y9hw3NJJbQMRzeecYWqYwfXdKGFKuRn8Taqgyo8WmuhG9UoT/pbUyRXof9N7iCvS/I/zzOn1cQ/C7hX9rTBFAR8r1pBdI4QUc1HgphC0U199InQF4Kn7UWdRa1TAXMxTbHqNEca33m46jfKb1AnJ0D7Hc+iaJHSfkRJPC3bqGdNOi6Vqh2Piazxi+Ky6ohX2ymzHYni7D7z+cZ65kPOJCHPFP32r9q8LwxUtI+DeFHK5TEzF7N6ZNJ4gPzFR/AlI/2ouYUzTx7ueMRMQwWGcFhfxVt0FgxVrJvbN/eKUAat+I8S+W6NwM92PWmDPXLBfvwz4wYfu6rmKs3DO0zVGn2mMGpJ14S8GBidEEWCzhEo/qfyOqmhqRvf51LEyqQ/FUC2sPY+TniihKDcgPEoWydpMNvvQmeQ8nyvHCU1/BsM314Rt0tKXmF0i0dKw6JR5crolLR6+CWG5mr/H8R7bTRcRoHb3GpvpJHQaCqlKvap9SBQ7wg9B2Oeov8eWJVl8ow9uA5JlKznQdCiE2hobzcH/jQ8h8quqT81fRHfvO52+KT5JOJv3gW5Qeh0XtWBixyK8ec+WrL6HI=
+        skinName: 33e62617-f198-4680-afdb-b617ab2477ed
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMTgwNTY0Mzc4NCwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNhNGJhYTFkNGI1YTZmOGVkNzAwM2QyOTgwNDNlMGVhZWY4YTY1ZjM4MzVhOTA0MDVmZTg4ZDMwNTZmMDE2IgogICAgfQogIH0KfQ==
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: owner,hologramtrait,location,type,lookclose,inventory,rotationtrait,spawned,commandtrait,scoreboardtrait,skintrait,mounttrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

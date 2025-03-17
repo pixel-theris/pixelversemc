@@ -90,7 +90,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -146,7 +146,7 @@ npc:
       spawned: true
       mirrortrait:
         enabled: true
-    traitnames: inventory,spawned,scoreboardtrait,owner,equipment,mirrortrait,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,equipment,skintrait,inventory,spawned,commandtrait,mirrortrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -201,7 +201,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -256,7 +256,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -311,7 +311,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -366,7 +366,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -421,7 +421,7 @@ npc:
             delay: 0
             cost: -1.0
             experienceCost: -1
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -488,7 +488,7 @@ npc:
               bottom: 0.0
       scoreboardtrait: {}
       spawned: true
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,hologramtrait,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,hologramtrait,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -555,7 +555,7 @@ npc:
               bottom: 0.0
       scoreboardtrait: {}
       spawned: true
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,hologramtrait,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,hologramtrait,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -622,7 +622,7 @@ npc:
               bottom: 0.0
       scoreboardtrait: {}
       spawned: true
-    traitnames: inventory,spawned,scoreboardtrait,owner,type,hologramtrait,location,commandtrait,skintrait
+    traitnames: owner,location,scoreboardtrait,type,skintrait,inventory,hologramtrait,spawned,commandtrait
     navigator:
       speedmodifier: 1.0
       avoidwater: false

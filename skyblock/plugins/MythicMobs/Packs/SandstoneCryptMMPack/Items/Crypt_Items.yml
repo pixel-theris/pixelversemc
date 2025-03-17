@@ -1,0 +1,356 @@
+#+-------------------------------+#
+#          Skeleton Equipment     #
+#+-------------------------------+#
+
+
+###Skeleton Armor Leather 1
+SkeletonHelmet_Leather_1:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+SkeletonChestplate_Leather_1:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+SkeletonLeggings_Leather_1:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+SkeletonBoots_Leather_1:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+
+###Skeleton Armor Leather 2
+SkeletonHelmet_Leather_2:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+SkeletonChestplate_Leather_2:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+SkeletonLeggings_Leather_2:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+SkeletonBoots_Leather_2:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+
+###Skeleton Armor Leather 3
+SkeletonHelmet_Leather_3:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+SkeletonChestplate_Leather_3:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+SkeletonLeggings_Leather_3:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+SkeletonBoots_Leather_3:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+
+###Skeleton Armor Leather 4
+SkeletonHelmet_Leather_4:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+SkeletonChestplate_Leather_4:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+SkeletonLeggings_Leather_4:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+SkeletonBoots_Leather_4:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+
+###Skeleton Armor Leather 5
+SkeletonHelmet_Leather_5:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+SkeletonChestplate_Leather_5:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+SkeletonLeggings_Leather_5:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+SkeletonBoots_Leather_5:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+
+###Skeleton Armor Leather 6
+SkeletonHelmet_Leather_6:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+SkeletonChestplate_Leather_6:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+SkeletonLeggings_Leather_6:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+SkeletonBoots_Leather_6:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+###Skeleton Armor Leather 6_E
+SkeletonHelmet_Leather_6_E:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+SkeletonChestplate_Leather_6_E:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+SkeletonLeggings_Leather_6_E:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+SkeletonBoots_Leather_6_E:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+
+###Skeleton Armor Chainmail
+SkeletonHelmet_Chainmail:
+  Id: chainmail_helmet
+  Options:
+    Unbreakable: true
+SkeletonChestplate_Chainmail:
+  Id: chainmail_chestplate
+  Options:
+    Unbreakable: true
+SkeletonLeggings_Chainmail:
+  Id: chainmail_leggings
+  Options:
+    Unbreakable: true
+SkeletonBoots_Chainmail:
+  Id: chainmail_boots
+  Options:
+    Unbreakable: true
+
+###Skeleton Armor Iron
+SkeletonHelmet_Iron:
+  Id: iron_helmet
+  Options:
+    Unbreakable: true
+SkeletonChestplate_Iron:
+  Id: iron_chestplate
+  Options:
+    Unbreakable: true
+SkeletonLeggings_Iron:
+  Id: iron_leggings
+  Options:
+    Unbreakable: true
+SkeletonBoots_Iron:
+  Id: iron_boots
+  Options:
+    Unbreakable: true
+
+###Skeleton Armor Diamond
+SkeletonHelmet_Diamond:
+  Id: diamond_helmet
+  Options:
+    Unbreakable: true
+SkeletonChestplate_Diamond:
+  Id: diamond_chestplate
+  Options:
+    Unbreakable: true
+SkeletonLeggings_Diamond:
+  Id: diamond_leggings
+  Options:
+    Unbreakable: true
+SkeletonBoots_Diamond:
+  Id: diamond_boots
+  Options:
+    Unbreakable: true
+
+###Skeleton Armor Diamond Enchanted
+SkeletonHelmet_Diamond_E:
+  Id: diamond_helmet
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+SkeletonChestplate_Diamond_E:
+  Id: diamond_chestplate
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - THORNS:1
+SkeletonLeggings_Diamond_E:
+  Id: diamond_leggings
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+SkeletonBoots_Diamond_E:
+  Id: diamond_boots
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+
+###Skeleton Armor Drummer
+SkeletonHelmet_Drummer:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  #Id: BLACK_BANNER  ###Currently not working as banner.
+  #BannerLayers:
+  #- RED SKULL
+SkeletonChestplate_Drummer:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+SkeletonLeggings_Drummer:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+SkeletonBoots_Drummer:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+
+
+###Skeleton Weapons
+SkeletonWeapon_1:
+  Id: iron_axe
+  Options:
+    Unbreakable: true
+SkeletonWeapon_2:
+  Id: golden_axe
+  Options:
+    Unbreakable: true
+SkeletonWeapon_3:
+  Id: diamond_axe
+  Options:
+    Unbreakable: true
+SkeletonWeapon_4:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+SkeletonWeapon_5:
+  Id: golden_sword
+  Options:
+    Unbreakable: true
+SkeletonWeapon_6:
+  Id: diamond_sword
+  Options:
+    Unbreakable: true
+SkeletonWeapon_Bow_1:
+  Id: bow
+  Options:
+    Unbreakable: true
+SkeletonWeapon_Bow_2:
+  Id: bow
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - ARROW_FIRE:2
+SkeletonWeapon_Wand_1:
+  Id: blaze_rod
+  Enchantments:
+  - FIRE_ASPECT:2
+SkeletonWeapon_Wand_2:
+  Id: stick
+  Enchantments:
+  - KNOCKBACK:1
+SkeletonWeapon_Lighter:
+  Id: flint_and_steel
+  Options:
+    Unbreakable: true
+SkeletonWeapon_Shield:
+  Id: shield
+  Options:
+    Unbreakable: true
+    Color: BLACK
+  BannerLayers:
+  - RED SKULL
+SkeletonWeapon_Drummer_1:
+  Id: note_block
+SkeletonWeapon_Drummer_2:
+  Id: stick
+
+SkeletonlingWeapon_1:
+  Id: iron_axe
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_2:
+  Id: stone_axe
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_3:
+  Id: stone_hoe
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_4:
+  Id: iron_hoe
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_5:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_6:
+  Id: wooden_sword
+  Options:
+    Unbreakable: true
+SkeletonlingWeapon_7:
+  Id: stone_sword
+  Options:
+    Unbreakable: true

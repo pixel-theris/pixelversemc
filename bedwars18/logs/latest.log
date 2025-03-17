@@ -1,385 +1,381 @@
-[12:19:23] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[12:19:23] [Server thread/INFO]: Loading properties
-[12:19:23] [Server thread/INFO]: Default game type: SURVIVAL
-[12:19:23] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-149 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 1c12d3b)
-[12:19:23] [Server thread/INFO]: Unable to find file banned-players.json, creating it.
-[12:19:23] [Server thread/INFO]: Unable to find file banned-ips.json, creating it.
-[12:19:23] [Server thread/INFO]: Unable to find file ops.json, creating it.
-[12:19:23] [Server thread/INFO]: Unable to find file whitelist.json, creating it.
-[12:19:23] [Server thread/INFO]: Debug logging is disabled
-[12:19:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:36:44] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[13:36:45] [Server thread/INFO]: Loading properties
+[13:36:45] [Server thread/INFO]: Default game type: SURVIVAL
+[13:36:45] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-149 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 1c12d3b)
+[13:36:48] [Server thread/INFO]: Debug logging is disabled
+[13:36:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[12:19:23] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[12:19:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:19:23] [Server thread/INFO]: Data value allowed items: 
-[12:19:23] [Server thread/INFO]: Generating keypair
-[12:19:23] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:8666
-[12:19:23] [Server thread/INFO]: Using epoll channel type
-[12:19:24] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[12:19:24] [Server thread/INFO]: [PrivateGames] Loading PrivateGames v1.1.9
-[12:19:24] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
-[12:19:24] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
-[12:19:24] [Server thread/INFO]: [FriendsSpigot] Loading FriendsSpigot v1.0.9.7
-[12:19:24] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
-[12:19:24] [Server thread/INFO]: [BedWars1058-WinStreak] Loading BedWars1058-WinStreak v2.0.1-BETA
-[12:19:24] [Server thread/INFO]: [VisibilityToggle] Loading VisibilityToggle v3.9
-[12:19:24] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
-[12:19:24] [Server thread/INFO]: [cxSTUDIOS] Loading cxSTUDIOS v25.1.0
-[12:19:24] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.10.5
-[12:19:24] [Server thread/INFO]: [GrapplingHook] Loading GrapplingHook v2.6
-[12:19:24] [Server thread/INFO]: [GrapplingHook] Flag added
+[13:36:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[13:36:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:36:50] [Server thread/INFO]: Data value allowed items: 
+[13:36:50] [Server thread/INFO]: Generating keypair
+[13:36:50] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:8666
+[13:36:54] [Server thread/INFO]: Using epoll channel type
+[13:36:59] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:37:04] [Server thread/INFO]: [PrivateGames] Loading PrivateGames v1.1.9
+[13:37:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[13:37:04] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
+[13:37:04] [Server thread/INFO]: [FriendsSpigot] Loading FriendsSpigot v1.0.9.7
+[13:37:04] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[13:37:04] [Server thread/INFO]: [BedWars1058-WinStreak] Loading BedWars1058-WinStreak v2.0.1-BETA
+[13:37:04] [Server thread/INFO]: [VisibilityToggle] Loading VisibilityToggle v3.9
+[13:37:04] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[13:37:04] [Server thread/INFO]: [cxSTUDIOS] Loading cxSTUDIOS v25.1.0
+[13:37:04] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.10.5
+[13:37:04] [Server thread/INFO]: [GrapplingHook] Loading GrapplingHook v2.6
+[13:37:04] [Server thread/INFO]: [GrapplingHook] Flag added
 
-[12:19:24] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.0
-[12:19:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[12:19:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:19:24] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.14.1
-[12:19:24] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
-[12:19:24] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
-[12:19:24] [Server thread/INFO]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[12:19:24] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.4.1
-[12:19:24] [Server thread/INFO]: [ChatColor] Loading ChatColor v1.3
-[12:19:24] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.151
-[12:19:25] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.12
-[12:19:25] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
-[12:19:25] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.1
-[12:19:25] [Server thread/INFO]: [Images] Loading Images v2.5.3
-[12:19:25] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[12:19:25] [Server thread/INFO]: [BetterSocial] Loading BetterSocial v1.4-BETA
-[12:19:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[12:19:25] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
-[12:19:25] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.16.0
-[12:19:25] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
-[12:19:25] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.35-SNAPSHOT (build 3478)
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.9.0
-[12:19:25] [Thread-2/INFO]: [NBTAPI] The NBT-API seems to be up-to-date!
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
-[12:19:25] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
-[12:19:25] [Server thread/INFO]: [TAB] Loading TAB v4.1.9
-[12:19:25] [Server thread/INFO]: [BedWars2023] Loading BedWars2023 v1.3.0
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for jar-relocator
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forjar-relocator
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for asm
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forasm
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for asm-commons
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forasm-commons
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for h2
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forh2
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for mysql-connector-java
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched formysql-connector-java
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for jedis
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forjedis
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for slf4j-api
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forslf4j-api
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for commons-pool2
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forcommons-pool2
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for json
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forjson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for flow-nbt
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forflow-nbt
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-block
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-block
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-entity
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-entity
-[12:19:25] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-item
-[12:19:25] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-item
-[12:19:25] [Server thread/INFO]: [BedWars2023] Loading support for paper/spigot: 1.8.8
-[12:19:26] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading BedWars-SpectatorOptions v1.1
-[12:19:26] [Server thread/INFO]: [BedWars1058-AdventureMode] Loading BedWars1058-AdventureMode v1.0
-[12:19:26] [Server thread/INFO]: [BedWars-Rush] Loading BedWars-Rush v1.0.1
-[12:19:26] [Server thread/INFO]: [Bedwars2023-ArenaStartMessage] Loading Bedwars2023-ArenaStartMessage v1.5.2
-[12:19:26] [Server thread/INFO]: [BedWars-LobbyShop] Loading BedWars-LobbyShop v1.2-BETA
-[12:19:26] [Server thread/INFO]: [BedWars2023-RewardSummary] Loading BedWars2023-RewardSummary v1.0.4
-[12:19:26] [Server thread/INFO]: [BedWars1058-Sponge] Loading BedWars1058-Sponge v1.0.2
-[12:19:26] [Server thread/INFO]: [Voidless] Loading Voidless v1.0.0
-[12:19:26] [Server thread/INFO]: [MapSelector] Loading MapSelector v1.3.1
-[12:19:26] [Server thread/INFO]: [BedWars-Cosmetics] Loading Cosmetics v1.4.7
-[12:19:26] [Server thread/INFO]: [BedWars1058-Compass] Loading BedWars1058-Compass v1.4.3
-[12:19:26] [Server thread/INFO]: [BedWars2023-TeamSelector] Loading BedWars2023-TeamSelector v1.0-SNAPSHOT
-[12:19:26] [Server thread/INFO]: [BedWars2023-GroupStats] Loading BedWars2023-GroupStats v9.0-SNAPSHOT
-[12:19:26] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[12:19:26] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_8
-[12:19:26] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[12:19:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.151
-[12:19:26] [Server thread/INFO]:         __    
-[12:19:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.151
-[12:19:26] [Server thread/INFO]:   |___ |      Running on Bukkit - PandaSpigot
-[12:19:26] [Server thread/INFO]: 
-[12:19:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:19:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:19:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:19:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:19:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 763ms)
-[12:19:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[12:19:27] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[12:19:27] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
-[12:19:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
-[12:19:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[12:19:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: skinsrestorer [15.5.1]
-[12:19:27] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
-[12:19:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[12:19:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:19:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:19:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[12:19:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[12:19:27] [Server thread/INFO]: [BedWars2023] Enabling BedWars2023 v1.3.0
-[12:19:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bw2023 [1.3.0]
-[12:19:28] [Server thread/INFO]: [BedWars2023] Registered item handler: stats
-[12:19:28] [Server thread/INFO]: [BedWars2023] Registered item handler: command
-[12:19:28] [Server thread/INFO]: [BedWars2023] Registered item handler: leave
-[12:19:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:19:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:19:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:19:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:19:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[12:19:28] [Server thread/INFO]: Preparing level "spawn"
-[12:19:28] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[12:19:28] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[12:19:28] [Server thread/INFO]: -------- World Settings For [spawn] --------
-[12:19:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[12:19:28] [Server thread/INFO]: Clear tick list: false
-[12:19:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[12:19:28] [Server thread/INFO]: Anti X-Ray: true
-[12:19:28] [Server thread/INFO]: 	Engine Mode: 1
-[12:19:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[12:19:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[12:19:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:19:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:19:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[12:19:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:19:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[12:19:28] [Server thread/INFO]: Random Lighting Updates: false
-[12:19:28] [Server thread/INFO]: Structure Info Saving: true
-[12:19:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[12:19:28] [Server thread/INFO]: Max Entity Collisions: 8
-[12:19:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[12:19:28] [Server thread/INFO]: Max TNT Explosions: 100
-[12:19:28] [Server thread/INFO]: Mob Spawn Range: 4
-[12:19:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:19:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[12:19:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:19:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:19:28] [Server thread/INFO]: View Distance: 10
-[12:19:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:19:28] [Server thread/INFO]: -------- World Settings For [spawn] --------
-[12:19:28] [Server thread/INFO]: Keep spawn chunk loaded: true
-[12:19:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[12:19:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[12:19:28] [Server thread/INFO]: World async lighting: false
-[12:19:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[12:19:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[12:19:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[12:19:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[12:19:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[12:19:28] [Server thread/INFO]: Water over lava flow speed: 5
-[12:19:28] [Server thread/INFO]: Fix TNT cannons: false
-[12:19:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[12:19:28] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
-[12:19:28] [Server thread/INFO]: [PrivateGames] Enabling PrivateGames v1.1.9
-[12:19:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
-[12:19:28] [Server thread/INFO]: WEPIF: Updated config file
-[12:19:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:19:28] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[12:19:28] [Server thread/INFO]: [FriendsSpigot] Enabling FriendsSpigot v1.0.9.7
-[12:19:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: friends [1.0.0]
-[12:19:28] [Server thread/INFO]:  The plugin was loaded successfully! [MC1.13 - 1.16]
-[12:19:28] [Server thread/INFO]:  Found (0) spigot-extensions!
-[12:19:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
-[12:19:29] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[12:19:29] [Server thread/INFO]: [BedWars1058-WinStreak] Enabling BedWars1058-WinStreak v2.0.1-BETA
-[12:19:29] [Server thread/INFO]: --------------------------------------------------
-[12:19:29] [Server thread/INFO]: Loading WinStreak add-on 2.0.1-BETA ...
-[12:19:29] [Server thread/INFO]: The add-on was developed by reussy. Much love ❤
-[12:19:29] [Server thread/INFO]: Running on git-PandaSpigot-149 (MC: 1.8.8) fork 1.8.8-R0.1-SNAPSHOT.
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: Initializing API classes, utilities and wrappers...
-[12:19:29] [Server thread/INFO]: WinStreak add-on API initialized successfully, the API is ready to use.
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: Initializing plugin integrations...
-[12:19:29] [Server thread/INFO]: Using BedWars2023 as Bed Wars core.
-[12:19:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: winstreak [1.2.0]
-[12:19:29] [Server thread/INFO]: Successfully loaded PlaceholderAPI integration, registering expansion...
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: Registering storage service...
-[12:19:29] [Server thread/INFO]: Storage service SQLite registered.
-[12:19:29] [Server thread/INFO]: BedWars2023 events registered.
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: WinStreak add-on 2.0.1-BETA loaded in 74ms.
-[12:19:29] [Server thread/INFO]: --------------------------------------------------
-[12:19:29] [Server thread/INFO]: [VisibilityToggle] Enabling VisibilityToggle v3.9
-[12:19:29] [Server thread/INFO]: VisibilityToggle>> Plugin Enabled!
-[12:19:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
-[12:19:29] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
-[12:19:29] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
-[12:19:29] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is blocked.
-[12:19:29] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
-[12:19:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
-[12:19:29] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:19:29] [Server thread/INFO]: [cxSTUDIOS] Enabling cxSTUDIOS v25.1.0
-[12:19:29] [Server thread/INFO]: [cxSTUDIOS] Metrics have been enabled. You're helping the server by sending anonymous usage data.
-[12:19:29] [Server thread/INFO]: [cxSTUDIOS] cxSTUDIOS v25.1.0 has been enabled.
-[12:19:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cxstudios [25.1.0]
-[12:19:29] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.10.5
-[12:19:29] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
-[12:19:29] [Server thread/WARN]: [DeluxeMenus] Requirement type at path: items.remove.view_requirement.requirements.permission is not a valid requirement type!
-[12:19:29] [Server thread/INFO]: [DeluxeMenus] 11 GUI menus loaded!
-[12:19:29] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
-[12:19:29] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
-[12:19:29] [Server thread/INFO]: [GrapplingHook] Enabling GrapplingHook v2.6
-[12:19:29] [Server thread/INFO]:  Server version 1.8.8 identified. Plugin successfully loaded!
-[12:19:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[12:19:29] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
-[12:19:29] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[12:19:29] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[12:19:29] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[12:19:29] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[12:19:29] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[12:19:29] [Server thread/INFO]: [ChatColor] Enabling ChatColor v1.3
-[12:19:29] [Server thread/INFO]: ChatColor>> Plugin Enabled!
-[12:19:29] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
-[12:19:29] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
-[12:19:29] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
-[12:19:29] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[12:19:29] [Server thread/INFO]: [Images] Enabling Images v2.5.3
-[12:19:29] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
-[12:19:29] [Server thread/INFO]: [BetterSocial] Enabling BetterSocial v1.4-BETA
-[12:19:29] [Server thread/INFO]: [BetterSocial] Inventory title with support for more than 32 characters. Skipping..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Hex colors are not available! Ignoring..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Old constructor for HoverEvent found! Using it..
-[12:19:29] [Server thread/INFO]: [BetterSocial] New sendTitle method not found! Using the old one..
-[12:19:29] [Server thread/INFO]: [BetterSocial] New setUnbreakable method not found! Using the old one for spigot ONLY..
-[12:19:29] [Server thread/INFO]: [BetterSocial] New isUnbreakable method not found! Using the old one for spigot ONLY..
-[12:19:29] [Server thread/INFO]:   ___      _   _           ___          _      _  Running v1.4-BETA (v1_8)
-[12:19:29] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _/ __| ___  __(_)__ _| | Server PandaSpigot vgit-PandaSpigot-149 (MC: 1.8.8)
-[12:19:29] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_\__ \/ _ \/ _| / _` | | Discord for support: https://alonsoaliaga.com/discord
-[12:19:29] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |___/\___/\__|_\__,_|_| Thanks for using my plugin ❤!
-[12:19:29] [Server thread/INFO]:           Developed by AlonsoAliaga
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: ==============================================================================================
-[12:19:29] [Server thread/INFO]: [BetterSocial] You are using a Paper fork (PandaSpigot), plugin should work fine!
-[12:19:29] [Server thread/INFO]: [BetterSocial] If you have issues, join us on our official support server on alonsoaliaga.com/discord
-[12:19:29] [Server thread/INFO]: ==============================================================================================
-[12:19:29] [Server thread/INFO]: 
-[12:19:29] [Server thread/INFO]: [BetterSocial] BungeeCord action bar not available for your server type/version! Skipping..
-[12:19:29] [Server thread/INFO]: [BetterSocial] ProtocolLib found! Checking..
-[12:19:29] [Server thread/INFO]: [BetterSocial] ProtocolLib available for action bars. Method: 'GAME_INFO'. Hooking..
-[12:19:29] [Server thread/INFO]: [Auto-update] Configuration is up-to-date!
-[12:19:29] [Server thread/INFO]: [Auto-update] File social.yml is up-to-date!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Old ItemStack constructor is available!
-[12:19:29] [Server thread/INFO]: [BetterSocial] SkullMeta#setOwner method is available for heads.
-[12:19:29] [Server thread/INFO]: [BetterSocial] SkullMeta#setOwnerProfile is not available for heads. Ignoring..
-[12:19:29] [Server thread/INFO]: [BetterSocial] GameProfile "profile" field available for heads (@Nullable name). Using it for heads..
-[12:19:29] [Server thread/INFO]: [BetterSocial] New setUnbreakable method not found! Using the old one for spigot ONLY..
-[12:19:29] [Server thread/INFO]: [BetterSocial] New setOwningPlayer method is NOT available!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Old Bukkit#getOfflinePlayer(String name) method is available!
-[12:19:29] [Server thread/INFO]: [BetterSocial] New isUnbreakable method not found! Using the old one for spigot ONLY..
-[12:19:29] [Server thread/INFO]: [BetterSocial] [HikariCP] Using com.mysql.jdbc.jdbc2.optional.MysqlDataSource for source class name..
-[12:19:29] [Server thread/INFO]: [BetterSocial] [SQLite] Attempting to create 'bettersocial' table..
-[12:19:29] [Server thread/INFO]: [SQLite] Connecting to database 'database-bettersocial.db'!
-[12:19:29] [Server thread/INFO]: [SQLite] Driver available: SQLiteJDBC | 3.7.2
-[12:19:29] [Server thread/INFO]: [SQLite] Successfully connected to database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] [SQLite] Table 'bettersocial' has been created if didn't exist.
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'twitter' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'twitter' successfully enabled! Slot: 10
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'youtube' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'youtube' successfully enabled! Slot: 11
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'instagram' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'instagram' successfully enabled! Slot: 12
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'twitch' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'twitch' successfully enabled! Slot: 13
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'facebook' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'facebook' successfully enabled! Slot: 14
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'discord' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'discord' successfully enabled! Slot: 15
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'mynetworkforum' is enabled in config. Loading..
-[12:19:29] [Server thread/INFO]: [BetterSocial] Media 'mynetworkforum' successfully enabled! Slot: 16
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'youtube' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'twitter' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'twitch' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'discord' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'facebook' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'instagram' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] Social media 'mynetworkforum' column already registered in database!
-[12:19:29] [Server thread/INFO]: [BetterSocial] PlaceholderAPI found! Hooking..
-[12:19:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bettersocial [1.4-BETA]
-[12:19:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[12:19:29] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[12:19:29] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[12:19:29] [Server thread/INFO]: No kits found to migrate.
-[12:19:29] [Server thread/INFO]: Loaded 853 items from items.csv.
-[12:19:29] [Server thread/INFO]: Using locale en
-[12:19:29] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[12:19:29] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[12:19:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[12:19:29] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[12:19:29] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
-[12:19:29] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.16.0
-[12:19:29] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.16.0 is loading...
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]       [server: git-PandaSpigot-149 (MC: 1.8.8)]
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]            Date Modified: 29 December 2024
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]                            
-[12:19:29] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_8_R3
-[12:19:29] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 58ms)
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
-[12:19:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gadgetsmenu [1.0.3]
-[12:19:30] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[12:19:30] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
-[12:19:30] [Server thread/INFO]: HikariPool-1 - Starting...
-[12:19:30] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
-[12:19:30] [Server thread/INFO]: HikariPool-1 - Start completed.
-[12:19:31] [Server thread/INFO]: 
+[13:37:04] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.0
+[13:37:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[13:37:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:37:06] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.14.1
+[13:37:06] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
+[13:37:06] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[13:37:06] [Server thread/INFO]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[13:37:06] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.4.1
+[13:37:06] [Server thread/INFO]: [ChatColor] Loading ChatColor v1.3
+[13:37:06] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.151
+[13:37:08] [Thread-2/INFO]: [NBTAPI] The NBT-API seems to be up-to-date!
+[13:37:08] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.12
+[13:37:08] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[13:37:10] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.6.0
+[13:37:10] [Server thread/INFO]: [Images] Loading Images v2.5.3
+[13:37:10] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[13:37:10] [Server thread/INFO]: [BetterSocial] Loading BetterSocial v1.4-BETA
+[13:37:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[13:37:10] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.25.13
+[13:37:10] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.16.0
+[13:37:10] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[13:37:10] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.35-SNAPSHOT (build 3478)
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.9.0
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[13:37:10] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[13:37:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[13:37:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[13:37:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[13:37:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[13:37:12] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[13:37:12] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[13:37:12] [Server thread/INFO]: [TAB] Loading TAB v4.1.9
+[13:37:12] [Server thread/INFO]: [BedWars2023] Loading BedWars2023 v1.3.0
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for jar-relocator
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forjar-relocator
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for asm
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forasm
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for asm-commons
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forasm-commons
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for h2
+[13:37:12] [Server thread/INFO]: [BedWars2023] Checksum matched forh2
+[13:37:12] [Server thread/INFO]: [BedWars2023] Verifying checksum for mysql-connector-java
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched formysql-connector-java
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for jedis
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forjedis
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for slf4j-api
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forslf4j-api
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for commons-pool2
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forcommons-pool2
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for json
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forjson
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for gson
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forgson
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for flow-nbt
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forflow-nbt
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-block
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-block
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-entity
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-entity
+[13:37:13] [Server thread/INFO]: [BedWars2023] Verifying checksum for rtag-item
+[13:37:13] [Server thread/INFO]: [BedWars2023] Checksum matched forrtag-item
+[13:37:13] [Server thread/INFO]: [BedWars2023] Loading support for paper/spigot: 1.8.8
+[13:37:14] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading BedWars-SpectatorOptions v1.1
+[13:37:14] [Server thread/INFO]: [BedWars1058-AdventureMode] Loading BedWars1058-AdventureMode v1.0
+[13:37:14] [Server thread/INFO]: [BedWars-Rush] Loading BedWars-Rush v1.0.1
+[13:37:14] [Server thread/INFO]: [Bedwars2023-ArenaStartMessage] Loading Bedwars2023-ArenaStartMessage v1.5.2
+[13:37:14] [Server thread/INFO]: [BedWars-LobbyShop] Loading BedWars-LobbyShop v1.2-BETA
+[13:37:14] [Server thread/INFO]: [BedWars2023-RewardSummary] Loading BedWars2023-RewardSummary v1.0.4
+[13:37:14] [Server thread/INFO]: [BedWars1058-Sponge] Loading BedWars1058-Sponge v1.0.2
+[13:37:14] [Server thread/INFO]: [Voidless] Loading Voidless v1.0.0
+[13:37:14] [Server thread/INFO]: [MapSelector] Loading MapSelector v1.3.1
+[13:37:14] [Server thread/INFO]: [BedWars-Cosmetics] Loading Cosmetics v1.4.7
+[13:37:14] [Server thread/INFO]: [BedWars1058-Compass] Loading BedWars1058-Compass v1.4.3
+[13:37:14] [Server thread/INFO]: [BedWars2023-TeamSelector] Loading BedWars2023-TeamSelector v1.0-SNAPSHOT
+[13:37:14] [Server thread/INFO]: [BedWars2023-GroupStats] Loading BedWars2023-GroupStats v9.0-SNAPSHOT
+[13:37:14] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[13:37:14] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_8
+[13:37:14] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[13:37:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.151
+[13:37:16] [Server thread/INFO]:         __    
+[13:37:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.151
+[13:37:16] [Server thread/INFO]:   |___ |      Running on Bukkit - PandaSpigot
+[13:37:16] [Server thread/INFO]: 
+[13:37:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:37:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:37:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:37:19] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:37:19] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3416ms)
+[13:37:19] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[13:37:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.0
+[13:37:20] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[13:37:21] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m
+[13:37:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[13:37:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: skinsrestorer [15.6.0]
+[13:37:22] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[13:37:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:37:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:37:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:37:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:37:23] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:37:23] [Server thread/INFO]: [BedWars2023] Enabling BedWars2023 v1.3.0
+[13:37:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bw2023 [1.3.0]
+[13:37:24] [Server thread/INFO]: [BedWars2023] Registered item handler: stats
+[13:37:24] [Server thread/INFO]: [BedWars2023] Registered item handler: command
+[13:37:24] [Server thread/INFO]: [BedWars2023] Registered item handler: leave
+[13:37:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:37:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:37:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:37:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:37:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:37:24] [Server thread/INFO]: Preparing level "spawn"
+[13:37:24] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[13:37:24] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[13:37:24] [Server thread/INFO]: -------- World Settings For [spawn] --------
+[13:37:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:37:24] [Server thread/INFO]: Clear tick list: false
+[13:37:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:37:24] [Server thread/INFO]: Anti X-Ray: true
+[13:37:24] [Server thread/INFO]: 	Engine Mode: 1
+[13:37:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:37:25] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:37:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:37:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:37:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:37:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:37:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[13:37:25] [Server thread/INFO]: Random Lighting Updates: false
+[13:37:25] [Server thread/INFO]: Structure Info Saving: true
+[13:37:25] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:37:25] [Server thread/INFO]: Max Entity Collisions: 8
+[13:37:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:37:25] [Server thread/INFO]: Max TNT Explosions: 100
+[13:37:25] [Server thread/INFO]: Mob Spawn Range: 4
+[13:37:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:37:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:37:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:37:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:37:25] [Server thread/INFO]: View Distance: 10
+[13:37:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:37:25] [Server thread/INFO]: -------- World Settings For [spawn] --------
+[13:37:25] [Server thread/INFO]: Keep spawn chunk loaded: true
+[13:37:25] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[13:37:25] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[13:37:25] [Server thread/INFO]: World async lighting: false
+[13:37:25] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[13:37:25] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[13:37:25] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[13:37:25] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[13:37:25] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[13:37:25] [Server thread/INFO]: Water over lava flow speed: 5
+[13:37:25] [Server thread/INFO]: Fix TNT cannons: false
+[13:37:25] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[13:37:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[13:37:26] [Server thread/INFO]: Preparing spawn area: 78%
+[13:37:26] [Server thread/INFO]: [PrivateGames] Enabling PrivateGames v1.1.9
+[13:37:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[13:37:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:37:27] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[13:37:27] [Server thread/INFO]: [FriendsSpigot] Enabling FriendsSpigot v1.0.9.7
+[13:37:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: friends [1.0.0]
+[13:37:28] [Server thread/INFO]:  The plugin was loaded successfully! [MC1.13 - 1.16]
+[13:37:28] [Server thread/INFO]:  Found (0) spigot-extensions!
+[13:37:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[13:37:28] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:37:28] [Server thread/INFO]: [BedWars1058-WinStreak] Enabling BedWars1058-WinStreak v2.0.1-BETA
+[13:37:28] [Server thread/INFO]: --------------------------------------------------
+[13:37:28] [Server thread/INFO]: Loading WinStreak add-on 2.0.1-BETA ...
+[13:37:28] [Server thread/INFO]: The add-on was developed by reussy. Much love ❤
+[13:37:28] [Server thread/INFO]: Running on git-PandaSpigot-149 (MC: 1.8.8) fork 1.8.8-R0.1-SNAPSHOT.
+[13:37:28] [Server thread/INFO]: 
+[13:37:28] [Server thread/INFO]: Initializing API classes, utilities and wrappers...
+[13:37:28] [Server thread/INFO]: WinStreak add-on API initialized successfully, the API is ready to use.
+[13:37:28] [Server thread/INFO]: 
+[13:37:28] [Server thread/INFO]: Initializing plugin integrations...
+[13:37:28] [Server thread/INFO]: Using BedWars2023 as Bed Wars core.
+[13:37:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: winstreak [1.2.0]
+[13:37:28] [Server thread/INFO]: Successfully loaded PlaceholderAPI integration, registering expansion...
+[13:37:28] [Server thread/INFO]: 
+[13:37:28] [Server thread/INFO]: Registering storage service...
+[13:37:28] [Server thread/INFO]: Storage service SQLite registered.
+[13:37:28] [Server thread/INFO]: BedWars2023 events registered.
+[13:37:28] [Server thread/INFO]: 
+[13:37:28] [Server thread/INFO]: WinStreak add-on 2.0.1-BETA loaded in 204ms.
+[13:37:28] [Server thread/INFO]: --------------------------------------------------
+[13:37:28] [Server thread/INFO]: [VisibilityToggle] Enabling VisibilityToggle v3.9
+[13:37:29] [Server thread/INFO]: VisibilityToggle>> Plugin Enabled!
+[13:37:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[13:37:29] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[13:37:29] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[13:37:29] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is blocked.
+[13:37:29] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[13:37:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[13:37:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:37:29] [Server thread/INFO]: [cxSTUDIOS] Enabling cxSTUDIOS v25.1.0
+[13:37:29] [Server thread/INFO]: [cxSTUDIOS] Metrics have been enabled. You're helping the server by sending anonymous usage data.
+[13:37:29] [Server thread/INFO]: [cxSTUDIOS] cxSTUDIOS v25.1.0 has been enabled.
+[13:37:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cxstudios [25.1.0]
+[13:37:29] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.10.5
+[13:37:29] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[13:37:29] [Server thread/WARN]: [DeluxeMenus] Requirement type at path: items.remove.view_requirement.requirements.permission is not a valid requirement type!
+[13:37:29] [Server thread/INFO]: [DeluxeMenus] 11 GUI menus loaded!
+[13:37:29] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[13:37:29] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
+[13:37:29] [Server thread/INFO]: [GrapplingHook] Enabling GrapplingHook v2.6
+[13:37:29] [Server thread/INFO]:  Server version 1.8.8 identified. Plugin successfully loaded!
+[13:37:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[13:37:29] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
+[13:37:29] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[13:37:29] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[13:37:29] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[13:37:29] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[13:37:30] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[13:37:30] [Server thread/INFO]: [ChatColor] Enabling ChatColor v1.3
+[13:37:30] [Server thread/INFO]: ChatColor>> Plugin Enabled!
+[13:37:30] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.12
+[13:37:30] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
+[13:37:30] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[13:37:30] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[13:37:30] [Server thread/INFO]: [Images] Enabling Images v2.5.3
+[13:37:30] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
+[13:37:30] [Server thread/INFO]: [BetterSocial] Enabling BetterSocial v1.4-BETA
+[13:37:30] [Server thread/INFO]: [BetterSocial] Inventory title with support for more than 32 characters. Skipping..
+[13:37:30] [Server thread/INFO]: [BetterSocial] Hex colors are not available! Ignoring..
+[13:37:30] [Server thread/INFO]: [BetterSocial] Old constructor for HoverEvent found! Using it..
+[13:37:30] [Server thread/INFO]: [BetterSocial] New sendTitle method not found! Using the old one..
+[13:37:30] [Server thread/INFO]: [BetterSocial] New setUnbreakable method not found! Using the old one for spigot ONLY..
+[13:37:30] [Server thread/INFO]: [BetterSocial] New isUnbreakable method not found! Using the old one for spigot ONLY..
+[13:37:30] [Server thread/INFO]:   ___      _   _           ___          _      _  Running v1.4-BETA (v1_8)
+[13:37:30] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _/ __| ___  __(_)__ _| | Server PandaSpigot vgit-PandaSpigot-149 (MC: 1.8.8)
+[13:37:30] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_\__ \/ _ \/ _| / _` | | Discord for support: https://alonsoaliaga.com/discord
+[13:37:30] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |___/\___/\__|_\__,_|_| Thanks for using my plugin ❤!
+[13:37:30] [Server thread/INFO]:           Developed by AlonsoAliaga
+[13:37:30] [Server thread/INFO]: 
+[13:37:30] [Server thread/INFO]: ==============================================================================================
+[13:37:30] [Server thread/INFO]: [BetterSocial] You are using a Paper fork (PandaSpigot), plugin should work fine!
+[13:37:30] [Server thread/INFO]: [BetterSocial] If you have issues, join us on our official support server on alonsoaliaga.com/discord
+[13:37:30] [Server thread/INFO]: ==============================================================================================
+[13:37:30] [Server thread/INFO]: 
+[13:37:30] [Server thread/INFO]: [BetterSocial] BungeeCord action bar not available for your server type/version! Skipping..
+[13:37:30] [Server thread/INFO]: [BetterSocial] ProtocolLib found! Checking..
+[13:37:30] [Server thread/INFO]: [BetterSocial] ProtocolLib available for action bars. Method: 'GAME_INFO'. Hooking..
+[13:37:30] [Server thread/INFO]: [Auto-update] Configuration is up-to-date!
+[13:37:30] [Server thread/INFO]: [Auto-update] File social.yml is up-to-date!
+[13:37:30] [Server thread/INFO]: [BetterSocial] Old ItemStack constructor is available!
+[13:37:30] [Server thread/INFO]: [BetterSocial] SkullMeta#setOwner method is available for heads.
+[13:37:30] [Server thread/INFO]: [BetterSocial] SkullMeta#setOwnerProfile is not available for heads. Ignoring..
+[13:37:30] [Server thread/INFO]: [BetterSocial] GameProfile "profile" field available for heads (@Nullable name). Using it for heads..
+[13:37:30] [Server thread/INFO]: [BetterSocial] New setUnbreakable method not found! Using the old one for spigot ONLY..
+[13:37:30] [Server thread/INFO]: [BetterSocial] New setOwningPlayer method is NOT available!
+[13:37:30] [Server thread/INFO]: [BetterSocial] Old Bukkit#getOfflinePlayer(String name) method is available!
+[13:37:30] [Server thread/INFO]: [BetterSocial] New isUnbreakable method not found! Using the old one for spigot ONLY..
+[13:37:30] [Server thread/INFO]: [BetterSocial] [HikariCP] Using com.mysql.jdbc.jdbc2.optional.MysqlDataSource for source class name..
+[13:37:30] [Server thread/INFO]: [BetterSocial] [SQLite] Attempting to create 'bettersocial' table..
+[13:37:30] [Server thread/INFO]: [SQLite] Connecting to database 'database-bettersocial.db'!
+[13:37:31] [Server thread/INFO]: [SQLite] Driver available: SQLiteJDBC | 3.7.2
+[13:37:31] [Server thread/INFO]: [SQLite] Successfully connected to database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] [SQLite] Table 'bettersocial' has been created if didn't exist.
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'twitter' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'twitter' successfully enabled! Slot: 10
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'youtube' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'youtube' successfully enabled! Slot: 11
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'instagram' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'instagram' successfully enabled! Slot: 12
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'twitch' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'twitch' successfully enabled! Slot: 13
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'facebook' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'facebook' successfully enabled! Slot: 14
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'discord' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'discord' successfully enabled! Slot: 15
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'mynetworkforum' is enabled in config. Loading..
+[13:37:31] [Server thread/INFO]: [BetterSocial] Media 'mynetworkforum' successfully enabled! Slot: 16
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'youtube' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'twitter' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'twitch' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'discord' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'facebook' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'instagram' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] Social media 'mynetworkforum' column already registered in database!
+[13:37:31] [Server thread/INFO]: [BetterSocial] PlaceholderAPI found! Hooking..
+[13:37:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bettersocial [1.4-BETA]
+[13:37:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[13:37:31] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[13:37:31] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[13:37:31] [Server thread/INFO]: No kits found to migrate.
+[13:37:31] [Server thread/INFO]: Loaded 853 items from items.csv.
+[13:37:31] [Server thread/INFO]: Using locale en
+[13:37:32] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[13:37:32] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[13:37:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:37:32] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[13:37:32] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.25.13
+[13:37:32] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.16.0
+[13:37:32] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.16.0 is loading...
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]       [server: git-PandaSpigot-149 (MC: 1.8.8)]
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]            Date Modified: 29 December 2024
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]                            
+[13:37:32] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_8_R3
+[13:37:32] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[13:37:33] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[13:37:33] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[13:37:34] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 246ms)
+[13:37:34] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[13:37:34] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[13:37:34] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[13:37:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gadgetsmenu [1.0.3]
+[13:37:34] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[13:37:35] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[13:37:35] [Server thread/INFO]: HikariPool-1 - Starting...
+[13:37:36] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[13:37:36] [Server thread/INFO]: HikariPool-1 - Start completed.
+[13:37:36] [Server thread/INFO]: 
  
 []=====[Enabling AdvancedBan]=====[]
 | Information:
@@ -395,451 +391,310 @@
 |   You have the newest version
 []================================[]
  
-[12:19:31] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3478)
-[12:19:31] [Server thread/INFO]: [Citizens] Loading external libraries
-[12:19:31] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[12:19:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
-[12:19:31] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[12:19:31] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
-[12:19:32] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
-[12:19:32] [Server thread/INFO]: [ajLeaderboards] Loaded 16 boards
-[12:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ajlb [2.9.0]
-[12:19:32] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
-[12:19:32] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
-[12:19:32] [Server thread/INFO]: [TAB] Enabling TAB v4.1.9
-[12:19:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 23ms
-[12:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab [4.1.9]
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] ---------------------------------------------------------------------
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] You have unlimited nametag mode feature enabled.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] This feature is scheduled for removal in a future TAB release.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] Please considering the alternative solutions available to achieve your desired result.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] No bug reports with this feature will be accepted anymore.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] No support with this feature will be provided anymore.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] See https://gist.github.com/NEZNAMY/f4cabf2fd9251a836b5eb877720dee5c/ for more info.
-[12:19:32] [Server thread/INFO]: [TAB] [WARN] ---------------------------------------------------------------------
-[12:19:32] [Server thread/INFO]: [TAB] Enabled in 111ms
-[12:19:32] [Server thread/INFO]: [BedWars-SpectatorOptions] Enabling BedWars-SpectatorOptions v1.1
-[12:19:32] [Server thread/INFO]: [BedWars1058-AdventureMode] Enabling BedWars1058-AdventureMode v1.0
-[12:19:32] [Server thread/INFO]: [BedWars1058-AdventureMode] BedWars2023 found... Hooking!
+[13:37:36] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3478)
+[13:37:36] [Server thread/INFO]: [Citizens] Loading external libraries
+[13:37:37] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[13:37:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[13:37:37] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[13:37:39] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[13:37:40] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[13:37:41] [Server thread/INFO]: [ajLeaderboards] Loaded 16 boards
+[13:37:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ajlb [2.9.0]
+[13:37:41] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[13:37:41] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[13:37:41] [Server thread/INFO]: [TAB] Enabling TAB v4.1.9
+[13:37:42] [Server thread/INFO]: [TAB] Loaded NMS hook in 128ms
+[13:37:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab [4.1.9]
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] ---------------------------------------------------------------------
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] You have unlimited nametag mode feature enabled.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] This feature is scheduled for removal in a future TAB release.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] Please considering the alternative solutions available to achieve your desired result.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] No bug reports with this feature will be accepted anymore.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] No support with this feature will be provided anymore.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] See https://gist.github.com/NEZNAMY/f4cabf2fd9251a836b5eb877720dee5c/ for more info.
+[13:37:42] [Server thread/INFO]: [TAB] [WARN] ---------------------------------------------------------------------
+[13:37:42] [Server thread/INFO]: [TAB] Enabled in 593ms
+[13:37:43] [Server thread/INFO]: [BedWars-SpectatorOptions] Enabling BedWars-SpectatorOptions v1.1
+[13:37:43] [Server thread/INFO]: [BedWars1058-AdventureMode] Enabling BedWars1058-AdventureMode v1.0
+[13:37:43] [Server thread/INFO]: [BedWars1058-AdventureMode] BedWars2023 found... Hooking!
 
-[12:19:32] [Server thread/INFO]: [BedWars1058-AdventureMode] Running ongit-PandaSpigot-149 (MC: 1.8.8)
+[13:37:43] [Server thread/INFO]: [BedWars1058-AdventureMode] Running ongit-PandaSpigot-149 (MC: 1.8.8)
 
-[12:19:32] [Server thread/INFO]: [BedWars-Rush] Enabling BedWars-Rush v1.0.1
-[12:19:32] [Server thread/INFO]: [Bedwars2023-ArenaStartMessage] Enabling Bedwars2023-ArenaStartMessage v1.5.2
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: --------------------------------------------------------------------
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: Bedwars2023-ArenaStartMessage v1.5.2
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: Successfully Loaded
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: BedWars2023 found and hooked successfully.
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: Author - Pro_Nil (BedWars2023 support by AgentNoobff)
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: Running Java 21.0.5
-[12:19:32] [Server thread/INFO]: Running PandaSpigot fork v1.8.8-R0.1-SNAPSHOT
-[12:19:32] [Server thread/INFO]: --------------------------------------------------------------------
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]:  
-[12:19:32] [Server thread/INFO]: [BedWars-LobbyShop] Enabling BedWars-LobbyShop v1.2-BETA
-[12:19:32] [Server thread/INFO]: [BedWars-LobbyShop] BedWars-LobbyShop has been successfully loaded!
-[12:19:32] [Server thread/INFO]: [BedWars2023-RewardSummary] Enabling BedWars2023-RewardSummary v1.0.4
-[12:19:32] [Server thread/INFO]: [BedWars1058-Sponge] Enabling BedWars1058-Sponge v1.0.2
-[12:19:32] [Server thread/INFO]: [BedWars1058-Sponge] Successfully loaded in 4ms
-[12:19:32] [Server thread/INFO]: [Voidless] Enabling Voidless v1.0.0
-[12:19:32] [Server thread/INFO]: [MapSelector] Enabling MapSelector v1.3.1
-[12:19:32] [Server thread/INFO]: [MapSelector] Hooked into BedWars2023
-[12:19:32] [Server thread/INFO]: [MapSelector] Creating plugins/BedWars2023/Cache/database.db
-[12:19:32] [Server thread/INFO]: [MapSelector] Connected to the database
-[12:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mapselector [1.3.1]
-[12:19:32] [Server thread/INFO]: [MapSelector] MapSelector plugin by itz_leoo has been successfully enabled.
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Enabling Cosmetics v1.4.7
-[12:19:32] [Server thread/INFO]: Found PlaceholderAPI, loading placeholders!
-[12:19:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bwc [1.2]
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Loading libraries...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] All dependencies found, continuing with plugin startup.
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Cosmetics list successfully loaded.
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Saving data to configs...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Creating folders...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Configuration file successfully loaded.
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Loading SQLite database...
-[12:19:32] [Server thread/INFO]: COSMETICS-SQLITE - Starting...
-[12:19:32] [Server thread/INFO]: COSMETICS-SQLITE - Driver does not support get/set network timeout for connections. (Receiver class org.sqlite.Conn does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
-[12:19:32] [Server thread/INFO]: COSMETICS-SQLITE - Added connection org.sqlite.Conn@62ec9036
-[12:19:32] [Server thread/INFO]: COSMETICS-SQLITE - Start completed.
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Registering event listeners...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Registering command to HCore...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Loading data from resources in jar...
-[12:19:32] [Server thread/INFO]: [BedWars-Cosmetics] Loading cosmetics...
-[12:19:33] [Server thread/INFO]: [BedWars-Cosmetics] Addon have been loaded and enabled!
-[12:19:33] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
-[12:19:33] [Server thread/INFO]: [BedWars1058-Compass] Hook into Vault chat support
-[12:19:33] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 68ms
-[12:19:33] [Server thread/INFO]: [BedWars2023-TeamSelector] Enabling BedWars2023-TeamSelector v1.0-SNAPSHOT
-[12:19:33] [Server thread/INFO]: [BedWars2023-TeamSelector] Successfully hooked into PlaceholderAPI!
-[12:19:33] [Server thread/INFO]: [BedWars2023-TeamSelector] Successfully hooked into BedWars2023!
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] Enabling BedWars2023-GroupStats v9.0-SNAPSHOT
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] BedWars2023 found, activating standalone mode...
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] Loading the plugin, please wait...
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] Starting connection to database with SQLite
-[12:19:33] [Server thread/INFO]: bedwars2023-groupstats-pool - Starting...
-[12:19:33] [Server thread/INFO]: bedwars2023-groupstats-pool - Driver does not support get/set network timeout for connections. (Receiver class org.sqlite.Conn does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
-[12:19:33] [Server thread/INFO]: bedwars2023-groupstats-pool - Added connection org.sqlite.Conn@1b0aa46f
-[12:19:33] [Server thread/INFO]: bedwars2023-groupstats-pool - Start completed.
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] Established connection to database successfully.
-[12:19:33] [Server thread/INFO]: creating table 'bedwars-groupstats'
-[12:19:33] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `bedwars-groupstats` (`uniqueId` VARCHAR , `data` TEXT , PRIMARY KEY (`uniqueId`) ) 
-[12:19:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupstats [9.0-SNAPSHOT]
-[12:19:33] [Server thread/INFO]: [BedWars2023-GroupStats] Loaded the plugin successfully.
-[12:19:33] [Server thread/INFO]: Done (5.631s)! For help, type "help" or "?"
-[12:19:33] [Server thread/INFO]: Timings Reset
-[12:19:33] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] Checking for updates...
-[12:19:33] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
-[12:19:33] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[12:19:33] [Craft Scheduler Thread - 3/INFO]: Fetching version information...
-[12:19:33] [Craft Scheduler Thread - 6/INFO]: [DecentHolograms] Loading animations...
-[12:19:33] [Craft Scheduler Thread - 6/INFO]: [DecentHolograms] Loaded 1 animations!
-[12:19:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
-[12:19:33] [Craft Scheduler Thread - 5/INFO]: [DecentHolograms] Loading holograms... 
-[12:19:33] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.16.0, available version 4.17.0.
-[12:19:33] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[12:19:34] [Craft Scheduler Thread - 1/INFO]:  There is a new update available: v_3.1 (Current version: v_2.6)
-[12:19:34] [Server thread/INFO]: [BedWars2023] Hooking into TAB support!
-[12:19:34] [Server thread/WARN]: [BedWars2023] BossBar is disabled in TAB config! Please enable it there.
+[13:37:43] [Server thread/INFO]: [BedWars-Rush] Enabling BedWars-Rush v1.0.1
+[13:37:43] [Server thread/INFO]: [Bedwars2023-ArenaStartMessage] Enabling Bedwars2023-ArenaStartMessage v1.5.2
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: --------------------------------------------------------------------
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: Bedwars2023-ArenaStartMessage v1.5.2
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: Successfully Loaded
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: BedWars2023 found and hooked successfully.
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: Author - Pro_Nil (BedWars2023 support by AgentNoobff)
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: Running Java 21.0.5
+[13:37:43] [Server thread/INFO]: Running PandaSpigot fork v1.8.8-R0.1-SNAPSHOT
+[13:37:43] [Server thread/INFO]: --------------------------------------------------------------------
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]:  
+[13:37:43] [Server thread/INFO]: [BedWars-LobbyShop] Enabling BedWars-LobbyShop v1.2-BETA
+[13:37:43] [Server thread/INFO]: [BedWars-LobbyShop] BedWars-LobbyShop has been successfully loaded!
+[13:37:43] [Server thread/INFO]: [BedWars2023-RewardSummary] Enabling BedWars2023-RewardSummary v1.0.4
+[13:37:43] [Server thread/INFO]: [BedWars1058-Sponge] Enabling BedWars1058-Sponge v1.0.2
+[13:37:43] [Server thread/INFO]: [BedWars1058-Sponge] Successfully loaded in 15ms
+[13:37:43] [Server thread/INFO]: [Voidless] Enabling Voidless v1.0.0
+[13:37:43] [Server thread/INFO]: [MapSelector] Enabling MapSelector v1.3.1
+[13:37:43] [Server thread/INFO]: [MapSelector] Hooked into BedWars2023
+[13:37:43] [Server thread/INFO]: [MapSelector] Connected to the database
+[13:37:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mapselector [1.3.1]
+[13:37:43] [Server thread/INFO]: [MapSelector] MapSelector plugin by itz_leoo has been successfully enabled.
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Enabling Cosmetics v1.4.7
+[13:37:43] [Server thread/INFO]: Found PlaceholderAPI, loading placeholders!
+[13:37:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bwc [1.2]
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Loading libraries...
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] All dependencies found, continuing with plugin startup.
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Cosmetics list successfully loaded.
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Saving data to configs...
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Creating folders...
+[13:37:43] [Server thread/INFO]: [BedWars-Cosmetics] Configuration file successfully loaded.
+[13:37:44] [Server thread/INFO]: [BedWars-Cosmetics] Loading SQLite database...
+[13:37:44] [Server thread/INFO]: COSMETICS-SQLITE - Starting...
+[13:37:44] [Server thread/INFO]: COSMETICS-SQLITE - Driver does not support get/set network timeout for connections. (Receiver class org.sqlite.Conn does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+[13:37:44] [Server thread/INFO]: COSMETICS-SQLITE - Added connection org.sqlite.Conn@afb7e72
+[13:37:44] [Server thread/INFO]: COSMETICS-SQLITE - Start completed.
+[13:37:44] [pool-24-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.9.0)
+[13:37:44] [Server thread/INFO]: [BedWars-Cosmetics] Registering event listeners...
+[13:37:44] [Server thread/INFO]: [BedWars-Cosmetics] Registering command to HCore...
+[13:37:44] [Server thread/INFO]: [BedWars-Cosmetics] Loading data from resources in jar...
+[13:37:44] [Server thread/INFO]: [BedWars-Cosmetics] Loading cosmetics...
+[13:37:47] [Server thread/INFO]: [BedWars-Cosmetics] Addon have been loaded and enabled!
+[13:37:47] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
+[13:37:47] [Server thread/INFO]: [BedWars1058-Compass] Hook into Vault chat support
+[13:37:47] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 245ms
+[13:37:47] [Server thread/INFO]: [BedWars2023-TeamSelector] Enabling BedWars2023-TeamSelector v1.0-SNAPSHOT
+[13:37:47] [Server thread/INFO]: [BedWars2023-TeamSelector] Successfully hooked into PlaceholderAPI!
+[13:37:47] [Server thread/INFO]: [BedWars2023-TeamSelector] Successfully hooked into BedWars2023!
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] Enabling BedWars2023-GroupStats v9.0-SNAPSHOT
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] BedWars2023 found, activating standalone mode...
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] Loading the plugin, please wait...
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] Starting connection to database with SQLite
+[13:37:47] [Server thread/INFO]: bedwars2023-groupstats-pool - Starting...
+[13:37:47] [Server thread/INFO]: bedwars2023-groupstats-pool - Driver does not support get/set network timeout for connections. (Receiver class org.sqlite.Conn does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+[13:37:47] [Server thread/INFO]: bedwars2023-groupstats-pool - Added connection org.sqlite.Conn@6eb8ab5b
+[13:37:47] [Server thread/INFO]: bedwars2023-groupstats-pool - Start completed.
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] Established connection to database successfully.
+[13:37:47] [Server thread/INFO]: creating table 'bedwars-groupstats'
+[13:37:47] [Server thread/INFO]: executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `bedwars-groupstats` (`uniqueId` VARCHAR , `data` TEXT , PRIMARY KEY (`uniqueId`) ) 
+[13:37:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupstats [9.0-SNAPSHOT]
+[13:37:47] [Server thread/INFO]: [BedWars2023-GroupStats] Loaded the plugin successfully.
+[13:37:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:37:48] [Server thread/INFO]: Done (23.415s)! For help, type "help" or "?"
+[13:37:48] [Server thread/INFO]: Timings Reset
+[13:37:48] [Server thread/INFO]: [JumpPads] CleanUp found no JumpPads to delete!
+[13:37:48] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:37:48] [Craft Scheduler Thread - 3/INFO]: Fetching version information...
+[13:37:48] [Craft Scheduler Thread - 2/INFO]: [GadgetsMenu] Checking for updates...
+[13:37:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[13:37:48] [Craft Scheduler Thread - 9/INFO]: [DecentHolograms] Loading holograms... 
+[13:37:48] [Craft Scheduler Thread - 5/INFO]: [DecentHolograms] Loading animations...
+[13:37:48] [Craft Scheduler Thread - 5/INFO]: [DecentHolograms] Loaded 1 animations!
+[13:37:48] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[13:37:48] [Craft Scheduler Thread - 2/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.16.0, available version 4.17.0.
+[13:37:48] [Craft Scheduler Thread - 2/INFO]:  There is a new update available: v_3.1 (Current version: v_2.6)
+[13:37:48] [Server thread/INFO]: [BedWars2023] Hooking into TAB support!
+[13:37:48] [Server thread/WARN]: [BedWars2023] BossBar is disabled in TAB config! Please enable it there.
  Make sure to remove the ServerInfo default config if you want to use dragon boss-bars
-[12:19:34] [Server thread/INFO]: [BedWars2023] TAB support has been loaded
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called carapace4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called unchained4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called aquarium3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called chained3v3v3v3
-[12:19:34] [Craft Scheduler Thread - 5/INFO]: [DecentHolograms] Loaded 26 holograms!
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called toro
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called lightstone1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire1v1rush
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called sandcastle4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called fortdoon3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called waterfall2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called orchestra1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called inca2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashore4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called lighthouse2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called lionstemple
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called acropolis1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called aquarium4v4v4v4
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [31;1m15.5.1[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [31;1md5d8613[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    A new version ([32;1m15.6.0[36;1m) is available! Downloading update...[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called inca1v1
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloading update...[0;39m
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called invasion4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called amazon1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called swashbuckle4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called carapace3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called zarzul2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called speedway2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called helltemple3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called boletum4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called nutcracker1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called pernicious1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called polemus2v2voidless
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called amazon2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called glacier2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfiregh
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called submerged2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called lighthouse1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called ashore3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called eggrun3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called waterfallgh
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called glacier1v1
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called dreamgrove3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called treenan4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called acropolis2v2
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called cauldron4v4v4v4
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called boletum3v3v3v3
-[12:19:34] [Server thread/WARN]: [BedWars2023] There isn't any map called cauldron3v3v3v3
-[12:19:34] [Server thread/INFO]: [Citizens] Loaded 10 NPCs.
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: world [1.2.2]
-[12:19:34] [Craft Scheduler Thread - 10/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.3]
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.4-R2]
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.8]
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.3]
-[12:19:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.7.3]
-[12:19:34] [Server thread/INFO]: 6 placeholder hook(s) registered!
-[12:19:34] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
-[12:19:34] [Craft Scheduler Thread - 15/INFO]: [BetterSocial] Checking for updates...
-[12:19:34] [Craft Scheduler Thread - 15/INFO]: [BetterSocial] Plugin up-to-date! You have the latest version!
-[12:19:34] [Server thread/INFO]: [BedWars2023] Loading internal Party system. /party
-[12:19:34] [Craft Scheduler Thread - 10/INFO]: [cxSTUDIOS] You are running the latest version (25.1.0).
-[12:19:34] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.2.0
-[12:19:34] [pool-24-thread-1/INFO]: [ajLeaderboards] You are up to date! (2.9.0)
-[12:19:34] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Downloaded update in 464ms[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] Update saved as SkinsRestorer.jar[0;39m
-[12:19:34] [Craft Scheduler Thread - 9/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[GitHubUpdate] The update will be loaded on the next server restart[0;39m
-[12:19:34] [Server thread/INFO]: Registering /party command..
-[12:19:35] [Server thread/INFO]: [BedWars2023] Hook into Citizens support. /bw npc
-[12:19:35] [Craft Scheduler Thread - 13/INFO]: [Images] Loaded 1 images...
-[12:19:36] [Server thread/INFO]: [BedWars2023] 14 addons were found.
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading 14 addons
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading PrivateGames by Kiiya. Version 1.1.9
-[12:19:36] [Server thread/INFO]: [PrivateGames] Loading Private Games addon...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Creating main config...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Main config created successfully!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Loading messages...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Messages loaded successfully!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Registering commands...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Commands registered successfully!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Connecting to database...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Using SQLite as database provider...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Connecting to your database...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Connected successfully to your database!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Creating tables...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Tables created successfully!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Your database is ready!
-[12:19:36] [Server thread/INFO]: [PrivateGames] Loading listeners...
-[12:19:36] [Server thread/INFO]: [PrivateGames] Listeners loaded successfully
-[12:19:36] [Server thread/INFO]: [PrivateGames] Private Games Addon loaded successfully! Enjoy!
-[12:19:36] [Server thread/INFO]: [BedWars2023] PrivateGames addon loaded and registered successfully!
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading WinStreak by reussy. Version 2.0.1-BETA
-[12:19:36] [Server thread/INFO]: [BedWars2023] WinStreak addon loaded and registered successfully!
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading SpectatorOptions by Kiiya. Version 1.1
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] --------------------------------
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] SpectatorOptions by Kiiya
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Version: 1.1
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] --------------------------------
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading config...
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Config loaded!
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading messages...
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Messages loaded!
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading listeners...
-[12:19:36] [Server thread/INFO]: [BedWars-SpectatorOptions] Listeners loaded!
-[12:19:36] [Server thread/INFO]: [BedWars2023] SpectatorOptions addon loaded and registered successfully!
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-AdventureMode by NotLew_x. Version 1.0
-[12:19:36] [Server thread/INFO]: [BedWars2023] BedWars1058-AdventureMode addon loaded and registered successfully!
-[12:19:36] [Server thread/INFO]: [BedWars2023] Loading BedWars-Rush by ritana5. Version 1.0.1
-[12:19:37] [Server thread/INFO]: [BedWars2023] The BedWars-Rush addon was originally contributed to by Kiiya, Happy_FZM, and Zuyte.
-[12:19:37] [Server thread/INFO]: [BedWars-Rush] BedWars-Rush
-[12:19:37] [Server thread/INFO]: [BedWars-Rush] Plugin Version: 1.0.1
-[12:19:37] [Server thread/INFO]: [BedWars-Rush] You are running on the latest release!
-[12:19:37] [Server thread/INFO]: [BedWars-Rush] Server Version: git-PandaSpigot-149 (MC: 1.8.8)
+[13:37:48] [Server thread/INFO]: [BedWars2023] TAB support has been loaded
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called carapace4v4v4v4
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called unchained4v4v4v4
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire1v1
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called aquarium3v3v3v3
+[13:37:48] [Craft Scheduler Thread - 9/INFO]: [DecentHolograms] Loaded 26 holograms!
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called chained3v3v3v3
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called toro
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called lightstone1v1
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.6.0[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mdec2ffc[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[13:37:48] [Craft Scheduler Thread - 6/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire1v1rush
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfire2v2
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called sandcastle4v4v4v4
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called fortdoon3v3v3v3
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called waterfall2v2
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called orchestra1v1
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called inca2v2
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called ashore4v4v4v4
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called lighthouse2v2
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called lionstemple
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called acropolis1v1
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called aquarium4v4v4v4
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called inca1v1
+[13:37:48] [Server thread/WARN]: [BedWars2023] There isn't any map called invasion4v4v4v4
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called amazon1v1
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called swashbuckle4v4v4v4
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called carapace3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called zarzul2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called speedway2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called helltemple3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called boletum4v4v4v4
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called nutcracker1v1
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called pernicious1v1
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called polemus2v2voidless
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called amazon2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called glacier2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called ashfiregh
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called submerged2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called lighthouse1v1
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called ashore3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called eggrun3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called waterfallgh
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called glacier1v1
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called dreamgrove3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called treenan4v4v4v4
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called acropolis2v2
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called cauldron4v4v4v4
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called boletum3v3v3v3
+[13:37:49] [Server thread/WARN]: [BedWars2023] There isn't any map called cauldron3v3v3v3
+[13:37:50] [Server thread/INFO]: [Citizens] Loaded 10 NPCs.
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: world [1.2.2]
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [2.3]
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.4-R2]
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.8]
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.3]
+[13:37:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.7.3]
+[13:37:50] [Server thread/INFO]: 6 placeholder hook(s) registered!
+[13:37:50] [Craft Scheduler Thread - 2/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:37:50] [Craft Scheduler Thread - 2/INFO]: [BetterSocial] Checking for updates...
+[13:37:50] [Craft Scheduler Thread - 2/INFO]: [BetterSocial] Plugin up-to-date! You have the latest version!
+[13:37:50] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
+[13:37:50] [Craft Scheduler Thread - 13/INFO]: [cxSTUDIOS] You are running the latest version (25.1.0).
+[13:37:50] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.2.0
+[13:37:50] [Server thread/INFO]: [BedWars2023] Loading internal Party system. /party
+[13:37:50] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
+[13:37:51] [Server thread/INFO]: Registering /party command..
+[13:37:51] [Server thread/INFO]: [BedWars2023] Hook into Citizens support. /bw npc
+[13:37:51] [Craft Scheduler Thread - 7/INFO]: [Images] Loaded 1 images...
+[13:37:51] [Server thread/INFO]: [BedWars2023] 14 addons were found.
+[13:37:51] [Server thread/INFO]: [BedWars2023] Loading 14 addons
+[13:37:51] [Server thread/INFO]: [BedWars2023] Loading PrivateGames by Kiiya. Version 1.1.9
+[13:37:51] [Server thread/INFO]: [PrivateGames] Loading Private Games addon...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Creating main config...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Main config created successfully!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Loading messages...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Messages loaded successfully!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Registering commands...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Commands registered successfully!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Connecting to database...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Using SQLite as database provider...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Connecting to your database...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Connected successfully to your database!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Creating tables...
+[13:37:51] [Server thread/INFO]: [PrivateGames] Tables created successfully!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Your database is ready!
+[13:37:51] [Server thread/INFO]: [PrivateGames] Loading listeners...
+[13:37:52] [Server thread/INFO]: [PrivateGames] Listeners loaded successfully
+[13:37:52] [Server thread/INFO]: [PrivateGames] Private Games Addon loaded successfully! Enjoy!
+[13:37:52] [Server thread/INFO]: [BedWars2023] PrivateGames addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading WinStreak by reussy. Version 2.0.1-BETA
+[13:37:52] [Server thread/INFO]: [BedWars2023] WinStreak addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading SpectatorOptions by Kiiya. Version 1.1
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] --------------------------------
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] SpectatorOptions by Kiiya
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Version: 1.1
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] --------------------------------
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading config...
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Config loaded!
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading messages...
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Messages loaded!
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Loading listeners...
+[13:37:52] [Server thread/INFO]: [BedWars-SpectatorOptions] Listeners loaded!
+[13:37:52] [Server thread/INFO]: [BedWars2023] SpectatorOptions addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-AdventureMode by NotLew_x. Version 1.0
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars1058-AdventureMode addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars-Rush by ritana5. Version 1.0.1
+[13:37:52] [Server thread/INFO]: [BedWars2023] The BedWars-Rush addon was originally contributed to by Kiiya, Happy_FZM, and Zuyte.
+[13:37:52] [Server thread/INFO]: [BedWars-Rush] BedWars-Rush
+[13:37:52] [Server thread/INFO]: [BedWars-Rush] Plugin Version: 1.0.1
+[13:37:52] [Server thread/INFO]: [BedWars-Rush] You are running on the latest release!
+[13:37:52] [Server thread/INFO]: [BedWars-Rush] Server Version: git-PandaSpigot-149 (MC: 1.8.8)
 
-[12:19:37] [Server thread/INFO]: [BedWars-Rush] Running on: BedWars2023
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars-Rush addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading Arena Start Message by Pro_Nil (BedWars2023 support by AgentNoobff). Version 1.5.2
-[12:19:37] [Server thread/INFO]: [BedWars2023] Arena Start Message addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading BedWars2023-RewardSummary by itz_leoo. Version 1.0.4
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Hooking into vault...
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Hooked into vault successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Generating main config...
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Main config generated successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Registering listeners...
-[12:19:37] [Server thread/INFO]: [BedWars2023-RewardSummary] Listeners registered successfully!
-[12:19:37] [Server thread/INFO]: BedWars1058 Reward Summary addon has been successfully enabled.
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars2023-RewardSummary addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-Sponge by Mher Zaqaryan. Version 1.0.2
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars1058-Sponge addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading Voidless by Zuyte. Version 1.0.0
-[12:19:37] [Server thread/INFO]: ==========================================
-[12:19:37] [Server thread/INFO]:  
-[12:19:37] [Server thread/INFO]: Running BedWars2023-Voidless - v1.0.0 for BedWars2023 - v1.3.0
-[12:19:37] [Server thread/INFO]:  
-[12:19:37] [Server thread/INFO]: Found BedWars2023 and hooked into.
-[12:19:37] [Server thread/INFO]: BedWars2023-Voidless Enabled successfully!
-[12:19:37] [Server thread/INFO]:  
-[12:19:37] [Server thread/INFO]: Created by Zuyte
-[12:19:37] [Server thread/INFO]:  
-[12:19:37] [Server thread/INFO]: ==========================================
-[12:19:37] [Server thread/INFO]: [BedWars2023] Voidless addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading MapSelector by itz_leoo. Version 1.3.1
-[12:19:37] [Server thread/INFO]: [BedWars2023] MapSelector addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading Cosmetics by IamTheDefender (iamthedefender). Version 1.4.7
-[12:19:37] [Server thread/INFO]: [BedWars2023] Cosmetics addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-Compass by Mher Zaqaryan. Version 1.4.3
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars1058-Compass addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading Team Selector by AgentNoobff. Version 1.0-SNAPSHOT
-[12:19:37] [Server thread/INFO]: [BedWars2023] Team Selector addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] Loading BedWars2023-GroupStats by Lagggpixel. Version 9.0-SNAPSHOT
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars2023-GroupStats addon loaded and registered successfully!
-[12:19:37] [Server thread/INFO]: [BedWars2023] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[12:19:37] [Server thread/INFO]: [BedWars2023] BedWars2023 v1.3.0 has been enabled!
-[12:19:37] [Server thread/INFO]: [BedWars2023] 
-[12:19:37] [Server thread/INFO]: [BedWars2023] Server Type: MULTIARENA
-[12:19:37] [Server thread/INFO]: [BedWars2023] Auto Scale: false
-[12:19:37] [Server thread/INFO]: [BedWars2023] Datasource: SQLite
-[12:19:37] [Server thread/INFO]: [BedWars2023] Restore Adapter: Internal Restore Adapter
-[12:19:37] [Server thread/INFO]: [BedWars2023] NMS version: v1_8_R3
-[12:19:37] [Server thread/INFO]: [BedWars2023] 
-[12:19:37] [Server thread/INFO]: [BedWars2023] Arenas (0): None
-[12:19:37] [Server thread/INFO]: [BedWars2023] Addons (14): PrivateGames, WinStreak, SpectatorOptions, BedWars1058-AdventureMode, BedWars-Rush, Arena Start Message, BedWars2023-RewardSummary, BedWars1058-Sponge, Voidless, MapSelector, Cosmetics, BedWars1058-Compass, Team Selector, BedWars2023-GroupStats
-[12:19:37] [Server thread/INFO]: [BedWars2023] 
-[12:19:37] [Server thread/INFO]: [BedWars2023] PAPI Support: true
-[12:19:37] [Server thread/INFO]: [BedWars2023] Vault Chat Hook: true
-[12:19:37] [Server thread/INFO]: [BedWars2023] Vault Economy Hook: true
-[12:19:37] [Server thread/INFO]: [BedWars2023] 
-[12:19:37] [Server thread/INFO]: [BedWars2023] TAB Version: 4.1.9
-[12:19:37] [Server thread/INFO]: [BedWars2023] TAB Features: 
-[12:19:37] [Server thread/INFO]: [BedWars2023]   - Scoreboard: true
-[12:19:37] [Server thread/INFO]: [BedWars2023]   - UnlimitedNameTag: true
-[12:19:37] [Server thread/INFO]: [BedWars2023]   - BossBar: false
-[12:19:37] [Server thread/INFO]: [BedWars2023]   - TablistNameFormatting: true
-[12:19:37] [Server thread/INFO]: [BedWars2023]   - HeaderFooterFormatting: true
-[12:19:37] [Server thread/INFO]: [BedWars2023] 
-[12:19:37] [Server thread/INFO]: [BedWars2023] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[12:22:48] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[12:22:48] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:37706] logged in with entity id 1565 at ([spawn]0.5358681996364446, 65.0, 0.38254838461992924)
-[12:22:48] [Craft Scheduler Thread - 9/INFO]: [BedWars1058-WinStreak] [BW1058-WinStreak DEBUG]: Successfully PlayerJoinEvent. ysyyayyyayya's streak cache was loaded.
-[12:23:09] [Server thread/INFO]: ysyyayyyayya issued server command: /bwmenu Solo
-[12:23:09] [Server thread/INFO]: Created a User for solo (58429079-a51e-235a-b677-60bc45f3d772) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
-[12:23:15] [Server thread/INFO]: ysyyayyyayya issued server command: /shop
-[12:23:15] [Server thread/INFO]: Created a User for settings (c1ce1c0b-1d28-26d2-9719-9dea5147cea1) for non Bukkit type: net.citizensnpcs.nms.v1_8_R3.entity.EntityHumanNPC$PlayerNPC
-[12:24:18] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
-[12:39:12] [Server thread/INFO]: Stopping the server
-[12:39:12] [Server thread/INFO]: Stopping server
-[12:39:12] [Server thread/INFO]: [BedWars2023-GroupStats] Disabling BedWars2023-GroupStats v9.0-SNAPSHOT
-[12:39:12] [Server thread/INFO]: [BedWars2023-GroupStats] Disabling the plugin, please wait...
-[12:39:12] [Server thread/INFO]: bedwars2023-groupstats-pool - Shutdown initiated...
-[12:39:12] [Server thread/INFO]: bedwars2023-groupstats-pool - Shutdown completed.
-[12:39:12] [Server thread/INFO]: [BedWars2023-GroupStats] Disconnected to database successfully.
-[12:39:12] [Server thread/INFO]: [BedWars2023-GroupStats] Plugin disabled successfully.
-[12:39:12] [Server thread/INFO]: [BedWars2023-TeamSelector] Disabling BedWars2023-TeamSelector v1.0-SNAPSHOT
-[12:39:12] [Server thread/INFO]: [BedWars1058-Compass] Disabling BedWars1058-Compass v1.4.3
-[12:39:12] [Server thread/INFO]: [BedWars-Cosmetics] Disabling Cosmetics v1.4.7
-[12:39:12] [Server thread/INFO]: [BedWars-Cosmetics] Saving player data to SQLite database...
-[12:39:12] [Server thread/INFO]: [BedWars-Cosmetics] Please wait it may take some time!
-[12:39:12] [Server thread/INFO]: [BedWars-Cosmetics] Player data saved to SQLite database!
-[12:39:12] [Server thread/INFO]: [MapSelector] Disabling MapSelector v1.3.1
-[12:39:12] [Server thread/INFO]: [MapSelector] Closed the database connection
-[12:39:12] [Server thread/INFO]: [MapSelector] MapSelector plugin by itz_leoo has been successfully disabled.
-[12:39:12] [Server thread/INFO]: [Voidless] Disabling Voidless v1.0.0
-[12:39:12] [Server thread/INFO]: [BedWars1058-Sponge] Disabling BedWars1058-Sponge v1.0.2
-[12:39:12] [Server thread/INFO]: [BedWars2023-RewardSummary] Disabling BedWars2023-RewardSummary v1.0.4
-[12:39:12] [Server thread/INFO]: BedWars1058 Reward Summary addon has been successfully disabled.
-[12:39:12] [Server thread/INFO]: [BedWars-LobbyShop] Disabling BedWars-LobbyShop v1.2-BETA
-[12:39:12] [Server thread/INFO]: [BedWars-LobbyShop] BedWars-LobbyShop has been unloaded!
-[12:39:12] [Server thread/INFO]: [Bedwars2023-ArenaStartMessage] Disabling Bedwars2023-ArenaStartMessage v1.5.2
-[12:39:12] [Server thread/INFO]: [BedWars-Rush] Disabling BedWars-Rush v1.0.1
-[12:39:12] [Server thread/INFO]: [BedWars1058-AdventureMode] Disabling BedWars1058-AdventureMode v1.0
-[12:39:12] [Server thread/INFO]: [BedWars-SpectatorOptions] Disabling BedWars-SpectatorOptions v1.1
-[12:39:12] [Server thread/INFO]: [BedWars2023] Disabling BedWars2023 v1.3.0
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading addons...
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading PrivateGames by Kiiya
-[12:39:12] [Server thread/INFO]: [PrivateGames] Unloading Private Games addon...
-[12:39:12] [Server thread/INFO]: [PrivateGames] Disabling PrivateGames v1.1.9
-[12:39:12] [Server thread/INFO]: [PrivateGames] Private Games Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading WinStreak by reussy
-[12:39:12] [Server thread/INFO]: [BedWars1058-WinStreak] Disabling BedWars1058-WinStreak v2.0.1-BETA
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading SpectatorOptions by Kiiya
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars1058-AdventureMode by NotLew_x
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars-Rush by ritana5
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading Arena Start Message by Pro_Nil (BedWars2023 support by AgentNoobff)
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars2023-RewardSummary by itz_leoo
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars1058-Sponge by Mher Zaqaryan
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading Voidless by Zuyte
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading MapSelector by itz_leoo
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading Cosmetics by IamTheDefender (iamthedefender)
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars1058-Compass by Mher Zaqaryan
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading Team Selector by AgentNoobff
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [BedWars2023] Unloading BedWars2023-GroupStats by Lagggpixel
-[12:39:12] [Server thread/INFO]: [BedWars2023] Addon unloaded successfully!
-[12:39:12] [Server thread/INFO]: [TAB] Disabling TAB v4.1.9
-[12:39:12] [Server thread/INFO]: [TAB] Disabled in 1ms
-[12:39:12] [Server thread/INFO]: [ajLeaderboards] Disabling ajLeaderboards v2.9.0
-[12:39:12] [pool-29-thread-1/INFO]: [ajLeaderboards] Shutting down cache method..
-[12:39:12] [pool-29-thread-1/INFO]: [ajLeaderboards] Cache method shut down
-[12:39:12] [Server thread/INFO]: [ajLeaderboards] Killing remaining workers
-[12:39:12] [Server thread/INFO]: [ajLeaderboards] Remaining workers killed
-[12:39:12] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 disabled.
-[12:39:12] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.35-SNAPSHOT (build 3478)
-[12:39:12] [Server thread/INFO]: [AdvancedBan] Disabling AdvancedBan v2.3.0
-[12:39:12] [Server thread/INFO]: Database closed
-[12:39:12] [Server thread/INFO]: HikariPool-1 - Shutdown initiated...
-[12:39:12] [Server thread/INFO]: HikariPool-1 - Shutdown completed.
-[12:39:12] [Server thread/INFO]: 
- 
-[]=====[Disabling AdvancedBan]=====[]
-| Information:
-|   Name: AdvancedBan
-|   Developer: Leoko
-|   Version: 2.3.0
-|   Storage: HSQLDB (local)
-| Support:
-|   Github: https://github.com/DevLeoko/AdvancedBan/issues
-|   Discord: https://discord.gg/ycDG6rS
-| Twitter: @LeokoGar
-[]================================[]
- 
-[12:39:12] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.16.0
-[12:39:12] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
-[12:39:12] [Server thread/INFO]: [JumpPads] Disabling JumpPads v1.25.13
-[12:39:12] [Server thread/INFO]: Disabling Essentials v2.20.1
-[12:39:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[12:39:12] [Server thread/INFO]: [BetterSocial] Disabling BetterSocial v1.4-BETA
-[12:39:12] [Server thread/INFO]: [SQLite] Forcing connection close..
-[12:39:12] [Server thread/INFO]:  
-[12:39:12] [Server thread/INFO]: [BetterSocial] Plugin has been disabled!
-[12:39:12] [Server thread/INFO]: [BetterSocial] Thank you for using my plugin!
-[12:39:12] [Server thread/INFO]:  
-[12:39:12] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[12:39:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: vault
-[12:39:12] [Server thread/INFO]: [Images] Disabling Images v2.5.3
-[12:39:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[12:39:12] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[12:39:12] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.12
-[12:39:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.151
-[12:39:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: luckperms
-[12:39:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[12:39:12] [Server thread/INFO]: [LuckPerms] Closing storage...
-[12:39:12] [Server thread/INFO]: [LuckPerms] Goodbye!
-[12:39:12] [Server thread/INFO]: [ChatColor] Disabling ChatColor v1.3
-[12:39:12] [Server thread/INFO]: ChatColor>> Plugin Disabled!
-[12:39:12] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.4.1
-[12:39:12] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.14.1
-[12:39:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[12:39:12] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[12:39:12] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[12:39:12] [Server thread/INFO]: [GrapplingHook] Disabling GrapplingHook v2.6
-[12:39:12] [Server thread/INFO]:  Disabeled
-[12:39:12] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.10.5
-[12:39:12] [Server thread/INFO]: [cxSTUDIOS] Disabling cxSTUDIOS v25.1.0
-[12:39:12] [Server thread/INFO]: [cxSTUDIOS] cxSTUDIOS has been disabled.
-[12:39:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.3-SNAPSHOT;c904242
-[12:39:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[12:39:12] [Server thread/INFO]: [VisibilityToggle] Disabling VisibilityToggle v3.9
-[12:39:12] [Server thread/INFO]: VisibilityToggle>> Plugin Disabled!
-[12:39:12] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
-[12:39:12] [Server thread/INFO]: [FriendsSpigot] Disabling FriendsSpigot v1.0.9.7
-[12:39:12] [Server thread/INFO]:  The plugin has stopped successfully!
-[12:39:12] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[12:39:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
-[12:39:12] [Server thread/INFO]: Saving players
-[12:39:12] [Server thread/INFO]: Saving worlds
-[12:39:12] [Server thread/INFO]: Saving chunks for level 'spawn'/Overworld
+[13:37:52] [Server thread/INFO]: [BedWars-Rush] Running on: BedWars2023
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars-Rush addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading Arena Start Message by Pro_Nil (BedWars2023 support by AgentNoobff). Version 1.5.2
+[13:37:52] [Server thread/INFO]: [BedWars2023] Arena Start Message addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars2023-RewardSummary by itz_leoo. Version 1.0.4
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Hooking into vault...
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Hooked into vault successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Generating main config...
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Main config generated successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Registering listeners...
+[13:37:52] [Server thread/INFO]: [BedWars2023-RewardSummary] Listeners registered successfully!
+[13:37:52] [Server thread/INFO]: BedWars1058 Reward Summary addon has been successfully enabled.
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars2023-RewardSummary addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-Sponge by Mher Zaqaryan. Version 1.0.2
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars1058-Sponge addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading Voidless by Zuyte. Version 1.0.0
+[13:37:52] [Server thread/INFO]: ==========================================
+[13:37:52] [Server thread/INFO]:  
+[13:37:52] [Server thread/INFO]: Running BedWars2023-Voidless - v1.0.0 for BedWars2023 - v1.3.0
+[13:37:52] [Server thread/INFO]:  
+[13:37:52] [Server thread/INFO]: Found BedWars2023 and hooked into.
+[13:37:52] [Server thread/INFO]: BedWars2023-Voidless Enabled successfully!
+[13:37:52] [Server thread/INFO]:  
+[13:37:52] [Server thread/INFO]: Created by Zuyte
+[13:37:52] [Server thread/INFO]:  
+[13:37:52] [Server thread/INFO]: ==========================================
+[13:37:52] [Server thread/INFO]: [BedWars2023] Voidless addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading MapSelector by itz_leoo. Version 1.3.1
+[13:37:52] [Server thread/INFO]: [BedWars2023] MapSelector addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading Cosmetics by IamTheDefender (iamthedefender). Version 1.4.7
+[13:37:52] [Server thread/INFO]: [BedWars2023] Cosmetics addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars1058-Compass by Mher Zaqaryan. Version 1.4.3
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars1058-Compass addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading Team Selector by AgentNoobff. Version 1.0-SNAPSHOT
+[13:37:52] [Server thread/INFO]: [BedWars2023] Team Selector addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] Loading BedWars2023-GroupStats by Lagggpixel. Version 9.0-SNAPSHOT
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars2023-GroupStats addon loaded and registered successfully!
+[13:37:52] [Server thread/INFO]: [BedWars2023] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[13:37:52] [Server thread/INFO]: [BedWars2023] BedWars2023 v1.3.0 has been enabled!
+[13:37:52] [Server thread/INFO]: [BedWars2023] 
+[13:37:52] [Server thread/INFO]: [BedWars2023] Server Type: MULTIARENA
+[13:37:52] [Server thread/INFO]: [BedWars2023] Auto Scale: false
+[13:37:52] [Server thread/INFO]: [BedWars2023] Datasource: SQLite
+[13:37:52] [Server thread/INFO]: [BedWars2023] Restore Adapter: Internal Restore Adapter
+[13:37:52] [Server thread/INFO]: [BedWars2023] NMS version: v1_8_R3
+[13:37:52] [Server thread/INFO]: [BedWars2023] 
+[13:37:52] [Server thread/INFO]: [BedWars2023] Arenas (0): None
+[13:37:52] [Server thread/INFO]: [BedWars2023] Addons (14): PrivateGames, WinStreak, SpectatorOptions, BedWars1058-AdventureMode, BedWars-Rush, Arena Start Message, BedWars2023-RewardSummary, BedWars1058-Sponge, Voidless, MapSelector, Cosmetics, BedWars1058-Compass, Team Selector, BedWars2023-GroupStats
+[13:37:52] [Server thread/INFO]: [BedWars2023] 
+[13:37:52] [Server thread/INFO]: [BedWars2023] PAPI Support: true
+[13:37:52] [Server thread/INFO]: [BedWars2023] Vault Chat Hook: true
+[13:37:52] [Server thread/INFO]: [BedWars2023] Vault Economy Hook: true
+[13:37:52] [Server thread/INFO]: [BedWars2023] 
+[13:37:52] [Server thread/INFO]: [BedWars2023] TAB Version: 4.1.9
+[13:37:52] [Server thread/INFO]: [BedWars2023] TAB Features: 
+[13:37:52] [Server thread/INFO]: [BedWars2023]   - Scoreboard: true
+[13:37:52] [Server thread/INFO]: [BedWars2023]   - UnlimitedNameTag: true
+[13:37:52] [Server thread/INFO]: [BedWars2023]   - BossBar: false
+[13:37:52] [Server thread/INFO]: [BedWars2023]   - TablistNameFormatting: true
+[13:37:52] [Server thread/INFO]: [BedWars2023]   - HeaderFooterFormatting: true
+[13:37:52] [Server thread/INFO]: [BedWars2023] 
+[13:37:52] [Server thread/INFO]: [BedWars2023] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[13:39:12] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[13:39:13] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:60176] logged in with entity id 1532 at ([spawn]0.5358681996364446, 65.0, 0.38254838461992924)
+[13:39:13] [Craft Scheduler Thread - 11/INFO]: [BedWars1058-WinStreak] [BW1058-WinStreak DEBUG]: Successfully PlayerJoinEvent. ysyyayyyayya's streak cache was loaded.
+[13:39:51] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[13:50:34] [Thread-1/INFO]: Stopping server

@@ -1,0 +1,235 @@
+#            +-------------------------+
+#            |MOB INFORMATION SkeletonS|
+#            +-------------------------+
+#
+#Skeletonling:    Weak minion
+#            Has random equipment and increased movement speed
+#
+#SkeletonKnight:  Normal strong mob
+#            Has random equipment
+#            Has two skills which are triggered randomly when the mob gets damaged.
+#            The Swirl Skill knocks back enemies and does area damage, the HeavyAttack Skill lets the mob speed up and attack the player devastatingly.
+#
+#SkeletonArcher:  Acts like a vanilla skeleton
+#            Has random equipment
+#            Has a special skill where the mob ignites his arrows.
+#
+#SkeletonDrummer: Increases the morale of the Skeletons in the immediate vicinity, making them faster, stronger and more resistant.
+#            The warmage gets magic points faster in cause of his presence.
+#            The drummer plays some strange music only Skeletons would like.
+#            Is not affected by it's own skills.
+#
+#SkeletonWarMage: Strong ranged combat mob
+#            Uses two magical skills to defeat his enemies
+#            The skills consume magic points, which are charged in the fight by time and hits, as well as by the skill of the drummer
+#            It's equipment is randomly enchanted with protection 2
+#
+
+### 1. Skeletonling
+Skeletonling:
+  Type: SKELETON
+  Display: '&cSkeleling'
+  Health: 100
+  Damage: 25
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.25
+    Silent: false
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=SkeletonRandomEquipment_Skeletonling} @self ~onSpawn
+  - skill{s=Skeleton_Drummer_Effect} @self ~onSignal:DRUMMER
+  - effect:particles{p=crit;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+
+### 2. Skeleton Knight
+SkeletonKnight:
+  Type: SKELETON
+  Display: '&cSkeleton Knight'
+  Health: 100
+  Damage: 25
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    Silent: false
+  Modules:
+    ThreatTable: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=Skeleton_Knight} @self ~onDamaged 0.4
+  - skill{s=Skeleton_HeavyAttack_Hit} @self ~onAttack 1
+  - skill{s=Skeleton_Drummer_Effect} @self ~onSignal:DRUMMER
+  - setstance{stance=knight} @self ~onSpawn 1
+  - skill{s=SkeletonRandomEquipment_Knight} @self ~onSpawn
+
+### 3. Skeleton Archer
+SkeletonArcher:
+  Type: SKELETON
+  Display: '&cSkeleton Archer'
+  Health: 150
+  Damage: 30
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    Silent: false
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 skeletonbowattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=Skeleton_FireBow} @self ~onTimer:180 0.5
+  - skill{s=SkeletonWeapon_Bow_1} @self ~onSpawn 1
+  - skill{s=Skeleton_Drummer_Effect} @self ~onSignal:DRUMMER
+  - setstance{stance=archer} @self ~onSpawn 1
+  - skill{s=SkeletonRandomEquipment_Archer} @self ~onSpawn
+
+
+### 4. Skeleton Drummer
+SkeletonDrummer:
+  Type: SKELETON
+  Display: '&cSkeleton Drummer'
+  Health: 200
+  Damage: 50
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.2
+    Silent: false
+  Modules:
+    ThreatTable: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - SkeletonHelmet_Drummer:4
+  - SkeletonChestplate_Drummer:3
+  - SkeletonLeggings_Drummer:2
+  - SkeletonBoots_Drummer:1
+  - SkeletonWeapon_Drummer_1:0
+  - SkeletonWeapon_Drummer_2:5
+  Skills:
+  - skill{s=Skeleton_Drummer} @self ~onTimer:40 1
+  - skill{s=Skeleton_Drummer_Animation} @self ~onTimer:200 1
+  - setstance{stance=drummer} @self ~onSpawn 1
+
+### 5. Skeleton War Mage
+SkeletonWarMage:
+  Type: SKELETON
+  Display: '&cSkeleton Mage'
+  Health: 1000
+  Damage: 100
+  BossBar:
+    Enabled: true
+    Title: '&cSkeleton Mage Health'
+    Range: 20
+    Color: RED
+    Style: SOLID
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.16
+    Silent: false
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=Skeleton_Magic_Selector} @self ~onTimer:40 1
+  - skill{s=Skeleton_MagicBolt} @Target ~onSignal:NORMAL
+  - skill{s=Skeleton_WeakMagicBolt} @Target ~onSignal:WEAK
+  - modifymobscore{objective=magic;action=set;value=0} ~onSpawn
+  - modifymobscore{objective=magic;action=add;value=1} ~onTimer:35
+  - modifymobscore{objective=magic;action=add;value=2} ~onSignal:DRUMMER
+  - skill{s=SkeletonAttack_Fireflame} @self ~onTimer:200 .5
+  - setstance{stance=warmage} @self ~onSpawn 1
+  - skill{s=SkeletonRandomEquipment_WarMage} @self ~onSpawn
+  - message{m="&cSkeleton Mage &f> I will return! I always will!"} @PlayersInRadius{r=30} ~onDeath
+  
+### 6. Skele
+Skele:
+  Type: SKELETON
+  Display: '&cSkele'
+  Health: 30
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.30
+    Silent: false
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players

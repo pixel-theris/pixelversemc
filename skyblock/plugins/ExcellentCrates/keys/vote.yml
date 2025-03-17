@@ -1,0 +1,16 @@
+Name: Vote Key
+Virtual: false
+Item:
+  Material: YELLOW_CANDLE
+  Name: '&e&lVOTE CRATE KEY'
+  Enchants:
+    mending: 1
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM

@@ -1,0 +1,169 @@
+header-footer:
+  enabled: true
+  header:
+  - '&b&m                                                      '
+  - '&b&lSKYBLOCK &f&lSERVER'
+  - ''
+  footer:
+  - ''
+  - '&fʏᴏᴜʀɴᴇᴛᴡᴏʀᴋ.xʏᴢ'
+  - '&b&m                                                       '
+  per-world:
+    world1:
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world2;world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+  per-server:
+    server1:
+      header:
+      - an example of server with custom header
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+  - GROUPS:owner,admin,mod,elite,mvp,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+belowname-objective:
+  enabled: false
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+  fancy-value-default: NPC
+  fancy-value: '&a%health%'
+  value: '%health%'
+  title: '&aHealth'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &awww.domain.com'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%afk%':
+    true: ' &8[&a&lAFK&8]&r'
+    false: ''
+    '%afk%': ''
+  '%essentials_nickname%':
+    '%essentials_nickname%': '%player%'
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+  update-latency: false
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
+layout:
+  enabled: false
+ping-spoof:
+  enabled: false
+scoreboard:
+  enabled: true
+  scoreboards:
+    scoreboard:
+      title: '&b&lSKYBLOCK &f&lSERVER'
+      lines:
+      - ''
+      - ' #F8A000☄ &fRank: %luckperms_prefix%'
+      - ' #F80000🗡 &fKills: &a%statistic_player_kills%'
+      - ' #F88200☠ &fDeaths: &a%statistic_deaths%'
+      - ' &a★ &fPoints: &a%playerpoints_points%'
+      - ' #44F800&l$ &fMoney: &a%vault_eco_balance_formatted%'
+      - ' #F8DF00⌚ &fPlaytime: &a%statistic_days_played%d %statistic_hours_played%h'
+      - ''
+      - '&fʏᴏᴜʀɴᴇᴛᴡᴏʀᴋ.xʏᴢ'
+  toggle-command: /sb
+  use-numbers: false
+  remember-toggle-choice: false
+  hidden-by-default: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+playerlist-objective:
+  enabled: false
+  value: '%ping%'
+  disable-condition: '%world%=disabledworld|%server%=disabledserver'
+  fancy-value: '&7Ping: %ping%'
+permission-refresh-interval: 1000
+enable-redisbungee-support: true
+compensate-for-packetevents-bug: false

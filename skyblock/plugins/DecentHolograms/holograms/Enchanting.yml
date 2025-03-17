@@ -1,0 +1,14 @@
+location: spawn:31.329:87.000:48.322
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&bTravel to:'
+    height: 0.3
+  - content: '&aEnchanting & Skills Island'
+    height: 0.3
+  actions: {}
