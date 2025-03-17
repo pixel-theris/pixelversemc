@@ -1,380 +1,240 @@
-[14:16:01] [ServerMain/WARN]: resource-pack-id missing, using default of 3b31e2cb-cf29-3e31-a6be-1c6f9941bbe1
-[14:16:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:16:04] [ServerMain/INFO]: Loaded 1175 recipes
-[14:16:04] [ServerMain/INFO]: Loaded 1276 advancements
-[14:16:04] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[14:16:04] [Server thread/INFO]: Loading properties
-[14:16:04] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
-[14:16:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:16:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:16:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:20:31] [ServerMain/WARN]: resource-pack-id missing, using default of 3b31e2cb-cf29-3e31-a6be-1c6f9941bbe1
+[12:20:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:20:33] [ServerMain/INFO]: Loaded 1175 recipes
+[12:20:33] [ServerMain/INFO]: Loaded 1276 advancements
+[12:20:33] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[12:20:33] [Server thread/INFO]: Loading properties
+[12:20:34] [Server thread/INFO]: This server is running Paper version 1.20.6-151-ver/1.20.6@a4f0f5c (2024-10-30T19:13:22Z) (Implementing API version 1.20.6-R0.1-SNAPSHOT)
+[12:20:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:20:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:20:35] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:16:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[14:16:06] [Server thread/INFO]: Default game type: ADVENTURE
-[14:16:06] [Server thread/INFO]: Generating keypair
-[14:16:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:16:06] [Server thread/INFO]: Using epoll channel type
-[14:16:06] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:16:06] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:16:07] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[14:16:08] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[14:16:08] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[14:16:08] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[14:16:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[14:16:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[14:16:09] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[14:16:09] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[14:16:10] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[14:16:10] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
-[14:16:11] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[14:16:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[14:16:11] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[14:16:11] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
-[14:16:11] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[14:16:11] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[14:16:11] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
-[14:16:11] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
-[14:16:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[14:16:11] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[14:16:11] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[14:16:11] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
-[14:16:11] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3751)
-[14:16:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:16:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[14:16:11] [Server thread/INFO]:         __    
-[14:16:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
-[14:16:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:16:11] [Server thread/INFO]: 
-[14:16:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:16:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:16:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:16:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:16:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1654ms)
-[14:16:12] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[14:16:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[14:16:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[14:16:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[14:16:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[14:16:13] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[14:16:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:16:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:16:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:16:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:16:13] [Server thread/INFO]: Preparing level "world"
-[14:16:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:16:13] [Server thread/INFO]: Time elapsed: 1 ms
-[14:16:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:16:14] [Server thread/INFO]: Time elapsed: 691 ms
-[14:16:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[14:16:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
-[14:16:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[14:16:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[14:16:14] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[14:16:14] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
-[14:16:14] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[14:16:14] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[14:16:14] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[14:16:14] [Server thread/INFO]: [DeluxeHub] 
-[14:16:14] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
-[14:16:14] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
-[14:16:14] [Server thread/INFO]: [DeluxeHub] 
-[14:16:14] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[14:16:14] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[14:16:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
-[14:16:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
-[14:16:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[14:16:15] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
-[14:16:15] [Server thread/INFO]: [DeluxeHub] 
-[14:16:15] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 796ms
-[14:16:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[14:16:15] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[14:16:16] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[14:16:16] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[14:16:16] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[14:16:16] [Server thread/INFO]: [Essentials] Using locale en
-[14:16:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[14:16:16] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[14:16:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[14:16:16] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[14:16:16] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
-[14:16:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
-[14:16:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
-[14:16:16] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[14:16:16] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
-[14:16:16] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[14:16:16] [Server thread/INFO]: [TAB] Loaded NMS hook in 65ms
-[14:16:17] [Server thread/INFO]: [TAB] Enabled in 350ms
-[14:16:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[14:16:17] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[14:16:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[14:16:17] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[14:16:17] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
-[14:16:17] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]                            
-[14:16:17] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
-[14:16:17] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
-[14:16:17] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
-[14:16:17] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
-[14:16:18] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 58ms)
-[14:16:18] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:16:18] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
-[14:16:18] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
-[14:16:18] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
-[14:16:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
-[14:16:18] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
-[14:16:18] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3751)
-[14:16:19] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
-[14:16:19] [Server thread/INFO]: [Citizens] Loaded 0 templates.
-[14:16:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
-[14:16:19] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[14:16:20] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[14:16:20] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[14:16:20] [Server thread/INFO]: Running delayed init tasks
-[14:16:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:16:20] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
-[14:16:20] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[14:16:20] [Craft Scheduler Thread - 2 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
-[14:16:20] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[14:16:20] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[14:16:20] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[14:16:20] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
-[14:16:20] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
-[14:16:20] [Craft Scheduler Thread - 2 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
-[14:16:20] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
-[14:16:20] [Server thread/INFO]: Done (16.260s)! For help, type "help"
-[14:16:20] [Server thread/INFO]: Timings Reset
-[14:16:20] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[14:16:21] [Server thread/INFO]: + ysyyayyyayya Connected
-[14:16:21] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:39372] logged in with entity id 42 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
-[14:16:22] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
-[14:16:35] [Server thread/INFO]: Made ysyyayyyayya a server operator
-[14:16:42] [Server thread/INFO]: ysyyayyyayya issued server command: /gmc
-[14:16:57] [Server thread/INFO]: ysyyayyyayya issued server command: /give ysyyayyyayya totem
-[14:16:57] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:307) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2253) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2215) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[14:17:11] [Server thread/INFO]: ysyyayyyayya issued server command: /give ysyyayyyayya netherite
-[14:17:19] [Server thread/INFO]: ysyyayyyayya issued server command: /give ysyyayyyayya netherite_ingot
-[14:17:19] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:307) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2253) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2215) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[14:17:53] [Server thread/INFO]: ysyyayyyayya issued server command: /give ysyyayyyayya netherite_sword
-[14:17:53] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:307) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2253) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2215) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[14:18:07] [Server thread/INFO]: ysyyayyyayya issued server command: /give ysyyayyyayya sculk
-[14:18:07] [Server thread/ERROR]: [CraftMagicNumbers] Exception modifying ItemStack
-java.lang.Throwable: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-	at org.bukkit.craftbukkit.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:307) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.MetaItemStack.canSpawn(MetaItemStack.java:135) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:56) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:175) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:170) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:820) ~[EssentialsX-2.20.1.jar:?]
-	at EssentialsX-2.20.1.jar/com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[EssentialsX-2.20.1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.6-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:448) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:355) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:342) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2253) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$12(ServerGamePacketListenerImpl.java:2215) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1511) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:195) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1488) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1411) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1377) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1238) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[paper-1.20.6.jar:1.20.6-151-a4f0f5c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown item 'minecraft:' at position 0: <--[HERE]
-[14:21:20] [Server thread/INFO]: Stopping the server
-[14:21:20] [Server thread/INFO]: Stopping server
-[14:21:20] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3751)
-[14:21:20] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
-[14:21:20] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
-[14:21:20] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
-[14:21:20] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
-[14:21:20] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[14:21:20] [Server thread/INFO]: [TAB] Disabled in 1ms
-[14:21:20] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
-[14:21:20] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
-[14:21:20] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[14:21:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[14:21:20] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[14:21:20] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.4
-[14:21:20] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[14:21:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[14:21:20] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[14:21:20] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[14:21:20] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[14:21:20] [Server thread/INFO]: [LuckPerms] Closing storage...
-[14:21:20] [Server thread/INFO]: [LuckPerms] Goodbye!
-[14:21:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[14:21:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[14:21:20] [Server thread/INFO]: Saving players
-[14:21:20] [Server thread/INFO]: ysyyayyyayya lost connection: Server closed
-[14:21:20] [Server thread/INFO]: ysyyayyyayya left the game
-[14:21:20] [Server thread/INFO]: Saving worlds
-[14:21:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:21:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:21:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:21:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:21:21] [Server thread/INFO]: [ChunkHolderManager] Saved 753 block chunks, 753 entity chunks, 0 poi chunks in world 'world' in 0.52s
-[14:21:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:21:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:21:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:21:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:21:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:21:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[14:21:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:21:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:21:21] [Server thread/INFO]: Flushing Chunk IO
-[14:21:21] [Server thread/INFO]: Closing Thread Pool
-[14:21:21] [Server thread/INFO]: Closing Server
+[12:20:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:20:36] [Server thread/INFO]: Default game type: ADVENTURE
+[12:20:36] [Server thread/INFO]: Generating keypair
+[12:20:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:20:36] [Server thread/INFO]: Using epoll channel type
+[12:20:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:20:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[12:20:37] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/SigMCX/Hub/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[12:20:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[12:20:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[12:20:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:20:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[12:20:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:20:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[12:20:40] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[12:20:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[12:20:40] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[12:20:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[12:20:40] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[12:20:40] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.4
+[12:20:40] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[12:20:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[12:20:40] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[12:20:40] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[12:20:40] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[12:20:40] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[12:20:40] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[12:20:40] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.17.0
+[12:20:40] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3751)
+[12:20:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:20:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[12:20:40] [Server thread/INFO]:         __    
+[12:20:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[12:20:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:20:40] [Server thread/INFO]: 
+[12:20:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:20:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:20:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:20:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:20:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1349ms)
+[12:20:41] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:20:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:20:42] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:20:42] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:20:42] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:20:42] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[12:20:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:20:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:20:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:20:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:20:42] [Server thread/INFO]: Preparing level "world"
+[12:20:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:20:42] [Server thread/INFO]: Time elapsed: 2 ms
+[12:20:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:20:43] [Server thread/INFO]: Time elapsed: 643 ms
+[12:20:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[12:20:43] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[12:20:43] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[12:20:43] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[12:20:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[12:20:43] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
+[12:20:43] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[12:20:43] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[12:20:43] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[12:20:43] [Server thread/INFO]: [DeluxeHub] 
+[12:20:43] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
+[12:20:43] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[12:20:43] [Server thread/INFO]: [DeluxeHub] 
+[12:20:43] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[12:20:43] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[12:20:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[12:20:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[12:20:44] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[12:20:44] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[12:20:44] [Server thread/INFO]: [DeluxeHub] 
+[12:20:44] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 757ms
+[12:20:44] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[12:20:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[12:20:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:20:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:20:44] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[12:20:44] [Server thread/INFO]: [Essentials] Using locale en
+[12:20:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:20:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:20:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[12:20:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[12:20:45] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[12:20:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[12:20:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[12:20:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[12:20:45] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[12:20:45] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[12:20:45] [Server thread/INFO]: [TAB] Loaded NMS hook in 72ms
+[12:20:45] [Server thread/INFO]: [TAB] Enabled in 410ms
+[12:20:45] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[12:20:45] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[12:20:45] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[12:20:45] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[12:20:45] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[12:20:45] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]                            
+[12:20:45] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
+[12:20:45] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[12:20:46] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[12:20:46] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[12:20:46] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 54ms)
+[12:20:46] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:20:47] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[12:20:47] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[12:20:47] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[12:20:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[12:20:47] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[12:20:47] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3751)
+[12:20:47] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[12:20:48] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[12:20:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[12:20:48] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[12:20:48] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[12:20:48] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[12:20:48] [Server thread/INFO]: Running delayed init tasks
+[12:20:48] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[12:20:48] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[12:20:48] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[12:20:48] [Craft Scheduler Thread - 5 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[12:20:48] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[12:20:48] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[12:20:48] [Craft Scheduler Thread - 5 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
+[12:20:49] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[12:20:49] [Server thread/INFO]: Done (15.250s)! For help, type "help"
+[12:20:49] [Server thread/INFO]: Timings Reset
+[12:20:49] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[12:20:49] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
+[12:22:39] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[12:22:39] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[12:22:40] [Server thread/INFO]: + ysyyayyyayya Connected
+[12:22:40] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:43902] logged in with entity id 42 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:22:40] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[12:22:48] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[12:22:48] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[12:24:18] [User Authenticator #1/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[12:24:18] [Server thread/INFO]: + ysyyayyyayya Connected
+[12:24:18] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:38100] logged in with entity id 76 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[12:24:19] [Netty Epoll Server IO #2/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[12:39:05] [Server thread/INFO]: ysyyayyyayya lost connection: Disconnected
+[12:39:05] [Server thread/INFO]: - ysyyayyyayya Disconnected
+[12:39:19] [Server thread/INFO]: Stopping the server
+[12:39:19] [Server thread/INFO]: Stopping server
+[12:39:19] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3751)
+[12:39:19] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
+[12:39:19] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[12:39:19] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[12:39:19] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[12:39:19] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[12:39:19] [Server thread/INFO]: [TAB] Disabled in 1ms
+[12:39:19] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[12:39:19] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[12:39:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[12:39:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[12:39:19] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[12:39:19] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.4
+[12:39:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:39:19] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[12:39:19] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[12:39:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[12:39:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:39:19] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:39:19] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:39:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[12:39:19] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[12:39:19] [Server thread/INFO]: Saving players
+[12:39:19] [Server thread/INFO]: Saving worlds
+[12:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[12:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:39:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[12:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:39:19] [Server thread/INFO]: Flushing Chunk IO
+[12:39:19] [Server thread/INFO]: Closing Thread Pool
+[12:39:19] [Server thread/INFO]: Closing Server

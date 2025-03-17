@@ -20,3 +20,7 @@ chmod +x minigames.sh
 chmod +x limbo.sh
 
 ./limbo.sh
+
+chmod +x bedwars18.sh
+
+./bedwars18.sh

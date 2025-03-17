@@ -25,3 +25,6 @@
 f391ece4-b574-3ecd-9940-fd030a420496:
   favorite-maps: *id001
   per-map-times-joined: *id001
+6cd4e570-7a49-3521-8e89-4b4b5c6269c5:
+  favorite-maps: &id002 []
+  per-map-times-joined: *id002

@@ -74,6 +74,7 @@ enable-player-address-logging = true
 # represents the IP address of the server to connect to.
 login = "127.0.0.1:65535"
 lobby = "localhost:25565"
+bedwars18 = "localhost:8666"
 bedwars = "localhost:25567"
 minigames = "localhost:25566"
 
@@ -95,6 +96,9 @@ try = [
 ]
 "minigames.example.com" = [
     "minigames"
+]
+"sig.example.com" = [
+    "bedwars18"
 ]
 
 [advanced]
