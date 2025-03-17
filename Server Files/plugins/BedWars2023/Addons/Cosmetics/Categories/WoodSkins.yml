@@ -1,0 +1,47 @@
+slots: '[10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32,
+  33, 34]'
+wood-skins:
+  birch-plank:
+    price: 20000
+    rarity: RARE
+    item: WOOD:2
+  acacia-planks:
+    price: 40000
+    rarity: RARE
+    item: WOOD:4
+  dark-oak-planks:
+    price: 40000
+    rarity: LEGENDARY
+    item: WOOD:5
+  jungle-planks:
+    price: 40000
+    rarity: RARE
+    item: WOOD:3
+  oak-plank:
+    price: 0
+    rarity: COMMON
+    item: WOOD:0
+  spruce-plank:
+    price: 20000
+    rarity: RARE
+    item: WOOD:1
+  acacia-log:
+    price: 60000
+    rarity: LEGENDARY
+    item: LOG_2:0
+  birch-log:
+    price: 50000
+    rarity: LEGENDARY
+    item: LOG:2
+  jungle-log:
+    price: 55000
+    rarity: LEGENDARY
+    item: LOG:3
+  oak-log:
+    price: 40000
+    rarity: LEGENDARY
+    item: LOG:0
+  spruce-log:
+    price: 45000
+    rarity: LEGENDARY
+    item: LOG:1

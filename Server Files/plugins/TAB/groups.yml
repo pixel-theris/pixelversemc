@@ -1,0 +1,9 @@
+_DEFAULT_:
+  tabprefix: '%condition:rankOrTeam%'
+  tagprefix: '%condition:rankOrTeam%'
+
+per-world:
+ spawn:
+  _DEFAULT_:
+    tabprefix: ' %luckperms_prefix% '
+    tagprefix: ' %luckperms_prefix% '

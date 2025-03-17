@@ -1,0 +1,132 @@
+menu_title: '&8Bed Wars Statistics'
+open_command:
+- stats
+size: 54
+update_interval: 1
+items:
+      1:
+        material: PAPER
+        slot: 19
+        display_name: '&r&aSolo Statistics'
+        lore:
+        - '&7Games Played: &a%groupstats_Solo_gamesPlayed%'
+        - ''
+        - '&7Beds Broken: &a%groupstats_Solo_bedsBroken%'
+        - ''
+        - '&7Kills: &a%groupstats_Solo_kills%'
+        - '&7Deaths: &a%groupstats_Solo_deaths%'
+        - '&7Final Kills: &a%groupstats_Solo_finalKills%'
+        - '&7Final Deaths: &a%groupstats_Solo_finalDeaths%'
+        - ''
+        - '&7Wins: &a%groupstats_Solo_wins%'
+        - '&7Losses: &a%groupstats_Solo_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      2:
+        material: PAPER
+        slot: 21
+        amount: 2
+        display_name: '&r&aDoubles Statistics'
+        lore:
+        - '&7Games Played: &a%groupstats_Doubles_gamesPlayed%'
+        - ''
+        - '&7Beds Broken: &a%groupstats_Doubles_bedsBroken%'
+        - ''
+        - '&7Kills: &a%groupstats_Doubles_kills%'
+        - '&7Deaths: &a%groupstats_Doubles_deaths%'
+        - '&7Final Kills: &a%groupstats_Doubles_finalKills%'
+        - '&7Final Deaths: &a%groupstats_Doubles__finalDeaths%'
+        - ''
+        - '&7Wins: &a%groupstats_Doubles_wins%'
+        - '&7Losses: &a%groupstats_Doubles_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      3:
+        material: PAPER
+        slot: 23
+        amount: 3
+        display_name: '&r&a3v3v3v3 Statistics'
+        lore:
+        - '&7Games Played: &a%groupstats_3v3v3v3_gamesPlayed%'
+        - ''
+        - '&7Beds Broken: &a%groupstats_3v3v3v3_bedsBroken%'
+        - ''
+        - '&7Kills: &a%groupstats_3v3v3v3_kills%'
+        - '&7Deaths: &a%groupstats_3v3v3v3_deaths%'
+        - '&7Final Kills: &a%groupstats_3v3v3v3_finalKills%'
+        - '&7Final Deaths: &a%groupstats_3v3v3v3__finalDeaths%'
+        - ''
+        - '&7Wins: &a%groupstats_3v3v3v3_wins%'
+        - '&7Losses: &a%groupstats_3v3v3v3_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      4:
+        material: PAPER
+        slot: 25
+        amount: 4
+        display_name: '&r&a4v4v4v4 Statistics'
+        lore:
+        - '&7Games Played: &a%groupstats_4v4v4v4_gamesPlayed%'
+        - ''
+        - '&7Beds Broken: &a%groupstats_4v4v4v4_bedsBroken%'
+        - ''
+        - '&7Kills: &a%groupstats_4v4v4v4_kills%'
+        - '&7Deaths: &a%groupstats_4v4v4v4_deaths%'
+        - '&7Final Kills: &a%groupstats_4v4v4v4_finalKills%'
+        - '&7Final Deaths: &a%groupstats_4v4v4v4__finalDeaths%'
+        - ''
+        - '&7Wins: &a%groupstats_4v4v4v4_wins%'
+        - '&7Losses: &a%groupstats_4v4v4v4_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      5:
+        material: PAPER
+        slot: 31
+        amount: 4
+        display_name: '&r&a4v4 Statistics'
+        lore:
+        - '&7Games Played: &a%groupstats_4v4_gamesPlayed%'
+        - ''
+        - '&7Beds Broken: &a%groupstats_4v4_bedsBroken%'
+        - ''
+        - '&7Kills: &a%groupstats_4v4_kills%'
+        - '&7Deaths: &a%groupstats_4v4_deaths%'
+        - '&7Final Kills: &a%groupstats_4v4_finalKills%'
+        - '&7Final Deaths: &a%groupstats_4v4__finalDeaths%'
+        - ''
+        - '&7Wins: &a%groupstats_4v4_wins%'
+        - '&7Losses: &a%groupstats_4v4_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      6:
+        material: PAPER
+        slot: 4
+        display_name: '&r&aOverall Statistics'
+        lore:
+        - '&7Games Played: &a%bw2023_stats_gamesplayed%'
+        - ''
+        - '&7Beds Broken: &a%bw2023_stats_bedsdestroyed%'
+        - ''
+        - '&7Kills: &a%bw2023_stats_total_kills%'
+        - '&7Deaths: &a%bw2023_stats_deaths%'
+        - '&7Final Kills: &a%bw2023_stats_finalkills%'
+        - '&7Final Deaths: &a%bw2023_stats_finaldeaths%'
+        - ''
+        - '&7Wins: &a%bw2023_stats_wins%'
+        - '&7Losses: &a%bw2023_stats_losses%'
+        left_click_commands: []
+        right_click_commands: []
+
+      7:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

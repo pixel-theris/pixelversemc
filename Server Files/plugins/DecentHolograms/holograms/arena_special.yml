@@ -1,0 +1,16 @@
+location: spawn:24.500:67.000:10.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lCLICK TO PLAY'
+    height: 0.3
+  - content: '&6&lSPECIAL MODES &7➛ <#ANIM:special>(Customize at /animations folder)</#ANIM>'
+    height: 0.3
+  - content: '&fThere are &a%bw2023_group_count_Voidless+4v4+Rush+GrapplingHook% &fplayers'
+    height: 0.3
+  actions: {}

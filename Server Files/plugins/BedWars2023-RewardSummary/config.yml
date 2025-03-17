@@ -1,0 +1,35 @@
+# BedWars2023-RewardSummary v1.0.4 made by [itz_leoo].
+# Dependencies: [BedWars2023, Vault].
+# SoftDependencies: [].
+# Join my discord for support: https://discord.gg/dtwanz4GQg
+
+reward_summary:
+  message:
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '                                   &f&lReward Summary'
+  - ''
+  - '   &7You earned'
+  - '    &f• &6{coinsEarned} Bed Wars Coins'
+  - ''
+  - '                         &bBed Wars Experience'
+  - '             &bLevel {currentLevel}                           {nextLevelText}'
+  - '             &8[&b{progressBar}&8]'
+  - '                          &b{currentXp} &7/ &a{requiredXp} &7({percentage}%)'
+  - ''
+  - '&7You earned &b{expEarned} Bed Wars Experience'
+  - ''
+  - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  progress_bar:
+    symbol: ■
+    unlocked-color: '&b'
+    locked-color: '&7'
+  new_level:
+    level_name: Level
+    text:
+    - 0-99:{level}
+    - 100-100:&fIron Prestige
+    - 101-199:{level}
+    - 200-200:&6Gold Prestige
+    - 201-299:{level}
+    - 300-300:&bAqua Prestige
+    - 301-1000000:{level}

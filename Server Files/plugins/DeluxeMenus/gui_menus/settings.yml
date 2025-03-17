@@ -1,0 +1,153 @@
+open_requirement:
+  requirements:
+    example_2:
+      type: string equals
+      input: "%bw2023_player_team%"
+      output: "&7[SPECTATOR]"
+  deny_commands:
+    - "[message] &cYou don't have the permission."
+menu_title: '&8Spectator Settings'
+open_command:
+- spectator settings
+- settings
+size: 36
+update_interval: 1
+items:
+      0:
+        material: leather_boots
+        slot: 11
+        display_name: '&aNo Speed'
+        left_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        right_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[message] &4You have disabled Speed'
+      1:
+        material: chainmail_boots
+        slot: 12
+        display_name: '&aSpeed 1'
+        left_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000'
+        - '[message] &aYou now have Speed I'
+        right_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000'
+        - '[message] &aYou now have Speed I'
+      2:
+        material: iron_boots
+        slot: 13
+        display_name: '&aSpeed 2'
+        left_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 1'
+        - '[message] &aYou now have Speed II'
+        right_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 1'
+        - '[message] &aYou now have Speed II'
+      3:
+        material: gold_boots
+        slot: 14
+        display_name: '&aSpeed 3'
+        lore:
+        - ''
+        left_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 2'
+        - '[message] &aYou now have Speed III'
+        right_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 2'
+        - '[message] &aYou now have Speed III'
+      5:
+        material: diamond_boots
+        slot: 15
+        display_name: '&aSpeed 4'
+        left_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 3'
+        - '[message] &aYou now have Speed IV'
+        right_click_commands:
+        - '[console] effect %player_name% speed 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[console] effect %player_name% minecraft:speed 50000 3'
+        - '[message] &aYou now have Speed IV'
+      6:
+        material: compass
+        slot: 20
+        display_name: '&aActivate Night Vision'
+        lore:
+        - '&8Click to enable night vision!'
+        left_click_commands:
+        - '[console] effect %player_name% minecraft:night_vision 5000 1'
+        - '[message] &aYou now have Night Vision !'
+        right_click_commands:
+        - '[console] effect %player_name% minecraft:night_vision 5000 1'
+        - '[message] &aYou now have Night Vision !'
+      7:
+        material: ender_pearl
+        slot: 21
+        display_name: '&aRemove Night Vision'
+        lore:
+        - '&8Click to disable night vision!'
+        left_click_commands:
+        - '[console] effect %player_name% night_vision 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[message] &4You have disabled Night Vision !'
+        right_click_commands:
+        - '[console] effect %player_name% night_vision 0'
+        - '[console] effect %player_name% minecraft:invisibility 4644'
+        - '[message] &aYou have disabled Night Vision !'
+      8:
+        material: lever
+        slot: 23
+        display_name: '&aActivate First Person Mode '
+        lore:
+        - '&8CLick to enable first person spectating !'
+        - '&8Right click a on player after enabling' 
+        - '&8first person spectating to spectate in first person.'
+        left_click_commands:
+        - '[console] gamemode spectator %player_name%'
+        - '[message] &aYou have enabled First Person Spectating !'
+        - '[message] &aRight Click on a player to spectate them in First Person !'
+        - '[message]  '
+        - '[message] &aUse /settings and disable First Person Spectating from there when you are done !'
+        right_click_commands:
+        - '[console] gamemode spectator %player_name%'
+        - '[message] &aYou have enabled First Person Spectating !'
+        - '[message] &aRight Click on a player to spectate them in First Person !'
+        - '[message]  '
+        - '[message] &aUse /settings and disable First Person Spectating from there when you are done !'
+      9:
+        material: glowstone_dust
+        slot: 24
+        display_name: '&aDeactivate First Person Mode '
+        lore:
+        - '&8Click to disable first person spectating !'
+        left_click_commands:
+        - '[console] gamemode adventure %player_name%'
+        - '[console] essentials:fly %player_name% enable'
+        - '[message] &aYou have disabled First Person Spectating !'
+        right_click_commands:
+        - '[console] gamemode adventure %player_name%'
+        - '[console] essentials:fly %player_name% enable'
+        - '[message] &aYou have disabled First Person Spectating !'
+      CLOSE:
+        material: BARRIER
+        slot: 31
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

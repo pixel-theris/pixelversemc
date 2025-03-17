@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.171.58.110
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735831637551
+  login: 1735830878845
+money: '635.0'
+last-account-name: BijjuXD
+logoutlocation:
+  world: 735eaa3c-8ec5-49d7-ba20-8777783bd7d1
+  world-name: spawn
+  x: 24.339214203982447
+  y: 63.0
+  z: -6.536497443348647
+  yaw: -79.94970703125
+  pitch: 2.0999932289123535

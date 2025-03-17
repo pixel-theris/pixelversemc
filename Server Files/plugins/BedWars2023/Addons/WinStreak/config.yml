@@ -1,0 +1,5 @@
+# BedWars1058-WinStreak Configuration File
+# Be careful when edit the configuration
+# YAML Parser: https://yamlchecker.com
+general:
+  debug: true

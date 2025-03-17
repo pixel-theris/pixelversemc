@@ -1,0 +1,451 @@
+menu_title: 'DeliveryMan'
+open_command:
+  - rewards
+  - deliveryman
+  - udm menu
+  - dm menu
+size: 53
+update_interval: 1
+items:
+  filler:
+    material: STAINED_GLASS_PANE
+    data: 1
+    slots: 
+    - 29
+    - 30
+    - 32
+    - 33
+    display_name: '&r'
+    priority: 1
+  info:
+    material: compass
+    slot: 4
+    display_name: '&6Rewards Info'
+    lore:
+    - ''
+    - '&8Available:'
+    - '&f • &bMystery boxes'
+    - '&f • &bCoins'
+    - '&f • &bLimited Loots'
+    - ''
+    - '&cMore on our website!'
+    left_click_commands: []
+    right_click_commands: []
+
+  reward1:
+    material: ender_chest
+    slot: 20
+    priority: 1
+    display_name: '&6Mystery Box Delivery'
+    lore:
+    - '&7Your free monthly 1-Star'
+    - '&7Mystery Box for this Month'
+    - '&7have arrived!'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_inherited_expiry_time_cooldown.default%'
+          output: ''
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 1 1'
+    - '[console] lp user %player_name% permission settemp cooldown.default true 15d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 1 1'
+    - '[console] lp user %player_name% permission settemp cooldown.default true 15d'
+    - '[close]'
+
+  reward1a:
+    material: minecart
+    slot: 20
+    priority: 2
+    display_name: '&cMystery Box Delivery'
+    update: true
+    lore:
+    - '&7You already picked up this'
+    - '&7delivery, come back later!'
+    - ''
+    - '&7Next reward: &c%luckperms_inherited_expiry_time_cooldown.default%'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already looted this delivery! Check back in %luckperms_inherited_expiry_time_cooldown.default%!'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already looted this delivery! Check back in %luckperms_inherited_expiry_time_cooldown.default%!'
+    - '[close]'
+  
+  reward2n:
+    material: ender_chest
+    slot: 21
+    priority: 3
+    hide_attributes: true
+    display_name: '&6Mystery Box Delivery'
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b5&7)'
+    - '&7Mystery Box for this Month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &aVIP'
+    - ''
+    - '&cNot available!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+
+  reward2:
+    material: ender_chest
+    slot: 21
+    priority: 2
+    hide_attributes: true
+    display_name: '&6Mystery Box Delivery'
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b5&7)'
+    - '&7Mystery Box for this Month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &aVIP'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rewards.vip'
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.vip%'
+          output: 'no'
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 5 5'
+    - '[console] lp user %player_name% permission settemp cooldown.vip true 15d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 5 5'
+    - '[console] lp user %player_name% permission settemp cooldown.vip true 15d'
+    - '[close]'
+
+  reward2a:
+    material: minecart
+    slot: 21
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    hide_attributes: true
+    update: true
+    lore:
+    - '&7You already picked up this'
+    - '&7delivery, come back later!'
+    - ''
+    - '&7Next reward: &c%luckperms_inherited_expiry_time_cooldown.vip%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.vip%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already looted this delivery! Check back in %luckperms_inherited_expiry_time_cooldown.vip%!'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already looted this delivery! Check back in %luckperms_inherited_expiry_time_cooldown.vip%!'
+    - '[close]'
+  
+  reward3n:
+    material: ender_chest
+    slot: 22
+    priority: 3
+    display_name: '&6Mystery Box Delivery'
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b10&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires &aVIP&6+'
+    - ''
+    - '&cNot available!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+
+  reward3:
+    material: ender_chest
+    slot: 22
+    display_name: '&6Mystery Box Delivery'
+    priority: 2
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b10&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires &aVIP&6+'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rewards.vip+'
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.vip+%'
+          output: 'no'
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 10 5'
+    - '[console] lp user %player_name% permission settemp cooldown.vip+ true 15d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 10 5'
+    - '[console] lp user %player_name% permission settemp cooldown.vip+ true 15d'
+    - '[close]'
+
+  reward3a:
+    material: minecart
+    slot: 22
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    hide_attributes: true
+    update: true
+    lore:
+    - '&7You already picked up this'
+    - '&7delivery, come back later!'
+    - ''
+    - '&7Next reward: &c%luckperms_inherited_expiry_time_cooldown.vip+%'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'cooldown.vip+'
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.vip+%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.vip+% to claim this reward again'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.vip+% to claim this reward again'
+    - '[close]'
+    
+  reward4n:
+    material: ender_chest
+    slot: 23
+    display_name: '&6Mystery Box Delivery'
+    priority: 3
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b15&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &bMVP'
+    - ''
+    - '&cNot available!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+
+  reward4:
+    material: ender_chest
+    slot: 23
+    display_name: '&6Mystery Box Delivery'
+    priority: 2
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b15&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &bMVP'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rewards.mvp'
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.mvp%'
+          output: 'no'
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 15 5'
+    - '[console] lp user %player_name% permission settemp cooldown.mvp true 15d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 15 5'
+    - '[console] lp user %player_name% permission settemp cooldown.mvp true 15d'
+    - '[close]'
+
+  reward4a:
+    material: minecart
+    slot: 23
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    hide_attributes: true
+    update: true
+    lore:
+    - '&7You already picked up this'
+    - '&7delivery, come back later!'
+    - ''
+    - '&7Next reward: &c%luckperms_inherited_expiry_time_cooldown.mvp%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.mvp%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.mvp% to claim this reward again'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.mvp% to claim this reward again'
+    - '[close]'
+    
+  reward5n:
+    material: ender_chest
+    slot: 24
+    display_name: '&6Mystery Box Delivery'
+    priority: 3
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b20&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &bMVP&c+'
+    - ''
+    - '&cNot available!'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+
+  reward5:
+    material: ender_chest
+    slot: 24
+    display_name: '&6Mystery Box Delivery'
+    priority: 2
+    hide_attributes: true
+    lore:
+    - '&7Your free monthly &b5 &7(Total of &b20&7)'
+    - '&7Mystery Box for this month'
+    - '&7have arrived!'
+    - ''
+    - '&7Requires: &bMVP&c+'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rewards.mvp+'
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.mvp+%'
+          output: 'no'
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 20 5'
+    - '[console] lp user %player_name% permission settemp cooldown.mvp+ true 15d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 20 5'
+    - '[console] lp user %player_name% permission settemp cooldown.mvp+ true 15d'
+    - '[close]'
+
+  reward5a:
+    material: minecart
+    slot: 24
+    display_name: '&cMystery Box Delivery'
+    priority: 1
+    hide_attributes: true
+    update: true
+    lore:
+    - '&7You already picked up this'
+    - '&7delivery, come back later!'
+    - ''
+    - '&7Next reward: &c%luckperms_inherited_expiry_time_cooldown.mvp+%'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_has_permission_cooldown.mvp+%'
+          output: 'yes'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.mvp+% to claim this reward again'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou must wait %luckperms_inherited_expiry_time_cooldown.mvp+% to claim this reward again'
+    - '[close]'
+
+  daily1:
+    material: paper
+    slot: 31
+    priority: 1
+    display_name: '&6Daily Reward!'
+    lore:
+    - '&7Claim this free reward'
+    - '&7Which includes &d+1 Mysterybox &7& &6100 Coins'
+    - ''
+    - '&eClick to loot!'
+    view_requirement:
+      requirements:
+        cooldown:
+          type: string equals ignorecase
+          input: '%luckperms_inherited_expiry_time_cooldown.daily%'
+          output: ''
+    left_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 1 1'
+    - '[console] eco give %player_name% 100'
+    - '[console] lp user %player_name% permission settemp cooldown.daily true 1d'
+    - '[close]'
+    right_click_commands:
+    - '[sound] LEVEL_UP'
+    - '[console] gmysteryboxes give %player_name% 1 1'
+    - '[console] eco give %player_name% 100'
+    - '[console] lp user %player_name% permission settemp cooldown.daily true 1d'
+    - '[close]'
+
+  daily1a:
+    material: minecart
+    slot: 31
+    priority: 2
+    display_name: '&cMystery Box Delivery'
+    update: true
+    lore:
+    - '&7You already claimed this reward'
+    - '&7recently! Check back in &c%luckperms_inherited_expiry_time_cooldown.daily%'
+    left_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already claimed this reward!'
+    - '[close]'
+    right_click_commands:
+    - '[sound] ANVIL_BREAK'
+    - '[message] &cYou have already claimed this reward!'
+    - '[close]'

@@ -1,0 +1,91 @@
+menu_title: '&8Play Bed Wars'
+open_command:
+- bw Special
+size: 35
+update_interval: 1
+items:
+      voidless:
+        material: BEDROCK
+        slot: 10
+        display_name: '&aBed Wars (Void Less)'
+        lore:
+        - '&7Play Void Less Bed Wars'
+        - ''
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join Voidless'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join Voidless'
+        - '[close]'
+        
+      4v4:
+        material: DIAMOND_SWORD
+        slot: 12
+        hide_attributes: true
+        display_name: '&aBed Wars (4v4)'
+        lore:
+        - '&7Play 4v4 Bed Wars'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join 4v4'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join 4v4'
+        - '[close]'
+  
+      rush:
+        material: WOOL
+        slot: 14
+        display_name: '&aBed Wars (Rush)'
+        lore:
+        - '&7Play Rush Bed Wars'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join Rush'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join Rush'
+        - '[close]'
+        
+      gh:
+        material: FISHING_ROD
+        slot: 16
+        display_name: '&aBed Wars (Grappling Hook)'
+        lore:
+        - '&7Play Grappling Hook Bed Wars'
+        - '&c'
+        - '&eClick to join the game!'
+        left_click_commands:
+        - '[player] bw join GrapplingHook'
+        - '[close]'
+        right_click_commands:
+        - '[player] bw join GrapplingHook'
+        - '[close]'
+        
+      6:
+        material: ENDER_PEARL
+        slot: 35
+        display_name: '&cClick to reconnect!'
+        lore:
+        - '&7Click here to reconnect'
+        - '&7the game you just exited'
+        - '&7each game you have 180 seconds'
+        - '&7to reconnect!'
+        left_click_commands:
+        - '[player] rejoin'
+        - '[close]'
+        right_click_commands:
+        - '[player] rejoin'
+        - '[close]'
+      CLOSE:
+        material: BARRIER
+        slot: 31
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

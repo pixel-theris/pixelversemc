@@ -1,0 +1,39 @@
+slots: '[10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32,
+  33, 34]'
+finalkill-effect:
+  batcrux:
+    price: 5000
+    rarity: COMMON
+    item: MONSTER_EGG:65
+  burning-shoes:
+    price: 5000
+    rarity: COMMON
+    item: IRON_BOOTS:0
+  firework:
+    price: 5000
+    rarity: COMMON
+    item: FIREWORK:0
+  heart-aura:
+    price: 5000
+    rarity: COMMON
+    item: DIAMOND:0
+  lightning-strike:
+    price: 5000
+    rarity: COMMON
+    item: STRING:0
+  none:
+    price: 0
+    rarity: NONE
+    item: BARRIER:0
+  rekt:
+    price: 5000
+    rarity: COMMON
+    item: SIGN:0
+  squid-missile:
+    price: 5000
+    rarity: COMMON
+    item: MONSTER_EGG:94
+  tornado:
+    price: 5000
+    rarity: COMMON
+    item: GLASS:0

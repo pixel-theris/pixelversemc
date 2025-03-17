@@ -1,0 +1,1173 @@
+prefix: ''
+name: Pусский
+format-sb-tab-header:
+  lobby: |
+    &6%bw_server_ip%
+  waiting: |
+    &a%bw_server_ip%
+  starting: |
+    &6%bw_server_ip%
+  playing: |
+    &d%bw_server_ip%
+  restarting: |
+    &c%bw_server_ip%
+  spectator: |
+    &9%bw_server_ip%
+format-sb-tab-footer:
+  lobby: |2-
+
+    &6%bw_server_ip%
+  waiting: |2-
+
+    &a%bw_server_ip%
+  starting: |2-
+
+    &6%bw_server_ip%
+  playing: |2-
+
+    &d%bw_server_ip%
+  restarting: |2-
+
+    &c%bw_server_ip%
+  spectator: |2-
+
+    &9%bw_server_ip%
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<арена/тип>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+arena-kicked-by-vip: |-
+  %bw_lang_prefix%&cИзвините, но вас выгнали, потому что к арене присоединился донатер.
+  &aЧтобы иметь больше возможностей - купите донат. &7&o(жми)
+cmd-join-arena-full: |-
+  %bw_lang_prefix%&cЭта арена полная!
+  &aЧтобы иметь больше возможностей - купите донат. &7&o(жми)
+cmd-join-arena-full-vips: |-
+  %bw_lang_prefix%&cПриносим извинения, но эта арена полная.
+  &cМы знаем, что вы являетесь донатером, но на самом деле эта арена полна сотрудников и/или донатеров.
+arena-countdown-stopped: '%bw_lang_prefix%§cНедостаточно игроков! Обратный отсчет
+  остановился!'
+cmd-leave: '%bw_lang_prefix%&7%bw_player% &eвышел из игры!'
+arena-restart-kick: '%bw_lang_prefix%&eАрена, в которой вы были, перезапускается.'
+arena-status-playing: '&cИдет Игра'
+arena-status-restarting: '&4Перезапуск'
+arena-status-waiting: '&2Ожидание §c%bw_full%'
+arena-status-starting: '&6Начало §c%bw_full%'
+cmd-join-not-found: '%bw_lang_prefix%&cНе существует какой-либо арены или арены: %bw_name%'
+cmd-join-arenas-full: '%bw_lang_prefix%&cСейчас нет какой-либо арены ;('
+cmd-not-in-arena: '%bw_lang_prefix%&cТы не на арене!'
+leave-has-party-popup:
+  inventory-name: Are you sure?
+  stay-title: '&cNo'
+  stay-lore:
+  - '&fStay in the arena'
+  bring-party-title: '&aYes'
+  bring-party-lore:
+  - '&fSummon party with you'
+arena-selector-gui-name: '&8Доступные арены'
+arena-selector-content-name: '&a&l%bw_name%'
+arena-selector-content-lore:
+- ''
+- '&7Статус: %bw_team_status%'
+- '&7Игроков: &f%bw_on%&7/&f%bw_max%'
+- '&7Тип: &a%bw_group%'
+- ''
+- '&aЛКМ для входа.'
+- '&eПКМ для слежки.'
+arena-selector-skipped-item-name: '&r%bw_server_ip%'
+arena-selector-skipped-item-lore: []
+cmd-lang-list-header: '%bw_lang_prefix% &2Доступные языки:'
+cmd-lang-list-format: '&a▪  &7%bw_lang_iso% - &f%bw_name%'
+cmd-lang-usage: '%bw_lang_prefix%&7Используйте: /lang &f&o<iso>'
+cmd-lang-not-exist: '%bw_lang_prefix%&cЭтот язык не существует!'
+cmd-lang-set: '%bw_lang_prefix%&aЯзык сменен!'
+cmd-lang-not-set: '%bw_lang_prefix%&cВы не можете изменить язык во время игры.'
+cmd-tp-player-not-found: '%bw_lang_prefix%&cИгрок не найден!'
+cmd-tp-not-in-arena: '%bw_lang_prefix%&cЭтот игрок не на bedwars арене!'
+cmd-tp-not-started: '%bw_lang_prefix%&cИгра на арене, где находится игрок, еще не
+  началась!'
+cmd-tp-usage: '%bw_lang_prefix%&cUsage: /bw tp <ник>'
+cmd-join-party-big: '%bw_lang_prefix%&cВаша партия слишком велика для того, чтобы
+  присоединиться к этой арене как команде :('
+cmd-join-not-leader: '%bw_lang_prefix%&cТолько лидер может выбрать арену.'
+cmd-rejoin-player-reconnected: '%bw_lang_prefix%&7%bw_player% &eпереподключился!'
+generator-tier: '&eУровень &c%bw_tier%'
+generator-diamond: '&b&lАлмаз'
+generator-emerald: '&a&lЭмеральд'
+generator-timer: '&eСпавн через &c%bw_seconds% &eсекунд'
+cmd-join-success: '%bw_lang_prefix%&7%bw_player% &eвошел в игру (&b%bw_on%&e/&b%bw_max%&e)!'
+arena-start-countdown: '%bw_lang_prefix%&eИгра начнется через &6%bw_time% &eсекунд!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a%bw_seconds%'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cОжидание игроков..'
+format-chat-lobby: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-waiting: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-global: '%bw_level%%bw_v_prefix%&6[ВСЕМ] %bw_team_format% &7%bw_player%&f%bw_v_suffix%:
+  %bw_message%'
+format-chat-team: '%bw_level%%bw_v_prefix%&f%bw_team_format%&7 %bw_player%%bw_v_suffix%
+  %bw_message%'
+format-chat-spectator: '%bw_level%%bw_v_prefix%&7[НАБЛЮДАТЕЛЬ] %bw_player%%bw_v_suffix%:
+  %bw_message%'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&l Защищайте свою кровать и уничтожайте кровати врагов.'
+- '&e&l      Улучшайте себя и свою команду, собирая'
+- '&e&l   Железо, Золото, Эмеральды и Алмазы из генераторов'
+- '&e&l     чтобы получить доступ к мощным улучшениям.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+meaning-shout: shout
+arena-start-title: '&aПОГНАЛИ'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fКарта: &a%bw_map%'
+    - ''
+    - '&fИгроков: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fОжидание...'
+    - ''
+    - '§fТип: &a%bw_group%'
+    - '&fВерсия: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    starting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fКарта: &a%bw_map%'
+    - ''
+    - '&fИгроков: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fСтарт через &a%bw_time%s'
+    - ''
+    - '§fТип: &a%bw_group%'
+    - '&fВерсия: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5%'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5%'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fУбийств: &a%bw_kills%'
+    - '&fФинальных убийств: &a%bw_final_kills%'
+    - '&fКроватей уничтожено: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fУбийств: &a%bw_kills%'
+    - '&fФинальных убийств: &a%bw_final_kills%'
+    - '&fКроватей уничтожено: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  lobby:
+  - '&6&lBedWars'
+  - '&fВаш уровень: %bw_level%'
+  - ''
+  - '&fПрогресс: &a%bw_current_xp%&7/&b%bw_required_xp%'
+  - '%bw_progress%'
+  - ''
+  - '&7%bw_player%'
+  - ''
+  - '&fМонет: &a%bw_money%'
+  - ''
+  - '&fВсего побед: &a%bw_wins%'
+  - '&fВсего убйиств: &a%bw_kills%'
+  - ''
+  - '&e%bw_server_ip%'
+format-sb-health: '%health% &c❤'
+format-sb-tab-prefix:
+  spectator:
+  - '&7'
+  restarting:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%'
+  playing:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  starting:
+  - '%bw_v_prefix% '
+  waiting:
+  - '%bw_v_prefix% '
+  lobby:
+  - '%bw_v_prefix% '
+format-sb-tab-suffix:
+  spectator: []
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a%bw_players_remaining%'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 Вы'
+format-action-tracking: '&fTracking: %bw_team% &f- Distance: %bw_distance%m'
+format-dragon-bossbar: '%bw_team% &7Dragon'
+team-eliminated: |2
+
+  &f&lУНИЧТОЖЕНИЕ КОММАНДЫ > %bw_team_color%%bw_team_name% команда &cбыла уничтожена!
+bed-hologram-defend: '&c&lЗащищайте свою кровать!'
+interact-cant-open-chest: '&cТы не можешь открыть этот сундук, так как команда уничтожена!'
+interact-cant-place: '%bw_lang_prefix%&cВы не можете ставить блоки здесь!'
+interact-cant-break: '%bw_lang_prefix%&cВы можете ломать блоки только игроков!'
+interact-cant-destroy-bed: '&cВы не можете разрушить свою кровать!'
+interact-bed-destroy-chat: |2
+
+  &f&lУНИЧТОЖЕНИЕ КРОВАТИ > %bw_team_color%%bw_team_name% Кровать &7разушена игроком %bw_player_color%%bw_player%&7!
+interact-bed-destroy-title: '&cВАША КРОВАТЬ УНИЧТОЖЕНА!'
+interact-bed-destroy-subtitle: '&fВы больше не сможете возродиться!'
+interact-bed-destroy-team: '&f&lУНИЧТОЖЕНИЕ КРОВАТИ > &7Ваша кровать разрушена игроком
+  %bw_player_color%%bw_player%&7!'
+interact-invisibility-removed-damaged: '&cYou are no longer invisible because you
+  have taken damage!'
+interact-magic-milk-removed: '&cYour Magic Milk wore off!'
+player-die-void-regular: '%bw_player_color%%bw_player% &7упал.'
+player-die-void-final: '%bw_player_color%%bw_player% &7упал. &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-knocked-void-regular: '%bw_player_color%%bw_player% &7был скинут в бездну
+  %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-void-final: '%bw_player_color%%bw_player% &7был скинут в бездну
+  игроком %bw_killer_color%%bw_killer_name%&7. &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-knocked-fall-regular: '%bw_player_color%%bw_player% &7был сбит игроком
+  %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-fall-final: '%bw_player_color%%bw_player% &7был сбит игроком %bw_killer_color%%bw_killer_name%&7.
+  &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-bomb-regular: '%bw_player_color%%bw_player% &7был поражен любимой бомбой
+  игрока %bw_killer_color%%bw_killer_name%&7.'
+player-die-bomb-final: '%bw_player_color%%bw_player% &7был поражен любимой бомбой
+  игрока %bw_killer_color%%bw_killer_name%&7. &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-attack-regular: '%bw_player_color%%bw_player% &7был убит игроком %bw_killer_color%%bw_killer_name%&7.'
+player-die-attack-final: '%bw_player_color%%bw_player% &7был убит игроком %bw_killer_color%%bw_killer_name%&7.
+  &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-pvp-log-out-regular: '%bw_player_color%%bw_player% &7откючился пока сражался
+  с %bw_killer_color%%bw_killer_name%&7.'
+player-die-pvp-log-out-final: '%bw_player_color%%bw_player% &7откючился пока сражался
+  с %bw_killer_color%%bw_killer_name%&7. &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+bed-hologram-destroyed: '&c&lВаша кровать сломана!'
+player-respawn-title: '&cВЫ ПОГИБЛИ!'
+player-respawn-subtitle: '&eВы возродитесь через &c%bw_time% &eсекунд!'
+player-respawn-timer-chat: '%bw_lang_prefix%&eВы возродитесь через &c%bw_time% &eсекунд!'
+player-respawned-title: '&aВОЗРОЖДЕН!'
+player-eliminated-chat: '%bw_lang_prefix%&cВы были устранены!'
+player-respawned-chat: '%bw_lang_prefix%&eYou have respawned!'
+player-hit-bow: '&7У %bw_lang_prefix%%bw_player% &7теперь &c%bw_damage_amount% &7HP!'
+game-end-game-over-title: '&c&lИГРА ОКОНЧЕНА!'
+game-end-victory-title: '&6&lПОБЕДА!'
+format-each-winner: '%bw_player%'
+game-end-first-killer: '%bw_player%'
+game-end-second-killer: '%bw_player%'
+game-end-third-killer: '%bw_player%'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '%bw_winner_format%'
+- ''
+- ''
+- '&e                          &l1st Killer &7- %bw_first_format% - %bw_first_kills%'
+- '&6                          &l2nd Killer &7- %bw_second_format% - %bw_second_kills%'
+- '&c                          &l3rd Killer &7- %bw_third_format% - %bw_third_kills%'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game-end-winner-team: '%bw_lang_prefix%%bw_team_color%%bw_team_name% &aвыиграл игру!'
+format-winner-team: '      %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-winner-solo: '                 %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+meaning-nobody: Никто
+format-tier1: I
+format-tier2: II
+format-tier3: III
+generator-upgrade-announce: '%bw_lang_prefix%%bw_generator_type% Генератор &eбыл улучшен
+  до уровня &c%bw_tier%'
+npcs:
+  team-upgrades:
+    default:
+    - '&bКОМАНДНЫЕ УЛУЧШЕНИЯ'
+    - '&e&lПКМ'
+  solo-upgrades:
+    default:
+    - '&bСОЛО УЛУЧШЕНИЯ'
+    - '&e&lПКМ'
+  team-shop:
+    default:
+    - '&bМАГАЗИН'
+    - '&e&lПКМ'
+  solo-shop:
+    default:
+    - '&bМАГАЗИН'
+    - '&e&lПКМ'
+xp-reward-per-minute: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Игровое
+  время).'
+xp-reward-game-win: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Победа в игре).'
+xp-reward-per-teammate: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Поддержка
+  команды).'
+xp-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Разрушение
+  кровати).'
+xp-reward-regular-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Убийство).'
+xp-reward-final-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Опыта получено (Финальное
+  убийство).'
+money-reward-per-minute: '%bw_lang_prefix%&6+%bw_money% Монет (Игровое время).'
+money-reward-game-win: '%bw_lang_prefix%&6+%bw_money% Монет (Победа в игре).'
+money-reward-per-teammate: '%bw_lang_prefix%&6+%bw_money% Монет (Поддержка команды).'
+money-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_money% Монет (Разрушение кровати).'
+money-reward-final-kill: '%bw_lang_prefix%&6+%bw_money% Монет (Финальное убийство).'
+money-reward-regular-kill: '%bw_lang_prefix%&6+%bw_money% Монет (Убийство).'
+shop-items-messages:
+  inventory-name: '&8Быстрая покупка'
+  quick-buy-add-inventory-name: '&8Добавление в быструю покупку...'
+  separator-item-name: '&8⇧ Категории'
+  separator-item-lore:
+  - '&8⇩ Предметы'
+  quick-buy-item-name: '&bБыстрая покупка'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cПустой слот!'
+  quick-buy-empty-item-lore:
+  - '&7Это слот быстрой покупки!'
+  - '&bШифт-клик &7на любой предмет'
+  - '&7для добавления его сюда.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Блоки'
+    category-item-name: '&aБлоки'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-wool-name: '%bw_color%Шерсть'
+    content-item-wool-lore:
+    - '&7Цена: &f%bw_cost% %bw_currency%'
+    - ''
+    - '&7Great for bridging across'
+    - '&7islands. Turns into your team''s'
+    - '&7color.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-clay-name: '%bw_color%Глина'
+    content-item-clay-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Стандартный блок для защиты кровати.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-glass-name: '%bw_color%Взрывоустойчивое стекло'
+    content-item-glass-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Имеет имунитет к взрывам.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stone-name: '%bw_color%Эндерняк'
+    content-item-stone-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Солидный блок для защиты кровати.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ladder-name: '%bw_color%Лестницы'
+    content-item-ladder-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Полезно когда кошки застревают'
+    - '&7на деревьях.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-obsidian-name: '%bw_color%Обсидиан'
+    content-item-obsidian-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Лучший блок для защиты кровати.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-wood-name: '%bw_color%Дерево'
+    content-item-wood-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Хороший блок для защиты кровати.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  melee-category:
+    inventory-name: '&8Оружие'
+    category-item-name: '&aОружие'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-stone-sword-name: '%bw_color%Каменный меч'
+    content-item-stone-sword-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-sword-name: '%bw_color%Железный меч'
+    content-item-iron-sword-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-sword-name: '%bw_color%Алмазный меч'
+    content-item-diamond-sword-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stick-name: '%bw_color%Палка (Отдача I)'
+    content-item-stick-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  armor-category:
+    inventory-name: '&8Броня'
+    category-item-name: '&aБроня'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-chainmail-name: '%bw_color%Кольчужная броня'
+    content-item-chainmail-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Кольчужные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-armor-name: '%bw_color%Железная броня'
+    content-item-iron-armor-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&Железные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-armor-name: '%bw_color%Permanent Diamond Armor'
+    content-item-diamond-armor-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Алмазные штаны и сапоги'
+    - '&7Вы всегда будете появляться'
+    - '&7с ними при смерти.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  tools-category:
+    inventory-name: '&8Инструменты'
+    category-item-name: '&aИнструменты'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-shears-name: '%bw_color%Ножницы'
+    content-item-shears-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Отличный инструмент для ломания шерсти.'
+    - '&7Вы всегда будете появляться с ножницами.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-pickaxe-name: '%bw_color%Кирка %bw_tier%'
+    content-item-pickaxe-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - '&7Фаза: &e%bw_tier%'
+    - ''
+    - '&7Это улучшаемый предмет.'
+    - '&7Если вы умрёте, то он.'
+    - '&7потеряет одну фазу!'
+    - ''
+    - '&7Если вы ухудшите свой'
+    - '&7предметы до последней фазы'
+    - '&7то вы всегда будете появляться с самой нижней фазой.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-axe-name: '%bw_color%Топор %bw_tier%'
+    content-item-axe-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - '&7Фаза: &e%bw_tier%'
+    - ''
+    - '&7Это улучшаемый предмет.'
+    - '&7Если вы умрёте, то он.'
+    - '&7потеряет одну фазу!'
+    - ''
+    - '&7Если вы ухудшите свой'
+    - '&7предметы до последней фазы'
+    - '&7то вы всегда будете появляться с самой нижней фазой.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  ranged-category:
+    inventory-name: '&8Луки'
+    category-item-name: '&aЛуки'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-arrow-name: '%bw_color%Стрела'
+    content-item-arrow-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow1-name: '%bw_color%Лук'
+    content-item-bow1-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow2-name: '%bw_color%Лук (Сила I)'
+    content-item-bow2-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow3-name: '%bw_color%Лук (Сила  I, Отдача I)'
+    content-item-bow3-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  potions-category:
+    inventory-name: '&8Зелья'
+    category-item-name: '&aЗелья'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-speed-potion-name: '%bw_color%Зелье на Скорость II (45 секунд)'
+    content-item-speed-potion-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-jump-potion-name: '%bw_color%Зелье на Прыжок V (45 секунд)'
+    content-item-jump-potion-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-invisibility-name: '%bw_color%Зелье невидимости (30 секунд)'
+    content-item-invisibility-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  utility-category:
+    inventory-name: '&8Разное'
+    category-item-name: '&aРазное'
+    category-item-lore:
+    - '&eНажмите для просмотра!'
+    content-item-golden-apple-name: '%bw_color%Золотое Яблоко'
+    content-item-golden-apple-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Хорошо восстанавливает здоровье.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bedbug-name: '%bw_color%Чешуйница'
+    content-item-bedbug-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Спавнит чешуйниц при'
+    - '&7бросания снежка.'
+    - '&7Может скинуть врагов, действует 15 секунд.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-dream-defender-name: '%bw_color%Железный Голем'
+    content-item-dream-defender-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Железный голем для защиты вашей'
+    - '&7базы. Действует 4 минуты.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-fireball-name: '%bw_color%Фаербол'
+    content-item-fireball-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Нажми ПКМ чтобы запустить!'
+    - '&7Огненный заряд хорошенько поджарит'
+    - '&7мосты ваших противников!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tnt-name: '%bw_color%Динамит'
+    content-item-tnt-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Автоматически поджигаеться, при'
+    - '&7размещении!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ender-pearl-name: '%bw_color%Эндер-пёрл'
+    content-item-ender-pearl-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Самый быстрый способ добраться'
+    - '&7до базы вашего врага.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-water-bucket-name: '%bw_color%Ведро Воды'
+    content-item-water-bucket-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Отличный метод замедлить ваших'
+    - '&7противников. Также может'
+    - '&7защитить от взрыва динамита.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bridge-egg-name: '%bw_color%Яйцо'
+    content-item-bridge-egg-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Создаёт мост, по заданной'
+    - '&7траектории после броска.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-magic-milk-name: '%bw_color%Магическое Молоко'
+    content-item-magic-milk-lore:
+    - '&7Цена: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Снимает эффекты всех ловушек,'
+    - '&7поставленных на базу противника, в течении 60 секунд.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-sponge-name: '%bw_color%Губка'
+    content-item-sponge-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Вжимает в себя воду.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tower-name: '%bw_color%Compact Pop-up Tower'
+    content-item-tower-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Place a compact pop-up'
+    - '&7tower defense!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+shop-insuff-money: '%bw_lang_prefix%&cТебе нехватает %bw_currency%! Нужно еще %bw_amount%!'
+shop-new-purchase: '%bw_lang_prefix%&aТы купил &6%bw_item%'
+shop-already-bought: '%bw_lang_prefix%&cТы уже купил это!'
+shop-already-higher-tier: '%bw_lang_prefix%&cYou already have a higher tier item.'
+shop-utility-silverfish: '%bw_team_color%&l%bw_team_name% &r%bw_team_color%Silverfish'
+shop-utility-iron-golem: '%bw_team_color%%bw_despawn_time%s &8[ %bw_team_color%%bw_health%&8]'
+shop-lore-status-can-buy: '&eНажми для покупки!'
+shop-lore-status-cant-afford: '&cТебе нехватает %bw_currency%!'
+shop-lore-status-tier-maxed: '&aМАКСИМАЛЬНО!'
+shop-lore-quick-add: '&bШифт-клик для добавления в быструю покупку'
+shop-lore-quick-remove: '&bШифт-клик для удаления из быстрой покупки!'
+meaning-full: Полный
+meaning-iron-singular: Железо
+meaning-iron-plural: Железа
+meaning-gold-singular: Золото
+meaning-gold-plural: Золота
+meaning-emerald-singular: Изумруд
+meaning-emerald-plural: Изумрудов
+meaning-diamond-singular: Алмаз
+meaning-diamond-plural: Алмазов
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-enabled: '&aEnabled'
+meaning-disabled: '&cDisabled'
+cmd-join-usage: '§a▪ §7Используйте: /bw join §o<арена/тип>'
+cmd-blocked-in-game: '%bw_lang_prefix%&cВы не можете этого сделать.'
+upgrades-lore-click-buy: '%bw_color%Нажми для покупки!'
+upgrades-lore-insuff-money: '&cУ вас недостаточно %bw_currency%!'
+upgrades-lore-insuff-space: '&eYou don''t have enough inventory space to buy this
+  item!'
+upgrades-lore-locked: '&cЗАБЛОКИРОВАНО'
+upgrades-lore-unlocked: '%bw_color%РАЗБЛОКИРОВАНО'
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: '&eЖелезная кузница'
+        lore:
+        - '&7Увеличивает скорость спавна'
+        - '&7Железа и золота на 50%..'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+      tier2:
+        name: '&eЗолотая кузница'
+        lore:
+        - '&7Увеличивает скорость спавна'
+        - '&7железа и золота на 100%..'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+      tier3:
+        name: '&eИзумрудная кузница'
+        lore:
+        - '&7Активирует заклинателя «Изумруд»'
+        - '&7В кузнице вашей команды.'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    maniacMiner:
+      tier1:
+        name: '&eМаньяк-майнер'
+        lore:
+        - '&7Все игроки вашей команды'
+        - '&7Навсегда получат ускорение I'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    sharpSword:
+      tier1:
+        name: '&eЗаостренные мечи'
+        lore:
+        - '&7Ваша команда получит Резкость I'
+        - '&7На всех мечах!'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    reinforced:
+      tier1:
+        name: '&eУкрепленная броня'
+        lore:
+        - '&7Ваша команда поолучит Защиту I'
+        - '&7На всей броне!'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    trap:
+      tier1:
+        name: '&eЭто ловушка!'
+        lore:
+        - '&7Враг, пытающийся зайти на вашу базу'
+        - '&7Получит слепоту'
+        - '&7и медлительность!'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    miningFatigue:
+      tier1:
+        name: '&eШахтерская усталостная ловушка'
+        lore:
+        - '&7Враг, пытающийся зайти на вашу базу'
+        - '&7В течении 10 секунд получит'
+        - '&7усталость!'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+    healPool:
+      tier1:
+        name: '&eИсцеляющее поле'
+        lore:
+        - '&7Создает поле регенирации'
+        - '&7вокруг вашей базы!'
+        - ''
+        - '&7Цена:&b %bw_cost% %bw_currency%'
+        - ''
+upgrades-new-purchase: '&a%bw_player% купил &6%bw_upgrade_name%'
+format-despawnable-health: '▮ '
+player-die-unknown-regular: '%bw_player_color%%bw_player% &7умер.'
+player-die-unknown-final: '%bw_player_color%%bw_player% &7умер. &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-shoot-regular: '%bw_player_color%%bw_player% &7был убит выстрелом игрока
+  %bw_killer_color%%bw_killer_name%&7!'
+player-die-shoot-final: '%bw_player_color%%bw_player% &7был убит выстрелом игрока
+  %bw_killer_color%%bw_killer_name%&7! &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-bedbug-regular: '%bw_player_color%%bw_player% &7был убит чешуйницей игрока
+  %bw_killer_color%%bw_killer_team_name%!'
+player-die-bedbug-final: '%bw_player_color%%bw_player% &7был убит Чешуйницей игрока
+  %bw_killer_color%%bw_killer_team_name%! &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-die-golem-regular: '%bw_player_color%%bw_player% &7был убит Железным Големом
+  игрока %bw_killer_color%%bw_killer_team_name%!'
+player-die-golem-final: '%bw_player_color%%bw_player% &7был убит Железным Големом
+  игрока %bw_killer_color%%bw_killer_team_name%! &b&lФИНАЛЬНОЕ УБИЙСТВО!'
+player-loot-diamond: '%bw_lang_prefix%&b+%bw_amount% %bw_meaning%'
+player-loot-emerald: '%bw_lang_prefix%&a+%bw_amount% %bw_meaning%'
+player-loot-iron: '%bw_lang_prefix%&f+%bw_amount% %bw_meaning%'
+player-loot-gold: '%bw_lang_prefix%&6+%bw_amount% %bw_meaning%'
+build-max-height-limit-reached: '&cMax build height limit reached!'
+build-min-height-limit-reached: '&cMin build height limit reached!'
+arena-fireball-cooldown: '&cPlease wait %bw_cooldown%s to use that again!'
+in-game-announcement:
+- '&c&lIf you get disconnected use /rejoin to join back in the game.'
+- '&c&lCross-teaming is not allowed! Report cross-teamers using /report.'
+player-die-bomb2-regular: '%bw_player_color%%bw_player% &7был взорван бомбой.'
+player-die-bomb2-final: '%bw_player_color%%bw_player% &7был взорван бомбой. &b&lФИНАЛЬНОЕ
+  УБИЙСТВО!'
+stats-inv-name: '&8Статистика игрока %bw_player%'
+stats-wins-name: '&6Побед'
+stats-wins-lore:
+- '&f%bw_wins%'
+stats-losses-name: '&6Проигрышей'
+stats-losses-lore:
+- '&f%bw_losses%'
+stats-kills-name: '&6Убийств'
+stats-kills-lore:
+- '&f%bw_kills%'
+stats-deaths-name: '&6Смертей'
+stats-deaths-lore:
+- '&f%bw_deaths%'
+stats-final-kills-name: '&6Финальных убийств'
+stats-final-kills-lore:
+- '&f%bw_final_kills%'
+stats-final-deaths-name: '&6Финальных смертей'
+stats-final-deaths-lore:
+- '&f%bw_final_deaths%'
+stats-beds-destroyed-name: '&6Кроватей уничтожено'
+stats-beds-destroyed-lore:
+- '&f%bw_beds%'
+stats-first-play-name: '&6Первая игра'
+stats-first-play-lore:
+- '&f%bw_play_first%'
+stats-last-play-name: '&6Последняя игра'
+stats-last-play-lore:
+- '&f%bw_play_last%'
+stats-games-played-name: '&6Игр сыграно'
+stats-games-played-lore:
+- '&f%bw_games_played%'
+format-stats-time: yyyy/MM/dd HH:mm
+meaning-never: Никогда
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aКоманды пати:'
+- '&e/party help &7- &bПоказывает все доступные команды'
+- '&e/party invite <игрок> &7- &bПригласить игрока в ваше пати'
+- '&e/party leave &7- &bВыйти из пати'
+- '&e/party info &7- &bShow party members and owner'
+- '&e/party promote <player> &7- &bTransfer party ownership'
+- '&e/party remove <игрок> &7- &bВыгнать игрока из пати'
+- '&e/party accept <игрок> &7- &bПринять приглашение в пати'
+- '&e/party disband &7- &bРасфирмировать текующую группу'
+cmd-party-invite-usage: '%bw_lang_prefix%&eИспользуйте: &7/party invite <игрок>'
+cmd-party-offline: '%bw_lang_prefix%&7%bw_player% &eоффлайн!'
+cmd-party-invite: '%bw_lang_prefix%&eПриглашение отправлено &7%bw_player%&6.'
+cmd-party-invite-received: '%bw_lang_prefix%&b%bw_player% &eпригласил вас в пати!
+  &o&7(Нажмите, чтобы принять)'
+cmd-party-invite-self: '%bw_lang_prefix%&cВы не можете пригласить самого себя!'
+cmd-party-no-invite: '%bw_lang_prefix%&cНет приглашений в пати.'
+cmd-party-already-in: '%bw_lang_prefix%&eВы уже в пати!'
+cmd-party-no-perm: '%bw_lang_prefix%&cТолько владелец партии может это сделать!'
+cmd-party-accept-usage: '%bw_lang_prefix%&eИспользуйте: &7/party accept <игрок>'
+cmd-party-join: '%bw_lang_prefix%&7%bw_player% &eприсоединился к группе!'
+cmd-party-not-in: '%bw_lang_prefix%&cВы не в группе!'
+cmd-party-cant-leave: |-
+  %bw_lang_prefix%&cВы не можете покинуть свою собственное пати!
+  &eПопробуйте: &b/party disband
+cmd-party-leave: '%bw_lang_prefix%&7%bw_player% &eвышел из пати!'
+cmd-party-disband: '%bw_lang_prefix%&eПати расфармированно!'
+cmd-party-remove-usage: '%bw_lang_prefix%&7Используйте: &e/party remove <игрок>'
+cmd-party-remove: '%bw_lang_prefix%&7%bw_player% &eбыл удален из пати.'
+cmd-party-remove-not-in: '%bw_lang_prefix%&7%bw_player% &eне состоит в вашем пати!'
+cmd-party-promote-owner: '%bw_lang_prefix%&eВы успешно повысили %bw_player% до владельца'
+cmd-party-owner: '%bw_lang_prefix%&eВы были повышены до владельца группы'
+cmd-party-owner-changed: '%bw_lang_prefix%&7 &e%bw_player% был повышен до владельца
+  группы'
+cmd-party-info-owner: |2-
+
+  %bw_lang_prefix%&eВладелец группы: &7%bw_party_owner%
+cmd-party-info-players: '%bw_lang_prefix%&eУчастники группы:'
+cmd-party-info-player: '&7%bw_player%'
+cmd-party-enabled-disabled: '&e&lPARTY &8&l┃ &fParty chat is now %bw_party_chat_status%
+  &f!'
+next-event-beds-destroy: '&fУничтожение кроватей'
+next-event-diamondII: '&fАлмазы II'
+next-event-diamondIII: '&fАлмазы III'
+next-event-dragon-spawn: '&fВнезапная смерть'
+next-event-emeraldII: '&fИзумруды II'
+next-event-emeraldIII: '&fИзумруды III'
+next-event-game-end: '&4Игра закончиться'
+next-event-beds-destroy-title: '&cВАША КРОВАТЬ УНИЧТОЖЕНА!'
+next-event-beds-destroy-sub-title: '&fВсе кровати были уничтожены!'
+next-event-beds-destroy-chat: '&c&lВсе кровати были уничтожены!'
+next-event-sudden-death-title: '&cСмерть'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cСМЕРТЬ: &6&b%bw_dragons_amount% %bw_team_color%%bw_team_name%
+  Dragon!'
+cmd-not-found: '%bw_lang_prefix%&cКоманда не найдена или у вас нет прав!'
+cmd-start-no-game: §c▪ §7Вы не играете!
+cmd-start: §c▪ §7Обратный отсчет сокращен!
+cmd-start-no-perm: |-
+  %bw_lang_prefix%&7Вы не можете сократить время старта.
+  §7Подумайте о том, чтобы купить донат.
+cmd-join-spectate: |-
+  %bw_lang_prefix%§6Ты теперь наблюдаешь за §9%bw_arena%§6.
+  %bw_lang_prefix%§eДля выхода с арены используй §c/leave§e.
+spectator-tp-gui-name: '&8Телепортер'
+spectator-tp-gui-head-name: '%bw_v_prefix%%bw_player%'
+spectator-tp-gui-head-lore:
+- '&7Здоровье: &f%bw_player_health%%'
+- '&7Насыщенность: &f%bw_player_food%'
+- ''
+- '&7ЛКМ для слежки'
+spectator-tp-name: '&c&lВернутья в лобби'
+spectator-tp-lore:
+- '&7Щелкните правой кнопкой мыши, чтобы вернуться в лобби!'
+spectator-first-person-enter-title: '&aСлежка за &7%bw_player%'
+spectator-first-person-enter-subtitle: '&cШИФТ для выхода'
+spectator-first-person-quit-title: '&eПокидание режима слежки'
+spectator-first-person-quit-subtitle: ''
+cmd-join-spectate-denied: '&cНа этой арене отключена слежка!'
+arena-leave-party-disbanded: '%bw_lang_prefix%§cВладелец пати покинут сервер, пати
+  распущена!'
+lobby-items-stats-name: '&eСтатистика'
+lobby-items-stats-lore:
+- '&fПКМ, чтобы увидеть свою статистику!'
+lobby-items-arena-selector-name: '&eАрены'
+lobby-items-arena-selector-lore:
+- '&fВыберите арену!'
+lobby-items-leave-name: '&eВернутья в лобби'
+lobby-items-leave-lore:
+- '&fЩелкните правой кнопкой мыши, чтобы вернуться в лобби!'
+pre-game-items-stats-name: '&eСтатистика'
+pre-game-items-stats-lore:
+- '&fПКМ, чтобы увидеть свою статистику!'
+pre-game-items-leave-name: '&eВернутья в лобби'
+pre-game-items-leave-lore:
+- '&fЩелкните правой кнопкой мыши, чтобы вернуться в лобби!'
+spectator-items-teleporter-name: '&eТелепортер'
+spectator-items-teleporter-lore:
+- '&fПКМ, чтобы наблюдать за игроками!'
+spectator-items-leave-name: '&eВернутья в лобби'
+spectator-items-leave-lore:
+- '&fЩелкните правой кнопкой мыши, чтобы вернуться в лобби!'
+cmd-cooldown: '&cВы не можете сделать этого! Подождите еще %bw_seconds% секунд!'
+cmd-disable-shout-solo: '&cShouting is disabled in Solo!'
+leave-started: '&a&lTeleporting you to the lobby in %bw_leave_delay% seconds... Right-click
+  again to cancel the teleport!'
+leave-canceled: '&c&lTeleport cancelled!'
+format-papi-player-team: '%bw_team_color%[%bw_team_name%]'
+format-papi-player-shout: '&6[ВСЕМ]'
+format-papi-player-spectator: '&7[НАБЛЮДАТЕЛЬ]'
+arena-join-denied-selector: '%bw_lang_prefix%&cИзвините, но вы не можете пресоедениться
+  к этой арене прямо сейчас. Используйте ПКМ для режима наблюдателей!'
+arena-spectate-denied-selector: '%bw_lang_prefix%&cИзвините, но вы не можете наблюдать
+  за этой ареной прямо сейчас. Используйте ЛКМ для входа в игру!'
+arena-join-denied-no-bwp: '&cИзвините, но вы должны подключиться к арене, используя
+  BedWarsProxy!'
+arena-join-denied-no-time: '&cSorry but you joined while the game was already started.'
+cmd-rejoin-no-arena: '%bw_lang_prefix%&cАрен для перезахода не найдено!'
+cmd-rejoin-denied: '%bw_lang_prefix%&cВы больше не можете перезайти. Игра окончена
+  или ваша кровать была разрушена.'
+cmd-rejoin-allowed: '%bw_lang_prefix%&eПереносим вас в игру, на карту &a%bw_arena%&e!'
+meaning-no-trap: Ловушки отсутствуют!
+format-upgrade-trap-cost: '&7Цена: %bw_currency_color%%bw_cost% %bw_currency%'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-upgrade-name-forge-tier-1: '%bw_color%Железная Печь'
+upgrades-upgrade-lore-forge:
+- '&7Делает быстрее спавнер'
+- '&7ресурсов вашего острова.'
+- ''
+- '{tier_1_color}Фаза 1: +50% К ресурсам, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Фаза 2: +100% К ресурсам, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Фаза 3: Спавнит изумруды, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Фаза 4: +200% К ресурсам, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '%bw_color%Золотая Печь'
+upgrades-upgrade-name-forge-tier-3: '%bw_color%Изумрудная Печь'
+upgrades-upgrade-name-forge-tier-4: '%bw_color%Алмазная Печь'
+upgrades-category-item-name-traps: '&eКупить ловушку'
+upgrades-category-item-lore-traps:
+- '&7Купленные ловушки будут'
+- '&7размещенны в очереди.'
+- ''
+- '&eНажмите чтобы посмотреть!'
+upgrades-upgrade-name-swords-tier-1: '%bw_color%Заострённые Мечи'
+upgrades-upgrade-lore-swords:
+- '&7Ваша команда получит'
+- '&7Остроту I на все мечи,'
+- '&7а также топоры!'
+- ''
+- '{tier_1_color}Цена: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '%bw_color%Защищёная Броня I'
+upgrades-upgrade-lore-armor:
+- '&7Ваша команда получит'
+- '&7Защиту I на всю броню!'
+- ''
+- '{tier_1_color}Фаза 1: Защита I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Фаза 2: Защита II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Фаза 3: Защита III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Фаза 4: Защита IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '%bw_color%Защищёная Броня II'
+upgrades-upgrade-name-armor-tier-3: '%bw_color%Защищёная Броня III'
+upgrades-upgrade-name-armor-tier-4: '%bw_color%Защищёная Броня IV'
+upgrades-upgrade-name-miner-tier-1: '%bw_color%Быстрый Шахтёр I'
+upgrades-upgrade-lore-miner:
+- '&7Ваша команда получит'
+- '&7Спешку I.'
+- ''
+- '{tier_1_color}Фаза 1: Спешка I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Фаза 2: Спешка II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '%bw_color%Быстрый Шахтёр II'
+upgrades-upgrade-name-heal-pool-tier-1: '%bw_color%Исцеляющее Поле'
+upgrades-upgrade-lore-heal-pool:
+- '&7Создаёт исцеляющее поле'
+- '&7вокруг вашей базы!'
+- ''
+- '{tier_1_color}Цена: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '%bw_color%Драконы'
+upgrades-upgrade-lore-dragon:
+- '&7Ваша команда будет иметь 2 драконов,'
+- '&7вместо 1 во время конца игры!'
+- ''
+- '{tier_1_color}Цена: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Покупаемое'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Очередь Ловушек'
+upgrades-trap-slot-item-name-first: '%bw_color%Ловушка #1: %bw_name%'
+upgrades-trap-slot-item-lore1-first:
+- '&7Первый человек который зайдёт'
+- '&7на базу, активирует'
+- '&7эту ловушку!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Покупка ловушки,'
+- '&7добавит её в очередь. Её цена'
+- '&7будет увеличиваться по мере'
+- '&7числа купленных ловушек.'
+- ''
+- '&7Следущяя ловушка: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-second: '%bw_color%Ловушка #2: %bw_name%'
+upgrades-trap-slot-item-lore1-second:
+- '&7Второй человек который зайдёт'
+- '&7на базу, активирует'
+- '&7эту ловушку!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Покупка ловушки,'
+- '&7добавит её в очередь. Её цена'
+- '&7будет увеличиваться по мере'
+- '&7числа купленных ловушек.'
+- ''
+- '&7Следущяя ловушка: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-third: '%bw_color%Ловушка #3: %bw_name%'
+upgrades-trap-slot-item-lore1-third:
+- '&7Третий человек который зайдёт'
+- '&7на базу, активирует'
+- '&7эту ловушку!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Покупка ловушки,'
+- '&7добавит её в очередь. Её цена'
+- '&7будет увеличиваться по мере'
+- '&7числа купленных ловушек.'
+- ''
+- '&7Следущяя ловушка: &b%bw_cost% %bw_currency%'
+upgrades-base-trap-name-1: '%bw_color%Это ловушка!'
+upgrades-base-trap-lore-1:
+- '&7Накладывает Слепоту и Медлительность'
+- '&7на 5 секунд.'
+- ''
+upgrades-base-trap-name-2: '%bw_color%Ловушка-Помощник'
+upgrades-base-trap-lore-2:
+- '&7Даёт вам и вашим союзникам'
+- '&7скорость I на 15 секунд.'
+- ''
+upgrades-base-trap-name-3: '%bw_color%Ловушка с Тревогой'
+upgrades-base-trap-lore-3:
+- '&7Показывает игроков, которые были'
+- '&7с зельем невидимости.'
+- ''
+upgrades-base-trap-name-4: '%bw_color%Ловушка Медленный Шахтёр'
+upgrades-base-trap-lore-4:
+- '&7Замедляет копание на'
+- '&710 секунд.'
+- ''
+upgrades-separator-item-name-back: '&aНазад'
+upgrades-separator-item-lore-back:
+- '&7К Улучшениям и Ловушкам'
+upgrades-category-gui-name-traps: '&8Очередь ловушек'
+upgrades-trap-queue-full: '&cОчередь ловушек переполнена!'
+upgrades-trap-default-msg: '&c&lВаша %bw_trap% был(а) отключена!'
+upgrades-trap-default-title: '&cЛОВУШКА БЫЛА АКТИВИРОВАНА!'
+upgrades-trap-default-subtitle: '&fВаша %bw_trap% был(а) активирован(а)!'
+upgrades-base-trap-msg-3: '&c&lЛовушка была активирована игроком &7&l%bw_player% &c&lиз
+  %bw_color%&l%bw_team% &c&lкоманды!'
+upgrades-base-trap-title-3: '&c&lВНИМАНИЕ!!!'
+upgrades-base-trap-subtitle-3: '&fЛовушка была активирована командой %bw_color%%bw_team%
+  &f!'
+upgrades-already-purchase: '&cYou already unlocked this upgrade!'

@@ -1,0 +1,91 @@
+# BedWars2023 arena configuration file.
+# Documentation here: https://wiki.tomkeuper.com/docs/BedWars2023/configuration/Arena-Configuration
+
+group: 4v4v4v4
+display-name: Swachbuckle
+minPlayers: 8
+maxInTeam: 4
+allowSpectate: true
+spawn-protection: 3
+shop-protection: 1
+upgrades-protection: 1
+generator-protection: 1
+generator-split-range: 2.0
+island-radius: 17
+worldBorder: 300
+y-kill-height: -10
+max-build-y: 180
+min-build-y: 0
+disable-generator-for-empty-teams: false
+disable-npcs-for-empty-teams: false
+vanilla-death-drops: false
+use-bed-hologram: false
+allow-map-break: false
+allow-dragon-destroy-when-protected: true
+magicMilkTime: 30
+game-rules:
+- doDaylightCycle:false
+- announceAdvancements:false
+- doInsomnia:false
+- doImmediateRespawn:true
+- doWeatherCycle:false
+waiting:
+  Loc: 1.5,117.0,4.5,270.2623291015625,2.265618324279785
+Team:
+  Yellow:
+    Color: YELLOW
+    Spawn: -85.5,64.0,0.5,-90.39183807373047,1.9032282829284668
+    Bed: -70.0,66.0,0.0,0.0,0.0
+    Iron:
+    - -89.5,63.5,0.5,82.5031967163086,77.9503402709961
+    Gold:
+    - -89.5,63.5,0.5,82.5031967163086,77.9503402709961
+    Emerald:
+    - -89.5,63.5,0.5,82.5031967163086,77.9503402709961
+    Shop: -84.5,64.0,-4.5,359.2752380371094,12.81470012664795
+    Upgrade: -84.5,64.0,5.5,179.86070251464844,7.459649085998535
+  Red:
+    Color: RED
+    Spawn: 0.5,64.0,-85.5,-0.11687066406011581,2.6279869079589844
+    Bed: 0.0,66.0,-70.0,0.0,0.0
+    Iron:
+    - 0.5,63.5,-89.5,182.7999725341797,90.0
+    Gold:
+    - 0.5,63.5,-89.5,182.7999725341797,90.0
+    Emerald:
+    - 0.5,63.5,-89.5,182.7999725341797,90.0
+    Shop: 5.5,64.0,-84.5,89.42852783203125,10.398879051208496
+    Upgrade: -4.5,64.0,-84.5,269.9302062988281,15.633148193359375
+  Green:
+    Color: GREEN
+    Spawn: 0.5,64.0,86.5,180.22283935546875,1.9435006380081177
+    Bed: 0.0,66.0,69.0,0.0,0.0
+    Iron:
+    - 0.5,63.5,90.5,357.1412658691406,86.0835952758789
+    Gold:
+    - 0.5,63.5,90.5,357.1412658691406,86.0835952758789
+    Emerald:
+    - 0.5,63.5,90.5,357.1412658691406,86.0835952758789
+    Shop: -4.5,64.0,85.5,-90.67373657226562,10.75039291381836
+    Upgrade: 5.5,64.0,85.5,89.71012115478516,13.528578758239746
+  Blue:
+    Color: BLUE
+    Spawn: 86.5,64.0,0.5,89.72084045410156,0.5342693328857422
+    Bed: 69.0,66.0,0.0,0.0,0.0
+    Iron:
+    - 90.5,63.5,0.5,264.05181884765625,89.14363098144531
+    Gold:
+    - 90.5,63.5,0.5,264.05181884765625,89.14363098144531
+    Emerald:
+    - 90.5,63.5,0.5,264.05181884765625,89.14363098144531
+    Upgrade: 85.5,64.0,-4.5,-0.27868589758872986,7.74146032333374
+    Shop: 85.5,64.0,5.5,179.41796875,8.264902114868164
+generator:
+  Emerald:
+  - 7.5,64.0,7.5,71.55175018310547,84.44366455078125
+  - -6.5,64.0,-6.5,347.1995849609375,89.83894348144531
+  Diamond:
+  - -34.5,64.0,-34.5,268.2799987792969,85.45022583007812
+  - -34.5,64.0,35.5,328.0310974121094,86.05416870117188
+  - 35.5,64.0,35.5,268.07879638671875,89.55709075927734
+  - 35.5,64.0,-34.5,192.70533752441406,87.86600494384766

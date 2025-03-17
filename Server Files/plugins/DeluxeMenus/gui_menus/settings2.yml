@@ -1,0 +1,86 @@
+menu_title: 'Settings & Visibility'
+open_command: 'lobbysettings'
+size: 45
+update_interval: 1
+items:
+      vs:
+        material: EYE_OF_ENDER
+        data: 0
+        priority: 1
+        slot: 12
+        amount: 1
+        display_name: '&aToggle Visibility'
+        lore:
+        - '&7Toggle the Visibility.'
+        left_click_commands: []
+        right_click_commands: []
+        
+      vs-togleer:
+        update: true
+        material: 77
+        priority: 1
+        slot: 21
+        display_name: '&aVisibility'
+        lore:
+        - '&eClick to toggle!'
+        left_click_commands:
+        - '[player] vt toggle'
+        - '[refresh]<delay=5>'
+        right_click_commands:
+        - '[player] vt toggle'
+        - '[refresh]<delay=5>'
+
+      fly:
+        material: FEATHER
+        data: 0
+        priority: 1
+        slot: 14
+        amount: 1
+        display_name: '&aFly Mode'
+        lore:
+        - '&7Toggle the Fly Mode.'
+        left_click_commands: []
+        right_click_commands: []
+
+      fly-locked:
+        material: 77
+        priority: 2
+        slot: 23
+        display_name: '&aFly Mode'
+        lore:
+        - '&eClick to toggle!'
+        - ''
+        - '&cRequires &aVIP &cor higher'
+        left_click_commands: []
+        right_click_commands: []
+
+      fly-unlocked:
+        update: true
+        material: 77
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'essentials.fly'
+        slot: 23
+        display_name: '&aFly Mode'
+        lore:
+        - '&eClick to toggle!'
+        left_click_commands:
+        - '[console] fly %player_name%'
+        - '[refresh]<delay=5>'
+        right_click_commands:
+        - '[console] fly %player_name%'
+        - '[refresh]<delay=5>'
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore:
+        - '&7To My Profile'
+        left_click_commands:
+        - '[openguimenu] profile'
+        right_click_commands:
+        - '[openguimenu] profile'

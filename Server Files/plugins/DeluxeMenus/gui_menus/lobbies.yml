@@ -1,0 +1,94 @@
+menu_title: '&8Bed Wars Lobby Selector'
+open_command:
+- lobbysel
+size: 54
+update_interval: 1
+items:
+      seperator:
+        material: stained_glass_pane
+        data: 1
+        priority: 99
+        display_name: '&r'
+        slots:
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      0:
+        material: wool
+        data: 14
+        slot: 0
+        display_name: '&aBed Wars Lobby 1'
+        lore:
+        - '&8%server_online% currently playing!'
+        - ''
+        - '&cYou''re already in this server'
+        left_click_commands:
+        - '[message] &cYou''re Already in this lobby'
+        - '[close]'
+        right_click_commands:
+        - '[message] &cYou''re Already in this lobby'
+        - '[close]'
+      1:
+        material: wool
+        slot: 1
+        display_name: '&aBed Wars Lobby 2'
+        lore:
+        - '&8%bungee_bedwars1% currently playing!'
+        - ''
+        - '&eClick to connect!'
+        left_click_commands:
+        - '[connect] bedwars1'
+        - '[close]'
+        right_click_commands:
+        - '[connect] bedwars1'
+        - '[close]'
+      2:
+        material: wool
+        slot: 2
+        display_name: '&aBed Wars Lobby 3'
+        lore:
+        - '&8%bungee_bedwars2% currently playing!'
+        - ''
+        - '&eClick to connect!'
+        left_click_commands:
+        - '[connect] bedwars2'
+        - '[close]'
+        right_click_commands:
+        - '[connect] bedwars2'
+        - '[close]'
+    
+      profile:
+        material: head-%player_name%
+        slot: 48
+        display_name: '%luckperms_prefix% %player_name% %luckperms_suffix%'
+        left_click_commands:
+        - '[player] profile'
+        right_click_commands:
+        - '[player] profile'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+
+      gamemode:
+        material: COMPASS
+        slot: 50
+        display_name: '&bGameMenu'
+        left_click_commands:
+        - '[player] gamemenu'
+        right_click_commands:
+        - '[player] gamemenu'

@@ -1,0 +1,1161 @@
+prefix: ''
+name: Română
+format-sb-tab-header:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+format-sb-tab-footer:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/group>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-join-arena-full: |-
+  %bw_lang_prefix%&cArena este plina!
+  &aAi putea lua in considerare donarea pentru mai multe facilitati. &7&o(click)
+cmd-join-arena-full-vips: |-
+  %bw_lang_prefix%&cNe pare rau dar arena este plina.
+  &cStim ca esti donator dar arena este deja plina cu persoane care au prioritate.
+cmd-join-not-found: '%bw_lang_prefix%&cNu exista arene sau grupuri cu numele: %bw_name%'
+cmd-join-arenas-full: '%bw_lang_prefix%&cNu sunt arene disponibile momentan ;('
+cmd-not-in-arena: '%bw_lang_prefix%&cNu esti intr-o arena!'
+leave-has-party-popup:
+  inventory-name: Are you sure?
+  stay-title: '&cNo'
+  stay-lore:
+  - '&fStay in the arena'
+  bring-party-title: '&aYes'
+  bring-party-lore:
+  - '&fSummon party with you'
+cmd-lang-list-header: '%bw_lang_prefix% &2Limbi disponibile:'
+cmd-lang-list-format: '&a▪  &7%bw_lang_iso% - &f%bw_name%'
+cmd-lang-usage: '%bw_lang_prefix%&7Foloseste: /lang &f&o<iso>'
+cmd-lang-not-exist: '%bw_lang_prefix%&cAceasta limba nu exista!'
+cmd-lang-set: '%bw_lang_prefix%&aLimba a fost schimbata!'
+cmd-lang-not-set: '%bw_lang_prefix%&cNu poti schimba limba in timpul meciului.'
+cmd-tp-player-not-found: '%bw_lang_prefix%&cPlayer not found!'
+cmd-tp-not-in-arena: '%bw_lang_prefix%&cThis player is not in a bedwars arena!'
+cmd-tp-not-started: '%bw_lang_prefix%&cThe arena where the player is didn''t start
+  yet!'
+cmd-tp-usage: '%bw_lang_prefix%&cUsage: /bw tp <username>'
+cmd-join-party-big: '%bw_lang_prefix%&cParty-ul este prea mare pentru a intra ca un
+  singur team :('
+cmd-join-not-leader: '%bw_lang_prefix%&cDoar leader-ul poate alege arena.'
+cmd-join-success: '%bw_lang_prefix%&7%bw_player% &ea intrat (&b%bw_on%&e/&b%bw_max%&e)!'
+cmd-rejoin-player-reconnected: '%bw_lang_prefix%&7%bw_player% &es-a reconectat!'
+cmd-leave: '%bw_lang_prefix%&7%bw_player% &ea iesit!'
+cmd-join-usage: '§a▪ §7Folosire: /bw join §o<arena/group>'
+cmd-blocked-in-game: '%bw_lang_prefix%&cNu poti face asta in timpul meciului.'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aComenzi Party:'
+- '&e/party help &7- &bArata mesajele de ajutor'
+- '&e/party invite <jucatori> &7- &bInvita un jucator in party'
+- '&e/party leave &7- &bParaseste un party'
+- '&e/party info &7- &bShow party members and owner'
+- '&e/party promote <player> &7- &bTransfer party ownership'
+- '&e/party remove <player> &7- &bScoate un jucator din party'
+- '&e/party accept <player> &7- &bAccepta o invitatie'
+- '&e/party disband &7- &bSterge party-ul'
+cmd-party-invite-usage: '%bw_lang_prefix%&eFolosire: &7/party invite <jucator>'
+cmd-party-offline: '%bw_lang_prefix%&7%bw_player% &eeste offline!'
+cmd-party-invite: '%bw_lang_prefix%&eInvitatia a fost trimisa lui &7%bw_player%&6.'
+cmd-party-invite-received: '%bw_lang_prefix%&b%bw_player% &ete-a invitat intr-un party!
+  &o&7(Click pentru a accepta)'
+cmd-party-invite-self: '%bw_lang_prefix%&cNu te poti invita singur!'
+cmd-party-no-invite: '%bw_lang_prefix%&cNu ai cereri de acceptat.'
+cmd-party-already-in: '%bw_lang_prefix%&Esti deja intr-un party!'
+cmd-party-no-perm: '%bw_lang_prefix%&cDoar detinatorul party-ului poate face asta!'
+cmd-party-accept-usage: '%bw_lang_prefix%&eFolosire: &7/party accept <jucator>'
+cmd-party-join: '%bw_lang_prefix%&7%bw_player% &ea intrat in party!'
+cmd-party-not-in: '%bw_lang_prefix%&cNu esti intr-un party!'
+cmd-party-cant-leave: |-
+  %bw_lang_prefix%&cNu poti iesi din propriul party!
+  &eIncearca: &b/party disband
+cmd-party-leave: '%bw_lang_prefix%&7%bw_player% &ea iesit din party!'
+cmd-party-disband: '%bw_lang_prefix%&eParty-ul a fost sters!'
+cmd-party-remove-usage: '%bw_lang_prefix%&7Folosire: &e/party remove <jucator>'
+cmd-party-remove: '%bw_lang_prefix%&7%bw_player% &ea fost scos din party.'
+cmd-party-remove-not-in: '%bw_lang_prefix%&7%bw_player% &enu este in acest party!'
+cmd-party-promote-owner: '%bw_lang_prefix%&eAi promovat cu succes pe %bw_player% ca
+  proprietar'
+cmd-party-owner: '%bw_lang_prefix%&eAi fost promovat ca proprietar al petrecerii'
+cmd-party-owner-changed: '%bw_lang_prefix%&7 &e%bw_player% a fost promovat ca proprietar'
+cmd-party-info-owner: |2-
+
+  %bw_lang_prefix%&eProprietarul petrecerii este: &7%bw_party_owner%
+cmd-party-info-players: '%bw_lang_prefix%&eMembrii sunt:'
+cmd-party-info-player: '&7%bw_player%'
+cmd-party-enabled-disabled: '&e&lPARTY &8&l┃ &fParty chat is now %bw_party_chat_status%
+  &f!'
+cmd-not-found: '%bw_lang_prefix%&cComanda nu a fost gasita sau nu ai permisiunea!'
+cmd-start-no-game: §c▪ §7Nu esti in joc!
+cmd-start: §c▪ §7Numaratoarea a fost redusa!
+cmd-start-no-perm: |-
+  %bw_lang_prefix%&7Nu poti forta arena sa inceapa.
+  §7Ai putea lua in considerare donarea pentru mai multe facilitati.
+cmd-join-spectate: |-
+  %bw_lang_prefix%§6Acum urmaresti meciul din §9%bw_arena%§6.
+  %bw_lang_prefix%§ePoti parasi arena folosind §c/leave§e.
+cmd-join-spectate-denied: '&cSpectatorii nu sunt permisi in aceasta arena!'
+cmd-cooldown: '&cNu poti face asta inca! Mai asteapta %bw_seconds% secunde!'
+cmd-disable-shout-solo: '&cShouting is disabled in Solo!'
+leave-started: '&a&lTeleporting you to the lobby in %bw_leave_delay% seconds... Right-click
+  again to cancel the teleport!'
+leave-canceled: '&c&lTeleport cancelled!'
+spectator-tp-gui-name: '&8Teleportor'
+spectator-tp-gui-head-name: '%bw_v_prefix%%bw_player%'
+spectator-tp-gui-head-lore:
+- '&7Viata: &f%bw_player_health%%'
+- '&7Hrana: &f%bw_player_food%'
+- ''
+- '&7Click-stanca pentru a urmari.'
+spectator-tp-name: '&c&lIntoarce-te in lobby'
+spectator-tp-lore:
+- '&7Click-dreapta pentru a merge in lobby!'
+spectator-first-person-enter-title: '&aUrmareste-l pe &7%bw_player%'
+spectator-first-person-enter-subtitle: '&cSNEAK pentru a iesi'
+spectator-first-person-quit-title: '&eIesi din modul Spectator'
+spectator-first-person-quit-subtitle: ''
+arena-kicked-by-vip: |-
+  %bw_lang_prefix%&cNe pare rau, dar locul tau a fost rezervat unui donator.
+  &aAi putea lua in considerare donarea pentru mai multe facilitati. &7&o(click)
+arena-countdown-stopped: '%bw_lang_prefix%§cNu sunt destui jucatori! Numaratoarea
+  a fost oprita!'
+arena-restart-kick: '%bw_lang_prefix%&eArena in care te aflai se reporneste.'
+arena-status-playing: '&cIn joc'
+arena-status-restarting: '&4Se reporneste'
+arena-status-waiting: '&2In Asteptare §c%bw_full%'
+arena-status-starting: '&6Porneste §c%bw_full%'
+arena-selector-gui-name: '&8Click pentru a intra'
+arena-selector-content-name: '&a&l%bw_name%'
+arena-selector-content-lore:
+- ''
+- '&7Status: %bw_arena_status%'
+- '&7Jucatori: &f%bw_on%&7/&f%bw_max%'
+- '&7Tip: &a%bw_group%'
+- ''
+- '&aClick-Stanga pentru a intra.'
+- '&eClick-Dreapta pentru a vizona.'
+arena-selector-skipped-item-name: '&r%bw_server_ip%'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '%bw_lang_prefix%&eJocul incepe in &6%bw_time% &esecunde!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a%bw_seconds%'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cWaiting for more players..'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&lProtejeaza-ti patul si distruge paturile inamicilor.'
+- '&e&l          Cumpara arme si upgrade-uri colectand'
+- '&e&l   Fier, Aur, Emeralde si Diamonte de la generatoare.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-start-title: '&aSTART'
+arena-leave-party-disbanded: '%bw_lang_prefix%§cParty-ul a fost sters pentru ca detinatorul
+  a iesit!'
+arena-join-denied-selector: '%bw_lang_prefix%&cNe pare rau dar nu poti intra chiar
+  acum. Foloseste Click-Dreapta pentru a urmari!'
+arena-spectate-denied-selector: '%bw_lang_prefix%&cNe pare rau dar nu poti urmari
+  arena chiar acum. Foloseste Click-Dreapta pentru a juca!'
+arena-join-denied-no-bwp: "&cSorry but you must join an arena using BedWarsProxy.\
+  \ \n&eIf you want to setup an arena make sure to give yourself the bw.setup permission\
+  \ so you can join the server directly!"
+arena-join-denied-no-time: '&cSorry but you joined while the game was already started.'
+generator-tier: '&eTier &c%bw_tier%'
+generator-diamond: '&b&lDiamant'
+generator-emerald: '&a&lEmerald'
+generator-timer: '&eSe spawneaza in &c%bw_seconds% &esecunde'
+generator-upgrade-announce: '%bw_lang_prefix%&eGeneratoarele de %bw_generator_type%
+  &eau fost upgradate la nivelul &c%bw_tier%'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-chat-lobby: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-waiting: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-global: '%bw_level%%bw_v_prefix%&6[SHOUT] %bw_team_format% &7%bw_player%&f%bw_v_suffix%:
+  %bw_message%'
+format-chat-team: '%bw_level%%bw_v_prefix%&f%bw_team_format%&7 %bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-chat-spectator: '%bw_level%%bw_v_prefix%&7[SPECTATOR] %bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-sb-health: '%health% &c❤'
+format-sb-tab-prefix:
+  spectator:
+  - '&7'
+  restarting:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%'
+  playing:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  starting:
+  - '%bw_v_prefix% '
+  waiting:
+  - '%bw_v_prefix% '
+  lobby:
+  - '%bw_v_prefix% '
+format-sb-tab-suffix:
+  spectator: []
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a%bw_players_remaining%'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 TU'
+format-action-tracking: '&fTracking: %bw_team% &f- Distance: %bw_distance%m'
+format-dragon-bossbar: '%bw_team% &7Dragon'
+format-winner-team: '      %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-winner-solo: '                 %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '%bw_team_color%[%bw_team_name%]'
+format-papi-player-shout: '&6[STRIGAT]'
+format-papi-player-spectator: '&7[SPECTATOR]'
+meaning-shout: shout
+meaning-nobody: Nimeni
+meaning-full: Plin
+meaning-iron-singular: Fier
+meaning-iron-plural: Fier
+meaning-gold-singular: Aur
+meaning-gold-plural: Aur
+meaning-emerald-singular: Emerald
+meaning-emerald-plural: Emeralde
+meaning-diamond-singular: Diamant
+meaning-diamond-plural: Diamante
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-enabled: '&aEnabled'
+meaning-disabled: '&cDisabled'
+meaning-never: Niciodata
+interact-cant-open-chest: '&cNu poti deschide acest cufar pentru ca echipa nu a fost
+  eliminata!'
+interact-cant-place: '%bw_lang_prefix%&cNu poti pune blocuri aici!'
+interact-cant-break: '%bw_lang_prefix%&cYou can only break blocks placed by a player!'
+interact-cant-destroy-bed: '&cNu iti poti distruge propriul pat!'
+interact-bed-destroy-chat: |2
+
+  &f&lPAT DISTRUS > %bw_team_color%Patul Echipei %bw_team_name% &7a fost distrus de %bw_player_color%%bw_player%&7!
+interact-bed-destroy-title: '&cPAT DISTRUS!'
+interact-bed-destroy-subtitle: '&fNu te mai poti respawna!'
+interact-bed-destroy-team: '&f&lPAT DISTRUS > &7Patul tau a fost distrus de %bw_player_color%%bw_player%&7!'
+interact-invisibility-removed-damaged: '&cYou are no longer invisible because you
+  have taken damage!'
+interact-magic-milk-removed: '&cYour Magic Milk wore off!'
+player-die-void-regular: '%bw_player_color%%bw_player% &7a cazut in void.'
+player-die-void-final: '%bw_player_color%%bw_player% &7a cazut in void. &b&lUCIDERE
+  FINALA!'
+player-die-knocked-void-regular: '%bw_player_color%%bw_player% &7a fost impins in
+  void de %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-void-final: '%bw_player_color%%bw_player% &7a fost impins in void
+  de %bw_killer_color%%bw_killer_name%&7. &b&lUCIDERE FINALA!'
+player-die-knocked-fall-regular: '%bw_player_color%%bw_player% &7a fost impins de
+  %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-fall-final: '%bw_player_color%%bw_player% &7a fost impins de %bw_killer_color%%bw_killer_name%&7.
+  &b&lUCIDERE FINALA!'
+player-die-bomb-regular: '%bw_player_color%%bw_player% &7a fost lovit de tnt-ul lui
+  %bw_killer_color%%bw_killer_name%&7.'
+player-die-bomb-final: '%bw_player_color%%bw_player% &7a fost lovit de tnt-ul lui
+  %bw_killer_color%%bw_killer_name%&7. &b&lUCIDERE FINALA!'
+player-die-attack-regular: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%%bw_killer_name%&7.'
+player-die-attack-final: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%%bw_killer_name%&7.
+  &b&lUCIDERE FINALA!'
+player-die-pvp-log-out-regular: '%bw_player_color%%bw_player% &7s-a deconectat in
+  timpul luptei cu %bw_killer_color%%bw_killer_name%&7.'
+player-die-pvp-log-out-final: '%bw_player_color%%bw_player% &7s-a deconectat in timpul
+  luptei cu %bw_killer_color%%bw_killer_name%&7. &b&lUCIDERE FINALA!'
+player-respawn-title: '&cESTI BLEG!'
+player-respawn-subtitle: '&eTe vei respawna in &c%bw_time% &esecunde!'
+player-respawn-timer-chat: '%bw_lang_prefix%&eTe vei respawna in &c%bw_time% &esecunde!'
+player-respawned-title: '&aRESPAWNAT!'
+player-eliminated-chat: '%bw_lang_prefix%&cAi fost eliminat!'
+player-respawned-chat: '%bw_lang_prefix%&eYou have respawned!'
+player-hit-bow: '%bw_lang_prefix%%bw_player% &7a ramas cu &c%bw_damage_amount% &7HP!'
+player-die-unknown-regular: '%bw_player_color%%bw_player% &7a murit.'
+player-die-unknown-final: '%bw_player_color%%bw_player% &7a murit. &b&lUCIDERE FINALA!'
+player-die-shoot-regular: '%bw_player_color%%bw_player% &7a fost impuscat de %bw_killer_color%%bw_killer_name%&7!'
+player-die-shoot-final: '%bw_player_color%%bw_player% &7a fost impuscat de %bw_killer_color%%bw_killer_name%&7!
+  &b&lUCIDERE FINALA!'
+player-die-bedbug-regular: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%Sobolanul
+  Echipei %bw_killer_team_name%!'
+player-die-bedbug-final: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%Sobolanul
+  Echipei %bw_killer_team_name%! &b&lUCIDERE FINALA!'
+player-die-golem-regular: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%Gardianul
+  Echipei %bw_killer_team_name%!'
+player-die-golem-final: '%bw_player_color%%bw_player% &7a fost ucis de %bw_killer_color%Gardianul
+  Echipei %bw_killer_team_name%! &b&lUCIDERE FINALA!'
+player-loot-diamond: '%bw_lang_prefix%&b+%bw_amount% %bw_meaning%'
+player-loot-emerald: '%bw_lang_prefix%&a+%bw_amount% %bw_meaning%'
+player-loot-iron: '%bw_lang_prefix%&f+%bw_amount% %bw_meaning%'
+player-loot-gold: '%bw_lang_prefix%&6+%bw_amount% %bw_meaning%'
+build-max-height-limit-reached: '&cMax build height limit reached!'
+build-min-height-limit-reached: '&cMin build height limit reached!'
+arena-fireball-cooldown: '&cPlease wait %bw_cooldown%s to use that again!'
+in-game-announcement:
+- '&c&lIf you get disconnected use /rejoin to join back in the game.'
+- '&c&lCross-teaming is not allowed! Report cross-teamers using /report.'
+player-die-bomb2-regular: '%bw_player_color%%bw_player% &7a fost lovit de o bomba.'
+player-die-bomb2-final: '%bw_player_color%%bw_player% &a fost lovit de o bomba. &b&lUCIDERE
+  FINALA!'
+game-end-game-over-title: '&c&lJOC TERMINAT!'
+game-end-victory-title: '&6&lVICTORIE!'
+format-each-winner: '%bw_player%'
+game-end-first-killer: '%bw_player%'
+game-end-second-killer: '%bw_player%'
+game-end-third-killer: '%bw_player%'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '%bw_winner_format%'
+- ''
+- ''
+- '&e                          &l1st Killer &7- %bw_first_format% - %bw_first_kills%'
+- '&6                          &l2nd Killer &7- %bw_second_format% - %bw_second_kills%'
+- '&c                          &l3rd Killer &7- %bw_third_format% - %bw_third_kills%'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+game-end-winner-team: '%bw_lang_prefix%%bw_team_color%Echipa %bw_team_name% &aa castigat!'
+npcs:
+  team-upgrades:
+    default:
+    - '&bTEAM UPGRADES'
+    - '&e&lCLICK DREAPTA'
+  solo-upgrades:
+    default:
+    - '&bSOLO UPGRADES'
+    - '&e&lCLICK DREAPTA'
+  team-shop:
+    default:
+    - '&bMAGAZIN TEAM'
+    - '&e&lCLICK DREAPTA'
+  solo-shop:
+    default:
+    - '&bMAGAZIN SOLO'
+    - '&e&lCLICK DREAPTA'
+bed-hologram-defend: '&c&lApara-ti patul!'
+bed-hologram-destroyed: '&c&lPatul tau a fost distrus!'
+team-eliminated: |2
+
+  &f&lTEAM ELIMINAT > %bw_team_color%Echipa %bw_team_name% &ca fost eliminata!
+next-event-beds-destroy: '&fPat Distruge'
+next-event-diamondII: '&fDiamant II'
+next-event-diamondIII: '&fDiamant III'
+next-event-dragon-spawn: '&fMoarte Brusca'
+next-event-emeraldII: '&fEmerald II'
+next-event-emeraldIII: '&fEmerald III'
+next-event-game-end: '&4Final De Joc'
+next-event-beds-destroy-title: '&cPATUL A FOST DISTRUS!'
+next-event-beds-destroy-sub-title: '&fToate paturile au fost distruse!'
+next-event-beds-destroy-chat: '&c&lToate paturile au fost distruse!'
+next-event-sudden-death-title: '&cMoarte Brusca'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cMOARTE BRUSCA: &6&b%bw_dragons_amount% %bw_team_color%Dragonul
+  %bw_team_name%!'
+lobby-items-stats-name: '&eStatistici'
+lobby-items-stats-lore:
+- '&fClick-dreapta pentru'
+- '&fa-ti vedea statisticile!'
+lobby-items-arena-selector-name: '&eArena Selector'
+lobby-items-arena-selector-lore:
+- '&fClick-dreapta pentru'
+- '&fa alege o arena.'
+lobby-items-leave-name: '&eInapoi in Hub'
+lobby-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi BedWars!'
+pre-game-items-stats-name: '&eStatistici'
+pre-game-items-stats-lore:
+- '&fClick-dreapta pentru'
+- '&fa-ti vedea statisticile!'
+pre-game-items-leave-name: '&eInapoi in Hub'
+pre-game-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi BedWars!'
+spectator-items-teleporter-name: '&eTeleportor'
+spectator-items-teleporter-lore:
+- '&fClick-dreapta pentru a urmari'
+- '&fun jucator!'
+spectator-items-leave-name: '&eInapoi in Lobby'
+spectator-items-leave-lore:
+- '&fClick-dreapta pentru a'
+- '&fparasi arena!'
+cmd-rejoin-no-arena: '%bw_lang_prefix%&cNu ai o arena pe care sa te reintorci!'
+cmd-rejoin-denied: '%bw_lang_prefix%&cNu mai poti face asta. Jocul s-a terminat sau
+  patul a fost distrus.'
+cmd-rejoin-allowed: '%bw_lang_prefix%&eIntri pe arena &a%bw_arena%&e!'
+stats-inv-name: '&8Statisticile lui %bw_player%'
+stats-wins-name: '&6Victorii'
+stats-wins-lore:
+- '&f%bw_wins%'
+stats-losses-name: '&6Pierderi'
+stats-losses-lore:
+- '&f%bw_losses%'
+stats-kills-name: '&6Ucideri'
+stats-kills-lore:
+- '&f%bw_kills%'
+stats-deaths-name: '&6Decese'
+stats-deaths-lore:
+- '&f%bw_deaths%'
+stats-final-kills-name: '&6Ucideri Finale'
+stats-final-kills-lore:
+- '&f%bw_final_kills%'
+stats-final-deaths-name: '&6Decese Finale'
+stats-final-deaths-lore:
+- '&f%bw_final_deaths%'
+stats-beds-destroyed-name: '&6Paturi Distruse'
+stats-beds-destroyed-lore:
+- '&f%bw_beds%'
+stats-first-play-name: '&6Primul Meci'
+stats-first-play-lore:
+- '&f%bw_play_first%'
+stats-last-play-name: '&6Ultimul Meci'
+stats-last-play-lore:
+- '&f%bw_play_last%'
+stats-games-played-name: '&6Partide Jucate'
+stats-games-played-lore:
+- '&f%bw_games_played%'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fHarta: &a%bw_map%'
+    - ''
+    - '&fJucatori: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fIn asteptare...'
+    - ''
+    - '§fMod: &a%bw_group%'
+    - '&fVersiune: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    starting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fMap: &a%bw_map%'
+    - ''
+    - '&fJucatori: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fIncepe in &a%bw_time%s'
+    - ''
+    - '§fMod: &a%bw_group%'
+    - '&fVersiune: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fUcideri: &a%bw_kills%'
+    - '&fUcideri Finale: &a%bw_final_kills%'
+    - '&fPaturi Distruse: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fUcideri: &a%bw_kills%'
+    - '&fUcideri Finale: &a%bw_final_kills%'
+    - '&fPaturi Distruse: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  lobby:
+  - '&6&lBedWars,&4&lB&6&ledWars,&c&lB&4&le&6&ldWars,&6&lB&c&le&4&ld&6&lWars,&6&lBe&c&ld&4&lW&6&lars,&6&lBed&c&lW&4&la&6&lrs,&6&lBedW&c&la&4&lr&6&ls,&6&lBedWa&c&lr&4&ls,&6&lBedWar&c&ls,&6&lBedWars'
+  - '&fNivelul tau: %bw_level%'
+  - ''
+  - '&fProgres: &a%bw_current_xp%&7/&b%bw_required_xp%'
+  - '%bw_progress%'
+  - ''
+  - '&7%bw_player%'
+  - ''
+  - '&fBani: &a%bw_money%'
+  - ''
+  - '&fVictorii: &a%bw_wins%'
+  - '&fUcideri: &a%bw_kills%'
+  - ''
+  - '&e%bw_server_ip%'
+xp-reward-per-minute: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Play
+  Time).'
+xp-reward-game-win: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Game
+  Win).'
+xp-reward-per-teammate: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Team
+  Support).'
+xp-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Bed
+  Destroyed).'
+xp-reward-regular-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Regular
+  Kill).'
+xp-reward-final-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Final
+  Kill).'
+money-reward-per-minute: '%bw_lang_prefix%&6+%bw_money% Coins (Play Time).'
+money-reward-game-win: '%bw_lang_prefix%&6+%bw_money% Coins (Game Win).'
+money-reward-per-teammate: '%bw_lang_prefix%&6+%bw_money% Coins (Team Support).'
+money-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_money% Coins (Bed Destroyed).'
+money-reward-final-kill: '%bw_lang_prefix%&6+%bw_money% Coins (Final Kill).'
+money-reward-regular-kill: '%bw_lang_prefix%&6+%bw_money% Coins (Regular Kill).'
+shop-items-messages:
+  inventory-name: '&8Cumpara Repede'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Categorii'
+  separator-item-lore:
+  - '&8⇩ Obiecte'
+  quick-buy-item-name: '&bCumpara Repede'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cSlot Liber!'
+  quick-buy-empty-item-lore:
+  - '&Acesta este un slot pentru Shopul Rapid!'
+  - '&bShift Click &7pe orice obiect din'
+  - '&7shop pentru a-l adăuga aici.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blocuri'
+    category-item-name: '&aBlocuri'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-wool-name: '%bw_color%Lana'
+    content-item-wool-lore:
+    - '&7Preț: &f%bw_cost% %bw_currency%'
+    - ''
+    - '&7Great for bridging across'
+    - '&7islands. Turns into your team''s'
+    - '&7color.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-clay-name: '%bw_color%Lut Întărit'
+    content-item-clay-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloc esențial pentru a proteja patul.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-glass-name: '%bw_color%Sticlă Anti-Explozibil'
+    content-item-glass-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Imună împotriva exploziilor.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stone-name: '%bw_color%Piatră Din End'
+    content-item-stone-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloc solid pentru a proteja patul.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ladder-name: '%bw_color%Scară'
+    content-item-ladder-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Utilă pentru a salva pisicile blocate'
+    - '&7in copaci.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-obsidian-name: '%bw_color%Obsidian'
+    content-item-obsidian-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Protecție extrema pentru pat.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-wood-name: '%bw_color%Lemn'
+    content-item-wood-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloc solid pentru a-ți proteja patul.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  melee-category:
+    inventory-name: '&8Atac'
+    category-item-name: '&aAtac'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-stone-sword-name: '%bw_color%Sabie De Piatră'
+    content-item-stone-sword-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-sword-name: '%bw_color%Sabie De Fier'
+    content-item-iron-sword-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-sword-name: '%bw_color%Sabie De Diamant'
+    content-item-diamond-sword-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stick-name: '%bw_color%Băț (Împingere I)'
+    content-item-stick-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  armor-category:
+    inventory-name: '&8Armură'
+    category-item-name: '&aArmură'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-chainmail-name: '%bw_color%Armură Permanentă De Zale'
+    content-item-chainmail-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Pantaloni și cizme de zale'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-armor-name: '%bw_color%Armură Permanentă De Fier'
+    content-item-iron-armor-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Pantaloni și cizme de fier'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-armor-name: '%bw_color%Armură Permanentă De Diamant'
+    content-item-diamond-armor-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Pantaloni și cizme de diamant'
+    - '&7cu care te vei spawna mereu.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  tools-category:
+    inventory-name: '&8Unelte'
+    category-item-name: '&aUnelte'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-shears-name: '%bw_color%Foarfece Permanente'
+    content-item-shears-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Perfecte pentru a tăia lâna. Te vei'
+    - '&7spawna mereu cu ele in inventar.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-pickaxe-name: '%bw_color%Târnăcop %bw_tier%'
+    content-item-pickaxe-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - '&7Nivel: &e%bw_tier%'
+    - ''
+    - '&7Este un obiect upgradabil.'
+    - '&7Vei pierde cate un nivel atunci cand'
+    - '&7vei muri!'
+    - ''
+    - '&7Te vei respawna mereu'
+    - '&7cu cel putin primul nivel'
+    - '&7al acestui obiect.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-axe-name: '%bw_color%Topor %bw_tier%'
+    content-item-axe-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - '&7Tier: &e%bw_tier%'
+    - ''
+    - '&7Este un obiect upgradabil.'
+    - '&7Vei pierde cate un nivel atunci cand'
+    - '&7vei muri!'
+    - ''
+    - '&7Te vei respawna mereu'
+    - '&7cu cel putin primul nivel'
+    - '&7al acestui obiect.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  ranged-category:
+    inventory-name: '&8Atac La Distanță'
+    category-item-name: '&aAtac La Distanță'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-arrow-name: '%bw_color%Sageți'
+    content-item-arrow-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow1-name: '%bw_color%Arc'
+    content-item-bow1-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow2-name: '%bw_color%Arc (Putere I)'
+    content-item-bow2-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow3-name: '%bw_color%Arc (Putere I, Împingere I)'
+    content-item-bow3-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  potions-category:
+    inventory-name: '&8Poțiuni'
+    category-item-name: '&aPotțiuni'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-speed-potion-name: '%bw_color%Viteză II (45 secunde)'
+    content-item-speed-potion-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-jump-potion-name: '%bw_color%Săritură V (45 secunde)'
+    content-item-jump-potion-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-invisibility-name: '%bw_color%Invizibilitate (30 secunde)'
+    content-item-invisibility-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  utility-category:
+    inventory-name: '&8Utilaje'
+    category-item-name: '&aUtilaje'
+    category-item-lore:
+    - '&eClick pentru a afișa!'
+    content-item-golden-apple-name: '%bw_color%Măr Auriu'
+    content-item-golden-apple-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Vindecător bine rotunjit.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bedbug-name: '%bw_color%BedBug'
+    content-item-bedbug-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Spawnează un Silverfish acolo unde'
+    - '&7aterizează bugărul de zăpadă, pentru a'
+    - '&7distrage inamicii. Trăiește 15 secunde.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-dream-defender-name: '%bw_color%Apărătorul Viselor'
+    content-item-dream-defender-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Un Iron Golem care te ajută să'
+    - '&7îți protejezi baza. Trăiește 4 minute.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-fireball-name: '%bw_color%Bilă De Foc'
+    content-item-fireball-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Click-dreapta pentru a lansa!'
+    - '&7Împinge inamicii care merg pe'
+    - '&7poduri.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tnt-name: '%bw_color%TNT'
+    content-item-tnt-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Se aprinde instant, potrivit'
+    - '&7pentru a exploda chestii!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ender-pearl-name: '%bw_color%Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Cel mai rapid mod pentru a invada'
+    - '&7bazele inamice.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-water-bucket-name: '%bw_color%Găleată Cu Apă'
+    content-item-water-bucket-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Util pentru a incetini'
+    - '&7inamicii. Te poate proteja și'
+    - '&7împotriva TNT-ilui.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bridge-egg-name: '%bw_color%Bridge Egg'
+    content-item-bridge-egg-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Acest ou creează un pod in'
+    - '&7direcția in care este aruncat.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-magic-milk-name: '%bw_color%Lapte Magic'
+    content-item-magic-milk-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Evită capcanele timp de 60'
+    - '&7de secunde după ce l-ai băut.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-sponge-name: '%bw_color%Burete'
+    content-item-sponge-lore:
+    - '&7Preț: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Util pentru a absorbi apa.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tower-name: '%bw_color%Compact Pop-up Tower'
+    content-item-tower-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Place a compact pop-up'
+    - '&7tower defense!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+shop-insuff-money: '%bw_lang_prefix%&cNu ai destul %bw_currency%! Mai ai nevoide de
+  %bw_amount% de %bw_currency%!'
+shop-new-purchase: '%bw_lang_prefix%&aAi cumparat &6%bw_item%'
+shop-already-bought: '%bw_lang_prefix%&cAi cumparat deja asta!'
+shop-already-higher-tier: '%bw_lang_prefix%&cYou already have a higher tier item.'
+shop-utility-silverfish: '%bw_team_color%&l%bw_team_name% &r%bw_team_color%Silverfish'
+shop-utility-iron-golem: '%bw_team_color%%bw_despawn_time%s &8[ %bw_team_color%%bw_health%&8]'
+shop-lore-status-can-buy: '&eClick pentru a cumpara!'
+shop-lore-status-cant-afford: '&cNu ai destul %bw_currency%!'
+shop-lore-status-tier-maxed: '&aNIVEL MAXIM!'
+shop-lore-quick-add: '&bShift Click pentru Shop Rapid'
+shop-lore-quick-remove: '&bShift Click pentru a șterge din Shop Rapid!'
+upgrades-lore-click-buy: '%bw_color%Click to purchase!'
+upgrades-lore-insuff-money: '&cNu ai destul(e) %bw_currency%'
+upgrades-lore-insuff-space: '&eYou don''t have enough inventory space to buy this
+  item!'
+upgrades-lore-locked: '&cLOCKED'
+upgrades-lore-unlocked: '%bw_color%UNLOCKED'
+upgrades:
+  Default:
+    generators:
+      tier1:
+        name: '&eGenerator Fier'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 50%..'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+      tier2:
+        name: '&eGenerator Aur'
+        lore:
+        - '&7Creste rata de spawnare a Fierului'
+        - '&7si a Aurului cu 100%..'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+      tier3:
+        name: '&eGenerator Emerald'
+        lore:
+        - '&7Activeaza generatorul de Emeralde'
+        - '&7in baza echipei tale.'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    maniacMiner:
+      tier1:
+        name: '&eManiac Miner'
+        lore:
+        - '&7Toti jucatorii din echipa ta vor primi'
+        - '&7efectul Graba I permanent.'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    sharpSword:
+      tier1:
+        name: '&eSharpened Swords'
+        lore:
+        - '&7Echipa ta va primi Sharpness I'
+        - '&7pe toate sabiile!'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    reinforced:
+      tier1:
+        name: '&eReinforced Armor'
+        lore:
+        - '&7Echipa ta va primi Protectie I'
+        - '&7pe toata armura!'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    trap:
+      tier1:
+        name: '&eEste o capcana!'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Orbire '
+        - '&7si de Incetinire!'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    miningFatigue:
+      tier1:
+        name: '&eMiner Fatigue Trap'
+        lore:
+        - '&7Urmatorul inamic care va intra in'
+        - '&7baza ta va primi efectul de Oboseala'
+        - '&7pentru 10 secunde!'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+    healPool:
+      tier1:
+        name: '&eHeal Pool'
+        lore:
+        - '&7Creeaza un camp de Regenerare'
+        - '&7a vietii in baza ta!'
+        - ''
+        - '&7Pret:&b %bw_cost% %bw_currency%'
+        - ''
+meaning-no-trap: No trap!
+format-upgrade-trap-cost: '&7Cost: %bw_currency_color%%bw_cost% %bw_currency%'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-new-purchase: '&a%bw_player% purchased &6%bw_item%'
+upgrades-upgrade-name-forge-tier-1: '%bw_color%Iron Forge'
+upgrades-upgrade-lore-forge:
+- '&7Upgrade resource spawning on'
+- '&7your island.'
+- ''
+- '{tier_1_color}Tier 1: +50% Resources, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: +100% Resources, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Spawn emeralds, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: +200% Resources, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '%bw_color%Golden Forge'
+upgrades-upgrade-name-forge-tier-3: '%bw_color%Emerald Forge'
+upgrades-upgrade-name-forge-tier-4: '%bw_color%Molten Forge'
+upgrades-category-item-name-traps: '&eBuy a trap'
+upgrades-category-item-lore-traps:
+- '&7Purchased traps will be'
+- '&7queued on the right.'
+- ''
+- '&eClick to browse!'
+upgrades-upgrade-name-swords-tier-1: '%bw_color%Sharpened Swords'
+upgrades-upgrade-lore-swords:
+- '&7Your team permanently gains'
+- '&7Sharpness I on all swords and'
+- '&7axes!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '%bw_color%Reinforced Armor I'
+upgrades-upgrade-lore-armor:
+- '&7Your team permanently gains'
+- '&7Protection on all armor pieces!'
+- ''
+- '{tier_1_color}Tier 1: Protection I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Protection II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tier 3: Protection III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tier 4: Protection IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '%bw_color%Reinforced Armor II'
+upgrades-upgrade-name-armor-tier-3: '%bw_color%Reinforced Armor III'
+upgrades-upgrade-name-armor-tier-4: '%bw_color%Reinforced Armor IV'
+upgrades-upgrade-name-miner-tier-1: '%bw_color%Maniac Miner I'
+upgrades-upgrade-lore-miner:
+- '&7All players on your team'
+- '&7permanently gain Haste.'
+- ''
+- '{tier_1_color}Tier 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tier 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '%bw_color%Maniac Miner II'
+upgrades-upgrade-name-heal-pool-tier-1: '%bw_color%Heal Pool'
+upgrades-upgrade-lore-heal-pool:
+- '&7Creates a Regeneration field'
+- '&7around yor base!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '%bw_color%Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Your team will have 2 dragons'
+- '&7instead of 1 during deathmatch!'
+- ''
+- '{tier_1_color}Cost: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Purchasable'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Traps Queue'
+upgrades-trap-slot-item-name-first: '%bw_color%Trap #1: %bw_name%'
+upgrades-trap-slot-item-lore1-first:
+- '&7The first enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-second: '%bw_color%Trap #2: %bw_name%'
+upgrades-trap-slot-item-lore1-second:
+- '&7The second enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-third: '%bw_color%Trap #3: %bw_name%'
+upgrades-trap-slot-item-lore1-third:
+- '&7The third enemy to walk'
+- '&7into your base will trigger'
+- '&7this trap!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Purchasing a trap will'
+- '&7queue it here. Its cost'
+- '&7will scale based on the'
+- '&7number of traps queued.'
+- ''
+- '&7Next trap: &b%bw_cost% %bw_currency%'
+upgrades-base-trap-name-1: '%bw_color%It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Inflicts Blindness and Slowness'
+- '&7for 5 seconds.'
+- ''
+upgrades-base-trap-name-2: '%bw_color%Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Grants Speed I for 15 seconds to'
+- '&7allied players near your base.'
+- ''
+upgrades-base-trap-name-3: '%bw_color%Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Reveales invisible players as'
+- '&7well as their name and team.'
+- ''
+upgrades-base-trap-name-4: '%bw_color%Miner Fatigue Trap'
+upgrades-base-trap-lore-4:
+- '&7Inflict Mining Fatigue for 10'
+- '&7seconds.'
+- ''
+upgrades-separator-item-name-back: '&aBack'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Queue a trap'
+upgrades-trap-queue-full: '&cTrap queue full!'
+upgrades-trap-default-msg: '&c&l%bw_trap% a fost activată!'
+upgrades-trap-default-title: '&cCAPCANĂ ACTIVATĂ!'
+upgrades-trap-default-subtitle: '&fCapcana %bw_trap% a fost activată!'
+upgrades-base-trap-msg-3: '&c&lAlarm trap set off by &7&l%bw_player% &c&lfrom %bw_color%&l%bw_team%
+  &c&lteam!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fAlarm trap set off by %bw_color%%bw_team% &fteam!'
+upgrades-already-purchase: '&cYou already unlocked this upgrade!'

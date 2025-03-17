@@ -1,0 +1,244 @@
+# PrivateGames Addon by Kiiya#9207
+debug: false
+lobby-sockets:
+- 127.0.0.1:2023
+disable-private-games-on-leave: true
+enable-modifiers:
+  speed: true
+  one-hit-one-kill: true
+  health-buff: true
+  long-jump: true
+  bed-insta-break: true
+  respawn-time: true
+  events-time: true
+  max-team-upgrades: true
+  allow-map-break: true
+  no-diamonds: true
+  no-emeralds: true
+  gamemode-changer: true
+  start-game: true
+  options: true
+  options-expansion:
+    allow-join: true
+    generator-options: true
+    enable-auto-start: true
+    enable-privategames: true
+menus:
+  settings:
+    rows: 6
+    contents:
+      one-hit-one-kill:
+        material: DIAMOND_SWORD
+        position: 10
+        id: 0
+        head-url: skin-url
+      health-buff:
+        material: GOLDEN_APPLE
+        position: 12
+        id: 0
+        head-url: 0
+      long-jump:
+        material: QUARTZ
+        position: 14
+        id: 0
+        head-url: skin-url
+      speed:
+        material: RABBIT_FOOT
+        position: 16
+        id: 0
+        head-url: skin-url
+      respawn-time:
+        material: PAPER
+        position: 20
+        id: 0
+        head-url: skin-url
+      events-time:
+        material: BOOK
+        position: 22
+      back-item:
+        id: 0
+        head-url: skin-url
+        material: ARROW
+        position: 49
+        enable: true
+        command: close
+      no-emeralds:
+        material: EMERALD
+        position: 24
+        id: 0
+        head-url: skin-url
+      no-diamonds:
+        material: DIAMOND
+        position: 28
+        id: 0
+        head-url: skin-url
+      allow-map-break:
+        material: GRASS
+        position: 30
+        id: 0
+        head-url: skin-url
+      bed-insta-break:
+        material: BED
+        position: 32
+        id: 0
+        head-url: skin-url
+      max-team-upgrades:
+        material: DIAMOND_BLOCK
+        position: 34
+        id: 0
+        head-url: skin-url
+      gamemode-changer:
+        material: ENDER_PORTAL_FRAME
+        position: 53
+        id: 0
+        head-url: skin-url
+      start-game:
+        material: EYE_OF_ENDER
+        position: 46
+        id: 0
+        head-url: skin-url
+      options:
+        material: REDSTONE_COMPARATOR
+        position: 45
+        id: 0
+        head-url: skin-url
+  submenus:
+    speed:
+      rows: 4
+      back-item:
+        material: ARROW
+        position: 31
+        id: 0
+        head-url: skin-url
+      level-1:
+        material: RABBIT_FOOT
+        position: 10
+        id: 0
+        head-url: skin-url
+      level-2:
+        position: 12
+        id: 0
+        head-url: skin-url
+      level-3:
+        material: RABBIT_FOOT
+        position: 14
+        id: 0
+        head-url: skin-url
+      level-4:
+        material: RABBIT_FOOT
+        position: 16
+        id: 0
+        head-url: skin-url
+    respawn-time:
+      rows: 4
+      back-item:
+        material: ARROW
+        position: 31
+        id: 0
+        head-url: skin-url
+      level-1:
+        material: PAPER
+        position: 11
+        id: 0
+        head-url: skin-url
+      level-2:
+        material: PAPER
+        position: 13
+        id: 0
+        head-url: skin-url
+      level-3:
+        material: PAPER
+        position: 15
+        id: 0
+        head-url: skin-url
+    events-time:
+      rows: 4
+      back-item:
+        material: ARROW
+        position: 31
+        id: 0
+        head-url: skin-url
+      level-1:
+        material: BOOK
+        position: 10
+        id: 0
+        head-url: skin-url
+      level-2:
+        material: BOOK
+        position: 12
+        id: 0
+        head-url: skin-url
+      level-3:
+        material: BOOK
+        position: 14
+        id: 0
+        head-url: skin-url
+      level-4:
+        material: BOOK
+        position: 16
+        id: 0
+        head-url: skin-url
+    health-buff:
+      rows: 4
+      back-item:
+        material: ARROW
+        position: 31
+        id: 0
+        head-url: skin-url
+      level-1:
+        material: GOLDEN_APPLE
+        position: 11
+        id: 0
+        head-url: skin-url
+      level-2:
+        material: GOLDEN_APPLE
+        position: 13
+        id: 0
+        head-url: skin-url
+      level-3:
+        material: GOLDEN_APPLE
+        position: 15
+        id: 0
+        head-url: skin-url
+    options:
+      rows: 4
+      allow-join:
+        material: DIAMOND
+        position: 10
+        id: 0
+        head-url: skin-url
+      auto-start:
+        material: EYE_OF_ENDER
+        position: 12
+        id: 0
+        head-url: skin-url
+      enable-privategames:
+        material: REDSTONE_BLOCK
+        position: 14
+        id: 0
+        head-url: skin-url
+      generators:
+        material: DIAMOND_BLOCK
+        position: 16
+        id: 0
+        head-url: skin-url
+        back-material: ARROW
+        back-position: 31
+        back-id: 0
+        back-head-url: skin-url
+      generator-config:
+        back-material: ARROW
+        back-position: 0
+        back-id: 0
+        back-head-url: skin-url
+      back-item:
+        material: ARROW
+        position: 31
+        id: 0
+        head-url: skin-url
+private-games-item:
+  material: REDSTONE_BLOCK
+  id: 0
+  head-url: skin-url
+  position: 0
+  enchanted: false

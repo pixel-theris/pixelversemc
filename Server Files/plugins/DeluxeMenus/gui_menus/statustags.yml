@@ -1,0 +1,343 @@
+menu_title: 'Status Tags'
+open_command:
+  - statustags
+size: 53
+items:
+  level-noperms:
+    material: PAPER
+    slot: 10
+    display_name: '&cBed Wars Level'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Level: &7%bw2023_player_level%'
+    - ''
+    - '&cRequires &b[MVP]'
+    - ''
+    - '&cLocked'
+    priority: 3
+    left_click_commands: []
+    right_click_commands: []
+  level-perms:
+    material: PAPER
+    slot: 10
+    display_name: '&cBed Wars Level'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Level: &7%bw2023_player_level%'
+    - ''
+    - '&eClick to select!'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'group.mvp+'
+    left_click_commands:
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Level: %bw2023_player_level%'
+    - '[console] tab player %player_name% abovename &bBed Wars Level: %bw2023_player_level%'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Level: %bw2023_player_level%'
+    - '[console] tab player %player_name% abovename &bBed Wars Level: %bw2023_player_level%'
+    - '[close]'
+  level-selected:
+    material: PAPER
+    slot: 10
+    display_name: '&cBed Wars Level'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Level: &7%bw2023_player_level%'
+    - ''
+    - '&aSelected!'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%tab_abovename%"
+          output: "&bBed Wars Level: &7%bw2023_player_level%"
+    left_click_commands: []
+    right_click_commands: []
+    
+  kills-noperms:
+    material: PAPER
+    slot: 11
+    display_name: '&cBed Wars Kills'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Kills: &6%bw2023_stats_kills%'
+    - ''
+    - '&cRequires &b[MVP]'
+    - ''
+    - '&cLocked'
+    priority: 3
+    left_click_commands: []
+    right_click_commands: []
+  kills-perms:
+    material: PAPER
+    slot: 11
+    display_name: '&cBed Wars Kills'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Kills: &6%bw2023_stats_kills%'
+    - ''
+    - '&eClick to select!'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'group.mvp+'
+    left_click_commands:
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Kills: &6%bw2023_stats_kills%'
+    - '[console] tab player %player_name% abovename &bBed Wars Kills: &6%bw2023_stats_kills%'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Kills: &6%bw2023_stats_kills%'
+    - '[console] tab player %player_name% abovename &bBed Wars Kills: &6%bw2023_stats_kills%'
+    - '[close]'
+  kills-selected:
+    material: PAPER
+    slot: 11
+    display_name: '&cBed Wars Kills'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Kills: &6%bw2023_stats_kills%'
+    - ''
+    - '&aSelected!'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%tab_abovename%"
+          output: "&bBed Wars Kills: &6%bw2023_stats_kills%"
+    left_click_commands: []
+    right_click_commands: []
+    
+  
+  Wins-noperms:
+    material: PAPER
+    slot: 12
+    display_name: '&cBed Wars Wins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Wins: &6%bw2023_stats_wins%'
+    - ''
+    - '&cRequires &b[MVP]'
+    - ''
+    - '&cLocked'
+    priority: 3
+    left_click_commands: []
+    right_click_commands: []
+  Wins-perms:
+    material: PAPER
+    slot: 12
+    display_name: '&cBed Wars Wins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Wins: &6%bw2023_stats_wins%'
+    - ''
+    - '&eClick to select!'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'group.mvp+'
+    left_click_commands:
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Wins: &6%bw2023_stats_wins%'
+    - '[console] tab player %player_name% abovename &bBed Wars Wins: &6%bw2023_stats_wins%'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Wins: &6%bw2023_stats_wins%'
+    - '[console] tab player %player_name% abovename &bBed Wars Wins: &6%bw2023_stats_wins%'
+    - '[close]'
+  Wins-selected:
+    material: PAPER
+    slot: 12
+    display_name: '&cBed Wars Wins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Wins: &6%bw2023_stats_wins%'
+    - ''
+    - '&aSelected!'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%tab_abovename%"
+          output: "&bBed Wars Wins: &6%bw2023_stats_wins%"
+    left_click_commands: []
+    right_click_commands: []
+    
+  points-noperms:
+    material: PAPER
+    slot: 13
+    display_name: '&cBed Wars Points'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Points: &6%bw2023_player_xp%'
+    - ''
+    - '&cRequires &b[MVP]'
+    - ''
+    - '&cLocked'
+    priority: 3
+    left_click_commands: []
+    right_click_commands: []
+  points-perms:
+    material: PAPER
+    slot: 13
+    display_name: '&cBed Wars Points'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Points: &6%bw2023_player_xp%'
+    - ''
+    - '&eClick to select!'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'group.mvp+'
+    left_click_commands:
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Points: &6%bw2023_player_xp%'
+    - '[console] tab player %player_name% abovename &bBed Wars Points: &6%bw2023_player_xp%'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Points: &6%bw2023_player_xp%'
+    - '[console] tab player %player_name% abovename &bBed Wars Points: &6%bw2023_player_xp%'
+    - '[close]'
+  points-selected:
+    material: PAPER
+    slot: 13
+    display_name: '&cBed Wars Points'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Points: &6%bw2023_player_xp%'
+    - ''
+    - '&aSelected!'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%tab_abovename%"
+          output: "&bBed Wars Points: &6%bw2023_player_xp%"
+    left_click_commands: []
+    right_click_commands: []
+    
+  coins-noperms:
+    material: PAPER
+    slot: 14
+    display_name: '&cBed Wars Coins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - ''
+    - '&cRequires &b[MVP]'
+    - ''
+    - '&cLocked'
+    priority: 3
+    left_click_commands: []
+    right_click_commands: []
+  coins-perms:
+    material: PAPER
+    slot: 14
+    display_name: '&cBed Wars Coins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - ''
+    - '&eClick to select!'
+    priority: 2
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'group.mvp+'
+    left_click_commands:
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - '[console] tab player %player_name% abovename &bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &6&lSELECTED! &fYou have selected a title: &bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - '[console] tab player %player_name% abovename &bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - '[close]'
+  coins-selected:
+    material: PAPER
+    slot: 14
+    display_name: '&cBed Wars Coins'
+    lore:
+    - ''
+    - '&7Preview:'
+    - '&bBed Wars Coins: &6%vault_eco_balance_fixed%'
+    - ''
+    - '&aSelected!'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%tab_abovename%"
+          output: "&bBed Wars Coins: &6%vault_eco_balance_fixed%"
+    left_click_commands: []
+    right_click_commands: []
+  
+  back:
+    material: ARROW
+    slot: 48
+    display_name: '&cReturn'
+    left_click_commands: 
+    - '[player] profile'
+    right_click_commands: 
+    - '[player] profile'
+  
+  remove:
+    material: barrier
+    slot: 49
+    display_name: '&fStatus: %tab_abovename%'
+    lore:
+    - ''
+    - '&eClick to remove!'
+    priority: 2 
+    view_requirement:
+      requirements:
+        permission:
+          type: "!string equals"
+          input: "%tab_abovename%"
+          output: "yes" 
+    left_click_commands:
+    - '[message] &cStatus successfully removed!'
+    - '[console] tab player %player_name% abovename'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &cStatus successfully removed!'
+    - '[console] tab player %player_name% abovename'
+    - '[close]'
+  remove2:
+    material: barrier
+    slot: 49
+    display_name: '&fStatus: &cNot Status'
+    priority: 1
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals 
+          input: "%tab_abovename%"
+          output: ""

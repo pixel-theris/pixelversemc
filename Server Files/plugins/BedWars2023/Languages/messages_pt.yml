@@ -1,0 +1,1073 @@
+prefix: ''
+name: Português
+format-sb-tab-header:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+format-sb-tab-footer:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/group>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-lang-list-header: '%bw_lang_prefix% &2Idiomas disponíveis:'
+cmd-lang-list-format: '&a▪  &7%bw_lang_iso% - &f%bw_name%'
+cmd-lang-usage: '%bw_lang_prefix%&7Use: /lang &f&o<linguagem>'
+cmd-lang-not-exist: '%bw_lang_prefix%&cEsta linguagem não existe!'
+cmd-lang-set: '%bw_lang_prefix%&aIdioma alterado!'
+cmd-lang-not-set: '%bw_lang_prefix%&cVocê não pode mudar o idioma durante a partida.'
+cmd-join-usage: '§a▪ §7Use: /bw join §o<arena/grupo>'
+cmd-join-not-found: '%bw_lang_prefix%&cNão existe nenhuma arena ou grupo de arena
+  chamado: %bw_name%'
+cmd-join-arena-full: |-
+  %bw_lang_prefix%&cEsta arena está cheia!
+  &aVocê pode adquirir vantagens doando. &7&o(clique)
+cmd-join-arenas-full: '%bw_lang_prefix%&cNão há nenhuma arena disponível no momento
+  ;('
+cmd-join-arena-full-vips: |-
+  %bw_lang_prefix%&cPedimos desculpas, mas esta arena está cheia.
+  &cSabemos que é um doador, mas esta arena já está cheia de staffs e/ou doadores.
+cmd-join-party-big: '%bw_lang_prefix%&cA sua party é muito grande para poder entrar
+  na arena. :('
+cmd-join-not-leader: '%bw_lang_prefix%&cApenas o líder da party pode escolher a arena.'
+cmd-join-success: '%bw_lang_prefix%&7%bw_player% &eentrou (&b%bw_on%&e/&b%bw_max%&e)!'
+cmd-join-spectate: |-
+  %bw_lang_prefix%§6Você agora está assistindo §9%bw_arena%§6.
+  %bw_lang_prefix%§eVocê pode sair da arena a qualquer momento com §c/leave§e.
+cmd-join-spectate-denied: '&cEspectadores não são permitidos nesta arena!'
+cmd-tp-player-not-found: '%bw_lang_prefix%&cJogador não encontrado!'
+cmd-tp-not-in-arena: '%bw_lang_prefix%&cEste jogador não está em uma arena de bedwars!'
+cmd-tp-not-started: '%bw_lang_prefix%&cA arena onde o jogador está ainda não começou!'
+cmd-tp-usage: '%bw_lang_prefix%&cUse: /bw tp <player>'
+cmd-rejoin-no-arena: '%bw_lang_prefix%&cNão tem partidas para você se reconectar.'
+cmd-rejoin-denied: '%bw_lang_prefix%&cVocê não pode mais se juntar à arena. Jogo terminou
+  ou cama destruída.'
+cmd-rejoin-allowed: '%bw_lang_prefix%&eEntrando na arena &a%bw_arena%&e!'
+cmd-rejoin-player-reconnected: '%bw_lang_prefix%&7%bw_player% &ese reconectou!'
+cmd-not-in-arena: '%bw_lang_prefix%&cVocê não está em uma arena!'
+leave-has-party-popup:
+  inventory-name: Are you sure?
+  stay-title: '&cNo'
+  stay-lore:
+  - '&fStay in the arena'
+  bring-party-title: '&aYes'
+  bring-party-lore:
+  - '&fSummon party with you'
+cmd-leave: '%bw_lang_prefix%&7%bw_player% &esaiu!'
+cmd-blocked-in-game: '%bw_lang_prefix%&cVocê não pode fazer isso durante o jogo.'
+cmd-not-found: '%bw_lang_prefix%&cComando não encontrado ou você não tem permissão!'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aComandos da Party:'
+- '&e/party help &7- &bIrá mostrar essa mensagem'
+- '&e/party invite <player> &7- &bConvida o jogador para sua party'
+- '&e/party leave &7- &bSaia da sua party'
+- '&e/party info &7- &bShow party members and owner'
+- '&e/party promote <player> &7- &bTransfer party ownership'
+- '&e/party remove <player> &7- &bRemova o jogador da party'
+- '&e/party accept <player> &7- &bAceite um pedido de party'
+- '&e/party disband &7- &bRecuse um pedido de party'
+cmd-party-invite-usage: '%bw_lang_prefix%&eUse: &7/party invite <player>'
+cmd-party-offline: '%bw_lang_prefix%&7%bw_player% &enão está online.'
+cmd-party-invite: '%bw_lang_prefix%&ePedido enviado para &7%bw_player%&6.'
+cmd-party-invite-received: '%bw_lang_prefix%&b%bw_player% &econvidou você para uma
+  party! &o&7(Clique para aceitar)'
+cmd-party-invite-self: '%bw_lang_prefix%&cVocê não pode se convidar!'
+cmd-party-no-invite: '%bw_lang_prefix%&cVocê não tem solicitações de party.'
+cmd-party-already-in: '%bw_lang_prefix%&eVocê já está em uma party!'
+cmd-party-no-perm: '%bw_lang_prefix%&cSomente o dono da party pode fazer isso!'
+cmd-party-accept-usage: '%bw_lang_prefix%&eUse: &7/party accept <player>'
+cmd-party-join: '%bw_lang_prefix%&7%bw_player% &eentrou na party.'
+cmd-party-not-in: '%bw_lang_prefix%&cVocê não está em uma party.'
+cmd-party-cant-leave: |-
+  %bw_lang_prefix%&cVocê não pode sair da sua party.
+  &eTente usar: &b/party disband
+cmd-party-leave: '%bw_lang_prefix%&7%bw_player% &esaiu da party!'
+cmd-party-disband: '%bw_lang_prefix%&eA party foi desfeita'
+cmd-party-remove-usage: '%bw_lang_prefix%&7Use: &e/party remove <player>'
+cmd-party-remove: '%bw_lang_prefix%&7%bw_player% &efoi removido da party.'
+cmd-party-remove-not-in: '%bw_lang_prefix%&7%bw_player% &enão está na sua party!'
+cmd-party-promote-owner: '%bw_lang_prefix%&eVocê promoveu com sucesso %bw_player%
+  a dono'
+cmd-party-owner: '%bw_lang_prefix%&eVocê foi promovido a dono do grupo'
+cmd-party-owner-changed: '%bw_lang_prefix%&7 &e%bw_player% foi promovido a dono'
+cmd-party-info-owner: |2-
+
+  %bw_lang_prefix%&eO dono do grupo é: &7%bw_party_owner%
+cmd-party-info-players: '%bw_lang_prefix%&eMembros do grupo são:'
+cmd-party-info-player: '&7%bw_player%'
+cmd-party-enabled-disabled: '&e&lPARTY &8&l┃ &fParty chat is now %bw_party_chat_status%
+  &f!'
+cmd-start-no-game: §c▪ §7Você não está jogando!
+cmd-start: §c▪ §7Contagem regressiva encurtada!
+cmd-start-no-perm: |-
+  %bw_lang_prefix%&7Você não pode inicializar uma partida.
+  §7Por favor, considere doar para obter vantagens VIP.
+cmd-cooldown: '&cVocê não pode fazer isso ainda! Aguarde mais %bw_seconds% segundos!'
+cmd-disable-shout-solo: '&cShouting is disabled in Solo!'
+leave-started: '&a&lTeleporting you to the lobby in %bw_leave_delay% seconds... Right-click
+  again to cancel the teleport!'
+leave-canceled: '&c&lTeleport cancelled!'
+arena-kicked-by-vip: |-
+  %bw_lang_prefix%&cDesculpe, mas você foi expulso porque um doador entrou na arena.
+  &aPor favor, considere doar para mais vantagens. &7&o(clique)
+arena-countdown-stopped: '%bw_lang_prefix%§cNão há jogadores suficientes! Contagem
+  regressiva parada!'
+arena-restart-kick: '%bw_lang_prefix%&eA arena em que você estava está reiniciando.'
+arena-status-playing: '&cJogando'
+arena-status-restarting: '&4Reiniciando'
+arena-status-waiting: '&2Esperando §c%bw_full%'
+arena-status-starting: '&6Iniciando §c%bw_full%'
+arena-selector-gui-name: '&8Clique para entrar!'
+arena-selector-content-name: '&a&l%bw_name%'
+arena-selector-content-lore:
+- ''
+- '&7Status: %bw_arena_status%'
+- '&7Jogadores: &f%bw_on%&7/&f%bw_max%'
+- '&7Tipo: &a%bw_group%'
+- ''
+- '&aBotão esquerdo para entrar.'
+- '&eBotão direito para assistir.'
+arena-selector-skipped-item-name: '&r%bw_server_ip%'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '%bw_lang_prefix%&eO jogo começa em &6%bw_time% &esegundos!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a%bw_seconds%'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cAguardando mais jogadores...'
+arena-start-title: '&aCOMEÇOU'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '&e&l    Proteja sua cama e destrua as camas inimigas.'
+- '&e&l      Melhore você e sua equipe coletando'
+- '&e&l   Ferro, Ouro, Esmeralda e Diamante de geradores'
+- '&e&l             para adquirir as melhorias.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-join-denied-selector: '%bw_lang_prefix%&cDesculpe, mas você não pode participar
+  desta partida neste momento. Use o botão direito do mouse para espectar.'
+arena-spectate-denied-selector: '%bw_lang_prefix%&cDesculpe, mas você não pode espectar
+  esta partida neste momento. Utilize o botão esquerdo para entrar na partida.'
+arena-join-denied-no-bwp: "&cDesculpe, mas precisa entrar em uma arena usando BedWarsProxy.\
+  \ \n&eSe você quiser configurar uma arena, certifique-se de dar a si mesmo a permissã\
+  o bw.setup para que você possa entrar no servidor diretamente!"
+arena-join-denied-no-time: '&cSorry but you joined while the game was already started.'
+spectator-tp-gui-name: '&8Teletransportador'
+spectator-tp-gui-head-name: '%bw_v_prefix%%bw_player%'
+spectator-tp-gui-head-lore:
+- '&7Vida: &f%bw_player_health%%'
+- '&7Fome: &f%bw_player_food%'
+- ''
+- '&7Clique para teletransportar.'
+spectator-tp-name: '&c&lRetornar ao lobby'
+spectator-tp-lore:
+- '&7Clique com o botão direito para sair.'
+spectator-first-person-enter-title: '&aEspectando: &7%bw_player%'
+spectator-first-person-enter-subtitle: '&cUtilize o SHIFT para sair.'
+spectator-first-person-quit-title: '&eSaindo do modo espectador!'
+spectator-first-person-quit-subtitle: ''
+arena-leave-party-disbanded: '%bw_lang_prefix%§cO dono da party saiu e a party foi
+  desfeita.'
+generator-tier: '&eNível &c%bw_tier%'
+generator-diamond: '&b&lDiamante'
+generator-emerald: '&a&lEsmeralda'
+generator-timer: '&eGera em &c%bw_seconds% &esegundos.'
+generator-upgrade-announce: '%bw_lang_prefix%Geradores de %bw_generator_type% &emelhorados
+  para nível &c%bw_tier%'
+format-chat-lobby: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-waiting: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-global: '%bw_level%%bw_v_prefix%&6[SHOUT] %bw_team_format% &7%bw_player%&f%bw_v_suffix%:
+  %bw_message%'
+format-chat-team: '%bw_level%%bw_v_prefix%&f%bw_team_format%&7 %bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-chat-spectator: '%bw_level%%bw_v_prefix%&7[SPECTATOR] %bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-sb-health: '%health% &c❤'
+format-sb-tab-prefix:
+  spectator:
+  - '&7'
+  restarting:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%'
+  playing:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  starting:
+  - '%bw_v_prefix% '
+  waiting:
+  - '%bw_v_prefix% '
+  lobby:
+  - '%bw_v_prefix% '
+format-sb-tab-suffix:
+  spectator: []
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a%bw_players_remaining%'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 VOCÊ'
+format-action-tracking: '&fTracking: %bw_team% &f- Distance: %bw_distance%m'
+format-dragon-bossbar: '%bw_team% &7Dragon'
+format-winner-team: '      %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-winner-solo: '                 %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '%bw_team_color%[%bw_team_name%]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[ESPECTADOR]'
+meaning-full: Lotado
+meaning-shout: shout
+meaning-nobody: Ninguém
+meaning-never: Nunca
+meaning-iron-singular: Ferro
+meaning-iron-plural: Ferros
+meaning-gold-singular: Ouro
+meaning-gold-plural: Ouros
+meaning-emerald-singular: Esmeralda
+meaning-emerald-plural: Esmeraldas
+meaning-diamond-singular: Diamante
+meaning-diamond-plural: Diamantes
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-enabled: '&aEnabled'
+meaning-disabled: '&cDisabled'
+interact-cant-place: '%bw_lang_prefix%&cVocê não pode colocar blocos aqui!'
+interact-cant-break: '%bw_lang_prefix%&cVocê só pode quebrar blocos colocados por
+  um jogador!'
+interact-cant-destroy-bed: '&cVocê não pode destruir sua própria cama!'
+interact-bed-destroy-chat: |2
+
+  &f&lCAMA DESTRUIDA > %bw_team_color%Cama do time %bw_team_name% &7foi destruida por %bw_player_color%%bw_player%&7!
+interact-bed-destroy-title: '&cCAMA DESTRUIDA !'
+interact-bed-destroy-subtitle: '&fVocê não vai mais renascer!'
+interact-bed-destroy-team: '&f&lCAMA DESTRUIDA > &7Sua cama foi destruida por %bw_player_color%%bw_player%&7!'
+interact-cant-open-chest: '&cVocê não pode abrir este baú porque esse time não foi
+  eliminado!'
+interact-invisibility-removed-damaged: '&cSua invisibilidade foi removida pois você
+  tomou dano!'
+interact-magic-milk-removed: '&cYour Magic Milk wore off!'
+player-die-void-regular: '%bw_player_color%%bw_player% &7caiu no void.'
+player-die-void-final: '%bw_player_color%%bw_player% &7caiu no void. &b&lKILL FINAL!'
+player-die-knocked-void-regular: '%bw_player_color%%bw_player% &7foi jogado no void
+  por %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-void-final: '%bw_player_color%%bw_player% &7foi jogado no void
+  por %bw_killer_color%%bw_killer_name%&7. &b&lKILL FINAL!'
+player-die-pvp-log-out-regular: '%bw_player_color%%bw_player% &7desconectou em combate
+  com %bw_killer_color%%bw_killer_name%&7.'
+player-die-pvp-log-out-final: '%bw_player_color%%bw_player% &7desconectou em combate
+  com %bw_killer_color%%bw_killer_name%&7. &b&lKILL FINAL!'
+player-die-knocked-fall-regular: '%bw_player_color%%bw_player% &7foi empurrado por
+  %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-fall-final: '%bw_player_color%%bw_player% &7foi empurrado por %bw_killer_color%%bw_killer_name%&7.
+  &b&lKILL FINAL!'
+player-die-bomb-regular: '%bw_player_color%%bw_player% &7foi atingido por uma TNT
+  de %bw_killer_color%%bw_killer_name%&7.'
+player-die-bomb-final: '%bw_player_color%%bw_player% &7foi atingido por uma TNT de
+  %bw_killer_color%%bw_killer_name%&7. &b&lKILL FINAL!'
+player-die-bomb2-regular: '%bw_player_color%%bw_player% &7foi atingido por uma TNT.'
+player-die-bomb2-final: '%bw_player_color%%bw_player% &7foi atingido por uma TNT.
+  &b&lKILL FINAL!'
+player-die-attack-regular: '%bw_player_color%%bw_player% &7foi morto por %bw_killer_color%%bw_killer_name%&7.'
+player-die-attack-final: '%bw_player_color%%bw_player% &7foi morto por %bw_killer_color%%bw_killer_name%&7.
+  &b&lKILL FINAL!'
+player-die-unknown-regular: '%bw_player_color%%bw_player% &7morreu.'
+player-die-unknown-final: '%bw_player_color%%bw_player% &7morreu. &b&lKILL FINAL!'
+player-die-shoot-regular: '%bw_player_color%%bw_player% &7foi flechado por %bw_killer_color%%bw_killer_name%&7!'
+player-die-shoot-final: '%bw_player_color%%bw_player% &7foi flechado por %bw_killer_color%%bw_killer_name%&7!
+  &b&lKILL FINAL!'
+player-die-bedbug-regular: '%bw_player_color%%bw_player% &7foi morto por pela Traça
+  de %bw_killer_color%%bw_killer_team_name%&7!'
+player-die-bedbug-final: '%bw_player_color%%bw_player% &7foi morto por pela Traça
+  de %bw_killer_color%%bw_killer_team_name%&7! &b&lKILL FINAL!'
+player-die-golem-regular: '%bw_player_color%%bw_player% &7foi morto pelo Golem do
+  %bw_killer_color%%bw_killer_team_name%&7!'
+player-die-golem-final: '%bw_player_color%%bw_player% &7foi morto pelo Golem do %bw_killer_color%%bw_killer_team_name%&7!
+  &b&lKILL FINAL!'
+player-loot-diamond: '%bw_lang_prefix%&b+%bw_amount% %bw_meaning%'
+player-loot-emerald: '%bw_lang_prefix%&a+%bw_amount% %bw_meaning%'
+player-loot-iron: '%bw_lang_prefix%&f+%bw_amount% %bw_meaning%'
+player-loot-gold: '%bw_lang_prefix%&6+%bw_amount% %bw_meaning%'
+build-max-height-limit-reached: '&cMax build height limit reached!'
+build-min-height-limit-reached: '&cMin build height limit reached!'
+arena-fireball-cooldown: '&cPlease wait %bw_cooldown%s to use that again!'
+in-game-announcement:
+- '&c&lIf you get disconnected use /rejoin to join back in the game.'
+- '&c&lCross-teaming is not allowed! Report cross-teamers using /report.'
+player-respawn-title: '&cVOCÊ MORREU!'
+player-respawn-subtitle: '&eRenascendo em &c%bw_time% &esegundos.'
+player-respawn-timer-chat: '%bw_lang_prefix%&eVocê irá renascer em &c%bw_time% &esegundos.'
+player-respawned-title: '&aRENASCIDO!'
+player-eliminated-chat: '%bw_lang_prefix%&cVocê foi eliminado!'
+player-respawned-chat: '%bw_lang_prefix%&eYou have respawned!'
+player-hit-bow: '%bw_lang_prefix%%bw_player% &7está com &c%bw_damage_amount% &7de
+  vida!'
+game-end-game-over-title: '&c&lFIM DE JOGO!'
+game-end-victory-title: '&6&lVITÓRIA!'
+game-end-winner-team: '%bw_lang_prefix%%bw_team_color%%bw_team_name% &aganhou o jogo!'
+format-each-winner: '%bw_player%'
+game-end-first-killer: '%bw_player%'
+game-end-second-killer: '%bw_player%'
+game-end-third-killer: '%bw_player%'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '%bw_winner_format%'
+- ''
+- ''
+- '&e                          &l1st Killer &7- %bw_first_format% - %bw_first_kills%'
+- '&6                          &l2nd Killer &7- %bw_second_format% - %bw_second_kills%'
+- '&c                          &l3rd Killer &7- %bw_third_format% - %bw_third_kills%'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+bed-hologram-defend: '&c&lDefenda sua cama!'
+bed-hologram-destroyed: '&c&lSua cama foi destruída!'
+npcs:
+  team-upgrades:
+    default:
+    - '&bMELHORIAS DA EQUIPE'
+    - '&e&lCLIQUE DIREITO'
+  solo-upgrades:
+    default:
+    - '&bMELHORIAS'
+    - '&e&lCLIQUE DIREITO'
+  team-shop:
+    default:
+    - '&bLOJA DA EQUIPE'
+    - '&e&lCLIQUE DIREITO'
+  solo-shop:
+    default:
+    - '&bLOJA'
+    - '&e&lCLIQUE DIREITO'
+team-eliminated: |2
+
+  &f&lEQUIPE ELIMINADA > &cO time %bw_team_color%%bw_team_name% &cfoi eliminado!
+next-event-beds-destroy: '&fCama Destruir'
+next-event-diamondII: '&fDiamante II'
+next-event-diamondIII: '&fDiamante III'
+next-event-dragon-spawn: '&fMorte Súbita'
+next-event-emeraldII: '&fEsmeraldas II'
+next-event-emeraldIII: '&fEsmeraldas III'
+next-event-game-end: '&4Fim do jogo'
+next-event-beds-destroy-title: '&cCAMA DESTRUÍDA!'
+next-event-beds-destroy-sub-title: '&fTodas as camas foram destruídas!'
+next-event-beds-destroy-chat: '&c&lTodas as camas foram destruídas!'
+next-event-sudden-death-title: '&cMorte Súbita'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cMORTE SÚBITA: &6&b%bw_dragons_amount% dragões do
+  %bw_team_color%%bw_team_name%'
+xp-reward-per-minute: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Tempo
+  de jogo).'
+xp-reward-game-win: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Vencer
+  o jogo).'
+xp-reward-per-teammate: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Suporte
+  da equipe).'
+xp-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Bed
+  Destroyed).'
+xp-reward-regular-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Regular
+  Kill).'
+xp-reward-final-kill: '%bw_lang_prefix%&6+%bw_xp% BedWars Experience Received (Final
+  Kill).'
+money-reward-per-minute: '%bw_lang_prefix%&6+%bw_money% Moedas (Tempo de jogo).'
+money-reward-game-win: '%bw_lang_prefix%&6+%bw_money% Moedas (Vencer o jogo).'
+money-reward-per-teammate: '%bw_lang_prefix%&6+%bw_money% Moedas (Suporte da equipe).'
+money-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_money% Moedas (Bed Destroyed).'
+money-reward-final-kill: '%bw_lang_prefix%&6+%bw_money% Moedas (Final Kill).'
+money-reward-regular-kill: '%bw_lang_prefix%&6+%bw_money% Moedas (Regular Kill).'
+lobby-items-stats-name: '&eEstatísticas'
+lobby-items-stats-lore:
+- '&fBotão direito para ver estatísticas! '
+lobby-items-arena-selector-name: '&eSeletor de Arena'
+lobby-items-arena-selector-lore:
+- '&fBotão direito para escolher arena.'
+lobby-items-leave-name: '&eSair do BedWars'
+lobby-items-leave-lore:
+- '&fBotão direito para sair do BedWars!'
+pre-game-items-stats-name: '&eEstatísticas'
+pre-game-items-stats-lore:
+- '&fBotão direito para ver estatísticas!'
+pre-game-items-leave-name: '&eSair da Partida'
+pre-game-items-leave-lore:
+- '&fBotão direito para sair da arena!'
+spectator-items-teleporter-name: '&eTeletransportador'
+spectator-items-leave-name: '&eSair da Partida'
+spectator-items-leave-lore:
+- '&fBotão direito para sair da arena!'
+stats-inv-name: '&8Estatísticas de %bw_player%'
+stats-wins-name: '&6Vitórias'
+stats-wins-lore:
+- '&f%bw_wins%'
+stats-losses-name: '&6Perdas'
+stats-losses-lore:
+- '&f%bw_losses%'
+stats-kills-name: '&6Abates'
+stats-kills-lore:
+- '&f%bw_kills%'
+stats-deaths-name: '&6Mortes'
+stats-deaths-lore:
+- '&f%bw_deaths%'
+stats-final-kills-name: '&6Abates Finais'
+stats-final-kills-lore:
+- '&f%bw_final_kills%'
+stats-final-deaths-name: '&6Mortes Finais'
+stats-final-deaths-lore:
+- '&f%bw_final_deaths%'
+stats-beds-destroyed-name: '&6Camas Destruidas'
+stats-beds-destroyed-lore:
+- '&f%bw_beds%'
+stats-first-play-name: '&6Primeira Partida'
+stats-first-play-lore:
+- '&f%bw_play_first%'
+stats-last-play-name: '&6Última Partida'
+stats-last-play-lore:
+- '&f%bw_play_last%'
+stats-games-played-name: '&6Partidas'
+stats-games-played-lore:
+- '&f%bw_games_played%'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fMapa: &a%bw_map%'
+    - ''
+    - '&fJogadores: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fEsperando...'
+    - ''
+    - '§fModo: &a%bw_group%'
+    - '&fVersão: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    starting:
+    - '&f&lBED WARS'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fMapa: &a%bw_map%'
+    - ''
+    - '&fJogadores: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fInicio em &a%bw_time%s'
+    - ''
+    - '§fModo: &a%bw_group%'
+    - '&fVersão: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% em &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  Doubles:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% em &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  3v3v3v3:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% em &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fKills: &a%bw_kills%'
+    - '&fFinal Kills: &a%bw_final_kills%'
+    - '&fBeds Broken: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  4v4v4v4:
+    playing:
+    - '&e&lBED WARS'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% em &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fKills: &a%bw_kills%'
+    - '&fFinal Kills: &a%bw_final_kills%'
+    - '&fBeds Broken: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  lobby:
+  - '&6&lBedWars,&4&lB&6&ledWars,&c&lB&4&le&6&ldWars,&6&lB&c&le&4&ld&6&lWars,&6&lBe&c&ld&4&lW&6&lars,&6&lBed&c&lW&4&la&6&lrs,&6&lBedW&c&la&4&lr&6&ls,&6&lBedWa&c&lr&4&ls,&6&lBedWar&c&ls,&6&lBedWars'
+  - '&fSeu nivel: %bw_level%'
+  - ''
+  - '&fProgresso: &a%bw_current_xp%&7/&b%bw_required_xp%'
+  - '%bw_progress%'
+  - ''
+  - '&7%bw_player%'
+  - ''
+  - '&fMoedas: &a%bw_money%'
+  - ''
+  - '&fTotal de vitórias: &a%bw_wins%'
+  - '&fTotal de abates: &a%bw_kills%'
+  - ''
+  - '&e%bw_server_ip%'
+shop-items-messages:
+  inventory-name: '&8Compra rápida'
+  quick-buy-add-inventory-name: '&8Adicionando à compra rápida...'
+  separator-item-name: '&8⇧ Categorias'
+  separator-item-lore:
+  - '&8⇩ Itens'
+  quick-buy-item-name: '&bCompra rápida'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cEspaço vazio!'
+  quick-buy-empty-item-lore:
+  - '&7Este é um slot de compra rápida!'
+  - '&7Clique em um item segurando o'
+  - '&7shift para adicionar neste slot.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blocos'
+    category-item-name: '&aBlocos'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-wool-name: '%bw_color%Lã'
+    content-item-wool-lore:
+    - '&7Preço: &f%bw_cost% %bw_currency%'
+    - ''
+    - '&7Ótimo para atravessar ilhas.'
+    - '&7Transforma-se na cor do seu time.'
+    - '&7color.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-clay-name: '%bw_color%Argila Endurecida'
+    content-item-clay-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloco básico para defender sua cama.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-glass-name: '%bw_color%Vidro à prova de explosão'
+    content-item-glass-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Imune a explosões.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stone-name: '%bw_color%Pedra do Fim'
+    content-item-stone-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloco sólido para defender sua cama.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ladder-name: '%bw_color%Escada'
+    content-item-ladder-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Útil para salvar gatos presos'
+    - '&7de arvores.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-obsidian-name: '%bw_color%Obsidiana'
+    content-item-obsidian-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Proteção extrema para sua cama.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-wood-name: '%bw_color%Madeira'
+    content-item-wood-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bloco sólido para defender sua cama.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  melee-category:
+    inventory-name: '&8Corpo a corpo'
+    category-item-name: '&aCorpo a corpo'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-stone-sword-name: '%bw_color%Espada de Pedra'
+    content-item-stone-sword-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-sword-name: '%bw_color%Espada de Ferro'
+    content-item-iron-sword-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-sword-name: '%bw_color%Espada de Diamante'
+    content-item-diamond-sword-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stick-name: '%bw_color%Graveto (Repulsão I)'
+    content-item-stick-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  armor-category:
+    inventory-name: '&aArmadura'
+    category-item-name: '&aArmadura'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-chainmail-name: '%bw_color%Armadura de Malha Permanente'
+    content-item-chainmail-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Calças e botas de malha'
+    - '&7que você sempre irá renascer'
+    - '&7com elas.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-armor-name: '%bw_color%Armadura de Ferro Permanente'
+    content-item-iron-armor-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Calças e botas de ferro'
+    - '&7que você sempre irá renascer'
+    - com elas.
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-armor-name: '%bw_color%Armadura de Diamante Permanente'
+    content-item-diamond-armor-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Calças e botas de diamante'
+    - '&7que você sempre irá renascer'
+    - com elas.
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  tools-category:
+    inventory-name: '&8Ferramentas'
+    category-item-name: '&aFerramentas'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-shears-name: '%bw_color%Tesouras Permanentes'
+    content-item-shears-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Ótimo para se livrar da lã. Você'
+    - '&7sempre irá nascer com as tesouras.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-pickaxe-name: '%bw_color%Picareta %bw_tier%'
+    content-item-pickaxe-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - '&7Nível: &e%bw_tier%'
+    - ''
+    - '&7Este é um item melhorável.'
+    - '&7Ele perderá 1 nível após.'
+    - '&7você morer!'
+    - ''
+    - '&7Você vai permanentemente'
+    - '&7renascer com pelo menos o'
+    - '&7nível mais baixo.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-axe-name: '%bw_color%Machado %bw_tier%'
+    content-item-axe-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - '&7Nível: &e%bw_tier%'
+    - ''
+    - '&7Este é um item melhorável.'
+    - '&7Ele perderá 1 nível após.'
+    - '&7você morer!'
+    - ''
+    - '&7Você vai permanentemente'
+    - '&7renascer com pelo menos o'
+    - '&7nível mais baixo.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  ranged-category:
+    inventory-name: '&8Arcos'
+    category-item-name: '&aArcos'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-arrow-name: '%bw_color%Flecha'
+    content-item-arrow-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow1-name: '%bw_color%Arco'
+    content-item-bow1-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow2-name: '%bw_color%Arco (Força I)'
+    content-item-bow2-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow3-name: '%bw_color%Arco (Força I, Impacto I)'
+    content-item-bow3-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  potions-category:
+    inventory-name: '&8Poções'
+    category-item-name: '&aPoções'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-speed-potion-name: '%bw_color%Poção de Agilidade II (45 segundos)'
+    content-item-speed-potion-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-jump-potion-name: '%bw_color%Poção de Super Pulo V (45 segundos)'
+    content-item-jump-potion-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-invisibility-name: '%bw_color%Poção de Invisibilidade (30 segundos)'
+    content-item-invisibility-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  utility-category:
+    inventory-name: '&8Utilidades'
+    category-item-name: '&aUtilidades'
+    category-item-lore:
+    - '&eClique para ver!'
+    content-item-golden-apple-name: '%bw_color%Maça Dourada'
+    content-item-golden-apple-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Cura completa.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bedbug-name: '%bw_color%Traça'
+    content-item-bedbug-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Gera traças onde a bola'
+    - '&7de neve cai para distrair seus'
+    - '&7inimigos. Dura 15 segundos.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-dream-defender-name: '%bw_color%Defesa dos Sonhos'
+    content-item-dream-defender-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Golem de Ferro para defender sua'
+    - '&7base. Dura 4 minutos.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-fireball-name: '%bw_color%Bola de Fogo'
+    content-item-fireball-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Botão direito para atirar! Ótimo para'
+    - '&7repelir os inimigos andando'
+    - '&7por pontes.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tnt-name: '%bw_color%TNT'
+    content-item-tnt-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Explode instantaneamente, apropriado'
+    - '&7para explodir coisas!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ender-pearl-name: '%bw_color%Pérola do Fim'
+    content-item-ender-pearl-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7A maneira mais rápida de invadir'
+    - '&7a base do inimigo.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-water-bucket-name: '%bw_color%Balde de Água'
+    content-item-water-bucket-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Ótimo para atrasar inimigos. Também'
+    - '&7protege contra TNT.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bridge-egg-name: '%bw_color%Ovo das Pontes'
+    content-item-bridge-egg-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Este ovo cria uma ponte na'
+    - '&7direção que for jogada.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-magic-milk-name: '%bw_color%Leite Mágico'
+    content-item-magic-milk-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Evite acionar armadilhas por 60'
+    - '&7segundos após o consumo.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-sponge-name: '%bw_color%Esponja'
+    content-item-sponge-lore:
+    - '&7Preço: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Ótimo para absorver a água.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tower-name: '%bw_color%Compact Pop-up Tower'
+    content-item-tower-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Place a compact pop-up'
+    - '&7tower defense!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+shop-insuff-money: '%bw_lang_prefix%&cVocê não tem %bw_currency% suficiente! Precisa
+  de mais %bw_amount%!'
+shop-new-purchase: '%bw_lang_prefix%&aVocê comprou &6%bw_item%'
+shop-already-bought: '%bw_lang_prefix%&cVocê já comprou isso!'
+shop-already-higher-tier: '%bw_lang_prefix%&cYou already have a higher tier item.'
+shop-utility-silverfish: '%bw_team_color%&l%bw_team_name% &r%bw_team_color%Traça'
+shop-utility-iron-golem: '%bw_team_color%%bw_despawn_time%s &8[ %bw_team_color%%bw_health%&8]'
+shop-lore-status-can-buy: '&eClique para comprar!'
+shop-lore-status-cant-afford: '&cVocê não tem o suficiente de %bw_currency%!'
+shop-lore-status-tier-maxed: '&aMÁXIMO!'
+shop-lore-quick-add: '&bClique + shift para por na Compra Rápida'
+shop-lore-quick-remove: '&bClique + shift para tirar da Compra Rápida'
+meaning-no-trap: Sem armadilha!
+format-upgrade-trap-cost: '&7Preço: %bw_currency_color%%bw_cost% %bw_currency%'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '%bw_color%Clique para comprar!'
+upgrades-lore-insuff-money: '%bw_color%Você não tem o suficiente de %bw_currency%.'
+upgrades-lore-insuff-space: '&eYou don''t have enough inventory space to buy this
+  item!'
+upgrades-lore-locked: '&cBLOQUEADO'
+upgrades-lore-unlocked: '%bw_color%DESBLOQUEADO'
+upgrades-new-purchase: '&a%bw_player% compro &6%bw_item%'
+upgrades-upgrade-name-forge-tier-1: '%bw_color%Forja de Ferro'
+upgrades-upgrade-lore-forge:
+- '&Melhore a geração de recursos'
+- '&7na sua base.'
+- ''
+- '{tier_1_color}Nível 1: +50% de recursos, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Nível 2: +100% de recursos, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Nível 3: Gerar esmeraldas, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Nível 4: +200% de recursos, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '%bw_color%Forja de Ouro'
+upgrades-upgrade-name-forge-tier-3: '%bw_color%Forja de Esmeralda'
+upgrades-upgrade-name-forge-tier-4: '%bw_color%Forja Melhorada'
+upgrades-category-item-name-traps: '&eCompre uma armadilha'
+upgrades-category-item-lore-traps:
+- '&7As armadilhas compradas serão'
+- '&7enfileiradas abaixo.'
+- ''
+- '&eClique para navegar!'
+upgrades-upgrade-name-swords-tier-1: '%bw_color%Espadas Afiadas'
+upgrades-upgrade-lore-swords:
+- '&7Todas as espadas do seu time irão ter o'
+- '&7encantamento Afiação I permanentemente.'
+- ''
+- '{tier_1_color}Preço: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '%bw_color%Armadura Reforçada I'
+upgrades-upgrade-lore-armor:
+- '&7Sua equipe ganha permanentemente'
+- '&7proteção em toda a armadura!'
+- ''
+- '{tier_1_color}Nível 1: Proteção I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Nível 2: Proteção II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Nível 3: Proteção III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Nível 4: Proteção IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '%bw_color%Armadura Reforçada II'
+upgrades-upgrade-name-armor-tier-3: '%bw_color%Armadura Reforçada III'
+upgrades-upgrade-name-armor-tier-4: '%bw_color%Armadura Reforçada IV'
+upgrades-upgrade-name-miner-tier-1: '%bw_color%Minerador Maníaco I'
+upgrades-upgrade-lore-miner:
+- '&7Todos os jogadores do seu time irão'
+- '&7ganhar permanentemente Pressa.'
+- ''
+- '{tier_1_color}Nível 1: Pressa I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Nível 2: Pressa II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '%bw_color%Minerador Maníaco II'
+upgrades-upgrade-name-heal-pool-tier-1: '%bw_color%Regeneração na Ilha'
+upgrades-upgrade-lore-heal-pool:
+- '&7Cria um campo de regeneração'
+- '&7em torno de sua base!'
+- ''
+- '{tier_1_color}Preço: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '%bw_color%Buffar Dragões'
+upgrades-upgrade-lore-dragon:
+- '&7Sua equipe terá 2 dragões'
+- '&7em vez de 1 durante o deathmatch!'
+- ''
+- '{tier_1_color}Preço: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Adquirível'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Fila de armadilhas'
+upgrades-trap-slot-item-name-first: '%bw_color%Armadilha #1: %bw_name%'
+upgrades-trap-slot-item-lore1-first:
+- '&7O primeiro inimigo a andar'
+- '&7em sua base irá acionar'
+- '&7esta armadilha!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7A compra de uma armadilha'
+- '&7fica nesta fila. Seu custo'
+- '&7será com base no número'
+- '&7de armadilhas enfileiradas.'
+- ''
+- '&7Próxima armadilha: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-second: '%bw_color%Armadilha #2: %bw_name%'
+upgrades-trap-slot-item-lore1-second:
+- '&7O segundo inimigo a andar'
+- '&7em sua base irá acionar'
+- '&7esta armadilha!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7A compra de uma armadilha'
+- '&7fica nesta fila. Seu custo'
+- '&7será com base no número'
+- '&7de armadilhas enfileiradas.'
+- ''
+- '&7Próxima armadilha: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-third: '%bw_color%Armadilha #3: %bw_name%'
+upgrades-trap-slot-item-lore1-third:
+- '&7O terceiro inimigo a andar'
+- '&7em sua base irá acionar'
+- '&7esta armadilha!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7A compra de uma armadilha'
+- '&7fica nesta fila. Seu custo'
+- '&7será com base no número'
+- '&7de armadilhas enfileiradas.'
+- ''
+- '&7Próxima armadilha: &b%bw_cost% %bw_currency%'
+upgrades-base-trap-name-1: '%bw_color%É uma armadilha!'
+upgrades-base-trap-lore-1:
+- '&7Isso irá causar cegueira e lentidão'
+- '&7durante 5 segundos nos invasores.'
+- ''
+upgrades-base-trap-name-2: '%bw_color%Armadilha Contra-ofensiva'
+upgrades-base-trap-lore-2:
+- '&7Concede Velocidade I por 15 segundos a'
+- '&7jogadores aliados próximos à sua base.'
+- ''
+upgrades-base-trap-name-3: '%bw_color%Alarme'
+upgrades-base-trap-lore-3:
+- '&7Irá revelar jogadores invisíveis,'
+- '&7bem como seu nome e time.'
+- ''
+upgrades-base-trap-name-4: '%bw_color%Cansaço'
+upgrades-base-trap-lore-4:
+- '&7Os inimigos irão receber fadiga I ao entrar'
+- '&7na sua base com duração de 10 segundos.'
+- ''
+upgrades-separator-item-name-back: '&aVoltar'
+upgrades-separator-item-lore-back:
+- '&7To Upgrades & Traps'
+upgrades-category-gui-name-traps: '&8Enfileirar uma armadilha'
+upgrades-trap-queue-full: '&cFila de armadilhas cheia!'
+upgrades-trap-default-msg: '&c&lA armadilha %bw_trap% foi acionada!'
+upgrades-trap-default-title: '&cARMADILHA ACIONADA!'
+upgrades-trap-default-subtitle: '&fSua %bw_trap% foi acionada!'
+upgrades-base-trap-msg-3: '&c&lArmadilha de alarme acionada por &7&l%bw_player% &c&ldo
+  time %bw_color%&l%bw_team%&c&l!'
+upgrades-base-trap-title-3: '&c&lALARME!!!'
+upgrades-base-trap-subtitle-3: '&fAlarme acionado pelo time %bw_color%%bw_team%&f!'
+upgrades-already-purchase: '&cYou already unlocked this upgrade!'

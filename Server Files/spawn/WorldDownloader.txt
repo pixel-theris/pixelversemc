@@ -1,0 +1,4 @@
+#These settings are used for a single world in a multiworld server.
+#Mon Jun 17 23:16:59 AST 2019
+WorldName=Hypixe_SW_lobby
+LastSaved=1560802619596

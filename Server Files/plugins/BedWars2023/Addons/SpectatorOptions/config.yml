@@ -1,0 +1,92 @@
+# SpectatorOptions by Kiiya
+# --------------------------------
+# BedWars: BEDWARS2023
+# Support: https://discord.gg/n5yNavRvrP
+# Version: 1.1
+# --------------------------------
+
+options-item:
+  material: REDSTONE_COMPARATOR
+  amount: 1
+  data: 0
+  enchanted: false
+  skull-url: http://textures.minecraft.net/texture/<yourValue>
+  slot: 4
+toggle-options:
+  no-speed: true
+  speed-i: true
+  speed-ii: true
+  speed-iii: true
+  speed-iv: true
+  auto-teleport: true
+  night-vision: true
+  first-person: true
+  toggle-spectators: true
+options-menu:
+  rows: 4
+  contents:
+    no-speed:
+      material: LEATHER_BOOTS
+      data: 0
+      slot: 11
+      skull-url: http://textures.minecraft.net/texture/<yourValue>
+    speed-i:
+      material: CHAINMAIL_BOOTS
+      data: 0
+      slot: 12
+      skull-url: http://textures.minecraft.net/texture/<yourValue>
+    speed-ii:
+      material: IRON_BOOTS
+      data: 0
+      slot: 13
+      skull-url: http://textures.minecraft.net/texture/<yourValue>
+    speed-iii:
+      material: GOLD_BOOTS
+      data: 0
+      slot: 14
+      skull-url: http://textures.minecraft.net/texture/<yourValue>
+    speed-iv:
+      material: DIAMOND_BOOTS
+      data: 0
+      slot: 15
+      skull-url: http://textures.minecraft.net/texture/<yourValue>
+    auto-teleport:
+      slot: 20
+      enabled:
+        material: COMPASS
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+      disabled:
+        material: COMPASS
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+    night-vision:
+      slot: 21
+      enabled:
+        material: EYE_OF_ENDER
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+      disabled:
+        material: ENDER_PEARL
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+    first-person:
+      slot: 23
+      enabled:
+        material: WATCH
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+      disabled:
+        material: WATCH
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+    toggle-spectators:
+      slot: 24
+      enabled:
+        material: REDSTONE
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>
+      disabled:
+        material: GLOWSTONE_DUST
+        data: 0
+        skull-url: http://textures.minecraft.net/texture/<yourValue>

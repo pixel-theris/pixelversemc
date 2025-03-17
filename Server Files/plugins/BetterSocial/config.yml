@@ -1,0 +1,166 @@
+#              ___      _   _           ___          _      _                Our plugins: https://alonsoaliaga.com/plugins
+#             | _ ) ___| |_| |_ ___ _ _/ __| ___  __(_)__ _| |               Support server: https://alonsoaliaga.com/discord
+#             | _ \/ -_)  _|  _/ -_) '_\__ \/ _ \/ _| / _` | |               Youtube: https://alonsoaliaga.com/play
+#             |___/\___|\__|\__\___|_| |___/\___/\__|_\__,_|_|               Test server: plugins.alonsoaliaga.com
+#                            by AlonsoAliaga                                 Twitch: https://alonsoaliaga.com/twitch
+#           Considering donating? https://alonsoaliaga.com/donate            Thanks for using my plugin! <3
+Messages:
+  No-permission: '&cYou don''t have permission to do this.'
+  No-permission-edit: '&cYou don''t have permission to edit your social media :('
+  No-permission-to-set-self: '&cYou don''t have permission to set your social media
+    with commands :('
+  Reloaded: '&aSome messages and options have been reloaded. Other may require a restart!'
+  Invalid-player: '&cPlayer is not online!'
+  Invalid-player-in-database: '&cPlayer is not registered in the server!'
+  Unknown-error: '&cUnexpected error! Try again later, if problem persists contact
+    an administrator.'
+  Unknown-error-search-other: '&cUnexpected error! Try again later, if problem persists
+    contact an administrator.'
+  No-input: '&cYou didn''t provide a valid input. Social media will not be updated!'
+  Please-reconnect: '&cUnexpected error! Please reconnect to the server.'
+  Please-reconnect-other: '&cUnexpected error! Please tell {PLAYER} to reconnect to
+    the server.'
+  Keys:
+    None: '&cNone'
+  Social:
+    Title: '&8Social Media: {PLAYER}'
+  Remove:
+    Not-linked: '&cThis social media is not linked.'
+    Removed: '&cYou removed this social media link.'
+  Placeholders:
+    Value-none: None
+    Status-linked: '&aLinked'
+    Status-unlinked: '&cNot linked'
+  Help:
+    Admin:
+    - '&9 /bettersocial edit <player> &f- &bOpen edit GUI for player'
+    - '&9 /bettersocial <menu/media> <player> &f- &bOpen media GUI'
+    - '&9 /bettersocial reload &f- &bReload configuration'
+    User:
+    - '&9 /bettersocial edit &f- &bOpen edit GUI'
+    - '&9 /bettersocial menu <player> &f- &bOpen media GUI'
+  Set:
+    Usage: '&cUsage: /bettersocial set <identifier> <social media>'
+    Invalid-media: '&cSocial media with identifier ''{IDENTIFIER}'' doesn''t exist!'
+    Cannot-set-empty: '&cYou cannot set an empty social media!'
+Permissions:
+  Admin: bettersocial.admin
+  Edit: none
+  Others: none
+  Offline: bettersocial.offline
+  Set-self: bettersocial.setself
+Options:
+  Aliases:
+  - social
+  - bsocial
+  Debug-mode: false
+  Fill-empty-slots: false
+  Size: 4
+  Back-edit-command: none
+  Back-media-command: none
+  Sounds:
+    Open: CHEST_OPEN
+  Data-delay: 20
+  Auto-save:
+    Interval: 15
+Items:
+  Player:
+    Slot: 30
+    Online:
+      Custom-model-data: 0
+      Displayname: '&a&l{PLAYER}'
+      Lore:
+      - '&fGamemode: &7%player_gamemode%'
+      - '&fHealth: &7%player_health_rounded%'
+      - '&fFirst join: &7%player_first_join_date%'
+      Command: none
+    Offline:
+      Custom-model-data: 0
+      Displayname: '&c&l{PLAYER}'
+      Lore:
+      - '&7Profile owner doesn''t seem to be online :('
+      Command: none
+  Back:
+    Material: ARROW
+    Custom-model-data: 0
+    Slot: 31
+    Displayname: '&aBack'
+    Lore:
+    - '&7Go to {TARGET}'
+  Media:
+    Lore-short:
+    - '&7Current: &e{CURRENT}&r'
+    - ' '
+    - '&eLeft click to change!'
+    - '&eRight click to remove!'
+    - ' '
+    - '&cEveryone will be able to'
+    - '&cread your information.'
+    Lore-long:
+    - '&7Current:'
+    - '&e{CURRENT}&r'
+    - ' '
+    - '&eLeft click to change!'
+    - '&eRight click to remove!'
+    - ' '
+    - '&cEveryone will be able to'
+    - '&cread your information.'
+  No-media:
+    Material: GLASS_BOTTLE
+    Custom-model-data: 0
+    Slot: 13
+    Displayname: '&cNo social media :('
+    Lore:
+    - '&7{PLAYER} doesn''t have'
+    - '&7any social media linked'
+    - '&7to his account.'
+  Visit:
+    Available:
+      Lore:
+      - '&eClick to visit'
+    Unavailable:
+      Lore:
+      - '&7Not linked :('
+  Frame:
+    Color: BLACK
+    Custom-model-data: 0
+Database:
+  Type: SQLite
+  Table: bettersocial
+  File: database-bettersocial
+  Host: 127.0.0.1
+  Port: 3306
+  Database: bettersocial
+  Username: root
+  Password: '12345'
+  Additional-url: ?useSSL=false
+  Keep-connection-interval: 30
+  Collate-option: UTF8_GENERAL_CI
+  HikariCP:
+    Warning:
+    - ========================================================================================
+    - You don't need to edit this text, it's ONLY displayed in config so you can read it.
+    - ========================================================================================
+    - HikariCP is experimental. Remember that only modify the following IF YOU KNOW HOW IT WORKS.
+    - You will not get support for HikariCP configurations as 1) I'm not a HikariCP advanced user
+    - and 2) Customization depends on the owner and his knowledge level.
+    - 'Related to Source-properties, if you KNOW and want to add custom properties
+      follow the format:'
+    - 'Source-properties:'
+    - '  thePropertySelected1: "theValue1"'
+    - '  thePropertySelected2: "theValue2"'
+    - '[!] Remember to modify data only if you know what you are doing.'
+    - 'Available source properties can be found here: https://alonsoaliaga.com/HikariCP-sp'
+    - 'Available source class names can be found here: https://alonsoaliaga.com/HikariCP-cn'
+    Max-pool-size: 3
+    Custom-source-class-name: default
+    Source-properties:
+      useSSL: false
+      requireSSL: false
+Updates:
+  Auto-update-configuration: true
+  Check-updates: true
+  Notify-updates: true
+  Permission: bettersocial.update
+  Message: '&9[BetterSocial] &eA new update has been found! You are using version
+    {CURRENT}. Download version {NEW} here &c{LINK}'

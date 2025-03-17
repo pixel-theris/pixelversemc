@@ -1,0 +1,353 @@
+menu_title: 'Game Menu'
+open_command:
+- gamemenu
+- gmenu
+- gamem
+size: 54
+update_interval: 1
+items:
+      seperator:
+        material: stained_glass_pane
+        data: 1
+        priority: 99
+        display_name: '&r'
+        slots:
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      MAIN-LOBBY:
+        material: BOOKSHELF
+        slot: 4
+        display_name: '&aMain Lobby'
+        lore:
+        - ''
+        - '&7Return to the Main Lobby'
+        left_click_commands:
+        - '[connect] lobby'
+        right_click_commands:
+        - '[connect] lobby'
+
+      SKYBLOCK:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y0MDk0MmYzNjRmNmNiY2VmZmNmMTE1MTc5NjQxMDI4NmE0OGIxYWViYTc3MjQzZTIxODAyNmMwOWNkMSJ9fX0='
+        slot: 11
+        display_name: '&aSkyblock &d&lPOPULAR!'
+        lore:
+        - '&8Persistent Game'
+        - ''
+        - '&7Skyblock has finally arrived on'
+        - '&7Server! Play with friends (or'
+        - '&7solo!), build your private'
+        - '&7islands and collect all the'
+        - '&7items!'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_skyblock% currently playing!'
+        left_click_commands:
+        - '[connect] skyblock'
+        right_click_commands:
+        - '[connect] skyblock'
+
+      THE-PIT:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNkNDZiMzU4N2IyMGQ4ZDdkYzk4YTdjNzdhMDhkNjE4NzA2NDcyMGU5YzEzOGUxYWM3YzFkOTYwMTgxODg3NCJ9fX0='
+        slot: 12
+        display_name: '&aThe Pit'
+        lore:
+        - '&8Persistent Game'
+        - ''
+        - '&7Jump down The Pit to instantly'
+        - '&7fight with over 50 other'
+        - '&7players. The most fast-paced'
+        - '&7combat on Server.'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_thepit% currently playing!'
+        left_click_commands:
+        - '[connect] thepit'
+        right_click_commands:
+        - '[connect] thepit'
+
+      BED-WARS:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiMjkwYTEzZGY4ODI2N2VhNWY1ZmNmNzk2YjYxNTdmZjY0Y2NlZTVjZDM5ZDQ2OTcyNDU5MWJhYmVlZDFmNiJ9fX0='
+        slot: 13
+        display_name: '&aBed Wars'
+        lore:
+        - '&8Team Survival'
+        - ''
+        - '&7protect your bed along with your'
+        - '&7teammates and destroy enemy beds'
+        - '&7to win!'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_bedwars% currently playing!'
+        left_click_commands:
+        - '[message] &cYou are already in this Bed Wars!'
+        right_click_commands:
+        - '[message] &cYou are already in this Bed Wars!'
+
+      SKY-WARS:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRjYjNjY2ViZmM4NGI1ZGUyYjhkMjc3NjA1ZWZlZTQ4MTAxNzJlMWZmOTg5Yjk0ODNkNjU0NzJmM2I0YzgzNyJ9fX0='
+        slot: 14
+        display_name: '&aSkyWars'
+        lore:
+        - '&8Survival'
+        - ''
+        - '&7Our take on the SkyWars'
+        - '&7gamemode. Featuring the Angel of'
+        - '&7Death, Soul Well and &cINSANE'
+        - '&cMODE&7! Play on your own or in'
+        - '&7teams.'
+        - ''
+        - '&7Coins Multiplier: &6+0.0x'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_skywars% currently playing!'
+        left_click_commands:
+        - '[connect] skywars'
+        right_click_commands:
+        - '[connect] skywars'
+
+      MURDER-MYSTERY:
+        update: true
+        material: BOW
+        slot: 15
+        display_name: '&aMurder Mystery'
+        lore:
+        - '&8Team Survival'
+        - ''
+        - '&71 Murderer. 1 Detective. And a'
+        - '&7whole lot of Innocents. Can you'
+        - '&7survive this tense social game'
+        - '&7of betrayal and murder?'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_murdermystery% currently playing!'
+        left_click_commands:
+        - '[connect] murdermystery'
+        right_click_commands:
+        - '[connect] murdermystery'
+
+      ARCADE-GAMES:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYzMzNjNzNjODQ4OWE5Y2EzNWQ1NjAzMTMwOTE4Yjg3NjA5ODRlYjlkMzAyOGUzMGU3NDI0N2RmZjg3M2JmZSJ9fX0='
+        slot: 20
+        display_name: '&aArcade Games'
+        lore:
+        - '&8Casual Games'
+        - ''
+        - '&7Crazy fun minigames to play with'
+        - '&7friends!'
+        - '&f ▪ Zombies'
+        - '&f ▪ Hide and Seek'
+        - '&f ▪ Capture the Wool'
+        - '&f ▪ Hole in the Wall'
+        - '&f ▪ The Blocking Dead'
+        - '&f ▪ Farm Hunt'
+        - '&f ▪ Creeper Attack'
+        - '&f ▪ Party Games'
+        - '&f ▪ Simon Says'
+        - '&f ▪ Pixel Painters'
+        - '&f ▪ Football'
+        - '&f ▪ Mini Walls'
+        - '&f ▪ Bounty Hunters'
+        - '&f ▪ Ender Spleef'
+        - '&f ▪ Galaxy Wars'
+        - '&f ▪ Dragon Wars' 
+        - ''
+        - '&7Coins Multiplier: &6+0.0x'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_arcadegames% currently playing!'
+        left_click_commands:
+        - '[connect] arcadegames'
+        right_click_commands:
+        - '[connect] arcadegames'
+
+      BUILD-BATTLE:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMzNjA0NTIwOGY5YjVkZGNmOGM0NDMzZTQyNGIxY2ExN2I5NGY2Yjk2MjAyZmIxZTUyNzBlZThkNTM4ODFiMSJ9fX0='
+        slot: 21
+        display_name: '&aBuild Battle'
+        lore:
+        - '&8Casual Games'
+        - ''
+        - '&7Create a build based on a theme'
+        - '&7in just 5 minutes! Vote on'
+        - '&7competing builds with ratings'
+        - '&7ranging from Super Poop to'
+        - '&7Legendary. Get the most votes'
+        - '&7out of 16 players to win!'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_buildbattle% currently playing!'
+        left_click_commands:
+        - '[connect] buildbattle'
+        right_click_commands:
+        - '[connect] buildbattle'
+
+      DUELS:
+        update: true
+        material: FISHING_ROD
+        slot: 22
+        display_name: '&aDuels'
+        lore:
+        - '&8Competitive'
+        - ''
+        - '&7Quick paced 1v1, 2v2, 4v4!'
+        - '&f ▪ UHC Duels'
+        - '&f ▪ SkyWars Duels'
+        - '&f ▪ The Bridge'
+        - '&f ▪ UHC Deathmatch'
+        - '&f ▪ Sumo Duels'
+        - '&f ▪ Op Duels'
+        - '&f ▪ Classic Duels'
+        - '&f ▪ NoDebuff Duels'
+        - '&f ▪ Blitz Duels'
+        - '&f ▪ Combo Duels'
+        - '&f ▪ Bow Duels'
+        - '&f ▪ TNT Games Duels'
+        - '&f ▪ Mega Walls Duels'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_duels% currently playing!'
+        left_click_commands:
+        - '[connect] duels'
+        right_click_commands:
+        - '[connect] duels'
+
+      PROTOTYPE:
+        update: true
+        material: ANVIL
+        slot: 23
+        display_name: '&aPrototype'
+        lore:
+        - '&8Casual Games'
+        - ''
+        - '&7PTL is a place for testing fun'
+        - '&7and creative new minigames and'
+        - '&7systems on Server.'
+        - ''
+        - '&cEverything in this lobby is'
+        - '&ccurrently in development, and'
+        - '&cmay be removed at any time.'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_prototype% currently playing!'
+        left_click_commands:
+        - '[connect] prototype'
+        right_click_commands:
+        - '[connect] prototype'
+
+      UHC-CHAMPIONS:
+        update: true
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFiZDcwM2U1YjhjODhkNGIxZmNmYTk0YTkzNmEwZDZhNGY2YWJhNDQ1Njk2NjNkMzM5MWQ0ODgzMjIzYzUifX19'
+        data: 1
+        slot: 24
+        display_name: '&aUHC Champions'
+        lore:
+        - '&8Hardcore Survival'
+        - ''
+        - '&7Fun games with TNT involved!'
+        - ''
+        - '&7A team based survival game with'
+        - '&7111 players. Randomly generated'
+        - '&7world, vanilla PvP, custom'
+        - '&7crafting, unique kits and'
+        - '&7professions await you.'
+        - ''
+        - '&cWARNING!'
+        - '&cThis is a true hardcore experience,'
+        - '&cnot recommended for new players.'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_uhcchampions% currently playing!'
+        left_click_commands:
+        - '[connect] uhcchampions'
+        right_click_commands:
+        - '[connect] uhcchampions'
+
+      SURVIVAL:
+        update: true
+        material: DIAMOND_PICKAXE
+        slot: 31
+        display_name: '&aSurvival'
+        lore:
+        - '&8Survival'
+        - ''
+        - '&7Survive the danger nights'
+        - '&7Feel the mobs'
+        - '&7mine, craft, survive'
+        - '&7its the only goal!'
+        - ''
+        - '&7Coins Multiplier: &6+0.0x'
+        - ''
+        - '&a► &aClick to connect!'
+        - '&7%bungee_survival% currently playing!'
+        left_click_commands:
+        - '[connect] survival'
+        right_click_commands:
+        - '[connect] survival'
+
+      TOURNAMENT-HALL:
+        material: blaze_powder
+        slot: 49
+        display_name: '&aTournament Hall'
+        lore:
+        - '&8Special Events'
+        - ''
+        - '&7This is a special lobby opened for a limited'
+        - '&7times during tournament events.'
+        - ''
+        - '&7Stay alert for tournament announcements!'
+        - '&7Everyone can participate, earn &6tributes'
+        - '&7and unlock some of the most &eprestigious'
+        - '&7rewards on Server.'
+        - ''
+        - '&fLast Tournament: &b???'
+        - '&7Happened in ???'
+        - ''
+        - '&e► &eClick to connect!'
+        - '&cLobby closed.'
+        left_click_commands: []
+        right_click_commands: []
+
+      ALL-GAMES:
+        material: COMPASS
+        slot: 48
+        display_name: '&aAll Games'
+        lore:
+        - ''
+        - '&eClick to Open'
+        left_click_commands:
+        - '[message] &cAll games are already listed in this menu!'
+        right_click_commands:
+        - '[message] &cAll games are already listed in this menu!'
+
+      RANDOM-BW:
+        material: TNT
+        slot: 50
+        display_name: '&aRandom Bedwars'
+        lore:
+        - '&7Join a random bedwars game'
+        - ''
+        - '&eClick to play!'
+        left_click_commands:
+        - '[message] &cYou''ll be randomly join into a game!'
+        - '[command] bw join random'
+        - '[close]'
+        right_click_commands:
+        - '[message] &cYou''ll be randomly join into a game!'
+        - '[command] bw join random'
+        - '[close]'

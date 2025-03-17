@@ -1,0 +1,30 @@
+location: spawn:36.516:66.944:-29.490
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&nClick to manage'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&73v3v3v3'
+    height: 0.3
+  - content: '&74v4v4v4'
+    height: 0.3
+  - content: '&a➤ &l4v4'
+    height: 0.3
+  - content: '&7All Modes'
+    height: 0.3
+  actions:
+    LEFT:
+    - CONSOLE:lp user %player_name% permission set leaderboards.coremodes true
+    - CONSOLE:lp user %player_name% permission set leaderboards.solo false
+    - CONSOLE:lp user %player_name% permission set leaderboards.doubles false
+    - CONSOLE:lp user %player_name% permission set leaderboards.3v3v3v3 false
+    - CONSOLE:lp user %player_name% permission set leaderboards.4v4v4v4 false
+    - CONSOLE:lp user %player_name% permission set leaderboards.4v4 false
+permission: leaderboards.4v4

@@ -1,0 +1,177 @@
+# THIS FILE WAS UPDATED TO ADD NEW CONFIGURATIONS TO social.yml IN NEWER VERSIONS.
+# MANY COMMENTS HAVE BEEN DELETED! IF NEED HELP CHECK DEFAULT CONFIG IN A FRESH INSTALLATION!
+#Social media items, you can add up to 53 social medias.
+#Why not 54??? Because inventories have 54 slots and 1 is required for the back button. 54 - 1 = 53
+Social:
+  #This is the identifier. This will must be the same in all servers for the same network.
+  #If this is NOT the same. The media will NOT be loaded and will appear like it's not selected.
+  twitter:
+    Enabled: true
+    Slot: 10
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiN2EwYzIxMGU2Y2RmNWEzNWZkODE5N2U2ZTI0YTAzODMxNWJiZTNiZGNkMWJjYzM2MzBiZjI2ZjU5ZWM1YyJ9fX0="
+    Regex: '^(http(s)?:\/\/|)(?:www\.)?(twitter|x)\.com\/([a-zA-Z0-9_]{1,30})$' #If you don't understand what it is DO NOT MODIFY. If you want to accept every input, just set to "none"
+    Wrong-input: "&cInvalid input! You must enter a link like: www.twitter.com/YourNetwork"
+    #Set to true if the input is a URL.
+    Clickable: true #This option will add a clickable text if server type is spigot (Not supported in any other server type)
+    Displayname: "&7X (&bTwitter&7)"
+    #This message will contain the social link or value. Available placeholders:
+    #{PLAYER} player that reads the text. {TARGET} player name that owns the social media.
+    #{SOCIAL_MEDIA} the link/value of the social media.
+    Sub-title: "&6Paste your X link in the chat:"
+    Updated: "&aYour X link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s X! <"
+    #This message will be sent after the main message. It just contains 2 placeholders.
+    # {PLAYER} replaced by player that clicks the social and {TARGET} replaced by social media owner.
+    Additional:
+    - "&cThis page of X is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  youtube:
+    Enabled: true
+    Slot: 11
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQzNTNmZDBmODYzMTQzNTM4NzY1ODYwNzViOWJkZjBjNDg0YWFiMDMzMWI4NzJkZjExYmQ1NjRmY2IwMjllZCJ9fX0="
+    Regex: '^((http|https):\/\/|)(www\.|)youtube\.com\/(channel\/|user\/|)[a-zA-Z0-9\-_]{1,}$'
+    Clickable: true
+    Wrong-input: "&cInvalid input! You must enter a link like: www.youtube.com/YourNetworkChannel"
+    Displayname: "&cYoutube"
+    Sub-title: "&6Paste your youtube link in the chat:"
+    Updated: "&aYour youtube link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s Youtube! <"
+    Additional:
+    - "&cThis page of Youtube is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  instagram:
+    Enabled: true
+    Slot: 12
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM4OGQ2MTYzZmFiZTdjNWU2MjQ1MGViMzdhMDc0ZTJlMmM4ODYxMWM5OTg1MzZkYmQ4NDI5ZmFhMDgxOTQ1MyJ9fX0="
+    Regex: '^(http(s)?:\/\/)?(www\.)?instagram\.com\/([a-zA-Z0-9_\.]{1,30})(\/)?$'
+    Wrong-input: "&cInvalid input! You must enter a link like: www.instagram.com/YourNetwork"
+    Clickable: true
+    Displayname: "&dInstagram"
+    Sub-title: "&6Paste your instagram link in the chat:"
+    Updated: "&aYour instagram link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s Instagram! <"
+    Additional:
+    - "&cThis page of Instagram is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  twitch:
+    Enabled: true
+    Slot: 13
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZiZTY1ZjQ0Y2QyMTAxNGM4Y2RkZDAxNThiZjc1MjI3YWRjYjFmZDE3OWY0YzFhY2QxNThjODg4NzFhMTNmIn19fQ=="
+    Regex: '^(http(s)?:\/\/)?(www\.)?twitch\.tv\/([a-zA-Z0-9_]{1,30})$'
+    Wrong-input: "&cInvalid input! You must enter a link like: www.twitch.tv/YourNetwork"
+    Clickable: true
+    Displayname: "&5Twitch"
+    Sub-title: "&6Paste your twitch link in the chat:"
+    Updated: "&aYour twitch link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s Twitch! <"
+    Additional:
+    - "&cThis page of Twitch is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  facebook:
+    Enabled: true
+    Slot: 14
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViNDYxMjY5MDQ0NjNmMDdlY2ZjOTcyYWFhMzczNzNhMjIzNTliNWJhMjcxODIxYjY4OWNkNTM2N2Y3NTc2MiJ9fX0="
+    Regex: '^(http(s)?:\/\/)?(www\.)?(facebook|fb)\.com\/([a-zA-Z0-9_\.]{1,40})$'
+    Wrong-input: "&cInvalid input! You must enter a link like: www.facebook.com/YourNetwork"
+    Clickable: true
+    Displayname: "&9Facebook"
+    Sub-title: "&6Paste your facebook link in the chat:"
+    Updated: "&aYour facebook link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s Facebook! <"
+    Additional:
+    - "&cThis page of Facebook is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  discord:
+    Enabled: true
+    Slot: 15
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1OWU1YzdiMDczOGI1NzlmM2I0NDRjMTNhNDdiZWQ0OTZiMzA4MzhiMmVlMmIxMjdjYzU5Y2Q3OThhZWU3NyJ9fX0="
+    #Old regex for discriminator system: '^(.{1,32}#\d{4})$'
+    #This new regex supports old and new discord username system including "username#0"
+    Regex: '^((.{1,32}#\d{4}?)|([a-z0-9\._]{1,32}(#0)?))$'
+    Wrong-input: "&cInvalid input! You must enter your user tag like: YourName#0000 or yourusername"
+    Clickable: false
+    Displayname: "&9Discord"
+    Sub-title: "&6Paste your discord tag in the chat:"
+    Updated: "&aYour discord tag has been updated!"
+    Message: "&6&l > Player {TARGET} is linked to the discord account {SOCIAL_MEDIA} <"
+    Additional:
+    - "&cThis page of Discord is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0
+  mynetworkforum:
+    Enabled: true
+    Slot: 16
+    Texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlYjA0NzM0ZmRhNzIxMGI1MWFkYWMxMjgxNmY1MDU3YjRhYTZlZjVlZGE1NmIzZjlhN2RiN2MwNGNkMzFiZCJ9fX0="
+    #This will match all links like "https://www.yournetwork.net/members/thenameoftheprofile" which can be the profile link of the player in your network forum.
+    Regex: '^(http(s)?:\/\/)?(www\.)?yournetwork\.net\/members\/([a-zA-Z0-9_]{1,30})$'
+    Wrong-input: "&cInvalid input! You must enter a link like: www.younetwork.net/members/YourUser"
+    Clickable: true
+    Displayname: "&6YourNetwork Forums"
+    Sub-title: "&6Paste your forum profile link in the chat:"
+    Updated: "&aYour YourNetwork Forum link has been updated!"
+    Message: "&6&l        > Click here to visit {TARGET}'s YourNetwork Forum! <"
+    Additional:
+    - "&cThis page of YourNetwork Forums is not affiliated or controlled with us, we cannot"
+    - "&cwarranty it's appropriate. Open this link under your own risk."
+    Items:
+      Edit-not-linked:
+        Custom-model-data: 0
+      Edit-linked:
+        Custom-model-data: 0
+      Visit-not-linked:
+        Custom-model-data: 0
+      Visit-linked:
+        Custom-model-data: 0

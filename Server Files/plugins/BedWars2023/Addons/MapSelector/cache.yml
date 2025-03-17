@@ -1,0 +1,27 @@
+# MapSelector v1.3.1 made by [itz_leoo].
+# Dependencies: [].
+# SoftDependencies: [BWProxy2023, BedWars2023, PlaceholderAPI].
+# Join my discord for support: https://discord.gg/dtwanz4GQg
+
+18133215-fb84-3907-9d33-2d4788393032:
+  favorite-maps: []
+  per-map-times-joined:
+    zarzul2v2: 3
+    lionstemple: 1
+    pernicious1v1: 1
+    ashfire1v1: 1
+    lightstone1v1: 1
+    inca1v1: 2
+    amazon1v1: 4
+    orchestra1v1: 2
+    acropolis1v1: 1
+    glacier1v1: 2
+    amazon2v2: 1
+    speedway2v2: 1
+    nutcracker1v1: 1
+5955c230-6e37-3db3-8a70-c4d02b3013e6:
+  favorite-maps: &id001 []
+  per-map-times-joined: *id001
+f391ece4-b574-3ecd-9940-fd030a420496:
+  favorite-maps: *id001
+  per-map-times-joined: *id001

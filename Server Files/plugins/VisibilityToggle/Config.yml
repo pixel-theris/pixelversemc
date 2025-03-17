@@ -1,0 +1,70 @@
+#######################################
+##               @Config             ##
+##      >>> VisibilityToggle <<<     ##
+##    @Developed By CleusGamer201    ##
+#######################################
+Prefix: '&bVisbility&7<13> &r'
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: Minecraft
+  Username: root
+  Password: pass
+  Port: 3306
+
+Settings:
+  Slot: 7
+  Delay: 3
+  ToggleSound:
+    Enabled: false
+    Sound: 'LAVA_POP'
+    Vol: 2.0
+    Pitch: 2.0
+  BlockMovement: true
+  BlockDrop: true
+  GiveOnRespawn: true
+  ClearInvOnJoin: false
+  ClearInvOnWorldChange: false
+  JoinToggleMessage: true
+  ShowToggleMessages: true
+  ShowToggleTitles: true
+  ToggleItem: true
+  EnabledWorlds:
+  - spawn
+
+Messages:
+  Show: '&aShowing all players'
+  Rank: '&aShowing only players with rank'
+  Hide: '&aAll players are now hiden'
+  Delay: '&eWait &7{cooldown}s &eto use again!'
+
+Titles:
+  Show:
+    Title: '&f'
+    Subtitle: '&f'
+  Rank:
+    Title: '&f'
+    Subtitle: '&f'
+  Hide:
+    Title: '&f'
+    Subtitle: '&f'
+
+Items:
+  Show:
+    Name: '&fPlayers: &aVisible &7(Right Click)'
+    Item: LIME_DYE
+    Data: 10
+    Lore: 
+    - '&7Right Click To &eToggle'
+  Rank:
+    Name: '&fPlayers: &dRank Only &7(Right Click))'
+    Item: PINK_DYE
+    Data: 9
+    Lore: 
+    - '&7Right Click To &eToggle'
+  Hide:
+    Name: '&fPlayers: &cHidden &7(Right Click)'
+    Item: GRAY_DYE
+    Data: 8
+    Lore: 
+    - '&7Right Click To &eToggle'

@@ -1,0 +1,52 @@
+Plugin:
+  prefix: ''
+  name: '&aFishing Hook &7(Right Click)'
+  unlimitedUsesName: unlimited
+  unlimitedUses: false
+  useAir: true
+  allRods: true
+  crafting: false
+  enchanted: false
+  unbreakable: false
+  noFallDamage: true
+  useInAllWorlds: true
+  useFloatingBlocks: true
+  cancleOnEntityCatch: true
+  destroyWhenNoMoreUses: true
+  maxUses: 10
+  destroyDelay: 10
+  cooldown: 0.0
+  gravity: 0.35
+  speedMultiplier: 0.25
+  fallDamageRemove: 1.25
+  pullSound: ENDERDRAGON_WINGS
+  destroySound: ANVIL_USE
+Messages:
+  reload: '&aReload!'
+  successful: '&2Operetion successful done.'
+  noperm: '&cYou have no permissions to do that.'
+  unkownCMD: '&7Unknown command or wrong syntax.'
+  unkownPlayer: '&cPlayer: &7%name%&c is unkown or offline!'
+  onlyNumbers: '&cOnly numbers!'
+  addWorld: '&2The world: &7%world%&2 has been added to the list.'
+  removeWorld: '&cThe world: &7%world% &chas been removed from the list.'
+  alreadyInList: '&7World: %world% is already in the list.'
+  isNotInList: '&7World: %world% isn''t in the list.'
+  cooldown: '&aPlease wait &6%timeLeft% &aseconds to use again!'
+  valueChanged: '&7You changed the value of &e%option%&7 to: %newValue%'
+  itemNotInHand: '&cThe player has the grapplinghook not in his hand!'
+Recipe:
+  slot1: ''
+  slot2: ''
+  slot3: STICK
+  slot4: ''
+  slot5: STICK
+  slot6: STRING
+  slot7: STICK
+  slot8: ''
+  slot9: IRON_INGOT
+Lore:
+- ''
+- '&eYou are left with &c%uses% &euses!'
+Worlds:
+- ''

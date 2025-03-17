@@ -1,0 +1,187 @@
+Menu:
+  Title: '&8Color List'
+  NoPerm: '&7You do not have permission to select this Color.'
+  SelectColor: '&7Please, first select a color before apply a format.'
+  BACK:
+    Name: '&7Main menu'
+    Lore:
+    - '&7'
+    - '&7Click to back.'
+    Cmd: "profile"
+  
+  CLEAR:
+    Name: '&cClick to remove'
+    Lore:
+    - '&7'
+    - '&7Reset your chat color.'
+    Select: '&cYour chat color has been removed.'
+  
+  RED:
+    Name: '&cRed Color'
+    Lore:
+    - '&7Changes the color of the Color to &cRed'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.red'
+    Select: '&aSelected!'
+    
+  GOLD:
+    Name: '&cGold Color'
+    Lore:
+    - '&7Changes the color of the Color to &6Gold'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.gold'
+    Select: '&aSelected!'
+
+  GREEN:
+    Name: '&cGreen Color'
+    Lore:
+    - '&7Changes the color of the Color to &aGreen'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.green'
+    Select: '&aSelected!'
+
+  YELLOW:
+    Name: '&cYellow Color'
+    Lore:
+    - '&7Changes the color of the Color to &eYellow'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.yellow'
+    Select: '&aSelected!'
+
+  PINK:
+    Name: '&cPink Color'
+    Lore:
+    - '&7Changes the color of the Color to &dPink'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.pink'
+    Select: '&aSelected!'
+
+  AQUA:
+    Name: '&cAqua Color'
+    Lore:
+    - '&7Changes the color of the Color to &bAqua'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.aqua'
+    Select: '&aSelected!'
+
+  BLUE:
+    Name: '&cBlue Color'
+    Lore:
+    - '&7Changes the color of the Color to &9Blue'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.blue'
+    Select: '&aSelected!'
+
+  DARK_GREEN:
+    Name: '&cDark green Color'
+    Lore:
+    - '&7Changes the color of the Color to &2Dark Green'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.dark_green'
+    Select: '&aSelected!'
+
+  DARK_RED:
+    Name: '&cDark red Color'
+    Lore:
+    - '&7Changes the color of the Color to &4Dark Red'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.dark_red'
+    Select: '&aSelected!'
+
+  CYAN:
+    Name: '&cCyan Color'
+    Lore:
+    - '&7Changes the color of the Color to &3Cyan'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.cyan'
+    Select: '&aSelected!'
+
+  PURPLE:
+    Name: '&cPurple Color'
+    Lore:
+    - '&7Changes the color of the Color to &5Purple'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.purple'
+    Select: '&aSelected!'
+
+  GRAY:
+    Name: '&cGray Color'
+    Lore:
+    - '&7Changes the color of the Color to Gray'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.gray'
+    Select: '&aSelected!'
+
+  BLACK:
+    Name: '&cBlack Color'
+    Lore:
+    - '&7Changes the color of the Color to &0Black'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.black'
+    Select: '&aSelected!'
+
+  RANDOM:
+    Name: '&cRandom Color'
+    Lore:
+    - '&7Changes the color of the Color to &eRA&9ND&cOM'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.random'
+    Select: '&aSelected!'
+    
+  #FORMATOS
+  NOFORMAT:
+    Name: '&7No Format'
+    Lore:
+    - '&7'
+    - '&7Removes the format of the color.'
+    Select: '&cFormat removed from your color.'
+
+  BOLD:
+    Name: '&f&lBold Format'
+    Lore:
+    - '&7Changes the format of the color to &f&lBold'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.bold'
+    Select: '&aSelected!'
+
+  STRIKETHROUGH:
+    Name: '&b&mStrikethrough Format'
+    Lore:
+    - '&7Changes the format of the color to &b&lStrikethrough'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.strikethrough'
+    Select: '&aSelected!'
+
+  UNDERLINE:
+    Name: '&c&nUnderline Format'
+    Lore:
+    - '&7Changes the color of the color to &c&lUnderline'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.underline'
+    Select: '&aSelected!'
+    
+  ITALIC:
+    Name: '&c&oItalic Format'
+    Lore:
+    - '&7Changes the color of the color to &d&lItalic'
+    - '&7'
+    LorePerm: '&eClick to select'
+    LoreNoPerm: '&3Unlock with the permission &7chatcolor.italic'
+    Select: '&aSelected!'

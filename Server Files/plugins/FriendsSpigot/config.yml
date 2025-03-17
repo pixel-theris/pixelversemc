@@ -1,0 +1,601 @@
+#################################################################################################################################
+#																																#
+#	FriendsPREMIUM	MC1.8 - 1.12																								#
+#	Version 1.0.1	Made by: HyChrod (Flocrafter77)																				#
+#																																#
+#################################################################################################################################
+Friends:
+  Prefix: ""
+  CheckForUpdates: true
+  
+  # Here you can put aliases to alternatively perform /friends
+  CommandAliases:
+  - f
+  - friend
+  - freund
+  - freunde
+  
+  # This is the standard limit of friends a player can have
+  FriendLimit: 20
+  # Player with a additional permission can have an extended amount of friends
+  # Permission: - Friends.FriendLimit.Extended
+  FriendLimitExtended: 50
+  
+  # This changes the format of every date used in friends (e.g. 'friends since', 'last online')
+  # Year: 'yyyy', Month: 'MM', Day: 'dd', Hour: 'hh', Minute: 'mm', Second: 'ss'
+  DateFormat: "dd/MM/yyyy"
+  
+  FriendItemOptions:
+    KeepOnDeath: true
+  
+  JoinQuitMessages: true
+  # If this option is disabled, friends cannot hurt eachother
+  FriendsCanPvP: true
+  # If this option is enabled, you can hit someone with the friendshead and it will result in a friend-request beeing sent
+  HitToSendRequest: false
+  
+  NotifyAboutRequestsOnJoin: true
+  
+  Status:
+    # You can toggle wether the status should be checked for abusive language phrases (defined in forbidden_phrases.txt)
+    EnableFilter: true
+    # This is the total lenght that is possible for setting a status
+    MaxLenght: 30
+    # This is the time players have to wait between changing their status
+    # Permission to avoid this timer: '- Friends.Status.ChangeLimit.ByPass'
+    ChangeDuration: 600
+    # Toggle wether you want players to use farbcodes in order to set a colored status!
+    AllowFarbcodes: false
+
+  # If you enable Nicknames, players can give their friends a unique nickname!
+  # If enabled, you can use %REAL_NAME% as a placeholder to show a players real name
+  Nicknames:
+    Enable: true
+    # You can check given nicknames and block abusive words (defined in forbidden_phrases.txt)
+    CheckForAbusiveWords: true
+  
+  # Friends have the possibility to send global messages to all their friends
+  FriendChat:
+    # Toggle wether the friendchat should be activated
+    Enable: true
+    # This defines the beginning of a messages to trigger the friendchat (e.g. '@friends hey')
+    Format: "@friends"
+    # You can check the messages send in the friendchat and block abusive phrases (defined in forbidden_phrases.txt)
+    CheckForAbusiveWords: true
+    
+  FriendMSG:
+    # Toggle wether you want friends to send eachother private messages
+    Enable: true
+    # You can check the messages send in the private messages and block abusive phrases (defined in forbidden_phrases.txt)
+    CheckForAbusiveWords: true
+    # If enabled you can use msg with /msg <Name> <Message>. Is disabled you can only write private messages with /friends msg <Name> <Message>
+    UseMSGCommand: true
+  
+  # Some commands have additional arguments
+  Commands:
+    # If you enable this options, players will get messages to interact with to directly accept/deny friendrequests
+    EnableClickableMessages: true
+    # While adding a player you can send him a personal note (e.g. /friends add HyChrod I'm your biggest fan)
+    AddMessage:
+      Enable: true
+      # This defines the total lenght of the additional message
+      CharacterLimit: 40
+    # When you block a player you can save a note to remember why you blocked him (e.g. /friends block HyChrod Too good in programming)
+    BlockNote:
+      Enable: true
+      # This defines the total lenght of the additional note for blocked players
+      CharacterLimit: 40
+    # Decide wether you want other players to jump to each others locations!
+    Jumping:
+      Enable: false
+      
+  # Put in the name of worlds you do not want players to jump to!
+  DisabledWorlds:
+  - world_end
+  - world_nether
+  
+  # This is the item which opens the friend-inventory on a rightclick!
+  FriendItem:
+    # If you disable the friend-item, the inventory can only be opend by using /friends
+    Enable: false
+    Name: "&aFriends &7(Rightclick)"
+    ItemID: "397:3"
+    # You can split the lines by using '//'
+    Lore: "//&7Rightclick this item to open the//&7friend-inventory!"
+    InventorySlot: 4
+    # If you haveing trouble getting the Friend-Item even tho you enabled it above, try enabling DelayedInventorySet to 
+    # add a slight delay before placing the item in the players inventory
+    DelayedInventorySet: false
+
+#####################################################################################################################################
+#																																	#
+#	When editing the inventory, please make sure you set every '"' and only used valid item id's!									#
+#	ItemID-List: https://www.digminecraft.com/lists/item_id_list_pc_1_12.php														#									
+#																																	#
+#	Minor changes can already cause the plugin to not work!																			#
+#																																	#
+#####################################################################################################################################
+
+  # Decide wether you want players to use /friends to open up the GUI!
+  OpenGUIWithCommand: true
+  
+  FriendInventory:
+    InventoryTitle: "&aYour friends: (Page %PAGE%)"
+    # Available sizes are multiples of 9 up to 54
+    # [ 9, 18, 27, 36, 45, 54 ]
+    InventorySize: 54
+    # If you enable this option, the Next-/PreviousPageItem will only be shown, if you have more friends than can fit on one page
+    HidePageItemsWhenNotNeeded: false
+    FriendsItem:
+      OnlineStatus: "&a(Online)"
+      OfflineStatus: "&7(Offline)"
+      Name: "&a%NAME% %ONLINE_STATUS%"
+      # Use %SERVER% to show the current server a player is on. Only available for bungeemode!
+      # Use %WORLD% to show the current world a player is on. Only available without bungeemode!
+      LoreOnline: "&7Status: //&r&o%STATUS%// //&7World: %WORLD%//&7Friends since: %DATE%"
+      LoreOffline: "&7Status: //&r&o%STATUS%// //&7Last online: %LAST_ONLINE% o'clock//&7Friends since: %DATE%"
+      ChangeSkullWhenOffline: true
+      NoStatusReplacement: "-"
+      LastOnlineFormat: "MM/dd/yyyy - hh:mm"
+    RequestsItem:
+      ShowItem: true
+      Name: "&aRequests"
+      ItemID: "388"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: (%REQUESTS_COUNT%)"
+      InventorySlot: 46
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    OptionsItem:
+      ShowItem: true
+      Name: "&3Options"
+      ItemID: "404"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 49
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    SortItem:
+      ShowItem: true
+      Name: "&3Sorting:"
+      ItemID: "399"
+      # You can split the lines by using '//'
+      Lore: "&r%SORTING%"
+      InventorySlot: 51
+      OnOffSorting: "&rOnline/Offline"
+      FavoriteSorting: "&rFavorites first"
+      LongFriendSorting: "&rLongest friends first"
+      Alphabetic: "&rAlphabetic"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    NextPageItem:
+      ShowItem: true
+      Name: "&bNext Page"
+      ItemID: "262"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 54
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19"
+    PartyItem:
+      ShowItem: true
+      Name: "&9Your Party"
+      ItemID: "401"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 50
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    PreviousPageItem:
+      ShowItem: true
+      Name: "&bPrevious Page"
+      ItemID: "262"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 53
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0="
+    Placeholders:
+      ItemID: "160:7"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+      InventorySlots:
+      - 47
+      - 48
+      - 52
+    # In the following section you are able to create your own items, which can perform commands or just work as additional placeholders/design elements.
+    # To add a new item, just follow these format-rules:
+    # CustomItems:
+    #   CUSTOM_ITEM_<Number>:
+    #     Name: ""
+    #     ItemID: ""
+    #     Lore: ""
+    #     InventorySlot: 46 
+    #     PerformCommand: <Command> | If you do not want to use a command just let it empty
+    #	  Base64Value: ""
+    CustomItems:
+      CUSTOM_ITEM_1:
+        Name: "&7CustomItem"
+        ItemID: "322"
+        Lore: "&7This is a custom item, which can be//&7created and edited in the config.yml// //&7If you do not want to use this item//&7just remove it or change it to your needs."
+        InventorySlot: 1
+        PerformCommand: "say hi"
+        Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19"
+      
+  FriendEditInventory:
+    InventoryTitle: "&3%NAME%"
+    # Available sizes are multiples of 9 up to 54
+    # [ 9, 18, 27, 36, 45, 54 ]
+    InventorySize: 9
+    FavoriteItem:
+      ShowItem: true
+      Name: "&6Favorite"
+      ItemID: "322"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %FAVORITE_STATUS%"
+      InventorySlot: 6
+      FavoriteStatusOn: "&aOn"
+      FavoriteStatusOff: "&cOff"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    CanSendMessagesItem:
+      ShowItem: true
+      Name: "&6%NAME% can send you messages"
+      ItemID: "339"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %SENDMESSAGES_STATUS%// //&7This includes the friendchat, private//&7messages and join/quit notifications!"
+      InventorySlot: 5
+      SendMessagesStatusOn: "&aOn"
+      SendMessagesStatusOff: "&cOff"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    NicknameItem:
+      ShowItem: true
+      Name: "&6Give your friend a nickname!"
+      ItemID: "421"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %NICKNAME%////&3Rightclick &7to remove the nickname!"
+      InventorySlot: 3
+      NoNicknameReplacement: "-"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    RemoveItem: 
+      Name: "&cRemove %NAME% from your friends"
+      ItemID: "35:14"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 9
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    BackItem:
+      Name: "&7Back to your friends"
+      ItemID: "330"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 1
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19"
+    JumpItem:
+      ShowItem: true
+      Name: "&9Jump to %NAME%"
+      ItemID: "401"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 4
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    PartyItem:
+      ShowItem: true
+      Name: "&dInvite %NAME% to your Party!"
+      ItemID: "401"
+      Lore: ""
+      InventorySlot: 7
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    Placeholders:
+      ItemID: "160:7"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+      InventorySlots:
+      - 2
+      - 4
+      - 7
+      - 8
+    # In the following section you are able to create your own items, which can perform commands or just work as additional placeholders/design elements.
+    # To add a new item, just follow these format-rules:
+    # CustomItems:
+    #   CUSTOM_ITEM_<Number>:
+    #     Name: ""
+    #     Material: ""
+    #     Lore: ""
+    #     InventorySlot: 46 
+    #     PerformCommand: <Command> | If you do not want to use a command just let it empty
+    #	  Base64Value: ""
+    CustomItems: []
+      
+  RequestsInventory:
+    InventoryTitle: "&aYour requests: (Page %PAGE%)"
+    # Available sizes are multiples of 9 up to 54
+    # [ 9, 18, 27, 36, 45, 54 ]
+    InventorySize: 54
+    # If you enable this option, the Next-/PreviousPageItem will only be shown, if you have more friends than can fit on one page
+    HidePageItemsWhenNotNeeded: false
+    RequestItem:
+      Name: "&a%NAME%"
+      # You can split the lines by using '//'
+      Lore: "&7Requested: %DATE%//&7Message: //&r&o%MESSAGE%"
+      NoMessageReplacement: "-"
+    AcceptAllItem:
+      ShowItem: true
+      Name: "&aAccept all"
+      ItemID: "35:5"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %REQUESTS_COUNT%"
+      InventorySlot: 49
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    DenyAllItem:
+      ShowItem: true
+      Name: "&cDeny all"
+      ItemID: "35:14"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %REQUESTS_COUNT%"
+      InventorySlot: 51
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    BackItem:
+      Name: "&7Back to friends"
+      ItemID: "330"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 46
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19"
+    PreviousPageItem:
+      ShowItem: true
+      Name: "&bPrevious Page"
+      ItemID: "262"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 53
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhZWU5YTc1YmYwZGY3ODk3MTgzMDE1Y2NhMGIyYTdkNzU1YzYzMzg4ZmYwMTc1MmQ1ZjQ0MTlmYzY0NSJ9fX0="
+    NextPageItem:
+      ShowItem: true
+      Name: "&bNext Page"
+      ItemID: "262"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 54
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgyYWQxYjljYjRkZDIxMjU5YzBkNzVhYTMxNWZmMzg5YzNjZWY3NTJiZTM5NDkzMzgxNjRiYWM4NGE5NmUifX19"
+    Placeholders:
+      ItemID: "160:7"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+      InventorySlots:
+      - 47
+      - 48
+      - 50
+      - 52
+    # In the following section you are able to create your own items, which can perform commands or just work as additional placeholders/design elements.
+    # To add a new item, just follow these format-rules:
+    # CustomItems:
+    #   CUSTOM_ITEM_<Number>:
+    #     Name: ""
+    #     Material: ""
+    #     Lore: ""
+    #     InventorySlot: 46 
+    #     PerformCommand: <Command> | If you do not want to use a command just let it empty
+    #	  Base64Value: ""
+    CustomItems: []
+    
+  RequestEditInventory:
+    InventoryTitle: "&a%NAME% request:"
+    # Available sizes are multiples of 9 up to 54
+    # [ 9, 18, 27, 36, 45, 54 ]
+    InventorySize: 9
+    MessageItem:
+      ShowItem: true
+      Name: "&7%NAME%'s message:"
+      ItemID: "339"
+      # You can split the lines by using '//'
+      Lore: "&r&o%MESSAGE%"
+      InventorySlot: 5
+      NoMessageReplacement: "-"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    AcceptItem:
+      Name: "&aAccept %NAME%'s request"
+      ItemID: "35:5"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 4
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    DenyItem:
+      Name: "&cDeny %NAME%'s request"
+      ItemID: "35:14"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 6
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    BackItem:
+      Name: "&7Back to your requests"
+      ItemID: "330"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 1
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19"
+    Placeholders:
+      ItemID: "160:7"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+      InventorySlots:
+      - 2
+      - 3
+      - 7
+      - 8
+      - 9
+    # In the following section you are able to create your own items, which can perform commands or just work as additional placeholders/design elements.
+    # To add a new item, just follow these format-rules:
+    # CustomItems:
+    #   CUSTOM_ITEM_<Number>:
+    #     Name: ""
+    #     Material: ""
+    #     Lore: ""
+    #     InventorySlot: 46 
+    #     PerformCommand: <Command> | If you do not want to use a command just let it empty
+    #	  Base64Value: ""
+    CustomItems: []
+      
+  OptionsInventory:
+    InventoryTitle: "&3Options:"
+    # Available sizes are multiples of 9 up to 54
+    # [ 9, 18, 27, 36, 45, 54 ]
+    InventorySize: 9
+    OptionStatusOn: "&aOn"
+    OptionStatusOff: "&cOff"
+    BackItem:
+      Name: "&7Back to your friends"
+      ItemID: "330"
+      # You can split the lines by using '//'
+      Lore: ""
+      InventorySlot: 1
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19"
+    ReceiveMessagesItem:
+      ShowItem: true
+      Name: "&6Receive Messages"
+      ItemID: "339"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %OPTION_MESSAGES_STATUS%// //&7Toggle receiving messages of all kind//&7Includes private messages aswell as//&7the friendchat and join/quit notifications"
+      InventorySlot: 3
+      OnlyFavoritesStatus: "&eOnly Favorites"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    ReceiveRequestsItem:
+      ShowItem: true
+      Name: "&6Receive Requests"
+      ItemID: "397:3"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %OPTION_REQUESTS_STATUS%// //&7Toggle wether you want to receive//&7friendrequests from other players"
+      InventorySlot: 5
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    OfflinemodeItem:
+      ShowItem: true
+      Name: "&6Offlinemode"
+      ItemID: "355"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %OPTION_OFFLINEMODE_STATUS%// //&7If enabled, you will be shown//&7as offline to all your friends"
+      InventorySlot: 7
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    StatusItem:
+      ShowItem: true
+      Name: "&6Change your status"
+      ItemID: "421"
+      # You can split the lines by using '//'
+      Lore: "&7Your current status://&r&o%STATUS%"
+      InventorySlot: 9
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    JumpItem:
+      ShowItem: true
+      Name: "&9Jumping"
+      ItemID: "401"
+      # You can split the lines by using '//'
+      Lore: "&7Currently: %OPTION_JUMPING_STATUS%// //&7If enabled, friends can jump to//&7your current location!"
+      InventorySlot: 4
+      OnlyFavoritesStatus: "&6Only Favorites"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+    Placeholders:
+      ItemID: "160:7"
+      # If you want to use custom skins on your items, you can put in a Base64-Value:
+      # You can find Base64-Values here: https://minecraft-heads.com
+      # Using a broken value will show steves-head!
+      Base64Value: ""
+      InventorySlots:
+      - 2
+      - 4
+      - 6
+      - 8
+    # In the following section you are able to create your own items, which can perform commands or just work as additional placeholders/design elements.
+    # To add a new item, just follow these format-rules:
+    # CustomItems:
+    #   CUSTOM_ITEM_<Number>:
+    #     Name: ""
+    #     Material: ""
+    #     Lore: ""
+    #     InventorySlot: 46 
+    #     PerformCommand: <Command> | If you do not want to use a command just let it empty
+    #	  Base64Value: ""
+    CustomItems: []

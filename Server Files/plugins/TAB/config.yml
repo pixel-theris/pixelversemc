@@ -1,0 +1,213 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+header-footer:
+  enabled: true
+  header:
+  - ''
+  - '&6&lYourNetwork &8[&b%online%&8]'
+  - '&fYou are connected to &eBEDWARS &7(&6%bw2023_arena_group%&7)'
+  - ''
+  - '&7Arena Players: &6%bw2023_players_amount% &f• &7Total Players: &6%server_online%'
+  - ''
+  footer:
+  - ''
+  - '&bBeds Destroyed: &e%bw2023_player_beds%  &bKills: &e%bw2023_player_kills%  &bFinal
+    Kills: &e%bw2023_player_deaths_final%'
+  - '&aVisit our &6store &afor rank upgrades!'
+  per-world:
+    spawn:
+      header:
+      - ''
+      - '&6&lYourNetwork &8[&b%online%&8]'
+      - '&fYou are connected to &eBEDWARS'
+      - ''
+      - '&7Lobby Players: &e%world_players_spawn% &f• &7Total Players: &e%server_online%'
+      - ''
+      footer:
+      - ''
+      - '&kXXX&r &6&l2025 &e&lNEW YEAR &c&lSALE! &r&kXXX'
+      - ''
+      - '&a&lVISIT OUR &6&lSTORE &a&lFOR &6&l40% OFF'
+      - '&kXXX&r &6&lRANK&a, &e&lCOINS&a, &d&lBOOSTERS &a&l& MORE! &r&kXXX'
+      - ''
+      - '&6store.minecraft.net'
+      - ''
+  disable-condition: '%world%=disabledworld'
+tablist-name-formatting:
+  enabled: true
+  anti-override: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: true
+  unlimited-nametag-mode:
+    enabled: true
+    display-condition: '%world%=world'
+    disable-on-boats: true
+    space-between-lines: false
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+    disable-condition: '%world%=disabledworld'
+  case-sensitive-sorting: true
+  sorting-types:
+  - GROUPS:owner,admin,dev,mod,helper,yt,mvp+,mvp,vip+,vip,default,red,blue,green,yellow,aqua,white,pink,gray,none # For Lobby
+  - PLACEHOLDER_A_TO_Z:%player%
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-condition: '%world%=disabledworld'
+  fancy-display-default: NPC
+  fancy-display-players: '&c%health%'
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: YELLOW
+      progress: '100'
+      text: '&aYou are playing in &b&lPLAY.MC-SRV.NET'
+      display-condition: '%world%=world'
+      announcement-bar: true
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  scoreboards: []
+  respect-other-plugins: true
+ping-spoof:
+  enabled: false
+  value: 0
+prevent-spectator-effect:
+  enabled: true
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions:
+  rankOrTeam:
+    conditions:
+    - '%bw2023_player_team%='
+    true: '%luckperms_suffix%'
+    false: '%bw2023_team_color%&l%bw2023_team_letter%&r %bw2023_team_color%'
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  register-tab-expansion: true
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- ADMIN
+- MOD
+- POLICE
+- HELPER
+- YOUTUBE
+- MVP++
+- MVP+
+- MVP
+- VIP+
+- VIP
+- Default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+global-playerlist:
+  enabled: false
+use-online-uuid-in-tablist: true
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:1753261242
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1000
+  layouts:
+    staff:
+      condition: permission:tab.staff
+      fixed-slots:
+      - '1|&3RAM&f:'
+      - 2|&b%memory-used%MB / %memory-max%MB
+      - '3|&8&m                       '
+      - '4|&3TPS&f:'
+      - 5|&b%tps%
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+    default:
+      fixed-slots:
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+          - 24-40
+        players:
+          slots:
+          - 44-80
+playerlist-objective:
+  enabled: false
+  value: '%health%'
+  disable-condition: '%world%=disabledworld'
+  fancy-value: '&7Ping: %ping%'
+permission-refresh-interval: 1000

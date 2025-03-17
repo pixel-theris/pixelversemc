@@ -1,0 +1,16 @@
+#Developed by qSuolis.
+
+#Set it to mysql if you have connected the bedwars1058 or bedwars2023 to a 'mysql' database!
+#If you already use the local database in bw1058/2023, then leave it to 'sqlite'!
+database-type: 'sqlite'
+
+#The following configurations are for the mysql database only!
+#NOTE: The following information for the database must be the same database that the bw1058/2023 plugin uses, otherwise it won't work properly!
+mysql-database-settings:
+  database: 'database'
+  ip: ''
+  port: 3306
+
+  username: 'userName'
+  password: 'password'
+

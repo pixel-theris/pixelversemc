@@ -1,0 +1,13 @@
+#######################################
+##             @Config               ##
+##        >>> ChatColor <<<          ##
+##    @Developed By CleusGamer201    ##
+#######################################
+Prefix: '&dChatColor&7<13> &r'
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: Minecraft
+  Username: root
+  Password: Null
+  Port: 3306

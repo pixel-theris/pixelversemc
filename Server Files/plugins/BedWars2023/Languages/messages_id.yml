@@ -1,0 +1,1073 @@
+prefix: ''
+name: Indonesia
+format-sb-tab-header:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+format-sb-tab-footer:
+  lobby: '&6%bw_server_ip%'
+  waiting: '&a%bw_server_ip%'
+  starting: '&6%bw_server_ip%'
+  playing: '&d%bw_server_ip%'
+  restarting: '&c%bw_server_ip%'
+  spectator: '&9%bw_server_ip%'
+cmd-main-list:
+- ''
+- '&2▪ &7/bw stats'
+- '&2▪ &7/bw join &o<arena/grup>'
+- '&2▪ &7/bw leave'
+- '&2▪ &7/bw lang'
+- '&2▪ &7/bw gui'
+- '&2▪ &7/bw start &3(vip)'
+cmd-lang-list-header: '%bw_lang_prefix% &2Bahasa Tersedia:'
+cmd-lang-list-format: '&a▪  &7%bw_lang_iso% - &f%bw_name%'
+cmd-lang-usage: '%bw_lang_prefix%&7Gunakan: /lang &f&o<bahasa>'
+cmd-lang-not-exist: '%bw_lang_prefix%&cBahasa ini tidak tersedia!'
+cmd-lang-set: '%bw_lang_prefix%&aBahasa terganti!'
+cmd-lang-not-set: '%bw_lang_prefix%&cAnda tidak bisa ganti bahasa saat dalam permainan.'
+cmd-join-usage: '§a▪ §7Gunakan: /bw join §o<arena/grup>'
+cmd-join-not-found: '%bw_lang_prefix%&cTidak ada arena atau group yang bernama: %bw_name%'
+cmd-join-arena-full: |-
+  %bw_lang_prefix%&cArena tersebut penuh!
+  &aSilakan pertimbangkan untuk menyumbang untuk lebih banyak fitur. &7&o(click)
+cmd-join-arenas-full: '%bw_lang_prefix%&cTidak ada arena yang tersedia untuk sekarang
+  ;('
+cmd-join-arena-full-vips: |-
+  %bw_lang_prefix%&cKami meminta maaf tapi arena sedang penuh.
+  &cKami tahu Anda seorang donatur tetapi sebenarnya arena ini penuh dengan staf atau/dan donatur.
+cmd-join-party-big: '%bw_lang_prefix%&cParty anda terlalu ramai untuk memasuki arena
+  sebagai team :('
+cmd-join-not-leader: '%bw_lang_prefix%&cHanya pemimpin yang dapat memilih arena.'
+cmd-join-success: '%bw_lang_prefix%&7%bw_player% &etelah masuk (&b%bw_on%&e/&b%bw_max%&e)!'
+cmd-join-spectate: |-
+  %bw_lang_prefix%§6Kamu sekarang menonton §9%bw_arena%§6.
+  %bw_lang_prefix%§eKamu bisa keluar arena kapan pun dengan cara §c/leave§e.
+cmd-join-spectate-denied: '&cPenonton tidak diperbolehkan di arena tersebut!'
+cmd-tp-player-not-found: '%bw_lang_prefix%&cPemain tidak ditemukan!'
+cmd-tp-not-in-arena: '%bw_lang_prefix%&cPlayer tersebut tidak ada di arena!'
+cmd-tp-not-started: '%bw_lang_prefix%&cArena dimana player tersebut berada belum dimulai!'
+cmd-tp-usage: '%bw_lang_prefix%&cGunakan: /bw tp <nama pengguna>'
+cmd-rejoin-no-arena: '%bw_lang_prefix%&cTidak ada arena untuk bergabung kembali!'
+cmd-rejoin-denied: '%bw_lang_prefix%&cKamu tidak dapat bergabung ke arena kembali.
+  Pertandingan selesai atau bed kamu telah dihancurkan.'
+cmd-rejoin-allowed: '%bw_lang_prefix%&eMemasuki arena &a%bw_arena%&e!'
+cmd-rejoin-player-reconnected: '%bw_lang_prefix%&7%bw_player% &etelah terhubung kembali!'
+cmd-not-in-arena: '%bw_lang_prefix%&cKamu sedang tidak di arena!'
+leave-has-party-popup:
+  inventory-name: Are you sure?
+  stay-title: '&cNo'
+  stay-lore:
+  - '&fStay in the arena'
+  bring-party-title: '&aYes'
+  bring-party-lore:
+  - '&fSummon party with you'
+cmd-leave: '%bw_lang_prefix%&7%bw_player% &etelah keluar!'
+cmd-blocked-in-game: '%bw_lang_prefix%&cAnda tidak dapat melakukan ini selama pertandingan.'
+cmd-not-found: '%bw_lang_prefix%&cPerintah tidak ditemukan atau Anda tidak memiliki
+  izin!'
+cmd-party-help:
+- '&6▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&aPerintah Party:'
+- '&e/party help &7- &bCetak pesan bantuan ini'
+- '&e/party invite <player> &7- &bMengundang pemain ke party Anda'
+- '&e/party leave &7- &bMeninggalkan party yang anda masuki'
+- '&e/party info &7- &bShow party members and owner'
+- '&e/party promote <player> &7- &bTransfer party ownership'
+- '&e/party remove <player> &7- &bKeluarkan pemain dari party'
+- '&e/party accept <player> &7- &bTerima undangan party'
+- '&e/party disband &7- &bBubarkan party'
+cmd-party-invite-usage: '%bw_lang_prefix%&eGunakan: &7/party invite <pemain>'
+cmd-party-invite: '%bw_lang_prefix%&eInvite sent to &7%bw_player%&6.'
+cmd-party-invite-received: '%bw_lang_prefix%&b%bw_player% &ehas invited you to a party!
+  &o&7(Click to accept)'
+cmd-party-invite-self: '%bw_lang_prefix%&cKamu tidak dapat mengundang diri anda sendiri!'
+cmd-party-offline: '%bw_lang_prefix%&7%bw_player% &esedang offline!'
+cmd-party-no-invite: '%bw_lang_prefix%&eTidak ada undangan party yang perlu kamu terima!'
+cmd-party-already-in: '%bw_lang_prefix%&eKamu sedang berada di party!'
+cmd-party-no-perm: '%bw_lang_prefix%&cHanya pemilik party yang dapat melakukan ini!'
+cmd-party-accept-usage: '%bw_lang_prefix%&eGunakan: &7/party accept <pemain>'
+cmd-party-join: '%bw_lang_prefix%&7%bw_player% &etelah memasuki party!'
+cmd-party-not-in: '%bw_lang_prefix%&cKamu tidak berada di party!'
+cmd-party-cant-leave: |-
+  %bw_lang_prefix%&cKamu tidak dapat keluar dari party kamu sendiri!
+  &eCoba gunakan: &b/party disband
+cmd-party-leave: '%bw_lang_prefix%&7%bw_player% &etelah keluar party!'
+cmd-party-disband: '%bw_lang_prefix%&eParty dibubarkan!'
+cmd-party-remove-usage: '%bw_lang_prefix%&7Gunakan: &e/party remove <pemain>'
+cmd-party-remove: '%bw_lang_prefix%&7%bw_player% &etelah dikeluarkan dari party,'
+cmd-party-remove-not-in: '%bw_lang_prefix%&7%bw_player% &etidak ada di party!'
+cmd-party-promote-owner: '%bw_lang_prefix%&eYou successfully promoted %bw_player%
+  to owner'
+cmd-party-owner: '%bw_lang_prefix%&eYou have been promoted to party owner'
+cmd-party-owner-changed: '%bw_lang_prefix%&7 &e%bw_player% has been promoted to owner'
+cmd-party-info-owner: |2-
+
+  %bw_lang_prefix%&eOwner of the party is: &7%bw_party_owner%
+cmd-party-info-players: '%bw_lang_prefix%&eParty members:'
+cmd-party-info-player: '&7%bw_player%'
+cmd-party-enabled-disabled: '&e&lPARTY &8&l┃ &fParty chat is now %bw_party_chat_status%
+  &f!'
+cmd-start-no-game: §c▪ §7Kamu sedang tidak bermain!
+cmd-start: §c▪ §7Hitung mundur dipersingkat!
+cmd-start-no-perm: |-
+  %bw_lang_prefix%&7Anda tidak dapat memaksa memulai arena.
+  §7Harap pertimbangkan untuk menyumbang untuk fitur VIP.
+cmd-cooldown: '&cAnda belum bisa melakukannya! Tunggu %bw_seconds% detik lagi!'
+cmd-disable-shout-solo: '&cShouting is disabled in Solo!'
+leave-started: '&a&lTeleporting you to the lobby in %bw_leave_delay% seconds... Right-click
+  again to cancel the teleport!'
+leave-canceled: '&c&lTeleport cancelled!'
+arena-kicked-by-vip: |-
+  %bw_lang_prefix%&cMaaf, tapi Anda dikeluarkan karena donatur bergabung ke arena.
+  &aHarap pertimbangkan untuk menyumbang untuk lebih banyak fitur. &7&o(click)
+arena-countdown-stopped: '%bw_lang_prefix%§cTidak ada cukup pemain! Hitung mundur
+  dihentikan!'
+arena-restart-kick: '%bw_lang_prefix%&eArena tempat Anda berada sedang dimulai ulang.'
+arena-status-playing: '&cBermain'
+arena-status-restarting: '&4Memulai Kembali'
+arena-status-waiting: '&2Menunggu §c%bw_full%'
+arena-status-starting: '&6Mulai §c%bw_full%'
+arena-selector-gui-name: '&8Klik untuk bergabung!'
+arena-selector-content-name: '&a&l%bw_name%'
+arena-selector-content-lore:
+- ''
+- '&7Status: %bw_arena_status%'
+- '&7Pemain: &f%bw_on%&7/&f%bw_max%'
+- '&7Tipe: &a%bw_group%'
+- ''
+- '&aKlik Kiri untuk bergabung.'
+- '&eKlik Kanan untuk menonton.'
+arena-selector-skipped-item-name: '&r%bw_server_ip%'
+arena-selector-skipped-item-lore: []
+arena-start-countdown: '%bw_lang_prefix%&ePermainan dimulai dalam &6%bw_time% &edetik!'
+arena-start-countdown-title: ' '
+arena-start-countdown-subtitle: '&a%bw_seconds%'
+arena-start-countdown-subtitle-5: '&e❺'
+arena-start-countdown-subtitle-4: '&e❹'
+arena-start-countdown-subtitle-3: '&c❸'
+arena-start-countdown-subtitle-2: '&c❷'
+arena-start-countdown-subtitle-1: '&c❶'
+arena-countdown-stopped-subtitle: '&cMenunggu lebih banyak pemain..'
+arena-start-title: '&aMULAI'
+arena-start-tutorial:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lPerang Kasur'
+- ''
+- '&e&l    Lindungi kasur Anda dan hancurkan kasur musuh.'
+- '&e&l  Tingkatkan diri Anda dan tim Anda dengan mengumpulkan'
+- '&e&l   Besi, Emas, Zamrud, dan Berlian dari generator'
+- '&e&l   untuk mendapatkan akses peningkatan yang kuat.'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+arena-join-denied-selector: '%bw_lang_prefix%&cMaaf, tetapi sementara Anda tidak dapat
+  bergabung ke arena tersebut. Gunakan Klik Kanan untuk menonton!'
+arena-spectate-denied-selector: '%bw_lang_prefix%&cMaaf tapi sementara kamu tidak
+  bisa menonton arena ini. Gunakan Klik Kiri untuk bergabung!'
+arena-join-denied-no-bwp: "&cMaaf, tetapi Anda harus bergabung ke arena menggunakan\
+  \ BedWarsProxy. \n&eJika Anda ingin menyiapkan arena, pastikan untuk memberi diri\
+  \ Anda izin bw.setup sehingga Anda dapat bergabung dengan server secara langsung!"
+arena-join-denied-no-time: '&cSorry but you joined while the game was already started.'
+spectator-tp-gui-name: '&8Teleporter'
+spectator-tp-gui-head-name: '%bw_lang_prefix%%bw_player%'
+spectator-tp-gui-head-lore:
+- '&7Hati: &f%bw_player_health%%'
+- '&7Bar Kelaparan: &f%bw_player_food%'
+- ''
+- '&7Klik kiri untuk menonton!'
+spectator-tp-name: '&c&lKembali ke lobi'
+spectator-tp-lore:
+- '&7Klik kanan untuk keluar ke lobi!'
+spectator-first-person-enter-title: '&aMenonton &7%bw_player%'
+spectator-first-person-enter-subtitle: '&cSNEAK untuk keluar'
+spectator-first-person-quit-title: '&eKeluar dari mode Penonton'
+spectator-first-person-quit-subtitle: ''
+arena-leave-party-disbanded: '%bw_lang_prefix%§cPemilik party telah pergi dan party
+  itu dibubarkan!'
+generator-tier: '&eTingkat &c%bw_tier%'
+generator-diamond: '&b&lBerlian'
+generator-emerald: '&a&lZamrud'
+generator-timer: '&eMuncul dalam &c%bw_seconds% &edetik'
+generator-upgrade-announce: '%bw_lang_prefix%%bw_generator_type% Generator &etelah
+  ditingkatkan ke Tingkat &c%bw_tier%'
+format-chat-lobby: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-waiting: '%bw_level%%bw_v_prefix%&7%bw_player%%bw_v_suffix%: %bw_message%'
+format-chat-global: '%bw_level%%bw_v_prefix%&6[SHOUT] %bw_team_format% &7%bw_player%&f%bw_v_suffix%:
+  %bw_message%'
+format-chat-team: '%bw_level%%bw_v_prefix%&f%bw_team_format%&7 %bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-chat-spectator: '&7[PENONTON] %bw_level%%bw_v_prefix%%bw_player%%bw_v_suffix%:
+  %bw_message%'
+format-sb-health: '%health% &c❤'
+format-sb-tab-prefix:
+  spectator:
+  - '&7'
+  restarting:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%'
+  playing:
+  - '%bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  - '%bw_team% '
+  - '%bw_v_prefix% %bw_team_color%&l%bw_team_letter% &r%bw_team_color%'
+  starting:
+  - '%bw_v_prefix% '
+  waiting:
+  - '%bw_v_prefix% '
+  lobby:
+  - '%bw_v_prefix% '
+format-sb-tab-suffix:
+  spectator: []
+  restarting: []
+  playing: []
+  starting: []
+  waiting: []
+  lobby: []
+format-sb-date: dd/MM/yy
+format-sb-team-generic: '%bw_team_color%%bw_team_letter%&f %bw_team_name%: %bw_team_status%'
+format-sb-team-eliminated: '&c&l✘'
+format-sb-bed-destroyed: '&a%bw_players_remaining%'
+format-sb-team-alive: '&a&l✓'
+format-sb-generator-timer: mm:ss
+format-sb-you: '&7 KAMU'
+format-action-tracking: '&fTracking: %bw_team% &f- Distance: %bw_distance%m'
+format-dragon-bossbar: '%bw_team% &7Dragon'
+format-winner-team: '      %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-winner-solo: '                 %bw_team_color%%bw_team_name% &7- %bw_winner_members%'
+format-tier1: I
+format-tier2: II
+format-tier3: III
+format-despawnable-health: '▮ '
+format-stats-time: yyyy/MM/dd HH:mm
+format-papi-player-team: '%bw_team_color%[%bw_team_name%]'
+format-papi-player-shout: '&6[SHOUT]'
+format-papi-player-spectator: '&7[PENONTON]'
+meaning-full: Penuh
+meaning-shout: shout
+meaning-nobody: Bukan Siapa Siapa
+meaning-never: Tidak Pernah
+meaning-iron-singular: Besi
+meaning-iron-plural: Besi
+meaning-gold-singular: Emas
+meaning-gold-plural: Emas
+meaning-emerald-singular: Zamrud
+meaning-emerald-plural: Zamrud
+meaning-diamond-singular: Zamrud
+meaning-diamond-plural: Zamrud
+meaning-vault-singular: $
+meaning-vault-plural: $
+meaning-enabled: '&aEnabled'
+meaning-disabled: '&cDisabled'
+interact-cant-place: '%bw_lang_prefix%&cAnda tidak dapat menempatkan blok di sini!'
+interact-cant-break: '%bw_lang_prefix%&cAnda hanya dapat memecahkan blok yang ditempatkan
+  oleh pemain!'
+interact-cant-destroy-bed: '&cAnda tidak dapat menghancurkan kasur Anda sendiri!'
+interact-bed-destroy-chat: |2
+
+  &f&lPENGHANCURAN KASUR > %bw_team_color%%bw_team_name% Kasur &7telah dihancurkan oleh %bw_player_color%%bw_player%&7!
+interact-bed-destroy-title: '&cKASUR HANCUR!'
+interact-bed-destroy-subtitle: '&fAnda tidak akan respawn kembali!'
+interact-bed-destroy-team: '&f&lPENGHANCURKAN KASUR N > &7Kasur Anda telah dihancurkan
+  oleh %bw_player_color%%bw_player%&7!'
+interact-cant-open-chest: '&cAnda tidak dapat membuka peti ini karena tim ini belum
+  tereliminasi!'
+interact-invisibility-removed-damaged: '&cYou are no longer invisible because you
+  have taken damage!'
+interact-magic-milk-removed: '&cYour Magic Milk wore off!'
+player-die-void-regular: '%bw_player_color%%bw_player% &7jatuh ke void.'
+player-die-void-final: '%bw_player_color%%bw_player% &7jatuh ke void. &b&lPEMBUNUHAN
+  TERAKHIR!'
+player-die-knocked-void-regular: '%bw_player_color%%bw_player% &7terlempar ke dalam
+  void oleh %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-void-final: '%bw_player_color%%bw_player% &7terlempar ke dalam
+  void oleh %bw_killer_color%%bw_killer_name%&7. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-pvp-log-out-regular: '%bw_player_color%%bw_player% &7terputus saat bertarung
+  dengan %bw_killer_color%%bw_killer_name%&7.'
+player-die-pvp-log-out-final: '%bw_player_color%%bw_player% &7terputus saat bertarung
+  dengan %bw_killer_color%%bw_killer_name%&7. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-knocked-fall-regular: '%bw_player_color%%bw_player% &7didorong oleh %bw_killer_color%%bw_killer_name%&7.'
+player-die-knocked-fall-final: '%bw_player_color%%bw_player% &7didorong oleh %bw_killer_color%%bw_killer_name%&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bomb-regular: '%bw_player_color%%bw_player% &7terkena bom cinta dari %bw_killer_color%%bw_killer_name%&7.'
+player-die-bomb-final: '%bw_player_color%%bw_player% &7terkena bom cinta dari %bw_killer_color%%bw_killer_name%&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bomb2-regular: '%bw_player_color%%bw_player% &7terkena bom.'
+player-die-bomb2-final: '%bw_player_color%%bw_player% &7terkena bom. &b&lPEMBUNUHAN
+  TERAKHIR!'
+player-die-attack-regular: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%%bw_killer_name%&7.'
+player-die-attack-final: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%%bw_killer_name%&7.
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-unknown-regular: '%bw_player_color%%bw_player% &7mati.'
+player-die-unknown-final: '%bw_player_color%%bw_player% &7mati. &b&lPEMBUNUHAN TERAKHIR!'
+player-die-shoot-regular: '%bw_player_color%%bw_player% &7ditembak oleh %bw_killer_color%%bw_killer_name%&7.'
+player-die-shoot-final: '%bw_player_color%%bw_player% &7ditembak oleh %bw_killer_color%%bw_killer_name%&7!
+  &b&lPEMBUNUHAN TERAKHIR!'
+player-die-bedbug-regular: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%BedBug
+  si %bw_killer_team_name%!'
+player-die-bedbug-final: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%%bw_killer_team_name%''s
+  &7BedBug! &b&lPEMBUNUHAN TERAKHIR!'
+player-die-golem-regular: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%Iron
+  Golem si %bw_killer_team_name%!'
+player-die-golem-final: '%bw_player_color%%bw_player% &7dibunuh oleh %bw_killer_color%Iron
+  Golem si %bw_killer_team_name%! &b&lPEMBUNUHAN TERAKHIR!'
+player-loot-diamond: '%bw_lang_prefix%&b+%bw_amount% %bw_meaning%'
+player-loot-emerald: '%bw_lang_prefix%&a+%bw_amount% %bw_meaning%'
+player-loot-iron: '%bw_lang_prefix%&f+%bw_amount% %bw_meaning%'
+player-loot-gold: '%bw_lang_prefix%&6+%bw_amount% %bw_meaning%'
+build-max-height-limit-reached: '&cMax build height limit reached!'
+build-min-height-limit-reached: '&cMin build height limit reached!'
+arena-fireball-cooldown: '&cPlease wait %bw_cooldown%s to use that again!'
+in-game-announcement:
+- '&c&lIf you get disconnected use /rejoin to join back in the game.'
+- '&c&lCross-teaming is not allowed! Report cross-teamers using /report.'
+player-respawn-title: '&cKAMU MATI!'
+player-respawn-subtitle: '&eAnda akan muncul kembali dalam &c%bw_time% &edetik!'
+player-respawn-timer-chat: '%bw_lang_prefix%&eAnda akan muncul kembali dalam &c%bw_time%
+  &edetik!'
+player-respawned-title: '&aMUNCUL KEMBALI!'
+player-eliminated-chat: '%bw_lang_prefix%&cKamu telah dieliminasi!'
+player-respawned-chat: '%bw_lang_prefix%&eYou have respawned!'
+player-hit-bow: '%bw_lang_prefix%%bw_player% &7berada di &c%bw_damage_amount% &7HP!'
+game-end-game-over-title: '&c&lPERMAINAN SELESAI!'
+game-end-victory-title: '&6&lKEMENANGAN!'
+game-end-winner-team: '%bw_lang_prefix%%bw_team_color%%bw_team_name% &atelah memenangkan
+  permainan!'
+format-each-winner: '%bw_player%'
+game-end-first-killer: '%bw_player%'
+game-end-second-killer: '%bw_player%'
+game-end-third-killer: '%bw_player%'
+game-end-top-chat:
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '&f                                   &lBedWars'
+- ''
+- '%bw_winner_format%'
+- ''
+- ''
+- '&e                          &l1st Killer &7- %bw_first_format% - %bw_first_kills%'
+- '&6                          &l2nd Killer &7- %bw_second_format% - %bw_second_kills%'
+- '&c                          &l3rd Killer &7- %bw_third_format% - %bw_third_kills%'
+- ''
+- '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+bed-hologram-defend: '&c&lPertahankan Kasur Anda!'
+bed-hologram-destroyed: '&c&lKasur anda telah dihancurkan!'
+npcs:
+  team-upgrades:
+    default:
+    - '&bPENINGKATAN TIM'
+    - '&e&LKLIK KANAN'
+  solo-upgrades:
+    default:
+    - '&bPENINGKATAN INDIVIDU'
+    - '&e&lKLIK KANAN'
+  team-shop:
+    default:
+    - '&bTOKO TIM'
+    - '&e&lKLIK KANAN'
+  solo-shop:
+    default:
+    - '&bTOKO BARANG'
+    - '&e&lKLIK KANAN'
+team-eliminated: |2
+
+  &f&lTIM ELIMINASI > %bw_team_color%Tim %bw_team_name% &ctelah dieliminasi!
+next-event-beds-destroy: '&fIstirahat Tidur'
+next-event-diamondII: '&fBerlian II'
+next-event-diamondIII: '&fBerlian III'
+next-event-dragon-spawn: '&fKematian Mendadak'
+next-event-emeraldII: '&fZamrud II'
+next-event-emeraldIII: '&fZamrud III'
+next-event-game-end: '&4Permainan Berakhir'
+next-event-beds-destroy-title: '&cKASUR HANCUR!'
+next-event-beds-destroy-sub-title: '&fSemua kasur telah dihancurkan!'
+next-event-beds-destroy-chat: '&c&lSemua kasur telah dihancurkan!'
+next-event-sudden-death-title: '&cKematian Mendadak'
+next-event-sudden-death-sub-title: ''
+next-event-sudden-death-chat: '&cKEMATIAN MENDADAK: &6&b%bw_dragons_amount% %bw_team_color%Naga
+  %bw_team_name%!'
+xp-reward-per-minute: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima (Waktu
+  Bermain).'
+xp-reward-game-win: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima (Memenangkan
+  Permainan).'
+xp-reward-per-teammate: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima (Dukungan
+  Tim).'
+xp-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima
+  (Menghancurkan Kasur).'
+xp-reward-regular-kill: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima (Pembunuhan
+  Biasa).'
+xp-reward-final-kill: '%bw_lang_prefix%&6+%bw_xp% Experience Bed Wars Diterima (Pembunuhan
+  Terakhir).'
+money-reward-per-minute: '%bw_lang_prefix%&6+%bw_money% Koin (Waktu Bermain).'
+money-reward-game-win: '%bw_lang_prefix%&6+%bw_money% Koin (Memenangkan Permainan).'
+money-reward-per-teammate: '%bw_lang_prefix%&6+%bw_money% Koin (Dukungan Tim).'
+money-reward-bed-destroyed: '%bw_lang_prefix%&6+%bw_money% Koin (Menghancurkan Kasur).'
+money-reward-final-kill: '%bw_lang_prefix%&6+%bw_money% Koin (Pembunuhan Terakhir).'
+money-reward-regular-kill: '%bw_lang_prefix%&6+%bw_money% Koin (Pembunuhan Biasa).'
+lobby-items-stats-name: '&eStatistik'
+lobby-items-stats-lore:
+- '&fKlik Kanan untuk melihat statistik!'
+lobby-items-arena-selector-name: '&ePemilih Arena'
+lobby-items-arena-selector-lore:
+- '&fKlik Kanan untuk memilih Arena!'
+lobby-items-leave-name: '&eKembali ke Pusat'
+lobby-items-leave-lore:
+- '&fKlik Kanan untuk keluar dari Bed Wars!'
+pre-game-items-stats-name: '&eStatistik'
+pre-game-items-stats-lore:
+- '&fKlik Kanan untuk melihat statistik!'
+pre-game-items-leave-name: '&eKembali ke Lobi'
+pre-game-items-leave-lore:
+- '&fKlik kanan untuk keluar Arena!'
+spectator-items-teleporter-name: '&eTeleporter'
+spectator-items-leave-name: '&eKembali ke Lobi'
+spectator-items-leave-lore:
+- '&fKlik kanan untuk keluar Arena!'
+stats-inv-name: '&8Statistik %bw_player%'
+stats-wins-name: '&6Kememenangan'
+stats-wins-lore:
+- '&f%bw_wins%'
+stats-losses-name: '&6Kekalahan'
+stats-losses-lore:
+- '&f%bw_losses%'
+stats-kills-name: '&6Membunuh'
+stats-kills-lore:
+- '&f%bw_kills%'
+stats-deaths-name: '&6Mati'
+stats-deaths-lore:
+- '&f%bw_deaths%'
+stats-final-kills-name: '&6Pembunuhan Terakhir'
+stats-final-kills-lore:
+- '&f%bw_final_kills%'
+stats-final-deaths-name: '&6Kematian Terakhir'
+stats-final-deaths-lore:
+- '&f%bw_final_deaths%'
+stats-beds-destroyed-name: '&6Menghancurkan Kasur'
+stats-beds-destroyed-lore:
+- '&f%bw_beds%'
+stats-first-play-name: '&6Pertama Kali Bermain'
+stats-first-play-lore:
+- '&f%bw_play_first%'
+stats-last-play-name: '&6Terakhir Kali Bermain'
+stats-last-play-lore:
+- '&f%bw_play_last%'
+stats-games-played-name: '&6Pertandingan Dimainkan'
+stats-games-played-lore:
+- '&f%bw_games_played%'
+scoreboard:
+  Default:
+    waiting:
+    - '&f&fPERANG KASUR'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fMap: &a%bw_map%'
+    - ''
+    - '&fPlayers: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fWaiting...'
+    - ''
+    - '§fMode: &a%bw_group%'
+    - '&fVersion: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    starting:
+    - '&f&lPERANG KASUR'
+    - '&7%bw_date% &8%bw_server_id%'
+    - ''
+    - '&fMap: &a%bw_map%'
+    - ''
+    - '&fPlayers: &a%bw_on%/%bw_max%'
+    - ''
+    - '&fStarting in &a%bw_time%s'
+    - ''
+    - '§fMode: &a%bw_group%'
+    - '&fVersion: &7%bw_version%'
+    - ''
+    - '&e%bw_server_ip%'
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  Doubles:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - '%bw_team_5'
+    - '%bw_team_6%'
+    - '%bw_team_7%'
+    - '%bw_team_8%'
+    - ''
+    - '&e%bw_server_ip%'
+  3v3v3v3:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fKills: &a%bw_kills%'
+    - '&fFinal Kills: &a%bw_final_kills%'
+    - '&fBeds Broken: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  4v4v4v4:
+    playing:
+    - '&e&lPERANG KASUR'
+    - '&7%bw_date%'
+    - ''
+    - '&f%bw_next_event% in &a%bw_time%'
+    - ''
+    - '%bw_team_1%'
+    - '%bw_team_2%'
+    - '%bw_team_3%'
+    - '%bw_team_4%'
+    - ''
+    - '&fKills: &a%bw_kills%'
+    - '&fPembunuhan Terakhir: &a%bw_final_kills%'
+    - '&fBed Dihancurkan: &a%bw_beds%'
+    - ''
+    - '&e%bw_server_ip%'
+  lobby:
+  - '&6&lBedWars,&4&lB&6&ledWars,&c&lB&4&le&6&ldWars,&6&lB&c&le&4&ld&6&lWars,&6&lBe&c&ld&4&lW&6&lars,&6&lBed&c&lW&4&la&6&lrs,&6&lBedW&c&la&4&lr&6&ls,&6&lBedWa&c&lr&4&ls,&6&lBedWar&c&ls,&6&lBedWars'
+  - '&fLevel Anda: %bw_level%'
+  - ''
+  - '&fProgres: &a%bw_current_xp%&7/&b%bw_required_xp%'
+  - '%bw_progress%'
+  - ''
+  - '&7%bw_player%'
+  - ''
+  - '&fKoin: &a%bw_money%'
+  - ''
+  - '&fTotal Kemenangan: &a%bw_wins%'
+  - '&fTotal Membunuh: &a%bw_kills%'
+  - ''
+  - '&e%bw_server_ip%'
+shop-items-messages:
+  inventory-name: '&8Quick Buy'
+  quick-buy-add-inventory-name: '&8Adding to Quick Buy...'
+  separator-item-name: '&8⇧ Categories'
+  separator-item-lore:
+  - '&8⇩ Items'
+  quick-buy-item-name: '&bQuick Buy'
+  quick-buy-item-lore: []
+  quick-buy-empty-item-name: '&cEmpty slot!'
+  quick-buy-empty-item-lore:
+  - '&7This is a Quick Buy Slot!'
+  - '&bSneak Click &7any item in'
+  - '&7the shop to add it here.'
+  can-buy-color: '&a'
+  cant-buy-color: '&c'
+  blocks-category:
+    inventory-name: '&8Blok'
+    category-item-name: '&aBlok'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-wol-name: '%bw_color%Wol'
+    content-item-wol-lore:
+    - '&7Biaya: &f%bw_cost% %bw_currency%'
+    - ''
+    - '&7Bagus untuk menyebrang'
+    - '&7pulau. Berubah menjadi tim Anda'
+    - '&7color.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-clay-name: '%bw_color%Hardened Clay'
+    content-item-clay-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Blok dasar untuk mempertahankan kasur Anda'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-glass-name: '%bw_color%Kaca Anti Ledakan'
+    content-item-glass-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Kebal terhadap ledakan'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stone-name: '%bw_color%End Stone'
+    content-item-stone-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ladder-name: '%bw_color%Tangga'
+    content-item-ladder-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Berguna untuk menyelamatkan kucing yang terjebak'
+    - '&7di pohon.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-obsidian-name: '%bw_color%Obsidian'
+    content-item-obsidian-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Perlindungan ekstrim untuk kasur Anda'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-wood-name: '%bw_color%Kayu'
+    content-item-wood-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Blok keras untuk mempertahankan kasur Anda'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  melee-category:
+    inventory-name: '&8Senjata Jarak Dekat'
+    category-item-name: '&aSenjata Jarak Dekat'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-stone-sword-name: '%bw_color%Stone Sword'
+    content-item-stone-sword-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-sword-name: '%bw_color%Iron Sword'
+    content-item-iron-sword-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-sword-name: '%bw_color%Diamond Sword'
+    content-item-diamond-sword-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-stick-name: '%bw_color%Stik (Knockback I)'
+    content-item-stick-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  armor-category:
+    inventory-name: '&8Armor'
+    category-item-name: '&aArmor'
+    category-item-lore:
+    - '&eClick to view!'
+    content-item-chainmail-name: '%bw_color%Armor Chainmail Permanenr'
+    content-item-chainmail-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Celana dan sepatu chainmail yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-iron-armor-name: '%bw_color%Armor Besi Permanen'
+    content-item-iron-armor-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Celana dan sepatu besi yang dapat membuat'
+    - '&7kamu akan selalu muncul dengan ini.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-diamond-armor-name: '%bw_color%Armor Berlian Permanen'
+    content-item-diamond-armor-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Celana dan sepatu berlian yang dapat membuat'
+    - '&7kamu akan selalu naksir dengan ini.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  tools-category:
+    inventory-name: '&8Tools'
+    category-item-name: '&aTools'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-shears-name: '%bw_color%Gunting Permanen'
+    content-item-shears-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bagus untuk menyingkirkan wol. Kamu'
+    - '&7akan selalu muncul dengan gunting ini.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-pickaxe-name: '%bw_color%Pickaxe %bw_tier%'
+    content-item-pickaxe-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - '&7Tingkat: &e%bw_tier%'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-axe-name: '%bw_color%Kapak %bw_tier%'
+    content-item-axe-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - '&7Tingkat: &e%bw_tier%'
+    - ''
+    - '&7Ini adalah item yang dapat diupgrade.'
+    - '&7Itu akan kehilangan 1 tingkat setelah.'
+    - '&7mati!'
+    - ''
+    - '&7Anda akan secara permanen'
+    - '&7respawn dengan setidaknya'
+    - '&7tingkat terendah.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  ranged-category:
+    inventory-name: '&8Senjata Jarak Jauh'
+    category-item-name: '&aSenjata Jarak Jauh'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-arrow-name: '%bw_color%Anak Panah'
+    content-item-arrow-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow1-name: '%bw_color%Panah'
+    content-item-bow1-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow2-name: '%bw_color%Panah (Power I)'
+    content-item-bow2-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bow3-name: '%bw_color%Panah (Power I, Punch I)'
+    content-item-bow3-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  potions-category:
+    inventory-name: '&8Ramuan'
+    category-item-name: '&aRamuan'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-speed-potion-name: '%bw_color%Ramuan Kecepatan II (45 detik)'
+    content-item-speed-potion-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-jump-potion-name: '%bw_color%Ramuan Lompat V (45 detik)'
+    content-item-jump-potion-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-invisibility-name: '%bw_color%Ramuan Tak Kasat Mata (30 detik)'
+    content-item-invisibility-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+  utility-category:
+    inventory-name: '&8Utilitas'
+    category-item-name: '&aUtilitas'
+    category-item-lore:
+    - '&eKlik untuk melihat!'
+    content-item-golden-apple-name: '%bw_color%Apel Emas'
+    content-item-golden-apple-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Penyembuhan menyeluruh.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bedbug-name: '%bw_color%Kutu Kasur'
+    content-item-bedbug-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Memunculkan ikan gabus di mana'
+    - '&7bola salju mendarat untuk mengalihkan perhatian'
+    - '&7musuh. Berlangsung 15 detik.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-dream-defender-name: '%bw_color%Pertahanan Impian'
+    content-item-dream-defender-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Iron Golem untuk membantu mempertahankan'
+    - '&7base. Berlangsung 4 menit.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-fireball-name: '%bw_color%Bola Api'
+    content-item-fireball-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Klik kanan untuk meluncurkan! Bagus untuk'
+    - '&7memukul mundur musuh yang berjalan'
+    - '&7di jembatan tipis'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tnt-name: '%bw_color%TNT'
+    content-item-tnt-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Langsung menyala, cocok'
+    - '&7untuk meledakkan sesuatu!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-ender-pearl-name: '%bw_color%Ender Pearl'
+    content-item-ender-pearl-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Cara tercepat untuk menyerang base'
+    - '&7musuh.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-water-bucket-name: '%bw_color%Water Bucket'
+    content-item-water-bucket-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bagus untuk memperlambat musuh.'
+    - '&7Bisa juga melindungi'
+    - '&7dari serangan TNT.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-bridge-egg-name: '%bw_color%Telur Jembatan'
+    content-item-bridge-egg-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Telur ini menciptakan jembatan di'
+    - '&7percobaan setelah dilempar.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-magic-milk-name: '%bw_color%Susu Ajaib'
+    content-item-magic-milk-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Hindari memicu jebakan untuk 60'
+    - '&7detik setelah diminum.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-sponge-name: '%bw_color%Spons'
+    content-item-sponge-lore:
+    - '&7Biaya: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Bagus untuk menyerap air.'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+    content-item-tower-name: '%bw_color%Compact Pop-up Tower'
+    content-item-tower-lore:
+    - '&7Cost: %bw_cost% %bw_currency%'
+    - ''
+    - '&7Place a compact pop-up'
+    - '&7tower defense!'
+    - ''
+    - '%bw_quick_buy%'
+    - '%bw_buy_status%'
+shop-insuff-money: '%bw_lang_prefix%&cKamu tidak mempunyai %bw_currency% yang cukup!
+  Butuh %bw_amount% lagi!'
+shop-new-purchase: '%bw_lang_prefix%&aKamu membeli &6%bw_item%'
+shop-already-bought: '%bw_lang_prefix%&cKamu telah membeli itu!!'
+shop-already-higher-tier: '%bw_lang_prefix%&cYou already have a higher tier item.'
+shop-utility-silverfish: '%bw_team_color%&l%bw_team_name% &r%bw_team_color%Silverfish'
+shop-utility-iron-golem: '%bw_team_color%%bw_despawn_time%s &8[ %bw_team_color%%bw_health%&8]'
+shop-lore-status-can-buy: '&eKlik untuk membeli!'
+shop-lore-status-cant-afford: '&cKamu tidak mempunyai %bw_currency% yang cukup!'
+shop-lore-status-tier-maxed: '&aMAKSIMAL!'
+shop-lore-quick-add: '&bJongkok Klik untuk menambahkan ke Beli Cepat!'
+shop-lore-quick-remove: '&bJongkok Klik untuk menhapus dari Beli Cepat!'
+meaning-no-trap: Tidak ada Perangkap!
+format-upgrade-trap-cost: '&7Biaya: %bw_currency_color%%bw_cost% %bw_currency%'
+format-upgrade-color-can-afford: '&e'
+format-upgrade-color-cant-afford: '&c'
+format-upgrade-color-unlocked: '&a'
+format-tier-color-locked: '&7'
+format-tier-color-unlocked: '&a'
+upgrades-lore-click-buy: '%bw_color%Klik untuk membeli!'
+upgrades-lore-insuff-money: '%bw_color%Anda tidak punya %bw_currency% yang cukup!'
+upgrades-lore-insuff-space: '&eYou don''t have enough inventory space to buy this
+  item!'
+upgrades-lore-locked: '&cTERKUNCI'
+upgrades-lore-unlocked: '%bw_color%TERBUKA'
+upgrades-new-purchase: '&a%bw_player% membeli &6%bw_item%'
+upgrades-upgrade-name-forge-tier-1: '%bw_color%Iron Forge'
+upgrades-upgrade-lore-forge:
+- '&7Tingkatkan pemijahan sumber daya aktif'
+- '&7di pulau mu.'
+- ''
+- '{tier_1_color}Tingkat 1: +50% Sumber Daya, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tingkat 2: +100% Sumber Daya, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tingkat 3: Spawn zamrud, &b{tier_3_cost} B{tier_3_currency}'
+- '{tier_4_color}Tingkat 4: +200% Sumber Daya, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-forge-tier-2: '%bw_color%Golden Forge'
+upgrades-upgrade-name-forge-tier-3: '%bw_color%Emerald Forge'
+upgrades-upgrade-name-forge-tier-4: '%bw_color%Molten Forge'
+upgrades-category-item-name-traps: '&aBeli perangkap'
+upgrades-category-item-lore-traps:
+- '&7Perangkap yang dibeli akan menjadi'
+- '&7antri di sebelah kanan.'
+- ''
+- '&eKlik untuk menelusuri!'
+upgrades-upgrade-name-swords-tier-1: '%bw_color%Pedang yang Diasah'
+upgrades-upgrade-lore-swords:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Ketajaman I pada semua pedang dan'
+- '&7kapak!'
+- ''
+- '{tier_1_color}Biaya: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-1: '%bw_color%Armor Bertulang I'
+upgrades-upgrade-lore-armor:
+- '&7Tim Anda memperoleh keuntungan secara permanen'
+- '&7Perlindungan pada semua bagian armor!'
+- ''
+- '{tier_1_color}Tingkat 1: Perlindungan I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tingkat 2: Perlindungan II, &b{tier_2_cost} {tier_2_currency}'
+- '{tier_3_color}Tingkat 3: Perlindungan III, &b{tier_3_cost} {tier_3_currency}'
+- '{tier_4_color}Tingkat 4: Perlindungan IV, &b{tier_4_cost} {tier_4_currency}'
+- ''
+upgrades-upgrade-name-armor-tier-2: '%bw_color%Armor Bertulang II'
+upgrades-upgrade-name-armor-tier-3: '%bw_color%Armor Bertulang III'
+upgrades-upgrade-name-armor-tier-4: '%bw_color%Armor Bertulang IV'
+upgrades-upgrade-name-miner-tier-1: '%bw_color%Penambang Maniak I'
+upgrades-upgrade-lore-miner:
+- '&7Semua pemain di tim Anda'
+- '&7mendapatkan Haste secara permanen.'
+- ''
+- '{tier_1_color}Tingkat 1: Haste I, &b{tier_1_cost} {tier_1_currency}'
+- '{tier_2_color}Tingkat 2: Haste II, &b{tier_2_cost} {tier_2_currency}'
+- ''
+upgrades-upgrade-name-miner-tier-2: '%bw_color%Penambang Maniak II'
+upgrades-upgrade-name-heal-pool-tier-1: '%bw_color%Kolam Penyembuhan'
+upgrades-upgrade-lore-heal-pool:
+- '&7Membuat bidang Regenerasi'
+- '&7di sekitar base Anda!'
+- ''
+- '{tier_1_color}Biaya: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-upgrade-name-dragon-tier-1: '%bw_color%Dragon Buff'
+upgrades-upgrade-lore-dragon:
+- '&7Tim Anda akan memiliki 2 naga'
+- '&7bukannya 1 selama deathmatch!'
+- ''
+- '{tier_1_color}Biaya: &b{tier_1_cost} {tier_1_currency}'
+- ''
+upgrades-separator-item-name-glass: '&8⬆&7Dapat Dibeli'
+upgrades-separator-item-lore-glass:
+- '&8⬇&7Antrian Perangkap'
+upgrades-trap-slot-item-name-first: '%bw_color%Perangkap #1: %bw_name%'
+upgrades-trap-slot-item-lore1-first:
+- '&7Musuh pertama yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-first:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-second: '%bw_color%Perangkap #2: %bw_name%'
+upgrades-trap-slot-item-lore1-second:
+- '&7Musuh kedua yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-second:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b%bw_cost% %bw_currency%'
+upgrades-trap-slot-item-name-third: '%bw_color%Perangkap #3: %bw_name%'
+upgrades-trap-slot-item-lore1-third:
+- '&7Musuh ketiga yang berjalan'
+- '&7ke base Anda akan memicu'
+- '&7perangkap ini!'
+upgrades-trap-slot-item-lore2-third:
+- ''
+- '&7Membeli perangkap akan'
+- '&7antri disini. biayanya'
+- '&7akan skala berdasarkan'
+- '&7jumlah jebakan yang diantrekan.'
+- ''
+- '&7Perangkap Selanjutnya: &b%bw_cost% %bw_currency%'
+upgrades-base-trap-name-1: '%bw_color%It''s a trap!'
+upgrades-base-trap-lore-1:
+- '&7Menimbulkan Kebutaan dan Kelambatan'
+- '&7selama 5 detik.'
+- ''
+upgrades-base-trap-name-2: '%bw_color%Counter-Offensive Trap'
+upgrades-base-trap-lore-2:
+- '&7Memberikan Kecepatan I selama 15 detik untuk'
+- '&7pemain sekutu di dekat base Anda.'
+- ''
+upgrades-base-trap-name-3: '%bw_color%Alarm Trap'
+upgrades-base-trap-lore-3:
+- '&7Mengungkapkan pemain tak terlihat serta'
+- '&7nama dan tim mereka.'
+- ''
+upgrades-base-trap-name-4: '%bw_color%Perangkap Kelelahan Penambang'
+upgrades-base-trap-lore-4:
+- '&7Menimbulkan Kelelahan Penambangan selama 10'
+- '&7detik.'
+- ''
+upgrades-separator-item-name-back: '&aKembali'
+upgrades-separator-item-lore-back:
+- '&7Ke Upgrades & Perangkap'
+upgrades-category-gui-name-traps: '&8Antrian Jebakan'
+upgrades-trap-queue-full: '&cAntrian jebakan penuh!'
+upgrades-trap-default-msg: '&c&l%bw_trap% telah berangkat!'
+upgrades-trap-default-title: '&cPERANGKAP TERPICU!'
+upgrades-trap-default-subtitle: '&fPerangkap %bw_trap% telah terpicu!'
+upgrades-base-trap-msg-3: '&c&lPerangkap alarm telah dipicu oleh &7&l%bw_player% &c&ldari
+  tim %bw_color%&l%bw_team%!'
+upgrades-base-trap-title-3: '&c&lALARM!!!'
+upgrades-base-trap-subtitle-3: '&fPerangkap alarm telah dipicu oleh tim %bw_color%%bw_team%&f!'
+upgrades-already-purchase: '&cYou already unlocked this upgrade!'

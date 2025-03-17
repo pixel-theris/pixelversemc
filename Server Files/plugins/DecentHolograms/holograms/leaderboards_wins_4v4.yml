@@ -1,0 +1,185 @@
+location: spawn:24.529:70.506:-32.699
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lDaily Wins &7(4v4)'
+    height: 0.3
+  - content: '&8Data in %server_time_dd/MM/yy%'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_groupstats_4v4_wins_1_daily_suffix%%ajlb_lb_groupstats_4v4_wins_1_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_1_daily_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_groupstats_4v4_wins_2_daily_suffix%%ajlb_lb_groupstats_4v4_wins_2_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_2_daily_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_groupstats_4v4_wins_3_daily_suffix%%ajlb_lb_groupstats_4v4_wins_3_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_3_daily_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_groupstats_4v4_wins_4_daily_suffix%%ajlb_lb_groupstats_4v4_wins_4_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_4_daily_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_groupstats_4v4_wins_5_daily_suffix%%ajlb_lb_groupstats_4v4_wins_5_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_5_daily_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_groupstats_4v4_wins_6_daily_suffix%%ajlb_lb_groupstats_4v4_wins_6_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_6_daily_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_groupstats_4v4_wins_7_daily_suffix%%ajlb_lb_groupstats_4v4_wins_7_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_7_daily_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_groupstats_4v4_wins_8_daily_suffix%%ajlb_lb_groupstats_4v4_wins_8_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_8_daily_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_groupstats_4v4_wins_9_daily_suffix%%ajlb_lb_groupstats_4v4_wins_9_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_9_daily_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_groupstats_4v4_wins_10_daily_suffix%%ajlb_lb_groupstats_4v4_wins_10_daily_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_10_daily_value%'
+    height: 0.3
+  - content: '&aDaily &7Weekly &7Monthly'
+    height: 0.3
+  - content: '&l&c◄ &b◈ &3■ ■ ■ &c►'
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:4
+    RIGHT:
+    - PAGE:2
+- lines:
+  - content: '&b&lWeekly Wins &7(4v4)'
+    height: 0.3
+  - content: '&8Data in %server_time_dd/MM/yy%'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_groupstats_4v4_wins_1_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_1_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_1_weekly_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_groupstats_4v4_wins_2_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_2_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_2_weekly_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_groupstats_4v4_wins_3_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_3_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_3_weekly_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_groupstats_4v4_wins_4_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_4_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_4_weekly_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_groupstats_4v4_wins_5_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_5_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_5_weekly_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_groupstats_4v4_wins_6_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_6_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_6_weekly_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_groupstats_4v4_wins_7_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_7_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_7_weekly_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_groupstats_4v4_wins_8_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_8_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_8_weekly_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_groupstats_4v4_wins_9_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_9_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_9_weekly_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_groupstats_4v4_wins_10_weekly_suffix%%ajlb_lb_groupstats_4v4_wins_10_weekly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_10_weekly_value%'
+    height: 0.3
+  - content: '&7Daily &aWeekly &7Monthly'
+    height: 0.3
+  - content: '&l&c◄ &3■ &b◈ &3■ ■ &c►'
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:1
+    RIGHT:
+    - PAGE:3
+- lines:
+  - content: '&b&lMonthly Wins &7(4v4)'
+    height: 0.3
+  - content: '&8Data in %server_time_MM/yy%'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_groupstats_4v4_wins_1_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_1_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_1_monthly_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_groupstats_4v4_wins_2_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_2_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_2_monthly_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_groupstats_4v4_wins_3_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_3_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_3_monthly_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_groupstats_4v4_wins_4_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_4_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_4_monthly_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_groupstats_4v4_wins_5_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_5_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_5_monthly_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_groupstats_4v4_wins_6_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_6_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_6_monthly_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_groupstats_4v4_wins_7_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_7_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_7_monthly_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_groupstats_4v4_wins_8_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_8_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_8_monthly_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_groupstats_4v4_wins_9_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_9_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_9_monthly_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_groupstats_4v4_wins_10_monthly_suffix%%ajlb_lb_groupstats_4v4_wins_10_monthly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_10_monthly_value%'
+    height: 0.3
+  - content: '&7Daily &7Weekly &aMonthly'
+    height: 0.3
+  - content: '&l&c◄ &3■ &3■ &b◈ &3■ &c►'
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:2
+    RIGHT:
+    - PAGE:4
+- lines:
+  - content: '&b&lYearly Wins &7(4v4)'
+    height: 0.3
+  - content: '&8Data in %server_time_yyyy%'
+    height: 0.3
+  - content: '&e1. %ajlb_lb_groupstats_4v4_wins_1_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_1_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_1_yearly_value%'
+    height: 0.3
+  - content: '&e2. %ajlb_lb_groupstats_4v4_wins_2_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_2_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_2_yearly_value%'
+    height: 0.3
+  - content: '&e3. %ajlb_lb_groupstats_4v4_wins_3_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_3_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_3_yearly_value%'
+    height: 0.3
+  - content: '&e4. %ajlb_lb_groupstats_4v4_wins_4_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_4_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_4_yearly_value%'
+    height: 0.3
+  - content: '&e5. %ajlb_lb_groupstats_4v4_wins_5_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_5_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_5_yearly_value%'
+    height: 0.3
+  - content: '&e6. %ajlb_lb_groupstats_4v4_wins_6_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_6_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_6_yearly_value%'
+    height: 0.3
+  - content: '&e7. %ajlb_lb_groupstats_4v4_wins_7_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_7_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_7_yearly_value%'
+    height: 0.3
+  - content: '&e8. %ajlb_lb_groupstats_4v4_wins_8_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_8_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_8_yearly_value%'
+    height: 0.3
+  - content: '&e9. %ajlb_lb_groupstats_4v4_wins_9_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_9_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_9_yearly_value%'
+    height: 0.3
+  - content: '&e10. %ajlb_lb_groupstats_4v4_wins_10_yearly_suffix%%ajlb_lb_groupstats_4v4_wins_10_yearly_name%
+      &7- &b%ajlb_lb_groupstats_4v4_wins_10_yearly_value%'
+    height: 0.3
+  - content: '&aYearly &7Daily &7Weekly'
+    height: 0.3
+  - content: '&l&c◄ &3■ &3■ &3■ &b◈ &c►'
+    height: 0.3
+  actions:
+    LEFT:
+    - PAGE:3
+    RIGHT:
+    - PAGE:1
+permission: leaderboards.4v4

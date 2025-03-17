@@ -1,0 +1,247 @@
+menu_title: 'RankColor'
+open_command:
+  - rankcolor
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: rankcolor.use
+      deny_commands:
+       - "[message] &6You must have &bMVP&c+ &6to use this feature!" 
+size: 54
+update_interval: 1
+items:
+  red-unlocked:
+    material: banner
+    data: 1
+    slot: 10
+    display_name: '&aRed MVP+ Rank Color'
+    lore:
+    - '&7Select the default MVP+ Rank Color'
+    - ''
+    - '&eClick to select!'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rankcolor.use'
+    priority: 2
+    hide_attributes: true
+    left_click_commands:
+    - '[console] lp user %player_name% meta clear'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+    right_click_commands: 
+    - '[console] lp user %player_name% meta clear'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+  red-selected:
+    material: banner
+    data: 1
+    slot: 10
+    display_name: '&aRed MVP+ Rank Color'
+    lore:
+    - '&7The default color for &bMVP&c+'
+    - ''
+    - '&aCurrently selected!'
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%luckperms_prefix%"
+          output: "&b[MVP&c+&b]"
+    priority: 1
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    
+  gold-unlocked:
+    material: banner
+    data: 14
+    slot: 11
+    display_name: '&aGold MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to gold, making it &b[MVP&6+&b]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&eClick to select'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rankcolor.use'
+    priority: 2
+    hide_attributes: true
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&6+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+    right_click_commands: 
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&6+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+  gold-selected:
+    material: banner
+    data: 14
+    slot: 11
+    display_name: '&aGold MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to gold, making it &b[MVP&6+]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&aCurrently selected!'
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%luckperms_prefix%"
+          output: "&b[MVP&6+&b]"
+    priority: 1
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    
+  green-unlocked:
+    material: banner
+    data: 10
+    slot: 12
+    display_name: '&aGreen MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to green, making it &b[MVP&a+&b]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&eClick to select'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rankcolor.use'
+    priority: 2
+    hide_attributes: true
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&a+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+    right_click_commands: 
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&a+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+  green-selected:
+    material: banner
+    data: 10
+    slot: 12
+    display_name: '&aGreen MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to green, making it &b[MVP&a+&b]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&aCurrently selected!'
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%luckperms_prefix%"
+          output: "&b[MVP&a+&b]"
+    priority: 1
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    
+  yellow-unlocked:
+    material: banner
+    data: 11
+    slot: 13
+    display_name: '&aYellow MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to yellow, making it &b[MVP&e+&b]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&eClick to select'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: 'rankcolor.use'
+    priority: 2
+    hide_attributes: true
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&e+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+    right_click_commands: 
+    - '[console] lp user %player_name% meta setprefix 4 &b[MVP&e+&b]'
+    - '[message] &aSucessfully set MVP+ Rank Color!'
+    - '[close]'
+  yellow-selected:
+    material: banner
+    data: 11
+    slot: 13
+    display_name: '&aYellow MVP+ Rank Color'
+    lore:
+    - '&7Change the color of the rank %luckperms_prefix%'
+    - '&7to yellow, making it &b[MVP&e+&b]'
+    - ''
+    - '&7Shown in tab list also when chatting'
+    - '&7and joining lobbies.'
+    - ''
+    - '&aCurrently selected!'
+    view_requirement:
+      requirements:
+        permission:
+          type: string equals
+          input: "%luckperms_prefix%"
+          output: "&b[MVP&e+&b]"
+    priority: 1
+    hide_attributes: true
+    left_click_commands:
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    right_click_commands: 
+    - '[message] &aYou already have that color selected.'
+    - '[close]'
+    
+  close:
+    material: BARRIER
+    slot: 49
+    display_name: '&cClose'
+    left_click_commands: 
+    - '[close]'
+    right_click_commands: 
+    - '[close]'
+    
+  back:
+    material: ARROW
+    slot: 48
+    display_name: '&cReturn'
+    left_click_commands: 
+    - '[player] profile'
+    right_click_commands: 
+    - '[player] profile'
+    

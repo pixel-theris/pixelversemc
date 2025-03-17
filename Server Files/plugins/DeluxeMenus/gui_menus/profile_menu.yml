@@ -1,0 +1,207 @@
+menu_title: '&8Your Profile'
+open_command:
+- profile
+size: 54
+update_interval: 1
+items:
+      seperator:
+        material: stained_glass_pane
+        data: 1
+        priority: 99
+        display_name: '&r'
+        slots:
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      profile:
+        material: head-%player_name%
+        slot: 4
+        display_name: '%luckperms_prefix% %player_name% %luckperms_suffix%'
+        lore:
+        - '&8 ▪ &fCoins: &6%vault_eco_balance_fixed%⛁'
+        - '&8 ▪ &fLevel: %bw2023_player_level%'
+        - ''
+        - '&7Online Status: &bOnline'
+        left_click_commands: []
+        right_click_commands: []
+
+      rewards: 
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJlOTA2ZWVmMDE5ODEwMzg2ZTJiYjY5YTk3NDBlZDk1ODFkYTdlMzI2NmQzYTJiMGIwNGIyZTBkZGVkMzMzMCJ9fX0=' 
+        slot: 20 
+        display_name: '&6DeliveryMan' 
+        lore: 
+        - '&7Loot your boxes to get'
+        - '&7mysteryboxes according to your rank!'
+        - ''
+        - '&eClick to View!'
+        left_click_commands:
+        - '[player] dm menu'
+        right_click_commands:
+        - '[player] dm menu' 
+
+      chatcolor:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRkYTJhODg0MmY5ZGFjY2M4OTcxN2E0YmMxM2Q2Mjk3NzlkYTNjMWY3YmNkZTZjNGJjNWFlNzhkYTJmMmY1NiJ9fX0='
+        slot: 21
+        display_name: '&6Chat Color'
+        lore:
+        - '&7Choose the color of your'
+        - '&7messages on the server.'
+        - ''
+        - '&8 ▪ &6Included with &a[VIP] &6Rank'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] cc'
+        right_click_commands:
+        - '[player] cc'
+
+      support:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJmYTBhMThiZDMxYzFhOThkZWVjZTViYjM3NzMzOGZiMThhYjBjMjI3YzZmMzZjNTBhNjE1YWU3ODQ5MmJmIn19fQ=='
+        data: 3
+        slot: 22
+        display_name: '&aSupport'
+        lore:
+        - '&7For Server Support &'
+        - '&7Bug Reports visit:'
+        - '&ewww.cxstudios.in'
+        
+      status:
+        material: 'PAPER'
+        slot: 23
+        display_name: '&6Status Tags'
+        lore:
+        - '&7Here you can choose a title'
+        - '&7that goes above your name'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] statustags'
+        right_click_commands:
+        - '[player] statustags'
+
+      lobby-settings:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU1MWEyYzVjYjdmMzdlMWRlZDkzZDAwZWUyN2FhZTU3OTA1YTY4OTI1OGZhZjc1MTAyZjU2YjMwMDExZTg2NyJ9fX0='
+        slot: 24
+        data: 3
+        display_name: '&6Lobby Settings'
+        lore:
+        - '&7Change your experience'
+        - '&7in this lobby!'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] lobbysettings'
+        right_click_commands:
+        - '[player] lobbysettings'
+
+      bedwars:
+        material: potion
+        data: 8193
+        slot: 29
+        display_name: '&aBed Wars Leveling'
+        lore:
+        - '&7Playing Bed Wars'
+        - '&7will reward you with &3Bed Wars Experience&7.'
+        - '&7which is required to level up and'
+        - '&7acquire new prestiges and rewards!'
+        - ''
+        - '&3Bed Wars Level &a%bw2023_player_level_raw%&8%bw2023_player_progress% &3%bw2023_player_xp%&7/&e%bw2023_player_rerq_xp%'
+        left_click_commands: []
+        right_click_commands: []
+
+      stats:
+        material: BED
+        slot: 30
+        display_name: '&bBedwars Stats'
+        lore:
+        - '&7Here you will find all your'
+        - '&7stats of your Bedwars profile.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] bw stats'
+        right_click_commands:
+        - '[player] bw stats'
+
+      mvp-color:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ4ZTkzYWU4MjI1OTY3NWFmYjAxNjE0ODljYWVlNDE4YmJjNTBhMjcwNGNmYTEzODE2YWQ2ZGJkZDM4YmJhMCJ9fX0='
+        slot: 31
+        display_name: '&6MVP+ Rank Color'
+        lore:
+        - '&7Players ranked &bMVP&c+'
+        - '&7can unlock and switch the'
+        - '&7color or their +,'
+        - ''
+        - '&eClick to change!'
+        left_click_commands: 
+        - '[player] rankcolor'
+        right_click_commands:
+        - '[player] rankcolor'
+
+      bwc:
+        material: emerald
+        slot: 32
+        display_name: '&6Cosmetics'
+        lore:
+        - '&7Improve your bedwars'
+        - '&7style by using our cosmetics.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands: 
+        - '[player] bwc menu'
+        right_click_commands:
+        - '[player] bwc menu'
+
+      social:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3NDVhMDZmNTM3YWVhODA1MDU1NTkxNDllYTE2YmQ0YTg0ZDQ0OTFmMTIyMjY4MThjMzg4MWMwOGU4NjBmYyJ9fX0='
+        slot: 33
+        display_name: '&aSocial Media'
+        lore:
+        - '&7Click to edit your Social'
+        - '&7Media links.'
+        left_click_commands:
+        - '[player] bettersocial edit'
+        right_click_commands:
+        - '[player] bettersocial edit'
+
+      gamemenu:
+        material: compass
+        slot: 40
+        display_name: '&bGameMenu'
+        lore:
+        - '&7Choose between our variety'
+        - '&7of games with our gui.'
+        left_click_commands:
+        - '[player] gamemenu'
+        right_click_commands:
+        - '[player] gamemenu'
+        
+      SERVER-STORE:
+        material: GOLD_INGOT
+        slot: 53
+        enchantments:
+        - 'SILK_TOUCH;1'
+        display_name: '&aServer Store'
+        lore:
+        - '&7View the Server Store from'
+        - '&7right here in-game!'
+        - ''
+        - '&7Your Server Gold: &6%vault_eco_balance_fixed%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[message] &bVisit our store: &ehttps://cxstudios.in/'
+        - '[close]'
+        right_click_commands:
+        - '[message] &bVisit our store: &ehttps://cxstudios.in/'
+        - '[close]'
