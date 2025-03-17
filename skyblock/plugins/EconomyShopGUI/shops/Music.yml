@@ -1,0 +1,27 @@
+pages:
+  page1:
+    items:
+      example-item:
+        material: STICK
+        lore:
+        - '&4This example item'
+        - '&4was added to shop'
+        - '&4because the shops.yml config'
+        - '&4did not contain section &cMusic'
+        displayname: '&c&lExample power stick'
+        buy: 1234
+        sell: 123
+        stack-size: 2
+        name: '&c&lPower stick v2'
+        slot: 5
+        enchantments:
+        - KNOCKBACK:2
+        - SHARPNESS:5
+        - FIRE_ASPECT:5
+        - BANE_OF_ARTHROPODS:5
+        - SMITE:5
+        - UNBREAKING:3
+        - LOOTING:5
+        - MENDING
+        - SWEEPING_EDGE:3
+        hidePricingLore: true

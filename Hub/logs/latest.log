@@ -65,3 +65,161 @@
 [16:29:14] [Server thread/INFO]: 
 [16:29:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
 [16:29:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:29:15] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:29:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:29:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1646ms)
+[16:29:15] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:29:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:29:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:29:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:29:16] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:29:16] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[16:29:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:29:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:29:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:29:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:29:16] [Server thread/INFO]: Preparing level "world"
+[16:29:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:29:16] [Server thread/INFO]: Time elapsed: 4 ms
+[16:29:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:29:17] [Server thread/INFO]: Time elapsed: 982 ms
+[16:29:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[16:29:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.5-1.20.6 (766)
+[16:29:18] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:29:18] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:29:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[16:29:18] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.4
+[16:29:18] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[16:29:18] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[16:29:18] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[16:29:18] [Server thread/INFO]: [DeluxeHub] 
+[16:29:18] [Server thread/INFO]: [DeluxeHub] Version: 3.5.4
+[16:29:18] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[16:29:18] [Server thread/INFO]: [DeluxeHub] 
+[16:29:18] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[16:29:18] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[16:29:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[16:29:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[16:29:19] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[16:29:19] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
+[16:29:19] [Server thread/INFO]: [DeluxeHub] 
+[16:29:19] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 1110ms
+[16:29:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[16:29:19] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:29:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:29:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:29:20] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[16:29:20] [Server thread/INFO]: [Essentials] Using locale en
+[16:29:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:29:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:29:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:29:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:29:20] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[16:29:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.20.6! Trying to find NMS support
+[16:29:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R4' loaded!
+[16:29:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[16:29:21] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[16:29:21] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[16:29:21] [Server thread/INFO]: [TAB] Loaded NMS hook in 650ms
+[16:29:22] [Server thread/INFO]: [TAB] Enabled in 613ms
+[16:29:22] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[16:29:22] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:29:22] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[16:29:22] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:29:22] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.17.0
+[16:29:22] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.17.0 is loading...
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]       [server: 1.20.6-151-a4f0f5c (MC: 1.20.6)]
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]             Date Modified: 12 January 2025
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]                            
+[16:29:22] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_20_R4
+[16:29:22] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[16:29:23] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[16:29:23] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[16:29:24] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 73ms)
+[16:29:24] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:29:25] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[16:29:25] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[16:29:25] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[16:29:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[16:29:25] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[16:29:25] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3751)
+[16:29:25] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[16:29:25] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[16:29:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[16:29:25] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[16:29:27] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:29:27] [Server thread/INFO]: Running delayed init tasks
+[16:29:27] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:29:27] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:29:27] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[16:29:27] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:29:27] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[16:29:27] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[16:29:27] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:29:27] [Craft Scheduler Thread - 6 - GadgetsMenu/INFO]: [GadgetsMenu] No update was found, you are running the latest version.
+[16:29:27] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: [DecentHolograms] Loaded 1 holograms!
+[16:29:27] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[16:29:28] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[16:29:28] [Server thread/INFO]: Done (20.635s)! For help, type "help"
+[16:29:28] [Server thread/INFO]: Timings Reset
+[16:33:52] [User Authenticator #0/INFO]: UUID of player ysyyayyyayya is 6cd4e570-7a49-3521-8e89-4b4b5c6269c5
+[16:33:52] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[16:33:52] [Server thread/INFO]: + ysyyayyyayya Connected
+[16:33:52] [Server thread/INFO]: ysyyayyyayya[/127.0.0.1:54080] logged in with entity id 42 at ([world]242.5676863196855, 63.0, 1348.5389572713696)
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|GetDomain
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Voice-1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|UpdateCert-1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-RPC
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Skins-1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|1.8-Ready
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|FNAWSEn-1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring plugin channel in serverbound REGISTER: EAG|Capes-1.8
+[16:33:53] [Netty Epoll Server IO #1/WARN]: [ViaVersion] (1.13->1.12.2) Ignoring serverbound plugin message with channel: EAG|1.8-Ready
+[16:42:25] [Server thread/INFO]: Stopping the server
+[16:42:25] [Server thread/INFO]: Stopping server
+[16:42:25] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3751)
+[16:42:25] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.17.0
+[16:42:25] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[16:42:25] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[16:42:25] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[16:42:25] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[16:42:25] [Server thread/INFO]: [TAB] Disabled in 10ms
+[16:42:25] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.5.2
+[16:42:25] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[16:42:25] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[16:42:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:42:25] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[16:42:25] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.4
+[16:42:26] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:42:26] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[16:42:26] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:42:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[16:42:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:42:26] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:42:26] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:42:26] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[16:42:26] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:42:26] [Server thread/INFO]: Saving players
+[16:42:26] [Server thread/INFO]: ysyyayyyayya lost connection: Server closed
+[16:42:26] [Server thread/INFO]: ysyyayyyayya left the game
+[16:42:26] [Server thread/INFO]: Saving worlds
+[16:42:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[16:42:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:42:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:42:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:42:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:42:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:42:26] [Server thread/INFO]: Flushing Chunk IO
+[16:42:26] [Server thread/INFO]: Closing Thread Pool
+[16:42:26] [Server thread/INFO]: Closing Server

@@ -77,6 +77,7 @@ lobby = "localhost:25565"
 bedwars18 = "localhost:8666"
 bedwars = "localhost:25567"
 minigames = "localhost:25566"
+skyblock = "localhost:25568"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
@@ -99,6 +100,9 @@ try = [
 ]
 "sig.example.com" = [
     "bedwars18"
+]
+"sigt.example.com" = [
+    "skyblock"
 ]
 
 [advanced]
