@@ -26,11 +26,13 @@ npc:
     # How often to repathfind when targeting a dynamic target such as an entity
     update-path-rate: 1s
     # The default pathfinding range in blocks
-    # Shouldn't be set too high to avoid lag - try pathfinding in sections instead
+    # Shouldn't be set too high to avoid lag - try pathfinding in shorter segments instead
     default-range-blocks: 75.0
     # The distance in blocks where the NPC will switch to walking straight towards the target instead of pathfinding
     # Currently only for dynamic targets like entities
     straight-line-targeting-distance: 5
+    # The default action to perform when NPCs are unable to find a path or are stuck in the same block for too long
+    # Supported options are: 'teleport to destination' or 'none'
     default-stuck-action: none
     # Minecraft will pick a 'close-enough' location when pathfinding to a block if it can't find a direct path
     # Disabled by default
@@ -39,10 +41,10 @@ npc:
     maximum-visited-blocks: 1024
     # The range in blocks before attacking the target
     attack-range: 1.75
-    # The default allowed maximum fall distance when pathfinding, set to -1 to use the Minecraft value
+    # The default allowed maximum fall distance when pathfinding, set to -1 to use the default value
     allowed-fall-distance: -1
     # Whether to use the Citizens pathfinder instead of the Minecraft pathfinder
-    # Much more flexible, but may have different performance characteristics
+    # Much more flexible, but may have different performance to Minecraft's pathfinder
     use-new-finder: false
     # Debug pathfinding by showing fake target blocks
     debug-paths: false
@@ -54,6 +56,8 @@ npc:
       disable-fallback-navigation: true
       # The maximum number of blocks to check
       max-visited-blocks: 1024
+    # Debug pathfinding by showing fake target blocks
+    debug: false
   default:
     # The default bossbar range, in blocks
     bossbar-view-range: 64
@@ -89,6 +93,8 @@ npc:
     spawn-nodamage-duration: 1s
     # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
     stationary-duration: -1
+    # Whether to reset NPC yaw on spawn
+    # Currently this is implemented by an arm swing animation due to Minecraft limitations
     reset-yaw-on-spawn: true
     # Default duration of invincibility on entity spawn, Minecraft default is 20 ticks
     spawn-invincibility-duration: 1s
@@ -127,6 +133,7 @@ npc:
     # Default distance between hologram lines
     default-line-height: 0.4
     use-display-entities: false
+    # Whether to always update the hologram position every tick
     always-update-position: false
     # How often to update hologram names (including placeholders)
     update-rate: 1s
@@ -136,7 +143,9 @@ npc:
     # The default renderer for holograms, must be one of the following:
     # interaction - matches inbuilt nametags most closely
     # display - allows for different colored backgrounds
-    # armorstand - creates an armorstand and teleports it to the player
+    # display_vehicle - mounts the display on the NPC
+    # armorstand - the safest option, very very small hit to client FPS compared to other options
+    # armorstand_vehicle - mounts the armorstand on the NPC
     default-renderer: display
     default-name-renderer: ''
   limits:
@@ -168,11 +177,15 @@ npc:
     player-join-update-delay: 1s
     # How many times to try load NPC skins (due to Minecraft rate-limiting skin requests, should rarely be less than 5
     max-retries: -1
+    # Whether to try and look for the player skin for all new NPCs
+    # If this is set to false and you create an NPC named Dinnerbone, the NPC will have the default (steve/alex/etc) skin rather than trying to fetch the Dinnerbone skin
     try-fetch-default-skin: true
     # How long before retrying skin requests (typically due to Mojang rate limiting)
     retry-delay: 5s
     rotation-update-degrees: 90.0
+    # Whether to fetch new skins from Minecraft every so often
     use-latest-by-default: false
+    # View distance in blocks
     view-distance: 100.0
     # How often to update placeholders
     placeholder-update-frequency: 5m
@@ -242,7 +255,7 @@ general:
     # Whether to hook into ProtocolLib
     protocollib: true
   translation:
-    # Controls translation files - defaults to your system language, set to en if English required
+    # Controls translation files - defaults to your system language, set to 'en' if English required
     locale: ''
   # The resource pack path to save resource packs to
   resource-pack-path: plugins/Citizens/resourcepack

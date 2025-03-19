@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742234787447
+  lastteleport: 1742394646257
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742235027555
-  login: 1742234308265
+  logout: 1742395003645
+  login: 1742394640949
 money: '0'
 last-account-name: ysyyayyyayya
 lastlocation:
-  world: bbb2403f-161c-457c-8f1f-6313e6b80774
-  world-name: spawn
-  x: -0.17070075999057016
-  y: 96.0
-  z: -10.991623587683977
-  yaw: -10.811279296875
-  pitch: 9.449995040893555
+  world: 60768451-c7fc-4ed6-ba97-036858d5122e
+  world-name: SuperiorWorld
+  x: 1202.8516289927936
+  y: 104.22488755500763
+  z: 601.7496940540187
+  yaw: -153.41505432128906
+  pitch: 21.140338897705078
 logoutlocation:
   world: 60768451-c7fc-4ed6-ba97-036858d5122e
   world-name: SuperiorWorld
-  x: 1204.745366506927
+  x: 1204.5830170933812
   y: 100.0
-  z: 600.4578850426819
-  yaw: -94.91500854492188
-  pitch: 21.29033851623535
+  z: 601.3033304376605
+  yaw: 43.08502197265625
+  pitch: 72.89034271240234
