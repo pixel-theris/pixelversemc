@@ -24,3 +24,7 @@ chmod +x limbo.sh
 chmod +x bedwars18.sh
 
 ./bedwars18.sh
+
+chmod +x skyblock.sh
+
+./skyblock.sh

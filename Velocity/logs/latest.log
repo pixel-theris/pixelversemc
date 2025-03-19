@@ -1,324 +1,81 @@
-[16:33:27] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
-[16:33:27] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[16:33:27] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
-[16:33:27] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[16:33:27] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
-[16:33:27] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
-[16:33:28] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[16:33:28] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
-[16:33:28] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
-[16:33:28] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
-[16:33:28] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
-[16:33:28] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
-[16:33:28] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
-[16:33:28] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
-[16:33:28] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[16:33:28] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
-[16:33:29] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 1.06s)
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
-[16:33:30] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
-[16:33:30] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
-[16:33:30] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.36s)!
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
-[16:33:35] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[16:33:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34918]: Connected via websocket
-[16:33:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:34918]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
-[16:33:46] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918) has connected
-[16:33:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
-[16:33:51] [nLogin - Task Executor #1/INFO] [nlogin]: The user ysyyayyyayya has successfully logged in.
-[16:33:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has connected
-[16:33:52] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
-[16:34:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[16:34:03] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[16:34:03] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): disconnected while connecting to skyblock: Outdated client! Please use 1.21.1
-[16:36:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[16:36:57] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@126aad0b
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:36:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[16:36:57] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): unable to connect to server skyblock
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:37:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[16:37:02] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@480d4aff
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:37:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[16:37:02] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): unable to connect to server skyblock
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:38:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
-[16:38:18] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock: exception encountered in com.velocitypowered.proxy.connection.backend.LoginSessionHandler@1a8be96
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:38:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
-[16:38:18] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): unable to connect to server skyblock
-java.lang.IllegalStateException: Backend server is online-mode!
-	at com.velocitypowered.proxy.connection.backend.LoginSessionHandler.handle(LoginSessionHandler.java:79) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.packet.EncryptionRequestPacket.handle(EncryptionRequestPacket.java:94) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.connection.MinecraftConnection.channelRead(MinecraftConnection.java:153) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.AutoReadHolderHandler.channelRead(AutoReadHolderHandler.java:57) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.tryDecode(MinecraftDecoder.java:91) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at com.velocitypowered.proxy.protocol.netty.MinecraftDecoder.channelRead(MinecraftDecoder.java:60) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:289) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:799) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:42:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): kicked from server lobby: Server closed
-[16:42:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has disconnected
-[16:42:26] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918): unable to connect to server login
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /127.0.0.1:65535
-Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.4.0-SNAPSHOT (git-c9aa1cca-b480)]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:42:26] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:34918) has disconnected: Unable to connect you to login. Please try again later.
-[16:42:30] [Thread-6/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[16:42:30] [Thread-6/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25765
-[16:42:30] [EaglercraftXVelocity - Task Executor #6/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
-[16:42:30] [EaglercraftXVelocity - Task Executor #6/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
-[16:42:30] [EaglercraftXVelocity - Task Executor #6/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
+[17:54:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-c9aa1cca-b480)...
+[17:54:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[17:54:12] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[17:54:13] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[17:54:13] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[17:54:21] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[17:54:22] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[17:54:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
+[17:54:24] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
+[17:54:24] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
+[17:54:24] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[17:54:24] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[17:54:25] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[17:54:25] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[17:54:26] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[17:54:26] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[17:54:33] [EaglercraftXVelocity - Task Executor #0/WARN] [nlogin]: Awaiting remote response from api.nickuc.com...
+[17:54:37] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 7.69s)
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
+[17:54:38] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[17:54:40] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25765
+[17:54:40] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (38.92s)!
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[17:54:45] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[17:58:04] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:52094]: Connected via websocket
+[17:58:04] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1]:52094]: Origin header is https://nolanderlauncherdelta-ozj8.vercel.app
+[17:58:05] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:52094) has connected
+[17:58:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has connected
+[17:58:12] [nLogin - Task Executor #2/INFO] [nlogin]: The user ysyyayyyayya has successfully logged in.
+[17:58:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has connected
+[17:58:13] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> login has disconnected
+[17:58:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has connected
+[17:58:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> lobby has disconnected
+[18:10:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ysyyayyyayya (/[0:0:0:0:0:0:0:1]:52094) has disconnected
+[18:10:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ysyyayyyayya -> skyblock has disconnected
+[18:11:02] [Thread-6/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[18:11:02] [Thread-6/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25765
+[18:11:02] [EaglercraftXVelocity - Task Executor #11/INFO] [eaglerxvelocity]: Eaglercraft listener closed: /0.0.0.0:8081
+[18:11:02] [EaglercraftXVelocity - Task Executor #11/INFO] [eaglerxvelocity]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[18:11:02] [EaglercraftXVelocity - Task Executor #11/INFO] [eaglerxvelocity]: Stopping skin cache HTTP client...
+[18:11:02] [EaglercraftXVelocity - Task Executor #11/INFO] [nlogin]: Successful plugin core shutdown (took 0.00s)
