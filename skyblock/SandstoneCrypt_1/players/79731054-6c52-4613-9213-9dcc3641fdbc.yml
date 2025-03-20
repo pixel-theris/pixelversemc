@@ -1,0 +1,25 @@
+RewardsInfo:
+  ==: net.playavalon.mythicdungeons.dungeons.rewards.PlayerLootData
+  Player: SandTinx
+  UUID: 79731054-6c52-4613-9213-9dcc3641fdbc
+  Loot:
+  - ==: net.playavalon.mythicdungeons.dungeons.rewards.LootCooldown
+    LootedTime: 1655841550394
+    LootLocation:
+      ==: org.bukkit.Location
+      x: -46.0
+      y: 17.0
+      z: -51.0
+      pitch: 0.0
+      yaw: 0.0
+    ResetTime: 1655841550394
+  - ==: net.playavalon.mythicdungeons.dungeons.rewards.LootCooldown
+    LootedTime: 1655842183794
+    LootLocation:
+      ==: org.bukkit.Location
+      x: 121.0
+      y: 17.0
+      z: -26.0
+      pitch: 0.0
+      yaw: 0.0
+    ResetTime: 1655842183794

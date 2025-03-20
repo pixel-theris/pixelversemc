@@ -1,0 +1,8 @@
+StoredExitLocation:
+  ==: org.bukkit.Location
+  world: spawn
+  x: -70.77805514792391
+  y: 85.0
+  z: 107.37671211205769
+  pitch: 18.588278
+  yaw: 65.56369

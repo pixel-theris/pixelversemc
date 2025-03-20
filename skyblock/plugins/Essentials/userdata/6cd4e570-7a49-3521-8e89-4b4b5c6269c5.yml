@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742394646257
+  lastteleport: 1742408594637
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742395003645
-  login: 1742394640949
+  logout: 1742409020427
+  login: 1742408521586
 money: '0'
 last-account-name: ysyyayyyayya
 lastlocation:
-  world: 60768451-c7fc-4ed6-ba97-036858d5122e
-  world-name: SuperiorWorld
-  x: 1202.8516289927936
-  y: 104.22488755500763
-  z: 601.7496940540187
-  yaw: -153.41505432128906
-  pitch: 21.140338897705078
+  world: bbb2403f-161c-457c-8f1f-6313e6b80774
+  world-name: spawn
+  x: 7.449851319697843
+  y: 96.0
+  z: -2.1592877956855276
+  yaw: -134.20162963867188
+  pitch: 4.935127258300781
 logoutlocation:
-  world: 60768451-c7fc-4ed6-ba97-036858d5122e
-  world-name: SuperiorWorld
-  x: 1204.5830170933812
-  y: 100.0
-  z: 601.3033304376605
-  yaw: 43.08502197265625
-  pitch: 72.89034271240234
+  world: 03762214-3091-4353-aae2-5a99760e4d6c
+  world-name: SandstoneCrypt_1
+  x: 106.42320477296629
+  y: 19.424023771496653
+  z: -26.678849457508726
+  yaw: -71.24885559082031
+  pitch: 19.04996109008789

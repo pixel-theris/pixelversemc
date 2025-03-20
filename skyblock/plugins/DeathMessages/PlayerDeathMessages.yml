@@ -197,6 +197,7 @@ Natural-Cause:
   World-Border:
   - '%player% left the confines of this world'
   # Hook related deaths
+  # Hook related deaths
   CombatLogX-Kill:
   - '%player% wants to escape reality, but was still sent to another dimension -.-'
   Unknown:
@@ -1312,7 +1313,6 @@ Mobs:
       Melee:
       - '%player% was slain by a bunch of %killer%''s'
   # 1.17
-  # 1.17
   goat:
     Solo:
       Melee:
@@ -1320,7 +1320,6 @@ Mobs:
     Gang:
       Melee:
       - '%player% was knocked by a bunch of %killer%''s'
-  # 1.19
   # 1.19
   warden:
     Solo:
@@ -1333,7 +1332,6 @@ Mobs:
       - '%player% was slain by a bunch of %killer%''s'
       Sonic-Boom:
       - '%player% was obliterated by a bunch of sonically-charged shrieks'
-  # 1.21
   # 1.21
   bogged:
     Solo:
@@ -1389,7 +1387,6 @@ Mobs:
       - '%player% withered away from %killer%''s magic'
       Thorns:
       - '%player% tried playing with %killer%''s armor with thorns'
-      # Hook related deaths
       # Hook related deaths
       CombatLogX-Kill:
       - '%player% logged out during combat fighting %killer%, they died still -.-'
