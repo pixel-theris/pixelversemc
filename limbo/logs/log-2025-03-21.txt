@@ -1,0 +1,17 @@
+13:32:36.548 INFO  Limbo -- Starting server...
+13:32:37.513 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+13:38:35.475 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:55088) [V1_8]
+13:38:46.916 INFO  Limbo -- Player ysyyayyyayya disconnected
+13:38:50.219 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:57184) [V1_8]
+13:38:56.437 INFO  Limbo -- Player ysyyayyyayya disconnected
+13:42:07.839 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:60382) [V1_8]
+13:42:45.475 INFO  Limbo -- Player ysyyayyyayya disconnected
+13:44:00.233 INFO  Limbo -- Player Pingdaking8 connected (/127.0.0.1:51264) [V1_12_2]
+13:44:07.283 INFO  Limbo -- Player Pingdaking8 disconnected
+13:49:30.480 INFO  Limbo -- Player Pingdaking8 connected (/127.0.0.1:45326) [V1_12_2]
+13:49:35.568 INFO  Limbo -- Player Pingdaking8 disconnected
+13:49:56.873 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:48934) [V1_8]
+13:50:03.523 INFO  Limbo -- Player ysyyayyyayya disconnected
+13:59:08.111 INFO  Limbo -- Player ysyyayyyayya connected (/127.0.0.1:37384) [V1_8]
+13:59:15.489 INFO  Limbo -- Stopping server...
+13:59:15.489 INFO  Limbo -- Server stopped, Goodbye!

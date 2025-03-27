@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742408520684
-  login: 1742408510092
+  logout: 1742565008257
+  login: 1742565003551
 money: '0'
 last-account-name: ysyyayyyayya
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 2f992acc-ddc9-46cf-8ff9-182e3e5756c8
   world-name: world
-  x: 235.89067230930328
-  y: 62.0
-  z: 1343.2770228137629
-  yaw: 3.5000414848327637
-  pitch: 14.999991416931152
+  x: 242.5676863196855
+  y: 63.0
+  z: 1348.5389572713696
+  yaw: -179.94996643066406
+  pitch: -1.650008201599121
