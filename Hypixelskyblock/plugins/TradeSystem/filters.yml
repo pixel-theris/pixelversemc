@@ -1,9 +1,0 @@
-do:not:touch:this: default
-lore_filter:
-- Non-tradeable
-name_filter:
-- Small Backack
-- Medium Backpack
-- Large Backpack
-type_filter:
-- NETHER_STAR
