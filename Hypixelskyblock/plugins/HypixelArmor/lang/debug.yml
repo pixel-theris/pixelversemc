@@ -1,0 +1,28 @@
+gui-configuration-error:
+  - '&7The gui for that armor set is not configured properly, contact an admin and tell them to check the console.'
+
+only-players-accessible:
+  - '&7Only players can use that command, please go in-game and try again.'
+
+insufficient-permission: []
+
+target-not-online:
+  - '&7The target player must be online in order to complete that action.'
+
+invalid-amount:
+  - '&7Please enter a valid amount, this must be an integer.'
+
+invalid-piece:
+  - '&7Please enter a valid armor piece, &7&o((&6&ohelmet&7&o, &6&ochestplate&7&o, &6&oleggings&7&o, &6&oboots&7&o, &6&ohand&7&o, &6&oall&7&o)).'
+
+invalid-number-of-arguments:
+  - '&7The number of arguments you entered is incorrect.'
+
+invalid-command:
+  - '&7The command you entered does not exist.'
+
+invalid-set:
+  - '&7The set you entered does not exist, please review your sets folder for active sets.'
+
+piece-does-not-exist:
+  - '&7That armor piece has not been configured for that set.'

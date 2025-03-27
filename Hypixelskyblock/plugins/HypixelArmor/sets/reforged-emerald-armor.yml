@@ -1,0 +1,252 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills give defense {player} 80
+      - usbc skills give health {player} 40
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills remove defense {player} 80
+      - usbc skills remove health {player} 40
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 65
+      remove:
+        - usbc skills remove defense {player} 65
+    name: '&9Reforged Emerald Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+50 &8(+15 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 115
+      remove:
+        - usbc skills remove defense {player} 115
+    name: '&9Reforged Emerald Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+100 &8(+15 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 90
+      remove:
+        - usbc skills remove defense {player} 90
+    name: '&9Reforged Emerald Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+75 &8(+15 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 60
+      remove:
+        - usbc skills remove defense {player} 60
+    name: '&9Reforged Emerald Boots'
+    item: leather_boots
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+45 &8(+15 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&9Reforged Emerald Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+50 &8(+15 Reforged)'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&9Reforged Emerald Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+100 &8(+15 Reforged)'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&9Reforged Emerald Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+75 &8(+15 Reforged)'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&9Reforged Emerald Boots'
+    item: leather_boots
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+45 &8(+15 Reforged)'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+40 HP&7.'
+      - '&8&4'
+      - '&9&lRARE BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

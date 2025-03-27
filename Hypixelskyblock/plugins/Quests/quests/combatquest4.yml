@@ -1,0 +1,31 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 1
+    mob: ZOMBIE
+display:
+  name: "&aCombat Quest"
+  lore-normal:
+  - "&7Objective:&r &fKill 1 lapis zombie."
+  - "&7Progress:&r &f{killing:progress}/1 lapis zombie."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.kill-a-lapis-zombie true"
+  - "customplaceholders set {player} mission_mine &eAccess_the_Diamond_Sanctuary"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fKill a lapis zombie"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &a&lREWARDS"
+  - "whisper {player} &7    &aLapis Chestplate"
+  - "whisper {player} &7"
+  - "a+ give lapis-armor {player} chestplate"
+options:
+  category: "combat"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 4

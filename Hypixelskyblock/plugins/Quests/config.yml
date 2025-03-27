@@ -1,0 +1,186 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks on a category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  farming:
+    display:
+      name: '&aFarming'
+      lore: []
+      type: "BOOK"
+  mining:
+    display:
+      name: '&aMining'
+      lore: []
+      type: "BOOK"
+  foraging:
+    display:
+      name: '&aForaging'
+      lore: []
+      type: "BOOK"
+  combat:
+    display:
+      name: '&aCombat'
+      lore: []
+      type: "BOOK"
+  other:
+    display:
+      name: '&aOther'
+      lore: []
+      type: "BOOK"
+
+# The items listed below are placeholder items for quests which the player cannot start.
+gui:
+  back-button:
+    name: "&c&nReturn"
+    lore:
+    - "&7Return to the categories menu."
+    type: "BARRIER"
+  page-prev:
+    name: "&e&nPrevious Page"
+    lore:
+    - "&7Switch the page to page &e{prevpage}."
+    type: "ARROW"
+  page-next:
+    name: "&e&nNext Page"
+    lore:
+    - "&7Switch the page to page &e{nextpage}."
+    type: "ARROW"
+  page-desc:
+    name: "&6&nPage:&r &f#{page}"
+    lore:
+    - "&7You are currently viewing page &f{page}."
+    type: "PAPER"
+  quest-locked-display:
+    name: "&c&nQuest Locked"
+    lore:
+    - "&7You have not completed the requirements"
+    - "&7for this quest (&c{quest}&7)."
+    - ""
+    - "&7Requires: &c{requirements}"
+    - "&7to be completed to unlock."
+    type: "160:14"
+  quest-cooldown-display:
+    name: "&e&nCooldown"
+    lore:
+    - "&7You have recently completed this quest"
+    - "&7(&e{quest}&7) and you must"
+    - "&7wait another &e{time} &7to unlock again."
+    type: "160:1"
+  quest-completed-display:
+    name: "&a&nQuest Complete"
+    lore:
+    - "&7You have completed this quest"
+    - "&7(&a{quest}&7) and cannot."
+    - "&7repeat it."
+    type: "160:5"
+  quest-cancel-yes:
+    name: "&a&nConfirm"
+    lore:
+    - "&7Confirm you wish to cancel"
+    - "&7this quest and lose all"
+    - "&7progress."
+    type: "160:5"
+  quest-cancel-no:
+    name: "&c&nCancel"
+    lore:
+    - "&7Return to the quest menu."
+    type: "160:14"
+  quest-permission-display:
+    name: "&c&nNo Permission"
+    lore:
+    - "&7You do not have permission for this"
+    - "&7quest (&6{quest}&7)."
+    type: "160:14"
+
+options:
+  # If categories are disabled, quests will be put into one big gui.
+  categories-enabled: true
+  # If true, the gui size will automatically change based on the amount of quests inside it.
+  trim-gui-size: true
+  # Enable/disable titles
+  titles-enabled: false
+  # Players cannot start any more quests than this at a single time
+  quest-started-limit: 99
+  # Hide locked quests, quests on cooldown and completed (but not repeatable) quests
+  gui-hide-locked: false
+  # Allow players to cancel a quest
+  allow-quest-cancel: true
+  # Titles for the GUIs
+  guinames:
+    quests-category: "&nQuest Categories"
+    quests-menu: "&nQuests"
+    daily-quests: "&nDaily Quests"
+    quest-cancel: "&nCancellation"
+  # Show when quests register in console. Disable if you want less console spam at startup.
+  show-quest-registrations: false
+  # Hide quests which a player cannot start due to permissions.
+  gui-hide-quests-nopermission: true
+  # Hide categories which a player cannot open due to permissions.
+  gui-hide-categories-nopermission: true
+  # Make it so players do not have to start quest themselves
+  quest-autostart: false
+
+# This switches up the entire quest system.
+# By enabling daily-quests, players will no longer be presented with the standard Quest GUI.
+# Instead, they will be presented with 5 random quests.
+# The 'requirements' section in each quest does not apply here.
+# The 'cooldown' section in each quest does not apply here - if it's done, it's done (and will be repeatable next time they get the quest).
+# The 'repeatable' section in each quest does not apply here. It will NOT be repeatable until the next day.
+# Enabling this MAY cause previous quest progress to be modified, wiped or changed irreversibly! If you're testing this on a live server, it is wise to backup
+# the Quests/playerdata/ folder! You've been warned!
+#
+# Quests BETA: this feature is a work in progress, it does not work yet!
+daily-quests:
+  enabled: false
+
+# Configure titles
+titles:
+  quest-start:
+    title: ""
+    subtitle: ""
+  quest-complete:
+    title: ""
+    subtitle: ""
+
+# Configure messages
+messages:
+  quest-start: "This is a blank message"
+  quest-complete: "This is a blank message"
+  quest-cancel: "This is a blank message"
+  quest-start-limit: ""
+  quest-start-disabled: ""
+  quest-start-locked: "&c(!) You have not unlocked this quest yet."
+  quest-start-cooldown: "&c(!) You have recently completed this quest. You have to wait &7{time} &cuntil you are able to start it."
+  quest-start-started: "This is a blank message"
+  quest-start-permission: "&c(!) You do not have permission to start this quest."
+  quest-category-permission: "&c(!) You do not have permission to view this category."
+  quest-category-quest-permission: "&c(!) You do not have permission to start this quest since it is in a category you do not have permission to view."
+  quest-cancel-notstarted: "&c(!) You have not started this quest."
+  quest-updater: "&e(!) A new version &7{newver} &ewas found on Spigot. Update the plugin here: &7{link}"
+  command-quest-start-doesntexist: "&c(!) The quest &7{quest}&c does not exist."
+  command-category-open-disabled: "&c(!) Categories are currently disabled."
+  command-category-open-doesntexist: "&c(!) The specified category: &7{category}&c, does not exist."
+  command-quest-admin-playernotfound: "&c(!) &7{player}&c could not be found."
+  command-quest-openquests-admin-success: "&e(!) The quest inventory has been opened for &7{player}&e."
+  command-quest-opencategory-admin-success: "&e(!) The &7{category} &ehas been opened for &7{player}&e."
+  command-taskview-admin-fail: "&c(!) The task type &7{task}&c does not exist."
+  beta-reminder: "&e(!) You are using a beta version of the quest plugin. Please report any bugs you find."
+  command-quest-admin-loaddata: "&e(!) Quest data for &7{player}&e is being loaded."
+  command-quest-admin-nodata: "&c(!) No data could be found for &7{player}&c."
+  command-quest-admin-fullreset: "&a(!) Data for &7{player}&a has been reset."
+  command-quest-admin-start-faillocked: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have not yet unlocked it."
+  command-quest-admin-start-failcooldown: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. It is still on cooldown for them."
+  command-quest-admin-start-failcomplete: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have already completed it."
+  command-quest-admin-start-faillimit: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They have reached their quest start limit."
+  command-quest-admin-start-failstarted: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. It is already started."
+  command-quest-admin-start-failpermission: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They do not have permission."
+  command-quest-admin-start-failcategorypermission: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c. They do not have permission for the category which the quest is in."
+  command-quest-admin-start-failother: "&c(!) Quest &7{quest}&c could not be started for &7{player}&c."
+  command-quest-admin-start-success: "&a(!) Quest &7{quest} &ahas been started for &7{player}&a."
+  command-quest-admin-category-permission: "&c(!) Category &7{category} &ccould not be opened for &7{player}&c. They do not have permission to view it."
+  command-quest-admin-complete-success: "&a(!) Quest &7{quest} &acompleted for &7{player}&a."
+  command-quest-admin-reset-success: "&a(!) Successfully reset quest &7{quest}&a for &7{player}&a."
+

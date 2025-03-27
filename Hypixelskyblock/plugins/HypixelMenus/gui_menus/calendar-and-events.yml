@@ -1,0 +1,440 @@
+menu_title: 'Calendar, Year %mph_mytheriayear%'
+open_command: 'calendar'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-1:
+        material: PAPER
+        priority: 1
+        slot: 1
+        amount: 1
+        display_name: '&aDay 1'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      DAY-2:
+        material: PAPER
+        priority: 1
+        slot: 2
+        amount: 2
+        display_name: '&aDay 2'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-3:
+        material: PAPER
+        priority: 1
+        slot: 3
+        amount: 3
+        display_name: '&aDay 3'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      DAY-4:
+        material: PAPER
+        priority: 1
+        slot: 4
+        amount: 4
+        display_name: '&aDay 4'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      DAY-5:
+        material: PAPER
+        priority: 1
+        slot: 5
+        amount: 5
+        display_name: '&aDay 5'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-6:
+        material: PAPER
+        priority: 1
+        slot: 6
+        amount: 6
+        display_name: '&aDay 6'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-7:
+        material: PAPER
+        priority: 1
+        slot: 7
+        amount: 7
+        display_name: '&aDay 7'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-8:
+        material: PAPER
+        priority: 1
+        slot: 8
+        amount: 10
+        display_name: '&aDay 8'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      DAY-8:
+        material: PAPER
+        priority: 1
+        amount: 8
+        slot: 10
+        display_name: '&aDay 8'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-9:
+        material: PAPER
+        priority: 1
+        amount: 9
+        slot: 11
+        display_name: '&aDay 9'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-10:
+        material: PAPER
+        priority: 1
+        amount: 10
+        slot: 12
+        display_name: '&aDay 10'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-11:
+        material: PAPER
+        priority: 1
+        amount: 11
+        slot: 13
+        display_name: '&aDay 11'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-12:
+        material: PAPER
+        priority: 1
+        amount: 12
+        slot: 14
+        display_name: '&aDay 12'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-13:
+        material: PAPER
+        priority: 1
+        amount: 13
+        slot: 15
+        display_name: '&aDay 13'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-14:
+        material: PAPER
+        priority: 1
+        amount: 14
+        slot: 16
+        display_name: '&aDay 14'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-15:
+        material: PAPER
+        priority: 1
+        amount: 15
+        slot: 19
+        display_name: '&aDay 15'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-16:
+        material: PAPER
+        priority: 1
+        amount: 16
+        slot: 20
+        display_name: '&aDay 16'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-17:
+        material: PAPER
+        priority: 1
+        amount: 17
+        slot: 21
+        display_name: '&aDay 17'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-18:
+        material: PAPER
+        priority: 1
+        amount: 18
+        slot: 22
+        display_name: '&aDay 18'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-19:
+        material: PAPER
+        priority: 1
+        amount: 19
+        slot: 23
+        display_name: '&aDay 19'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-20:
+        material: PAPER
+        priority: 1
+        amount: 20
+        slot: 24
+        display_name: '&aDay 20'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-21:
+        material: PAPER
+        priority: 1
+        amount: 21
+        slot: 25
+        display_name: '&aDay 21'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-22:
+        material: PAPER
+        priority: 1
+        amount: 22
+        slot: 28
+        display_name: '&aDay 22'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-23:
+        material: PAPER
+        priority: 1
+        amount: 23
+        slot: 29
+        display_name: '&aDay 23'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-24:
+        material: PAPER
+        priority: 1
+        amount: 24
+        slot: 30
+        display_name: '&aDay 24'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-25:
+        material: PAPER
+        priority: 1
+        amount: 25
+        slot: 31
+        display_name: '&aDay 25'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-26:
+        material: PAPER
+        priority: 1
+        amount: 26
+        slot: 32
+        display_name: '&aDay 26'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-27:
+        material: PAPER
+        priority: 1
+        amount: 27
+        slot: 33
+        display_name: '&aDay 27'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-28:
+        material: PAPER
+        priority: 1
+        amount: 28
+        slot: 34
+        display_name: '&aDay 28'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-29:
+        material: PAPER
+        priority: 1
+        amount: 29
+        slot: 37
+        display_name: '&aDay 29'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-30:
+        material: PAPER
+        priority: 1
+        amount: 30
+        slot: 38
+        display_name: '&aDay 30'
+        lore:
+        - '&7No Events'
+        left_click_commands: []
+        right_click_commands: []
+
+      DAY-31:
+        material: cake
+        priority: 1
+        amount: 31
+        slot: 39
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        display_name: '&aDay 31 - New Month Celebration'
+        lore:
+        - '&7All players can purchase a'
+        - '&dCake of Celebration&7 to celebrate'
+        - '&7the start of a new month!'
+        - ''
+        - '&7Duration: &b3 hours'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

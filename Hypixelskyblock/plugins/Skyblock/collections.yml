@@ -1,0 +1,6864 @@
+collections:
+  wheat:
+    key: wheat
+    name: Wheat
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Wheat Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Bread &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Hay Bale &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Farmer Armor Helmet &7Recipe'
+        - '&7     &9Farmer Armor Chestplate &7Recipe'
+        - '&7     &9Farmer Armor Leggings &7Recipe'
+        - '&7     &9Farmer Armor Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFarming Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Farming Island &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Harvesting Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  carrot:
+    key: carrot
+    name: Carrot
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT_ITEM
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Carrot Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Carrot &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Carrot on a Stick &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 200"
+        rewards:
+        - '&7     &8+&3200 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Golden Carrot &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPet Food &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fCatching Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSuper Catching Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aCarrot Candy &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Mega Catching Egg &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  potato:
+    key: potato
+    name: Potato
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTATO_ITEM
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Potato Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Potato &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Baked Potato &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fVaccine Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aPortal to Barn &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 350"
+        rewards:
+        - '&7     &8+&3350 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 400"
+        rewards:
+        - '&7     &8+&3400 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  pumpkin:
+    key: pumpkin
+    name: Pumpkin
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PUMPKIN
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Pumpkin Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Pumpkin &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPumpkin Helmet &7Recipe'
+        - '&7     &fPumpkin Chestplate &7Recipe'
+        - '&7     &fPumpkin Leggings &7Recipe'
+        - '&7     &fPumpkin Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Cubism I&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFarmer Orb &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Lantern Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFarm Crystal &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  melon:
+    key: melon
+    name: Melon
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Melon Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&e100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&e150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Melon &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Glistering Melon &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Melon Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 350"
+        rewards:
+        - '&7     &8+&e350 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 400"
+        rewards:
+        - '&7     &8+&e400 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 450"
+        rewards:
+        - '&7     &8+&e450 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 500"
+        rewards:
+        - '&7     &8+&e500 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  seeds:
+    key: seeds
+    name: Seeds
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.grass_block true"
+        rewards:
+        - '&7     &fDirt &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.clay true"
+        rewards:
+        - '&7     &fClay &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.grass true"
+        rewards:
+        - '&7     &fLong Grass &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.fern true"
+        rewards:
+        - '&7     &fFern &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.deadbush true"
+        rewards:
+        - '&7     &fDead Bush &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.tallgrass true"
+        rewards:
+        - '&7     &fDouble Tallgrass &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  redmushroom:
+    key: redmushroom
+    name: Red Mushroom
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Mushroom Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.mycelium true"
+        rewards:
+        - '&7     &fMycelium &fTrade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Red Mushroom &7Recipe'
+        - '&7     &aEnchanted Brown Mushroom &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMushroom Helmet &7Recipe'
+        - '&7     &fMushroom Chestplate &7Recipe'
+        - '&7     &fMushroom Leggings &7Recipe'
+        - '&7     &fMushroom Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fRed Mushroom Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Red Mushroom Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aMagical Mushroom Soup &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Night Vision Charm &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Bat Pet Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  brownmushroom:
+    key: brownmushroom
+    name: Brown Mushroom
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Mushroom Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.mycelium true"
+        rewards:
+        - '&7     &fMycelium &fTrade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Red Mushroom &7Recipe'
+        - '&7     &aEnchanted Brown Mushroom &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMushroom Helmet &7Recipe'
+        - '&7     &fMushroom Chestplate &7Recipe'
+        - '&7     &fMushroom Leggings &7Recipe'
+        - '&7     &fMushroom Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fBrown Mushroom Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Brown Mushroom Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aMagical Mushroom Soup &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Night Vision Charm &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Bat Pet Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  cocoabeans:
+    key: cocoabeans
+    name: Cocoa Beans
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 3
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cocoa Beans Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cocoa Beans &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 350"
+        rewards:
+        - '&7     &8+&3350 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 400"
+        rewards:
+        - '&7     &aEnchanted Cookie &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 450"
+        rewards:
+        - '&7     &8+&3450 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Adrenaline Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  cactus:
+    key: cactus
+    name: Cactus
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CACTUS
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cactus Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cactus &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Thorns I&7)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  sugarcane:
+    key: sugarcane
+    name: Sugar Cane
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR_CANE
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Sugar Cane Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Sugar &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Paper &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Speedster Helmet &7Recipe'
+        - '&7     &5Speedster Chestplate &7Recipe'
+        - '&7     &5Speedster Leggings &7Recipe'
+        - '&7     &5Speedster Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Sugar Cane &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 350"
+        rewards:
+        - '&7     &8+&3350 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 400"
+        rewards:
+        - '&7     &8+&3400 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpeed Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpeed Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  feather:
+    key: feather
+    name: Feather
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: FEATHER
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Feather &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Book &7(&9Projectile Protection I &7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Book &7(&9Feather Falling I &7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Archery Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFeather Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Aiming I&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFeather Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Snipe I&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Feather Artifact &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  leather:
+    key: leather
+    name: Leather
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cow Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Leather &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSmall Backpack &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Raw Beef &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aMedium Backpack &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aLarge Backpack &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  pork:
+    key: pork
+    name: Pork
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PORK
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Pig Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Pork &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Grilled Pork &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aPiggy Bank &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Pig Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Pigmen Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Pigman Sword &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  chicken:
+    key: chicken
+    name: Chicken
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_CHICKEN
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Chicken Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Raw Chicken &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Egg &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cake &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fAgility Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aBridge Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fRandom Egg &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Chicken Head &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  netherwart:
+    key: netherwart
+    name: Nether Wart
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STALK
+    type: FARMING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Nether Wart Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Farmer <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Farming Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Nether Wart &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSmall Potion Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPotion Affinity Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMedium Potion Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aPotion Affinity Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLarge Potion Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Potion Affinity Artifact &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Farming
+  cobblestone:
+    key: cobblestone
+    name: Cobblestone
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cobblestone Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cobblestone &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aCobblestone Helmet &7Recipe'
+        - '&7     &aCobblestone Chestplate &7Recipe'
+        - '&7     &aCobblestone Leggings &7Recipe'
+        - '&7     &aCobblestone Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aAuto Smelter &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fCompactor 3000 &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Silverfish Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fHaste Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Super Compactor 3000 &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  coal:
+    key: coal
+    name: Coal
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Coal Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Coal &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Block of Coal &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Lava Bucket &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Smelting Touch I&7) &7Recipe &8(&4&lCOMING
+          SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Wither Skeleton Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  ironingot:
+    key: ironingot
+    name: Iron Ingot
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_ORE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Iron Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Iron &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Block of Iron &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Protection IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Hopper &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Golem Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fGolem Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fGolem Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fGolem Leggings &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fGolem Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Golem Sword &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  goldingot:
+    key: goldingot
+    name: Gold Ingot
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_ORE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Gold Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Gold &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Gold Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Fortune II&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Clock &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Looting II&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aCleaver &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fAbsorption Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  diamond:
+    key: diamond
+    name: Diamond
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Diamond Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Diamond &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Diamond Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Hardened Diamond Helmet &7Recipe'
+        - '&7     &9Hardened Diamond Chestplate &7Recipe'
+        - '&7     &9Hardened Diamond Leggings &7Recipe'
+        - '&7     &9Hardened Diamond Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPerfect Helmet &7Recipe'
+        - '&7     &fPerfect Chestplate &7Recipe'
+        - '&7     &fPerfect Leggings &7Recipe'
+        - '&7     &fPerfect Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Diamond Spreading &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Execute IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Critical IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  lapislazuli:
+    key: lapislazuli
+    name: Lapis Lazuli
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 4
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Lapis Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Lapis Lazuli &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Lapis Lazuli Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aGrand Experience Bottle &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Titanic Experience Bottle &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fExperience Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Experience Artifact &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  emerald:
+    key: emerald
+    name: Emerald
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Emerald Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Emerald &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLucky Coins Talisman &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Emerald Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Emerald Helmet &7Recipe'
+        - '&7     &9Emerald Chestplate &7Recipe'
+        - '&7     &9Emerald Leggings &7Recipe'
+        - '&7     &9Emerald Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Magnetic Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEmerald Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEmerald Blade &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPersonal Bank &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  redstone:
+    key: redstone
+    name: Redstone
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: REDSTONE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Redstone Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Redstone &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Redstone Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Efficiency IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Compass Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSmall Accessory Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMedium Accessory Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLarge Accessory Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fGreater Accessory Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fColossal Accessory Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  quartz:
+    key: quartz
+    name: Quartz
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: QUARTZ
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Quartz Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Quartz &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Quartz Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fNight Saver &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fDay Saver &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Night Crystal &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Day Crystal &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Solar Panel &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMinion Expander &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  obsidian:
+    key: obsidian
+    name: Obsidian
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: OBSIDIAN
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Obsidian Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Obsidian &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Lethality IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fGravity Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnder Chest Lvl 1 &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aStun Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnder Chest Lvl 2 &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Treecapitator &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnder Chest Lvl 3 &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &6Reforge Anvil &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  glowstone:
+    key: glowstone
+    name: Glowstone
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLOWSTONE_DUST
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Glowstone Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Miner <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Mining Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Glowstone Dust &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Glowstone Block &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Miner <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Mining Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Miner <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Mining Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Redstone Lamp &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aGlowstone Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  gravel:
+    key: gravel
+    name: Gravel
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GRAVEL
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Gravel Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Flint &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Sharpness IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Critical Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &FFlint Shovel &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9First Strike III&7) &7Recipe &8(&4&lCOMING
+          SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  ice:
+    key: ice
+    name: Ice
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PACKED_ICE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Ice Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Frost Walker I&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Ice &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMagical Water Bucket &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aIce Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Frozen Scythe &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Frozen Blaze Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Frozen Blaze Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Frozen Blaze Leggings &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Frozen Blaze Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &6Auger Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  netherrack:
+    key: netherrack
+    name: Netherrack
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHERRACK
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.netherbrick true"
+        rewards:
+        - '&7     &fNether Brick &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  endstone:
+    key: endstone
+    name: End Stone
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_STONE
+    type: MINING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9End Stone Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted End Stone &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnd Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSilence Block &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fHaste Block &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Endermite Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Catalyst &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9End Stone Sword &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Mining
+  rottenflesh:
+    key: rottenflesh
+    name: Rotten Flesh
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Zombie Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Rotten Flesh &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Smite IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Zombie Chestplate &7Recipe'
+        - '&7     &5Zombie Leggings &7Recipe'
+        - '&7     &5Zombie Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Zombie Pickaxe &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Zombie´s Heart &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Zombie Sword &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fZombie Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  bone:
+    key: bone
+    name: Bone
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Skeleton Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Bone &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Bone Meal &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Power IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSkeleton Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSkeleton Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aHurricane Bow &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSkeleton''s Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &6Runaan''s Bow &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  string:
+    key: string
+    name: String
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STRING
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Spider Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted String &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aGrappling Hook &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Silk Touch I&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpider´s Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Infinite Quiver IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Spider Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  spidereye:
+    key: spidereye
+    name: Spider Eye
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPIDER_EYE
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cave Spider Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Spider Eye &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Fermented Spider Eye &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Bane of Arthropods IV&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpider Sword &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Venomous IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Cave Spider Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aLeaping Sword &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  gunpower:
+    key: gunpower
+    name: Gunpower
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  enderpearl:
+    key: enderpearl
+    name: Ender Pearl
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENDER_PEARL
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Enderman Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Ender Pearl &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - "&7     &aEnchanted Eye of Ender &7Recipe"
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aTeleport Pad &7Trade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Aspect of the End &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSaving Grace &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Ender Slayer IV&7) &7Recipe &8(&4&lCOMING
+          SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  ghasttear:
+    key: ghasttear
+    name: Ghast Tear
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  slimeball:
+    key: slimeball
+    name: Slime Ball
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SLIME_BALL
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  blazerod:
+    key: blazerod
+    name: Blaze Rod
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BLAZE_ROD
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Blaze Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Blaze Rod &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Blaze Powder &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Fire Aspect I&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Flame I&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fBlaze Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Fire Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Blaze Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Blaze Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Blaze Leggings &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &5Blaze Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &6Blaze Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  magmacream:
+    key: magmacream
+    name: Magma Cream
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MAGMA_CREAM
+    type: COMBAT
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Magma Cube Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLava Bucket &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Magma Cream &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Magma Helmet &7Recipe'
+        - '&7     &5Magma Chestplate &7Recipe'
+        - '&7     &5Magma Leggings &7Recipe'
+        - '&7     &5Magma Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aNether Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Lava Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aMagma Bow &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Combat
+  oak_log:
+    key: oak_log
+    name: Oak Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Oak Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.oakleave true"
+        rewards:
+        - '&7     &fOak Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLeaflet Helmet &7Recipe'
+        - '&7     &fLeaflet Chestplate &7Recipe'
+        - '&7     &fLeaflet Leggings &7Recipe'
+        - '&7     &fLeaflet Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Oak Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fOak Helmet &7Recipe'
+        - '&7     &fOak Chestplate &7Recipe'
+        - '&7     &fOak Leggings &7Recipe'
+        - '&7     &fOak Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aForest Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Small Storage &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Wood Affinity Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  spruce_log:
+    key: spruce_log
+    name: Spruce Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 1
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Spruce Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.spruceleave true"
+        rewards:
+        - '&7     &fSpruce Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Spruce Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 200"
+        rewards:
+        - '&7     &8+&3200 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aTaiga Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSawmill &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fWolf Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  birch_log:
+    key: birch_log
+    name: Birch Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 2
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Birch Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.birchleave true"
+        rewards:
+        - '&7     &fBirch Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Birch Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 200"
+        rewards:
+        - '&7     &8+&3200 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aBirch Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Woodcutting Crystal &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  jungle_log:
+    key: jungle_log
+    name: Jungle Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 3
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Jungle Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.jungleleave true"
+        rewards:
+        - '&7     &fJungle Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Jungle Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.vines true"
+        rewards:
+        - '&7     &fVines &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 300"
+        rewards:
+        - '&7     &8+&3300 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aJungle Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aJungle Axe &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aOcelot Pet &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  acacia_log:
+    key: acacia_log
+    name: Acacia Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG_2
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Acacia Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.acacialeave true"
+        rewards:
+        - '&7     &fAcacia Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Acacia Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSavanna Bow &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSuper Torch &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  dark_oak_log:
+    key: dark_oak_log
+    name: Dark Oak Log
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG_2
+      damage: 1
+    type: FORAGING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Dark Oak Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "lp user <player> permission set trade.darkoakleave true"
+        rewards:
+        - '&7     &fDark Oak Leaves &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Dark Oak Log &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 200"
+        rewards:
+        - '&7     &8+&3200 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands:
+        - "usbc skills xp add Foraging <player> 250"
+        rewards:
+        - '&7     &8+&3250 &7Foraging Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aRoofed Forest Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Growth I&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aGrowth Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &aGrowth Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &aGrowth Leggings &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &aGrowth Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Foraging
+  raw_fish:
+    key: raw_fish
+    name: Raw Fish
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Fishing Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Raw Fish &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cooked Fish &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fAngler Helmet &7Recipe'
+        - '&7     &fAngler Chestplate &7Recipe'
+        - '&7     &fAngler Leggings &7Recipe'
+        - '&7     &fAngler Boots &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aFish Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMedium Fishing Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLarge Fishing Bag &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  salmon:
+    key: salmon
+    name: Salmon
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+      damage: 1
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Salmon &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Cooked Salmon &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSalmon Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Lure IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fMinnow Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Dodge Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fFish Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSpeedster Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  clownfish:
+    key: clownfish
+    name: Clownfish
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+      damage: 2
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fWater Bucket &7Trade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fClownfish Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Magnet IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSmall Sacks of Sacks &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aMedium Sacks of Sacks &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aLarge Sacks of Sacks &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aGreater Sacks of Sacks &7Upgrade &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  pufferfish:
+    key: pufferfish
+    name: Pufferfish
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+      damage: 3
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Pufferfish &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Depth Strider II&7)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fPufferfish Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aPufferfish Boat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSmall Fishing Sack &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Medium Fishing Sack &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Large Fishing Sack &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Spiked Hook IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Cleave IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpiked Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  prismarine:
+    key: prismarine
+    name: Prismarine
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Prismarine &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Prismarine Blade &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Prismarine Bow &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aPrismarine Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Impaling II&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  prismarine_crystal:
+    key: prismarine_crystal
+    name: Prismarine Crystal
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE_CRYSTALS
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Prismarine Crystals &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Aqua Affinity I&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fGuardian Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fLight Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSea Lantern Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aBlessed Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Blessing IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  clay:
+    key: clay
+    name: Clay
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CLAY_BALL
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Clay Minion &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Clay &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Respiration II&7) &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Frail II&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Farmer''s Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  water_lily:
+    key: water_lily
+    name: Water Lily
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WATER_LILY
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Lily Pad &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSpooky Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fBlobfish Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fHealing Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aChallenging Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aWhale Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Rod of Champions &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Healing Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &6Rod of Legends &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  inksack:
+    key: inksack
+    name: Ink Sack
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSquid Hat &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aDark Bait &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Ink Sack &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aDeep Ocean Biome Stick &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Caster IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fBlindness Potion &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fEnchanted Book &7(&9Angler IV&7) &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Bait Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fInk Wand &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &f??? &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+  sponge:
+    key: sponge
+    name: Sponge
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPONGE
+    type: FISHING
+    levels:
+      '1':
+        level: 1
+        slot: 18
+        amount: 50
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSponge &7Trade'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '2':
+        level: 2
+        slot: 19
+        amount: 100
+        page: 1
+        commands:
+        - "usbc skills xp add Fishing <player> 100"
+        rewards:
+        - '&7     &8+&3100 &7Fishing Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '3':
+        level: 3
+        slot: 20
+        amount: 250
+        page: 1
+        commands:
+        - "usbc skills xp add Fishing <player> 150"
+        rewards:
+        - '&7     &8+&3150 &7Fishing Experience'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '4':
+        level: 4
+        slot: 21
+        amount: 500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Sponge &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '5':
+        level: 5
+        slot: 22
+        amount: 1000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aEnchanted Wet Sponge &7Recipe'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '6':
+        level: 6
+        slot: 23
+        amount: 2500
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSponge Rod &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '7':
+        level: 7
+        slot: 24
+        amount: 10000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &9Sea Creature Talisman &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '8':
+        level: 8
+        slot: 25
+        amount: 15000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &5Stereo Pants &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '9':
+        level: 9
+        slot: 26
+        amount: 25000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &aSea Creature Ring &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing
+      '10':
+        level: 10
+        slot: 27
+        amount: 50000
+        page: 1
+        commands: []
+        rewards:
+        - '&7     &fSponge Helmet &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fSponge Chestplate &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fSponge Leggings &7Recipe &8(&4&lCOMING SOON&8)'
+        - '&7     &fSponge Boots &7Recipe &8(&4&lCOMING SOON&8)'
+        fancy:
+          showText: §eClick to open!
+          command: /collections menu Fishing

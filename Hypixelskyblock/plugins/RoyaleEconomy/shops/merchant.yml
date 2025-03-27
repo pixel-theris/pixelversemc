@@ -1,0 +1,253 @@
+title: '&8Merchant'
+permission-to-open: none
+background-color: 15
+items:
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §6Lucky Coins Talisman
+        lore:
+        - ''
+        - §7This talisman gives you
+        - §7a small amount of coins
+        - §7at random intervals.
+        - ''
+        - '§7Coins Interval: §e3 - 7 minutes'
+        - '§7Maximum Amount: §65 coins'
+        - ''
+        - §f§lCOMMON
+        internal: H4sIAAAAAAAAAFWQS0/CQBzE/74SbLxoQuIH8Npku7QFDh5EXm3YVqEgy23pbm1htyV9GMrn8gPaxJjIceY3c5jRADS4W+wrKd/yLEqkaMGlw+GpI7ooshHWhWkbumkKQ+8hjnWMWdizeC/EFtZAa0oHkZeJKG6hVYpjWeWi0ADgogU3KyYrAd+idtFmHSO+dmVYO3ajgwWSvrM7dJ10VW9fHdtRDZ++2LO6/y9rlezDkrTjxpv0vdqqFZp15lJM50aoll9+wJUXcOnhcexP5tIfUsMPxgndDRJ6WtYUuzE5DWJvKPd+QI5UbWKq3L035AlVxCQTd78ZUkx2jkECYpHdCJOF24/W6BmgBdceUwLut8yIEO+hbdQXFur0bbiCh3lWMylGYZZmqnZSLo7N5gY8ngGvOWR5+MwZF7+XtM9wwGRSKJZCO2cpz5QeZkla6OWf/QMChbjmnQEAAA==
+        skull-owner: ba1f0d80bf9e50396
+    sellingValue: 0.0
+    buyValue: 10000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §cPurse Saver Talisman
+        lore:
+        - ''
+        - §7This talisman lowers
+        - §7the percent of coins
+        - §7you lose on death events
+        - §7by §c5%§7!
+        - ''
+        - §a§lUNCOMMON
+        internal: H4sIAAAAAAAAAFXQzW6CQBAH8OlXYkkvbdLEB+iVBBAUDx5MIYrRtSL4wW3dHYuygEFohOfqA3aTpkm9TDLzmznMXwFQ4GmZVEJ8FPn+ILAFtx6HN6YbBrO5oVoMbdXs27raZ9RWqWFiVxq3rL0Cijw6YVEe8PwIrRIvZVXgWQGAmxY8rKioEL6xnmjRJtb4ZiJY7XVlHyw1MfeOp56Xrerdu9f1UunjYXda9//tWiVdW2LbmcRRtqh26UqbdnyBY19nafgVpW4zH4XmzHB1EiSXyNl2iMOsbTO8kCZpiBHKWWJGIz+OnKE2c+KEBLNmuw7ryImPpBHHWSMtXZikca352u14md7fLwYDgBbcE5oiPNt0j9ywdrQnS4/THdzBi5/XVKDL8ixPay/jeJE/S2hfAZGBhKfPgnL8jeT1igMqDueUZtCWGTLMSrVAXjEs1PJPfgDm8xOhoAEAAA==
+        skull-owner: 8afed25ba725b7dab
+    sellingValue: 0.0
+    buyValue: 25000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §aLucky Purse Talisman
+        lore:
+        - ''
+        - §7This talisman gives a
+        - §a5% §7chance to not
+        - §7lose coins from your
+        - §7purse on death!
+        - ''
+        - §a§lUNCOMMON
+        internal: H4sIAAAAAAAAAFWQS0+DQBzE/76SSryoMfEDeCXh1UWOxpoW0i5Kn8ttd9mWxwIN0KbwqfyIkhgTe5z5zRxmFAAF7ubZQcrPqtwmUgzg0o3gBRmObjpsqOo2slXLQExlmrNVETM5N23BOLIUUPrSXlRNIupbGDTi1BwqUSsAcDGAmxWVBwHfovW0cBNr0caTvHVRrxdzTfpuurfdYtWydxe5ec8nb2jaOv+yw4auh5KYXhwWXweWr7SpGUgxCXSeL494tGzDMY5xGqf+mFhkTfRZh3OS8g4bYRyuVzExPIm7D5OkmeGPuNH76Wyxs2ZpkJHOy2ZdFJOOW/46THHHk+1GdwAGcI1pLuDeZq/MMTUNabox5I6+hSt4CMqWSvHBy6LMW7eIxKnf24PnM4D7M5b7XUUj8XvH0xleUJnUOS3gMRK0idWaHoXa/Jk/zPeZipcBAAA=
+        skull-owner: 7b8b930060125c91f
+    sellingValue: 0.0
+    buyValue: 10000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §f♦ Ice Rune 1
+        lore:
+        - §8Requires level 2
+        - §8Weapons
+        - §7
+        - §7Create a frozen effect when you
+        - §7kill mobs!
+        - §7
+        - §7Apply this rune to weapons or
+        - §7fuse two together at the Runic
+        - §7Pedestal
+        - §7
+        - §f§lCOMMON
+        internal: H4sIAAAAAAAAAE1QTW+CQBTcVk0o6aX/wSsJsssuHDxYobqKUBFQuPGxFnGxRqGIv6s/sHjrS+Yw781kJk8EQARvvuW5k80yfLec6XLquKYI+q5vmz0wsMzAtEA3Auj7PjXAUMeMYTlNJUI0WUJIiyVdg1AiaJShBGEYMyyA3tIMQe+QskfA6+ZYc/55+d4fOBPAM83AELI41pmcSERTFAlpKpY0kkEp1QhTEEFZRogIxM50ZpfqwK4vQKjYraov7Cp2fZ4EMAhiXjPwy9qFHO1yOdsteNpS3HFvI3OHFmdCT0GbTCmmZXefT7DV6v+0ahVvVR7CRR6d1nVSBrIFXc7m7igt/Z9QcQvbywr7HuTRLLw726Cwy7CJvIm68sLGNvgxMo6Kff/gjpfnzsy8Rd1+ZZiNPfNRB8U2gsLxvpDj+U1YriE9jfT9ejx+vPQPCkTerH0BAAA=
+    sellingValue: 0.0
+    buyValue: 5000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    amount3Items: []
+    give-item-on-buy: false
+    exclusive: false
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §d♦ Hearts Rune 1
+        lore:
+        - §8Requires level 3
+        - §8Weapons
+        - §7
+        - §7Shower you enemies in love!
+        - §7
+        - §7Apply this rune to weapons or
+        - §7fuse two together at the Runic
+        - §7Pedestal
+        - §7
+        - §9§lRARE
+        internal: H4sIAAAAAAAAAE2QzXKCQBCEN1FThMol7+CVqkVgZQ85GCURBDYiLOKNnyWCi7EQEvG58oDBW/o23d/UTLUIgAieA9v3ZptV9GqT+WpOPEMEQy9wjQEY2QY1bNBLAMMgMBdgHMNEw7mSSJqeQEntJcXyFEp6PsHJVFFVHWIBDFZGBB72LK6b8+3G0+bQcv5Rf+UFZwK4NzMwxrme6ShPJRllsqQiDCWs6kiCKcoQxskkS6EIxH7pxOqmYOdHIDTs0rQ1O4v9S3cCGNGYtwz8ss6Cu+0eZluLp52J+tnfQE7M8jQ1j7RL5iYyqz5fzpDd4X+s1sShxiPF2u+O6zapKLQVj7OlJ6dV8O1UziW6GgoJ3w6ub2iuTyvHD7reh+Sd7ol/uDph9ENC5+KWpuIu3gp3QblTWpyE6+uuooVbfnbRNeNuSA9k0TNzC+db+HJr9Q8hG6SXgAEAAA==
+    sellingValue: 0.0
+    buyValue: 15000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §7♦ Smokey Rune 1
+        lore:
+        - §8Requires level 2
+        - §8Bows
+        - §7
+        - §7Create a burnt trail behind
+        - §7your arrows!
+        - §7
+        - §7Apply this rune to weapons or
+        - §7fuse two together at the Runic
+        - §7Pedestal
+        - §7
+        - §f§lCOMMON
+        internal: H4sIAAAAAAAAAE1QTW+CQBTcVm0o6aX/wSvJsnwferBKFMSlIqDLDdi1CIsahUb8Xf2BxVvnJS+ZvJnMy4gAiOA98sJgslmST8+fLqd+YItgGETYHoCRZ8e2B3oIYBhFzgyM8xSqmWmmUp4ZuqQaMJNSimTJkhGlmU6hnO4FMFjaBLxc61PFukfG26ZqOf+6nPYHzgTw7FAwpooFVdNEEk0NU1JNHUkmsiyJqpqRUaT32xSB2JvO7NIc2PUVCA27Ne2FXcX+pScBjOKUtwz8ss6Fya6AdOfyvHP0nocbyH2nPBvOMe6yqaM7dX9fTHSvs/5ptSbdapwobpEc121Wx9BTAs4WgZzX0U8SBpU/t9VkFnUYEYS3NkzK9R3PieqHQY1RzPHM5aT8hqv75Ia3bkXCXFuVtMSPqeOi9ys4DIqkjjRSOzdycK39Dn48Wv0DNTi8cIABAAA=
+    sellingValue: 0.0
+    buyValue: 5000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §e♦ Golden Rune 1
+        lore:
+        - §8Requires level 3
+        - §8Bows
+        - §7
+        - §7Flaunt your wealth with golden
+        - §7arrows!
+        - §7
+        - §7Apply this rune to weapons or
+        - §7fuse two together at the Runic
+        - §7Pedestal
+        - §7
+        - §5§lEPIC
+        internal: H4sIAAAAAAAAAE1QyXKCQBScRE0RKpf8g1eqRmAgHHJwIXGQJewON5ZBxEEtxUT8rnxg8JY+dVe/fv3q8QDw4DU0A2/qr8jMdOaruePpPBh6oa0PwMjUI90EPTgwDEO8AGNY5iJUZFV4y3NZkGWqClmmpoIMs7KEaCKlqcaBwUon4GlzYAXd3zte/N2Fsa/TodwyyoFHXICxpKJUK5AqpKXSb0JiKWhU7ZmEaKGhLM0lmQd8HzrSU7ul52fAtfTaXk70zPcnPXBgFKXsQsEv7QyYrCtYrA2Wd1jpdeBD5uD6qOJ91GVzrOCm95dTxey0f7OoTWPEiGRUyd69ZE0ETcljdOlN8ib8tm5RYy82ohV/VHaMO6uJmFVXlRPMmH2LdiTG0I7dzqo/WNK4V/vT+iE9J6IlJ3GInKBqSE2kJHBvpMFyUtu7xDe0cg3f71/9A9VZJFuAAQAA
+    sellingValue: 0.0
+    buyValue: 20000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §c♦ Blood Rune 1
+        lore:
+        - §8Requires level 2
+        - §8Weapons
+        - §7
+        - §7Create a blood effect when you
+        - §7kill mobs!
+        - §7
+        - §7Apply this rune to weapons or
+        - §7fuse two together at the Runic
+        - §7Pedestal
+        - §7
+        - §f§lCOMMON
+        internal: H4sIAAAAAAAAAE1Qy26CQBSdVk0o6ab/4JZk5DHIoguVqYI8Kq8KO2CGoAxqFFrhu/qBxV3P7jxu7snhAeDBW2gF3sLfxkvLXW1Xrod5MPZCB4/AxMIRtsAADozD0NDBlGhUy0gGBUWVkSBLqiKkhQaFjIgKKrICFXOZA6MtjsEkY+czebx49auWsc/ruTgwyoFng4DpLJ/JEsqQANU0FeQcQSElUBVIjohUzDU0JxIP+OHoQq/Ngd5eANfQe9Ne6Y0fGj1xYBKlrKXgl3YmTPYlJHuT5Z2BBh74kLnG8aIap6jLVgYy6sHfLJDVaf+ySpN+KSyWzDI57dqsjqAleYxuvFleh9+uTkpHxLIb7H6cgFTOGt+TOu7sGt+d40fl9LFo68va6bGSrPHM6atBj3tbjEVXt2VbL4/J0avsPpTj2pBsEXe2b2rFHr4/Rv0Di1Rq2H8BAAA=
+    sellingValue: 0.0
+    buyValue: 5000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false

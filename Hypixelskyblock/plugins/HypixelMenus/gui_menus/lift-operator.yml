@@ -1,0 +1,248 @@
+menu_title: 'Lift Operator'
+open_command:
+- lift
+- liftoperator
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 12
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 30
+        - 32
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      gold-mine:
+        material: GOLD_INGOT
+        slot: 11
+        display_name: '&aGold Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&6Gold Mine&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp goldmine %player_name%'
+        right_click_commands:
+        - '[console] warp goldmine %player_name%'
+
+      lapis-mine:
+        material: 351
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.lapis-quarry'
+        data: 4
+        slot: 13
+        display_name: '&aLapis Quarry'
+        lore:
+        - '&7Teleports you to the'
+        - '&9Lapis Quarry&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp lapismine %player_name%'
+        right_click_commands:
+        - '[console] warp lapismine %player_name%'
+
+      lapis-mine-locked:
+        material: 351
+        priority: 2
+        data: 4
+        slot: 13
+        display_name: '&aLapis Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&9Lapis Mine&7!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      redstone-mine:
+        material: redstone
+        slot: 15
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.redstone-mine'
+        display_name: '&aRedstone Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&cRedstone Mine&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp redstonemine %player_name%'
+        right_click_commands:
+        - '[console] warp redstonemine %player_name%'
+
+      redstone-mine-locked:
+        material: redstone
+        priority: 2
+        slot: 15
+        display_name: '&aRedstone Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&cRedstone Mine&7!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      emerald-mine:
+        material: emerald
+        slot: 29
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.emerald-sanctuary'
+        display_name: '&aEmerald Sanctuary'
+        lore:
+        - '&7Teleports you to the'
+        - '&2Emerald Sanctuary&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp emeraldmine %player_name%'
+        right_click_commands:
+        - '[console] warp emeraldmine %player_name%'
+
+      emerald-mine-locked:
+        material: emerald
+        priority: 2
+        slot: 29
+        display_name: '&aEmerald Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&2Emerald Mine&7!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      diamond-mine:
+        material: diamond
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.diamond-reserve'
+        slot: 31
+        display_name: '&aDiamond Reserve'
+        lore:
+        - '&7Teleports you to the'
+        - '&bDiamond Reserve&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp diamondmine %player_name%'
+        right_click_commands:
+        - '[console] warp diamondmine %player_name%'
+
+      diamond-mine-locked:
+        material: diamond
+        priority: 2
+        slot: 31
+        display_name: '&aDiamond Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&bDiamond Mine&7!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      obsidian-mine:
+        material: obsidian
+        slot: 33
+        priority: 1
+        display_name: '&aObsidian Sanctuary'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.obsidian-sanctuary'
+        lore:
+        - '&7Teleports you to the'
+        - '&5Obsidian Sanctuary&7!'
+        - ''
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[console] warp obsidianmine %player_name%'
+        right_click_commands:
+        - '[console] warp obsidianmine %player_name%'
+
+      obsidian-mine-locked:
+        material: obsidian
+        priority: 2
+        slot: 33
+        display_name: '&aObsidian Mine'
+        lore:
+        - '&7Teleports you to the'
+        - '&5Obsidian Mine&7!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        left_click_commands: []
+        right_click_commands: []

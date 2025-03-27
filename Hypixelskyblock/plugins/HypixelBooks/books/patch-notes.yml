@@ -1,0 +1,15 @@
+name: Patch Notes
+title: Patch Notes
+author: Server
+generation: ORIGINAL
+lore:
+- Patch Notes
+open_command: ''
+
+pages:
+  '1':
+  - ''
+  - ''
+  - '&0Click the link below to open the patch notes on the Server Forums.'
+  - ''
+  - '<tooltip:&eClick to open the patch notes!><link:https://discord.com/invite/xR9xFSn>&6&lVIEW PATCH NOTES<reset>'

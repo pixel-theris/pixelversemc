@@ -1,0 +1,65 @@
+next-page-item:
+  material: '262'
+  name: '&aNext Page'
+  lore:
+    - '&fClick to go'
+    - '&fto the next page.'
+
+previous-page-item:
+  material: '262'
+  name: '&aPrevious Page'
+  lore:
+    - '&fClick to go'
+    - '&fto the previous page.'
+
+go-back-item:
+  material: '262'
+  name: '&aGo Back'
+  lore:
+    - '&fGo back to'
+    - '&fthe main shop.'
+
+sell-item:
+  material: '154'
+  name: '&aSell Item'
+  lore:
+    - '&7Click items in your inventory to'
+    - '&7sell them to this Shop!'
+
+lore-sell-addition:
+  - ''
+  - '&7Cost'
+  - '&6%amount% Coins'
+  - ''
+  - '&eClick to sell!'
+
+lore-buy-addition:
+  - ''
+  - '&7Cost'
+  - '&6%amount% Coins'
+  - ''
+  - '&eClick to purchase!'
+
+#If the amounts are not set to 0 this
+#will be added to the lore
+lore-detailed-buy-addition:
+  - '&eRight Click for more trading options!'
+
+lore-buyback-addition:
+  - ''
+  - '&7Cost'
+  - '&6%amount% Coins'
+  - ''
+  - '&eClick to buyback!'
+
+freshly-bought-lore:
+  - ''
+  - '&bFreshly bought item.'
+  - '&bReopen the shop to be'
+  - '&bable to sell it.'
+
+sell-message: '&aYou sold %item-display-name% &8x%item-count% &afor &6%amount% coins&a!'
+buy-message: '&aYou bought %item-display-name% &8x%item-count% &afor &6%amount% coins&a!'
+buyback-message: '&aYou bought back %item-display-name% &8x%item-count% for &6%amount% coins&a!'
+not-enough-coins: '&cYou don''t have enough coins!'
+not-enough-space: '&cYou don''t have enough space in your inventory!'

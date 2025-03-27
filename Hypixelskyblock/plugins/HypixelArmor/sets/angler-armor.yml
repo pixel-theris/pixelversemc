@@ -1,0 +1,247 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 15
+      remove:
+        - usbc skills remove defense {player} 15
+    name: '&fAngler Helmet'
+    item: diamond_helmet
+    data: 0
+    lore:
+      - '&7Defense: &a+15'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 40
+      remove:
+        - usbc skills remove defense {player} 40
+    name: '&fAngler Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+40'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 25
+      remove:
+        - usbc skills remove defense {player} 25
+    name: '&fAngler Leggings'
+    item: leather_leggings
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 10
+      remove:
+        - usbc skills remove defense {player} 10
+    name: '&fAngler Boots'
+    item: leather_boots
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+10'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fAngler Helmet'
+    item: diamond_helmet
+    data: 0
+    lore:
+      - '&7Defense: &a+15'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fAngler Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+40'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fAngler Leggings'
+    item: leather_leggings
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fAngler Boots'
+    item: leather_boots
+    data: 0
+    color: 11:0:79
+    lore:
+      - '&7Defense: &a+10'
+      - '           '
+      - '&6Full Set Bonus: Depth Champion'
+      - '&7Take &c-30%&7 damage from &3Sea Creatures&7.'
+      - '&7Increase their spawn rate by &e4%&7.'
+      - '&8&5'
+      - '&f&lCOMMON BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

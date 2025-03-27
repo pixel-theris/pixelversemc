@@ -1,0 +1,51 @@
+command /punish [<player>]:
+    permission: rank.mod
+    permission message: &cYou don't have permission!
+    usage: /punish <player>
+    trigger:
+        if arg 1 is set:
+            set {1::%player%} to "%arg 1%"
+            wait 1 ticks
+            make the server execute command "/ibooks open punish-1 %player's name%"
+            delete {1::%player%}
+            delete {2::%player%}
+            stop
+        else:
+            send ""
+            send "&cPlease specify the player you want to punish. (/punish player)"
+            send ""
+            delete {1::%player%}
+            delete {2::%player%}
+            stop
+
+command /amute [<player>]:
+    trigger:
+        set {1::%player%} to "%arg 1%"
+        wait 1 ticks
+        make the server execute command "/ibooks open punish-mute %player's name%"
+
+command /aban [<player>]:
+    trigger:
+        set {1::%player%} to "%arg 1%"
+        wait 1 ticks
+        make the server execute command "/ibooks open punish-ban %player's name%"
+
+command /akick [<player>]:
+    trigger:
+        set {1::%player%} to "%arg 1%"
+        wait 1 ticks
+        make the server execute command "/ibooks open punish-kick %player's name%"
+
+command /awarn [<player>]:
+    trigger:
+        set {1::%player%} to "%arg 1%"
+        wait 1 ticks
+        make the server execute command "/ibooks open punish-warn %player's name%"
+
+command /cancelpunishment:
+    trigger:
+        message ""
+        message "&cYou canceled this punishment."
+        message ""
+        delete {1::%player%}
+        delete {2::%player%}

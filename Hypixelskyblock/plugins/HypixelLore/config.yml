@@ -1,0 +1,41 @@
+            #PICK-UP#
+##Enable the item lore addition on pickup
+pick-up-enabled: true
+##Lore string of picked up item
+pick-up-lore: '&f&lCOMMON'
+
+            #COOKING#
+##Enable the item lore addition on cooking
+cooking-enabled: true
+##Lore string of picked up item
+cooking-lore: '&f&lCOMMON'
+
+            #BREWING#
+##Enable the item lore addition on cooking
+brew-enabled: true
+##Lore string of picked up item
+brew-lore: '&f&lCOMMON'
+
+            #CRAFTING#
+##Enable the item lore addition on crafting
+crafting-enabled: true
+##Lore string of crafted item
+crafting-lore: '&f&lCOMMON'
+
+##Enable the Unbreakable flag to crafted items listed below
+unbreaking-enabled: true
+
+##Enable the item name after the lore addition on crafting (crafting-lore+item-name)
+item-name-enabled: false
+
+##Name of the items crafted
+axe-name: '&f&lAXE'
+pickaxe-name: '&f&lPICKAXE'
+sword-name: '&f&lSWORD'
+spade-name: '&f&lSHOVEL'
+hoe-name: '&f&lHOE'
+bow-name: '&f&lBOW'
+helmet-name: '&f&lHELMET'
+chestplate-name: '&f&lCHESTPLATE'
+leggings-name: '&f&lLEGGINGS'
+boots-name: '&f&lBOOTS'

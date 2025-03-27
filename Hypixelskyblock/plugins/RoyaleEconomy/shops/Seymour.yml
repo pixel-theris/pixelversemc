@@ -1,0 +1,121 @@
+title: '&8Seymour'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §5Cheap Tuxedo Chestplate
+        lore:
+        - '§7Crit Chance: §c+50%'
+        - ''
+        - '§7Defense: §a+15'
+        - '§7Intelligence: §a+50'
+        - '           '
+        - '§6Full Set Bonus: Dashing!'
+        - §7Gain §a+100 §c❤ Health.
+        - §7Critical hits deal §c-25%§7 damage.
+        - §7Normal hits deal §c+50%§7 damage.
+        - §c§c
+        - §5§lEPIC CHESTPLATE
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_ATTRIBUTES: null
+        internal: H4sIAAAAAAAAAC3LMQqAMAwAwIylbr7BTeIQS6vPiW2CDlKpLfh8QZyPswAGOi5nLuPU2pFgcOKIWAKq94SOg+IaKeJGOgcR71UXA/Y/t1To4y58YW2PpIwfwAtYkfL9WQAAAA==
+        color:
+          ==: Color
+          RED: 120
+          BLUE: 120
+          GREEN: 120
+    sellingValue: 0.0
+    buyValue: 250000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §5Cheap Tuxedo Leggings
+        lore:
+        - '§7Crit Chance: §c+25%'
+        - ''
+        - '§7Defense: §a+15'
+        - '§7Intelligence: §a+25'
+        - '           '
+        - '§6Full Set Bonus: Dashing!'
+        - §7Gain §a+100 §c❤ Health.
+        - §7Critical hits deal §c-25%§7 damage.
+        - §7Normal hits deal §c+50%§7 damage.
+        - §c§c
+        - §5§lEPIC LEGGINGS
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_ATTRIBUTES: null
+        internal: H4sIAAAAAAAAAC3LQQqAIBAAwD2K3XpDt9jYUMvvrLpRhzBMoecH0XkYDaCg43LmMk6tHQkGtwYS2hh5SQYtpYA8S0Qj3lnydvXGKdD/uaVCH3fhC2t7JGX8AF4eyiVIWQAAAA==
+        color:
+          ==: Color
+          RED: 199
+          BLUE: 199
+          GREEN: 199
+    sellingValue: 0.0
+    buyValue: 250000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: §5Cheap Tuxedo Boots
+        lore:
+        - '§7Crit Chance: §c+25%'
+        - ''
+        - '§7Defense: §a+15'
+        - '§7Intelligence: §a+25'
+        - '           '
+        - '§6Full Set Bonus: Dashing!'
+        - §7Gain §a+100 §c❤ Health.
+        - §7Critical hits deal §c-25%§7 damage.
+        - §7Normal hits deal §c+50%§7 damage.
+        - §c§c
+        - §5§lEPIC BOOTS
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_ATTRIBUTES: null
+        internal: H4sIAAAAAAAAAONiYOBg4E4sys0v0tYrLc1MYVCxSDGzNDcwMNRNSzO31DUxTTTXTTRJTdK1NDY0N0hMSjU0NzLlYOCC6ilOLWEQSs5ITSzQLSmtSE3J1wVLMAAAoGTZolkAAAA=
+        color:
+          ==: Color
+          RED: 120
+          BLUE: 120
+          GREEN: 120
+    sellingValue: 0.0
+    buyValue: 250000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

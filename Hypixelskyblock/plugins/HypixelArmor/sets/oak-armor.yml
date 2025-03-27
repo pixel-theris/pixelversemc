@@ -1,0 +1,260 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills give health {player} 100
+      - usbc skills give speed {player} 50
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills remove health {player} 100
+      - usbc skills remove speed {player} 50
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 20
+      remove:
+        - usbc skills remove defense {player} 20
+    name: '&fOak Helmet'
+    item: leather_helmet
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+20'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+      remove:
+        - usbc skills remove defense {player} 35
+    name: '&fOak Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+35'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 25
+      remove:
+        - usbc skills remove defense {player} 25
+    name: '&fOak Leggings'
+    item: leather_leggings
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 20
+      remove:
+        - usbc skills remove defense {player} 20
+    name: '&fOak Boots'
+    item: leather_boots
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+20'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fOak Helmet'
+    item: leather_helmet
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+20'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fOak Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+35'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fOak Leggings'
+    item: leather_leggings
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fOak Boots'
+    item: leather_boots
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+20'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+100 HP &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

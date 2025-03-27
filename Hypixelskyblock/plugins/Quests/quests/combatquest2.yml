@@ -1,0 +1,32 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 4
+    mob: COW
+display:
+  name: "&aCombat Quest"
+  lore-normal:
+  - "&7Objective:&r &fKill 4 cows."
+  - "&7Progress:&r &f{killing:progress}/4 cows."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.kill-some-cows true"
+  - "customplaceholders set {player} mission_farm &eKill_some_chickens"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fKill some cows"
+  - "whisper {player} &7"
+  - "q a moddata start {player} combatquest3"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fKill some chickens"
+  - "whisper {player} &7"
+options:
+  category: "combat"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 2

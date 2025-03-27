@@ -1,0 +1,22 @@
+name: Punish Player
+title: Punish Player
+author: Server
+generation: ORIGINAL
+lore:
+- Punishment GUI
+open_command: ''
+
+pages:
+  '1':
+  - 'Select a reason for muting %skript_1::{player}%:'
+  - ''
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Discrimination<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 14 Days<br>&7<br>&7&eApplies to: Negative comments related to skin<br>&ecolour, gender, or other personal qualities.><run command:/tempmute %skript_1::{player}% 14d Discrimination> &8⦿&0 Discrimination<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Bad Language<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 7 Days<br>&7<br>&7&eApplies to: Insulting other players in any way><run command:/tempmute %skript_1::{player}% 7d Bad Language> &8⦿&0 Bad Language<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Sharing Personal Information<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 30 Days<br>&7<br>&7&eApplies to: Players sharing other players pesonal<br>&einformation in public chat or via private message.><run command:/tempmute %skript_1::{player}% 30d Sharing Personal Information> &8⦿&0 Sharing PI<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Advertising<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 5 Days<br>&7<br>&7&eApplies to: Posting links to YouTube, Twitter,<br>&eSnapChat, Domains, etc><run command:/tempmute %skript_1::{player}% 5d Advertising> &8⦿&0 Advertising<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Spamming<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 7 Days<br>&7<br>&7&eApplies to: Pasting the same or similar messages<br>&eover and over or intentionally avoiding the chat<br>&efilter.><run command:/tempmute %skript_1::{player}% 7d Spamming> &8⦿&0 Spamming<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Inappropriate Behavior<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 7 Days<br>&7<br>&7&eApplies to: Players encouraging violence, illegal activities, or<br>&ehatred towards other players, etc.><run command:/tempmute %skript_1::{player}% 7d Inappropriate Behavior>&8 ⦿&0 Inappropriate Behavior<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}% for Other<br>&7<br>&bPunishment Type: Temp-Mute<br>&bPunishment Duration: 7 Days<br>&7<br>&7&eApplies to: Any other reason not listed above.><run command:/tempmute %skript_1::{player}% 7d Other>&8 ⦿&0 Other<reset>'
+  - ''
+  - '  <tooltip:&cClick to cancel><run command:/cancelpunishment>&cCANCEL PUNISHMENT<reset>'
+  - '      <tooltip:&7Click to change punishment type><run command:/punish %skript_1::{player}%>&7CHANGE TYPE<reset>'

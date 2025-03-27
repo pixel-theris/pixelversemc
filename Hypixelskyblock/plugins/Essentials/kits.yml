@@ -1,0 +1,18 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+ xd:
+    delay: 1
+    items:
+    - diamondhelmet 1 name:&9Hardened_Diamond_Helmet lore:&7Damage_Reduction:_&a+5%|&7|&9&lRARE itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS
+    - diamondchestplate 1 name:&9Hardened_Diamond_Chestplate lore:&7Damage_Reduction:_&a+8%|&7|&9&lRARE itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS
+    - diamondleggings 1 name:&9Hardened_Diamond_Leggings lore:&7Damage_Reduction:_&a+7%|&7 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS
+    - diamondboots 1 name:&9Hardened_Diamond_Boots lore:&7Damage_Reduction:_&a+4%|&7 itemflags:HIDE_ENCHANTS,HIDE_ATTRIBUTES,HIDE_UNBREAKABLE,HIDE_DESTROYS,HIDE_PLACED_ON,HIDE_POTION_EFFECTS

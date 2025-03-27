@@ -1,0 +1,35 @@
+placeholders:
+  test:
+    name: 'test'
+    zero-display: 'Test Placeholder'
+    normal-display: '%value%'
+
+placeholders-text:
+  mission:
+    name: 'mission'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_farm:
+    name: 'mission_farm'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_mine:
+    name: 'mission_mine'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_forest:
+    name: 'mission_forest'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_graveyard:
+    name: 'mission_graveyard'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_spidersden:
+    name: 'mission_spidersden'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'
+  mission_nether:
+    name: 'mission_nether'
+    zero-display: 'Explore the village'
+    normal-display: '%value%'

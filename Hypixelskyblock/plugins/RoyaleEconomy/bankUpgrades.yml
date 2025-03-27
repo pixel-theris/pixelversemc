@@ -1,0 +1,451 @@
+bank-upgrades:
+  #Indexes must be from 0 to max index
+  #0 is the default account everyone starts with
+  maximum-index: 4
+  0:
+    name: '&aStarter Account'
+    lore:
+      - ''
+      - '&a>&m--------&r &6Interest Tranches &a&m--------&a<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &615 &emillion yields &b1% &einterest.'
+      - ''
+      - ' &7Max interest: &6250,000'
+      - '   &8(With 15,000,000 balance)'
+      - '&a>&m---------------------------------&a<'
+      - ''
+      - '&7Max balance: &650 Million Coins'
+      - ''
+      - '&7This is the default account.'
+    maximum-balance: 50000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 0
+      permission: 'none'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 15000000
+  1:
+    name: '&6Gold Account'
+    lore:
+      - ''
+      - '&6>&m--------&r &6Interest Tranches &6&m--------&6<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ''
+      - ' &7Max interest: &6300,000'
+      - '   &8(With 20,000,000 balance)'
+      - '&6>&m---------------------------------&6<'
+      - ''
+      - '&7Max balance: &6100 Million Coins'
+      - ''
+      - '&7Cost: &65,000,000 coins'
+    maximum-balance: 100000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 5000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &6Gold Account&f!'
+      - '&fYour maximum bank balance is now &6100 Million Coins'
+      - '&fYour maximum interest is now &6300,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+  2:
+    name: '&dDeluxe Account'
+    lore:
+      - ''
+      - '&d>&m--------&r &6Interest Tranches &d&m--------&d<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ''
+      - ' &7Max interest: &6350,000'
+      - '   &8(With 30,000,000 balance)'
+      - '&d>&m---------------------------------&d<'
+      - ''
+      - '&7Max balance: &6250 Million Coins'
+      - ''
+      - '&7Cost: &610,000,000 coins'
+    maximum-balance: 250000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 10000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &dDeluxe Account&f!'
+      - '&fYour maximum bank balance is now &6250 Million Coins'
+      - '&fYour maximum interest is now &6350,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+  3:
+    name: '&5Super Deluxe Account'
+    lore:
+      - ''
+      - '&5>&m--------&r &6Interest Tranches &5&m--------&5<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ' &eFrom &630 &eto &650 &emillion yields &b0.2% &einterest.'
+      - ''
+      - ' &7Max interest: &6390,000'
+      - '   &8(With 50,000,000 balance)'
+      - '&5>&m---------------------------------&5<'
+      - ''
+      - '&7Max balance: &6500 Million Coins'
+      - ''
+      - '&7Cost: &625,000,000 coins'
+    maximum-balance: 500000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 25000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &5Super Deluxe Account&f!'
+      - '&fYour maximum bank balance is now &6500 Million Coins'
+      - '&fYour maximum interest is now &6390,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+  4:
+    name: '&cPremier Account'
+    lore:
+      - ''
+      - '&c>&m--------&r &6Interest Tranches &c&m--------&c<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ' &eFrom &630 &eto &650 &emillion yields &b0.2% &einterest.'
+      - ' &eFrom &650 &eto &6160 &emillion yields &b0.1% &einterest.'
+      - ''
+      - ' &7Max interest: &6500,000'
+      - '   &8(With 160,000,000 balance)'
+      - '&c>&m---------------------------------&c<'
+      - ''
+      - '&7Max balance: &61 Billion Coins'
+      - ''
+      - '&7Cost: &650,000,000 coins'
+    maximum-balance: 1000000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 50000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &cPremier Account&f!'
+      - '&fYour maximum bank balance is now &61 Billion Coins'
+      - '&fYour maximum interest is now &6500,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+      fifth:
+        percent: 0.1
+        minimum-coins: 50000001
+        maximum-coins: 160000000
+
+shared-bank-upgrades:
+  #Indexes must be from 0 to max index
+  #0 is the default account everyone starts with
+  maximum-index: 4
+  0:
+    player-limit: 4
+    name: '&aStarter Account'
+    lore:
+      - ''
+      - '&a>&m--------&r &6Interest Tranches &a&m--------&a<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &615 &emillion yields &b1% &einterest.'
+      - ''
+      - ' &7Max interest: &6250,000'
+      - '   &8(With 15,000,000 balance)'
+      - '&a>&m---------------------------------&a<'
+      - ''
+      - '&7Max balance: &650 Million Coins'
+      - '&7Player Limit: &b4 Players'
+      - ''
+      - '&7This is the default account.'
+    maximum-balance: 50000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 0
+      permission: 'none'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 15000000
+  1:
+    player-limit: 4
+    name: '&6Gold Account'
+    lore:
+      - ''
+      - '&6>&m--------&r &6Interest Tranches &6&m--------&6<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ''
+      - ' &7Max interest: &6300,000'
+      - '   &8(With 20,000,000 balance)'
+      - '&6>&m---------------------------------&6<'
+      - ''
+      - '&7Max balance: &6100 Million Coins'
+      - '&7Player Limit: &b4 Players'
+      - ''
+      - '&7Cost: &65,000,000 coins'
+    maximum-balance: 100000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 5000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &6Gold Account&f!'
+      - '&fYour maximum bank balance is now &6100 Million Coins'
+      - '&fYour maximum interest is now &6300,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+  2:
+    player-limit: 5
+    name: '&dDeluxe Account'
+    lore:
+      - ''
+      - '&d>&m--------&r &6Interest Tranches &d&m--------&d<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ''
+      - ' &7Max interest: &6350,000'
+      - '   &8(With 30,000,000 balance)'
+      - '&d>&m---------------------------------&d<'
+      - ''
+      - '&7Max balance: &6250 Million Coins'
+      - '&7Player Limit: &b5 Players'
+      - ''
+      - '&7Cost: &610,000,000 coins'
+    maximum-balance: 250000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 10000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &dDeluxe Account&f!'
+      - '&fYour maximum bank balance is now &6250 Million Coins'
+      - '&fYour maximum interest is now &6350,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+  3:
+    player-limit: 5
+    name: '&5Super Deluxe Account'
+    lore:
+      - ''
+      - '&5>&m--------&r &6Interest Tranches &5&m--------&5<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ' &eFrom &630 &eto &650 &emillion yields &b0.2% &einterest.'
+      - ''
+      - ' &7Max interest: &6390,000'
+      - '   &8(With 50,000,000 balance)'
+      - '&5>&m---------------------------------&5<'
+      - ''
+      - '&7Max balance: &6500 Million Coins'
+      - '&7Player Limit: &b5 Players'
+      - ''
+      - '&7Cost: &625,000,000 coins'
+    maximum-balance: 500000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 25000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &5Super Deluxe Account&f!'
+      - '&fYour maximum bank balance is now &6500 Million Coins'
+      - '&fYour maximum interest is now &6390,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+  4:
+    player-limit: 6
+    name: '&cPremier Account'
+    lore:
+      - ''
+      - '&c>&m--------&r &6Interest Tranches &c&m--------&c<'
+      - ' &eFirst &610 &emillion coins yields &b2% &einterest.'
+      - ' &eFrom &610 &eto &620 &emillion yields &b1% &einterest.'
+      - ' &eFrom &620 &eto &630 &emillion yields &b0.5% &einterest.'
+      - ' &eFrom &630 &eto &650 &emillion yields &b0.2% &einterest.'
+      - ' &eFrom &650 &eto &6160 &emillion yields &b0.1% &einterest.'
+      - ''
+      - ' &7Max interest: &6500,000'
+      - '   &8(With 160,000,000 balance)'
+      - '&c>&m---------------------------------&c<'
+      - ''
+      - '&7Max balance: &61 Billion Coins'
+      - '&7Player Limit: &b6 Players'
+      - ''
+      - '&7Cost: &650,000,000 coins'
+    maximum-balance: 1000000000
+    #What you need to upgrade to this upgrade
+    requirements:
+      coins: 50000000
+      permission: 'none'
+    upgrade-message:
+      - '&fYou just upgraded to &cPremier Account&f!'
+      - '&fYour maximum bank balance is now &61 Billion Coins'
+      - '&fYour maximum interest is now &6500,000 Coins'
+    deny-message: '&cYou don''t have enough coins to buy this upgrade!'
+    percentages:
+      #You can add and edit more procents and the "first", "second" name of the percentage doesn't really matter
+      #For the amount of coins a player has it will receive a percentage from the category he is in
+      #Procents also stack
+      #For the example below if player has 13 million coins he will receive 2% from 10 million + 1% from 3 million (13 million - 10 million)
+      first:
+        percent: 2
+        minimum-coins: 1
+        maximum-coins: 10000000
+      second:
+        percent: 1
+        minimum-coins: 10000001
+        maximum-coins: 20000000
+      third:
+        percent: 0.5
+        minimum-coins: 20000001
+        maximum-coins: 30000000
+      forth:
+        percent: 0.2
+        minimum-coins: 30000001
+        maximum-coins: 50000000
+      fifth:
+        percent: 0.1
+        minimum-coins: 50000001
+        maximum-coins: 160000000

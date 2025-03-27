@@ -1,0 +1,22 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 16
+    block: 17
+display:
+  name: "&aForaging Quest"
+  lore-normal:
+  - "&7Objective:&r &fCollect 16 oak logs."
+  - "&7Progress:&r &f{gathering:progress}/16 oak logs."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "xp give {player} 500"
+options:
+  category: "foraging"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 1

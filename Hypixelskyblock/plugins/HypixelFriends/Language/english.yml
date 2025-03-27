@@ -1,0 +1,126 @@
+Language: English
+Ingame_Only: '&cThis command is available only in the game.'
+No_Permission: '&cYou do not have access to this command!'
+Hyphen: '&9----------------------------------------------------'
+Exceptions:
+  AlreadySent: '&cYou''ve already sent a friend request to this person!'
+  AlreadyFriend: '&cYou''re already friends with this person!'
+  Ignored: '&cThat player has added you to their ignored players list!'
+  IsntOnYourFriends: '&c%targetDisplayName &cisn''t on your friends list!'
+  CantAddYourSelf: '&cYou can''t add yourself as a friend!'
+  CantRemoveYourself: '&cYou can not remove yourself!'
+  NoInvited: '&cThat person hasn''t invited you to be friends! Try &e/friend add %name'
+  HasntFriend: '&cThat person hasn''t invited you to be friends! Try &e/friend add
+    %name'
+  SlotLimitReached: '&cYou have reached the maximum of friends! To add more friends
+    please remove some!'
+  RequestDeny: '&cThis player has disabled friend request receipt!'
+No-Joined-The-Party: '&cYou must be in a party to use this command!'
+Cant-Find: '&cCan''t find a player by the name of ''%name'''
+Friends:
+  Join: '&aFriends > &7%%displayName%% &ejoined.'
+  Quit: '&aFriends > &7%%displayName%% &eleft.'
+Add:
+  Usage: '&cUsage: /friend add <player>'
+  Sent: '&eYou sent a friend request to %targetDisplayName&e!'
+  5-Minutes: '&eThey have 5 minutes to accept it!'
+  Accept:
+    Prefix: '&a&l[ACCEPT]&r'
+    Message: '&bClick to accept the friend request'
+  Deny:
+    Prefix: '&c&l[DENY]&r'
+    Message: '&bClick to deny the friend request'
+  Ignore:
+    Prefix: '&7&l[IGNORE]'
+    Message: '&bClick to block all future friend requests.'
+  Request:
+    Received: '&eFriend request from %displayName&e!'
+  Expired:
+    YourSelf: '&eYour friend request to %targetDisplayName &ehas expired.'
+    Target: '&eThe friend request from %displayName &ehas expired.'
+Remove:
+  Usage: '&cUsage: /friend remove <player>'
+  YourSelf: '&eYou removed %targetDisplayName &efrom your friends list!'
+  Target: '&e%displayName &eremoved you from their friends list!'
+  All:
+    Confirm: '&eAre you sure you want to delete all your friends? To delete it, enter
+      &c''/f removeall confirm''&e.'
+    Failed: '&eFailed removing: %uuid'
+    Done: '&eDeleted all my friends.'
+Accept:
+  Usage: '&cUsage: /friend accept <player>'
+  YourSelf: '&aYou are now friends with %targetDisplayName'
+  Target: '&aYou are now friends with %displayName'
+Deny:
+  Usage: '&cUsage: /friend deny <player>'
+  Declined: '&eDeclined %targetDisplayName&e''s friend request!'
+List:
+  DontHave:
+    One: '&eYou don''t have any friends yet!'
+    Two: '&eAdd some with /friend add <player>'
+  Online: '&e%targetDisplayName &eis online.'
+  Offline: '&e%targetDisplayName &cis currently offline'
+  Page: '&6Friends (Page %%currentPage%% of %%maxPage%%)'
+Lang:
+  Usage: '&cInvalid usage! ''/friend lang <language>'''
+  Available: '&bCurrently available languages:'
+  Update: '&aSelected language: &e%lang&a!'
+  Updater:
+    LastUpdate: '&aLast update: %data'
+    Usage: '&cInvalid usage! ''/friend lang update <language>'''
+    NeedCheck: '&cYou need check available languages list! (/friend lang update)'
+    Checking: '&7Checking updates...'
+    Failed-Connect: '&cFailed connecting to the server.'
+    Unknown: '&cThis language is not found.'
+    Available: '&aAvailable files:'
+    Updated: '&a%lang language has been updated! You may need to restart the server.'
+Ignore:
+  Usage:
+    Main: '&cInvalid usage! ''/friend ignore <add|remove|list>'''
+    Add: '&cInvalid usage! ''/friend ignore add <player>'''
+    Remove: '&cInvalid usage! ''/friend ignore add <player>'''
+  Havent:
+    One: '&eYou don''t have any ignores yet!'
+    Two: '&eAdd some with /friend ignore add <player>'
+  Added: '&aAdded %targetDisplayName &ato your ignore list.'
+  AlreadyAdded: '&cYou''ve already ignored that player! &b/ignore remove Player &cto
+    unignore them!'
+  Removed: '&aRemoved %targetDisplayName &afrom your ignore list.'
+  NotAdded: '&cYou aren''t ignoring that player! &b/ignore add Player &cto ignore!'
+Force-Add:
+  Usage: '&cUsage: /friend force-add <player>'
+  YourSelf: '&aYou are now friends with %targetDisplayName &c&l[FORCE]'
+  Target: '&aYou are now friends with %displayName &c&l[FORCE]'
+Prefix:
+  Usage: '&cUsage: /friend prefix <player> <prefix>'
+  Current: '&7%targetDisplayName&e''s currently prefix is ''%prefix&e'''
+  To: '&7%targetDisplayName&e''s prefix has been changed to ''%prefix&e'''
+Toggle:
+  Enabled: '&eFriend Requests have been &aenabled&e!'
+  Disabled: '&eFriend Requests have been &cdisabled&e!'
+Help:
+  Command: '&aFriend Commands:'
+  Help: '&e/friend help &7- &bPrints this help message'
+  Lang: '&9----------------------------------------------------'
+  Add: '&e/friend add &7- &bAdd a player as a friend'
+  Remove: '&e/friend remove &7- &bRemove a player from your friends'
+  RemoveAll: '&e/friend removeall &7- &bRemove all your friends.'
+  Accept: '&e/friend accept &7- &bAccept a friend request'
+  Deny: '&e/friend deny &7- &bDecline a friend request'
+  List: '&e/friend list &7- &bList your friends'
+  Ignore: '&e/friend ignore &7- &bManage Ignore list'
+  Force-Add: '&e/friend force-add &7- &bYou will be forced to be friends with the
+    player.'
+  Prefix: '&e/friend prefix &7- &bSet player prefix.'
+  Toggle: '&e/friend toggle &7- &bToggle friend request.'
+Tell-Command:
+  Usage: '&cUsage: /tell <player> <message>'
+  YourSelf: '&dTo: %targetDisplayName&7: %message'
+  Target: '&dFrom: %displayName&7: %message'
+  MustBeFriends: '&cYou must be friends with %targetDisplayName!'
+  Offline: '&c%targetDisplayName &cis not online!'
+Reply-Command:
+  Usage: '&cUsage: /reply <message>'
+  Target: '&cReply target: %targetDisplayName'
+OSL:
+  NotFound: '&bOpen Source Item was not found.'

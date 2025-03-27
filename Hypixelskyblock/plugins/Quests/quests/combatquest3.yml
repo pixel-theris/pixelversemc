@@ -1,0 +1,33 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 4
+    mob: CHICKEN
+display:
+  name: "&aCombat Quest"
+  lore-normal:
+  - "&7Objective:&r &fKill 4 chickens."
+  - "&7Progress:&r &f{killing:progress}/4 chickens."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.kill-some-chickens true"
+  - "customplaceholders set {player} mission_farm null"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fKill some chickens"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &a&lREWARDS"
+  - "whisper {player} &7    &aCarrot Orb"
+  - "whisper {player} &7    &aPotato Orb"
+  - "whisper {player} &7"
+  - "ho give {player} carrots"
+  - "ho give {player} potatoes"
+options:
+  category: "combat"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 3

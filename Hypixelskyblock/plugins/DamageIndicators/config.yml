@@ -1,0 +1,10 @@
+# The format in which damage numbers are shown.
+# %digit-<number>% are placeholders for the digits that can occur in a number.
+# The plugin will only check until digit-9.
+display-format: '&f%digit-1%&e%digit-2%&6%digit-3%&c%digit-4%&f'
+
+# If the damage done is a critical hit, this will be shown in front of and after the damage number.
+crit-character: '✧'
+
+# The amount of ticks the damage stays visible, 20 = 1 second.
+display-ticks: 20

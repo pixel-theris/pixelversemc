@@ -1,0 +1,555 @@
+menus:
+  main-bank-menu:
+    title: '&8Personal Bank'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    deposit-item:
+      item-id: '54'
+      slot: 11
+      name: '&aDeposit Coins'
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&7Store coins in the bank to'
+        - '&7keep them safe while you go'
+        - '&7on adventures!'
+        - ''
+        - '&7Until interest: &b%interest-cooldown%'
+        - ''
+        - '&eClick to make a deposit!'
+    withdraw-item:
+      item-id: '158'
+      slot: 13
+      name: '&aWithdraw Coins'
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&7Take your coins out of the'
+        - '&7bank in order to spend'
+        - '&7them.'
+        - ''
+        - '&eClick to withdraw coins'
+    transaction-history:
+      item-id: '358:0'
+      slot: 15
+      name: '&aTransaction History'
+      #Use %symbol% for +/-
+      #Use %transaction-coins% for the amount of coins from that transaction
+      #Use %transaction-countdown% for the time elapsed from the creation of the transaction
+      #Use %player-name% for the name of the one who made the transaction (it could also be bank interest)
+      lore-structure: '%symbol% &6%transaction-coins%&7, &e%transaction-countdown% &7by &b%player-name%'
+      bank-interest-name: '&7Bank Interest'
+      no-transaction-lore:
+        - '&7You have no transactions'
+        - '&7to display.'
+    close-item:
+      item-id: '166'
+      slot: 31
+      name: '&cClose'
+      lore: []
+    information-item:
+      item-id: '76'
+      slot: 32
+      name: '&aInformation'
+      #Use %balance-limit% for the current bank limit (taken from bank upgrade)
+      #Use %interest-value% for the amount of coins the player will receive on interest
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7Keep your coins safe in the bank!'
+        - '&7You lose half the coins in your'
+        - '&7purse when dying.'
+        - ''
+        - '&7Balance limit: &6%balance-limit%'
+        - ''
+        - '&7The banker rewards you every 31'
+        - '&7hours with &binterest &7for the'
+        - '&7coins in your bank balance.'
+        - ''
+        - '&7Interest in: &b%interest-cooldown%'
+        - '&7Projected: &6%interest-value% coins'
+    bank-upgrades:
+      item-id: '41'
+      slot: 35
+      name: '&6Bank Upgrades'
+      lore:
+        - '&7Are you so rich that you can''t'
+        - '&7even store your coins?'
+        - ''
+        - '&7Current account: %account-name%'
+        - '&7Bank limit: &6%balance-limit%'
+        - ''
+        - '&eClick to view upgrades!'
+  deposit-coins-menu:
+    title: '&8Bank Deposit'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    deposit-message: '&fYou have deposited &6%amount% coins &fin your bank!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 15
+      name: '&aSpecific amount'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&eClick to deposit coins!'
+    percent-items:
+      item1:
+        percent: 50
+        display-amount: 32
+        item-id: '54'
+        slot: 13
+        name: '&aHalf your purse'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to deposit: &6%to-deposit%'
+          - ''
+          - '&eClick to deposit coins!'
+      item2:
+        percent: 100
+        display-amount: 64
+        item-id: '54'
+        slot: 11
+        name: '&aYour whole purse'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to deposit: &6%to-deposit%'
+          - ''
+          - '&eClick to deposit coins!'
+  withdraw-coins-menu:
+    title: '&8Bank Withdrawal'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    withdraw-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 16
+      name: '&aSpecific amount'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&eClick to withdraw coins!'
+    percent-items:
+      item1:
+        percent: 20
+        display-amount: 1
+        item-id: '158'
+        slot: 14
+        name: '&aWithdraw 20%'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+      item2:
+        percent: 50
+        display-amount: 32
+        item-id: '158'
+        slot: 12
+        name: '&aHalf the account'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+      item3:
+        percent: 100
+        display-amount: 64
+        item-id: '158'
+        slot: 10
+        name: '&aEverything in the account'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+    withdraw-as-bag:
+      slot: 32
+      #If the amount the player withdraws does not meet
+      #the bag's minimum & maximum requirements the amount will
+      #be sent in their purse instead
+      withdraw-as-purse: '&fThe amount was sent to &eyour purse &finstead!'
+      selected:
+        name: '&aWithdraw via Coins Bag (ON)'
+        lore:
+          - ''
+          - '&7Status: &aSELECTED'
+          - '&7This option will withdraw'
+          - '&7the amount you want as a'
+          - '&7coins bag!'
+          - ''
+          - '&eClick to deactivate!'
+      not-selected:
+        name: '&aWithdraw via Coins Bag (OFF)'
+        lore:
+          - ''
+          - '&7Status: &cNOT SELECTED'
+          - '&7This option will withdraw'
+          - '&7the amount you want as a'
+          - '&7coins bag!'
+          - ''
+          - '&eClick to activate!'
+  bank-upgrades-menu:
+    title: '&8Bank Account Upgrades'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    lore-additions:
+      #These options are added to the lore of the bank upgrades
+      #If you leave them empty they won't be added
+      better-upgrade: '&eThis is a better account!'
+      own-upgrade: '&aThis is your account!'
+      previous-upgrade: '&cYou have a better account!'
+      need-previous-upgrade: '&cNeed previous upgrade!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    #This menu is more dynamic than the other ones
+    #You can add as many items as you like here, but they must represent
+    #a bank upgrade by index (0, 1, 2, etc)
+    bank-upgrades-items:
+      item1:
+        #The bank upgrade that this item represents
+        item-id: '295'
+        bank-upgrade-index: 0
+        slot: 11
+      item2:
+        item-id: '371'
+        bank-upgrade-index: 1
+        slot: 12
+      item3:
+        item-id: '266'
+        bank-upgrade-index: 2
+        slot: 13
+      item4:
+        item-id: '315'
+        bank-upgrade-index: 3
+        slot: 14
+      item5:
+        item-id: '418'
+        bank-upgrade-index: 4
+        slot: 15
+
+shared-menus:
+  main-bank-menu:
+    title: '&8Shared Bank'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    deposit-item:
+      item-id: '54'
+      slot: 11
+      name: '&aDeposit Coins'
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&7Store coins in the bank to'
+        - '&7keep them safe while you go'
+        - '&7on adventures!'
+        - ''
+        - '&7Until interest: &b%interest-cooldown%'
+        - ''
+        - '&eClick to make a deposit!'
+    withdraw-item:
+      item-id: '158'
+      slot: 13
+      name: '&aWithdraw Coins'
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&7Take your coins out of the'
+        - '&7bank in order to spend'
+        - '&7them.'
+        - ''
+        - '&eClick to withdraw coins'
+    transaction-history:
+      item-id: '358:0'
+      slot: 15
+      name: '&aTransaction History'
+      #Use %symbol% for +/-
+      #Use %transaction-coins% for the amount of coins from that transaction
+      #Use %transaction-countdown% for the time elapsed from the creation of the transaction
+      #Use %player-name% for the name of the one who made the transaction (it could also be bank interest)
+      lore-structure: '%symbol% &6%transaction-coins%&7, &e%transaction-countdown% &7by &b%player-name%'
+      bank-interest-name: '&7Bank Interest'
+      no-transaction-lore:
+        - '&7You have no transactions'
+        - '&7to display.'
+    close-item:
+      item-id: '166'
+      slot: 31
+      name: '&cClose'
+      lore: []
+    information-item:
+      item-id: '76'
+      slot: 32
+      name: '&aInformation'
+      #Use %balance-limit% for the current bank limit (taken from bank upgrade)
+      #Use %interest-value% for the amount of coins the player will receive on interest
+      #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+      #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+      #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+      lore:
+        - '&7Keep your coins safe in the bank!'
+        - '&7You lose half the coins in your'
+        - '&7purse when dying.'
+        - ''
+        - '&7Balance limit: &6%balance-limit%'
+        - ''
+        - '&7The banker rewards you every 31'
+        - '&7hours with &binterest &7for the'
+        - '&7coins in your bank balance.'
+        - ''
+        - '&7Interest in: &b%interest-cooldown%'
+        - '&7Projected: &6%interest-value% coins'
+    shared-information-item:
+      item-id: '340'
+      slot: 30
+      name: '&aBank Players'
+      #Use %bank-owner% for the owner of the bank
+      lore-header:
+        - '&7Bank Owner: &b%bank-owner%'
+        - '&7Bank Members:'
+      #Use %member% for the name of the member displayed
+      lore-members-structure: '&7 - &b%member%'
+      no-members: '&c There are no members'
+      lore-footer:
+        - '&7Upgrade your bank to get'
+        - '&7more player slots!'
+    bank-upgrades:
+      item-id: '41'
+      slot: 35
+      name: '&6Bank Upgrades'
+      lore:
+        - '&7Are you so rich that you can''t'
+        - '&7even store your coins?'
+        - ''
+        - '&7Current account: %account-name%'
+        - '&7Bank limit: &6%balance-limit%'
+        - ''
+        - '&eClick to view upgrades!'
+  deposit-coins-menu:
+    title: '&8Bank Deposit'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    deposit-message: '&fYou have deposited &6%amount% coins &fin your bank!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 15
+      name: '&aSpecific amount'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&eClick to deposit coins!'
+    percent-items:
+      item1:
+        percent: 50
+        display-amount: 32
+        item-id: '54'
+        slot: 13
+        name: '&aHalf your purse'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to deposit: &6%to-deposit%'
+          - ''
+          - '&eClick to deposit coins!'
+      item2:
+        percent: 100
+        display-amount: 64
+        item-id: '54'
+        slot: 11
+        name: '&aYour whole purse'
+        #Use %balance% for the current balance
+        #Use %to-deposit% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to deposit: &6%to-deposit%'
+          - ''
+          - '&eClick to deposit coins!'
+  withdraw-coins-menu:
+    title: '&8Bank Withdrawal'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    #Use %amount% for the amount of coins a player withdraws
+    withdraw-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    custom-amount-item:
+      item-id: '323'
+      slot: 16
+      name: '&aSpecific amount'
+      #Use %balance% for the amount of coins
+      lore:
+        - '&7Current balance: &6%balance%'
+        - ''
+        - '&eClick to withdraw coins!'
+    percent-items:
+      item1:
+        percent: 20
+        display-amount: 1
+        item-id: '158'
+        slot: 14
+        name: '&aWithdraw 20%'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+      item2:
+        percent: 50
+        display-amount: 32
+        item-id: '158'
+        slot: 12
+        name: '&aHalf the account'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+      item3:
+        percent: 100
+        display-amount: 64
+        item-id: '158'
+        slot: 10
+        name: '&aEverything in the account'
+        #Use %balance% for the current balance
+        #Use %to-withdraw% for the amount that will be deposited
+        lore:
+          - '&7Current balance: &6%balance%'
+          - '&7Amount to withdraw: &6%to-withdraw%'
+          - ''
+          - '&eClick to withdraw coins!'
+    withdraw-as-bag:
+      slot: 32
+      #If the amount the player withdraws does not meet
+      #the bag's minimum & maximum requirements the amount will
+      #be sent in their purse instead
+      withdraw-as-purse: '&fThe amount was sent to &eyour purse &finstead!'
+      selected:
+        name: '&aWithdraw via Coins Bag (ON)'
+        lore:
+          - ''
+          - '&7Status: &aSELECTED'
+          - '&7This option will withdraw'
+          - '&7the amount you want as a'
+          - '&7coins bag!'
+          - ''
+          - '&eClick to deactivate!'
+      not-selected:
+        name: '&aWithdraw via Coins Bag (OFF)'
+        lore:
+          - ''
+          - '&7Status: &cNOT SELECTED'
+          - '&7This option will withdraw'
+          - '&7the amount you want as a'
+          - '&7coins bag!'
+          - ''
+          - '&eClick to activate!'
+  bank-upgrades-menu:
+    title: '&8Bank Account Upgrades'
+    use-background-glass: true
+    background-glass-color: 15
+    size: 36
+    lore-additions:
+      #These options are added to the lore of the bank upgrades
+      #If you leave them empty they won't be added
+      better-upgrade: '&eThis is a better account!'
+      own-upgrade: '&aThis is your account!'
+      previous-upgrade: '&cYou have a better account!'
+      need-previous-upgrade: '&cNeed previous upgrade!'
+    go-back-item:
+      item-id: '262'
+      slot: 31
+      name: '&aGo back'
+      lore:
+        - '&7Go back to your'
+        - '&7bank.'
+    #This menu is more dynamic than the other ones
+    #You can add as many items as you like here, but they must represent
+    #a bank upgrade by index (0, 1, 2, etc)
+    bank-upgrades-items:
+      item1:
+        #The bank upgrade that this item represents
+        item-id: '295'
+        bank-upgrade-index: 0
+        slot: 11
+      item2:
+        item-id: '371'
+        bank-upgrade-index: 1
+        slot: 12
+      item3:
+        item-id: '266'
+        bank-upgrade-index: 2
+        slot: 13
+      item4:
+        item-id: '315'
+        bank-upgrade-index: 3
+        slot: 14
+      item5:
+        item-id: '418'
+        bank-upgrade-index: 4
+        slot: 15

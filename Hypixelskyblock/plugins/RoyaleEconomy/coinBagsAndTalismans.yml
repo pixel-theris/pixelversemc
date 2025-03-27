@@ -1,0 +1,176 @@
+money-bags:
+  #You can only use textures
+  money-bag-skin: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19'
+  full-inventory-message: '&cYour inventory is full! I don''t have where to put the bag.'
+  #ATTENTION! If you give money bags using /moneybag give the limits don't matter (minimum-amount & maximum-amount)
+  #The minimum amount of coins the bag needs to have
+  minimum-amount: 500
+  minimum-message: '&fLess than &6500 coins &fdon''t need a bag, just carry them in your purse.'
+  #The maximum amount of coins the bag can hold
+  maximum-amount: 500000
+  maximum-message: '&fThe bag can hold maximum &6500,000 coins&f! It would tear otherwise.'
+  money-bag-click: '&fYou collected &6%amount% coins &ffrom a bag!'
+  money-bag-name: '&6Bag of Coins'
+  #Use %amount% for the amount of coins the bag contains
+  money-bag-lore:
+    - '&7This is a bag that'
+    - '&7stores coins! It can'
+    - '&7store up to &6500k coins&7!'
+    - ''
+    - '&7It contains'
+    - '&6%amount% coins&7!'
+    - ''
+    - '&eClick to add coins'
+    - '&eto your purse!'
+
+talismans:
+  use-talismans: true
+  #When this is set to false, your talismans won't drop on death
+  talismans-drop: false
+  upgrade-menu:
+    not-enough-coins: '&cYou don''t have enough coins in your purse!'
+    upgraded: '&aYour talisman was upgraded!'
+    title: '&8Talisman Upgrade'
+    middle-item:
+      name: '&aUpgrade'
+      lore:
+        - '&7Upgrade from %fromTalisman%'
+        - '&7to %toTalisman%'
+        - ''
+        - '&7Cost: &6%cost% coins'
+        - ''
+        - '&eClick the new talisman'
+        - '&eto confirm!'
+  random-coins-talisman:
+    #You can disable individual talismans if you don't use them
+    #to increase performance
+    use-this-talisman: true
+    #Use %amount% for the amount of coins the talisman gave
+    #Use %talisman-name% for the display name of the talisman
+    talisman-give-message: '&6+%amount% coins &6(%talisman-name%&6)'
+    #The index of the maximum upgrade
+    last-index: 2
+    0:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdmNTdlN2FhOGRlODY1OTFiYjBiYzUyY2JhMzBhNDlkOTMxYmZhYmJkNDdiYmM4MGJkZDY2MjI1MTM5MjE2MSJ9fX0='
+      name: '&fLucky Coins Talisman'
+      #Minimum interval and maximum interval are numbers represented in minutes
+      minimum-interval: 3
+      maximum-interval: 3
+      minimum-coins: 5
+      maximum-coins: 10
+      lore:
+        - '&7This talisman gives you'
+        - '&7&65-10 &7coins every &e3 &7minutes.'
+        - ''
+        - '&f&lCOMMON'
+    1:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU2NGU1NTM4MGQzOTkwMDJlMDFjZjBiMTI3NzRjZGE2YTdhMjZkODZiNTliZjg2MjkyODRlZjFhMzg3ZDRkMCJ9fX0='
+      #How much does it cost to upgrade to this one
+      upgrade-cost: 15000
+      name: '&fLucky Coins Ring'
+      #Minimum interval and maximum interval are numbers represented in minutes
+      minimum-interval: 3
+      maximum-interval: 3
+      minimum-coins: 15
+      maximum-coins: 25
+      lore:
+        - '&7This talisman gives you'
+        - '&7&615-25 &7coins every &e3 &7minutes.'
+        - ''
+        - '&f&lCOMMON'
+    2:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNGZmOTEyNTY2ZDQ3MTk4MTI3ODhlNjMzYmE0MjNkMWRiMTQ0OWFkZmJiNzA2MWZhZmU3NGJhODgwOTQ2OSJ9fX0='
+      #How much does it cost to upgrade to this one
+      upgrade-cost: 30000
+      name: '&6Lucky Coins Artifact'
+      #Minimum interval and maximum interval are numbers represented in minutes
+      minimum-interval: 3
+      maximum-interval: 3
+      minimum-coins: 25
+      maximum-coins: 25
+      lore:
+        - '&7This talisman gives you'
+        - '&7&625 &7coins every &e3 &7minutes.'
+        - ''
+        - '&f&lCOMMON'
+  percent-reducer-talisman:
+    use-this-talisman: true
+    last-index: 2
+    0:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEzOGU4M2E1NTkxZDY3NDc5YzAxNzkzN2UxZDk4ZGRhZDA0MDhkNTMzYWUyZDhjNzljMzRhZmQ4NzE5OWE3In19fQ=='
+      name: '&cPurse Saver Talisman'
+      reduce-percent: 5
+      lore:
+        - ''
+        - '&7This talisman lowers'
+        - '&7the percent of coins'
+        - '&7you lose on death events'
+        - '&7by &c5%&7!'
+        - ''
+        - '&a&lUNCOMMON'
+    1:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBiN2NhMmNlZDExZDMyNWEzMWQ1ZjI3NTNmYjcxZTIxNjk3ZDI5MWJlYzljMmZhNGE1ZjU5MGRiOWM5OTFmIn19fQ=='
+      name: '&cPurse Saver Ring'
+      upgrade-cost: 10000
+      reduce-percent: 10
+      lore:
+        - ''
+        - '&7This talisman lowers'
+        - '&7the percent of coins'
+        - '&7you lose on death events'
+        - '&7by &c10%&7!'
+        - ''
+        - '&a&lUNCOMMON'
+    2:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRlZGZiZTk0ZDJkMWZhMzY3ODMyZDQyYWEyODI0ZjAxNGRhOTk1YTcyZGI3MmI0NTJiOWM3Yjk4ZTRmYSJ9fX0='
+      name: '&cPurse Saver Artifact'
+      upgrade-cost: 20000
+      reduce-percent: 20
+      lore:
+        - ''
+        - '&7This talisman lowers'
+        - '&7the percent of coins'
+        - '&7you lose on death events'
+        - '&7by &c20%&7!'
+        - ''
+        - '&a&lUNCOMMON'
+  death-save-talisman:
+    use-this-talisman: true
+    last-index: 2
+    0:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyZGNhNjhjOGY4YWY1MzNmYjczN2ZhZWVhY2JlNzE3Yjk2ODc2N2ZjMTg4MjRkYzJkMzdhYzc4OWZjNzcifX19'
+      name: '&aLucky Purse Talisman'
+      percent: 5
+      lore:
+        - ''
+        - '&7This talisman gives a'
+        - '&a5% &7chance to not'
+        - '&7lose coins from your'
+        - '&7purse on death!'
+        - ''
+        - '&a&lUNCOMMON'
+    1:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JiNjEyZWI0OTVlZGUyYzVjYTUxNzhkMmQxZWNmMWNhNWEyNTVkMjVkZmMzYzI1NGJjNDdmNjg0ODc5MWQ4In19fQ=='
+      name: '&aLucky Purse Ring'
+      percent: 10
+      upgrade-cost: 15000
+      lore:
+        - ''
+        - '&7This talisman gives a'
+        - '&a10% &7chance to not'
+        - '&7lose coins from your'
+        - '&7purse on death!'
+        - ''
+        - '&a&lUNCOMMON'
+    2:
+      skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkMDQ3NmU4NjcxNjk2YWYzYTg5NDlhZmEyYTgxNGI5YmRkZTY1ZWNjZDFhOGI1OTNhZWVmZjVhMDMxOGQifX19'
+      name: '&aLucky Purse Artifact'
+      percent: 20
+      upgrade-cost: 30000
+      lore:
+        - ''
+        - '&7This talisman gives a'
+        - '&a20% &7chance to not'
+        - '&7lose coins from your'
+        - ''
+        - '&a&lUNCOMMON'

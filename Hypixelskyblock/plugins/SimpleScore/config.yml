@@ -1,0 +1,221 @@
+# Default time in ticks for a score to stay on the scoreboard (20 ticks = 1 second)
+UpdateTime: 20
+
+# Save which players have the scoreboard disabled
+SaveScoreboards: true
+
+# Configure your scoreboards layout
+Scoreboards:
+  Server:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  Islands:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      13:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      12:
+        - ""
+      11:
+        - " &f%mph_mytheriadayrpg%"
+      10:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      9:
+        - " &7⏣ &aPlayer Islands"
+      8:
+        - " &a✌ &7(&a%iridiumskyblock_island_members%&7/&7%iridiumskyblock_island_upgrade_member_amount%&7)"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  farm:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission_farm%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  mine:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission_mine%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  forest:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission_forest%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  graveyard:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission_graveyard%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  spidersden:
+    Titles:
+      - "&e&lSKYBLOCK"
+    Scores:
+      12:
+        - "&7%server_time_d/M/y% &8%player_name%"
+      11:
+        - ""
+      10:
+        - " &f%mph_mytheriadayrpg%"
+      9:
+        - " &7%mph_localtime%%mph_twelve% %mph_time%"
+      8:
+        - " &7⏣ %sbp_region-name%"
+      7:
+        - ""
+      6:
+        - "&rPurse: &6%vault_eco_balance_commas%.0&r %royaleeconomy_dynamic_coins%"
+      5:
+        - ""
+      4:
+        - "&fObjective:"
+      3:
+        - "&e%customplaceholders_mission_spidersden%"
+      2:
+        - ""
+      1:
+        - "&ewww.example.com&r"
+  restricted:
+    Restricted: false
+    Titles:
+      - ""
+    Scores:
+      1:
+        - ""
+
+# Set what scoreboards each world will be using
+Worlds:
+  # World names are case-insensitive
+  Server: ["Server"]
+  # This will match all worlds starting with "world_" (e.g. world_nether, world_the_end)
+  Islands: ["Islands"]
+  # If player doesn't have permission to see the restricted scoreboard then it will display the example

@@ -1,0 +1,136 @@
+spiders-den-end:
+  location: Server, 454.1, 158.5, 14.5
+  lines:
+  - '&bWarp to:'
+  - '&dThe End'
+  - ''
+  - '&cRequires Combat XII'
+spiders-den-nether:
+  location: Server, 473.5, 175.5, -34.0
+  lines:
+  - '&bWarp to:'
+  - '&cThe Nether'
+  - ''
+  - '&cRequires Combat X'
+teleport-farm2-farm:
+  location: Server, 76.5, 101.5, 308.5
+  lines:
+  - '&bWarp to:'
+  - '&aFarm'
+teleport-farm-farm2:
+  location: Server, 77.0, 93.5, 243.5
+  lines:
+  - '&bWarp to:'
+  - '&aBarn'
+  - ''
+  - '&cRequires Farming III'
+teleport-farm-village:
+  location: Server, 57.9, 89.5, 155.5
+  lines:
+  - '&bWarp to:'
+  - '&aVillage'
+teleport-forest2-village:
+  location: Server, 147.0, 90.5, -190.5
+  lines:
+  - '&bWarp to:'
+  - '&aVillage'
+teleport-forest-acacia-dark:
+  location: Server, 4.8, 109.5, -262.5
+  lines:
+  - '&bWarp to:'
+  - '&aDark Forest'
+teleport-forest-birch-jungle:
+  location: Server, 177.0, 98.5, -274.5
+  lines:
+  - '&bWarp to:'
+  - '&aJungle'
+teleport-forest-birch-spruce:
+  location: Server, 177.5, 98.5, -323.5
+  lines:
+  - '&bWarp to:'
+  - '&aSpruce Forest'
+teleport-forest-dark-acacia:
+  location: Server, 22.1, 118.5, -313.1
+  lines:
+  - '&bWarp to:'
+  - '&aAcacia Forest'
+teleport-forest-dark-spruce:
+  location: Server, 53.5, 116.5, -361.5
+  lines:
+  - '&bWarp to:'
+  - '&aSpruce Forest'
+teleport-forest-jungle-birch:
+  location: Server, 172.0, 90.5, -231.5
+  lines:
+  - '&bWarp to:'
+  - '&aBirch Forest'
+teleport-forest-spruce-birch:
+  location: Server, 138.5, 110.5, -352.5
+  lines:
+  - '&bWarp to:'
+  - '&aBirch Forest'
+teleport-forest-spruce-dark:
+  location: Server, 97.5, 111.5, -363.5
+  lines:
+  - '&bWarp to:'
+  - '&aDark Forest'
+teleport-forest-village:
+  location: Server, 5.5, 109.5, -207.5
+  lines:
+  - '&bWarp to:'
+  - '&aVillage'
+teleport-mines-village:
+  location: Server, -251.5, 109.5, 82.0
+  lines:
+  - '&bWarp to:'
+  - '&aCoal Mine'
+teleport-spiders-den-village:
+  location: Server, 271.5, 74.5, -40.5
+  lines:
+  - '&bWarp to:'
+  - '&cCemetery'
+teleport-the-nether-spiders-den:
+  location: Server, 606.5, 95.2, -28.5
+  lines:
+  - '&bWarp to:'
+  - '&cSpider''s Den'
+teleport-village-farm:
+  location: Server, 59.0, 86.2, 118.5
+  lines:
+  - '&bWarp to:'
+  - '&aFarm'
+teleport-village-forest:
+  location: Server, 59.5, 91.2, -97.5
+  lines:
+  - '&bWarp to:'
+  - '&aAcacia Forest'
+teleport-village-forest2:
+  location: Server, 118.5, 95.2, -113.5
+  lines:
+  - '&bWarp to:'
+  - '&aJungle'
+teleport-village-island:
+  location: Server, 12.5, 90.5, 0.5
+  lines:
+  - '&bWarp to:'
+  - '&aYour Island'
+teleport-village-mines:
+  location: Server, -174.5, 108.2, 70.0
+  lines:
+  - '&bWarp to:'
+  - '&aMines'
+  - ''
+  - '&cRequires Mining III'
+teleport-village-spiders-den:
+  location: Server, 207.5, 83.2, -39.0
+  lines:
+  - '&bWarp to:'
+  - '&cSpider''s Den'
+  - ''
+  - '&cRequires Combat III'
+gladiator-arena:
+  location: Server, 111.500, 92.200, 23.500
+  lines:
+  - '&a&lARENA'
+  - '&eBattle against other players'
+  - '&eand participate in special events.'

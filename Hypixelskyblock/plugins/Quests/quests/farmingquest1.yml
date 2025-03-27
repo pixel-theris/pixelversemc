@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 32
+    block: 141
+display:
+  name: "&aFarming Quest"
+  lore-normal:
+  - "&7Objective:&r &fHarvest 32 carrot crops."
+  - "&7Progress:&r &f{mining:progress}/32 carrot crops."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.collect-some-carrots true"
+  - "customplaceholders set {player} mission_farm &eTalk_to_the_Farmhand"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fCollect some carrots"
+  - "whisper {player} &7"
+  - "q a moddata start {player} npcquest2"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fTalk to the Farmhand"
+  - "whisper {player} &7"
+options:
+  category: "farming"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 1

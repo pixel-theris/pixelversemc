@@ -1,0 +1,18 @@
+name: Punish Player
+title: Punish Player
+author: Server
+generation: ORIGINAL
+lore:
+- Punishment GUI
+open_command: ''
+
+pages:
+  '1':
+  - 'Select a reason for warning %skript_1::{player}%:'
+  - ''
+  - '<tooltip:&7Click to warn %skript_1::{player}% for Inappropriate Chat Behavior<br>&7<br>&bPunishment Type: Warn<br>&bPunishment Duration: 5 Days<br>&7<br>&7&eApplies to: Inappropriate chat behavior.><run command:/warn %skript_1::{player}% Inappropriate Chat Behavior> &8⦿&0 Inappropriate Chat Behavior<reset>'
+  - '<tooltip:&7Click to warn %skript_1::{player}% for Inappropriate Game Behavior<br>&7<br>&bPunishment Type: Warn<br>&bPunishment Duration: 5 Days<br>&7<br>&7&eApplies to: Inappropriate game behavior.><run command:/warn %skript_1::{player}% Inappropriate Game Behavior> &8⦿&0 Inappropriate Game Behavior<reset>'
+  - '<tooltip:&7Click to warn %skript_1::{player}% for Other<br>&7<br>&bPunishment Type: Warn<br>&bPunishment Duration: 5 Days<br>&7<br>&7&eApplies to: Any reason not listed above.><run command:/warn %skript_1::{player}% Other> &8⦿&0 Other<reset>'
+  - ''
+  - '  <tooltip:&cClick to cancel><run command:/cancelpunishment>&cCANCEL PUNISHMENT<reset>'
+  - '      <tooltip:&7Click to change punishment type><run command:/punish %skript_1::{player}%>&7CHANGE TYPE<reset>'

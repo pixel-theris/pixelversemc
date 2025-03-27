@@ -1,0 +1,127 @@
+Language: Russian
+Ingame_Only: '&cЭта команда доступна только в игре.'
+No_Permission: '&cУ вас нет доступа к этой команде!'
+Hyphen: '&9&m---------------------------------------------'
+Exceptions:
+  AlreadySent: '&cВы уже отправляли запрос на дружбу этому человеку!'
+  AlreadyFriend: '&cВы уже дружите с этим человеком!'
+  Ignored: '&cЭтот игрок добавил вас в свой список игнорируемых пользователей!'
+  IsntOnYourFriends: '&c%targetDisplayName &cне находится в вашем списке друзей!'
+  CantAddYourSelf: '&cНельзя добавить себя в друзья!'
+  CantRemoveYourself: '&cВы не можете удалить себя!'
+  NoInvited: '&cЭтот игрок не отправлял заявку в друзья! Попробуйте &e/friend add
+    %name'
+  HasntFriend: '&cЭтот игрок не отправлял заявку в друзья! Попробуйте &e/friend add
+    %name'
+  SlotLimitReached: '&cВы достигли максимума друзей! Чтобы добавить больше друзей,
+    пожалуйста, удалите лишних!'
+  RequestDeny: '&cThis player has disabled friend request receipt!'
+No-Joined-The-Party: '&cВы должны быть в компании, чтобы использовать данную команду!'
+Cant-Find: '&cНевозможно найти игрока по имени ''%name'''
+Friends:
+  Join: '&8[&a+&8] &7%%displayName%% присоединился.'
+  Quit: '&8[&a+&8] &7%%displayName%% отключился.'
+Add:
+  Usage: '&cИспользуйте: /friend add <player>'
+  Sent: '&eВы отправили запрос на дружбу игроку %targetDisplayName&e!'
+  5-Minutes: '&eУ них есть 5 минут, чтобы принять это!'
+  Accept:
+    Prefix: '&a&l[ПРИНЯТЬ]&r'
+    Message: '&bНажмите, чтобы принять запрос на дружбу'
+  Deny:
+    Prefix: '&c&l[ОТКЛОНИТЬ]&r'
+    Message: Нажмите, чтобы отклонить запрос на дружбу
+  Ignore:
+    Prefix: '&7&l[ИГНОРИРОВАТЬ]'
+    Message: '&bНажмите, чтобы заблокировать все будущие запросы на дружбу.'
+  Request:
+    Received: '&eЗапрос на дружбу от %displayName&e!'
+  Expired:
+    YourSelf: '&eВаш запрос на дружбу игроку %targetDisplayName &eистек.'
+    Target: '&eЗапрос на дружбу от %displayName &eистек.'
+Remove:
+  Usage: '&cИспользуйте: /friend remove <игрок>'
+  YourSelf: '&eВы удалили %targetDisplayName &eиз списка друзей!'
+  Target: '&e%displayName &eудалил вас из списка друзей!'
+  All:
+    Confirm: '&eAre you sure you want to delete all your friends? To delete it, enter
+      &c''/f removeall confirm''&e.'
+    Failed: '&eFailed removing: %uuid'
+    Done: '&eDeleted all my friends.'
+Accept:
+  Usage: '&cИспользуйте: /friend accept <player>'
+  YourSelf: '&aВы теперь друзья с %targetDisplayName'
+  Target: '&aВы теперь друзья с %displayName'
+Deny:
+  Usage: '&cИспользуйте: /friend deny <player>'
+  Declined: '&eОтклонен запрос %targetDisplayName!'
+List:
+  DontHave:
+    One: '&eУ вас еще нет друзей!'
+    Two: '&eДобавьте с помощью /friend add <player>'
+  Online: '&e%targetDisplayName &eнаходится на %server.'
+  Offline: '&e%targetDisplayName &cне в сети'
+  Page: '&6Друзья (Страница %%currentPage%% / %%maxPage%%)'
+Lang:
+  Usage: '&cInvalid usage! ''/friend lang <language>'''
+  Available: '&bДоступные языки:'
+  Update: '&aВыбранный язык: &e%lang&a!'
+  Updater:
+    LastUpdate: '&aLast update: %data'
+    Usage: '&cInvalid usage! ''/friend lang update <language>'''
+    NeedCheck: '&cYou need check available languages list! (/friend lang update)'
+    Checking: '&7Checking updates...'
+    Failed-Connect: '&cFailed connecting to the server.'
+    Unknown: '&cThis language is not found.'
+    Available: '&aAvailable files:'
+    Updated: '&a%lang language has been updated! You may need to restart the server.'
+Ignore:
+  Usage:
+    Main: '&cНедопустимое использование! Используйте: /friend ignore <add|remove|list>'
+    Add: '&cНедопустимое использование! Используйте: /friend ignore add <player>'
+    Remove: '&cНедопустимое использование! Используйте: /friend ignore add <player>'
+  Havent:
+    One: '&eУ вас еще нет никаких замечаний!'
+    Two: '&eДобавьте с помощью /friend ignore add <player>'
+  Added: '&a%targetDisplayName &eдобавлен в чёрный список.'
+  AlreadyAdded: '&cВы уже добавили этого игрока в чёрный список! &b/ignore remove
+    <player> &c, чтобы убрать его из чёрного списка!'
+  Removed: '&aУдалить %targetDisplayName &aиз чёрного списка.'
+  NotAdded: '&cВы не игнорируете этого игрока! Используйте: /ignore add <player> &c,
+    чтобы добавить в чёрный список!'
+Force-Add:
+  Usage: '&cИспользуйте: /friend force-add <player>'
+  YourSelf: '&aВы теперь друзья с %targetDisplayName &c&l[FORCE]'
+  Target: '&aВы теперь друзья с %displayName &c&l[FORCE]'
+Prefix:
+  Usage: '&cИспользуйте: /friend prefix <player> <prefix>'
+  Current: '&7%targetDisplayName &eиспользуйте префикс ''%prefix&e'''
+  To: '&7%targetDisplayName&e префикс был изменен на ''%prefix&e'''
+Toggle:
+  Enabled: '&eFriend Request Receipt: &aEnabled'
+  Disabled: '&eFriend Request Receipt: &cDisabled'
+Help:
+  Command: '&eКоманды друзей:'
+  Help: '&e/friend help &7- &bПомощь'
+  Lang: '&e/friend lang &7- &bИзменить язык'
+  Add: '&e/friend add &7- &bДобавить в друзья'
+  Remove: '&e/friend remove &7- &bУдалить игрока из друзей'
+  RemoveAll: '&e/friend removeall &7- &bRemove all your friends.'
+  Accept: '&e/friend accept &7- &bПринять запрос на дружбу'
+  Deny: '&e/friend deny &7- &bОтклонить запрос на дружбу'
+  List: '&e/friend list &7- &bСписок друзей'
+  Ignore: '&e/friend ignore &7- &bУправление чёрным списком'
+  Force-Add: '&e/friend force-add &7- &bВы будете вынуждены дружить с игроком.'
+  Prefix: '&e/friend prefix &7- &bУстановить префикс.'
+  Toggle: '&e/friend toggle &7- &bToggle friend request.'
+Tell-Command:
+  Usage: '&cИспользуйте: /tell <player> <message>'
+  YourSelf: '&d-> %targetDisplayName&7: %message'
+  Target: '&d<- %displayName&7: %message'
+  MustBeFriends: '&cВы должны быть друзьями с %targetDisplayName!'
+  Offline: '&e%targetDisplayName &cне в сети!'
+Reply-Command:
+  Usage: '&cИспользуйте: /reply <message>'
+  Target: '&cОтветить: %targetDisplayName'
+OSL:
+  NotFound: '&bOpen Source Item was not found.'

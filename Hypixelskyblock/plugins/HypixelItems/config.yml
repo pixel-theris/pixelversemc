@@ -1,0 +1,42 @@
+config-Version: 7
+
+Language: 'English'
+
+General:
+  CheckforUpdates: true
+  Metrics-Logging: true
+  Log-Coloration: true
+  Log-Commands: true
+  Debugging: false
+
+Settings:
+  HeldItem-Slot: DISABLED
+  DataTags: true
+
+Permissions:
+  Obtain-Items: true
+  Obtain-Items-OP: false
+  Commands-Get: false
+  Commands-OP: false
+  Movement-Bypass: false
+
+Clear-Items:
+  Type: ITEMJOIN
+  Delay-Tick: 2
+  Join: DISABLED
+  World-Switch: DISABLED
+  Region-Enter: DISABLED
+  Options: PROTECT
+  Bypass: OP
+
+Active-Commands:
+  commands:
+    - 'itemjoin get <item> <player>'
+    - 'first-join: say This is a command only executed once per world, per player.'
+  triggers: JOIN
+  enabled-worlds: DISABLED
+
+Prevent:
+  Pickups: DISABLED
+  itemMovement: DISABLED
+  Bypass: CREATIVE, OP

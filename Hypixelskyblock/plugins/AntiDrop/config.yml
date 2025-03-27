@@ -1,0 +1,56 @@
+
+settings:
+    Enabled-By-Default: false
+    Applied-Items:
+    - ALL_ITEMS
+    # You can now also use ALL_ITEMS (Caps matter)
+    Timer: 3
+    # Timer is in seconds.
+    Enabled: '&aenabled&e!'
+    Disabled: '&cdisabled&e!'
+    Message-Display-Format: ' &3&l» &e%command% &3&l» &f%usage%'
+    Use-Header-And-Footer-In-Drop-Messages: false
+    GUI-Name: '&fAnti-Drop items list'
+    GUI-Items-Name-Format: '&a%item%'
+    All-Items:
+        Material: PAPER
+        Name: '&aAll items &fare currently applied.'
+        Lore:
+        - ''
+        - ' &3&l» &fClick me to stop applying all items to &6Anti-Drop&f.'
+    Items-In-List:
+        Name: '&a%item%'
+        Lore:
+        - ''
+        - ' &3&l» &fClick me to remove from the &6Anti-Drop &fitems list.'
+messages:
+    Prefix: '&8(&b!&8) &3&l»'
+    Header: 'This is a blank message'
+    Footer: 'This is a blank message'
+    Anti-Drop: '&aPress again to confirm drop your item!'
+    Drop: '&aYou &asuccessfully dropped your item!'
+    # For "Drop" & "Anti-Drop" you can use either %item% or %item_name%
+    Toggled: '&eDouble Tap to Drop has been %mode%'
+    No-Permission: '&fSorry, but you don''t have permission to do that.'
+    Reloaded: '&aReloaded the configuration.'
+    Different-Item: '&cThis isn''t the original item you tried to throw out previously.'
+    Players-Only: '&fSorry, but only players can use that command.'
+    Use-Material: '&fSorry, but you must use Material format, not number format. &7(exp: diamond_pickaxe, iron_spade, ALL_ITEMS)'
+    Added-Item-In-Hand: '&fYou''ve added the &a%item% &fin your hand to the &6Anti-Drop &fitems list.'
+    Added-Specified-Item: '&fYou''ve added &a%item% &fto the &6Anti-Drop &fitems list.'
+    Added-All-Items: '&fAll items are now applied to the &6Anti-Drop &fitem list.'
+    Already-In-List: '&fSorry, but that item is already in the &6Anti-Drop &fitems list.'
+    Removed-Item-In-Hand: '&fYou''ve removed the &a%item% &fin your hand from the &6Anti-Drop &fitems list.'
+    Removed-Specified-Item: '&fYou''ve removed &a%item% &ffrom the &6Anti-Drop &fitems list.'
+    Removed-All-Items: '&fAll items are no longer applied to the &6Anti-Drop &fitem list.'
+    Empty-Handed: '&fSorry, but your hand is empty.'
+    Not-In-List: '&fSorry, but that item isn''t in the &6Anti-Drop &fitems list.'
+    Air-Not-An-Item: '&fSorry, but please provide an actual item.'
+    Item-Does-Not-Exist: '&fSorry, but that item doesn''t exist.'
+    Formats:
+        Reload: '&e/antidrop reload'
+        Toggle: '&e/antidrop toggle'
+        Dev: '&e/antidrop dev'
+        GUI: '&e/antidrop &egui &8| &emenu&'
+        Add-Item: '&e/antidrop &8(&eadditem &8| &eai&8) (&eitem type &8| &ehand &8| &eall_items&8)'
+        Remove-Item: '&e/antidrop &8(&eremoveitem &8| &eri&8) (&eitem type &8| &ehand &8| &eall_items&8)'

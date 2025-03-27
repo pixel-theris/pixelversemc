@@ -1,0 +1,178 @@
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: false
+
+#20 ticks = 1 second
+nametag-refresh-interval-ticks: 100
+tablist-refresh-interval-ticks: 100
+header-footer-refresh-interval-ticks: 100
+header:
+- ''
+- '&bYou are playing on &e&lEXAMPLE.COM'
+- '&7%server_time_d/M/y%  &8%player_name%'
+- ''
+footer:
+- ''
+- '&a&lDiscord'
+- '&7Join our discord server to be the aware'
+- '&7of all the upcoming updates'
+- ''
+- '&aRanks, Coins & More! &c&lSTORE.EXAMPLE.COM'
+#the yellow number in tablist
+#options: PING, HEARTS, NONE (to disable it), CUSTOM (any placeholder defined below)
+tablist-objective: NONE
+tablist-objective-custom-value: '%some_placeholderapi_placeholder%'
+#NOT case sensitive
+group-sorting-priority-list:
+- OWNER
+- ADMIN
+- MOD
+- HELPER
+- YOUTUBE
+- MVP++
+- MVP+
+- MVP
+- VIP+
+- VIP
+- Default
+#properties: tabprefix, tabsuffix, tagprefix (in name tag), tagsuffix, customtabname (modifying the name itself), header, footer
+#extra ones which need unlimited nametag mode enabled: abovename (line of text above name tag), belowname (below name tag), customtagname
+Groups:
+  OWNER:
+    tabprefix: '&c'
+    tagprefix: '&c'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  ADMIN:
+    tabprefix: '&c'
+    tagprefix: '&c'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  MOD:
+    tabprefix: '&2'
+    tagprefix: '&2'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  HELPER:
+    tabprefix: '&9'
+    tagprefix: '&9'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  YOUTUBE:
+    tabprefix: '&c'
+    tagprefix: '&c'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  MVP++:
+    tabprefix: '&6'
+    tagprefix: '&6'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  MVP+:
+    tabprefix: '&b'
+    tagprefix: '&b'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  MVP:
+    tabprefix: '&b'
+    tagprefix: '&b'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  VIP+:
+    tabprefix: '&a'
+    tagprefix: '&a'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  VIP:
+    tabprefix: '&a'
+    tagprefix: '&a'
+    tagsuffix: '&7'
+    tabsuffix: '&7'
+    belowname: '%us_health% &c❤'
+  #any other group not defined above
+  _OTHER_:
+    tabprefix: '&7'
+    tagprefix: '&7'
+    tabsuffix: '&7'
+    tagsuffix: '&7'
+    belowname: '%us_health% &c❤'
+    customtabname: '%player_name%'
+    customtagname: '%player_name%'
+
+#personal settings, override group settings
+Users: []
+
+#the vanilla belowname feature
+#doesn't support player placeholders (faction, prefix), only server placeholders (time, date, animations) and static text
+belowname:
+  enabled: true
+  refresh-interval-ticks: 15
+  number: '%us_health%'
+  text: '&c&c❤'
+
+#servers and clients 1.9+
+enable-collision: false
+
+#preventing players in spectator gamemode from appearing at the bottom of tablist with transparent name FOR OTHER PLAYERS
+do-not-move-spectators: false
+#VERY EXPERIMENTAL !
+#IF YOU EXPERIENCE ANY ISSUES CONTACT ME
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  #modifying names of NPCs to avoid empty names on NPCs of online players
+  #this blocks any other attemps to change the name visibility or anything, so you need to disable it if you are using some citizens addon that changes their name
+  #needs relog to see the change
+  modify-npc-names: false
+
+#list of worlds with different settings than default, other worlds will use settings from above
+per-world-settings:
+  Islands: []
+#setting output of some placeholders
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  #if time doesn't show correctly, you can change the time it shows
+  #setting to -1 will make it show 1 hour less than it does currently, 1 makes it show one hour more than currently, 0 does nothing
+  time-offset: 0
+  #remove these strings from everywhere. Typically an empty output when using some clan/faction related plugin but player isn't in any
+  #so players won't have empty brackets before their names
+  remove-strings:
+  - '[] '
+  - '< > '
+
+#better showing of %rank% placeholder
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  #any other group not defined above
+  _OTHER_: '&7No Rank'
+
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  tablist-objective:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld

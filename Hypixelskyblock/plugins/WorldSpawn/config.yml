@@ -1,0 +1,26 @@
+# 
+#         If you are experiencing console errors, shut down the server and rename the "world"
+#         setting of hub and spawns sections to your main world name!
+
+language: EN
+hub-enabled: true
+hub-on-join: false
+spawn-on-join: false
+spawn-on-respawn: true
+spawn-delay: 0
+hub-delay: 0
+hub:
+  world: Server
+  x: 0.0
+  y: 88.0
+  z: 0.0
+  yaw: 0.54757875
+  pitch: -0.73010415
+spawns:
+  Server:
+    world: Server
+    x: 0.0
+    y: 88.0
+    z: 0.0
+    yaw: 0.54757875
+    pitch: -0.73010415

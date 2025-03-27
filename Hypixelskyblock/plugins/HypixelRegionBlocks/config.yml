@@ -1,0 +1,454 @@
+graveyard:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+coliseum:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+coliseum-inside:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+pirate-ship:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+bank:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+magic-cave:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+witch-house:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+village:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+auction-house:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+coal-mine:
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 10
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  COAL_ORE:
+    material: 'COAL_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+wheat-farm-1:
+  WHEAT:
+    material: 'CROPS:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+wheat-farm-2:
+  WHEAT:
+    material: 'CROPS:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+wheat-farm-3:
+  WHEAT:
+    material: 'CROPS:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+farm:
+  POTATO:
+    material: 'POTATO:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  CARROT:
+    material: 'CARROT:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  MELON:
+    material: 'MELON_BLOCK'
+    regen-time-seconds: 15
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  PUMPKIN:
+    material: 'PUMPKIN'
+    regen-time-seconds: 15
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+the-barn:
+  MELON:
+    material: 'MELON_BLOCK'
+    regen-time-seconds: 15
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  PUMPKIN:
+    material: 'PUMPKIN'
+    regen-time-seconds: 15
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  mushroom1:
+    material: '99:-1'
+    regen-time-seconds: 2
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  mushroom2:
+    material: '100:-1'
+    regen-time-seconds: 2
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  SUGAR_CANE_BLOCK:
+    material: 'SUGAR_CANE_BLOCK'
+    regen-time-seconds: 10
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  CACTUS:
+    material: 'CACTUS'
+    regen-time-seconds: 10
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  RED_MUSHROOM:
+    material: 'RED_MUSHROOM'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  BROWN_MUSHROOM:
+    material: 'BROWN_MUSHROOM'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  COCOA1:
+    material: 'COCOA:8'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  COCOA2:
+    material: 'COCOA:9'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  COCOA3:
+    material: 'COCOA:10'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  COCOA4:
+    material: 'COCOA:11'
+    regen-time-seconds: 5
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+oak-forest:
+  LEAVES:
+    material: 'LEAVES:-1'
+    regen-time-seconds: 10
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+  OAK_LOG:
+    material: 'LOG:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+acacia-forest:
+  ACACIA_LOG:
+    material: 'LOG_2:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+dark-oak-forest:
+  DARK_OAK_LOG:
+    material: 'LOG_2:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+birch-forest:
+  BIRCH_LOG:
+    material: 'LOG:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+spruce-forest:
+  SPRUCE:
+    material: 'LOG:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+jungle-forest:
+  JUNGLE:
+    material: 'LOG:-1'
+    regen-time-seconds: 12
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+spiders-den:
+  GRAVEL:
+    material: 'GRAVEL'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+the-nether:
+  GLOWSTONE:
+    material: 'GLOWSTONE'
+    regen-time-seconds: 12
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  NETHERRACK:
+    material: 'NETHERRACK'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  QUARTZ_ORE:
+    material: 'QUARTZ_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  NETHER_WARTS:
+    material: 'NETHER_WARTS:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+nether-fortress:
+  NETHERRACK:
+    material: 'NETHERRACK'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  QUARTZ_ORE:
+    material: 'QUARTZ_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  NETHER_WARTS:
+    material: 'NETHER_WARTS:-1'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'
+gold-mine:
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  LAPIS_ORE:
+    material: 'LAPIS_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  COAL_ORE:
+    material: 'COAL_ORE'
+    regen-time-seconds: 13
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  IRON_ORE:
+    material: 'IRON_ORE'
+    regen-time-seconds: 17
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  GOLD_ORE:
+    material: 'GOLD_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+lapis-quarry:
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  LAPIS_ORE:
+    material: 'LAPIS_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  COAL_ORE:
+    material: 'COAL_ORE'
+    regen-time-seconds: 13
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  IRON_ORE:
+    material: 'IRON_ORE'
+    regen-time-seconds: 17
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  GOLD_ORE:
+    material: 'GOLD_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+redstone-mine:
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  LAPIS_ORE:
+    material: 'LAPIS_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  REDSTONE_ORE:
+    material: 'REDSTONE_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  LIT_REDSTONE_ORE:
+    material: 'GLOWING_REDSTONE_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  EMERALD_ORE:
+    material: 'EMERALD_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+emerald-sanctuary:
+  REDSTONE_ORE:
+    material: 'REDSTONE_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  LIT_REDSTONE_ORE:
+    material: 'GLOWING_REDSTONE_ORE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  EMERALD_ORE:
+    material: 'EMERALD_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+diamond-reserve:
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  DIAMOND_ORE:
+    material: 'DIAMOND_ORE'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  EMERALD_ORE:
+    material: 'EMERALD_ORE'
+    regen-time-seconds: 20
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+obsidian-sanctuary:
+  COBBLESTONE:
+    material: 'COBBLESTONE'
+    regen-time-seconds: 5
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  STONE:
+    material: 'STONE:0'
+    regen-time-seconds: 7
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  DIAMOND_ORE:
+    material: 'DIAMOND_ORE'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  OBSIDIAN:
+    material: 'OBSIDIAN'
+    regen-time-seconds: 40
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+the-end:
+  ENDER_STONE:
+    material: 'ENDER_STONE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  OBSIDIAN:
+    material: 'OBSIDIAN'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+the-end:
+  ENDER_STONE:
+    material: 'ENDER_STONE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  OBSIDIAN:
+    material: 'OBSIDIAN'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+dragon-nest:
+  ENDER_STONE:
+    material: 'ENDER_STONE'
+    regen-time-seconds: 15
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+  OBSIDIAN:
+    material: 'OBSIDIAN'
+    regen-time-seconds: 25
+    use-temporary-block: true
+    temporary-block-material: 'BEDROCK'
+dragon-altar:
+  BEDROCK:
+    material: 'BEDROCK'
+    regen-time-seconds: -1
+    use-temporary-block: false
+    temporary-block-material: 'BEDROCK'

@@ -1,0 +1,10 @@
+# CrispyBow's Anti World Downloader Plugin
+# Skype � crispybow31
+# YouTube � CrispyBow
+# 
+# Variables: %player%, %prefix%
+
+Messages:
+  reloadConfig: '&aThe config file has been reloaded!'
+  noPermission: '&fUnknown command.'
+Punishment-Command: kick %player% §cYou cannot join while having  §bWorld Downloader Mod§c

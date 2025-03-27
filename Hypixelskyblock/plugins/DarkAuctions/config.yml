@@ -1,0 +1,194 @@
+# How often auctions occur, in minutes
+occurence: 120
+# How much time players have to join the auction, in minutes
+jointime: 1
+# The amount of items an auction cycles through before it ends
+auctions: 1
+# The minimum amount of players online when it tries to open the auction
+# AND the minimum amount of players that joined the auction when it tries to start it
+min-players: 4
+# The max amount of players inside an auction
+max-players: 16
+# The amount of money people get charged to enter an auction
+entry-fee: 1000
+# Amount of seconds before a bid ends, resets on bid
+bidding-time: 30
+# The amount of % of the base item price a bid increases by each bid step
+bid-increments: 20
+
+# Sound that plays every time a player successfully places a bid
+bid-sound:
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  # 1.8: ORB_PICKUP
+  # 1.9+: ENTITY_EXPERIENCE_ORB_PICKUP
+  sound: "ORB_PICKUP"
+  # The category under which the sound is played, so players can turn that category on/off if they don't want to hear it.
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/SoundCategory.html
+  category: "PLAYERS"
+  # Pitch of the sound, must be between 0 and 2
+  # (0 = Deepest, 2 = Highest)
+  pitch: 1.5
+  # Volume of the sound, only effective between 0 and 1
+  # Every value above 1 just increases the radius in which the sound can be heard, but doesn't make it louder
+  volume: 1.0
+# Sound that plays when an auction starts
+# Will default to stal on 1.8.x, unless sound is set to "", at which point no sound will play.
+bid-music:
+  sound: ""
+  category: "RECORDS"
+  pitch: 1.0
+  volume: 1.0
+
+# The hologram lines, accepted values:
+#   {da_item_name} - The name of the item
+#   {da_item_cost} - The starting cost of the item
+#   {da_time}      - The time remaining until the bid is over
+# If you change the amount of lines, please use '/da remove item' and set it with '/da set item' again after reloading.
+hologram:
+  - "{da_item_name}"
+  - "&fStarting Bid: &6{da_item_cost} coins"
+  - "&fTime Left: &b{da_time}s"
+  - "&eClick to bid!"
+
+auction-items:
+  1:
+    material: gold_sword
+    amount: 1
+    displayName: "&6Midas's Sword"
+    lore:
+      - "&7Damage: &c+150"
+      - "           "
+      - "&6Item Ability: Greed"
+      - "&7The strength and damage bonus of"
+      - "&7this item is dependant on the"
+      - "&7price paid for it at the &5Dark"
+      - "&5Auction&7!"
+      - "&7The maximum bonus of this item"
+      - "&7is &c120 &7if the bid was"
+      - "&650,000,000 Coins &7or higher!"
+      - "&4&4"
+      - "&6&lLEGENDARY SWORD"
+    flags:
+      - "HIDE_ATTRIBUTES"
+    cost: 100000
+    commands:
+      - "armor give midas-sword %player% hand"
+
+# The title of the inactive auction inventory
+inactive-title: "&8Dark Auctions"
+
+# The title of the active auction inventory
+active-title: "&8Dark Auctions"
+
+# The title of the bid inventory, supports %item% and %round%
+bid-title: "%item% - Round %round%"
+
+gui-items:
+  no-auction:
+    material: watch
+    displayName: "&c&lNO ACTIVE AUCTIONS"
+    lore:
+      - "&7There are no active dark auctions."
+      - "&r"
+      - "&7Sirius will notify the server when he is"
+      - "&7ready to sell some exclusive items."
+      - "&r"
+      - "&7Next Auction: &e%auction_timer%"
+  active-auction:
+    material: gold_block
+    displayName: "&6&lACTIVE DARK AUCTION"
+    lore:
+      - "&7Sirius is currently hosting a dark "
+      - "&7auction! Click to join the auctions for a"
+      - "&7fee of &6%auction_fee% coins&7."
+      - "&r"
+      - "&7Time Remaining: &e%auction_remaining%"
+      - "&r"
+      - "&eClick to join!"
+  information:
+    material: compass
+    displayName: "&aInformation"
+    lore:
+      - "&7Players can purchase exclusive items"
+      - "&7from the dark auctions. However, they"
+      - "&7only appear every two hours."
+      - "&r"
+      - "&7Players also must pay an entry free"
+      - "&7of &6%auction_fee% coins &7to participate in"
+      - "&7dark auctions"
+  time-remaining:
+    material: watch
+    displayName: "&e&lTIME REMAINING"
+    lore:
+      - "&7%auction_bid_seconds% seconds"
+  bid:
+    material: gold_ingot
+    # Placeholder where the bid amount will end up.
+    # Only works here. bidden and unavailable displayName will be ignored since bid amount carries over.
+    # %auction_bid_amount%
+    displayName: "&6Bid %auction_bid_amount% Coins"
+    lore:
+      - "&eClick to place bid!"
+  bidden:
+    material: skull_item
+    damage: 3
+    # Placeholder where the name of the current top bidder is:
+    # %auction_bidder%
+    lore:
+      - "&f%auction_bidder% &chas already"
+      - "&cbid this amount!"
+  unavailable:
+    material: barrier
+    lore:
+      - "&cSomeone else has already"
+      - "&cmade a higher bid than"
+      - "&cthis!"
+  placeholder:
+    material: stained_glass_pane
+    damage: 15
+    displayName: "&r"
+  placeholder2:
+    material: stained_glass_pane
+    damage: 15
+    displayName: "&r"
+  fill:
+    material: stained_glass_pane
+    damage: 15
+    displayName: "&f"
+
+messages:
+  prefix: "&e[NPC] &6Sirius: &f"
+  # Common formats:
+  #   en-US: 123,456,789.01
+  #   de-DE: 123.456.789,01
+  #   fr-FR: 123 456 789,01
+  # In-depth documentation: https://docs.oracle.com/javase/7/docs/api/java/util/Locale.html#forLanguageTag(java.lang.String)
+  number-format: "en-US"
+  # The amount of digits the number format will always display after a separator
+  # Minimum says how many digits will always be displayed
+  # Maximum says how many digits it can display disregarding however many there are
+  number-format-fraction-digits-minimum: 0
+  number-format-fraction-digits-maximum: 0
+  reload-start: "Configuration will be reloaded. Commands will be tested on you if you are a player."
+  reload: "Configuration has been reloaded. (&f%time% &7ms)"
+  player-only: "Only players can use this command."
+  no-permission: "You do not have permission to access this."
+  # %usage% - Usage of the command
+  command-usage: "Invalid usage! The correct format is &f%usage%&7."
+  itemspawn-invalid-location: "Invalid location for an item to spawn at. Please look at a glass block."
+  itemspawn-set: "Set the auction item spawn location to the designated spot."
+  teleport-set: "Set the auction teleport location to your position."
+  itemspawn-removed: "Removed the auction item spawn location."
+  teleport-removed: "Removed the auction teleport location."
+  not-enough-money: "&cSorry, you can't afford doing that."
+  auction-active: "There's currently an on-going auction. You can not start another one."
+  auction-open: "A dark auction just opened! Join it by talking to Sirius."
+  already-attending: "You are already attending the auction."
+  auction-start: "Welcome to the Dark Auction, we hope you brought enough money."
+  not-enough-players: "There were not enough players for an auction."
+  auction-end: "The dark auction ended, thanks for attending."
+  no-bid: "Hmm, no one was interested in the current item..."
+  # %player% - Tha player which won the bid
+  # %item% - The name of the item
+  bid-won: "&7%player%&f won the bid on &f%item%&f for &6%amount% coins&f!"
+  not-enough-money-auction-win: "&cSorry, you don't have enough money to receive the item."

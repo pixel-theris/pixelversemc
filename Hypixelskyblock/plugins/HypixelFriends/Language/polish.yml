@@ -1,0 +1,126 @@
+Language: Polish
+Ingame_Only: '&cTa komenda jest dostępna tylko w grze.'
+No_Permission: '&cNie masz uprawnień, aby użyć tej komendy!'
+Hyphen: '&9&m---------------------------------------------'
+Exceptions:
+  AlreadySent: '&cJuż wysłałeś zaproszenie do tej osoby!'
+  AlreadyFriend: Jesteście już znajomymi!
+  Ignored: '&cTen gracz został dodany do twojej listy ignorowanych osób!'
+  IsntOnYourFriends: '&c%targetDisplayName &cnie jest na twojej liście znajomych!'
+  CantAddYourSelf: '&cNie możesz dodać samego siebie do znajomych!'
+  CantRemoveYourself: '&cNie możesz usunąć siebie!'
+  NoInvited: '&cTa osoba nie zaprosiła cię do swoich znajomych! Spróbuj &e/friend
+    add %name'
+  HasntFriend: '&cTa osoba nie zaprosiła cię do swoich znajomych! Spróbuj &e/friend
+    add %name'
+  SlotLimitReached: '&cOsiągnąłeś limit znajomych! Aby dodać więcej usuń innych!'
+  RequestDeny: '&cTen gracz zablokował możliwość zapraszania go do znajomych!'
+No-Joined-The-Party: '&cMusisz być w party, aby użyć tej komendy!'
+Cant-Find: '&cNie można odnaleźć gracza o nazwie ''%name'''
+Friends:
+  Join: '&8[&a+&8] &7%%displayName%% &edołączył.'
+  Quit: '&8[&c-&8] &7%%displayName%% &ewyszedł.'
+Add:
+  Usage: '&cUżycie: /friend add <gracz>'
+  Sent: '&eWysłałeś zaproszenie do znajomych do %targetDisplayName&e!'
+  5-Minutes: '&eMa 5 minut na zaakceptowanie tego!'
+  Accept:
+    Prefix: '&a&l[ZAAKCEPTUJ]&r'
+    Message: '&bKliknij, aby zaakceptować zaproszenie do znajomych'
+  Deny:
+    Prefix: '&c&l[ODMÓW]&r'
+    Message: '&bKliknij, aby odmówić zaproszenie do znajomych'
+  Ignore:
+    Prefix: '&7&l[IGNORUJ]'
+    Message: '&bKliknij, aby zablokować wszystkie zaproszenia do znajomych od tej
+      osoby.'
+  Request:
+    Received: '&eZaproszenie do znajomych od %displayName&e!'
+  Expired:
+    YourSelf: '&eTwoje zaproszenie do %targetDisplayName &ewygasło.'
+    Target: '&eZaproszenie do znajomych od %displayName &ewygasło.'
+Remove:
+  Usage: '&cUżycie: /friend remove <gracz>'
+  YourSelf: '&eUsunąłeś %targetDisplayName &ez twojej listy znajomych!'
+  Target: '&e%displayName &eusunął cię ze swojej listy znajomych!'
+  All:
+    Confirm: '&eJesteś pewnien, że chcesz usunąć wszystkich swoich znajomych? Jeżeli
+      tak wpisz &c''/f removeall confirm''&e.'
+    Failed: '&eBłąd przy usuwaniu: %uuid'
+    Done: '&eUsunięto wszystkich moich znajomych.'
+Accept:
+  Usage: '&cUżycie: /friend accept <gracz>'
+  YourSelf: '&aJesteś teraz znajomym z %targetDisplayName'
+  Target: '&aJesteś teraz znajomym z %displayName'
+Deny:
+  Usage: '&cUżycie: /friend deny <gracz>'
+  Declined: '&eOdmówiono %targetDisplayName&e zaproszenie do znajomych!'
+List:
+  DontHave:
+    One: '&eNie masz żadnych przyjaciół!'
+    Two: '&eDodaj więcej /friend add <gracz>'
+  Online: '&e%targetDisplayName &ejest na serwerze %server.'
+  Offline: '&e%targetDisplayName &cjest aktualnie offline.'
+  Page: '&6Znajomi (Strona %%currentPage%% z %%maxPage%%)'
+Lang:
+  Usage: '&cNiepoprawne użycie! ''/friend lang <język>'''
+  Available: '&bAktualnie dostępne języki:'
+  Update: '&aWybrano język: &e%lang&a!'
+  Updater:
+    LastUpdate: '&aOstatnia aktualizacja: %data'
+    Usage: '&cNiepoprawne użycie! ''/friend lang update <język>'''
+    NeedCheck: '&cSprawdź dostępną listę języków! (/friend lang update)'
+    Checking: '&7Sprawdzanie aktualizacji...'
+    Failed-Connect: '&cBłąd przy dołączaniu na serwer.'
+    Unknown: '&cTen język nie został odnaleziony.'
+    Available: '&aDostępne pliki:'
+    Updated: '&a%lang język został zaktualizowany! Musisz zrestartować serwer.'
+Ignore:
+  Usage:
+    Main: '&cNiepoprawne użycie! ''/friend ignore <add|remove|list>'''
+    Add: '&cNiepoprawne użycie! ''/friend ignore add <gracz>'''
+    Remove: '&cNiepoprawne użycie! ''/friend ignore add <gracz>'''
+  Havent:
+    One: '&eNie masz żadnych ignorowanych osób!'
+    Two: '&eDodaj więcej /friend ignore add <gracz>'
+  Added: '&aDodano %targetDisplayName &ado listy ignorowanych.'
+  AlreadyAdded: '&cJuż ignorujesz tego gracza! &b/ignore remove Gracz &caby przestać
+    ignorować!'
+  Removed: '&aUsunięto %targetDisplayName &az twojej listy ignorowanych.'
+  NotAdded: '&cNie ignorujesz tego gracza! &b/ignore add Gracz&caby ignorować!'
+Force-Add:
+  Usage: '&cUżycie: /friend force-add <gracz>'
+  YourSelf: '&aJesteś teraz znajomym z %targetDisplayName &c&l[WYMUSZONE]'
+  Target: '&aJesteś teraz znajomym z %displayName &c&l[WYMUSZONE]'
+Prefix:
+  Usage: '&cUżycie: /friend prefix <gracz> <prefix>'
+  Current: '&7%targetDisplayName&e prefix to ''%prefix&e'''
+  To: '&7%targetDisplayName&e prefix został zmieniony na ''%prefix&e'''
+Toggle:
+  Enabled: '&ePotwierdzenie żądania znajomego: &aWłączone'
+  Disabled: '&ePotwierdzenie żądania znajomego: &aWyłączone'
+Help:
+  Command: '&eKomendy:'
+  Help: '&e/friend help &7- &bWysyła ten komunikat pomocy'
+  Lang: '&e/friend lang &7- &bZmienia wyświetlany język'
+  Add: '&e/friend add &7- &bDodaje gracza do znajomych'
+  Remove: '&e/friend remove &7- &bUsuwa gracza z twoich znajomych'
+  RemoveAll: '&e/friend removeall &7- &bUsuwa wszystkich twoich znajomych'
+  Accept: '&e/friend accept &7- &bAkceptuje zaproszenie do znajomych'
+  Deny: '&e/friend deny &7- &bOdmawia zaproszenie do znajomych'
+  List: '&e/friend list &7- &bWyświetla listę twoich znajomych'
+  Ignore: '&e/friend ignore &7- &bZarządzanie listą ignorowanych'
+  Force-Add: '&e/friend force-add &7- &bWymusza dodanie ciebie do jego listy znajomych'
+  Prefix: '&e/friend prefix &7- &bUstawia prefix gracza'
+  Toggle: '&e/friend toggle &7- &bUstawia możliwość dodawania cię do znajomych'
+Tell-Command:
+  Usage: '&cUżycie: /tell <gracz> <wiadomość>'
+  YourSelf: '&dDo: %targetDisplayName&7: %message'
+  Target: '&dOd: %displayName&7: %message'
+  MustBeFriends: '&cMusisz być znajomym z %targetDisplayName!'
+  Offline: '&c%targetDisplayName &cnie jest online!'
+Reply-Command:
+  Usage: '&cUżycie: /reply <wiadomość>'
+  Target: '&cCel: %targetDisplayName'
+OSL:
+  NotFound: '&bElement Open Source nie został znaleziony.'

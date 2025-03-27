@@ -1,0 +1,15 @@
+name: Store Chargeback
+title: Store Chargeback
+author: Server
+generation: ORIGINAL
+lore:
+- Store Chargeback
+open_command: ''
+
+pages:
+  '1':
+  - '&cATTENTION!&0'
+  - 'A recent purchase made on the Hypixel Store is in the process of being disputed to reverse the payment.'
+  - ''
+  - 'Please contact the'
+  - '<tooltip:&bClick to join our discord server><link:http://discord.gg/8xh2P9Q>&b&nHypixel Support Team<reset>&r &0to resolve this, failure to do so will mean you will be permanently banned.'

@@ -1,0 +1,114 @@
+anticroptrample: true
+no-region: '&7None'
+###Regions; you can add new region:
+###Region-(new number):
+#####id: (WorldGuard region id)
+#####name: (Name to display)
+region-1:
+  id: 'village'
+  name: '&bVillage'
+region-2:
+  id: 'auction-house'
+  name: '&6Auction House'
+region-3:
+  id: 'bank'
+  name: '&6Bank'
+region-4:
+  id: 'graveyard'
+  name: '&cGraveyard'
+region-5:
+  id: 'coliseum'
+  name: '&bColosseum'
+region-6:
+  id: 'magic-cave'
+  name: '&5Magic Cave'
+region-7:
+  id: 'witch-house'
+  name: '&5Witch House'
+region-8:
+  id: 'coal-mine'
+  name: '&bCoal Mine'
+region-9:
+  id: 'oak-forest'
+  name: '&2Oak Forest'
+region-10:
+  id: 'pirate-ship'
+  name: '&bPirate Ship'
+region-11:
+  id: 'farm'
+  name: '&aFarm'
+region-12:
+  id: 'the-barn'
+  name: '&aThe Barn'
+region-13:
+  id: 'farms'
+  name: '&aFarms'
+region-14:
+  id: 'acacia-forest'
+  name: '&2Acacia Forest'
+region-15:
+  id: 'dark-oak-forest'
+  name: '&2Dark Oak Forest'
+region-16:
+  id: 'spruce-forest'
+  name: '&2Spruce Forest'
+region-17:
+  id: 'birch-forest'
+  name: '&2Birch Forest'
+region-18:
+  id: 'jungle-forest'
+  name: '&2Jungle Forest'
+region-19:
+  id: 'spiders-den'
+  name: '&cSpider''s Den'
+region-20:
+  id: 'the-nether'
+  name: '&cThe Nether'
+region-21:
+  id: 'nether-fortress'
+  name: '&cNether Fortress'
+region-22:
+  id: 'deep-caverns'
+  name: '&bDeep Caverns'
+region-23:
+  id: 'gold-mine'
+  name: '&6Gold Mine'
+region-24:
+  id: 'lapis-quarry'
+  name: '&9Lapis Quarry'
+region-25:
+  id: 'redstone-mine'
+  name: '&cRedstone Mine'
+region-26:
+  id: 'emerald-sanctuary'
+  name: '&aEmerald Sanctuary'
+region-27:
+  id: 'diamond-reserve'
+  name: '&bDiamond Reserve'
+region-28:
+  id: 'obsidian-sanctuary'
+  name: '&5Obsidian Sanctuary'
+region-29:
+  id: 'wheat-farm-1'
+  name: '&aWheat Farm'
+region-30:
+  id: 'wheat-farm-2'
+  name: '&aWheat Farm'
+region-31:
+  id: 'wheat-farm-3'
+  name: '&aWheat Farm'
+region-32:
+  id: 'the-end'
+  name: '&dThe End'
+region-33:
+  id: 'dragon-nest'
+  name: '&5Dragon''s Nest'
+region-34:
+  id: 'dragon-altar'
+  name: '&5Dragon Altar'
+region-35:
+  id: 'coliseum-inside'
+  name: '&bArena'
+region-36:
+  id: 'dark-auction'
+  name: '&5Dark Auction'

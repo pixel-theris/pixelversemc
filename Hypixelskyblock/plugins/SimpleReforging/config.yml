@@ -1,0 +1,673 @@
+messages:
+  prefix: "&9&lSimpleReforging &8&l» &7"
+  usage: "&b%command% &7- &f%usage%"
+  reload: "Configuration reloaded."
+  reload_usage: "Reload the plugin configuration."
+  open_usage: "Open the reforge GUI for yourself or a target."
+
+# The reforge GUI. You can define the specific items further down below.
+reforge-gui:
+  # The size of the GUI.
+  size: 45
+  # The title of the GUI. Supports colors.
+  title: "Reforge Item"
+  # The position of the close button.
+  close-slot: 40
+  # The position of the input.
+  input-slot: 13
+  # The position of the reforge button.
+  reforge-slot: 22
+  # The validation slots where to show validity of a reforge attempt.
+  validation-slots:
+    - 0
+    - 9
+    - 18
+    - 27
+    - 36
+    - 8
+    - 17
+    - 26
+    - 35
+    - 44
+
+# Items that can be configured, follows the following format:
+#<key>:                     | Please don't change this, this is how the plugin finds the item.
+#  material: DIAMOND_SWORD  | OPTIONAL - The type of the item. https://helpch.at/docs/1.8.8/org/bukkit/Material.html
+#                           | +DEFAULT - DIRT
+#
+#  amount: 1                | OPTIONAL - The amount of items displayed.
+#                           | +DEFAULT - 1
+#
+#  data: 0                  | OPTIONAL - The "damage" of the item. Used to color glass for example.
+#                           | +DEFAULT - 0
+#
+#  displayName: '&fName'    | OPTIONAL - The name of the item. Supports color codes.
+#                           | +DEFAULT - None
+#
+#  lore:                    | OPTIONAL - The lore of the item. Supports color codes.
+#    - '&aLine 1'           | +DEFAULT - None
+#    - '&bLine 2'
+#  enchants:                | OPTIONAL - Enchants of the item. https://helpch.at/docs/1.8.8/org/bukkit/enchantments/Enchantment.html
+#    DAMAGE_ALL: 5          | +DEFAULT - None
+#    DURABILITY: 3
+#  commands:                | OPTIONAL - Commands that get executed upon clicking.
+#    - [player] help        |             Put [player] in front of the command to let the player run it.
+#    - op %player%          |             %player% gets replaced with the player's name.
+#                           | +DEFAULT - None
+items:
+  # The item that the inventory gets filled with.
+  fill:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayName: "&r"
+  # The item to close inventories with.
+  close:
+    material: BARRIER
+    displayName: "&cClose"
+    lore: []
+  # The "placeholder" item that gets displayed when the reforge is invalid.
+  validation_invalid:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: "&r"
+  # The placeholder item that gets displayed when the reforge is valid.
+  validation_valid:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: "&r"
+  # When there is no item in the input.
+  reforge_empty:
+    material: ANVIL
+    displayName: "&eReforge Item"
+    lore:
+      - "&7Put an item above to reforge"
+      - "&7it! Reforging items adds a"
+      - "&7random modifier to the item that"
+      - "&7grants stat boosts."
+  # When the item in the input can not be reforged.
+  reforge_invalid:
+    material: ANVIL
+    displayName: "&cReforge Item"
+    lore:
+      - "&7This item can not be"
+      - "&7reforged."
+  # When the item in the input can be reforged, but the user does not have enough levels.
+  # %cost% - The amount of levels needed
+  reforge_no_levels:
+    material: ANVIL
+    displayName: "&aReforge Item"
+    lore:
+      - "&7Reforges the above item, giving"
+      - "&7it a random item modifier that"
+      - "&7boosts its stats."
+      - "&r"
+      - "&cNot enough levels!"
+  # When the item in the input can be reforged.
+  reforge_valid:
+    material: ANVIL
+    displayName: "&aReforge Item"
+    lore:
+      - "&7Reforges the above item, giving"
+      - "&7it a random item modifier that"
+      - "&7boosts its stats."
+      - "&r"
+      - "&7Cost:"
+      - "&3%cost% Exp Levels"
+      - "&3"
+      - "&eClick to reforge!"
+
+# You can define any stat name here.
+# These are used further down to identify which stat is given out.
+stat-names:
+  defense: "&7Defense: &a+"
+  damage: "&7Damage: &c+"
+  crit_chance: "&7Crit Chance: &c+"
+  intelligence: "&7Intelligence: &a+"
+  health: "&7Health: &a+"
+  speed: "&7Speed: &a+"
+# your_stat: "&5♫ Custom Stat"
+
+# How the stats are displayed
+# %value% gets replaced with the value you defined
+# %rarity% gets replaced with the reforge rarity. (Defined below)
+stat-display: " &8(%value% %rarity%)"
+
+reforges:
+  # The ID of the reforge possibility, can be anything.
+  gentle:
+    # This has to be in the item name.
+    # The plugin will match partially, meaning that the identifier can be
+    # at the start, at the end, or anywhere else.
+    name-identifier: "&dEpic Sword"
+    # This will be replaced with the identified area.
+    # If there is more text around the identified area in the item name,
+    # it'll stay there.
+    name-replacement: "&dGentle Sword"
+    # The rarity that gets put after the stat, used in stat-display
+    # (i.E. in this case, with default config, " (+3 Epic)")
+    rarity: "Epic"
+    # The amount of levels it costs to upgrade the item.
+    level-cost: 10
+    # The stats that get added
+    stats:
+      # + will get added automatically by the plugin
+      defense: 3
+      # If the value contains a ., the number will be turned into a percentage.
+      # (In this case 0.08 becomes +8%)
+      strength: 0.08
+    # your_stat: 5
+  midas:
+    name-identifier: "&6Midas's Sword"
+    name-replacement: "&6Reforged Midas's Sword"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      damage: 20
+  spider_sword:
+    name-identifier: "&fSpider Sword"
+    name-replacement: "&fReforged Spider Sword"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      damage: 5
+  end_sword:
+    name-identifier: "&9End Sword"
+    name-replacement: "&9Reforged End Sword"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      damage: 15
+  undead_sword:
+    name-identifier: "&fUndead Sword"
+    name-replacement: "&fReforged Undead Sword"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      damage: 5
+  lapis_helmet:
+    name-identifier: "&aLapis Helmet"
+    name-replacement: "&aReforged Lapis Helmet"
+    armor-plus-key: "reforged-lapis-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  lapis_chestplate:
+    name-identifier: "&aLapis Chestplate"
+    name-replacement: "&aReforged Lapis Chestplate"
+    armor-plus-key: "reforged-lapis-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  lapis_leggings:
+    name-identifier: "&aLapis Leggings"
+    name-replacement: "&aReforged Lapis Leggings"
+    armor-plus-key: "reforged-lapis-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  lapis_boots:
+    name-identifier: "&aLapis Boots"
+    name-replacement: "&aReforged Lapis Boots"
+    armor-plus-key: "reforged-lapis-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  emerald_helmet:
+    name-identifier: "&9Emerald Helmet"
+    name-replacement: "&9Reforged Emerald Helmet"
+    armor-plus-key: "reforged-emerald-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  emerald_chestplate:
+    name-identifier: "&9Emerald Chestplate"
+    name-replacement: "&9Reforged Emerald Chestplate"
+    armor-plus-key: "reforged-emerald-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  emerald_leggings:
+    name-identifier: "&9Emerald Leggings"
+    name-replacement: "&9Reforged Emerald Leggings"
+    armor-plus-key: "reforged-emerald-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  emerald_boots:
+    name-identifier: "&9Emerald Boots"
+    name-replacement: "&9Reforged Emerald Boots"
+    armor-plus-key: "reforged-emerald-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  farmer_helmet:
+    name-identifier: "&9Farmer Helmet"
+    name-replacement: "&9Reforged Farmer Helmet"
+    armor-plus-key: "reforged-farmer-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  farmer_chestplate:
+    name-identifier: "&9Farmer Chestplate"
+    name-replacement: "&9Reforged Farmer Chestplate"
+    armor-plus-key: "reforged-farmer-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  farmer_leggings:
+    name-identifier: "&9Farmer Leggings"
+    name-replacement: "&9Reforged Farmer Leggings"
+    armor-plus-key: "reforged-farmer-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  farmer_boots:
+    name-identifier: "&9Farmer Boots"
+    name-replacement: "&9Reforged Farmer Boots"
+    armor-plus-key: "reforged-farmer-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  cheap_tuxedo_chestplate:
+    name-identifier: "&5Cheap Tuxedo Chestplate"
+    name-replacement: "&5Reforged Cheap Tuxedo Chestplate"
+    armor-plus-key: "reforged-cheap-tuxedo-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      crit_chance: 0.08
+      intelligence: 10
+  cheap_tuxedo_leggings:
+    name-identifier: "&5Cheap Tuxedo Leggings"
+    name-replacement: "&5Reforged Cheap Tuxedo Leggings"
+    armor-plus-key: "reforged-cheap-tuxedo-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      crit_chance: 0.08
+      intelligence: 10
+  cheap_tuxedo_boots:
+    name-identifier: "&5Cheap Tuxedo Boots"
+    name-replacement: "&5Reforged Cheap Tuxedo Boots"
+    armor-plus-key: "reforged-cheap-tuxedo-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      crit_chance: 0.08
+      intelligence: 10
+  mushroom_helmet:
+    name-identifier: "&fMushroom Helmet"
+    name-replacement: "&fReforged Mushroom Helmet"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  mushroom_chestplate:
+    name-identifier: "&fMushroom Chestplate"
+    name-replacement: "&fReforged Mushroom Chestplate"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  mushroom_leggings:
+    name-identifier: "&fMushroom Leggings"
+    name-replacement: "&fReforged Mushroom Leggings"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  mushroom_boots:
+    name-identifier: "&fMushroom Boots"
+    name-replacement: "&fReforged Mushroom Boots"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  cobblestone_helmet:
+    name-identifier: "&aCobblestone Helmet"
+    name-replacement: "&aReforged Cobblestone Helmet"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  cobblestone_chestplate:
+    name-identifier: "&aCobblestone Chestplate"
+    name-replacement: "&aReforged Cobblestone Chestplate"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  cobblestone_leggings:
+    name-identifier: "&aCobblestone Leggings"
+    name-replacement: "&aReforged Cobblestone Leggings"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  cobblestone_boots:
+    name-identifier: "&aCobblestone Boots"
+    name-replacement: "&aReforged Cobblestone Boots"
+    armor-plus-key: "reforged-mushroom-armor"
+    rarity: "Reforged"
+    level-cost: 10
+    stats:
+      defense: 10
+  oak_helmet:
+    name-identifier: "&fOak Helmet"
+    name-replacement: "&fReforged Oak Helmet"
+    armor-plus-key: "reforged-oak-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  oak_chestplate:
+    name-identifier: "&fOak Chestplate"
+    name-replacement: "&fReforged Oak Chestplate"
+    armor-plus-key: "reforged-oak-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  oak_leggings:
+    name-identifier: "&fOak Leggings"
+    name-replacement: "&fReforged Oak Leggings"
+    armor-plus-key: "reforged-oak-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  oak_boots:
+    name-identifier: "&fOak Boots"
+    name-replacement: "&fReforged Oak Boots"
+    armor-plus-key: "reforged-oak-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  magma_helmet:
+    name-identifier: "&5Magma Helmet"
+    name-replacement: "&5Reforged Magma Helmet"
+    armor-plus-key: "reforged-magma-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      health: 20
+  magma_chestplate:
+    name-identifier: "&5Magma Chestplate"
+    name-replacement: "&5Reforged Magma Chestplate"
+    armor-plus-key: "reforged-magma-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      health: 20
+  magma_leggings:
+    name-identifier: "&5Magma Leggings"
+    name-replacement: "&5Reforged Magma Leggings"
+    armor-plus-key: "reforged-magma-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      health: 20
+  magma_boots:
+    name-identifier: "&5Magma Boots"
+    name-replacement: "&5Reforged Magma Boots"
+    armor-plus-key: "reforged-magma-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      health: 20
+  pumpkin_helmet:
+    name-identifier: "&fPumpkin Helmet"
+    name-replacement: "&fReforged Pumpkin Helmet"
+    armor-plus-key: "reforged-pumpkin-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  pumpkin_chestplate:
+    name-identifier: "&fPumpkin Chestplate"
+    name-replacement: "&fReforged Pumpkin Chestplate"
+    armor-plus-key: "reforged-pumpkin-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  pumpkin_leggings:
+    name-identifier: "&fPumpkin Leggings"
+    name-replacement: "&fReforged Pumpkin Leggings"
+    armor-plus-key: "reforged-pumpkin-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  pumpkin_boots:
+    name-identifier: "&fPumpkin Boots"
+    name-replacement: "&fReforged Pumpkin Boots"
+    armor-plus-key: "reforged-pumpkin-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+      health: 5
+  speedster_helmet:
+    name-identifier: "&5Speedster Helmet"
+    name-replacement: "&5Reforged Speedster Helmet"
+    armor-plus-key: "reforged-speedster-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      speed: 0.05
+  speedster_chestplate:
+    name-identifier: "&5Speedster Chestplate"
+    name-replacement: "&5Reforged Speedster Chestplate"
+    armor-plus-key: "reforged-speedster-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      speed: 0.05
+  speedster_leggings:
+    name-identifier: "&5Speedster Leggings"
+    name-replacement: "&5Reforged Speedster Leggings"
+    armor-plus-key: "reforged-speedster-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      speed: 0.05
+  speedster_boots:
+    name-identifier: "&5Speedster Boots"
+    name-replacement: "&5Reforged Speedster Boots"
+    armor-plus-key: "reforged-speedster-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      defense: 20
+      speed: 0.05
+  leaflet_helmet:
+    name-identifier: "&fLeaflet Helmet"
+    name-replacement: "&fReforged Leaflet Helmet"
+    armor-plus-key: "reforged-leaflet-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  leaflet_chestplate:
+    name-identifier: "&fLeaflet Chestplate"
+    name-replacement: "&fReforged Leaflet Chestplate"
+    armor-plus-key: "reforged-leaflet-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  leaflet_leggings:
+    name-identifier: "&fLeaflet Leggings"
+    name-replacement: "&fReforged Leaflet Leggings"
+    armor-plus-key: "reforged-leaflet-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  leaflet_boots:
+    name-identifier: "&fLeaflet Boots"
+    name-replacement: "&fReforged Leaflet Boots"
+    armor-plus-key: "reforged-leaflet-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      health: 5
+  zombie_chestplate:
+    name-identifier: "&5Zombie Chestplate"
+    name-replacement: "&5Reforged Zombie Chestplate"
+    armor-plus-key: "reforged-zombie-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      health: 20
+      defense: 20
+  zombie_leggings:
+    name-identifier: "&5Zombie Leggings"
+    name-replacement: "&5Reforged Zombie Leggings"
+    armor-plus-key: "reforged-zombie-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      health: 20
+      defense: 20
+  zombie_boots:
+    name-identifier: "&5Zombie Boots"
+    name-replacement: "&5Reforged Zombie Boots"
+    armor-plus-key: "reforged-zombie-armor"
+    rarity: "Reforged"
+    level-cost: 20
+    stats:
+      health: 20
+      defense: 20
+  perfect_helmet:
+    name-identifier: "&9Perfect Helmet"
+    name-replacement: "&9Reforged Perfect Helmet"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  perfect_chestplate:
+    name-identifier: "&9Perfect Chestplate"
+    name-replacement: "&9Reforged Perfect Chestplate"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  perfect_leggings:
+    name-identifier: "&9Perfect Leggings"
+    name-replacement: "&9Reforged Perfect Leggings"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  perfect_boots:
+    name-identifier: "&9Perfect Boots"
+    name-replacement: "&9Reforged Perfect Boots"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  hardened_helmet:
+    name-identifier: "&9Hardened Diamond Helmet"
+    name-replacement: "&9Reforged Hardened Diamond Helmet"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  hardened_chestplate:
+    name-identifier: "&9Hardened Diamond Chestplate"
+    name-replacement: "&9Reforged Hardened Diamond Chestplate"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  hardened_leggings:
+    name-identifier: "&9Hardened Diamond Leggings"
+    name-replacement: "&9Reforged Hardened Diamond Leggings"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  hardened_boots:
+    name-identifier: "&9Hardened Diamond Boots"
+    name-replacement: "&9Reforged Hardened Diamond Boots"
+    armor-plus-key: "reforged-perfect-armor"
+    rarity: "Reforged"
+    level-cost: 15
+    stats:
+      defense: 15
+  angler_helmet:
+    name-identifier: "&fAngler Helmet"
+    name-replacement: "&fReforged Angler Helmet"
+    armor-plus-key: "reforged-angler-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  angler_chestplate:
+    name-identifier: "&fAngler Chestplate"
+    name-replacement: "&fReforged Angler Chestplate"
+    armor-plus-key: "reforged-angler-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  angler_leggings:
+    name-identifier: "&fAngler Leggings"
+    name-replacement: "&fReforged Angler Leggings"
+    armor-plus-key: "reforged-angler-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5
+  angler_boots:
+    name-identifier: "&fAngler Boots"
+    name-replacement: "&fReforged Angler Boots"
+    armor-plus-key: "reforged-angler-armor"
+    rarity: "Reforged"
+    level-cost: 5
+    stats:
+      defense: 5

@@ -1,0 +1,34 @@
+List:
+  OWNER:
+    Prefix: '&c[OWNER] '
+    Permission: rank.owner
+  ADMIN:
+    Prefix: '&c[ADMIN] '
+    Permission: rank.admin
+  MOD:
+    Prefix: '&2[MOD] '
+    Permission: rank.mod
+  HELPER:
+    Prefix: '&9[HELPER] '
+    Permission: rank.helper
+  MVP++:
+    Prefix: '&6[MVP&c++&6] '
+    Permission: rank.mvp++
+  MVP+:
+    Prefix: '&b[MVP&c+&b] '
+    Permission: rank.mvp+
+  MVP:
+    Prefix: '&b[MVP] '
+    Permission: rank.mvp
+  VIP+:
+    Prefix: '&a[VIP&6+&a] '
+    Permission: rank.vip+
+  YOUTUBE:
+    Prefix: '&c[&fYOUTUBE&c] '
+    Permission: rank.youtube
+  VIP:
+    Prefix: '&a[VIP] '
+    Permission: rank.vip
+  Default:
+    Prefix: '&7'
+    Permission: rank.default

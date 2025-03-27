@@ -1,0 +1,22 @@
+name: Report Player
+title: Report Player
+author: Server
+generation: ORIGINAL
+lore:
+- Reports
+open_command: ''
+
+pages:
+  '1':
+  - 'Select a reason to report %skript_1::{player}%:'
+  - ''
+  - '<tooltip:&7Click to report %skript_1::{player}% for KillAura><run command:/areport %skript_1::{player}% KillAura> &8⦿&0 KillAura<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for Aimbot><run command:/areport %skript_1::{player}% Aimbot> &8⦿&0 Aimbot<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for AntiKnockback><run command:/areport %skript_1::{player}% AntiKnockback> &8⦿&0 AntiKnockback<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for Fly><run command:/areport %skript_1::{player}% Fly> &8⦿&0 Fly<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for Jesus><run command:/areport %skript_1::{player}% Jesus> &8⦿&0 Jesus<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for FastBreak><run command:/areport %skript_1::{player}% FastBreak> &8⦿&0 FastBreak<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for FastPlace><run command:/areport %skript_1::{player}% FastPlace> &8⦿&0 FastPlace<reset>'
+  - '<tooltip:&7Click to report %skript_1::{player}% for Other><run command:/areport %skript_1::{player}% Other> &8⦿&0 Other<reset>'
+  - ''
+  - '    <tooltip:&cClick to cancel><run command:/cancelreport>&cCANCEL REPORT<reset>'

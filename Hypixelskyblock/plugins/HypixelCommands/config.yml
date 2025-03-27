@@ -1,0 +1,204 @@
+# DeluxeCommands v1.9.0 Main configuration
+# Created by extended_clip
+# 
+# Create commands below!
+# Command format is as follows:
+# 
+# commands:
+#   <command_with_no_slash>:
+#     permission: <permission to use the command>
+#     no_permission_message: <message to send when players do not have permission>
+#     message:
+#     - '[text]<regular text here if you start the line with the [text] identifier'
+#     - '[playercommand] spawn'
+#     - '[consolecommand] eco give %executor% 100'
+#     - '{"text": "JSON text here"}'
+#     - '{"text": "To have multiple JSON components in the same line"}&&{"text": "you must use the && operator between them!"}'
+#     target_permission: <permission to use the command with a player argument at the end: /<command> (player)>
+#     target_no_permission_message: <message to send when players do not have permission to specify a target to set placeholders for>
+#     target_message:
+#     - '[text]<You do not have to specify this option, only if you want separate messages when a target is defined>'
+#     - '{"text": "%player%'s stats:"}'
+#     - '{"text": "This message is only if you want a separate message defined when a"}&&{"text": " target player is specified in the command!"}'
+#     aliases:
+#     - 'somealiasforthiscommand'
+# 
+# You can now add a new entry to define different aliases per command!
+#  simply add the "aliases" option to the commands you would like to define aliases for!
+# DeluxeCommands will detect if you have DeluxeChat or PlaceholderAPI installed! You can use any placeholders you have enabled!
+commands:
+  pl:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&fUnknown command.'
+    target_message:
+    - '[text]&fUnknown command.'
+    aliases:
+    - plugins
+  elist:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&fUnknown command.'
+    target_message:
+    - '[text]&fUnknown command.'
+    aliases:
+    - elistplayers
+    - ebal
+    - ebalance
+    - emoney
+    - ebalancetop
+    - help
+    - serverlag
+    - ehelp
+    - ebaltop
+    - server
+    - ip
+    - reload
+    - ebal
+    - ebalance
+    - emoney
+    - memoria
+    - ram
+    - alert
+    - emoneytop
+    - ekit
+    - ekits
+    - ewarp
+    - ewarps
+  bungee:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&cYou don''t have permission!'
+    target_message:
+    - '[text]&cYou don''t have permission!'
+    aliases:
+    - bungeecord
+    - perms
+  serverlag:
+    permission: hypixelcommands.admin
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.admin
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&8'
+    - '[text]&8  &e&lSERVER STATS'
+    - '[text]&8'
+    - '[text]&8  &fOnline Time: &a%server_uptime%'
+    - '[text]&8  &fTPS: &a%server_tps_15_colored%, %server_tps_5_colored%, %server_tps_1_colored%'
+    - '[text]&8  '
+    - '[text]&8  &fMemory: &a%server_ram_used%/%server_ram_total%MB &7(Free: %server_ram_free%MB)'
+    - '[text]&8  '
+    - '[text]&f  Chunks Loaded: &a%server_total_chunks%'
+    - '[text]&f  Live Entities: &a%server_total_living_entities%'
+    - '[text]&f  Total Entities: &a%server_total_entities%'
+    - '[text]&8'
+    target_message:
+    - '[text]&8'
+    - '[text]&8  &e&lSERVER STATS'
+    - '[text]&8'
+    - '[text]&8  &fOnline Time: &a%server_uptime%'
+    - '[text]&8  &fTPS: &a%server_tps_15_colored%, %server_tps_5_colored%, %server_tps_1_colored%'
+    - '[text]&8  '
+    - '[text]&8  &fMemory: &a%server_ram_used%/%server_ram_total%MB &7(Free: %server_ram_free%MB)'
+    - '[text]&8  '
+    - '[text]&f  Chunks Loaded: &a%server_total_chunks%'
+    - '[text]&f  Live Entities: &a%server_total_living_entities%'
+    - '[text]&f  Total Entities: &a%server_total_entities%'
+    - '[text]&8'
+    aliases:
+    - elag
+    - tps
+    - memory
+    - memoria
+    - ram
+  money:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&aYou have &6%vault_eco_balance_commas% Coins &ain your purse!'
+    target_message:
+    - '[text]&aPlayer &7%player_displayname% &ahas &6%vault_eco_balance_commas% Coins
+      &ain their purse!'
+    aliases:
+    - balance
+    - bal
+    - coins
+  serverlist:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&e'
+    - '[text]&e&l  ONLINE PLAYERS: &7%listplayers_with_perm_rank.default%'
+    - '[text]&e'
+    target_message:
+    - '[text]&e'
+    - '[text]&e&l  ONLINE PLAYERS: &7%listplayers_with_perm_rank.default%'
+    - '[text]&e'
+    aliases:
+    - glist
+    - elist
+    - list
+    - listplayers
+  ping:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&aYou have &a%player_colored_ping%ms'
+    target_message:
+    - '[text]&aPlayer &7%player_displayname% &ahas &a%player_colored_ping%ms'
+    aliases:
+    - lag
+    - ms
+    - miping
+  discord:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&8'
+    - '[text]&8  &e&lDISCORD'
+    - '[text]&f    www.example.com &7(Click)'
+    - '[text]&8'
+    target_message:
+    - '[text]&8'
+    - '[text]&8  &e&lDISCORD'
+    - '[text]&f    www.example.com &7(Click)'
+    - '[text]&8'
+    aliases:
+    - disc
+    - di
+    - discordserver
+  buy:
+    permission: hypixelcommands.user
+    no_permission_message: '&fUnknown command.'
+    target_permission: hypixelcommands.user
+    target_no_permission_message: '&fUnknown command.'
+    message:
+    - '[text]&8'
+    - '[text]&8  &e&lSTORE'
+    - '[text]&f    www.example.com &7(Click)'
+    - '[text]&8'
+    target_message:
+    - '[text]&8'
+    - '[text]&8  &e&lSTORE'
+    - '[text]&f    www.example.com &7(Click)'
+    - '[text]&8'
+    aliases:
+    - shop
+    - store

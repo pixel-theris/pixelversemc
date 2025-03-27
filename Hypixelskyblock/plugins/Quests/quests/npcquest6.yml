@@ -1,0 +1,29 @@
+tasks:
+  citizensinteract:
+    type: "citizens_interact"
+    npc-name: "the-miner-guy"
+display:
+  name: "&aNPC Quest"
+  lore-normal:
+  - "&7Talk to The Miner Guy"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.talk-to-the-miner-guy-3 true"
+  - "customplaceholders set {player} mission_mine &eWarp_to_the_Gold_Mine"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fTalk to The Miner Guy"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &a&lREWARDS"
+  - "whisper {player} &7    &8&61,000 &7coins"
+  - "whisper {player} &7"
+  - "eco give {player} 1000"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 7

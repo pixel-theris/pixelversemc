@@ -1,0 +1,17 @@
+teleport-location:
+  ==: org.bukkit.Location
+  world: Server
+  x: 130.5
+  y: 37.0
+  z: 4.5
+  pitch: -0.64938587
+  yaw: 181.23373
+next-auction: 1606781464368
+armor-stand:
+  ==: org.bukkit.Location
+  world: Server
+  x: 130.5
+  y: 35.63
+  z: -3.5
+  pitch: 0.0
+  yaw: 0.0

@@ -1,0 +1,19 @@
+name: mvp
+permissions:
+- handyorbs.limit.wheat.5
+- handyorbs.limit.potatoes.5
+- handyorbs.limit.carrots.5
+- handyorbs.limit.sugar-cane.5
+- handyorbs.imit.nether-wart.5
+- auctionmaster.limit.auctions.11
+- rank.MVP
+- tab.sort.MVP
+- weight.5
+parents:
+- vip+
+prefixes:
+- '&b[MVP] ':
+    priority: 5
+suffixes:
+- '&bMVP':
+    priority: 5

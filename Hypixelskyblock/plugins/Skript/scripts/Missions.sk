@@ -1,0 +1,122 @@
+
+
+on break of oak log:12:
+    if event-world is "Islands":
+        if player doesn't have permission "missions.completed.break-a-log":
+            make the server execute command "/lp user %player's name% permission unset missions.break-a-log"
+            make the server execute command "/lp user %player's name% permission set missions.completed.break-a-log true"
+            make the server execute command "/lp user %player's name% permission set missions.craft-a-workbench true"
+            wait 40 ticks
+            message ""
+            message "  &6&lOBJECTIVE COMPLETED"
+            message "  &fBreak a log"
+            message ""
+            wait 20 ticks
+            make the server execute command "/customplaceholders set %player's name% mission Craft_a_workbench"
+            message ""
+            message "  &6&lNEW OBJECTIVE"
+            message "  &fCraft a workbench"
+            message ""
+            stop
+        else:
+            stop
+    else:
+        stop
+
+
+on craft of a crafting table:
+    if event-world is "Islands":
+        if player doesn't have permission "missions.completed.craft-a-workbench":
+            make the server execute command "/lp user %player's name% permission unset missions.craft-a-workbench"
+            make the server execute command "/lp user %player's name% permission set missions.completed.craft-a-workbench true"
+            make the server execute command "/lp user %player's name% permission set missions.craft-a-pickaxe true"
+            message ""
+            message "  &6&lOBJECTIVE COMPLETED"
+            message "  &fCraft a workbench"
+            message ""
+            wait 20 ticks
+            make the server execute command "/customplaceholders set %player's name% mission Craft_a_pickaxe"
+            message ""
+            message "  &6&lNEW OBJECTIVE"
+            message "  &fCraft a wooden pickaxe"
+            message ""
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on craft of a wooden pickaxe:
+    if event-world is "Islands":
+        if player doesn't have permission "missions.completed.craft-a-pickaxe":
+            make the server execute command "/lp user %player's name% permission unset missions.craft-a-pickaxe"
+            make the server execute command "/lp user %player's name% permission set missions.completed.craft-a-pickaxe true"
+            make the server execute command "/lp user %player's name% permission set missions.go-through-the-portal true"
+            make the server execute command "/lp user %player's name% permission set worldspawn.use true"
+            message ""
+            message "  &6&lOBJECTIVE COMPLETED"
+            message "  &fCraft a wooden pickaxe"
+            message ""
+            wait 20 ticks
+            make the server execute command "/customplaceholders set %player's name% mission Go_through_the_portal"
+            message ""
+            message "  &6&lNEW OBJECTIVE"
+            message "  &fGo through the portal"
+            message ""
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on portal enter:
+    if player has permission "missions.completed.craft-a-pickaxe":
+        if player doesn't have permission "missions.completed.go-through-the-portal":
+            make the server execute command "/lp user %player's name% permission set skyblock.menu.locked false"
+            make the server execute command "/lp user %player's name% permission set skyblock.menu.unlocked false"
+            wait 2 ticks
+            make the server execute command "/ij get skyblock-menu-unlocked %player's name%"
+            wait 40 ticks
+            make the server execute command "/lp user %player's name% permission unset missions.go-through-the-portal"
+            make the server execute command "/lp user %player's name% permission set missions.completed.go-through-the-portal true"
+            make the server execute command "/lp user %player's name% permission set missions.none.islands true"
+            make the server execute command "/lp user %player's name% permission set worldspawn.use true"
+            message ""
+            message "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+            message "&a&l NEW ZONE &8- &b&lVillage"
+            message "&7"
+            message "&8 ➤ &eExplore the Village"
+            message "&8 ➤ &eUnlock the Gold Mine Zone"
+            message "&8 ➤ &eTalk to the Banker"
+            message "&7"
+            message "&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+            wait 40 ticks
+            make the server execute command "/customplaceholders set %player's name% mission null"
+            message ""
+            message "  &6&lOBJECTIVE COMPLETED"
+            message "  &fGo through the portal"
+            message ""
+            wait 3 ticks
+            message ""
+            message "  &6&lNEW OBJECTIVE"
+            message "  &fExplore the village"
+            message ""
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on portal enter:
+    if event-world is "Islands":
+        if player has permission "missions.completed.craft-a-pickaxe":
+            make the player execute command "/spawn"
+            stop
+        else:
+            message "&cYou must complete the basic missions to unlock the Hub Island!"
+            stop
+    if event-world is "Server":
+        make the player execute command "/is"
+        stop
+    else:
+        stop

@@ -1,0 +1,289 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills give health {player} 60
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills remove health {player} 60
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+  2:
+    type: 'experience'
+    chance: 1.00
+    multiplier:
+      random: true
+      minimum: 1.3
+      maximum: 2.5
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+      remove:
+        - usbc skills remove defense {player} 35
+    name: '&aReforged Lapis Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+25 &8(+10 Reforged)'
+      - ''
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - ''
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - ''
+      - '&a&lUNCOMMON HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 50
+      remove:
+        - usbc skills remove defense {player} 50
+    name: '&aReforged Lapis Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+40 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&5&4'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&c&c'
+      - '&a&lUNCOMMON CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 45
+      remove:
+        - usbc skills remove defense {player} 45
+    name: '&aReforged Lapis Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+35 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&5&4'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&c&c'
+      - '&a&lUNCOMMON LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 30
+      remove:
+        - usbc skills remove defense {player} 30
+    name: '&aReforged Lapis Boots'
+    item: leather_boots
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+20 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&5&4'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&c&c'
+      - '&a&lUNCOMMON BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&aReforged Lapis Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+25 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&8&c'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&8'
+      - '&a&lUNCOMMON HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&aReforged Lapis Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+40 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&8&c'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&8'
+      - '&a&lUNCOMMON CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&aReforged Lapis Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+35 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&8&c'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&8'
+      - '&a&lUNCOMMON LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&aReforged Lapis Boots'
+    item: leather_boots
+    data: 0
+    color: 51:51:255
+    lore:
+      - '&7Defense: &a+20 &8(+10 Reforged)'
+      - '           '
+      - '&7Each piece of this armour grants'
+      - '&a15% &7bonus experience when'
+      - '&7mining ores.'
+      - '&8&c'
+      - '&6Full Set Bonus: Health'
+      - '&7Increases the wearers maximum'
+      - '&c❤ Health &7by &a60 HP&7.'
+      - '&8'
+      - '&a&lUNCOMMON BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

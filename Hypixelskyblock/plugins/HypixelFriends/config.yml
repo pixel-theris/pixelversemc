@@ -1,0 +1,107 @@
+Plugin:
+  Prefix: '&7'
+  Disable-Aliases:
+    /msg: true
+    /f: false
+    /r: true
+    /reply: true
+    /fl: false
+  Disable-Language: english
+  Default-Language: english
+Player:
+  b0bb65a2-832f-4a5d-854e-873b7c4522ed:
+    Name: SimplyRin
+    Language: english
+    Prefix: '&c[CREATOR] '
+    Toggle: true
+    Friends:
+    - 64636120-8633-4541-aa5f-412b42ddb04d
+  64636120-8633-4541-aa5f-412b42ddb04d:
+    Name: SimplyFoxy
+    Language: english
+    Prefix: '&c[CREATOR] '
+    Toggle: true
+    Friends:
+    - b0bb65a2-832f-4a5d-854e-873b7c4522ed
+  556945d5-7ffe-4d60-a826-2163fe443f38:
+    Name: Khrystyian
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  6563b729-f844-4403-8fba-93695f489f34:
+    Name: SuperSteveB
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  70632cb2-c56f-4906-b8cd-3d5809d7675a:
+    Name: BjornLV
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  d6ae0bf9-f117-45a8-be4e-180987f206bb:
+    Name: Huys
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  0e97f849-9e16-4194-ac11-cc10e6dfe540:
+    Name: joseda007
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  74d983b1-c70a-4686-a551-d55167cccb12:
+    Name: bowdyyy
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  4161be1b-36c9-382e-a5ac-013df065797a:
+    Name: Khrystyian
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  d4d8db99-ddb9-307a-839c-5f714519c7bb:
+    Name: 2asd
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  bf7dcdaa-7a3c-309a-b37a-e4de7016cb49:
+    Name: sad2sax
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+  a6a69701-9de9-3669-985d-8df95fe30b80:
+    Name: sad34yx
+    Language: english
+    Prefix: '&7'
+    Toggle: true
+    Friends: '[]'
+Name:
+  khrystyian: 556945d5-7ffe-4d60-a826-2163fe443f38
+  mediacube: 556945d5-7ffe-4d60-a826-2163fe443f38
+  supersteveb: 6563b729-f844-4403-8fba-93695f489f34
+  bjornlv: 70632cb2-c56f-4906-b8cd-3d5809d7675a
+  huys: d6ae0bf9-f117-45a8-be4e-180987f206bb
+  joseda007: 0e97f849-9e16-4194-ac11-cc10e6dfe540
+  bowdyyy: 74d983b1-c70a-4686-a551-d55167cccb12
+  2asd: d4d8db99-ddb9-307a-839c-5f714519c7bb
+  sad2sax: bf7dcdaa-7a3c-309a-b37a-e4de7016cb49
+  sad34yx: a6a69701-9de9-3669-985d-8df95fe30b80
+UUID:
+  556945d5-7ffe-4d60-a826-2163fe443f38: khrystyian
+  6563b729-f844-4403-8fba-93695f489f34: supersteveb
+  70632cb2-c56f-4906-b8cd-3d5809d7675a: bjornlv
+  d6ae0bf9-f117-45a8-be4e-180987f206bb: huys
+  0e97f849-9e16-4194-ac11-cc10e6dfe540: joseda007
+  74d983b1-c70a-4686-a551-d55167cccb12: bowdyyy
+  4161be1b-36c9-382e-a5ac-013df065797a: khrystyian
+  d4d8db99-ddb9-307a-839c-5f714519c7bb: 2asd
+  bf7dcdaa-7a3c-309a-b37a-e4de7016cb49: sad2sax
+  a6a69701-9de9-3669-985d-8df95fe30b80: sad34yx

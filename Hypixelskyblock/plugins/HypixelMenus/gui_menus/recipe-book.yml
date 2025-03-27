@@ -1,0 +1,200 @@
+menu_title: 'Recipe Book'
+open_command:
+- recipebook
+- recipe-book
+- recipes
+- recipe
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 99
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 32
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      recipe-book:
+        material: BOOK
+        slot: 4
+        display_name: '&aRecipe Book'
+        hide_attributes: true
+        lore:
+        - '&7Unlock more recipes by'
+        - '&7advacing your Skyblock'
+        - '&7Collections!'
+        left_click_commands: []
+        right_click_commands: []
+      farming:
+        material: GOLD_HOE
+        slot: 19
+        display_name: '&aFarming Recipes'
+        hide_attributes: true
+        lore:
+        - '&7Unlock more Farming Recipes'
+        - '&7by leveling up your Farming'
+        - '&7Collection!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] farming-recipes'
+        right_click_commands:
+        - '[openguimenu] farming-recipes'
+      mining:
+        material: STONE_PICKAXE
+        slot: 20
+        display_name: '&aMining Recipes'
+        hide_attributes: true
+        lore:
+        - '&7Unlock more Mining Recipes'
+        - '&7by leveling up your Mining'
+        - '&7Collection!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] mining-recipes'
+        right_click_commands:
+        - '[openguimenu] mining-recipes'
+      combat:
+        material: STONE_SWORD
+        slot: 21
+        display_name: '&aCombat Recipes'
+        hide_attributes: true
+        lore:
+        - '&7Unlock more Combat Recipes'
+        - '&7by leveling up your Combat'
+        - '&7Collection!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] combat-recipes'
+        right_click_commands:
+        - '[openguimenu] combat-recipes'
+      foraging:
+        material: 6
+        data: 3
+        slot: 22
+        display_name: '&aForaging Recipes'
+        lore:
+        - '&7Unlock more Foraging Recipes'
+        - '&7by leveling up your Foraging'
+        - '&7Collection!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] foraging-recipes'
+        right_click_commands:
+        - '[openguimenu] foraging-recipes'
+      fishing:
+        material: FISHING_ROD
+        slot: 23
+        display_name: '&aFishing Recipes'
+        lore:
+        - '&7Unlock more Fishing Recipes'
+        - '&7by leveling up your Fishing'
+        - '&7Collection!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] fishing-recipes'
+        right_click_commands:
+        - '[openguimenu] fishing-recipes'
+      enchanting:
+        material: 116
+        slot: 24
+        display_name: '&aEnchanting Recipes'
+        lore:
+        - '&7Unlock more Enchanting Recipes'
+        - '&7by leveling up your Collections!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] enchanting-recipes'
+        right_click_commands:
+        - '[openguimenu] enchanting-recipes'
+      brewing:
+        material: 379
+        slot: 25
+        display_name: '&aAlchemy Recipes'
+        lore:
+        - '&cSoon!'
+        left_click_commands: []
+        right_click_commands: []
+      minion:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0='
+        slot: 50
+        display_name: '&aMinion Recipes'
+        lore:
+        - '&7Unlock more Minion Recipes'
+        - '&7by leveling up your Collections!'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] minion-recipes'
+        right_click_commands:
+        - '[openguimenu] minion-recipes'
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

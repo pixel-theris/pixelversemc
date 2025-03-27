@@ -1,0 +1,19 @@
+name: Punish Player
+title: Punish Player
+author: Server
+generation: ORIGINAL
+lore:
+- Punishment GUI
+open_command: ''
+
+pages:
+  '1':
+  - 'Select a punishment type for %skript_1::{player}%:'
+  - ''
+  - '<tooltip:&7Click to ban %skript_1::{player}%<br>&7<br>&cWARNING: Keep in mind that false<br>&cpunishing players is against<br>&cthe rules and will result in the<br>&cremoval of your Rank!><run command:/aban %skript_1::{player}%> &8⦿&0 Ban %skript_1::{player}%<reset>'
+  - '<tooltip:&7Click to mute %skript_1::{player}%<br>&7<br>&cWARNING: Keep in mind that false<br>&cpunishing players is against<br>&cthe rules and will result in the<br>&cremoval of your Rank!><run command:/amute %skript_1::{player}%> &8⦿&0 Mute %skript_1::{player}%<reset>'
+  - '<tooltip:&7Click to warn %skript_1::{player}%<br>&7<br>&cWARNING: Keep in mind that false<br>&cpunishing players is against<br>&cthe rules and will result in the<br>&cremoval of your Rank!><run command:/awarn %skript_1::{player}%> &8⦿&0 Warn %skript_1::{player}%<reset>'
+  - ''
+  - 'More punishment details will be asked after choosing the punishment type.'
+  - ''
+  - '  <tooltip:&cClick to cancel><run command:/cancelpunishment>&cCANCEL PUNISHMENT<reset>'

@@ -1,0 +1,20 @@
+name: Punish Player
+title: Punish Player
+author: Server
+generation: ORIGINAL
+lore:
+- Punishment GUI
+open_command: ''
+
+pages:
+  '1':
+  - 'Select a reason for baning %skript_1::{player}%:'
+  - ''
+  - '<tooltip:&7Click to ban %skript_1::{player}% for Unfair Advantage<br>&7<br>&bPunishment Type: Temp-Ban<br>&bPunishment Duration: 30 Days<br>&7<br>&7&eApplies to: Usage of any types of unfair advantage or<br>&eexternal programms / software. Example: Killaura, Fly, etc.><run command:/tempban %skript_1::{player}% 30d Unfair Advantage> &8⦿&0 Unfair Advantage<reset>'
+  - '<tooltip:&7Click to ban %skript_1::{player}% for Exploit Usage<br>&7<br>&bPunishment Type: Temp-Ban<br>&bPunishment Duration: 14 Days<br>&7<br>&7&eApplies to: Usage of any exploits that grant illegal<br>&eadvantage over other players by giving<br>&ein-game items / currency.<br>&eExample: Items and Coins dupes, Crash errors, etc.><run command:/tempban %skript_1::{player}% 14d Exploit Usage> &8⦿&0 Exploit Usage<reset>'
+  - '<tooltip:&7Click to ban %skript_1::{player}% for Inappropriate Behavior<br>&7<br>&bPunishment Type: Temp-Ban<br>&bPunishment Duration: 5 Days<br>&7<br>&7&eApplies to: Suicidal encouragement, threats towards other<br>&eplayers, staff members, etc.><run command:/tempban %skript_1::{player}% 5d Inappropriate Behavior> &8⦿&0 Inappropriate Behavior<reset>'
+  - '<tooltip:&7Click to ban %skript_1::{player}% for Server Threats<br>&7<br>&bPunishment Type: Permanent Ban<br>&bPunishment Duration: Permanent<br>&7<br>&7&eApplies to: Players threatening the Server <br>&eor it''s software / resources.><run command:/ban %skript_1::{player}% Server Threats> &8⦿&0 Server Threats<reset>'
+  - '<tooltip:&7Click to ban %skript_1::{player}% for Other<br>&7<br>&bPunishment Type: Temp-Ban<br>&bPunishment Duration: 7 Days<br>&7<br>&7&eApplies to: Any other reason not listed above.><run command:/tempban %skript_1::{player}% 7d Other> &8⦿&0 Other<reset>'
+  - ''
+  - '  <tooltip:&cClick to cancel><run command:/cancelpunishment>&cCANCEL PUNISHMENT<reset>'
+  - '      <tooltip:&7Click to change punishment type><run command:/punish %skript_1::{player}%>&7CHANGE TYPE<reset>'

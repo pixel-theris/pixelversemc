@@ -1,0 +1,31 @@
+tasks:
+  papieval:
+    type: "placeholderapi_evaluate"
+    placeholder: "%us_skill_level_Combat%"
+    evaluates: "3"
+display:
+  name: "&aOther Quest"
+  lore-normal:
+  - "&7Reach Combat III"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.reach-combat-iii true"
+  - "customplaceholders set {player} mission_graveyard &eTalk_to_the_Gravekeeper"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fReach Combat III"
+  - "whisper {player} &7"
+  - "q a moddata start {player} npcquest10"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fTalk to the Gravekeeper"
+  - "whisper {player} &7"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 2

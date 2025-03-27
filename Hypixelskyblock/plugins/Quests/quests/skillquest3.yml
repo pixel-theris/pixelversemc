@@ -1,0 +1,30 @@
+tasks:
+  papieval:
+    type: "placeholderapi_evaluate"
+    placeholder: "%us_skill_level_Combat%"
+    evaluates: "10"
+display:
+  name: "&aOther Quest"
+  lore-normal:
+  - "&7Reach Combat X"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.reach-combat-x true"
+  - "customplaceholders set {player} mission_spidersden &eWarp_to_The_Nether"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fReach Combat X"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &a&lREWARDS"
+  - "whisper {player} &7    &fLucky Coins Talisman"
+  - "whisper {player} &7"
+  - "talisman give {player} random-coins 0"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 11

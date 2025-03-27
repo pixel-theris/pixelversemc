@@ -1,0 +1,16 @@
+name: Server
+title: Server
+author: Server
+generation: ORIGINAL
+lore:
+- Purchase Confirmation
+open_command: ''
+
+pages:
+  '1':
+  - 'Your purchase has been processed!'
+  - ''
+  - 'You''ve received the following items:'
+  - ' ▪ &6MVP&c++ &0Rank'
+  - ''
+  - 'If you have any problems, <tooltip:&eClick to join our discord server><link:http://discord.gg/8xh2P9Q>&5&l&ncontact support<reset>&r&0.'

@@ -1,0 +1,458 @@
+{
+  "createCommand": {
+    "aliases": [
+      "create"
+    ],
+    "description": "Creates a new island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "homeCommand": {
+    "aliases": [
+      "home"
+    ],
+    "description": "Teleport to your island home",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "deleteCommand": {
+    "aliases": [
+      "delete"
+    ],
+    "description": "Delete you island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "reloadCommand": {
+    "aliases": [
+      "reload"
+    ],
+    "description": "Reload your configurations",
+    "permission": "iridiumskyblock.reload",
+    "player": false,
+    "enabled": true
+  },
+  "regenCommand": {
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "description": "Regenerate your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "inviteCommand": {
+    "aliases": [
+      "invite"
+    ],
+    "description": "Invite a player to your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "joinCommand": {
+    "aliases": [
+      "join"
+    ],
+    "description": "Join another players island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "missionsCommand": {
+    "aliases": [
+      "missions"
+    ],
+    "description": "Opens the missions GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "aliases": [
+      "upgrade"
+    ],
+    "description": "Opens the Upgrade GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "boosterCommand": {
+    "aliases": [
+      "booster"
+    ],
+    "description": "Opens the booster GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "aliases": [
+      "crystals"
+    ],
+    "description": "Shows you how many crystals you have",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "aliases": [
+      "givecrystals"
+    ],
+    "description": "Give a player Crystals",
+    "permission": "iridiumskyblock.givecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "aliases": [
+      "removecrystals"
+    ],
+    "description": "remove a player's Crystals",
+    "permission": "iridiumskyblock.removecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "membersCommand": {
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "description": "View your island members",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "flyCommand": {
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "description": "Toggle your ability to fly",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "aboutCommand": {
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "description": "Displays plugin info",
+    "permission": "iridiumskyblock.",
+    "player": false,
+    "enabled": true
+  },
+  "warpsCommand": {
+    "aliases": [
+      "warps"
+    ],
+    "description": "opens the Warp GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "warpCommand": {
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "description": "Set a new island warp",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "valueCommand": {
+    "aliases": [
+      "value"
+    ],
+    "description": "Shows your island value",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "topCommand": {
+    "aliases": [
+      "top"
+    ],
+    "description": "View the top islands",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "leaveCommand": {
+    "aliases": [
+      "leave"
+    ],
+    "description": "Leave an island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "description": "Opens the WorldBorder GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "kickCommand": {
+    "aliases": [
+      "kick"
+    ],
+    "description": "Kick a player from your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "visitCommand": {
+    "aliases": [
+      "visit"
+    ],
+    "description": "Visit another players island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "publicCommand": {
+    "aliases": [
+      "public"
+    ],
+    "description": "allow players to visit your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "privateCommand": {
+    "aliases": [
+      "private"
+    ],
+    "description": "Stop players visiting your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "bypassCommand": {
+    "aliases": [
+      "bypass"
+    ],
+    "description": "Bypass all island restrictions",
+    "permission": "iridiumskyblock.bypass",
+    "player": true,
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "aliases": [
+      "sethome"
+    ],
+    "description": "Set your island home",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "aliases": [
+      "permissions"
+    ],
+    "description": "Edit Island Permissions",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "transferCommand": {
+    "aliases": [
+      "transfer"
+    ],
+    "description": "Transfer island ownership",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "adminCommand": {
+    "aliases": [
+      "admin"
+    ],
+    "description": "Control a players Island",
+    "permission": "iridiumskyblock.admin",
+    "player": true,
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "aliases": [
+      "givebooster"
+    ],
+    "description": "Give an Island a Booster",
+    "permission": "iridiumskyblock.givebooster",
+    "player": false,
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "aliases": [
+      "giveupgrade"
+    ],
+    "description": "Give an Island an Upgrade",
+    "permission": "iridiumskyblock.giveupgrade",
+    "player": false,
+    "enabled": true
+  },
+  "banCommand": {
+    "aliases": [
+      "ban"
+    ],
+    "description": "Ban a player from visiting your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "unBanCommand": {
+    "aliases": [
+      "unban"
+    ],
+    "description": "Un-ban a player from visiting your island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "coopCommand": {
+    "aliases": [
+      "coop"
+    ],
+    "description": "Coops you to an island",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "aliases": [
+      "uncoop"
+    ],
+    "description": "Revokes an Islands coop",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "setNameCommand": {
+    "aliases": [
+      "setname"
+    ],
+    "description": "Set your islands name",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "bankCommand": {
+    "aliases": [
+      "bank"
+    ],
+    "description": "Opens the bank GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "chatCommand": {
+    "aliases": [
+      "chat"
+    ],
+    "description": "Talk to your island members",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "chatSpyCommand": {
+    "aliases": [
+      "chatspy",
+      "spy"
+    ],
+    "description": "Spy on island chats",
+    "permission": "iridiumskyblock.spy",
+    "player": true,
+    "enabled": true
+  },
+  "shopCommand": {
+    "aliases": [
+      "shop"
+    ],
+    "description": "Access the Skyblock Shop",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "biomeCommand": {
+    "aliases": [
+      "biome"
+    ],
+    "description": "Opens the biome GUI",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "helpCommand": {
+    "aliases": [
+      "help"
+    ],
+    "description": "Displays the plugin commands",
+    "permission": "iridiumskyblock.",
+    "player": true,
+    "enabled": true
+  },
+  "languagesCommand": {
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "description": "Change the plugin language",
+    "permission": "iridiumskyblock.language",
+    "player": true,
+    "enabled": true
+  },
+  "recalculateCommand": {
+    "id": 0,
+    "aliases": [
+      "recalc",
+      "recalculate"
+    ],
+    "description": "Recalculate all island values",
+    "permission": "recalculate",
+    "player": false,
+    "enabled": true
+  },
+  "addValueCommand": {
+    "aliases": [
+      "addvalue"
+    ],
+    "description": "Give an island extra value",
+    "permission": "iridiumskyblock.addvalue",
+    "player": false,
+    "enabled": true
+  },
+  "removeValueCommand": {
+    "aliases": [
+      "removevalue"
+    ],
+    "description": "Take island value from an island",
+    "permission": "iridiumskyblock.removevalue",
+    "player": false,
+    "enabled": true
+  },
+  "expelCommand": {
+    "aliases": [
+      "expel",
+      "visitors"
+    ],
+    "description": "Kick a visitor from your island",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  }
+}

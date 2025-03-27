@@ -1,0 +1,51 @@
+name: default
+permissions:
+- handyorbs.hyperactivity
+- handyorbs.limit.wheat.1
+- handyorbs.limit.potatoes.1
+- handyorbs.limit.carrots.1
+- handyorbs.limit.sugar-cane.1
+- handyorbs.imit.nether-wart.1
+- fancycrafting.workbench
+- trade.coal
+- grapplinghook.worlds.*
+- auctionmaster.limit.auctions.5
+- chatty.chat.default
+- chatty.chat.default.see
+- chatty.chat.default.write
+- chatty.command.chat
+- chatty.command.msg
+- chatty.command.reply
+- essentials.workbench
+- friends.command.main
+- grapplinghook.useInAllWorlds
+- holomobhealth.use
+- hypixelcommands.user
+- rec.bank.command
+- interactivechat.mention.player
+- interactivechat.module.custom
+- interactivechat.module.enderchest
+- interactivechat.module.inventory
+- interactivechat.module.item
+- playerinformation.view
+- rank.default
+- rec.shop.open
+- scoreboard.islands
+- scoreboard.server
+- tab.sort.Default
+- tradesystem.trade
+- weight.5
+- worldspawn.bypass.delay
+- rw.open
+- rec.piggybank.use
+- AntiDrop.commands.Toggle
+- PickupMoney.pickup
+prefixes:
+- '&7':
+    priority: 5
+suffixes:
+- '&7':
+    priority: 5
+meta:
+- default:
+    value: 'true'

@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 16
+    block: STONE
+display:
+  name: "&aMining Quest"
+  lore-normal:
+  - "&7Objective:&r &fMine 16 cobblestone."
+  - "&7Progress:&r &f{mining:progress}/16 cobblestone"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.collect-some-cobblestone true"
+  - "customplaceholders set {player} mission_mine &eTalk_to_The_Miner_Guy"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fCollect some cobblestone"
+  - "whisper {player} &7"
+  - "q a moddata start {player} npcquest5"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fTalk to The Miner Guy"
+  - "whisper {player} &7"
+options:
+  category: "mining"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 1

@@ -1,0 +1,1011 @@
+[14:48:03] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:48:03] [Server thread/INFO]: Loading properties
+[14:48:03] [Server thread/INFO]: Default game type: SURVIVAL
+[14:48:04] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:48:04] [Server thread/INFO]: Debug logging is disabled
+[14:48:04] [Server thread/INFO]: Spigot Timings: true - Verbose: false - Interval: 5m - Length: 60m
+[14:48:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[14:48:04] [Server thread/INFO]: Using 16 threads for Netty based IO
+[14:48:04] [Server thread/INFO]: Data value allowed items: 
+[14:48:04] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[14:48:04] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[14:48:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[14:48:04] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[14:48:04] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[14:48:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[14:48:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[14:48:04] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[14:48:04] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:48:04] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:48:04] [Server thread/INFO]: Generating keypair
+[14:48:04] [Server thread/INFO]: Starting Minecraft server on *:41849
+[14:48:05] [Server thread/ERROR]: Could not load 'plugins/CitizensText.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:05] [Server thread/ERROR]: Could not load 'plugins/IslandAdditions-1.0.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:05] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:48:05] [Server thread/ERROR]: Could not load 'plugins/CommandNPC.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:05] [Server thread/INFO]: [FancyEnchantments] Loading FancyEnchantments v1.0.0
+[14:48:05] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.5
+[14:48:05] [Server thread/INFO]: [HypixelBackpacks] Loading HypixelBackpacks v1.6.7
+[14:48:05] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.8.2
+[14:48:05] [Server thread/INFO]: [HypixelMenus] Loading HypixelMenus v1.10.5
+[14:48:05] [Server thread/INFO]: [HypixelMinionsCore] Loading HypixelMinionsCore v1.0
+[14:48:05] [Server thread/INFO]: [HypixelLag] Loading HypixelLag v3.1.6
+[14:48:05] [Server thread/INFO]: [Quests] Loading Quests v2.5
+[14:48:05] [Server thread/INFO]: [HypixelBags] Loading HypixelBags v1.0
+[14:48:05] [Server thread/INFO]: [HypixelCommands] Loading HypixelCommands v1.9.0
+[14:48:05] [Server thread/INFO]: [EffectPlaceholders] Loading EffectPlaceholders v1.0.0
+[14:48:05] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1-SNAPSHOT
+[14:48:05] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:48:05] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1-SNAPSHOT is now loaded, waiting for boot. (late-bind)
+[14:48:05] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.5.0
+[14:48:05] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[14:48:05] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[14:48:05] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[14:48:05] [Server thread/INFO]: [NBTAPI] Using the plugin 'FancyEnchantments' to create a bStats instance!
+[14:48:05] [Server thread/INFO]: [HypixelLore] Loading HypixelLore v1.6
+[14:48:05] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[14:48:05] [ForkJoinPool-1-worker-1/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-1/ERROR]: [LuckPerms] Unable to load dependency TEXT.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-2/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-2/ERROR]: [LuckPerms] Unable to load dependency TEXT_SERIALIZER_GSON.
+[14:48:05] [ForkJoinPool-1-worker-5/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-5/ERROR]: [LuckPerms] Unable to load dependency EVENT.
+[14:48:05] [ForkJoinPool-1-worker-9/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-9/ERROR]: [LuckPerms] Unable to load dependency BYTEBUDDY.
+[14:48:05] [ForkJoinPool-1-worker-7/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-7/ERROR]: [LuckPerms] Unable to load dependency OKIO.
+[14:48:05] [ForkJoinPool-1-worker-4/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-4/ERROR]: [LuckPerms] Unable to load dependency TEXT_ADAPTER_BUKKIT.
+[14:48:05] [ForkJoinPool-1-worker-3/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-3/ERROR]: [LuckPerms] Unable to load dependency TEXT_SERIALIZER_LEGACY.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-8/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-8/ERROR]: [LuckPerms] Unable to load dependency OKHTTP.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-6/INFO]: [LuckPerms] It is safe to ignore any warning printed following this message starting with 'WARNING: An illegal reflective access operation has occurred, Illegal reflective access by me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader'. This is intended, and will not have any impact on the operation of LuckPerms.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-6/ERROR]: [LuckPerms] Unable to load dependency CAFFEINE.
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-1/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-2/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-5/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-9/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-7/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-4/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-3/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-8/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @5cf84d9a
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:203)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:197)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.lambda$new$0(ReflectionClassLoader.java:64)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at com.google.common.base.Suppliers$MemoizingSupplier.get(Suppliers.java:125)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.addJarToClasspath(ReflectionClassLoader.java:75)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.loadDependency(DependencyManager.java:154)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at me.lucko.luckperms.common.dependencies.DependencyManager.lambda$loadDependencies$2(DependencyManager.java:127)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+
+[14:48:05] [ForkJoinPool-1-worker-6/WARN]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+[14:48:05] [Server thread/INFO]: [Skript] Loading Skript v2.1.2
+[14:48:05] [Server thread/INFO]: [HypixelFriends] Loading HypixelFriends v1.5.12-SNAPSHOT (SPIGOT)
+[14:48:05] [Server thread/INFO]: [DamageIndicators] Loading DamageIndicators v1.0.0
+[14:48:05] [Server thread/INFO]: [WorldSpawn] Loading WorldSpawn v1.4.4
+[14:48:05] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[14:48:05] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[14:48:05] [Server thread/INFO]: [AntiDrop] Loading AntiDrop v2.2.1
+[14:48:05] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[14:48:05] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v3.1
+[14:48:05] [Server thread/INFO]: [HypixelBooks] Loading HypixelBooks v1.4.2
+[14:48:05] [Server thread/INFO]: [GrapplingHook] Loading GrapplingHook v2.3
+[14:48:05] [Server thread/INFO]: [HypixelWorldProtect] Loading HypixelWorldProtect v1.2
+[14:48:05] [Server thread/INFO]: [DeathTeleport] Loading DeathTeleport v1.0
+[14:48:05] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[14:48:05] [Server thread/INFO]: [FancyCrafting] Loading FancyCrafting v1.0.1
+[14:48:05] [Server thread/INFO]: [HypixelRegions] Loading HypixelRegions v1.1
+[14:48:05] [Server thread/INFO]: [PlayerList+] Loading PlayerListPlus v1.20.2
+[14:48:05] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.3
+[14:48:05] [Server thread/INFO]: [HoloMobHealth] Loading HoloMobHealth v2.0.7
+[14:48:05] [Server thread/INFO]: [AuctionMaster] Loading AuctionMaster v2.3
+[14:48:05] [Server thread/INFO]: [HandyOrbs] Loading HandyOrbs v2.1
+[14:48:05] [Server thread/INFO]: [Replay] Loading Replay v1.6
+[14:48:05] [Server thread/INFO]: [MessageFilter] Loading MessageFilter v0.3.2
+[14:48:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[14:48:05] [Server thread/INFO]: [HypixelChat] Loading HypixelChat v2.18
+[14:48:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[14:48:05] [Server thread/INFO]: [AdvanceRespawn] Loading AdvanceRespawn v7.1.3
+[14:48:05] [Server thread/INFO]: [TradeSystem] Loading TradeSystem vB5
+[14:48:05] [Server thread/INFO]: [PickupMoney] Loading PickupMoney v2.5.2
+[14:48:05] [Server thread/INFO]: [Armor+] Loading HypixelArmor v2.2.4
+[14:48:05] [Server thread/INFO]: [TAB] Loading TAB v2.6.5
+[14:48:05] [Server thread/INFO]: [AuctionMasterItemDisplay] Loading AuctionMasterItemDisplay v1.1
+[14:48:05] [Server thread/INFO]: [JumpPads] Loading JumpPads v1.0
+[14:48:05] [Server thread/INFO]: [IridiumSkyblock] Loading IridiumSkyblock v2.5.9
+[14:48:05] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[14:48:05] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.6.2
+[14:48:06] [Server thread/INFO]: [HypixelItems] Loading HypixelItems v5.0.5-RELEASE-b324
+[14:48:06] [Server thread/INFO]: [HypixelCombat] Loading HypixelCombat v9.9.3.4
+[14:48:06] [Server thread/ERROR]: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @634e4e92 initializing HypixelCombat v9.9.3.4 (Is it up to date?)
+java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @634e4e92
+	at java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315) ~[?:?]
+	at java.lang.reflect.Method.checkCanSetAccessible(Method.java:203) ~[?:?]
+	at java.lang.reflect.Method.setAccessible(Method.java:197) ~[?:?]
+	at com.SirBlobman.combatlogx.expansion.Expansions.loadJar(Expansions.java:219) ~[?:?]
+	at com.SirBlobman.combatlogx.expansion.Expansions.loadExpansions(Expansions.java:132) ~[?:?]
+	at com.SirBlobman.combatlogx.CombatLogX.onLoad(CombatLogX.java:42) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:06] [Server thread/INFO]: [SimpleReforging] Loading SimpleReforging v1.0.1
+[14:48:06] [Server thread/INFO]: [WGRegionEvents] Loading WGRegionEvents v1.0
+[14:48:06] [Server thread/INFO]: [FirstRegionJoin] Loading FirstRegionJoin v1.0
+[14:48:06] [Server thread/INFO]: [HypixelRegionBlocks] Loading HypixelRegionBlocks v1.0
+[14:48:06] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.8.2
+[14:48:06] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.8.8
+[14:48:06] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[14:48:06] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[14:48:06] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[14:48:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[14:48:06] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[14:48:06] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.26[m
+
+[14:48:06] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[14:48:06] [Server thread/INFO]: [m
+
+[14:48:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:48:06] [Server thread/ERROR]: Error occurred while enabling LuckPerms v5.1.26 (Is it up to date?)
+java.lang.NoClassDefFoundError: me/lucko/luckperms/lib/okhttp3/MediaType
+	at me.lucko.luckperms.common.web.AbstractHttpClient.<clinit>(AbstractHttpClient.java:37) ~[?:?]
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:123) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:161) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.lucko.luckperms.lib.okhttp3.MediaType
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 11 more
+[14:48:06] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.1.26
+[14:48:06] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:48:06] [Server thread/ERROR]: Error occurred while disabling LuckPerms v5.1.26 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "me.lucko.luckperms.common.extension.SimpleExtensionManager.close()" because "this.extensionManager" is null
+	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.disable(AbstractLuckPermsPlugin.java:218) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onDisable(LPBukkitBootstrap.java:177) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[14:48:06] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[14:48:06] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[14:48:06] [Thread-6/WARN]: [NBTAPI] The NBT-API at 'package de.tr7zw.nbtapi' seems to be outdated!
+[14:48:06] [Thread-6/WARN]: [NBTAPI] Current Version: '2.5.0' Newest Version: 2.14.1'
+[14:48:06] [Thread-6/WARN]: [NBTAPI] Please update the nbt-api or the plugin that contains the api!
+[14:48:06] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[14:48:06] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.config.Config.setAccessible(Config.java:451)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.config.Config.save(Config.java:288)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.config.Config.<init>(Config.java:27)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.config.Settings.<init>(Settings.java:8)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.config.Settings.<clinit>(Settings.java:10)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.FaweBukkit.<init>(FaweBukkit.java:94)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.BukkitMain.onEnable(BukkitMain.java:76)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[14:48:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[14:48:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:48:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:48:06] [Server thread/WARN]: java.lang.NullPointerException: Cannot assign field "ENABLED" because "com.boydti.fawe.config.Settings.IMP.TICK_LIMITER" is null
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.FaweBukkit.<init>(FaweBukkit.java:94)
+
+[14:48:06] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.BukkitMain.onEnable(BukkitMain.java:76)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+
+[14:48:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+
+[14:48:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203)
+
+[14:48:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[14:48:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:48:06] [Server thread/ERROR]: Error occurred while enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.boydti.fawe.util.TaskManager.task(java.lang.Runnable)" because "com.boydti.fawe.util.TaskManager.IMP" is null
+	at com.boydti.fawe.bukkit.FaweBukkit.<init>(FaweBukkit.java:137) ~[?:?]
+	at com.boydti.fawe.bukkit.BukkitMain.onEnable(BukkitMain.java:76) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:06] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[14:48:06] [Server thread/ERROR]: Error occurred while disabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.boydti.fawe.Fawe.onDisable()" because the return value of "com.boydti.fawe.Fawe.get()" is null
+	at com.boydti.fawe.bukkit.BukkitMain.onDisable(BukkitMain.java:84) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:203) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:48:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[14:48:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:48:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:48:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[14:48:06] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v2.5.9
+[14:48:06] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:48:06] [Server thread/INFO]: Preparing level "Server"
+[14:48:06] [Server thread/INFO]: -------- World Settings For [Server] --------
+[14:48:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:48:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:48:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:48:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:48:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:48:06] [Server thread/INFO]: Water over lava flow speed: 5
+[14:48:06] [Server thread/INFO]: Fix TNT cannons: false
+[14:48:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:48:06] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:48:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:48:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:48:06] [Server thread/INFO]: World async lighting: false
+[14:48:06] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1762032592892080943)
+[14:48:06] [Server thread/INFO]: [FancyEnchantments] Enabling FancyEnchantments v1.0.0
+[14:48:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.5
+[14:48:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:48:06] [Server thread/INFO]: [HypixelBackpacks] Enabling HypixelBackpacks v1.6.7
+[14:48:06] [Server thread/INFO]: [0;32;1mFancyBags >>> NMS Version Detected: v1_8_R3[m
+
+[14:48:06] [Server thread/INFO]: [0;32;1mFancyBags >>> loaded 3 recipes![m
+
+[14:48:06] [Server thread/INFO]: FancyBags plugin has been enabled![m
+
+[14:48:06] [Server thread/INFO]: [HypixelMenus] Enabling HypixelMenus v1.10.5
+[14:48:06] [Server thread/INFO]: [HypixelMenus] Hooked into PlaceholderAPI!
+[14:48:07] [Server thread/INFO]: [HypixelMenus] 31 GUI menus loaded!
+[14:48:07] [Server thread/INFO]: [HypixelMenus] Successfully hooked into Vault for economy requirement!
+[14:48:07] [Server thread/INFO]: [HypixelMenus] NMS hook has been setup
+[14:48:07] [Server thread/INFO]: [HypixelMinionsCore] Enabling HypixelMinionsCore v1.0
+[14:48:07] [Server thread/INFO]: [HypixelLag] Enabling HypixelLag v3.1.6
+[14:48:07] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:48:07] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:48:07] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:48:07] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:48:07] [Server thread/INFO]: [Quests] Enabling Quests v2.5
+[14:48:07] [Server thread/INFO]: [Quests] Your server is running version v1_8_R3.
+[14:48:07] [Server thread/INFO]: [Quests] Titles have been enabled, although they have limited timings.
+[14:48:07] [Server thread/INFO]: [Quests] Metrics started. This can be disabled at /plugins/bStats/config.yml.
+[14:48:07] [Server thread/INFO]: [HypixelBags] Enabling HypixelBags v1.0
+[14:48:07] [Server thread/INFO]: [0;32;1mBackpacks plugin has been enabled![m
+
+[14:48:07] [Server thread/INFO]: [HypixelCommands] Enabling HypixelCommands v1.9.0
+[14:48:07] [Server thread/INFO]: [HypixelCommands] Successfully setup compatibility for your server version!
+[14:48:07] [Server thread/INFO]: [HypixelCommands] 9 commands loaded!
+[14:48:07] [Server thread/INFO]: [HypixelCommands] Hooked into PlaceholderAPI for placeholders!
+[14:48:07] [Server thread/INFO]: [EffectPlaceholders] Enabling EffectPlaceholders v1.0.0
+[14:48:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1-SNAPSHOT
+[14:48:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[14:48:07] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[14:48:07] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[14:48:07] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[14:48:07] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[14:48:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:48:07] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[14:48:07] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.5.0
+[14:48:07] [Server thread/INFO]: [NBTAPI] Adding listeners...
+[14:48:07] [Server thread/INFO]: [NBTAPI] Gson:
+[14:48:07] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[14:48:07] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[14:48:07] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[14:48:07] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[14:48:07] [Server thread/INFO]: [NBTAPI] EqualsTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] NBTFileTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] SpawnEntityCustomNbtInjectorTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] MergeTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] MergeTileSubCompoundTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] ItemConvertionTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] TilesCustomNBTPersistentTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] RemovingKeys: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] TilesCustomNBTInjectorTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] EntityCustomNbtInjectorTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] ForEachTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] ListTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] SubCompoundsTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] EntityCustomNbtPersistentTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] EmptyItemTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] TileTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] TypeTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] ItemMergingTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] WorldDataTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] GetterSetterTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] EntityTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] GameprofileTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] DirectApplyTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] StreamTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] IteratorTest: Ok
+[14:48:07] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[14:48:07] [Server thread/INFO]: [HypixelLore] Enabling HypixelLore v1.6
+[14:48:07] [Server thread/INFO]: -----Lore Adder v1.6 by Franzinator Enabled-----
+
+[14:48:07] [Server thread/INFO]: [Skript] Enabling Skript v2.1.2
+[14:48:08] [Server thread/INFO]: [Skript] Loaded a total of 11504 english aliases
+[14:48:08] [Server thread/WARN]: [Skript] There are no aliases defined for the following ids: 165, 166, 167, 168, 169, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 409, 410, 411, 412, 413, 414, 415, 416, 423, 424, 425, 427, 428, 429, 430, 431
+[14:48:08] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[14:48:08] [Server thread/INFO]: [HypixelFriends] Enabling HypixelFriends v1.5.12-SNAPSHOT (SPIGOT)
+[14:48:08] [Server thread/INFO]: [0;37;22mChecking if a new language is available ...[m
+
+[14:48:09] [Server thread/INFO]: [DamageIndicators] Enabling DamageIndicators v1.0.0
+[14:48:09] [Server thread/INFO]: [WorldSpawn] Enabling WorldSpawn v1.4.4
+[14:48:09] [Server thread/INFO]: [0;37;22mHub loaded![m
+
+[14:48:09] [Server thread/INFO]: [0;37;22mSpawn for "Server" loaded![m
+
+[14:48:09] [Server thread/INFO]: [WorldSpawn] Hello server!
+[14:48:09] [Server thread/INFO]: [WorldSpawn] World Spawn by Bluecoaster455 v1.4.4
+[14:48:09] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[14:48:10] [Server thread/INFO]: -------- World Settings For [Islands] --------
+[14:48:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[14:48:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[14:48:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[14:48:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[14:48:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[14:48:10] [Server thread/INFO]: Water over lava flow speed: 5
+[14:48:10] [Server thread/INFO]: Fix TNT cannons: false
+[14:48:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[14:48:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[14:48:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[14:48:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[14:48:10] [Server thread/INFO]: World async lighting: false
+[14:48:10] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5980616364798004000)
+[14:48:10] [Server thread/INFO]: [0;37;22mHub loaded![m
+
+[14:48:10] [Server thread/INFO]: [0;37;22mSpawn for "Server" loaded![m
+
+[14:48:10] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[14:48:10] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[14:48:10] [Server thread/INFO]: [AntiDrop] Enabling AntiDrop v2.2.1
+[14:48:10] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v3.1
+[14:48:10] [Server thread/INFO]: [ImageOnMap] Loaded 2 player map files.
+[14:48:10] [Server thread/INFO]: [HypixelBooks] Enabling HypixelBooks v1.4.2
+[14:48:10] [Server thread/INFO]: [GrapplingHook] Enabling GrapplingHook v2.3
+[14:48:10] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m] [0;32;22mPlugin loading...[m
+
+[14:48:10] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m] [0;32;22mServer version 1.8.8 identified. Plugin successfully loaded![m
+
+[14:48:10] [Server thread/INFO]: [HypixelWorldProtect] Enabling HypixelWorldProtect v1.2
+[14:48:10] [Server thread/INFO]: [DeathTeleport] Enabling DeathTeleport v1.0
+[14:48:10] [Server thread/INFO]: Cargado death teleport village
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport spiders-den
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport the-nether
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport nether-fortress
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport farm
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport the-barn
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport acacia-forest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport spruce-forest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport birch-forest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport dark-oak-forest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport jungle-forest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport gold-mine
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport lapis-quarry
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport redstone-mine
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport emerald-sanctuary
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport diamond-reserve
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport obsidian-sanctuary
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport the-end
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport dragon-nest
+
+[14:48:10] [Server thread/INFO]: Cargado death teleport dragon-altar
+
+[14:48:10] [Server thread/INFO]: [FancyCrafting] Enabling FancyCrafting v1.0.1
+[14:48:10] [Server thread/INFO]: [HypixelRegions] Enabling HypixelRegions v1.1
+[14:48:10] [Server thread/INFO]: -----SkyBlockPlaceholders v1.1 by Franzinator Enabled-----
+
+[14:48:10] [Server thread/INFO]: [PlayerList+] Enabling PlayerListPlus v1.20.2
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;31;1mThe config.yml is outdated. Generating new one...[m
+
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;33;1mOld configuration (cfg2.4) saved at config-old-cfg2.4.yml[m
+
+[14:48:10] [Server thread/INFO]: [PlayerList+] Failure to setup VaultChat :(
+
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;32;1mHooked with Vault[m
+
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;32;1mHooked with PlaceholderAPI[m
+
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;33;1mLoaded SlotListHandler: PLAYERS type PLAYER_LIST[m
+
+[14:48:10] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;32;1mDone in 36ms[m
+
+[14:48:10] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.3
+[14:48:10] [Thread-8/WARN]: Exception in thread "Thread-8" 
+[14:48:10] [Thread-8/WARN]: java.lang.RuntimeException: Failed to check update :(
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.UpdateChecker.response(UpdateChecker.java:52)
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.UpdateChecker.refresh(UpdateChecker.java:24)
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.UpdateChecker.getLatestVersion(UpdateChecker.java:32)
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.UpdateChecker.compareVersion(UpdateChecker.java:39)
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.PlayerListPlugin.isUpdated(PlayerListPlugin.java:101)
+
+[14:48:10] [Thread-8/WARN]: 	at org.spookit.bukkit.playerlistplus.PlayerListPlugin$2.run(PlayerListPlugin.java:358)
+
+[14:48:10] [Thread-8/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[14:48:10] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[14:48:10] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2.0.7
+[14:48:10] [Server thread/INFO]: [0;31;1mTranslatable Components are not supported on this version[m
+
+[14:48:10] [Server thread/INFO]: [0;33;1mHoloMobHealth will use legacy EntityType names method instead![m
+
+[14:48:10] [Server thread/INFO]: [0;33;1m[HoloMobHealth] Legacy Bungeecord Chat API detected, using legacy methods...[m
+
+[14:48:10] [Server thread/INFO]: [0;32;1m[HoloMobHealth] HoloMobHealth has been Enabled![m
+
+[14:48:10] [Server thread/INFO]: [AuctionMaster] Enabling AuctionMaster v2.3
+[14:48:10] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Delivery SQL.
+[14:48:10] [Server thread/INFO]: [HandyOrbs] Enabling HandyOrbs v2.1
+[14:48:10] [Server thread/INFO]: [HandyOrbs] Loading NBT API Util...
+[14:48:10] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[14:48:10] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[14:48:10] [Server thread/INFO]: [HandyOrbs] Gson:
+[14:48:10] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[14:48:11] [Server thread/INFO]: [Replay] Enabling Replay v1.6
+[14:48:11] [Server thread/INFO]: [Replay] Loading Replay v1.6 by Jumper251
+
+[14:48:11] [Server thread/INFO]: [Replay] Finished (19ms)
+
+[14:48:11] [Server thread/INFO]: [MessageFilter] Enabling MessageFilter v0.3.2
+[14:48:11] [Server thread/INFO]: [MessageFilter] ProtocolLib found and connected!
+[14:48:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[14:48:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:48:11] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[14:48:11] [Server thread/WARN]: [WorldEdit] WorldEdit has detected you are using Java 7 (based on detected version 21.0.5).
+[14:48:11] [Server thread/WARN]: [WorldEdit] WorldEdit will stop supporting Java less than version 8 in the future, due to Java 7 being EOL since April 2015. Please update your server to Java 8.
+[14:48:11] [Server thread/INFO]: [HypixelChat] Enabling HypixelChat v2.18
+[14:48:11] [Server thread/INFO]: [HypixelChat] Vault has successful hooked.
+[14:48:11] [Server thread/INFO]: [HypixelChat] PlaceholderAPI has successful hooked.
+[14:48:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[14:48:12] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[14:48:12] [Server thread/INFO]: No kits found to migrate.
+[14:48:12] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[14:48:12] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[14:48:12] [Server thread/INFO]: [Essentials] Using legacy potion meta provider as potion meta provider.
+[14:48:12] [Server thread/INFO]: Loaded 852 items from items.csv.
+[14:48:12] [Server thread/INFO]: Using locale en
+[14:48:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:48:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:48:12] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[14:48:12] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[14:48:12] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[14:48:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[14:48:12] [Server thread/INFO]: [AdvanceRespawn] Enabling AdvanceRespawn v7.1.3
+[14:48:12] [Server thread/INFO]: [TradeSystem] Enabling TradeSystem vB5
+[14:48:12] [Server thread/INFO]: [0;32;1m> Loading instances...[m
+
+[14:48:12] [Server thread/INFO]: [0;32;1m> Loading listeners...[m
+
+[14:48:12] [Server thread/INFO]: [0;32;1m> Loading commands...[m
+
+[14:48:12] [Server thread/INFO]: [0;32;1mTradeSystem has been enabled B5[m
+
+[14:48:12] [Server thread/INFO]: [PickupMoney] Enabling PickupMoney v2.5.2
+[14:48:12] [Server thread/INFO]: [PickupMoney] Not support ActionBar in this Spigot version. Contact me if you want to add.
+[14:48:12] [Server thread/INFO]: [Armor+] Enabling HypixelArmor v2.2.4
+[14:48:12] [Server thread/INFO]: [Armor+] Vault found, hooking into it now...
+[14:48:12] [Server thread/INFO]: [Armor+] PlaceholderAPI found, registering expansion with it now...
+[14:48:12] [Server thread/INFO]: [Armor+] Thanks for using Armor+ v2.2.4, please contact nbdSteve#0583 on discord if you find any bugs.
+[14:48:12] [Server thread/INFO]: [TAB] Enabling TAB v2.6.5
+[14:48:12] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.8.8 (v1_8_R3)[m
+
+[14:48:12] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 56ms[m
+
+[14:48:12] [Server thread/INFO]: [AuctionMasterItemDisplay] Enabling AuctionMasterItemDisplay v1.1
+[14:48:12] [Server thread/INFO]: [JumpPads] Enabling JumpPads v1.0
+[14:48:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Server) TNT ignition is PERMITTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Server) Lighters are PERMITTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Server) Lava fire is blocked.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Server) Fire spread is UNRESTRICTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Server'
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Islands) TNT ignition is PERMITTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Islands) Lighters are PERMITTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Islands) Lava fire is blocked.
+[14:48:12] [Server thread/INFO]: [WorldGuard] (Islands) Fire spread is UNRESTRICTED.
+[14:48:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Islands'
+[14:48:12] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:48:12] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.6.2
+[14:48:12] [Server thread/INFO]: [SimpleScore] Loading disabled scoreboards...
+[14:48:12] [Server thread/INFO]: [SimpleScore] Disabled scoreboards loaded.
+[14:48:12] [Server thread/INFO]: [HypixelItems] Enabling HypixelItems v5.0.5-RELEASE-b324
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;32;1mFetched [{ [0;33;1mMultiverse-Core, WorldGuard, PlaceholderAPI, Vault [0;32;1m}][m
+
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;32;1mChecking for updates...[m
+
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;31;1mAn error has occured when checking the plugin version![m
+
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;31;1mPlease contact the plugin developer![m
+
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;32;1mYou are up to date![m
+
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;32;1mhas been Enabled.[m
+
+[14:48:12] [Server thread/INFO]: [HypixelCombat] Enabling HypixelCombat v9.9.3.4
+[14:48:12] [Server thread/INFO]: [SimpleReforging] Enabling SimpleReforging v1.0.1
+[14:48:12] [Server thread/WARN]: [SimpleReforging] The stat 'strength' at 'gentle' is not configured.
+[14:48:12] [Server thread/INFO]: [WGRegionEvents] Enabling WGRegionEvents v1.0
+[14:48:12] [Server thread/INFO]: [FirstRegionJoin] Enabling FirstRegionJoin v1.0
+[14:48:12] [Server thread/INFO]: [HypixelRegionBlocks] Enabling HypixelRegionBlocks v1.0
+[14:48:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:48:12] [Server thread/INFO]: Done (6.222s)! For help, type "help" or "?"
+[14:48:12] [Server thread/INFO]: Starting GS4 status listener
+[14:48:12] [Query Listener #1/INFO]: Query running on 0.0.0.0:41849
+[14:48:12] [Server thread/INFO]: Using epoll channel type
+[14:48:12] [Server thread/INFO]: Stopping server
+[14:48:12] [Server thread/INFO]: [HypixelRegionBlocks] Disabling HypixelRegionBlocks v1.0
+[14:48:12] [Server thread/INFO]: [FirstRegionJoin] Disabling FirstRegionJoin v1.0
+[14:48:12] [Server thread/INFO]: [WGRegionEvents] Disabling WGRegionEvents v1.0
+[14:48:12] [Server thread/INFO]: [SimpleReforging] Disabling SimpleReforging v1.0.1
+[14:48:12] [Server thread/INFO]: [HypixelCombat] Disabling HypixelCombat v9.9.3.4
+[14:48:12] [Server thread/INFO]: [HypixelItems] Disabling HypixelItems v5.0.5-RELEASE-b324
+[14:48:12] [Server thread/INFO]: [0;37;22m[[0;33;1mItemJoin[0;37;22m] [0;31;22mhas been Disabled.[m
+
+[14:48:12] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.6.2
+[14:48:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: simplescore
+[14:48:12] [Server thread/INFO]: [SimpleScore] Saving disabled scoreboards...
+[14:48:12] [Server thread/INFO]: [SimpleScore] Disabled scoreboards saved.
+[14:48:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[14:48:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] Disabling IridiumSkyblock v2.5.9
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] 
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Disabled!
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] 
+[14:48:12] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[14:48:12] [Server thread/INFO]: [JumpPads] Disabling JumpPads v1.0
+[14:48:12] [Server thread/INFO]: [AuctionMasterItemDisplay] Disabling AuctionMasterItemDisplay v1.1
+[14:48:12] [Server thread/INFO]: [TAB] Disabling TAB v2.6.5
+[14:48:12] [Server thread/INFO]: [0;32;1m[TAB] Disabled in 1ms[m
+
+[14:48:12] [Server thread/INFO]: [Armor+] Disabling HypixelArmor v2.2.4
+[14:48:12] [Server thread/INFO]: [Armor+] Thanks for using Armor+ v2.2.4, please contact nbdSteve#0583 on discord if you find any bugs.
+[14:48:12] [Server thread/INFO]: [PickupMoney] Disabling PickupMoney v2.5.2
+[14:48:12] [Server thread/INFO]: [TradeSystem] Disabling TradeSystem vB5
+[14:48:12] [Server thread/INFO]: [0;33;1mTradeSystem has been disabled[m
+
+[14:48:12] [Server thread/INFO]: [AdvanceRespawn] Disabling AdvanceRespawn v7.1.3
+[14:48:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[14:48:12] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[14:48:12] [Server thread/INFO]: [HypixelChat] Disabling HypixelChat v2.18
+[14:48:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7;dd00bb1
+[14:48:12] [Server thread/INFO]: [MessageFilter] Disabling MessageFilter v0.3.2
+[14:48:12] [Server thread/INFO]: [Replay] Disabling Replay v1.6
+[14:48:12] [Server thread/INFO]: [HandyOrbs] Disabling HandyOrbs v2.1
+[14:48:13] [Server thread/INFO]: [AuctionMaster] Disabling AuctionMaster v2.3
+[14:48:13] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2.0.7
+[14:48:13] [Server thread/INFO]: [0;31;1m[HoloMobHealth] HoloMobHealth has been Disabled![m
+
+[14:48:13] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.4.3
+[14:48:13] [Server thread/INFO]: [PlayerList+] Disabling PlayerListPlus v1.20.2
+[14:48:13] [Server thread/INFO]: [0;30;1m[[0;32;1mPlayerList[0;32;22m+[0;30;1m] [0;32;1mSuccessfully Disabled![m
+
+[14:48:13] [Server thread/INFO]: [HypixelRegions] Disabling HypixelRegions v1.1
+[14:48:13] [Server thread/INFO]: [FancyCrafting] Disabling FancyCrafting v1.0.1
+[14:48:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[14:48:13] [Server thread/INFO]: [DeathTeleport] Disabling DeathTeleport v1.0
+[14:48:13] [Server thread/INFO]: [HypixelWorldProtect] Disabling HypixelWorldProtect v1.2
+[14:48:13] [Server thread/INFO]: [GrapplingHook] Disabling GrapplingHook v2.3
+[14:48:13] [Server thread/INFO]: [0;37;22m[[0;33;22mGrapplingHook[0;37;22m] [0;31;1mPlugin unloaded![m
+
+[14:48:13] [Server thread/INFO]: [HypixelBooks] Disabling HypixelBooks v1.4.2
+[14:48:13] [Server thread/INFO]: [ImageOnMap] Disabling ImageOnMap v3.1
+[14:48:13] [Server thread/INFO]: [AntiDrop] Disabling AntiDrop v2.2.1
+[14:48:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
+[14:48:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b699
+[14:48:13] [Server thread/INFO]: [WorldSpawn] Disabling WorldSpawn v1.4.4
+[14:48:13] [Server thread/INFO]: [DamageIndicators] Disabling DamageIndicators v1.0.0
+[14:48:13] [Server thread/INFO]: [HypixelFriends] Disabling HypixelFriends v1.5.12-SNAPSHOT (SPIGOT)
+[14:48:13] [Server thread/INFO]: [Skript] Disabling Skript v2.1.2
+[14:48:13] [Server thread/INFO]: [HypixelLore] Disabling HypixelLore v1.6
+[14:48:13] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.5.0
+[14:48:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.1-SNAPSHOT
+[14:48:13] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:48:13] [Server thread/INFO]: [EffectPlaceholders] Disabling EffectPlaceholders v1.0.0
+[14:48:13] [Server thread/INFO]: [HypixelCommands] Disabling HypixelCommands v1.9.0
+[14:48:13] [Server thread/INFO]: [HypixelBags] Disabling HypixelBags v1.0
+[14:48:13] [Server thread/INFO]: [Quests] Disabling Quests v2.5
+[14:48:13] [Server thread/INFO]: [HypixelLag] Disabling HypixelLag v3.1.6
+[14:48:13] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[14:48:13] [Server thread/INFO]: [HypixelMinionsCore] Disabling HypixelMinionsCore v1.0
+[14:48:13] [Server thread/INFO]: [HypixelMenus] Disabling HypixelMenus v1.10.5
+[14:48:13] [Server thread/INFO]: [ConsoleSpamFix] Disabling ConsoleSpamFix v1.8.2
+[14:48:13] [Server thread/INFO]: [ConsoleSpamFix] Messages hidden since the server started: 0
+[14:48:13] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix is disabled!
+[14:48:13] [Server thread/INFO]: [HypixelBackpacks] Disabling HypixelBackpacks v1.6.7
+[14:48:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.5
+[14:48:13] [Server thread/INFO]: [FancyEnchantments] Disabling FancyEnchantments v1.0.0
+[14:48:13] [Server thread/INFO]: Saving players
+[14:48:13] [Server thread/INFO]: Saving worlds
+[14:48:13] [Server thread/INFO]: Saving chunks for level 'Server'/Overworld
+[14:48:13] [Server thread/INFO]: Saving chunks for level 'Islands'/Overworld
+[14:48:13] [Server thread/INFO]: Saving usercache.json

@@ -1,0 +1,14 @@
+name: vip+
+permissions:
+- auctionmaster.limit.auctions.9
+- rank.VIP+
+- tab.sort.VIP+
+- weight.5
+parents:
+- vip
+prefixes:
+- '&a[VIP&6+&a] ':
+    priority: 5
+suffixes:
+- '&aVIP&6+':
+    priority: 5

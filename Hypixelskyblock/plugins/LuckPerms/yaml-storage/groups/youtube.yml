@@ -1,0 +1,13 @@
+name: youtube
+permissions:
+- rank.YOUTUBE
+- tab.sort.YOUTUBE
+- weight.5
+parents:
+- vip
+prefixes:
+- '&c[&fYOUTUBE&c] ':
+    priority: 5
+suffixes:
+- '&cYOUTUBE':
+    priority: 5

@@ -1,0 +1,258 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - attribute add {player} health 100
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - attribute remove {player} health 100
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give health {player} 25
+      remove:
+        - usbc skills remove health {player} 25
+    name: '&fReforged Leaflet Helmet'
+    item: leather_helmet
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+20 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give health {player} 40
+      remove:
+        - usbc skills remove health {player} 40
+    name: '&fReforged Leaflet Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+35 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give health {player} 35
+      remove:
+        - usbc skills remove health {player} 35
+    name: '&fReforged Leaflet Leggings'
+    item: leather_leggings
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+30 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give health {player} 20
+      remove:
+        - usbc skills remove health {player} 20
+    name: '&fReforged Leaflet Boots'
+    item: leather_boots
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+15 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fReforged Leaflet Helmet'
+    item: leather_helmet
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+20 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fReforged Leaflet Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+35 HP'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fReforged Leaflet Leggings'
+    item: leather_leggings
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+30 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fReforged Leaflet Boots'
+    item: leather_boots
+    data: 0
+    color: 77:204:77
+    lore:
+      - '&7Health: &a+15 HP &8(+5 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7While in forest zone, you'
+      - '&7regain &a2%+ &c❤ Health &7every'
+      - '&7second.'
+      - '&8&7'
+      - '&f&lCOMMON BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

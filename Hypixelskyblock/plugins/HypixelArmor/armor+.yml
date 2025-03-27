@@ -1,0 +1,534 @@
+loaded-sets:
+  - savanna-bow
+  - lapis-armor
+  - emerald-armor
+  - mushroom-armor
+  - farmer-armor
+  - cobblestone-armor
+  - oak-armor
+  - magma-armor
+  - pumpkin-armor
+  - speedster-armor
+  - leaflet-armor
+  - zombie-armor
+  - perfect-armor
+  - hardened-armor
+  - cheap-tuxedo-armor
+  - angler-armor
+  - midas-sword
+  - reforged-lapis-armor
+  - reforged-emerald-armor
+  - reforged-farmer-armor
+  - reforged-cheap-tuxedo-armor
+  - reforged-mushroom-armor
+  - reforged-cobblestone-armor
+  - reforged-oak-armor
+  - reforged-magma-armor
+  - reforged-pumpkin-armor
+  - reforged-speedster-armor
+  - reforged-leaflet-armor
+  - reforged-zombie-armor
+  - reforged-perfect-armor
+  - reforged-hardened-armor
+  - reforged-angler-armor
+#
+armor-switch:
+  enabled: false
+  sound:
+    enabled: false
+    type: 'level_up'
+    volume: 1
+    pitch: 2
+  message:
+    enabled: false
+    text:
+      - '&7'
+#
+gui:
+  name: '&8Custom Items GUI'
+  type: none
+  size: 54
+  1:
+    slot: 0
+    action: lapis-armor
+    name: '&aLapis Armor'
+    item: leather_chestplate
+    data: 0
+    color: 51:51:255
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aLapis Helmet'
+     - '&8- &aLapis Chestplate'
+     - '&8- &aLapis Leggings'
+     - '&8- &aLapis Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  2:
+    slot: 1
+    action: emerald-armor
+    name: '&9Emerald Armor'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Emerald Helmet'
+     - '&8- &9Emerald Chestplate'
+     - '&8- &9Emerald Leggings'
+     - '&8- &9Emerald Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  3:
+    slot: 2
+    action: savanna-bow
+    name: '&aSavanna Bow'
+    item: BOW
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aSavanna Bow'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  5:
+    slot: 3
+    action: farmer-armor
+    name: '&9Farmer Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Farmer Helmet'
+     - '&8- &9Farmer Chestplate'
+     - '&8- &9Farmer Leggings'
+     - '&8- &9Farmer Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  6:
+    slot: 4
+    action: mushroom-armor
+    name: '&fMushroom Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:77:77
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fMushroom Helmet'
+     - '&8- &fMushroom Chestplate'
+     - '&8- &fMushroom Leggings'
+     - '&8- &fMushroom Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  7:
+    slot: 5
+    action: cobblestone-armor
+    name: '&aCobblestone Armor'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aCobblestone Helmet'
+     - '&8- &aCobblestone Chestplate'
+     - '&8- &aCobblestone Leggings'
+     - '&8- &aCobblestone Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  8:
+    slot: 6
+    action: oak-armor
+    name: '&fOak Armor'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fOak Helmet'
+     - '&8- &fOak Chestplate'
+     - '&8- &fOak Leggings'
+     - '&8- &fOak Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  9:
+    slot: 7
+    action: magma-armor
+    name: '&5Magma Armor'
+    item: chainmail_chestplate
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &5Magma Helmet'
+     - '&8- &5Magma Chestplate'
+     - '&8- &5Magma Leggings'
+     - '&8- &5Magma Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  10:
+    slot: 8
+    action: pumpkin-armor
+    name: '&fPumpkin Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fPumpkin Helmet'
+     - '&8- &fPumpkin Chestplate'
+     - '&8- &fPumpkin Leggings'
+     - '&8- &fPumpkin Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  11:
+    slot: 9
+    action: speedster-armor
+    name: '&5Speedster Armor'
+    item: leather_chestplate
+    data: 0
+    color: 224:252:247
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &5Speedster Helmet'
+     - '&8- &5Speedster Chestplate'
+     - '&8- &5Speedster Leggings'
+     - '&8- &5Speedster Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  12:
+    slot: 10
+    action: leaflet-armor
+    name: '&fLeaflet Armor'
+    item: leather_chestplate
+    data: 0
+    color: 77:204:77
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fLeaflet Helmet'
+     - '&8- &fLeaflet Chestplate'
+     - '&8- &fLeaflet Leggings'
+     - '&8- &fLeaflet Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  13:
+    slot: 11
+    action: zombie-armor
+    name: '&5Zombie Armor'
+    item: diamond_chestplate
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &5Zombie Chestplate'
+     - '&8- &5Zombie Leggings'
+     - '&8- &5Zombie Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  14:
+    slot: 12
+    action: perfect-armor
+    name: '&9Perfect Armor'
+    item: diamond_chestplate
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Perfect Helmet'
+     - '&8- &9Perfect Chestplate'
+     - '&8- &9Perfect Leggings'
+     - '&8- &9Perfect Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  15:
+    slot: 13
+    action: hardened-armor
+    name: '&9Hardened Armor'
+    item: diamond_chestplate
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Hardened Helmet'
+     - '&8- &9Hardened Chestplate'
+     - '&8- &9Hardened Leggings'
+     - '&8- &9Hardened Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  16:
+    slot: 14
+    action: cheap-tuxedo-armor
+    name: '&5Cheap Tuxedo Armor'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &5Cheap Tuxedo Chestplate'
+     - '&8- &5Cheap Tuxedo Leggings'
+     - '&8- &5Cheap Tuxedo Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  17:
+    slot: 15
+    action: angler-armor
+    name: '&fAngler Armor'
+    item: leather_chestplate
+    data: 0
+    color: 11:0:79
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fAngler Helmet'
+     - '&8- &fAngler Chestplate'
+     - '&8- &fAngler Leggings'
+     - '&8- &fAngler Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  18:
+    slot: 16
+    action: midas-sword
+    name: '&6Midas''s Armor'
+    item: gold_sword
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &6Midas''s Sword'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  19:
+    slot: 17
+    action: reforged-lapis-armor
+    name: '&aReforged Lapis Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  20:
+    slot: 18
+    action: reforged-emerald-armor
+    name: '&9Reforged Emerald Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  21:
+    slot: 19
+    action: reforged-farmer-armor
+    name: '&9Reforged Farmer Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  22:
+    slot: 20
+    action: reforged-cheap-tuxedo-armor
+    name: '&5Reforged Cheap Tuxedo Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  23:
+    slot: 21
+    action: reforged-mushroom-armor
+    name: '&fReforged Mushroom Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  24:
+    slot: 22
+    action: reforged-cobblestone-armor
+    name: '&aReforged Cobblestone Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  25:
+    slot: 23
+    action: reforged-oak-armor
+    name: '&fReforged Oak Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  26:
+    slot: 24
+    action: reforged-magma-armor
+    name: '&5Reforged Magma Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  27:
+    slot: 25
+    action: reforged-pumpkin-armor
+    name: '&fReforged Pumpkin Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  28:
+    slot: 26
+    action: reforged-speedster-armor
+    name: '&5Reforged Speedster Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  29:
+    slot: 27
+    action: reforged-leaflet-armor
+    name: '&fReforged Leaflet Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  30:
+    slot: 28
+    action: reforged-zombie-armor
+    name: '&5Reforged Zombie Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  31:
+    slot: 29
+    action: reforged-perfect-armor
+    name: '&9Reforged Perfect Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  32:
+    slot: 30
+    action: reforged-hardened-armor
+    name: '&9Reforged Hardened Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  33:
+    slot: 31
+    action: reforged-angler-armor
+    name: '&fReforged Angler Armor'
+    item: ANVIL
+    data: 0
+    lore:
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  53:
+    slot: 49
+    action: close
+    name: '&cClose'
+    item: barrier
+    data: 0
+    lore:
+    enchantments:
+    item-flags:
+      - hide_attributes

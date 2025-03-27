@@ -1,0 +1,64 @@
+Display:
+  Text:
+  - '&8[&7{Mob_Name}&8] &c{Mob_Type} {DynamicColor}{Health_0}&f/&a{MaxHealth_0}&c❤'
+  DynamicColorSettings:
+    HealthyColor: '&a'
+    HalfColor: '&e'
+    LowColor: '&c'
+  ScaledSymbolSettings:
+    Scale: 10
+    DynamicScale: true
+    HealthyChar: '&c❤'
+    HalfChar: '&e❤'
+    EmptyChar: '&7❤'
+Options:
+  AlwaysShow: true
+  ApplyToNamed: true
+  DisabledWorlds:
+  - Islands
+  DisabledMobTypes:
+  - ENDER_DRAGON
+  - Bat
+  DisabledMobNamesAbsolute: []
+  DisabledMobNamesContains:
+  - Dragon
+  DynamicHealthDisplay:
+    Use: false
+    Timeout: 3
+    OnlyPlayerTrigger: false
+  Range:
+    Use: true
+    Distance: 30
+    UpdateRate: 20
+  MultiLine:
+    Enable: false
+    MasterYOffset: 2
+    Special:
+    - Name:^Special Name:2
+    - Type:ENDERMITE:1
+Hooks:
+  Citizens:
+    ShowNPCMobHealth: false
+  MythicMobs:
+    ShowMythicMobsHealth: true
+  Shopkeepers:
+    ShowShopkeepersHealth: true
+  MyPet:
+    ShowMyPetHealth: false
+Messages:
+  ReloadPlugin: '&aHoloMobHealth has been reloaded!'
+  NoPermission: '&cYou do not have permission to use that command!'
+  PlayersOnly: '&cThis can only be ran as a player!'
+  PlayerNotFound: '&cThat player is not online!'
+  ToggleDisplayOn: '&aEnabled Mob Health Display!'
+  ToggleDisplayOff: '&cDisabled Mob Health Display!'
+Database:
+  Type: SQLITE
+  MYSQL:
+    Host: localhost
+    Port: 3306
+    Database: InteractionVisualizer
+    Username: mysql
+    Password: password
+Updater:
+  Enable: false

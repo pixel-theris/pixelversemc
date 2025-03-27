@@ -1,0 +1,597 @@
+trades:
+  coal:
+    key: coal
+    permission: trade.coal
+    slot: 10
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fCoal §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fOak Log §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  grass_block:
+    key: grass_block
+    permission: trade.grass_block
+    slot: 11
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: GRASS
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fGrass §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDirt §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  clay:
+    key: clay
+    permission: trade.clay
+    slot: 12
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: CLAY_BALL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+      amount: 12
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fClay §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fSeeds §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  oakleave:
+    key: oakleave
+    permission: trade.oakleave
+    slot: 13
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fOak Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fOak Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  spruceleave:
+    key: spruceleave
+    permission: trade.spruceleave
+    slot: 14
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fSpruce Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fSpruce Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  birchleave:
+    key: birchleave
+    permission: trade.birchleave
+    slot: 15
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fBirch Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fBirch Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  jungleleave:
+    key: jungleleave
+    permission: trade.jungleleave
+    slot: 16
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fJungle Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fJungle Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  vines:
+    key: vines
+    permission: trade.vines
+    slot: 19
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: VINE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES
+      damage: 3
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fVines §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fJungle Leaves §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  acacialeave:
+    key: acacialeave
+    permission: trade.acacialeave
+    slot: 20
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES_2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      damage: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fAcacia Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fAcacia Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  darkoakleave:
+    key: darkoakleave
+    permission: trade.darkoakleave
+    slot: 21
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEAVES_2
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAPLING
+      damage: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fDark Oak Leaves §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDark Oak Sapling §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  grass:
+    key: grass
+    permission: trade.grass
+    slot: 22
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LONG_GRASS
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fGrass §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDirt §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  fern:
+    key: fern
+    permission: trade.fern
+    slot: 23
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: LONG_GRASS
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fFern §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDirt §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  deadbush:
+    key: deadbush
+    permission: trade.deadbush
+    slot: 24
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: DEAD_BUSH
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fDead Bush §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDirt §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  tallgrass:
+    key: tallgrass
+    permission: trade.tallgrass
+    slot: 25
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: DOUBLE_PLANT
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fTall Grass §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fDirt §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  redsand:
+    key: redsand
+    permission: trade.redsand
+    slot: 28
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAND
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fRed Sand §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fSand §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  soulsand:
+    key: soulsand
+    permission: trade.soulsand
+    slot: 29
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: SOUL_SAND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: FERMENTED_SPIDER_EYE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fSoul Sand §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fFermented Spider Eye §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  mycelium:
+    key: mycelium
+    permission: trade.mycelium
+    slot: 30
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: MYCEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fMycelium §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fRed Mushroom §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  netherbrick:
+    key: netherbrick
+    permission: trade.netherbrick
+    slot: 31
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK_ITEM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHERRACK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fNether Brick §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fNetherrack §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>
+  sponge:
+    key: sponge
+    permission: trade.sponge
+    slot: 32
+    page: 1
+    give:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPONGE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    cost:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPONGE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    displayname: §fSponge §8<amount>
+    lore:
+    - §f§lCOMMON
+    - §7
+    - §7Cost
+    - §fWet Sponge §8<amount>
+    - §7
+    - §eClick to trade!
+    - <tradingOptions>

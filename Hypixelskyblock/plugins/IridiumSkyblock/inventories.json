@@ -1,0 +1,544 @@
+{
+  "upgradeGUITitle": "&7Upgrade",
+  "boosterGUITitle": "&7Booster",
+  "confirmationGUITitle": "&7Are you sure?",
+  "missionsGUITitle": "&7Missions",
+  "membersGUITitle": "&7Members",
+  "coopGUITitle": "&7Co-op Islands",
+  "islandMenuGUITitle": "&7Menu",
+  "warpGUITitle": "&7Warps",
+  "topGUITitle": "&7Top Islands",
+  "borderColorGUITitle": "&7Border Color",
+  "permissionsGUITitle": "&7Permissions",
+  "schematicselectGUITitle": "&7Select an Island",
+  "bankGUITitle": "&7Island Bank",
+  "visitGUITitle": "&7Visit an Island",
+  "shopGUITitle": "&7Island Shop",
+  "biomeGUITitle": "&7Island Biome",
+  "visitorGUITitle": "&7Island Visitors",
+  "visitorGUISize": 27,
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 27,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "backButtons": true,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&e&lIncreased Mobs",
+    "lore": [
+      "&7Are your spawners too slow? Buy this",
+      "&7booster and increase spawner rates x2.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Time Remaining: &e{spawnerbooster_minutes} minutes and {spawnerbooster_seconds}seconds",
+      "&e&l * &7Booster Cost: &e{spawnerbooster_crystalcost} Crystals and ${spawnerbooster_vaultcost}",
+      "",
+      "&e&l[!] &eRight Click to Purchase this Booster."
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&e&lIncreased Crops",
+    "lore": [
+      "&7Are your crops too slow? Buy this",
+      "&7booster and increase crop growth rates x2.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Time Remaining: &e{farmingbooster_minutes} minutes and {farmingbooster_seconds}seconds",
+      "&e&l * &7Booster Cost: &e{farmingbooster_crystalcost} Crystals and ${farmingbooster_vaultcost}",
+      "",
+      "&e&l[!] &eRight Click to Purchase this Booster."
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&e&lIncreased Experience",
+    "lore": [
+      "&7Takes too long to get exp? Buy this",
+      "&7booster and exp rates x2.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Time Remaining: &e{expbooster_minutes} minutes and {expbooster_seconds}seconds",
+      "&e&l * &7Booster Cost: &e{expbooster_crystalcost} Crystals and ${expbooster_vaultcost}",
+      "",
+      "&e&l[!] &eRight Click to Purchase this Booster."
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&e&lIncreased Flight",
+    "lore": [
+      "&7Tired of falling off your island? Buy this",
+      "&7booster and allow all members to fly.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Time Remaining: &e{flightbooster_minutes} minutes and {flightbooster_seconds}seconds",
+      "&e&l * &7Booster Cost: &e{flightbooster_crystalcost} Crystals and ${flightbooster_vaultcost}",
+      "",
+      "&e&l[!] &eRight Click to Purchase this Booster."
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&e&lIsland Size",
+    "lore": [
+      "&7Need more room to expand? Buy this",
+      "&7upgrade to increase your island size.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Current Level: &e{sizelevel}",
+      "&e&l * &7Current Size: &e{sizeblocks}x{sizeblocks} Blocks",
+      "&e&l * &7Upgrade Cost: &e{sizecrystalscost} Crystals and ${sizevaultcost}",
+      "&e&lLevels:",
+      "&e&l * &7Level 1: &e50x50 Blocks",
+      "&e&l * &7Level 2: &e100x100 Blocks",
+      "&e&l * &7Level 3: &e150x150 Blocks",
+      "",
+      "&e&l[!] &eLeft Click to Purchase this Upgrade"
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&e&lMember Count",
+    "lore": [
+      "&7Need more members? Buy this",
+      "&7upgrade to increase your member count.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Current Level: &e{memberlevel}",
+      "&e&l * &7Current Members: &e{membercount} Members",
+      "&e&l * &7Upgrade Cost: &e{membercrystalscost} Crystals and ${membervaultcost}",
+      "&e&lLevels:",
+      "&e&l * &7Level 1: &e9 Members",
+      "&e&l * &7Level 2: &e18 Members",
+      "&e&l * &7Level 3: &e27 Members",
+      "",
+      "&e&l[!] &eLeft Click to Purchase this Upgrade"
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&e&lIsland Warps",
+    "lore": [
+      "&7Need more island warps? Buy this",
+      "&7upgrade to increase your warp count.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Current Level: &e{warplevel}",
+      "&e&l * &7Current Warps: &e{warpcount} Warps",
+      "&e&l * &7Upgrade Cost: &e{warpcrystalscost} Crystals and ${warpvaultcost}",
+      "&e&lLevels:",
+      "&e&l * &7Level 1: &e2 Warps",
+      "&e&l * &7Level 2: &e5 Warps",
+      "&e&l * &7Level 3: &e9 Warps",
+      "",
+      "&e&l[!] &eLeft Click to Purchase this Upgrade"
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&e&lIsland Generator",
+    "lore": [
+      "&7Want to improve your generator? Buy this",
+      "&7upgrade to increase your island generator.",
+      "",
+      "&e&lInformation:",
+      "&e&l * &7Current Level: &e{oreslevel}",
+      "&e&l * &7Upgrade Cost: &e{orescrystalscost} Crystals and ${oresvaultcost}",
+      "",
+      "&e&l[!] &eLeft Click to Purchase this Upgrade"
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&e&lIsland Experience",
+    "lore": [
+      "&7{experience} Experience",
+      "&e&l[!] &eLeft click to withdraw",
+      "&e&l[!] &eRight click to deposit"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&e&lIsland Crystals",
+    "lore": [
+      "&7{crystals} Crystals",
+      "&e&l[!] &eLeft click to withdraw",
+      "&e&l[!] &eRight click to deposit"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&e&lIsland Money",
+    "lore": [
+      "&7${money}",
+      "&e&l[!] &eLeft click to withdraw",
+      "&e&l[!] &eRight click to deposit"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&e*** &e&lIsland Crystal &e***",
+    "lore": [
+      "",
+      "&e&l[!] &eto Redeem, go to your Island Bank"
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lNext Page",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lPrevious Page",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&e&l{biome} Biome",
+    "lore": []
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lBack",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&e&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&eRole: {role}",
+      "",
+      "&e&l[!] &eLeft Click to {demote} this Player.",
+      "&e&l[!] &eRight Click to Promote this Player."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&e&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&e&l * &7Island: &e{name}",
+      "&e&l * &7Rank: &e{rank}",
+      "&e&l * &7Value: &e{value}",
+      "",
+      "&e&l[!] &eLeft Click to Teleport to this island.",
+      "&e&l[!] &eRight Click to un co-op this island."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&e&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&e&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&e&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&e&l{warp}",
+    "lore": [
+      "",
+      "&e&l[!] &eLeft Click to Teleport to this warp.",
+      "&e&l[!] &eRight Click to Delete to warp."
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&a{player}'s Island",
+    "headOwner": "{player}",
+    "lore": [
+      "&7Owner: &7{name}",
+      "",
+      "&7Island Rank: &e#{rank}",
+      "&7Island Value: &e{value}",
+      "",
+      "&7You can get higher island",
+      "&7value by placing mineral",
+      "&7blocks to your island."
+    ]
+  },
+  "topfiller": {
+    "material": "BARRIER",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&e&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&e&l * &7Island: &e{name}",
+      "&e&l * &7Rank: &e{rank}",
+      "&e&l * &7Value: &e{value}",
+      "&e&l * &7Votes: &e{votes}",
+      "",
+      "&e&l[!] &eLeft Click to Teleport to this island.",
+      "&e&l[!] &eRight Click to (un)vote for this island."
+    ]
+  },
+  "islandVisitors": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "Click for expel visitor"
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lRed",
+    "lore": [],
+    "slot": 10
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lGreen",
+    "lore": [],
+    "slot": 12
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&e&lBlue",
+    "lore": [],
+    "slot": 14
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lOff",
+    "lore": [],
+    "slot": 16
+  },
+  "menu": [
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&e&lIsland Upgrades",
+        "headOwner": "ABigDwarf",
+        "lore": [
+          "&7Upgrade your island."
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&e&lIsland Members",
+        "headOwner": "Peaches_MLG",
+        "lore": [
+          "&7View your island Members."
+        ],
+        "slot": 14
+      },
+      "is members"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&e&lIsland Top",
+        "lore": [
+          "&7View top islands."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&e&lIsland Warps",
+        "lore": [
+          "&7View your island warps."
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&e&lIsland Delete",
+        "lore": [
+          "&7Delete your island."
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&e&lIsland Biome",
+        "headOwner": "BlockminersTV",
+        "lore": [
+          "&7Change your island biome."
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&e&lIsland Permissions",
+        "lore": [
+          "&7Change island permissions."
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&e&lIsland Coop",
+        "lore": [
+          "&7View your Co-op Islands."
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&e&lIsland Boosters",
+        "lore": [
+          "&7Boost your island."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&e&lIsland Home",
+        "lore": [
+          "&7Teleport to your island home"
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&e&lIsland Bank",
+        "lore": [
+          "&7View your Island Bank."
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&e&lIsland Regen",
+        "lore": [
+          "&7Regenerate your island."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&e&lIsland Missions",
+        "lore": [
+          "&7View island missions."
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ],
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&e&lIsland Border",
+        "lore": [
+          "&7Change your island border."
+        ],
+        "slot": 24
+      },
+      "is border"
+    ]
+  ]
+}

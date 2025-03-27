@@ -1,0 +1,106 @@
+menu_title: '(2/2) Minion Recipes'
+open_command: 'minion-recipes-2'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      minion:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkODU5MGI5MDQ0ODc0NGJjZmRhYTc0MGRlYTM1NGQ2NjY0YWI4MjQ3NTY5NjlhNzNlYzUxN2Q0MjgyYmY0NSJ9fX0='
+        slot: 4
+        display_name: '&aMinion Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Minion Recipes!'
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 28
+        - 29
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      previous-page:
+        material: ARROW
+        priority: 3
+        slot: 45
+        display_name: '&aPrevious Page'
+        lore:
+        - '&ePage 1'
+        left_click_commands:
+        - '[openguimenu] minion-recipes'
+        right_click_commands:
+        - '[openguimenu] minion-recipes'
+
+      go-back:
+        material: ARROW
+        slot: 48
+        priority: 5
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

@@ -1,0 +1,136 @@
+# Do not edit anything here! Everything should be modified in-game.
+data:
+- npc: 0
+  messages:
+    0: '§e[NPC] §6Auction Master§f: Hey there, I''m the Auction Master.'
+    1: '§e[NPC] §6Auction Master§f: At the auction house you can put your valuable
+      items up for auction!'
+    2: '§e[NPC] §6Auction Master§f: You may also want to check back here to see what
+      items other players are selling to see if you can get a good deal.'
+    3: '§e[NPC] §6Auction Master§f: Talk to me if you would like to start your first
+      auction or if you want to see the items currently being sold..'
+- npc: 1
+  messages:
+    0: '§e[NPC] Farmer§f: You can buy and sell harvested crops with me!'
+    1: '§e[NPC] Farmer§f: Wheat, carrots, potatoes, and melon are my specialties!'
+    2: '§e[NPC] Farmer§f: Click me again to open the Farmer Shop!'
+- npc: 7
+  messages:
+    0: '§e[NPC] Fisher§f: Fishing is my trade. I buy and sell any fish, rod, or treasure
+      you can find!'
+    1: '§e[NPC] Fisher§f: Click me again to open the Fisherman Shop!'
+- npc: 4
+  messages:
+    0: '§e[NPC] Builder§f: If you build, they will come!'
+    1: '§e[NPC] Builder§f: Click me again to open the Builder Shop!'
+- npc: 59
+  messages:
+    0: '§e[NPC] §dTia the Fairy§f: Welcome to the Fairy Pond, {PLAYER}! I am Tia.'
+    1: '§e[NPC] §dTia the Dairy§f: You may have noticed some strange orbs laying around
+      the island.'
+    2: '§e[NPC] §dTia the Fairy§f: They are the souls of my fallen sisters.'
+    3: '§e[NPC] §dTia the Fairy§f: If you find any more during your travels, please
+      save them and they will reward you!'
+- npc: 5
+  messages:
+    0: '§e[NPC] Armorsmith§f: A great warrior is nothing without their armor!'
+    1: '§e[NPC] Armorsmith§f: Click me again to open the Armorsmith Shop!'
+- npc: 40
+  messages:
+    0: '§e[NPC] Blacksmith§f: I''m the town Blacksmith! I can reforge items for you,
+      for a price.'
+    1: '§e[NPC] Blacksmith§f: Reforging item allows you to get the most out of your
+      weapons, armor, and other items by applying stat modifiers to them!'
+    2: '§e[NPC] Blacksmith§f: To reforge an item, place an item in my inventory. Reforging
+      costs Levels - the more prestigious items cost more to reforge!'
+- npc: 16
+  messages:
+    0: '§e[NPC] §bLift Operator§f: Hey Feller!'
+    1: '§e[NPC] §bLift Operator§f: I control this lift here behind me.'
+    2: '§e[NPC] §bLift Operator§f: Once you''ve explored an area I can give you a
+      safe ride back there.'
+    3: '§e[NPC] §bLift Operator§f: Be careful not to fall down the shaft though, it''s
+      a long fall!'
+    4: '§e[NPC] §bLift Operator§f: Good luck on your adventures.'
+- npc: 87
+  messages:
+    0: '§e[NPC] §cElle of the Nether§f: I have defeated the Magma Boss more times
+      than I can count!'
+    1: '§e[NPC] §cElle of the Nether§f: Many of the creatures on this island drop
+      useful brewing ingredients. Use them in a Brewing Stand to brew strong potions
+      that will aid to your journey.'
+- npc: 32
+  messages:
+    0: '§e[NPC] §6Banker§f: Hello there!'
+    1: '§e[NPC] §6Banker§f: You may want to store your coins in a safe place while
+      you are off adventuring.'
+    2: '§e[NPC] §6Banker§f: Leave your coins with me and you will also earn interest
+      at the start of every season!'
+- npc: 60
+  messages:
+    0: '§e[NPC] Farmhand§f: Welcome to the farm!'
+    1: '§e[NPC] Farmhand§f: Feel free to harvest any crops on the island, I''m taking
+      a break.'
+    2: '§e[NPC] Farmhand§f: Also, would you like to help me? I need some crops, I
+      can pay you'
+- npc: 67
+  messages:
+    0: '§e[NPC] The Miner Guy§f: Hi, I''m the keeper of this mine.'
+    1: '§e[NPC] The Miner Guy§f: You would not believe how many things I mined but
+      my pickaxe broke!'
+    2: '§e[NPC] The Miner Guy§f: Help me mine some Cobblestone and Coal so I can finally
+      go home'
+- npc: 71
+  messages:
+    0: '§e[NPC] §cGravekeeper§f: Hey, who are you? you are made of bones and flesh!'
+    1: '§e[NPC] §cGravekeeper§f: I don''t trust you! You won''t cross over the Spider''s
+      Den until you get more experienced in combat'
+- npc: 58
+  messages:
+    0: '§e[NPC] Haymitch§f: Easy there, {PLAYER}! Lots of spiders creeping about!'
+    1: '§e[NPC] Haymitch§f: Personally I love them, collecting string is my passion.'
+    2: '§e[NPC] Haymitch§f: You should try it!'
+- npc: 8
+  messages:
+    0: '§e[NPC] Weaponsmith§f: You''ll need some strong weapons to survive out in
+      the wild! Lucky for you, I''ve got some!'
+    1: '§e[NPC] Weaponsmith§f: Click me again to open the Weaponsmith Shop!'
+- npc: 9
+  messages:
+    0: '§e[NPC] Librarian§f: Greetings! Welcome to the Library!'
+    1: '§e[NPC] Librarian§f: The Library is your one-stop shop for all things enchanting.
+      Enchant items, purchase Enchanted Books, and more!'
+    2: '§e[NPC] Librarian§f: You can enchant items by clicking any Enchantment Table.
+      Enchanting costs experience levels - the more levels you spend, the better enchantments
+      you will receive.'
+    3: '§e[NPC] Librarian§f: Use the Enchantment Table to enchant an item!'
+- npc: 2
+  messages:
+    0: '§e[NPC] Lumberjack§f: Buy and sell wood and axes with me!'
+    1: '§e[NPC] Lumberjack§f: Click me again to open the Lumberjack Shop!'
+- npc: 69
+  messages:
+    0: '§e[NPC] Lumberer§f: Timber!'
+    1: '§e[NPC] Lumberer§f: My woodcutting assistant has fallen quite ill! Do you
+      think you could take over for him?'
+    2: '§e[NPC] Lumberer§f: I just need you to chop down some Logs. If you do, I''ll
+      even give you his old armor as a reward!'
+- npc: 6
+  messages:
+    0: '§e[NPC] Adventurer§f: I''ve seen it all - every island from here to the edge
+      of the world!'
+    1: '§e[NPC] Adventurer§f: Over the years I''ve acquired a variety of Talismans
+      and Artifacts.'
+    2: '§e[NPC] Adventurer§f: For a price, you can have it all!'
+    3: '§e[NPC] Adventurer§f: Click me again to open the Adventurer Shop!'
+- npc: 3
+  messages:
+    0: '§e[NPC] Miner§f: My specialties are ores, stone, and mining equipment.'
+    1: '§e[NPC] Miner§f: Click me again to open the Miner Shop!'
+- npc: 10
+  messages:
+    0: '§e[NPC] §5Alchemist§f: There is a darkness in you, {PLAYER}.'
+    1: '§e[NPC] §5Alchemist§f: I''ve seen it in my flames, you are destined for great
+      things.'
+    2: '§e[NPC] §5Alchemist§f: For now, you shouldn''t let it get to your head.'
+    3: '§e[NPC] §5Alchemist§f: Click me again to open the Alchemist Shop!'

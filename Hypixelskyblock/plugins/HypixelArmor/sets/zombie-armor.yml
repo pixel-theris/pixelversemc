@@ -1,0 +1,214 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders add {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders remove {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+#
+set-pieces:
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 40
+        - usbc skills give health {player} 200
+      remove:
+        - usbc skills remove defense {player} 40
+        - usbc skills remove health {player} 200
+    name: '&5Zombie Chestplate'
+    item: diamond_chestplate
+    data: 0
+    lore:
+      - '&7Health: &a+200 HP'
+      - '&7Defense: &a+40'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 30
+        - usbc skills give health {player} 160
+      remove:
+        - usbc skills remove defense {player} 30
+        - usbc skills remove health {player} 160
+    name: '&5Zombie Leggings'
+    item: diamond_leggings
+    data: 0
+    lore:
+      - '&7Health: &a+160 HP'
+      - '&7Defense: &a+30'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 25
+        - usbc skills give health {player} 120
+      remove:
+        - usbc skills remove defense {player} 25
+        - usbc skills remove health {player} 120
+    name: '&5Zombie Boots'
+    item: diamond_boots
+    data: 0
+    lore:
+      - '&7Health: &a+120 HP'
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: chestplate
+    name: '&5Zombie Chestplate'
+    item: diamond_chestplate
+    data: 0
+    lore:
+      - '&7Health: &a+200 HP'
+      - '&7Defense: &a+40'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: leggings
+    name: '&5Zombie Leggings'
+    item: diamond_leggings
+    data: 0
+    lore:
+      - '&7Health: &a+160 HP'
+      - '&7Defense: &a+30'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: boots
+    name: '&5Zombie Boots'
+    item: diamond_boots
+    data: 0
+    lore:
+      - '&7Health: &a+120 HP'
+      - '&7Defense: &a+25'
+      - '           '
+      - '&6Full Set Bonus: Projectile Absorption'
+      - '&7Heals the wearer for &c5 ❤ Health &7per'
+      - '&7second for &a3 &7seconds when hit by a'
+      - '&7projectile.'
+      - '&8&5'
+      - '&5&lEPIC BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

@@ -1,0 +1,341 @@
+auction-house:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &6&lAuction House
+- whisper %player% &7
+- whisper %player% &8  ➤ &eTalk to the Auction Master
+- whisper %player% &8  ➤ &eAuction a item
+- whisper %player% &8  ➤ &eBid on a random auction
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Auction House","bold":true,"color":"gold"}
+bank:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &6&lBank
+- whisper %player% &7
+- whisper %player% &8  ➤ &eWithdraw coins from your bank account
+- whisper %player% &8  ➤ &eAcquire a bank account upgrade
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Bank","bold":true,"color":"gold"}
+gold-mine:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &6&lGold Mine
+- whisper %player% &7
+- whisper %player% &8  ➤ &eThe Lift Operator will let you travel to
+- whisper %player% &8    &eGold Mine.
+- whisper %player% &8  ➤ &eAccess the Diamond Ore
+- whisper %player% &8  ➤ &eBeware, monsters can be very deadly!
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Gold Mine","bold":true,"color":"gold"}
+- lp user %player% permission set zone.gold-mine true
+- lp user %player% permission set missions.completed.warp-to-the-gold-mine true
+- customplaceholders set %player% mission_mine &eTalk_to_the_Lift_Operator
+- q a moddata start %player% npcquest11
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fWarp to the Gold Mine
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fVisit the Lapis Quarry
+- whisper %player% &7
+lapis-quarry:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &9&lLapis Quarry
+- whisper %player% &7
+- whisper %player% &8  ➤ &eMine some Lapis Lazuli
+- whisper %player% &8  ➤ &eKill a Lapis Zombie
+- whisper %player% &8  ➤ &eFind the way to the Redstone Mine
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Lapis Quarry","bold":true,"color":"blue"}
+- lp user %player% permission set zone.lapis-quarry true
+- lp user %player% permission set missions.completed.visit-the-lapis-quarry true
+- customplaceholders set %player% mission_mine &eKill_a_lapis_zombie
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fVisit the Lapis Quarry
+- whisper %player% &7
+- q a moddata start %player% combatquest4
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fKill a lapis zombie
+- whisper %player% &7
+redstone-mine:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &c&lRedstone Mine
+- whisper %player% &7
+- whisper %player% &8  ➤ &eMine some Redstone
+- whisper %player% &8  ➤ &eKill a Zombie Pigman
+- whisper %player% &8  ➤ &eFind the way to the Emerald Sanctuary
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Redstone Mine","bold":true,"color":"red"}
+- lp user %player% permission set zone.redstone-mine true
+emerald-sanctuary:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &a&lEmerald Sanctuary
+- whisper %player% &7
+- whisper %player% &8  ➤ &eMine some Emerald
+- whisper %player% &8  ➤ &eKill a Silverfish
+- whisper %player% &8  ➤ &eFind the way to the Diamond Reserve
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Emerald Sanctuary","bold":true,"color":"green"}
+- lp user %player% permission set zone.emerald-sanctuary true
+diamond-reserve:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &b&lDiamond Reserve
+- whisper %player% &7
+- whisper %player% &8  ➤ &eMine some Diamond
+- whisper %player% &8  ➤ &eKill a Diamond Zombie
+- whisper %player% &8  ➤ &eFind the way to the Obsidian Sanctuary
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Diamond Reserve","bold":true,"color":"aqua"}
+- lp user %player% permission set zone.diamond-reserve true
+- lp user %player% permission set missions.completed.access-the-diamond-sanctuary true
+- customplaceholders set %player% mission_mine &eCollect_some_diamonds
+- q a moddata start %player% miningquest3
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fAccess the Diamond Reserve
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fCollect some diamonds
+- whisper %player% &7
+obsidian-sanctuary:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &5&lObsidian Sanctuary
+- whisper %player% &7
+- whisper %player% &8  ➤ &eMine some Obsidian
+- whisper %player% &8  ➤ &eKill a Obsidian Zombie
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Obsidian Sanctuary","bold":true,"color":"dark_purple"}
+- lp user %player% permission set zone.obsidian-sanctuary true
+coal-mine:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &b&lCoal Mine
+- whisper %player% &7
+- whisper %player% &8  ➤ &eTalk to The Miner Guy
+- whisper %player% &8  ➤ &eMine some Coal and Cobblestone
+- whisper %player% &8  ➤ &eWarp to the Gold Mine
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Coal Mine","bold":true,"color":"aqua"}
+- lp user %player% permission set missions.completed.visit-the-coal-mine true
+- customplaceholders set %player% mission_mine &eTalk_to_The_Miner_Guy
+- q a moddata start %player% npcquest4
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fVisit the Coal Mine
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fTalk to The Miner Guy
+- whisper %player% &7
+spiders-den:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &c&lSpider's Den
+- whisper %player% &7
+- whisper %player% &8  ➤ &eKill some Spiders
+- whisper %player% &8  ➤ &eReach Combat Level X
+- whisper %player% &8  ➤ &eWarp to The Nether
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Spider's Den","bold":true,"color":"red"}
+- lp user %player% permission set zone.spiders-den true
+- lp user %player% permission set missions.completed.warp-to-the-spiders-den true
+- customplaceholders set %player% mission_spidersden &eKill_some_spiders
+- q a moddata start %player% combatquest5
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fVisit the Spider's Den
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fKill some spiders
+- whisper %player% &7
+the-nether:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &c&lThe Nether
+- whisper %player% &7
+- whisper %player% &8  ➤ &eDefeat the Magma Cube Boss
+- whisper %player% &8  ➤ &eObtain a Ember Rod
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"The Nether","bold":true,"color":"red"}
+- lp user %player% permission set zone.the-nether true
+- customplaceholders set %player% mission_spidersden null
+oak-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lOak Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eTalk to the Lumberer
+- whisper %player% &8  ➤ &eReach Foraging V
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Oak Forest","bold":true,"color":"dark_green"}
+- lp user %player% permission set zone.oak-forest true
+- lp user %player% permission set missions.completed.visit-the-oak-forest true
+- customplaceholders set %player% mission_forest &eTalk_to_the_Lumberer
+- q a moddata start %player% npcquest7
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fVisit the Oak Forest
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fTalk to the Lumberer
+- whisper %player% &7
+acacia-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lAcacia Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eChop some Acacia Logs
+- whisper %player% &8  ➤ &eTravel to the Dark Oak Forest
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Acacia Forest","bold":true,"color":"dark_green"}
+- lp user %player% permission set zone.acacia-forest true
+dark-oak-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lDark Oak Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eChop some Dark Oak Logs
+- whisper %player% &8  ➤ &eTravel to the Spruce Forest
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Dark Oak Forest","bold":true,"color":"dark_green"}
+spruce-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lSpruce Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eChop some Spruce Logs
+- whisper %player% &8  ➤ &eTravel to the Birch Forest
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Spruce Forest","bold":true,"color":"dark_green"}
+birch-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lBirch Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eChop some Birch Logs
+- whisper %player% &8  ➤ &eTravel to the Jungle Forest
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Birch Forest","bold":true,"color":"dark_green"}
+jungle-forest:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &2&lJungle Forest
+- whisper %player% &7
+- whisper %player% &8  ➤ &eChop some Jungle Logs
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Jungle Forest","bold":true,"color":"dark_green"}
+farm:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &a&lFarm
+- whisper %player% &7
+- whisper %player% &8  ➤ &eHarvest Wheat, Carrots and Potatoes
+- whisper %player% &8  ➤ &eKill Cows, Chicken and Pigs
+- whisper %player% &8  ➤ &eMilk Cows
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"Farm","bold":true,"color":"green"}
+- lp user %player% permission set zone.farm true
+- lp user %player% permission set missions.completed.travel-to-the-farm true
+- customplaceholders set %player% mission_farm &eTalk_to_Farmhand
+- q a moddata start %player% npcquest1
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fTravel to the Farm
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fTalk to Farmhand
+- whisper %player% &7
+the-barn:
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- whisper %player% &a&l  NEW ZONE &8- &a&lThe Barn
+- whisper %player% &7
+- whisper %player% &8  ➤ &eCollect some Sugar Cane, Cactus, Red
+- whisper %player% &7    &eand Brown Mushrooms
+- whisper %player% &7
+- whisper %player% &a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+- title %player% subtitle {"text":"New Area Discovered!","color":"green"}
+- title %player% title {"text":"The Barn","bold":true,"color":"green"}
+- lp user %player% permission set zone.the-barn true
+- lp user %player% permission set missions.completed.warp-to-the-barn true
+- customplaceholders set %player% mission_farm &eCollect_16_cactus
+- q a moddata start %player% farmingquest3
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fWarp to the Barn
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fCollect 16 cactus
+- whisper %player% &7
+graveyard:
+- lp user %player% permission set missions.completed.visit-the-graveyard true
+- customplaceholders set %player% mission_graveyard &eTalk_to_the_Gravekeeper
+- q a moddata start %player% npcquest9
+- whisper %player% &7
+- whisper %player% &7  &6&lOBJECTIVE COMPLETED
+- whisper %player% &7  &fVisit the Graveyard
+- whisper %player% &7
+- whisper %player% &7
+- whisper %player% &7  &6&lNEW OBJECTIVE
+- whisper %player% &7  &fTalk to the Gravekeeper
+- whisper %player% &7
+diamond-reserve visitors: []
+obsidian-sanctuary visitors: []
+spiders-den visitors: []
+the-barn visitors: []
+coal-mine visitors:
+- 365e8ca9-0b6c-2700-92c6-24d95309681a
+emerald-sanctuary visitors: []
+the-nether visitors: []
+spruce-forest visitors: []
+acacia-forest visitors: []
+oak-forest visitors:
+- 7f9f6bda-0a61-206a-8009-fce3eb92b292
+- 64508bdd-8883-281a-acbf-256197de95c1
+- cc9504a6-3be2-225d-a430-9784ec052a34
+- 404a1f82-fd70-2324-b099-dd109e4e2ce4
+dark-oak-forest visitors: []
+auction-house visitors:
+- 46afb4ee-fe9c-2572-8b0a-1d9716c848bd
+graveyard visitors:
+- 64508bdd-8883-281a-acbf-256197de95c1
+bank visitors:
+- 8594a143-46a3-2fc7-9a53-686aa4f29fc8
+birch-forest visitors: []
+redstone-mine visitors: []
+farm visitors:
+- 02fd94d8-aab0-207a-9f22-70281c675ed6
+lapis-quarry visitors: []
+jungle-forest visitors: []
+gold-mine visitors: []

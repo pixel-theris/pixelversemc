@@ -1,0 +1,191 @@
+enchants:
+  PROTECTION_ENVIRONMENTAL:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  PROTECTION_EXPLOSIONS:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  PROTECTION_FALL:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  PROTECTION_FIRE:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  PROTECTION_PROJECTILE:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+vanilla:
+  LEATHER_HELMET:
+    defense: 5
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  LEATHER_CHESTPLATE:
+    defense: 8
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  LEATHER_LEGGINGS:
+    defense: 7
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  LEATHER_BOOTS:
+    defense: 4
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  CHAINMAIL_HELMET:
+    defense: 10
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  CHAINMAIL_CHESTPLATE:
+    defense: 16
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  CHAINMAIL_LEGGINGS:
+    defense: 14
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  CHAINMAIL_BOOTS:
+    defense: 8
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  IRON_HELMET:
+    defense: 15
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  IRON_CHESTPLATE:
+    defense: 24
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  IRON_LEGGINGS:
+    defense: 21
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  IRON_BOOTS:
+    defense: 12
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  DIAMOND_HELMET:
+    defense: 20
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  DIAMOND_CHESTPLATE:
+    defense: 32
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  DIAMOND_LEGGINGS:
+    defense: 28
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0
+  DIAMOND_BOOTS:
+    defense: 16
+    force: 0
+    health: 0
+    speed: 0
+    critDamage: 0
+    intelligence: 0
+    mana: 0
+    chance: 0.0

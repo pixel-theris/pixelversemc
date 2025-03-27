@@ -1,0 +1,508 @@
+# Configuration for messages that get shown to users.
+messages:
+  # Prefix that's in front of most plugin messages.
+  prefix: "&9&lFancyEnchantments &8&l» &7"
+  # Prefix in front of enchantment names on items.
+  enchantment_prefix: "&9"
+  # Lore line that get added as anvil uses increase.
+  anvil_uses: '&7Anvil Uses: &c%anvil_uses%'
+  # Help menu entry.
+  usage: "&b%command% &7- &f%usage%"
+  # Messages for commands.
+  reload: "The plugin configuration has been reloaded."
+  no_item_in_hand: "Please hold an item in your hand to do this."
+  enchantment_invalid: "The enchantment &f%enchantment% &7could not be found. Known Enchantments: &f%value%&7."
+  enchantment_added: "The enchantment &f%enchantment% &7has been added to the item in your hand."
+  enchantment_removed: "The enchantment &f%enchantment% &7has been removed from the item in your hand."
+  # Messages for command usages.
+  reload_usage: "Reload the plugin configuration."
+  enchant_usage: "Enchant an item with <enchantment>. Level is optional."
+  unenchant_usage: "Remove the enchantment <enchantment> from your held item."
+
+# Configuration for the enchantment table GUI.
+enchantment_table:
+  # The title of the inventory.
+  title: "Enchant Item"
+  # The size of the inventory.
+  size: 54
+  # Slot to close the inventory.
+  close-slot: 49
+  # Where the item to enchant can be put in.
+  input-slot: 13
+  # Where the items with enchant possibilities show up, have to be 3.
+  enchant-item-slots:
+    - 29
+    - 31
+    - 33
+  # Where other placeholders will be placed.
+  # You can configure more placeholders in the items section further down.
+  placeholders:
+    1:
+      - 0
+      - 8
+      - 45
+      - 53
+    2:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 12
+      - 14
+
+# Configuration for the anvil GUI.
+anvil:
+  # The title of the inventory.
+  title: "Anvil"
+  # The size of the inventory.
+  size: 54
+  # Slot to close the inventory.
+  close-slot: 49
+  # Where the item to modify has to be put.
+  input-left-slot: 29
+  # Where the item to modify with has to be put.
+  input-right-slot: 33
+  # Where the combination will show up.
+  output-slot: 13
+  # Where you have to click for the items to be combined.
+  combine-items-slot: 22
+  # Slots for items showing the state of the left input.
+  input-left-placeholder-slots:
+    - 11
+    - 12
+    - 20
+  # Slots for items showing the state of the right input.
+  input-right-placeholder-slots:
+    - 14
+    - 15
+    - 24
+  # Slots that show if the anvil usage is valid.
+  anvil-valid-slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+
+# Whether or not to always show enchantment descriptions.
+# If set to false, descriptions will only show up on books.
+always-show-descriptions: true
+
+# Items that can be configured, follows the following format:
+#<key>:                     | Please don't change this, this is how the plugin finds the item.
+#  material: DIAMOND_SWORD  | OPTIONAL - The type of the item. https://helpch.at/docs/1.8.8/org/bukkit/Material.html
+#                           | +DEFAULT - DIRT
+#
+#  amount: 1                | OPTIONAL - The amount of items displayed.
+#                           | +DEFAULT - 1
+#
+#  data: 0                  | OPTIONAL - The "damage" of the item. Used to color glass for example.
+#                           | +DEFAULT - 0
+#
+#  displayName: '&fName'    | OPTIONAL - The name of the item. Supports color codes.
+#                           | +DEFAULT - None
+#
+#  lore:                    | OPTIONAL - The lore of the item. Supports color codes.
+#    - '&aLine 1'           | +DEFAULT - None
+#    - '&bLine 2'
+#  enchants:                | OPTIONAL - Enchants of the item. https://helpch.at/docs/1.8.8/org/bukkit/enchantments/Enchantment.html
+#    DAMAGE_ALL: 5          | +DEFAULT - None
+#    DURABILITY: 3
+#  commands:                | OPTIONAL - Commands that get executed upon clicking.
+#    - [player] help        |             Put [player] in front of the command to let the player run it.
+#    - op %player%          |             %player% gets replaced with the player's name.
+#                           | +DEFAULT - None
+items:
+  # The item to close inventories with.
+  close:
+    material: BARRIER
+    displayName: "&cClose"
+    lore: []
+  # The item that the inventories get filled with.
+  fill:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayName: "&r"
+  # You can define as many additional placeholders as you want, in case you want to mix it up a little.
+  placeholders:
+    1:
+      material: STAINED_GLASS_PANE
+      data: 4
+      displayName: "&r"
+    2:
+      material: STAINED_GLASS_PANE
+      data: 14
+      displayName: "&r"
+  ################################
+  #                              #
+  #  ENCHANTMENT TABLE SPECIFIC  #
+  #                              #
+  ################################
+  # Item that displays when there is no input yet.
+  enchant-item:
+    material: INK_SACK
+    data: 8
+    displayName: '&cEnchant Item'
+    lore:
+      - '&7Place an item in the open slot'
+      - '&7to enchant it!'
+  # Item that displays when the input item can't be enchanted.
+  enchant-item-invalid:
+    material: INK_SACK
+    data: 8
+    displayName: '&cNot enchantable!'
+    lore:
+      - '&7This item cannot be enchanted!'
+  # Item that displays when the input item is already enchanted.
+  enchant-item-enchanted:
+    material: INK_SACK
+    data: 8
+    displayName: '&cAlready enchanted!'
+    lore:
+      - '&7This item has already been'
+      - '&7enchanted! Use an anvil to add'
+      - '&7more enchantments to it!'
+  # Item that is shown when the player does not have enough levels.
+  # Placeholders:
+  #   %cost% - The amount of levels it will take to enchant
+  #   %enchantment% - The name of the enchantment
+  #   %weight% - The "weight" of enchanting power (5 for weakest, 10 for medium, 15 for strongest)
+  enchant-item-no-levels:
+    material: EXP_BOTTLE
+    displayName: '&aEnchant Item &8- &6%cost% Levels'
+    lore:
+      - '&7Guarantees at least:'
+      - '&7 * %enchantment%'
+      - '&r'
+      - '&cNot enough levels!'
+  # Item that is shown when the player can enchant the item.
+  # Same placeholders as the one above.
+  enchant-item-valid:
+    material: EXP_BOTTLE
+    displayName: '&aEnchant Item &8- &6%cost% Levels'
+    lore:
+      - '&7Guarantees at least:'
+      - '&7 * %enchantment%'
+      - '&r'
+      - '&eClick to enchant!'
+    commands:
+      - usbc skills xp add ENCHANTING %player% %weight%
+  ####################
+  #                  #
+  #  ANVIL SPECIFIC  #
+  #                  #
+  ####################
+  # Item that is shown when the left input is empty or invalid.
+  left-placeholder-empty:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: '&6Item To Upgrade'
+    lore:
+      - '&7The item you want to'
+      - '&7upgrade should be placed in'
+      - '&7the slot on this side.'
+  # Item that is shown when the left input is valid.
+  left-placeholder-valid:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: '&6Item To Upgrade'
+    lore:
+      - '&7The item you want to'
+      - '&7upgrade should be placed in'
+      - '&7the slot on this side.'
+  # Item that is shown when the right input is empty or invalid.
+  right-placeholder-empty:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: '&6Item To Sacrifice'
+    lore:
+      - '&7The item you are'
+      - '&7sacrificing in order to'
+      - '&7upgrade the item on the'
+      - '&7left should be placed in'
+      - '&7the slot on this side.'
+  # Item that is shown when the right input is valid.
+  right-placeholder-valid:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: '&6Item To Sacrifice'
+    lore:
+      - '&7The item you are'
+      - '&7sacrificing in order to'
+      - '&7upgrade the item on the'
+      - '&7left should be placed in'
+      - '&7the slot on this side.'
+  # Item that is shown in the output slot when anvil combination is invalid.
+  output-empty:
+    material: BARRIER
+    displayName: '&cAnvil'
+    lore:
+      - '&7Place a target item in the left'
+      - '&7slot and a sacrifice item in the'
+      - '&7right slot to combine enchantments.'
+  # Item to combine that is shown when the anvil combination is invalid.
+  combine-items-empty:
+    material: ANVIL
+    displayName: '&aCombine Items'
+    lore:
+      - '&7Combine the items in the slots'
+      - '&7to the left and right below.'
+  # Item to combine that is shown when the anvil combination is valid,
+  # but the user does not have enough levels.
+  combine-items-no-levels:
+    material: ANVIL
+    displayName: '&aCombine Items'
+    lore:
+      - '&7Combine the items in the slots'
+      - '&7to the left and right below.'
+      - '&r'
+      - '&7Cost:'
+      - '&3%cost% Exp Levels'
+      - '&r'
+      - '&cNot enough levels!'
+  # Item to combine that is shown when the anvil combination is valid.
+  combine-items-valid:
+    material: ANVIL
+    displayName: '&aCombine Items'
+    lore:
+      - '&7Combine the items in the slots'
+      - '&7to the left and right below.'
+      - '&r'
+      - '&7Cost:'
+      - '&3%cost% Exp Levels'
+      - '&r'
+      - '&eClick to combine!'
+  # Item to show that combination is possible
+  anvil-invalid:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: '&r'
+  # Item to show that combination is not possible
+  anvil-valid:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: '&r'
+
+enchantments:
+  # The key of the enchantment, please do not change.
+  #
+  # !!! CAUTION !!!
+  # Changing the name after you've used another one for a while
+  # will cause the old name to stay on the items forever.
+  #
+  # Changing the description *will* cause the old description to stay on books.
+  #
+  # Changing the value per level *may* cause old descriptions to stay on books.
+  aiming:
+    # The displaying name of the enchantment.
+    name: 'Aiming'
+    # The description of the enchantment (Used for enchanted books.)
+    description:
+      - '&7Arrows home towards nearby'
+      - '&7monsters if they are within &a%value%'
+      - '&7blocks.'
+    # Value that the level gets multiplied by. Only set in non-vanilla enchants,
+    # but should be applied to all enchants, so the descriptions can update per-level.
+    value-per-level: 2
+    # If this enchantment can show up in the enchantment table. Default: true
+    shows-up-in-enchantment-table: true
+  arrow_damage:
+    name: 'Power'
+    description:
+      - '&7Increases the damage of arrows'
+      - '&7you shoot by up to &a%value%&7.'
+    value-per-level: 4
+  arrow_fire:
+    name: 'Flame'
+    description:
+      - '&7Arrows ignite targets for &a4 &7seconds,'
+      - '&7dealing &a1 &7damage every second.'
+  arrow_infinite:
+    name: 'Infinity'
+    description:
+      - '&7You always need only one arrow in'
+      - '&7your inventory to use your bow.'
+  arrow_knockback:
+    name: 'Punch'
+    description:
+      - '&7Increase knockback dealt'
+      - '&7by &a%value%&7.'
+    value-per-level: 3
+  critical:
+    name: 'Critical'
+    description:
+      - '&7Increase &9☠ Crit Damage &7by &a%value%%&7.'
+    value-per-level: 0.1
+  cubism:
+    name: 'Cubism'
+    description:
+      - '&7Increases damage dealt to'
+      - '&7Creepers, Magma Cubes, and'
+      - '&7Slimes by &a%value%%&7.'
+    value-per-level: 0.1
+  damage_all:
+    name: 'Sharpness'
+    description:
+      - '&7Increases melee damage dealt by'
+      - '&a%value%&7.'
+    value-per-level: 1
+  damage_arthropods:
+    name: 'Bane of Arthropods'
+    description:
+      - '&7Increases damage dealt to'
+      - '&7Spiders, Silverfish, and Cave Spiders'
+      - '&7by &a%value%&7.'
+    value-per-level: 2.5
+  damage_undead:
+    name: 'Smite'
+    description:
+      - '&7Increases damage dealt to'
+      - '&7Zombies, Skeletons, Withers,'
+      - '&7and Zombie Pigmen by &a%value%&7.'
+    value-per-level: 2.5
+  depth_strider:
+    name: 'Depth Strider'
+    description:
+      - '&7Reduces how much you are'
+      - '&7slowed in water by &a%value%%&7.'
+    value-per-level: 0.33
+  dig_speed:
+    name: 'Efficiency'
+    description:
+      - '&7Increases how quickly your tool'
+      - '&7breaks blocks.'
+  dragon_hunter:
+    name: 'Dragon Hunter'
+    description:
+      - '&7Increases damage dealt to'
+      - '&7Ender Dragons by &a%value%%&7.'
+    value-per-level: 0.08
+    shows-up-in-enchantment-table: true
+  durability:
+    name: 'Unbreaking'
+    description:
+      - '&7Lowers the chance of the item'
+      - '&7taking damage when using it.'
+    shows-up-in-enchantment-table: false
+  ender_slayer:
+    name: 'Ender Slayer'
+    description:
+      - '&7Increases damage dealt to'
+      - '&7Ender Dragons and'
+      - '&7Endermen by &a%value%%&7.'
+    value-per-level: 0.12
+  fire_aspect:
+    name: 'Fire Aspect'
+    description:
+      - '&7Ignites your enemies for at least'
+      - '&a%value% &7seconds, dealing'
+      - '&a1 &7damage per second.'
+    value-per-level: 4
+  first_strike:
+    name: 'First Strike'
+    description:
+      - '&7Increases melee damage dealt by'
+      - '&a%value%% &7for the first hit on a'
+      - '&7mob.'
+    value-per-level: 0.25
+  knockback:
+    name: 'Knockback'
+    description:
+      - '&7Increases knockback by &a%value%'
+      - '&7blocks.'
+    value-per-level: 3
+  life_steal:
+    name: 'Life Steal'
+    description:
+      - '&7Heals for &a%value%% &7of the'
+      - '&7damage you deal to mobs.'
+    value-per-level: 0.1
+  loot_bonus_blocks:
+    name: 'Fortune'
+    description:
+      - '&7Increases the chance of blocks'
+      - '&7to drop &a%value%% &7more items.'
+    value-per-level: 0.4
+  loot_bonus_mobs:
+    name: 'Looting'
+    description:
+      - '&7Increases the chance of'
+      - '&7mobs dropping items.'
+  luck:
+    name: 'Luck Of The Sea'
+    description:
+      - '&7Increases the amount of'
+      - '&7fishing valuables by &a%value%%&7.'
+    value-per-level: 0.03
+  lure:
+    name: 'Lure'
+    description:
+      - '&7Decreases the amount of time'
+      - '&7needed to catch a fish by &a%value% &7seconds.'
+    value-per-level: 5
+  oxygen:
+    name: 'Respiration'
+    description:
+      - '&7Extends underwater breathing time'
+      - '&7by &a%value% &7seconds.'
+    value-per-level: 15
+  protection_environmental:
+    name: 'Protection'
+    description:
+      - '&7Grants &a+%value%% Defense'
+    value-per-level: 0.04
+  protection_explosions:
+    name: 'Blast Protection'
+    description:
+      - '&7Grants &a+%value%% Defense'
+      - '&7against explosions.'
+    value-per-level: 0.08
+  protection_fall:
+    name: 'Feather Falling'
+    description:
+      - '&7Decreases fall damage by &a%value%&7.'
+    value-per-level: 2
+  protection_fire:
+    name: 'Fire Protection'
+    description:
+      - '&7Grants &a+%value%% Defense'
+      - '&7against fire and lava damage.'
+    value-per-level: 0.08
+  protection_projectile:
+    name: 'Projectile Protection'
+    description:
+      - '&7Grants &a+%value%% Defense'
+      - '&7against projectiles.'
+    value-per-level: 0.08
+  silk_touch:
+    name: 'Silk Touch'
+    description:
+      - '&7Mined blocks drop themselves instead'
+      - '&7of their normal drops.'
+  snipe:
+    name: 'Snipe'
+    description:
+      - '&7Arrows deal &a+%value%% &7damage for'
+      - '&7every &a10 &7blocks traveled.'
+    value-per-level: 0.25
+  telekinesis:
+    name: 'Telekinesis'
+    description:
+      - '&7Blocks and mob drops go directly'
+      - '&7into your inventory.'
+    hypixel-modifier: "&f&lCOMMON"
+  thorns:
+    name: 'Thorns'
+    description:
+      - '&a%value%% &7chance to rebound &a1 - 4'
+      - '&7damage back at the attacker.'
+    value-per-level: 0.15
+  water_worker:
+    name: 'Aqua Affinity'
+    description:
+      - '&7Increases your underwater'
+      - '&7mining rate.'

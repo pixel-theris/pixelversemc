@@ -1,0 +1,100 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: hand
+    damage-increase: 1.34
+    damage-cause: ENTITY_ATTACK
+#
+set-pieces:
+  hand:
+    name: '&6Midas''s Sword'
+    item: gold_sword
+    data: 0
+    lore:
+      - '&7Damage: &c+150'
+      - '           '
+      - '&6Item Ability: Greed'
+      - '&7The strength and damage bonus of'
+      - '&7this item is dependant on the'
+      - '&7price paid for it at the &5Dark'
+      - '&5Auction&7!'
+      - '&7The maximum bonus of this item'
+      - '&7is &c120 &7if the bid was'
+      - '&650,000,000 Coins &7or higher!'
+      - '&4&4'
+      - '&6&lLEGENDARY SWORD'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: hand
+    name: '&6Midas''s Sword'
+    item: gold_sword
+    data: 0
+    lore:
+      - '&7Damage: &c+150'
+      - '           '
+      - '&6Item Ability: Greed'
+      - '&7The strength and damage bonus of'
+      - '&7this item is dependant on the'
+      - '&7price paid for it at the &5Dark'
+      - '&5Auction&7!'
+      - '&7The maximum bonus of this item'
+      - '&7is &c120 &7if the bid was'
+      - '&650,000,000 Coins &7or higher!'
+      - '&4&4'
+      - '&6&lLEGENDARY SWORD'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

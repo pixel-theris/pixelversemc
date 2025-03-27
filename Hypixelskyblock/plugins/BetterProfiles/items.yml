@@ -1,0 +1,74 @@
+Items:
+  #Create as many items you want. REMEMBER EACH ITEM MUST HAVE A UNIQUE SLOT.
+  #IN CASE YOU ADD MORE THAN 1 ITEM FOR THE SAME SLOT.
+  #It will be read in order. SO MAKE SURE YOU ADD THE ITEM with higher priority first here.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  #FOR SECURITY REASONS DO NOT USE more than one item in the same slot if at least one of the items
+  #has "PLACEHOLDER" material.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  player:
+    Slot: 22
+    Dynamic-slot: 0
+    Permission: "none"
+    Material: "PROFILE_OWNER"
+    Custom-model-data: 0
+    Displayname: "&8%vault_prefix%{OWNER}&7's Profile"
+    Lore:
+    - " &c❤ Health &f%us_health% HP"
+    - " &a❇ Defense &f%us_defense%"
+    - " &f❂ True Defense &f0"
+    - " &c❁ Strength &f%us_force%"
+    - " &f✦ Speed &f%us_speed%%"
+    - " &9☣ Crit Chance &f%us_critchance%%"
+    - " &9☠ Crit Damage &f%us_critdamage%%"
+    - " &e⚔ Bonus Attack Speed &f0%"
+    - " &b✎ Intelligence &f%us_intelligence%"
+    - " &3ð Sea Creature Chance &f%us_seacreature%%"
+    - " &b✯ Magic Find &f0"
+    - " &d♠ Pet Luck &f0"
+    Close-on-click: false
+    Commands: []
+  visit-island:
+    Slot: 15
+    Permission: "none"
+    Material: "FEATHER"
+    Custom-model-data: 0
+    Displayname: "&aVisit Island"
+    Lore:
+    - "&eClick to visit!"
+    Close-on-click: true
+    Commands:
+    - "islandvisit {TARGET}"
+  trade-request:
+    Slot: 16
+    Permission: "none"
+    Material: "EMERALD"
+    Custom-model-data: 0
+    Displayname: "&aTrade"
+    Lore:
+    - "&eClick to trade!"
+    Close-on-click: true
+    Commands:
+    - "trade {TARGET}"
+  island-invite:
+    Slot: 24
+    Permission: "none"
+    Material: "RED_ROSE"
+    Custom-model-data: 0
+    Displayname: "&aIsland Invite"
+    Lore:
+    - "&eClick to invite!"
+    Close-on-click: true
+    Commands:
+    - "is invite {TARGET}"
+  island-coop:
+    Slot: 25
+    Permission: "none"
+    Material: "DIAMOND"
+    Custom-model-data: 0
+    Displayname: "&aSend Co-op Request"
+    Lore:
+    - "&eClick to send!"
+    Close-on-click: true
+    Commands:
+    - "nocoop"

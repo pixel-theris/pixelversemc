@@ -1,0 +1,196 @@
+title: '&8Librarian'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EXP_BOTTLE
+      amount: 10
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 10.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Sharpness I
+        - §7Increases melee damage dealt by
+        - §a1§7.
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          DAMAGE_ALL: 1
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Protection I
+        - §7Grants §a+4% Defense
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Fire Protection I
+        - §7Grants §a+8% Defense
+        - §7against fire and lava damage.
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          PROTECTION_FIRE: 1
+    sellingValue: 0.0
+    buyValue: 30.0
+    detailed: true
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Projectile Protection I
+        - §7Grants §a+8% Defense
+        - §7against projectiles.
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          PROTECTION_PROJECTILE: 1
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Bane of Arthropods I
+        - §7Increases damage dealt to
+        - §7Spiders, Silverfish, and Cave Spiders
+        - §7by §a2§7.
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          DAMAGE_ARTHROPODS: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        lore:
+        - §r
+        - §9Smite I
+        - §7Increases damage dealt to
+        - §7Zombies, Skeletons, Withers,
+        - §7and Zombie Pigmen by §a2§7.
+        - §r
+        - §f§lCOMMON
+        ItemFlags: !!set
+          HIDE_PLACED_ON: null
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_POTION_EFFECTS: null
+          HIDE_ATTRIBUTES: null
+          HIDE_DESTROYS: null
+        stored-enchants:
+          DAMAGE_UNDEAD: 1
+    sellingValue: 0.0
+    buyValue: 20.0
+    detailed: true

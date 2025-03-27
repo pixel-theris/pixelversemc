@@ -1,0 +1,31 @@
+tasks:
+  citizensinteract:
+    type: "citizens_interact"
+    npc-name: "farmhand"
+display:
+  name: "&aNPC Quest"
+  lore-normal:
+  - "&7Talk to Farmhand"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.talk-to-farmhand-2 true"
+  - "customplaceholders set {player} mission_farm &eCollect_some_potatoes"
+  - "q a moddata start {player} farmingquest2"
+  - "whisper {player} &e[NPC] Farmhand&f: Perfect, now go collect some potatoes!"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fTalk to the Farmhand"
+  - "whisper {player} &7"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fCollect some potatoes"
+  - "whisper {player} &7"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 3

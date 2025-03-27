@@ -1,0 +1,32 @@
+tasks:
+  citizensinteract:
+    type: "citizens_interact"
+    npc-name: "lumberer"
+display:
+  name: "&aNPC Quest"
+  lore-normal:
+  - "&7Talk to the Lumberer"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.talk-to-the-lumberer-2 true"
+  - "customplaceholders set {player} mission_forest null"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fTalk to the Lumberer"
+  - "a+ give oak-armor {player} all"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &a&lREWARDS"
+  - "whisper {player} &7    &fOak Helmet"
+  - "whisper {player} &7    &fOak Chestplate"
+  - "whisper {player} &7    &fOak Leggings"
+  - "whisper {player} &7    &fOak Boots"
+  - "whisper {player} &7"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 8
