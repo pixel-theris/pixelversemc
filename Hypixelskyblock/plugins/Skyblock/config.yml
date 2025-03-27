@@ -1,0 +1,214 @@
+coinsCMD: eco give <player> <amount>
+addons:
+  PlaceholderAPI: true
+  MVdWPlaceholderAPI: false
+  RedProtect: false
+  PreciousStones: false
+  ProtectionStones: false
+  WorldGuard: true
+  GriefPrevention: false
+  UltraMinions: false
+  SuperiorSkyblock2: false
+  FabledSkyBlock: false
+  AcidIsland: false
+  ASkyBlock: false
+  BentoBox: false
+  IridiumSkyblock: false
+  WorldEdit: false
+  MMOItems: false
+rarities:
+  worlds:
+  - world
+  types:
+    pickup: true
+    smelt: true
+    brew: true
+    craft: true
+collectionsCache:
+  maxAmount: 20000
+  time: 5
+  timeUnit: MINUTES
+dragons:
+  schematicEgg: dragonegg.schematic
+  soundSize: 50
+  sizeX: 5
+  sizeY: 10
+  sizeZ: 5
+  spawn: Server;423.5;36.0;350.5;182.41414;0.34889936
+percentOfShield: 5
+actionBar:
+  global: true
+  perWorld: false
+  worlds:
+  - world
+slots:
+  skills:
+    mainBlack: all
+    levelsBlack: all
+  trades:
+    tradesBlack: 0;1;2;3;4;5;6;7;8;9;17;18;26;27;35;36;44;45;46;47;48;50;51;52;53
+    tradingBlack: all
+  collections:
+    mainBlack: all
+    typeBlack: 0;1;2;3;4;5;6;7;8;9;17;18;26;27;35;36;44;45;46;47;50;51;52;53
+    levelsBlack: all
+crafting:
+  lockIfNoPerm: false
+collections:
+  useNBT: false
+  barAmount: 15
+  black:
+    material: STAINED_GLASS_PANE
+    data: 15
+  mainBlocked:
+    material: INK_SACK
+    data: 8
+  unblocked:
+    material: STAINED_GLASS_PANE
+    data: 5
+  now:
+    material: STAINED_GLASS_PANE
+    data: 4
+  blocked:
+    material: STAINED_GLASS_PANE
+    data: 14
+tradeBlocked:
+  material: INK_SACK
+  data: 8
+skills:
+  farmer:
+    global: true
+    perWorld: false
+    perRegion: true
+    disabledRegions:
+    - prueba
+    worlds:
+    - world
+    regions:
+    - wheat-farm-3
+    - wheat-farm-2
+    - wheat-farm-1
+    - farm
+    - the-barn
+    - nether-fortress
+    - the-nether
+  miner:
+    global: true
+    perWorld: false
+    perRegion: true
+    disabledRegions:
+    - auction-house
+    worlds:
+    - world
+    regions:
+    - coal-mine
+    - gold-mine
+    - lapis-quarry
+    - redstone-mine
+    - emerald-sanctuary
+    - diamond-reserve
+    - obsidian-sanctuary
+    - the-nether
+    - the-end
+    - dragon-nest
+  combat:
+    global: true
+    perWorld: false
+    perRegion: true
+    disabledRegions:
+    - auction-house
+    worlds:
+    - world
+    regions:
+    - village
+    - farm
+    - the-barn
+    - the-nether
+    - nether-fortress
+    - the-end
+    - dragon-altar
+    - dragon-nest
+    - gold-mine
+    - lapis-quarry
+    - redstone-mine
+    - emerald-sanctuary
+    - diamond-reserve
+    - obsidian-sanctuary
+    - spiders-den
+  foraging:
+    global: true
+    perWorld: false
+    perRegion: true
+    disabledRegions:
+    - prueba
+    worlds:
+    - world
+    regions:
+    - oak-forest
+    - acacia-forest
+    - dark-oak-forest
+    - spruce-forest
+    - birch-forest
+    - jungle-forest
+  fishing:
+    global: true
+    perWorld: false
+    perRegion: false
+    disabledRegions:
+    - prueba
+    worlds:
+    - world
+    regions:
+    - test1
+  enchanting:
+    global: true
+    perWorld: false
+    perRegion: false
+    disabledRegions:
+    - prueba
+    worlds:
+    - world
+    regions:
+    - test1
+  alchemy:
+    global: true
+    perWorld: false
+    perRegion: false
+    disabledRegions:
+    - prueba
+    worlds:
+    - world
+    regions:
+    - test1
+  unblocked:
+    material: STAINED_GLASS_PANE
+    data: 5
+  now:
+    material: STAINED_GLASS_PANE
+    data: 4
+  blocked:
+    material: STAINED_GLASS_PANE
+    data: 14
+sounds:
+  pet:
+    levelUp:
+      sound: ORB_PICKUP
+      volume: 1.0
+      pitch: 1.0
+  progress:
+    sound: ORB_PICKUP
+    volume: 1.0
+    pitch: 1.0
+  noHas:
+    sound: ENDERMAN_TELEPORT
+    volume: 1.0
+    pitch: 1.0
+  collection:
+    unlocked:
+      sound: LEVEL_UP
+      volume: 1.0
+      pitch: 1.0
+    levelUp:
+      sound: LEVEL_UP
+      volume: 1.0
+      pitch: 1.0

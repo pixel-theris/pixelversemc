@@ -1,0 +1,10 @@
+messages:
+  disablePlace: "&cYou cannot store this item on this bag!"
+ 
+titles:
+  arrow: "&8Arrow Bag"
+  potion: "&8Potion Bag"
+  talisman: "&8Talisman Bag"
+  bag: "&8Ender Chest"
+  
+arrowCommand: "menu"

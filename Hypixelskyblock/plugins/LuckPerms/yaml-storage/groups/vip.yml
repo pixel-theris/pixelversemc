@@ -1,0 +1,28 @@
+name: vip
+permissions:
+- handyorbs.limit.wheat.3
+- handyorbs.limit.potatoes.3
+- handyorbs.limit.carrots.3
+- handyorbs.limit.sugar-cane.3
+- handyorbs.imit.nether-wart.3
+- auctionmaster.limit.auctions.7
+- auctionmaster.use
+- chatty.cooldown
+- chatty.style.bold
+- chatty.style.colors
+- chatty.style.italic
+- chatty.style.magic
+- chatty.style.reset
+- chatty.style.strikethrough
+- chatty.style.underline
+- rank.VIP
+- tab.sort.VIP
+- weight.5
+parents:
+- default
+prefixes:
+- '&a[VIP] &a':
+    priority: 5
+suffixes:
+- '&a':
+    priority: 5

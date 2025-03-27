@@ -1,0 +1,36 @@
+# This is an example book to show how to create one
+# Note: The placeholders in this book (like %player_name%) need PlaceholderAPI installed
+# with the proper expansion, see here for more informations: https://www.spigotmc.org/resources/placeholderapi.6245/
+
+# Item's name
+name: Reports
+
+# Book's title
+title: Reports
+
+# Book's author
+author: Skyblock
+
+# Book's generation
+# Valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED
+generation: ORIGINAL
+
+# Item's lore
+lore:
+- Example lore 1
+- Example lore 2
+
+# Command to open this book
+# You can remove this by setting it to ''
+# Separate multiple commands with a space
+open_command: ''
+
+pages:
+  '1':
+  - 'Are you sure you want to report %skript_1::{player}% for %skript_2::{player}%?'
+  - ''
+  - '    <tooltip:&aClick to confirm this report><run command:/breport %skript_1::{player}% %skript_2::{player}%>&2CONFIRM REPORT<reset>'
+  - ''
+  - '    <tooltip:&cClick to cancel><run command:/cancelreport>&cCANCEL REPORT<reset>'
+  - ''
+  - '    <tooltip:&7Click to modify the report reason><run command:/report %skript_1::{player}%>&7CHANGE REASON<reset>'

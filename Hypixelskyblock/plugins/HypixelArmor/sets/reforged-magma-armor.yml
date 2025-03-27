@@ -1,0 +1,269 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills give strength {player} 30
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills remove strength {player} 30
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+      fire_resistance:
+        duration: 999999
+        level: 1
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give health {player} 35
+        - usbc skills give defense {player} 70
+      remove:
+        - usbc skills remove health {player} 35
+        - usbc skills remove defense {player} 70
+    name: '&5Reforged Magma Helmet'
+    item: chainmail_helmet
+    data: 0
+    unbreakable: true
+    lore:
+      - '&7Health: &a+15 HP &8(+20 Reforged)'
+      - '&7Defense: &a+50 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC HELMET'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give health {player} 120
+        - usbc skills give defense {player} 50
+      remove:
+        - usbc skills remove health {player} 120
+        - usbc skills remove defense {player} 50
+    name: '&5Reforged Magma Chestplate'
+    item: chainmail_chestplate
+    data: 0
+    unbreakable: true
+    lore:
+      - '&7Health: &a+100 HP &8(+20 Reforged)'
+      - '&7Defense: &a+30 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC CHESTPLATE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give health {player} 95
+        - usbc skills give defense {player} 45
+      remove:
+        - usbc skills remove health {player} 95
+        - usbc skills remove defense {player} 45
+    name: '&5Reforged Magma Leggings'
+    item: chainmail_leggings
+    data: 0
+    unbreakable: true
+    lore:
+      - '&7Health: &a+75 HP &8(+20 Reforged)'
+      - '&7Defense: &a+25 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC LEGGINGS'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give health {player} 65
+        - usbc skills give defense {player} 35
+      remove:
+        - usbc skills remove health {player} 65
+        - usbc skills remove defense {player} 35
+    name: '&5Reforged Magma Boots'
+    item: chainmail_boots
+    data: 0
+    unbreakable: true
+    lore:
+      - '&7Health: &a+45 HP &8(+20 Reforged)'
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC BOOTS'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&5Reforged Magma Helmet'
+    item: chainmail_helmet
+    data: 0
+    lore:
+      - '&7Health: &a+15 HP &8(+20 Reforged)'
+      - '&7Defense: &a+50 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&5Reforged Magma Chestplate'
+    item: chainmail_chestplate
+    data: 0
+    lore:
+      - '&7Health: &a+100 HP &8(+20 Reforged)'
+      - '&7Defense: &a+30 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&5Reforged Magma Leggings'
+    item: chainmail_leggings
+    data: 0
+    lore:
+      - '&7Health: &a+75 HP &8(+20 Reforged)'
+      - '&7Defense: &a+25 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&5Reforged Magma Boots'
+    item: chainmail_boots
+    data: 0
+    lore:
+      - '&7Health: &a+45 HP &8(+20 Reforged)'
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Nether Lord'
+      - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+      - '&7effect while worn. The wearer deal an additional'
+      - '&a+5% &7damage while on fire or in the nether.'
+      - '&c&a'
+      - '&5&lEPIC BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

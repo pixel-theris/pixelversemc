@@ -1,0 +1,258 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders add {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders remove {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.30
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 15
+      remove:
+        - usbc skills remove defense {player} 15
+    name: '&9Farmer Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+15'
+      - '           '
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 40
+      remove:
+        - usbc skills remove defense {player} 40
+    name: '&9Farmer Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+40'
+      - '           '
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+      remove:
+        - usbc skills remove defense {player} 35
+    commands:
+    name: '&9Farmer Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+35'
+      - '           '
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 15
+      remove:
+        - usbc skills remove defense {player} 15
+    name: '&9Farmer Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+15'
+      - '           '
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&9Farmer Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+15'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&9Farmer Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+40'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&9Farmer Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+35'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&9Farmer Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+15'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

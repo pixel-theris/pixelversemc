@@ -1,0 +1,273 @@
+#Change this only if needed.
+# If you want to migrate or using another version or premade config,
+# do not copy-paste it with "config-version" field.
+config-version: "cfg2.4"
+
+asynchronous-entity-add: false
+
+custom-placeholders:
+# placeholder usage: $allowed_players_to_join
+  allowed_players_to_join: "$max - $online"
+# placeholder usage: $fixed_player_name
+  fixed_player_name: "'$player'.replace('_', ' ')"
+
+slot-text-length:
+   maximum: 128
+   truncated: "..."
+
+#Economy Formatting
+economy-format:
+  Enable: true
+  Raw Digits: true
+  Strip Trailing Zeros: true
+  Rounding:
+    Enable: true
+    # HALF_DOWN, HALF_UP, HALF_EVEN, CEILING, DOWN, UP, FLOOR, UNNECESSARY
+    Mode: HALF_DOWN
+    Scale: 2
+  Suffixing:
+    Enable: true
+    Locale:
+      '1': k
+      '1000': m
+      '1000000': g
+      '1000000000': t
+      '1000000000000': p
+      '1000000000000000': e
+
+#The items
+# Can be anything
+# Include ListItems
+# Use PlayerListItemOption to customize the item!
+# Built-in options:
+# - ping : set the item ping latency, value: number (example: "@PING=10;NoLaggingPlayer")
+# - permission : set the permission for viewing this slot, if player doesnt have this permission, the slot will invisible. value: permission
+# (example: "@PERM=server.admin;Only admin can see this" or "@PERMISSION=server.vip;Thanks for donating the server"
+# - alternative : set the alternative slot text if the condition is not possible. (like player doesnt have the viewing permission), value: anything
+# (example: "@PERM=server.not.noob;@ALT=You are noob;You are pro" or "@PERM=server.cool;@ALTERNATIVE=You are ugly;You are cool")
+# - gamemode: set the slot entity gamemode to specific gamemode. value: GameMode (CREATIVE,SURVIVAL,ADVENTURE,SPECTATOR)
+# (example: "@GAMEMODE=SPECTATOR;TextGoesHere"
+# - onlyforgamemode: set the slot only visible for players that has specific gamemode. value: array of game mode (GAMEMODE SEPARATED BY COMMA)
+# (example: "@ONLYFORGAMEMODE=SPECTATOR,CREATIVE;TextGoesHere" or "@OFGM=SPECTATOR;TextGoesHere"
+#
+# HOW TO COMBINE OPTIONS
+# @<THIS IS 1ST OPTION>=<THIS IS 1ST OPTION VALUE>;<MORE VALUE>
+# if the first char or char after ";" is "@", it will defined as
+# Option. If not it will set the text next to it as a normal text,
+# not an option
+# 
+# This is wrong
+# usage -> "@PING=1;this is awesome;@SKIN=Awesomeness"
+# output v 
+#   ping -> 1 & text -> this is awesome;@SKIN=Awesomeness"
+# 
+# This is correct
+# usage -> "@PING=10;@SKIN=Noobie;NoLaggYay"
+# output v
+#   ping-> 10 & skin -> Noobie & text -> NoLaggYay
+#   
+# 
+# Example usages:
+# @OPTION=VALUE;@ANOTHER_OPTION=ANOTHER_VALUE;TextGoesHere
+# or
+# @OPTION=VALUE;TextGoesHere
+#
+# Theres 20 items per columns.
+#
+# Animating:
+# Use ";" to separate between animation frames
+# Do not use @ on the first char! Use "&r@" instead
+# Example
+# global-tablist:
+# - "FIRST FRAME;SECOND FRAME;THIRD FRAME;ETC..."
+# - "@SKIN=krep;@PING=1;FIRST FRAME AGAIN;ANOTHER SECOND FRAME;End of Thinking Capacity"
+global-tablist:
+- "@SKIN=Lime;@PING=1;&a&l      Players &f($online)"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Lime;@PING=1;&a&l      Players &f($online)"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=Liesk;@PING=1;<PLAYERS>"
+- "@SKIN=ztag100;@PING=1;&3&l    Server Info"
+- "@SKIN=Liesk;@PING=1;&b&lArea: &7%sbp_region-name%"
+- "@SKIN=Liesk;@PING=1; &fServer: &8mega1D"
+- "@SKIN=Liesk;@PING=1; &fGems: &a0"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;&e&lFairy Souls:"
+- "@SKIN=Liesk;@PING=1; &fSouls Found: &e%us_fairysouls%&7/&d%us_total_fairysouls%"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;&e&lAbilities:"
+- "@SKIN=Liesk;@PING=1;&f Farmhand &e[Lvl %us_skill_level_FARMER%]&f: &a%us_doublecrops%%"
+- "@SKIN=Liesk;@PING=1;&f Spelunker &e[Lvl %us_skill_level_MINER%]&f: &a%us_doubleores%%"
+- "@SKIN=Liesk;@PING=1;&f Logger &e[Lvl %us_skill_level_FORAGING%]&f: &a%us_doublelogs%%"
+- "@SKIN=Liesk;@PING=1;&f Conjurer &e[Lvl %us_skill_level_ENCHANTING%]&f: &a%us_morexp%%"
+- "@SKIN=Liesk;@PING=1;&f Brewer &e[Lvl %us_skill_level_ALCHEMY%]&f: &a%us_moreduration%%"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;&e&lSeason:"
+- "@SKIN=Liesk;@PING=1;&f Current Year: &b%mph_mytheriayear%"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=$player;@PING=1;&6&l    Account Info"
+- "@SKIN=Liesk;@PING=1;&e&lProfile: &aDefault;"
+- "@SKIN=Liesk;@PING=1; &fRank: &b%vault_ranksuffix%"
+- "@SKIN=Liesk;@PING=1; &fCreated: &9%player_first_join_date%"
+- "@SKIN=Liesk;@PING=1; &fPurse: &a%royaleeconomy_balance_purse%"
+- "@SKIN=Liesk;@PING=1; &fBank: &a%royaleeconomy_balance_bank%"
+- "@SKIN=Liesk;@PING=1;"
+- "@SKIN=Liesk;@PING=1;&e&lAttributes:"
+- "@SKIN=Liesk;@PING=1; &fHealth &c❤%us_health%"
+- "@SKIN=Liesk;@PING=1; &fDefense &a❇%us_defense%"
+- "@SKIN=Liesk;@PING=1; &fStrength &c❁%us_force%"
+- "@SKIN=Liesk;@PING=1; &fSpeed &f✦%us_speed%%"
+- "@SKIN=Liesk;@PING=1; &fCrit Chance &9☣%us_critchance%%"
+- "@SKIN=Liesk;@PING=1; &fCrit Damage &9☠%us_critdamage%%"
+- "@SKIN=Liesk;@PING=1; &fAttack Speed &e⚔0%"
+- "@SKIN=Liesk;@PING=1; &fIntelligence &b✎%us_intelligence%"
+- "@SKIN=Liesk;@PING=1; &fSea Creature &3ð%us_seacreature%%"
+- "@SKIN=Liesk;@PING=1; &fMagic Find &b✯0"
+- "@SKIN=Liesk;@PING=1; &fPet Luck &d♠0"
+- "@SKIN=Liesk;@PING=1;"
+#
+# Disable tablist in specific world
+#
+disabled-world:
+- NoTablistWorld
+- IDontWantAnyTablist
+- GameWorld
+
+#
+# 
+# Change tablist design in specific world
+per-world-tablist:
+  GameForFun:
+    tablist:
+    - "WELCOME TO THE $world"
+    header-anim:
+    - "Welcome $player"
+    footer-anim:
+    - "Donate the server!"
+    
+countmore:
+  enabled: false
+  text: "... and {0} more ..."
+# [ EXAMPLES ]
+#slotitems:
+#   <any name>:
+#     format: "the format"
+#     type: THE_TYPE
+#     countmore: true (Enable the countmore feature to selected LIST type)
+#
+# Types:
+# 1. PLAYER_LIST
+#   Useable placeholders:
+#   - $player - get the player name
+#   - $ping - get the player ping
+#   - $displayname - get the player displayname (a.k.a nick or realname)
+#   - $listname - get the player default playerlistname
+#   - $group - get the player group permission (requires Vault)
+#   - $prefix - get the player chat prefix (requires Vault)
+#   - $suffix - get the player chat suffix (requires Vault)
+#   Additional Fields:
+#   "hidevanished", Hide all hidden players on tablist. Input: true | false
+#   "permission", Must-have permission to be on the list. Input: Text
+#   "perworld", Shows only player in same world. Input: true | false
+#   "world", Shows all players in this world (requires "perworld" to be true), optional! Default: Player's World. Input: true | false
+#   "groups", Group the world and shows all player inside the world group (requires "perworld" to be true), optional! Default: empty. Input: Group of worlds
+#   "ping", Set the slot ping latency to the player's ping. Optional. Default: true, Input: boolean <true|false>
+#   "skin", Show player's skin. Optional. Default: true, Input: boolean <true|false>
+#   "gamemodes", Shows only players with specified gamemode. List of gamemodes. Example: [CREATIVE, SURVIVAL, ADVENTURE, SPECTATOR]
+#   "excludeOP", Exclude OP from being listed
+#   "primary-group", Shows only player with specified primary group
+#
+# 2. WORLD_LIST
+#  Useable placeholders:
+#  - $name - get the world name
+#  - $wonline - size of player online in this world
+#   Additional Fields:
+#   "world", Specify what world to be visible on the tablist, optional! Default: All worlds. Input: List of Worlds
+#   "remove-empty", Set to empty slot if theres no player on that world, Optional, Default: false, Input: Boolean <true|false>
+#
+# 3. WORLD_GROUP_LIST
+#  Useable placeholders:
+#  - $name - get the world name
+#  - $wonline - size of player online in this world
+#   Additional Fields:
+#   "groups", Specify and group what worlds to be visible on the tablist, optional! Default: empty. Input: List of Worlds
+#   "remove-empty", Set to empty slot if theres no player on that world group. Optional, Default: false, Input: Boolean <true|false>
+#
+#  Global Placeholders:
+#   - $player - get the player name
+#   - $ping - get the player ping
+#   - $displayname - get the player displayname (a.k.a nick or realname)
+#   - $listname - get the player default playerlistname
+#   - $group - get the player group permission (requires Vault)
+#   - $prefix - get the player chat prefix (requires Vault)
+#   - $suffix - get the player chat suffix (requires Vault)
+#   - $ver - get the server version
+#   - $tps - get the server tps
+#   - $online - total online players
+#   - $max - max online players
+#   - $world - get the player world name
+#   - And all placeholders from PlaceholderAPI (requires PlaceholderAPI)
+slot-items:
+#   This slot items will shows all players
+    PLAYERS:
+        format: "$displayname"
+        type: PLAYER_LIST
+        hidevanished: true
+        ping: false
+        skin: true
+header-anim:
+- |-
+  &7
+  &bYou are playing on &e&lEXAMPLE.COM
+  &7%server_time_d/M/y%  &8%player_name%
+  &7
+  
+footer-anim:
+- |-
+  &7
+  &a&lActive Effects
+  %effects_all%
+  &7
+  &aRanks, Coins & More! &c&lSTORE.EXAMPLE.COM
+#Refresh ticks
+#anim-refresh-ticks: RECOMMENDED 10
+#slot-refresh-ticks: RECOMMENDED 20
+anim-refresh-ticks: 20
+slot-refresh-ticks: 40

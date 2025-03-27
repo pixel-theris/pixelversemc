@@ -1,0 +1,14 @@
+name: admin
+permissions:
+- '*'
+- rank.ADMIN
+- tab.sort.ADMIN
+- weight.5
+parents:
+- mod
+prefixes:
+- '&c[ADMIN] ':
+    priority: 5
+suffixes:
+- '&cADMIN':
+    priority: 5

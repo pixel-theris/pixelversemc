@@ -1,0 +1,42 @@
+enableEntitiesDrop: true
+enableBlocksDrop: true
+notiUpdate: false
+shiftToPickUp: false
+actionBarMessage: false
+chatMessage: true
+minimumCmdDrop: 10
+spawnerPercent: 50
+defaultFortuneBonus: 0
+defaultLootingBonus: 0
+decimalPlace: 0
+scheduleMode:
+  enable: false
+  radius: 2
+  interval: 5
+dropBlock:
+  silkTouch: false
+  creative: false
+limit:
+  enable: false
+  time: 86400000
+  amount: 20000
+particle:
+  enable: false
+  type: happyVillager
+  amount: 8
+sound:
+  enable: true
+  type: ORB_PICKUP
+  volumn: 2.0
+  pitch: 1.0
+item:
+  small:
+    type: GOLD_BLOCK
+    amount: 5
+  normal:
+    type: GOLD_BLOCK
+    amount: 100
+  big:
+    type: GOLD_BLOCK
+disableWorld:
+- someworld

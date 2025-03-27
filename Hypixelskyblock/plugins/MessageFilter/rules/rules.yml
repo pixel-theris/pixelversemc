@@ -1,0 +1,78 @@
+qb1:
+  type: CONTAINS
+  message-mask: A new update has come!
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+qb2:
+  type: CONTAINS
+  message-mask: New version number/your current version
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+qb3:
+  type: CONTAINS
+  message-mask: Download update
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+testprotect:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't use that here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+lpxd:
+  type: CONTAINS
+  message-mask: LobbyPresents
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+protectedone:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't break that block here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+protectedtwo:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't open that here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+protectedthree:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't place that block here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+protectedfour:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't PvP here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+protectedfive:
+  type: EQUAL
+  message-mask: Hey! Sorry, but you can't change that here.
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+blank:
+  type: EQUAL
+  message-mask: This is a blank message
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+blank2:
+  type: CONTAINS
+  message-mask: You have not made
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false
+replay:
+  type: CONTAINS
+  message-mask: AdvancedReplay
+  replace-to: ''
+  cooldown-time: ''
+  use-formating: false

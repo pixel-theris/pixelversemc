@@ -1,0 +1,9 @@
+quest-progress:
+  npcquest7:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      citizensinteract:
+        completed: false

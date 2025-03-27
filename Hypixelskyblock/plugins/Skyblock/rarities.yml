@@ -1,0 +1,769 @@
+rarities:
+  STONE:
+    rarity: COMMON
+  GRASS:
+    rarity: COMMON
+  DIRT:
+    rarity: COMMON
+  COBBLESTONE:
+    rarity: COMMON
+  WOOD:
+    rarity: COMMON
+  SAPLING:
+    rarity: COMMON
+  BEDROCK:
+    rarity: COMMON
+  WATER:
+    rarity: COMMON
+  STATIONARY_WATER:
+    rarity: COMMON
+  LAVA:
+    rarity: COMMON
+  STATIONARY_LAVA:
+    rarity: COMMON
+  SAND:
+    rarity: COMMON
+  GRAVEL:
+    rarity: COMMON
+  GOLD_ORE:
+    rarity: COMMON
+  IRON_ORE:
+    rarity: COMMON
+  COAL_ORE:
+    rarity: COMMON
+  LOG:
+    rarity: COMMON
+  LEAVES:
+    rarity: COMMON
+  SPONGE:
+    rarity: COMMON
+  GLASS:
+    rarity: COMMON
+  LAPIS_ORE:
+    rarity: COMMON
+  LAPIS_BLOCK:
+    rarity: COMMON
+  DISPENSER:
+    rarity: COMMON
+  SANDSTONE:
+    rarity: COMMON
+  NOTE_BLOCK:
+    rarity: COMMON
+  BED_BLOCK:
+    rarity: COMMON
+  POWERED_RAIL:
+    rarity: COMMON
+  DETECTOR_RAIL:
+    rarity: COMMON
+  PISTON_STICKY_BASE:
+    rarity: COMMON
+  WEB:
+    rarity: COMMON
+  LONG_GRASS:
+    rarity: COMMON
+  DEAD_BUSH:
+    rarity: COMMON
+  PISTON_BASE:
+    rarity: COMMON
+  PISTON_EXTENSION:
+    rarity: COMMON
+  WOOL:
+    rarity: COMMON
+  PISTON_MOVING_PIECE:
+    rarity: COMMON
+  YELLOW_FLOWER:
+    rarity: COMMON
+  RED_ROSE:
+    rarity: COMMON
+  BROWN_MUSHROOM:
+    rarity: COMMON
+  RED_MUSHROOM:
+    rarity: COMMON
+  GOLD_BLOCK:
+    rarity: COMMON
+  IRON_BLOCK:
+    rarity: COMMON
+  DOUBLE_STEP:
+    rarity: COMMON
+  STEP:
+    rarity: COMMON
+  BRICK:
+    rarity: COMMON
+  TNT:
+    rarity: COMMON
+  BOOKSHELF:
+    rarity: COMMON
+  MOSSY_COBBLESTONE:
+    rarity: COMMON
+  OBSIDIAN:
+    rarity: COMMON
+  TORCH:
+    rarity: COMMON
+  FIRE:
+    rarity: COMMON
+  MOB_SPAWNER:
+    rarity: COMMON
+  WOOD_STAIRS:
+    rarity: COMMON
+  CHEST:
+    rarity: COMMON
+  REDSTONE_WIRE:
+    rarity: COMMON
+  DIAMOND_ORE:
+    rarity: COMMON
+  DIAMOND_BLOCK:
+    rarity: COMMON
+  WORKBENCH:
+    rarity: COMMON
+  CROPS:
+    rarity: COMMON
+  SOIL:
+    rarity: COMMON
+  FURNACE:
+    rarity: COMMON
+  BURNING_FURNACE:
+    rarity: COMMON
+  SIGN_POST:
+    rarity: COMMON
+  WOODEN_DOOR:
+    rarity: COMMON
+  LADDER:
+    rarity: COMMON
+  RAILS:
+    rarity: COMMON
+  COBBLESTONE_STAIRS:
+    rarity: COMMON
+  WALL_SIGN:
+    rarity: COMMON
+  LEVER:
+    rarity: COMMON
+  STONE_PLATE:
+    rarity: COMMON
+  IRON_DOOR_BLOCK:
+    rarity: COMMON
+  WOOD_PLATE:
+    rarity: COMMON
+  REDSTONE_ORE:
+    rarity: COMMON
+  GLOWING_REDSTONE_ORE:
+    rarity: COMMON
+  REDSTONE_TORCH_OFF:
+    rarity: COMMON
+  REDSTONE_TORCH_ON:
+    rarity: COMMON
+  STONE_BUTTON:
+    rarity: COMMON
+  SNOW:
+    rarity: COMMON
+  ICE:
+    rarity: COMMON
+  SNOW_BLOCK:
+    rarity: COMMON
+  CACTUS:
+    rarity: COMMON
+  CLAY:
+    rarity: COMMON
+  SUGAR_CANE_BLOCK:
+    rarity: COMMON
+  JUKEBOX:
+    rarity: COMMON
+  FENCE:
+    rarity: COMMON
+  PUMPKIN:
+    rarity: COMMON
+  NETHERRACK:
+    rarity: COMMON
+  SOUL_SAND:
+    rarity: COMMON
+  GLOWSTONE:
+    rarity: COMMON
+  PORTAL:
+    rarity: COMMON
+  JACK_O_LANTERN:
+    rarity: COMMON
+  CAKE_BLOCK:
+    rarity: COMMON
+  DIODE_BLOCK_OFF:
+    rarity: COMMON
+  DIODE_BLOCK_ON:
+    rarity: COMMON
+  STAINED_GLASS:
+    rarity: COMMON
+  TRAP_DOOR:
+    rarity: COMMON
+  MONSTER_EGGS:
+    rarity: COMMON
+  SMOOTH_BRICK:
+    rarity: COMMON
+  HUGE_MUSHROOM_1:
+    rarity: COMMON
+  HUGE_MUSHROOM_2:
+    rarity: COMMON
+  IRON_FENCE:
+    rarity: COMMON
+  THIN_GLASS:
+    rarity: COMMON
+  MELON_BLOCK:
+    rarity: COMMON
+  PUMPKIN_STEM:
+    rarity: COMMON
+  MELON_STEM:
+    rarity: COMMON
+  VINE:
+    rarity: COMMON
+  FENCE_GATE:
+    rarity: COMMON
+  BRICK_STAIRS:
+    rarity: COMMON
+  SMOOTH_STAIRS:
+    rarity: COMMON
+  MYCEL:
+    rarity: COMMON
+  WATER_LILY:
+    rarity: COMMON
+  NETHER_BRICK:
+    rarity: COMMON
+  NETHER_FENCE:
+    rarity: COMMON
+  NETHER_BRICK_STAIRS:
+    rarity: COMMON
+  NETHER_WARTS:
+    rarity: COMMON
+  ENCHANTMENT_TABLE:
+    rarity: COMMON
+  BREWING_STAND:
+    rarity: COMMON
+  CAULDRON:
+    rarity: COMMON
+  ENDER_PORTAL:
+    rarity: COMMON
+  ENDER_PORTAL_FRAME:
+    rarity: COMMON
+  ENDER_STONE:
+    rarity: COMMON
+  DRAGON_EGG:
+    rarity: COMMON
+  REDSTONE_LAMP_OFF:
+    rarity: COMMON
+  REDSTONE_LAMP_ON:
+    rarity: COMMON
+  WOOD_DOUBLE_STEP:
+    rarity: COMMON
+  WOOD_STEP:
+    rarity: COMMON
+  COCOA:
+    rarity: COMMON
+  SANDSTONE_STAIRS:
+    rarity: COMMON
+  EMERALD_ORE:
+    rarity: COMMON
+  ENDER_CHEST:
+    rarity: COMMON
+  TRIPWIRE_HOOK:
+    rarity: COMMON
+  TRIPWIRE:
+    rarity: COMMON
+  EMERALD_BLOCK:
+    rarity: COMMON
+  SPRUCE_WOOD_STAIRS:
+    rarity: COMMON
+  BIRCH_WOOD_STAIRS:
+    rarity: COMMON
+  JUNGLE_WOOD_STAIRS:
+    rarity: COMMON
+  COMMAND:
+    rarity: COMMON
+  BEACON:
+    rarity: COMMON
+  COBBLE_WALL:
+    rarity: COMMON
+  FLOWER_POT:
+    rarity: COMMON
+  CARROT:
+    rarity: COMMON
+  POTATO:
+    rarity: COMMON
+  WOOD_BUTTON:
+    rarity: COMMON
+  SKULL:
+    rarity: COMMON
+  ANVIL:
+    rarity: COMMON
+  TRAPPED_CHEST:
+    rarity: COMMON
+  GOLD_PLATE:
+    rarity: COMMON
+  IRON_PLATE:
+    rarity: COMMON
+  REDSTONE_COMPARATOR_OFF:
+    rarity: COMMON
+  REDSTONE_COMPARATOR_ON:
+    rarity: COMMON
+  DAYLIGHT_DETECTOR:
+    rarity: COMMON
+  REDSTONE_BLOCK:
+    rarity: COMMON
+  QUARTZ_ORE:
+    rarity: COMMON
+  HOPPER:
+    rarity: COMMON
+  QUARTZ_BLOCK:
+    rarity: COMMON
+  QUARTZ_STAIRS:
+    rarity: COMMON
+  ACTIVATOR_RAIL:
+    rarity: COMMON
+  DROPPER:
+    rarity: COMMON
+  STAINED_CLAY:
+    rarity: COMMON
+  STAINED_GLASS_PANE:
+    rarity: COMMON
+  LEAVES_2:
+    rarity: COMMON
+  LOG_2:
+    rarity: COMMON
+  ACACIA_STAIRS:
+    rarity: COMMON
+  DARK_OAK_STAIRS:
+    rarity: COMMON
+  SLIME_BLOCK:
+    rarity: COMMON
+  BARRIER:
+    rarity: COMMON
+  IRON_TRAPDOOR:
+    rarity: COMMON
+  PRISMARINE:
+    rarity: COMMON
+  SEA_LANTERN:
+    rarity: COMMON
+  HAY_BLOCK:
+    rarity: COMMON
+  CARPET:
+    rarity: COMMON
+  HARD_CLAY:
+    rarity: COMMON
+  COAL_BLOCK:
+    rarity: COMMON
+  PACKED_ICE:
+    rarity: COMMON
+  DOUBLE_PLANT:
+    rarity: COMMON
+  STANDING_BANNER:
+    rarity: COMMON
+  WALL_BANNER:
+    rarity: COMMON
+  DAYLIGHT_DETECTOR_INVERTED:
+    rarity: COMMON
+  RED_SANDSTONE:
+    rarity: COMMON
+  RED_SANDSTONE_STAIRS:
+    rarity: COMMON
+  DOUBLE_STONE_SLAB2:
+    rarity: COMMON
+  STONE_SLAB2:
+    rarity: COMMON
+  SPRUCE_FENCE_GATE:
+    rarity: COMMON
+  BIRCH_FENCE_GATE:
+    rarity: COMMON
+  JUNGLE_FENCE_GATE:
+    rarity: COMMON
+  DARK_OAK_FENCE_GATE:
+    rarity: COMMON
+  ACACIA_FENCE_GATE:
+    rarity: COMMON
+  SPRUCE_FENCE:
+    rarity: COMMON
+  BIRCH_FENCE:
+    rarity: COMMON
+  JUNGLE_FENCE:
+    rarity: COMMON
+  DARK_OAK_FENCE:
+    rarity: COMMON
+  ACACIA_FENCE:
+    rarity: COMMON
+  SPRUCE_DOOR:
+    rarity: COMMON
+  BIRCH_DOOR:
+    rarity: COMMON
+  JUNGLE_DOOR:
+    rarity: COMMON
+  ACACIA_DOOR:
+    rarity: COMMON
+  DARK_OAK_DOOR:
+    rarity: COMMON
+  IRON_SPADE:
+    rarity: COMMON
+  IRON_PICKAXE:
+    rarity: COMMON
+  IRON_AXE:
+    rarity: COMMON
+  FLINT_AND_STEEL:
+    rarity: COMMON
+  APPLE:
+    rarity: COMMON
+  BOW:
+    rarity: COMMON
+  ARROW:
+    rarity: COMMON
+  COAL:
+    rarity: COMMON
+  DIAMOND:
+    rarity: COMMON
+  IRON_INGOT:
+    rarity: COMMON
+  GOLD_INGOT:
+    rarity: COMMON
+  IRON_SWORD:
+    rarity: COMMON
+  WOOD_SWORD:
+    rarity: COMMON
+  WOOD_SPADE:
+    rarity: COMMON
+  WOOD_PICKAXE:
+    rarity: COMMON
+  WOOD_AXE:
+    rarity: COMMON
+  STONE_SWORD:
+    rarity: COMMON
+  STONE_SPADE:
+    rarity: COMMON
+  STONE_PICKAXE:
+    rarity: COMMON
+  STONE_AXE:
+    rarity: COMMON
+  DIAMOND_SWORD:
+    rarity: COMMON
+  DIAMOND_SPADE:
+    rarity: COMMON
+  DIAMOND_PICKAXE:
+    rarity: COMMON
+  DIAMOND_AXE:
+    rarity: COMMON
+  STICK:
+    rarity: COMMON
+  BOWL:
+    rarity: COMMON
+  MUSHROOM_SOUP:
+    rarity: COMMON
+  GOLD_SWORD:
+    rarity: COMMON
+  GOLD_SPADE:
+    rarity: COMMON
+  GOLD_PICKAXE:
+    rarity: COMMON
+  GOLD_AXE:
+    rarity: COMMON
+  STRING:
+    rarity: COMMON
+  FEATHER:
+    rarity: COMMON
+  SULPHUR:
+    rarity: COMMON
+  WOOD_HOE:
+    rarity: COMMON
+  STONE_HOE:
+    rarity: COMMON
+  IRON_HOE:
+    rarity: COMMON
+  DIAMOND_HOE:
+    rarity: COMMON
+  GOLD_HOE:
+    rarity: COMMON
+  SEEDS:
+    rarity: COMMON
+  WHEAT:
+    rarity: COMMON
+  BREAD:
+    rarity: COMMON
+  LEATHER_HELMET:
+    rarity: COMMON
+  LEATHER_CHESTPLATE:
+    rarity: COMMON
+  LEATHER_LEGGINGS:
+    rarity: COMMON
+  LEATHER_BOOTS:
+    rarity: COMMON
+  CHAINMAIL_HELMET:
+    rarity: COMMON
+  CHAINMAIL_CHESTPLATE:
+    rarity: COMMON
+  CHAINMAIL_LEGGINGS:
+    rarity: COMMON
+  CHAINMAIL_BOOTS:
+    rarity: COMMON
+  IRON_HELMET:
+    rarity: COMMON
+  IRON_CHESTPLATE:
+    rarity: COMMON
+  IRON_LEGGINGS:
+    rarity: COMMON
+  IRON_BOOTS:
+    rarity: COMMON
+  DIAMOND_HELMET:
+    rarity: COMMON
+  DIAMOND_CHESTPLATE:
+    rarity: COMMON
+  DIAMOND_LEGGINGS:
+    rarity: COMMON
+  DIAMOND_BOOTS:
+    rarity: COMMON
+  GOLD_HELMET:
+    rarity: COMMON
+  GOLD_CHESTPLATE:
+    rarity: COMMON
+  GOLD_LEGGINGS:
+    rarity: COMMON
+  GOLD_BOOTS:
+    rarity: COMMON
+  FLINT:
+    rarity: COMMON
+  PORK:
+    rarity: COMMON
+  GRILLED_PORK:
+    rarity: COMMON
+  PAINTING:
+    rarity: COMMON
+  GOLDEN_APPLE:
+    rarity: COMMON
+  SIGN:
+    rarity: COMMON
+  WOOD_DOOR:
+    rarity: COMMON
+  BUCKET:
+    rarity: COMMON
+  WATER_BUCKET:
+    rarity: COMMON
+  LAVA_BUCKET:
+    rarity: COMMON
+  MINECART:
+    rarity: COMMON
+  SADDLE:
+    rarity: COMMON
+  IRON_DOOR:
+    rarity: COMMON
+  REDSTONE:
+    rarity: COMMON
+  SNOW_BALL:
+    rarity: COMMON
+  BOAT:
+    rarity: COMMON
+  LEATHER:
+    rarity: COMMON
+  MILK_BUCKET:
+    rarity: COMMON
+  CLAY_BRICK:
+    rarity: COMMON
+  CLAY_BALL:
+    rarity: COMMON
+  SUGAR_CANE:
+    rarity: COMMON
+  PAPER:
+    rarity: COMMON
+  BOOK:
+    rarity: COMMON
+  SLIME_BALL:
+    rarity: COMMON
+  STORAGE_MINECART:
+    rarity: COMMON
+  POWERED_MINECART:
+    rarity: COMMON
+  EGG:
+    rarity: COMMON
+  COMPASS:
+    rarity: COMMON
+  FISHING_ROD:
+    rarity: COMMON
+  WATCH:
+    rarity: COMMON
+  GLOWSTONE_DUST:
+    rarity: COMMON
+  RAW_FISH:
+    rarity: COMMON
+  COOKED_FISH:
+    rarity: COMMON
+  INK_SACK:
+    rarity: COMMON
+  BONE:
+    rarity: COMMON
+  SUGAR:
+    rarity: COMMON
+  CAKE:
+    rarity: COMMON
+  BED:
+    rarity: COMMON
+  DIODE:
+    rarity: COMMON
+  COOKIE:
+    rarity: COMMON
+  MAP:
+    rarity: COMMON
+  SHEARS:
+    rarity: COMMON
+  MELON:
+    rarity: COMMON
+  PUMPKIN_SEEDS:
+    rarity: COMMON
+  MELON_SEEDS:
+    rarity: COMMON
+  RAW_BEEF:
+    rarity: COMMON
+  COOKED_BEEF:
+    rarity: COMMON
+  RAW_CHICKEN:
+    rarity: COMMON
+  COOKED_CHICKEN:
+    rarity: COMMON
+  ROTTEN_FLESH:
+    rarity: COMMON
+  ENDER_PEARL:
+    rarity: COMMON
+  BLAZE_ROD:
+    rarity: COMMON
+  GHAST_TEAR:
+    rarity: COMMON
+  GOLD_NUGGET:
+    rarity: COMMON
+  NETHER_STALK:
+    rarity: COMMON
+  POTION:
+    rarity: COMMON
+  GLASS_BOTTLE:
+    rarity: COMMON
+  SPIDER_EYE:
+    rarity: COMMON
+  FERMENTED_SPIDER_EYE:
+    rarity: COMMON
+  BLAZE_POWDER:
+    rarity: COMMON
+  MAGMA_CREAM:
+    rarity: COMMON
+  BREWING_STAND_ITEM:
+    rarity: COMMON
+  CAULDRON_ITEM:
+    rarity: COMMON
+  EYE_OF_ENDER:
+    rarity: COMMON
+  SPECKLED_MELON:
+    rarity: COMMON
+  MONSTER_EGG:
+    rarity: COMMON
+  EXP_BOTTLE:
+    rarity: COMMON
+  FIREBALL:
+    rarity: COMMON
+  BOOK_AND_QUILL:
+    rarity: COMMON
+  WRITTEN_BOOK:
+    rarity: COMMON
+  EMERALD:
+    rarity: COMMON
+  ITEM_FRAME:
+    rarity: COMMON
+  FLOWER_POT_ITEM:
+    rarity: COMMON
+  CARROT_ITEM:
+    rarity: COMMON
+  POTATO_ITEM:
+    rarity: COMMON
+  BAKED_POTATO:
+    rarity: COMMON
+  POISONOUS_POTATO:
+    rarity: COMMON
+  EMPTY_MAP:
+    rarity: COMMON
+  GOLDEN_CARROT:
+    rarity: COMMON
+  SKULL_ITEM:
+    rarity: COMMON
+  CARROT_STICK:
+    rarity: COMMON
+  NETHER_STAR:
+    rarity: COMMON
+  PUMPKIN_PIE:
+    rarity: COMMON
+  FIREWORK:
+    rarity: COMMON
+  FIREWORK_CHARGE:
+    rarity: COMMON
+  ENCHANTED_BOOK:
+    rarity: COMMON
+  REDSTONE_COMPARATOR:
+    rarity: COMMON
+  NETHER_BRICK_ITEM:
+    rarity: COMMON
+  QUARTZ:
+    rarity: COMMON
+  EXPLOSIVE_MINECART:
+    rarity: COMMON
+  HOPPER_MINECART:
+    rarity: COMMON
+  PRISMARINE_SHARD:
+    rarity: COMMON
+  PRISMARINE_CRYSTALS:
+    rarity: COMMON
+  RABBIT:
+    rarity: COMMON
+  COOKED_RABBIT:
+    rarity: COMMON
+  RABBIT_STEW:
+    rarity: COMMON
+  RABBIT_FOOT:
+    rarity: COMMON
+  RABBIT_HIDE:
+    rarity: COMMON
+  ARMOR_STAND:
+    rarity: COMMON
+  IRON_BARDING:
+    rarity: COMMON
+  GOLD_BARDING:
+    rarity: COMMON
+  DIAMOND_BARDING:
+    rarity: COMMON
+  LEASH:
+    rarity: COMMON
+  NAME_TAG:
+    rarity: COMMON
+  COMMAND_MINECART:
+    rarity: COMMON
+  MUTTON:
+    rarity: COMMON
+  COOKED_MUTTON:
+    rarity: COMMON
+  BANNER:
+    rarity: COMMON
+  SPRUCE_DOOR_ITEM:
+    rarity: COMMON
+  BIRCH_DOOR_ITEM:
+    rarity: COMMON
+  JUNGLE_DOOR_ITEM:
+    rarity: COMMON
+  ACACIA_DOOR_ITEM:
+    rarity: COMMON
+  DARK_OAK_DOOR_ITEM:
+    rarity: COMMON
+  GOLD_RECORD:
+    rarity: COMMON
+  GREEN_RECORD:
+    rarity: COMMON
+  RECORD_3:
+    rarity: COMMON
+  RECORD_4:
+    rarity: COMMON
+  RECORD_5:
+    rarity: COMMON
+  RECORD_6:
+    rarity: COMMON
+  RECORD_7:
+    rarity: COMMON
+  RECORD_8:
+    rarity: COMMON
+  RECORD_9:
+    rarity: COMMON
+  RECORD_10:
+    rarity: COMMON
+  RECORD_11:
+    rarity: COMMON
+  RECORD_12:
+    rarity: COMMON

@@ -1,0 +1,197 @@
+title: Farmer
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT_ITEM
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTATO_ITEM
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+      amount: 10
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR_CANE
+      amount: 3
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PUMPKIN
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 6.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 6.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CACTUS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SAND
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

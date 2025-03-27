@@ -1,0 +1,30 @@
+{
+  "spawnerBooster": {
+    "crystalsCost": 15,
+    "vaultCost": 0,
+    "time": 3600,
+    "enabled": true,
+    "slot": 10
+  },
+  "farmingBooster": {
+    "crystalsCost": 15,
+    "vaultCost": 0,
+    "time": 3600,
+    "enabled": true,
+    "slot": 12
+  },
+  "experianceBooster": {
+    "crystalsCost": 15,
+    "vaultCost": 0,
+    "time": 3600,
+    "enabled": true,
+    "slot": 14
+  },
+  "flightBooster": {
+    "crystalsCost": 15,
+    "vaultCost": 0,
+    "time": 3600,
+    "enabled": true,
+    "slot": 16
+  }
+}

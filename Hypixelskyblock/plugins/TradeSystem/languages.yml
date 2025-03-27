@@ -1,0 +1,84 @@
+do:not:touch:this: default
+money_trade_inventory:
+  money_not_added: '&cNo money added to the trade'
+  title: '&6Add money to the trade'
+  cancel_item:
+    name: '&cCancelar'
+  confirm_item:
+    name: '&eAdd &6%money% &eto the trade'
+  vault:
+    not_enough_money: '&cYou don''t have enough money'
+  cannot_remove_money: '&cMoney can''t go below 0'
+  money_added: '&aAdded &2%money%&a to the trade'
+blacklist_command:
+  syntax: '&cInvalid syntax, use /tblacklist <add/remove> <jugador>'
+  unblacklisted: '&aYou will receive trade requests from &2&l%name%'
+  already_blacklisted: '&cYou have already blacklisted &4&l%name%'
+  blacklisted: '&aYou wont receive any trade request from &4&l%name%'
+  not_blacklisted: '&4&l%name% is not blacklisted'
+trade_inventory:
+  unlocking_item:
+    name: '&6&lUnlocking items...'
+  accept_item:
+    name: '&aAccept'
+  cancel_item:
+    name: '&cCancel'
+  invalid_item: '&cThis item cannot be traded.'
+  title: '&8Trading...'
+  lock_item:
+    name: '&eLocked'
+  slots_full: '&cSlots are full'
+  money_item:
+    name: '&6%name%''s money: &e%money%'
+  end_trading_item:
+    name: '&eTrade completes in %seconds% seconds'
+prefix: '&9&lTrades '
+trade_request:
+  accept:
+    hover: '&aAccept trade request'
+    text: '&a&l[ACCEPT] '
+  deny:
+    text: "&c&l[DENY]"
+    hover: '&cDeny trade request'
+  sent: '&aYou sent a trade request to &b%to%&a.'
+  received: |-
+    &b%from% &asent you a trade request.
+inventories_empty: '&cBoth inventories are empty.'
+trade_request_expired:
+  sender: '&cThe trade request to &b%to% &chas expired.'
+  receiver: '&cThe trade request from &b%from% &chas expired.'
+spectate_trade_command:
+  not_trading: '&4%name%&c is not trading'
+  syntax: '&cInvalid syntax, use /spectatetrade <jugador>'
+  stop_spectating: '&cNo longer spectating the trade'
+  spectating: '&aSpectating &2&l%sender%&a -> &2&l%receiver%&a trade'
+trade_deny_command:
+  syntax: '&cInvalid syntax, use /tradedeny <jugador>'
+  not_requested: '&cYou don''t have any trade requests from &b%name%&c.'
+trade_completed: '&aTrade completed!'
+trade_accept_command:
+  not_requested: '&cYou don''t have any trade requests from &b%name%&c.'
+  inventory_open: '&b%name%&c has an open inventory, you cannot start the exchange.'
+  syntax: '&cInvalid syntax, use /tradeaccept <jugador>'
+  invalid_player: '&cPlayer offline or does not exist.'
+  creative_trade: '&cTrades between players in creative are disabled by the server'
+trade_request_denied:
+  sender: '&cThe player &b%to%&c denied your trade request.'
+  receiver: '&aYou have rejected the trade request from &b%from%&a.'
+trade_cancelled: '&b%name%&c has cancelled the trade.'
+trade_command:
+  syntax: '&cUsage: /trade <player>'
+  invalid_world: '&cTrades are disabled in your or in &4&l%name%&c''s world'
+  invalid_player: '&cPlayer offline or does not exist.'
+  different_worlds: '&cYou and &b%name%&c are not on the same server.'
+  trades_off: '&4&l%name%&c has deactivated trades'
+  player_too_far: '&b%name%&c is too far away!'
+not_enough_space: '&b%name%&c''s inventory has not enough space'
+trade_request_accepted:
+  sender: '&b%to%&a accepted your trade request.'
+  receiver: '&aYou accepted &b%from%''s &atrade request.'
+no_permission: '&fUnknown command.'
+wait_expire_time: '&cWait until the last request to this player expires.'
+on_cooldown: '&cSorry, your trade requests with &4&l%name%&c are on cooldown'
+toggletrades_command:
+  toggled: '&bTrades toggled &9&l%state%'

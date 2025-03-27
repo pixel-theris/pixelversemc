@@ -1,0 +1,25 @@
+tasks:
+  citizensinteract:
+    type: "citizens_interact"
+    npc-name: "lift-operator-1"
+display:
+  name: "&aNPC Quest"
+  lore-normal:
+  - "&7Talk to the Lift Operator"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.talk-to-the-lift-operator true"
+  - "customplaceholders set {player} mission_mine &eVisit_the_Lapis_Quarry"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fTalk to the Lift Operator"
+  - "whisper {player} &7"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 13

@@ -1,0 +1,158 @@
+foraging:
+  blocks:
+    log:
+      material: LOG
+      xp: 1.0
+    log_2:
+      material: LOG_2
+      xp: 1.0
+enchanting:
+  items:
+    diamond_sword:
+      item: DIAMOND_SWORD
+      xp: 4.0
+combat:
+  entities:
+    zombies:
+      entity: ZOMBIE
+      xp: 2.0
+    creeper:
+      entity: CREEPER
+      xp: 2.0
+    creepers:
+      entity: CREEPER
+      xp: 2.0
+    endermans:
+      entity: ENDERMAN
+      xp: 15.0
+    pigs:
+      entity: PIG
+      xp: 1.0
+    chickens:
+      entity: CHICKEN
+      xp: 1.0
+    cows:
+      entity: COW
+      xp: 1.0
+    pig_zombies:
+      entity: PIG_ZOMBIE
+      xp: 5.0
+    silverfishs:
+      entity: SILVERFISH
+      xp: 3.0
+    blazes:
+      entity: BLAZE
+      xp: 7.5
+    magma_cubes:
+      entity: MAGMA_CUBE
+      xp: 7.5
+    spiders:
+      entity: SPIDER
+      xp: 10.0
+farmer:
+  blocks:
+    crops:
+      material: CROPS
+      xp: 1.0
+    wheat:
+      material: WHEAT
+      xp: 1.0
+    cactus:
+      material: CACTUS
+      xp: 1.0
+    sugar_cane:
+      material: SUGAR_CANE
+      xp: 2.0
+    nether_warts:
+      material: NETHER_WARTS
+      xp: 3.0
+    carrot:
+      material: CARROT
+      xp: 1.0
+    cocoa:
+      material: COCOA
+      xp: 2.0
+    melon:
+      material: MELON
+      xp: 2.0
+    potato:
+      material: POTATO
+      xp: 1.0
+    COCOA:
+      material: COCOA
+      xp: 1.0
+    melon_block:
+      material: MELON_BLOCK
+      xp: 3.0
+    pumpkin:
+      material: PUMPKIN
+      xp: 3.0
+    red_mushroom:
+      material: RED_MUSHROOM
+      xp: 1.0
+    brown_mushroom:
+      material: BROWN_MUSHROOM
+      xp: 1.0
+miner:
+  blocks:
+    OBSIDIAN:
+      material: OBSIDIAN
+      xp: 7.0
+    NETHERRACK:
+      material: NETHERRACK
+      xp: 1.0
+    ENDER_STONE:
+      material: ENDER_STONE
+      xp: 1.0
+    GOLD_ORE:
+      material: GOLD_ORE
+      xp: 3.0
+    IRON_ORE:
+      material: IRON_ORE
+      xp: 3.0
+    DIAMOND_ORE:
+      material: DIAMOND_ORE
+      xp: 4.0
+    EMERALD_ORE:
+      material: EMERALD_ORE
+      xp: 5.0
+    COAL_ORE:
+      material: COAL_ORE
+      xp: 2.0
+    QUARTZ_ORE:
+      material: QUARTZ_ORE
+      xp: 3.0
+    LAPIS_ORE:
+      material: LAPIS_ORE
+      xp: 3.0
+    GLOWING_REDSTONE_ORE:
+      material: GLOWING_REDSTONE_ORE
+      xp: 3.0
+    GLOWSTONE:
+      material: GLOWSTONE
+      xp: 2.0
+    STONE:
+      material: STONE
+      xp: 1.0
+    COBBLESTONE:
+      material: COBBLESTONE
+      xp: 0.5
+fishing:
+  entities:
+    fish:
+      entity: DROPPED_ITEM
+      xp: 3.0
+alchemy:
+  items:
+    force:
+      item: BLAZE_POWDER
+      xp: 3.0
+    rare:
+      item: NETHER_STALK
+      xp: 3.0
+    speed:
+      item: SUGAR
+      xp: 3.0
+    glow:
+      item: GLOWSTONE_DUST
+      xp: 3.0

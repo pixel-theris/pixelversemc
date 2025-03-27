@@ -1,0 +1,32 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 4
+    mob: PIG
+display:
+  name: "&aCombat Quest"
+  lore-normal:
+  - "&7Objective:&r &fKill 4 pigs."
+  - "&7Progress:&r &f{killing:progress}/4 pigs."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.kill-some-pigs true"
+  - "customplaceholders set {player} mission_farm &eKill_some_cows"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fKill some pigs"
+  - "whisper {player} &7"
+  - "q a moddata start {player} combatquest2"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fKill some cows"
+  - "whisper {player} &7"
+options:
+  category: "combat"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 1

@@ -1,0 +1,581 @@
+menu_title: '(1/2) Enchanting Recipes'
+open_command: 'enchanting-recipes'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanting:
+        material: 116
+        slot: 4
+        display_name: '&aEnchanting Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Enchanting Recipes!'
+        left_click_commands: []
+        right_click_commands: []
+
+      THORNS-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 11
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_cactus%'
+              output: 1000
+        lore:
+        - ''
+        - '&9Thorns I'
+        - '&a50% &7chance to rebound &a3%'
+        - '&7damage you took at the attacker'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview THORNS-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview THORNS-I-BOOK'
+
+      FEATHER-FALLING-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 12
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_feather%'
+              output: 100
+        lore:
+        - ''
+        - '&9Feahter Falling I'
+        - '&7Deacreases fall damage by &a5%'
+        - '&7and increases height before fall'
+        - '&7damage by &a1 &7blocks.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview FEATHER-FALLING-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview FEATHER-FALLING-I-BOOK'
+
+      PROJECTILE-PROTECTION-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 13
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_feather%'
+              output: 250
+        lore:
+        - ''
+        - '&9Projectile Protection I'
+        - '&7Grants &a+4 ❇ Defense'
+        - '&7against projectiles'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview PROJECTILE-PROTECTION-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview PROJECTILE-PROTECTION-I-BOOK'
+
+      PROTECTION-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 19
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Enchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_ironingot%'
+              output: 500
+        lore:
+        - ''
+        - '&9Protection IV'
+        - '&7Grants &a+12 ❇ Defense&7.'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview PROTECTION-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview PROTECTION-IV-BOOK'
+
+      FORTUNE-II:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 20
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Enchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_goldingot%'
+              output: 500
+        lore:
+        - ''
+        - '&9Fortune II'
+        - '&7Icreases the chance of blocks'
+        - '&7to drop double amount of items'
+        - '&7by &a20%&7.'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview FORTUNE-II-BOOK'
+        right_click_commands:
+        - '[player] fc preview FORTUNE-II-BOOK'
+
+      LOOTING-II:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 21
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Enchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_goldingot%'
+              output: 2500
+        lore:
+        - ''
+        - '&9Looting II'
+        - '&7Icreases the chance of '
+        - '&7mobs dropping items by &a30%'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview LOOTING-II-BOOK'
+        right_click_commands:
+        - '[player] fc preview LOOTING-II-BOOK'
+
+      EFFICIENCY-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 24
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Enchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_redstone%'
+              output: 500
+        lore:
+        - ''
+        - '&9Efficiency IV'
+        - '&7Icreases how quickly your tool'
+        - '&7breaks blocks.'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview EFFICIENCY-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview EFFICIENCY-IV-BOOK'
+
+      SHARPNESS-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 28
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Enchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_gravel%'
+              output: 250
+        lore:
+        - ''
+        - '&9Sharpness IV'
+        - '&7Icreases melee damage dealt by'
+        - '&a20%&7.'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview SHARPNESS-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview SHARPNESS-IV-BOOK'
+
+      GRAND-XP-BOTTLE:
+        material: 384
+        priority: 1
+        slot: 29
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aGrand Experience Bottle'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_lapislazuli%'
+              output: 500
+        lore:
+        - '&7Smash it open to receive'
+        - '&7experience!'
+        - ''
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview GRAND-EXPERIENCE-BOTTLE'
+        right_click_commands:
+        - '[player] fc preview GRAND-EXPERIENCE-BOTTLE'
+
+      TITANIC-XP-BOTTLE:
+        material: 384
+        priority: 1
+        slot: 30
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&9Titanic Experience Bottle'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_lapislazuli%'
+              output: 1000
+        lore:
+        - '&7Smash it open to receive'
+        - '&7experience!'
+        - ''
+        - '&9&lRARE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview TITANIC-EXPERIENCE-BOTTLE'
+        right_click_commands:
+        - '[player] fc preview TITANIC-EXPERIENCE-BOTTLE'
+
+      SMITE-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 32
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_rottenflesh%'
+              output: 250
+        lore:
+        - ''
+        - '&9Smite IV'
+        - '&7Icreases damage dealt to'
+        - '&7Zombies, Skeletons, Withers'
+        - '&7and Zombie Pigman by &a32%&7.'
+        - '&a20%&7.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview SMITE-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview SMITE-IV-BOOK'
+
+      POWER-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 33
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_bone%'
+              output: 500
+        lore:
+        - ''
+        - '&9Power IV'
+        - '&7Icreases bow damage by &a32&7.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview POWER-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview POWER-IV-BOOK'
+
+      SILK-TOUCH-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 34
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_bone%'
+              output: 500
+        lore:
+        - ''
+        - '&9Silk Touch I'
+        - '&7Mined blocks drop itself instead'
+        - '&7of their normal drops'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview SILK-TOUCH-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview SILK-TOUCH-I-BOOK'
+
+      BANE-OF-ARTHROPODS-IV:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 40
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_spidereye%'
+              output: 500
+        lore:
+        - ''
+        - '&9Bane of Arthropods IV'
+        - '&7Increases damage dealt to'
+        - '&7Spiders, Silverfish, and Cave Spider by &a32%'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview BANE-OF-ARTHROPODS-IV-BOOK'
+        right_click_commands:
+        - '[player] fc preview BANE-OF-ARTHROPODS-IV-BOOK'
+
+      FIRE-ASPECT-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 42
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_blazerod%'
+              output: 500
+        lore:
+        - ''
+        - '&9Fire Aspect I'
+        - '&7Ignites your enemies for at least &a3'
+        - '&7seconds, dealing &a3 &7damage per'
+        - '&7second.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview FIRE-ASPECT-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview FIRE-ASPECT-I-BOOK'
+
+      FLAME-I:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 43
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_blazerod%'
+              output: 1000
+        lore:
+        - ''
+        - '&9Flame I'
+        - '&7Arrow ignites target for &a3 &7seconds,'
+        - '&7dealing &a2 &7damage every second&7.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview FLAME-I-BOOK'
+        right_click_commands:
+        - '[player] fc preview FLAME-I-BOOK'
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      next-page:
+        material: ARROW
+        priority: 3
+        slot: 53
+        display_name: '&aNext Page'
+        lore:
+        - '&ePage 2'
+        left_click_commands:
+        - '[openguimenu] enchanting-recipes-2'
+        right_click_commands:
+        - '[openguimenu] enchanting-recipes-2'
+
+      go-back:
+        material: ARROW
+        slot: 48
+        priority: 5
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

@@ -1,0 +1,184 @@
+
+on bucket fill:
+    if event-world is "Server":
+        cancel event
+        message "&cYou can't pick up this %event-item%!"
+        stop
+    else:
+        stop
+
+on bucket empty:
+    if event-world is "Server":
+        cancel event
+        message "&cYou can't pick up this %event-item%!"
+        stop
+    else:
+        stop
+
+on death:
+	if the attacker is a player:
+		set death message to " &c☠ &7%victim's displayname% &7has been killed by &7%attacker%"
+        make the server execute command "/entitydeath %victim%"
+		stop
+	if the attacker is a entity:
+		set death message to " &c☠ &7%victim's displayname% &7has been killed by entity!"
+        make the server execute command "/entitydeath %victim%"
+		stop
+	else:
+		set death message to " &c☠ &7%victim's displayname% &7has died!"
+        make the server execute command "/entitydeath %victim%"
+		stop
+    
+on craft:
+    if event-item is 259 or fire charge:
+        cancel event
+        message "&cYou can't craft %event-item%!"
+
+on block break:
+    if player has enough space for 64 bedrock:
+        stop
+    else:  
+        make the console execute command "/title %player's name% title {""text"":""Inventory Full"",""bold"":true,""color"":""red""}"
+        message "&c&lYour inventory is full!"
+        stop
+
+on hunger meter change:
+    cancel event
+
+command /emojis:
+    aliases: /chatemojis, /emoji
+    trigger:
+        message "&aAll the players have access to the following chat emojis:"
+        message "&6<3 &f- &c❤"
+        message "&6:star: &f- &6✭&f"
+        message "&6:yes: &f- &a✔&f"
+        message "&6:no: &f- &c✖&f"
+        message "&6:java: &f- &b♨&f"
+        message "&6:arrow: &f- &e➡&f"
+        message "&6:mehh: &f- &e¯\_(ツ)_/¯&f"
+        message "&6:owo: &f- &dO&5w&dO&f"
+        message "&6o/ &f- &d(/◕ヮ◕)/&f"
+        message "&6:123: &f- &a1&e2&c3&f"
+        message "&6:OOF: &f- &c&lOOF"
+        message "&6:typing: &f- &e✎&6...&f"
+
+on chat:
+    replace all "<3" in the message with "&c❤&7"
+    replace all ":star:" in the message with "&6✭&7"
+    replace all ":owo:" in the message with "&dO&5w&dO&7"
+    replace all "o/" in the message with "&d(/◕ヮ◕)/&7"
+    replace all ":OOF:" in the message with "&c&lOOF&7"
+    replace all ":123:" in the message with "&a1&e2&c3&7"
+    replace all ":mehh:" in the message with "&e¯\_(ツ)_/¯&7"
+    replace all ":yes:" in the message with "&a✔&7"
+    replace all ":no:" in the message with "&c✖&7"
+    replace all ":java:" in the message with "&b♨&7"
+    replace all ":arrow:" in the message with "&e➡&7"
+    replace all ":typing:" in the message with "&e✎&6...&7"
+
+on skript load:
+    make the server execute command "/chatty"
+
+on chat:
+    replace all "Cunt" and "Asshole" and "Nigger" and "Paki" and "Chinky" and "Prick" and "Dick" and "Shit" and "Bastard" and "Wanker" and "Sket" and "Slut" and "Clit" and "Vagina" and "Penis" and "Twat" and "Fuck" and "Fucking" and "Fucker" and "Faggot" and "Gay" and "Fag" and "lesbian" and "hitler" and "anal" in the message with "****"
+
+on join:
+    if the player has permission "rank.admin":
+        make the server execute command "/enick %player% &c%player%"
+        stop
+    if the player has permission "rank.mod":
+        make the server execute command "/enick %player% &2%player%"
+        stop
+    if the player has permission "rank.helper":
+        make the server execute command "/enick %player% &9%player%"
+        stop
+    if the player has permission "rank.mvp++":
+        make the server execute command "/enick %player% &6%player%"
+        stop
+    if the player has permission "rank.mvp+":
+        make the server execute command "/enick %player% &b%player%"
+        stop
+    if the player has permission "rank.mvp":
+        make the server execute command "/enick %player% &b%player%"
+        stop
+    if the player has permission "rank.vip+":
+        make the server execute command "/enick %player% &a%player%"
+        stop
+    if the player has permission "rank.vip":
+        make the server execute command "/enick %player% &a%player%"
+        stop
+    if the player has permission "rank.default":
+        make the server execute command "/enick %player% &7%player%"
+        stop
+    else:
+        make the server execute command "/enick %player% &7%player%"
+        stop
+
+on join:
+    set join message to ""
+
+on quit:
+    set quit message to ""
+
+on weather change to rainy:
+    set weather to sunny
+
+on weather change to thundering:
+    set weather to sunny	
+
+on command:
+    if command contains ":" or "?" or "bukkit" or "spigot":
+        if the player doesn't have permission "rank.admin":
+            message "&fUnknown command."
+            cancel event
+        else:
+            stop
+
+command /ver <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /? <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /version <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /about <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /bukkit:about <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /bukkit:ver <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /bukkit:version <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."
+command /bukkit:help <text>:
+	trigger:
+		if arg 1 is not set:
+			message "&7Invalid command, please try again."
+		if arg 1 is "[<tab>]":
+			message "&7Invalid command, please try again."	

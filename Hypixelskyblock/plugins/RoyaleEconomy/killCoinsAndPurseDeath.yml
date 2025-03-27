@@ -1,0 +1,148 @@
+kill-coins:
+  #Set this to false if you don't want players to
+  #receive coins on mob kill
+  use-kill-coins: false
+  use-maximum-coins: false
+  #Use %amount% for the amount of coins gained
+  #Use #entity-display% for the name of the entity
+  message-on-kill: '&6+%amount% coins (%entity-display% Kill)'
+  default-coins: '3'
+  default-permission: 'none'
+  default-display-name: '&6Entity'
+  default-message: '&fYou got &63 coins&f for killing something!'
+  #How much coins can a player get from kills per day
+  #If you set this to 0 it will be unlimited, otherwise the player
+  #can't get more than the limit you set
+  maximum-coins-per-day: 0
+  maximum-reached-message:
+    - '&cYou reached a maximum of coins!'
+    - '&cYou won''t receive any more coins for killing things.'
+    - ''
+    - '&cYou will start to get coins again tomorrow!'
+  #kill events based on entity types
+  kill-events:
+    #The list of entity types: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+    event1:
+      entity-type: 'PLAYER'
+      #Permission to get coins from killing this entity
+      #Set to none if u want everyone to be able to get coins
+      permission: 'none'
+      display-name: '&cPlayer'
+      coins-to-give: '15'
+      #After you kill the maximum number you
+      #won't receive any more coins for killing this entity
+      #set 0 for no limit
+      maximum-kills: 1000
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing players.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event2:
+      entity-type: 'ZOMBIE'
+      permission: 'none'
+      display-name: 'Zombie'
+      coins-to-give: '5-10'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing zombies.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event3:
+      entity-type: 'SKELETON'
+      permission: 'none'
+      display-name: 'Skeleton'
+      coins-to-give: '10-25'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing skeletons.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event4:
+      entity-type: 'BLAZE'
+      permission: 'none'
+      display-name: 'Blaze'
+      coins-to-give: '70-100'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing skeletons.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event5:
+      entity-type: 'SILVERFISH'
+      permission: 'none'
+      display-name: 'Silverfish'
+      coins-to-give: '25-35'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing skeletons.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event6:
+      entity-type: 'SPIDER'
+      permission: 'none'
+      display-name: 'Spider'
+      coins-to-give: '20-30'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing skeletons.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+    event6:
+      entity-type: 'MAGMA_CUBE'
+      permission: 'none'
+      display-name: 'Magma Cube'
+      coins-to-give: '60-80'
+      maximum-kills: 0
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing skeletons.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+  #kill events based on entity name
+  #has priority over entity type
+  custom-kill-events:
+    event1:
+      entity-name: '&aCustom Entity Name'
+      #Permission to get coins from killing this entity
+      #Set to none if u want everyone to be able to get coins
+      permission: 'none'
+      display-name: '&aCustom Entity'
+      coins-to-give: '15'
+      #After you kill the maximum number you
+      #won't receive any more coins for killing this entity
+      #set 0 for no limit
+      maximum-kills: 1000
+      maximum-reached-message:
+        - '&cYou reached a maximum of kills!'
+        - '&cYou won''t receive any more coins for killing custom entities.'
+        - ''
+        - '&cYou will start to get coins again tomorrow!'
+
+
+
+purse-coins-handle:
+  #Set this to false if you don't want players to
+  #lose coins on death
+  use-purse-coins-death: true
+  #Use numbers from 0 to 100 for percents
+  default-percent: 50
+  default-message: '&cYou died and lost %coins% coins from your purse!'
+  death-events:
+    #Here you can create custom percents for every death cause in the list from the link below
+    #If the event is not specified but the use-purse-coins-death is true, it will take
+    #the default percent
+    #Check death causes at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+    event1:
+      death-cause: 'ENTITY_ATTACK'
+      percent-to-take: 50
+      message-to-give: '&cYou lost %coins% coins for being killed by a mob/player.'
+    event2:
+      death-cause: 'VOID'
+      percent-to-take: 50
+      message-to-give: '&cYou lost %coins% coins for falling in the void.'

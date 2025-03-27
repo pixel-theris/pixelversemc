@@ -1,0 +1,38 @@
+Plugin:
+  prefix: '&7[&6GrapplingHook&7] '
+  grapplingHookName: '&aGrappling Hook'
+  useAir: false
+  useInAllWorlds: true
+  onFishingDisable: false
+  crafting: false
+  cooldown: 2.0
+Messages:
+  reload: '&7Config reloaded!'
+  noperm: '&4You have no permissions to do that.'
+  unknownCMD: '&7Unknown command or wrong syntax.'
+  onlyNumbers: '&4Only numbers!'
+  useInAllWorlds: '&7Grappling hook in all worlds enabled.'
+  useInIndividualWorlds: '&7Grappling hook is now in each world individually
+    enabled.'
+  setSound: '&7You set the sound to: %sound%.'
+  setWorld: '&2The world: %world% has been added to the list.'
+  removeWorld: '&4The world: %world% has been removed from the list.'
+  alreadyInList: '&7World: %world%) is already in the list.'
+  isNotInList: '&7World: %world% isn''t in the list.'
+  cooldown: '&cPlease wait %timeLeft%s before using the Grappling Hook again!'
+  setCooldown: '&7New cooldown: %newTime%s'
+  useAir: '&7UseAir is now: %state%'
+  crafting: '&7Crafting is now: %state%'
+Sound:
+  grapplinghookSound: ENDERMAN_TELEPORT
+Recipe:
+  slot1: ''
+  slot2: ''
+  slot3: Stick
+  slot4: ''
+  slot5: Stick
+  slot6: String
+  slot7: Stick
+  slot8: ''
+  slot9: Iron_Ingot
+WorldList: []

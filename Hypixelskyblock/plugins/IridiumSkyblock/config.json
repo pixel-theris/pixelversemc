@@ -1,0 +1,554 @@
+{
+  "prefix": "&7",
+  "worldName": "Islands",
+  "netherWorldName": "IridiumSkyblock_nether",
+  "chatRankPlaceholder": "[ISLAND_RANK]",
+  "chatValuePlaceholder": "[ISLAND_VALUE]",
+  "chatNAMEPlaceholder": "[ISLAND_NAME]",
+  "chatLevelPlaceholder": "[ISLAND_LEVEL]",
+  "placeholderDefaultValue": "N/A",
+  "thousandAbbreviation": "K",
+  "millionAbbreviation": "M",
+  "billionAbbreviation": "B",
+  "mainCommandPerm": "",
+  "createCooldown": true,
+  "doIslandBackup": true,
+  "bankWithdrawing": true,
+  "islandShop": false,
+  "automaticUpdate": false,
+  "defaultIslandPublic": true,
+  "netherIslands": false,
+  "forceShortPortalRadius": true,
+  "islandMenu": false,
+  "voidTeleport": true,
+  "notifyAvailableUpdate": false,
+  "clearInventories": false,
+  "restartUpgradesOnRegen": true,
+  "allowWaterInNether": true,
+  "createIslandonHome": true,
+  "allowExplosions": false,
+  "disablePvPBetweenIslandMembers": true,
+  "disablePvPOnIslands": true,
+  "allowMobGuestTargeting": true,
+  "disableBypassOnJoin": true,
+  "displayNumberAbbreviations": true,
+  "prettierAbbreviations": true,
+  "logTransactions": true,
+  "logBankBalanceChange": true,
+  "keepInventoryOnVoid": true,
+  "createIslandOnJoin": false,
+  "ignoreCooldownOnJoinCreation": false,
+  "enableBlockStacking": true,
+  "stripTopIslandPlaceholderColors": true,
+  "deleteBackupsAfterDays": 7,
+  "regenCooldown": 3600,
+  "distance": 250,
+  "backupIntervalMinutes": 60,
+  "maxIslandName": 16,
+  "minIslandName": 3,
+  "valueUpdateInterval": 3600,
+  "playersOnIslandRefreshTime": 15,
+  "intervalBetweenMobTarget": 15,
+  "islandMoneyPerValue": 1000,
+  "numberAbbreviationDecimalPlaces": 2,
+  "valuePerLevel": 100.0,
+  "dailyMoneyInterest": 0.0,
+  "dailyCrystalsInterest": 0.0,
+  "dailyExpInterest": 0.0,
+  "defaultBiome": "PLAINS",
+  "defaultNetherBiome": "NETHER_WASTES",
+  "missionRestart": "Daily",
+  "worldSpawn": "Village",
+  "defaultPermissions": {
+    "Moderator": {
+      "breakBlocks": true,
+      "placeBlocks": true,
+      "interact": true,
+      "kickMembers": true,
+      "inviteMembers": true,
+      "regen": true,
+      "islandprivate": true,
+      "promote": true,
+      "demote": true,
+      "useNetherPortal": true,
+      "useWarps": true,
+      "coop": true,
+      "withdrawBank": true,
+      "killMobs": true,
+      "pickupItems": true,
+      "breakSpawners": true
+    },
+    "Member": {
+      "breakBlocks": true,
+      "placeBlocks": true,
+      "interact": true,
+      "kickMembers": true,
+      "inviteMembers": true,
+      "regen": true,
+      "islandprivate": true,
+      "promote": true,
+      "demote": true,
+      "useNetherPortal": true,
+      "useWarps": true,
+      "coop": true,
+      "withdrawBank": true,
+      "killMobs": true,
+      "pickupItems": true,
+      "breakSpawners": true
+    },
+    "CoOwner": {
+      "breakBlocks": true,
+      "placeBlocks": true,
+      "interact": true,
+      "kickMembers": true,
+      "inviteMembers": true,
+      "regen": true,
+      "islandprivate": true,
+      "promote": true,
+      "demote": true,
+      "useNetherPortal": true,
+      "useWarps": true,
+      "coop": true,
+      "withdrawBank": true,
+      "killMobs": true,
+      "pickupItems": true,
+      "breakSpawners": true
+    },
+    "Owner": {
+      "breakBlocks": true,
+      "placeBlocks": true,
+      "interact": true,
+      "kickMembers": true,
+      "inviteMembers": true,
+      "regen": true,
+      "islandprivate": true,
+      "promote": true,
+      "demote": true,
+      "useNetherPortal": true,
+      "useWarps": true,
+      "coop": true,
+      "withdrawBank": true,
+      "killMobs": true,
+      "pickupItems": true,
+      "breakSpawners": true
+    },
+    "Visitor": {
+      "breakBlocks": false,
+      "placeBlocks": false,
+      "interact": false,
+      "kickMembers": false,
+      "inviteMembers": false,
+      "regen": false,
+      "islandprivate": false,
+      "promote": false,
+      "demote": false,
+      "useNetherPortal": true,
+      "useWarps": true,
+      "coop": false,
+      "withdrawBank": false,
+      "killMobs": false,
+      "pickupItems": true,
+      "breakSpawners": false
+    }
+  },
+  "islandTopSlots": {
+    "1": 4,
+    "2": 12,
+    "3": 14,
+    "4": 19,
+    "5": 20,
+    "6": 21,
+    "7": 22,
+    "8": 23,
+    "9": 24,
+    "10": 25
+  },
+  "limitedBlocks": {
+    "SPAWNER": 10,
+    "HOPPER": 50
+  },
+  "islandBiomes": {
+    "MUSHROOM_FIELD_SHORE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "LUKEWARM_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "FOREST": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "GIANT_SPRUCE_TAIGA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "TAIGA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "TALL_BIRCH_FOREST": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "RIVER": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "END_HIGHLANDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "COLD_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "THE_END": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BADLANDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DEEP_LUKEWARM_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_TAIGA_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DEEP_FROZEN_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MODIFIED_JUNGLE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MODIFIED_JUNGLE_EDGE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SHATTERED_SAVANNA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "WOODED_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_TAIGA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MOUNTAIN_EDGE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BEACH": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SMALL_END_ISLANDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "ICE_SPIKES": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "END_MIDLANDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DEEP_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MODIFIED_WOODED_BADLANDS_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "GIANT_TREE_TAIGA_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_BEACH": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SWAMP_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "STONE_SHORE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "JUNGLE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MUSHROOM_FIELDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DARK_FOREST": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SUNFLOWER_PLAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "TALL_BIRCH_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "FLOWER_FOREST": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "WARM_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MODIFIED_GRAVELLY_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SAVANNA_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MODIFIED_BADLANDS_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SAVANNA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "NETHER_WASTES": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SHATTERED_SAVANNA_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BIRCH_FOREST_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "WOODED_BADLANDS_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "ERODED_BADLANDS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DEEP_WARM_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DESERT": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "TAIGA_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BAMBOO_JUNGLE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "JUNGLE_EDGE": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "FROZEN_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DESERT_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DEEP_COLD_OCEAN": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "END_BARRENS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SWAMP": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_TUNDRA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BADLANDS_PLATEAU": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "PLAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "THE_VOID": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BAMBOO_JUNGLE_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "BIRCH_FOREST": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DESERT_LAKES": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "GRAVELLY_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "SNOWY_TAIGA_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "JUNGLE_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "TAIGA_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "FROZEN_RIVER": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "GIANT_TREE_TAIGA": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "WOODED_MOUNTAINS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "DARK_FOREST_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    },
+    "GIANT_SPRUCE_TAIGA_HILLS": {
+      "price": 5000.0,
+      "crystals": 5,
+      "icon": "GRASS_BLOCK"
+    }
+  },
+  "blockedEntities": [
+    "PRIMED_TNT",
+    "MINECART_TNT",
+    "FIREBALL",
+    "SMALL_FIREBALL",
+    "ENDER_PEARL"
+  ]
+}

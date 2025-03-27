@@ -1,0 +1,25 @@
+{
+  "schematics": [
+    {
+      "name": "island.schematic",
+      "x": 16.5,
+      "y": 118.0,
+      "z": 34.5,
+      "xOffset": 0.0,
+      "yOffset": 0.0,
+      "zOffset": 0.0,
+      "xNetherOffset": 0.0,
+      "yNetherOffset": 0.0,
+      "zNetherOffset": 0.0,
+      "netherisland": "nether.schematic",
+      "permission": "",
+      "item": "GRASS_BLOCK",
+      "biome": "PLAINS",
+      "displayname": "&b&lDefault Island",
+      "lore": [
+        "&7The default island"
+      ],
+      "slot": 0
+    }
+  ]
+}

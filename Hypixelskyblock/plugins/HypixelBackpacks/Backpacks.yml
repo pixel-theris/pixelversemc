@@ -1,0 +1,46 @@
+Backpacks:
+  '1':
+    title: '&aSmall Backpack'
+    slotsAmount: 9
+    texture: d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
+    craftRecipe:
+    - kkk
+    - knk
+    - kkk
+    ingredients:
+    - k:BEDROCK,0
+    - n:CHEST,0
+    rejectItems:
+      rejects: true
+      rejectType: BLACKLIST
+      items: []
+  '2':
+    title: '&aMedium Backpack'
+    slotsAmount: 18
+    texture: d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
+    craftRecipe:
+    - kkk
+    - knk
+    - kkk
+    ingredients:
+    - k:BEDROCK,0
+    - n:CHEST,0
+    rejectItems:
+      rejects: true
+      rejectType: BLACKLIST
+      items: []
+  '3':
+    title: '&aLarge Backpack'
+    slotsAmount: 27
+    texture: d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622
+    craftRecipe:
+    - kkk
+    - knk
+    - kkk
+    ingredients:
+    - k:BEDROCK,0
+    - n:CHEST,0
+    rejectItems:
+      rejects: true
+      rejectType: BLACKLIST
+      items: []

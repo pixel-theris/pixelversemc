@@ -1,0 +1,398 @@
+menu_title: 'SkyBlock Menu'
+open_command:
+- menu
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: missions.completed.go-through-the-portal
+      deny_commands:
+        - '[message] &cYou need to complete the starter objectives to access the Skyblock Menu!'
+size: 54
+update_interval: 1
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 99
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 52
+        - 53
+        - 11
+        - 12
+        - 14
+        - 32
+        - 46
+        - 47
+        - 32
+        - 15
+        - 16
+        - 17
+        - 18
+        - 26
+        - 27
+        - 28
+        - 40
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 32
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+        - 47
+        - 51
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      attributes:
+        material: head;%player_name%
+        slot: 13
+        display_name: '&aYour SkyBlock Profile'
+        lore:
+        - ' &c❤ Health &f%us_health% HP'
+        - ' &a❇ Defense &f%us_defense%'
+        - ' &f❂ True Defense &f0'
+        - ' &c❁ Strength &f%us_force%'
+        - ' &f✦ Speed &f%us_speed%%'
+        - ' &9☣ Crit Chance &f%us_critchance%%'
+        - ' &9☠ Crit Damage &f%us_critdamage%%'
+        - ' &e⚔ Bonus Attack Speed &f0%'
+        - ' &b✎ Intelligence &f%us_intelligence%'
+        - ' &3ð Sea Creature Chance &f%us_seacreature%%'
+        - ' &b✯ Magic Find &f0'
+        - ' &d♠ Pet Luck &f0'
+        - ''
+        - '&eClick to view your profile!'
+        left_click_commands:
+        - '[openguimenu] attributes'
+        right_click_commands:
+        - '[openguimenu] attributes'
+      missions:
+        material: 386
+        hide_attributes: true
+        slot: 23
+        display_name: '&aQuest Log'
+        lore:
+        - '&7View your active quests,'
+        - '&7progress and rewards.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] missions'
+        right_click_commands:
+        - '[openguimenu] missions'
+      collections:
+        material: PAINTING
+        slot: 20
+        display_name: '&aCollections'
+        lore:
+        - '&7View all of the items available'
+        - '&7in Skyblock. Collect more of an'
+        - '&7item to unlock rewards on your'
+        - '&7way to becoming a master at'
+        - '&7SkyBlock!'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] collections menu'
+        right_click_commands:
+        - '[player] collections menu'
+      recipe-book:
+        material: BOOK
+        slot: 21
+        display_name: '&aRecipe Book'
+        lore:
+        - '&7Unlocking recipes will allow you'
+        - '&7to craft new special items! In'
+        - '&7this menu you will see their recipe.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+      trades:
+        material: 388
+        slot: 22
+        display_name: '&aTrades'
+        lore:
+        - '&7View your available trades.'
+        - '&7These trades are always'
+        - '&7available and accesible through'
+        - '&7the Skyblock Menu.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] trades'
+        right_click_commands:
+        - '[player] trades'
+      skills:
+        material: DIAMOND_SWORD
+        hide_attributes: true
+        slot: 19
+        display_name: '&aSkills'
+        lore:
+        - '&7View your Skill progression'
+        - '&7and rewards.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] usbc skills menu'
+        right_click_commands:
+        - '[player] usbc skills menu'
+      calendar:
+        material: 347
+        slot: 24
+        display_name: '&aCalendar and Events'
+        lore:
+        - '&7View the Skyblock Calendar,'
+        - '&7upcoming events, and event'
+        - '&7rewards!'
+        - ''
+        - '&7Current Year: &b%mph_mytheriayear%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] calendar-and-events'
+        right_click_commands:
+        - '[openguimenu] calendar-and-events'
+      ender-chest:
+        material: ENDER_CHEST
+        slot: 25
+        display_name: '&aEnder Chest'
+        lore:
+        - '&7Store global items that you want'
+        - '&7at any time from anywhere'
+        - '&7in Skyblock!'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[player] bag'
+        right_click_commands:
+        - '[player] bag'
+      workbench:
+        material: 58
+        slot: 31
+        display_name: '&aCrafting Table'
+        lore:
+        - '&7Opens the crafting table.'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[player] workbench'
+        right_click_commands:
+        - '[player] workbench'
+      bank:
+        display_name: '&aRemote Bank'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0='
+        lore:
+        - '&7Use the bank to store your coins'
+        - '&7and gain interest on them!'
+        - ''
+        - '&eClick to open!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'bank.access'
+        priority: 1
+        data: 0
+        slot: 33
+        left_click_commands:
+        - '[player] bank'
+        right_click_commands:
+        - '[player] bank'
+      bank2:
+        display_name: '&aRemote Bank'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ZTk0ZjZjMzRhMzU0NjVmY2U0YTkwZjJlMjU5NzYzODllYjk3MDlhMTIyNzM1NzRmZjcwZmQ0ZGFhNjg1MiJ9fX0='
+        lore:
+        - '&7Use the bank to store your coins'
+        - '&7and gain interest on them!'
+        - ''
+        - '&cYou haven''t unlocked this!'
+        priority: 2
+        data: 0
+        slot: 33
+        left_click_commands: []
+        right_click_commands: []
+      fast-travel:
+        material: COMPASS
+        slot: 45
+        priority: 5
+        display_name: '&bFast Travel'
+        lore:
+        - '&7Travel instantly to the'
+        - '&7places you visited before!'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[openguimenu] fast-travel'
+        right_click_commands:
+        - '[openguimenu] fast-travel'
+      profile-management:
+        material: 421
+        slot: 48
+        display_name: '&aProfile Management'
+        lore:
+        - '&7You can have multiple'
+        - '&7Skyblock profiles at the'
+        - '&7same time.'
+        - ''
+        - '&7Each profile has its own'
+        - '&7island, inventory, quest'
+        - '&7log...'
+        - ''
+        - '&fProfiles: &a1&7/&a1'
+        - '&fPlaying on: &aDefault'
+        - ''
+        - '&eClick to manage!'
+        left_click_commands:
+        - '[openguimenu] profile-management'
+        right_click_commands:
+        - '[openguimenu] profile-management'
+      warp-to-island:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0='
+        slot: 36
+        priority: 1
+        view_requirement:
+          requirements:
+            world:
+              type: string equals ignorecase
+              input: '%multiverse_world_name%'
+              output: Server
+        display_name: '&aWarp to: &bYour Island'
+        lore:
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[player] is home'
+        right_click_commands:
+        - '[player] is home'
+      warp-to-village:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0='
+        slot: 36
+        priority: 2
+        display_name: '&aWarp to: &bHub Island'
+        lore:
+        - '&eClick to travel!'
+        left_click_commands:
+        - '[player] hub'
+        right_click_commands:
+        - '[player] hub'
+      ARRROW-BAG:
+        display_name: '&aArrow Bag'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAxZDIzZDUyMjFjYTcxMzcxODQ5ZGI2NjQzNTFjODI5MDc3ZGIxMGI2OWI2MTRiY2E5NTRmNDk1YTE0Yzc1In19fQ=='
+        lore:
+        - '&7Store your arrows and access'
+        - '&7them at any given time and place'
+        - '&7of Skyblock.'
+        - ''
+        - '&eClick to open!'
+        priority: 1
+        data: 0
+        slot: 44
+        left_click_commands:
+        - '[player] arrowbag'
+        right_click_commands:
+        - '[player] arrowbag'
+      POTION-BAG:
+        display_name: '&aPotion Bag'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2Y2UxM2ZmNjE1NWZkZjMyMzVkOGQyMjE3NGM1ZGU0YmY1NTEyZjFhZGVkYTFhZmEzZmMyODE4MGYzZjcifX19'
+        lore:
+        - '&7Store your potions safely'
+        - '&7and access them when you desire.'
+        - ''
+        - '&eClick to open!'
+        priority: 1
+        data: 0
+        slot: 53
+        left_click_commands:
+        - '[player] potionbag'
+        right_click_commands:
+        - '[player] potionbag'
+      TALISMAN-BAG:
+        display_name: '&aTalisman Bag'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MDNiNTkyYmE1MzFhNjFjNWYzZjRmNTY2NWViZmU4MDNkMzUyM2RlZGE4MGYxMzQzYzI0NDYxODJkYjIifX19'
+        lore:
+        - '&7A bag created to hold your'
+        - '&7talismans without taking up space'
+        - '&7in your inventory.'
+        - ''
+        - '&eClick to open!'
+        priority: 1
+        data: 0
+        slot: 52
+        left_click_commands:
+        - '[player] talismanbag'
+        right_click_commands:
+        - '[player] talismanbag'
+      SETTINGS:
+        material: 76
+        slot: 50
+        display_name: '&aSettings'
+        lore:
+        - '&7View and edit your Skyblock'
+        - '&7settings.'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[openguimenu] settings'
+        right_click_commands:
+        - '[openguimenu] settings'
+      CLOSE:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+      wardrobe:
+        material: LEATHER_CHESTPLATE
+        hide_attributes: true
+        slot: 32
+        display_name: '&aWardrobe'
+        lore:
+        - '&7Store armor sets and quickly'
+        - '&7swap between them!'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[message] &cYou haven''t unlocked Wardrobe yet!'
+        right_click_commands:
+        - '[message] &cYou haven''t unlocked Wardrobe yet!'
+      pets:
+        material: BONE
+        slot: 30
+        display_name: '&aPets'
+        lore:
+        - '&7View and manage all of your'
+        - '&7Pets.'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[player] usbc pets menu'
+        right_click_commands:
+        - '[player] usbc pets menu'

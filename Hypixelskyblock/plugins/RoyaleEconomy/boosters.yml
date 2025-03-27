@@ -1,0 +1,79 @@
+use-boosters: false
+
+never-expire-message: 'infinite time'
+
+booster-command:
+  permission: 'rec.active.boosters.view'
+  no-permission: '&cYou don''t have permission to see active boosters.'
+  active-booster-display:
+    header:
+      - '&7&m-------&r &eActive Boosters &7&m-------'
+      - '&fActive boosters right now:'
+    middle-structure: '  &7- %booster-name% &7(%category-name%&7) &f- &e%time-left% left'
+    middle-structure-no-boosters:
+      - '  &7There are no active boosters :('
+    footer:
+      - '&7&m----------------------------'
+
+booster-admin-command-permission: 'rec.booster.admin'
+global-booster-broadcast: '&eGlobal Booster > &fA global booster was activated for &e%booster-duration%&f! %booster-name% &7(%booster-category%&7)'
+personal-booster-broadcast: '&ePersonal Booster > &fA personal booster was activated for &e%booster-duration%&f! %booster-name% &7(%booster-category%&7)'
+
+boosters:
+  shops-buy:
+    use: false
+    category-name: '&eShop Buy'
+    lore-addition:
+      - ''
+      - '%booster-name%'
+      - '&fIf you buy this'
+      - '&fyou pay less by &6%amount% coins&f!'
+    boosters:
+      booster-1:
+        exclusive-for-shops:
+          - 'shop1'
+          - 'shop2'
+        booster-name: '&6x1.2 Booster'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 Booster'
+        permission: 'booster.1.5'
+        percent-boost: 50
+  shops-sell:
+    use: false
+    category-name: '&eShop Sell'
+    lore-addition:
+      - ''
+      - '%booster-name%'
+      - '&fIf you sell this'
+      - '&fyou get extra &6%amount% coins&f!'
+    boosters:
+      booster-1:
+        exclusive-for-shops:
+          - 'shop1'
+          - 'shop2'
+        booster-name: '&6x1.2 Booster'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 Booster'
+        permission: 'booster.1.5'
+        percent-boost: 50
+  kill-coins:
+    use: false
+    category-name: '&eKill Coins'
+    message: '&eBooster > &fYou got extra &6%amount% coins&f since %booster-name% &fis activated!'
+    boosters:
+      booster-1:
+        booster-name: '&6x1.2 Booster'
+        permission: 'none'
+        #Boost percent 1-100
+        percent-boost: 20
+      booster-2:
+        booster-name: '&6x1.5 Booster'
+        permission: 'booster.1.5'
+        permission-permanent: 'booster.permanent.1.5'
+        percent-boost: 50

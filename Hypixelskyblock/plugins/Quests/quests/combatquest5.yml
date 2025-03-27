@@ -1,0 +1,32 @@
+tasks:
+  killing:
+    type: "mobkillingcertain"
+    amount: 5
+    mob: SPIDER
+display:
+  name: "&aCombat Quest"
+  lore-normal:
+  - "&7Objective:&r &fKill 5 spiders."
+  - "&7Progress:&r &f{killing:progress}/5 spiders."
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.kill-some-spiders true"
+  - "customplaceholders set {player} mission_spidersden &eReach_Combat_X"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fKill some spiders"
+  - "whisper {player} &7"
+  - "q a moddata start {player} skillquest3"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fReach Combat X"
+  - "whisper {player} &7"
+options:
+  category: "combat"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 4

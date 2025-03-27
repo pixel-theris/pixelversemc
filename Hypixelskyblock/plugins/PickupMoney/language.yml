@@ -1,0 +1,10 @@
+# Put the message between 2 " so it will work with color code.
+pickup: '&6+{money} coins (Picked Up)'
+reload: '&aPlugin has been reloaded!'
+noPermission: '&cYou don''t have permission!'
+nameSyntax: '&6{money}'
+dropOut: '&aYou have dropped {money}$'
+noMoney: '&cYou don''t have enough money'
+miniumCmdDrop: '&cThe minimum is {money}'
+clearLimit: '&aSuccessfully cleared the limit'
+limit: '&cCan''t pick up more money. You have reached the limit.'

@@ -1,0 +1,29 @@
+on first join:
+    make the server execute command "/lp user %player's name% permission set skyblock.menu.locked true"
+    make the server execute command "/lp user %player's name% permission set missions.break-a-log true"
+    make the server execute command "/customplaceholders set %player's name% mission Break_a_log"
+    message ""
+    message ""
+    message "&7Sending to Player Island..."
+    message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    message "&f&l          Welcome to Skyblock, &7%player's name%&f&l!"
+    message ""
+    message "&e               This is your Island, the Skyblock"
+    message "&e            universe has many lands to discover,"
+    message "&e         secrets to uncover, and people to meet."
+    message "&e            Collect resources, craft items, and"
+    message "&e         complete objectives to advance your way"
+    message "&e                       through Skyblock."
+    message "&e                             Have fun!"
+    message ""
+    message "&e▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    message ""
+    message "&7  &6&lNEW OBJECTIVE"
+    message "&f  Break a log"
+    message ""
+    wait 20 ticks
+    make the server execute command "/ij get skyblock-menu-locked %player's name%"
+
+on join:
+    wait 3 ticks
+    make the player execute command "/is"

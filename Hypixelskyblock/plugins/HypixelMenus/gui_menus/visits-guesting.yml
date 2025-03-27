@@ -1,0 +1,91 @@
+menu_title: 'Jerry''s Guide to Guesting'
+open_command: '128321163'
+size: 36
+items:
+
+
+      FEATHER:
+        material: FEATHER
+        slot: 10
+        display_name: '&aVisit player islands'
+        lore:
+        - '&7You can guest on other'
+        - '&7islands using &a/islandvisit'
+        - '&a<player>&7.'
+        - ''
+        - '&7Guests &ccan''t interact'
+        - '&7with the world, but it''s'
+        - '&7always fun to see what'
+        - '&7others are up to!'
+        left_click_commands: []
+        right_click_commands: []
+
+      TALLGRASS:
+        material: 31
+        data: 1
+        slot: 12
+        display_name: '&aGuests limit'
+        lore:
+        - '&7You can only host a limited'
+        - '&7number of &aguests&7 on your'
+        - '&7island concurrently.'
+        - ''
+        - '&7The limit depends on your rank:'
+        - '&7- &c[&fYOUTUBE&c] &f= &a15'
+        - '&7- &6[MVP&4++&6] &f= &a7'
+        - '&7- &b[MVP] &f= &a5'
+        - '&7- &a[VIP] &f= &a3'
+        - '&7- &7Default &f= &a1'
+        - ''
+        - '&bCo-op profiles use the'
+        - '&bpartner with the highest'
+        - '&brank!'
+        - ''
+        - '&e&lSPECIAL! &6[MVP&e++&6]'
+        - '&7can join islands beyond'
+        - '&7their guest limit! (10 max'
+        - '&7over limit)'
+        - ''
+        - '&ePurchase ranks at store.example.com'
+        left_click_commands: []
+        right_click_commands: []
+
+      FENCE:
+        material: FENCE
+        slot: 14
+        display_name: '&aAccess Permissions'
+        lore:
+        - '&7You may edit who''s able to'
+        - '&7guest on your island in your'
+        - '&eIsland Settings&7.'
+        - ''
+        - '&7Use &c/is ban <player>'
+        - '&7to prevent a speficic'
+        - '&7player from joining.'
+        left_click_commands: []
+        right_click_commands: []
+
+      REPEATER:
+        material: 356
+        slot: 16
+        display_name: '&aModeration'
+        lore:
+        - '&7Manage online guests using'
+        - '&7the &eGuests Management&7'
+        - '&7menu.'
+        - ''
+        - '&7Alternatively, use the'
+        - '&c/is kick &7command or'
+        - '&aclicking on them&7.'
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] jerry'
+        right_click_commands:
+        - '[openguimenu] jerry'

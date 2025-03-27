@@ -1,0 +1,7 @@
+BEDROCK:
+  enable: true
+  money: 1-5
+  amount: 1-2
+  chance: 100
+  fortuneBonus: 0.5
+  dropBlock: false

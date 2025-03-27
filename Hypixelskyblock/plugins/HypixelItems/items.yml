@@ -1,0 +1,46 @@
+items-Version: 6
+items-Delay: 2
+items-Overwrite: true
+items-Spamming: false
+items-RestrictCount: false
+items:
+  skyblock-menu-locked:
+    id: NETHER_STAR
+    slot: 8
+    name: '&aSkyBlock Menu &7(Right Click)'
+    permission-node: 'skyblock.menu.locked'
+    lore:
+    - '<delay:20>&7You must complete the following'
+    - '<delay:20>&7Skyblock Objectives to gain the'
+    - '<delay:20>&7access to the Skyblock Menu.'
+    - ''
+    - '<delay:20>  %player_has_permission_missions.completed.break-a-log% Break a log'
+    - '<delay:20>  %player_has_permission_missions.completed.craft-a-workbench% Craft a workbench'
+    - '<delay:20>  %player_has_permission_missions.completed.craft-a-pickaxe% Craft a pickaxe'
+    - '<delay:20>  &c✖&e Go through the portal'
+    - ''
+    commands:
+      right-click:
+        - 'message: &cYou must complete the Basic Skyblock Challenges to gain access to the Skyblock Menu. Hover over this item to view them.'
+    itemflags: inventory-modify, death-drops, self-drops, dynamic, placement
+    triggers: join, respawn, world-change
+    enabled-worlds: Islands
+  skyblock-menu-unlocked:
+    id: NETHER_STAR
+    slot: 8
+    name: '<delay:20>&aSkyBlock Menu &7(Right Click)'
+    permission-node: 'missions.completed.go-through-the-portal'
+    lore:
+    - '<delay:20>&7View all of your SkyBlock'
+    - '<delay:20>&7progress, including your Skills'
+    - '<delay:20>&7Collections, Recipes and more!'
+    - ''
+    - '<delay:20>&eClick to open!'
+    commands:
+      right-click:
+        - 'console: dm open menu %player%'
+    commands-cooldown: 2
+    cooldown-message: '&cPlease wait %timeleft% seconds to open the Skyblock Menu again!'
+    itemflags: inventory-modify, death-drops, self-drops, dynamic, placement
+    triggers: join, respawn, world-change
+    enabled-worlds: ALL

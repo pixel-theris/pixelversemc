@@ -1,0 +1,58 @@
+menu_title: 'Patch Notes'
+open_command: '12832163'
+size: 36
+items:
+
+
+      jerry:
+        material: 383
+        data: 120
+        slot: 10
+        display_name: '&aSkyblock v1.2.2'
+        lore:
+        - '&730th October 2020'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[console] ibooks open patch-notes %player_name%'
+        right_click_commands:
+        - '[console] ibooks open patch-notes %player_name%'
+
+      jerry-2:
+        material: ANVIL
+        slot: 11
+        display_name: '&aSkyblock v2.0.5'
+        lore:
+        - '&718th November 2020'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[console] ibooks open patch-notes %player_name%'
+        right_click_commands:
+        - '[console] ibooks open patch-notes %player_name%'
+
+      none:
+        material: STAINED_GLASS_PANE
+        data: 14
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        display_name: '&7'
+        lore:
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 31
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] jerry'
+        right_click_commands:
+        - '[openguimenu] jerry'

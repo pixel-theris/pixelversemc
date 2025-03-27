@@ -1,0 +1,110 @@
+#Use 'none' for no sound
+#Sounds List - https://helpch.at/docs/version/index.html?org/bukkit/Sound.html
+#Replace version with your server version^
+#Example of usage (1.8.8): https://helpch.at/docs/1.8.8/index.html?org/bukkit/Sound.html
+#sound: 'ORB_PICKUP"
+#If you want a different pitch, ORB_PICKUP:pitch
+
+no-permission-sound: 'none'
+
+commands:
+  royaleeconomy:
+    purse:
+      #Sounds sent to players who receive the coins
+      add-money: 'none'
+      remove-money: 'none'
+      set-money: 'none'
+    bank:
+      #Sounds sent to players who receive the coins
+      add-money: 'none'
+      remove-money: 'none'
+      set-money: 'none'
+    sharedbank:
+      #Sounds sent to players who receive the coins
+      add-money: 'none'
+      remove-money: 'none'
+      set-money: 'none'
+  balance:
+    own: 'none'
+    other: 'none'
+  reshop:
+    command-help: 'none'
+    open: 'none'
+    forceopen:
+      from-player: 'none'
+      to-player: 'none'
+  pay:
+    from-player: 'none'
+    to-player: 'none'
+  balancetop:
+    command-help: 'none'
+    top-purse: 'none'
+    top-bank: 'none'
+    top-sharedbank: 'none'
+  bank:
+    command-help: 'none'
+    bank-balance: 'none'
+    bank-balance-other: 'none'
+  sharedbank:
+    command-help: 'none'
+    sharedbank-balance: 'none'
+    sharedbank-balance-other: 'none'
+    sharedbank-create: 'none'
+    sharedbank-transfer: 'none'
+    sharedbank-disband: 'none'
+    sharedbank-leave: 'none'
+    sharedbank-invite:
+      from-player: 'none'
+      to-player: 'none'
+    sharedbank-accept: 'none'
+    sharedbank-kick: 'none'
+    sharedbank-info: 'none'
+  talismans:
+    command-help: 'none'
+    menu-open: 'none'
+    give-command:
+      from-player: 'none'
+      to-player: 'none'
+  killcoins: 'none'
+  piggy-bank:
+    command-help: 'none'
+    piggy-bank-get: 'none'
+    piggy-bank-give:
+      from-player: 'none'
+      to-player: 'none'
+  moneybag:
+    command-help: 'none'
+    get-command: 'none'
+    adminget-command: 'none'
+    give-command:
+      from-player: 'none'
+      to-player: 'none'
+  interest:
+    command-help: 'none'
+    speedup: 'none'
+    slowdown: 'none'
+    reset: 'none'
+    force: 'none'
+    interest-check: 'none'
+
+menus:
+  #Click sounds
+  main-bank-open: 'none'
+  bank-withdaw-menu-open: 'none'
+  bank-deposit-menu-open: 'none'
+  bank-upgrades-menu-open: 'none'
+  bank-deposit: 'none'
+  bank-withdraw: 'none'
+  withdraw-as-bag-click: 'none'
+  bank-upgrade: 'none'
+  shop-buy: 'none'
+  shop-sell: 'none'
+  shop-buyback: 'none'
+  talisman-upgrade: 'none'
+
+others:
+  kill-coins-entity-kill: 'none'
+  kill-coins-custom-entity-kill: 'none'
+  coins-bag-claim: 'none'
+  purse-death-coins-take: 'none'
+  coins-talisman-give-sound: 'none'

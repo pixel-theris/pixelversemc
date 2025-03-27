@@ -1,0 +1,86 @@
+#Actions made by admins/console
+#will appear as made by this one
+server-executor-name: '&7Server Banker'
+
+#How many coins should a player have by default in their purse
+default-balance: 0
+#How many coins should a player have by default in their bank
+default-bank-balance: 0
+
+#If this is set to true, when a player creates a shared bank
+#the personal one will redirect to the shared bank
+#The /bank command will be redirected to /sharedbank too
+use-only-one-bank: false
+
+#This setting is to enble %royaleeconomy_dynamic_coins% which
+#can display coins receiving dynamically (+5) (+100), good for scoreboards/actionbar
+use-dynamic-placeholder: true
+dynamic-placeholder-format: '&e(+%amount%)'
+
+#More settings for interest at bank upgrades configuration
+#Cooldown in hours
+interest-cooldown: 31
+
+mysql:
+  use-mysql: false
+  database: 'RoyaleEconomy'
+  host: 'localhost'
+  port: 3306
+  username: 'root'
+  password: 'pass123'
+
+time-units:
+  days: 'Days'
+  day: 'Day'
+  hours: 'Hours'
+  hour: 'Hour'
+  minutes: 'Minutes'
+  minute: 'Minute'
+  seconds: 'Seconds'
+  second: 'Second'
+  soon: '>1 Minute'
+short-time-units:
+  day: 'd'
+  hour: 'h'
+  minute: 'm'
+  second: 's'
+
+input-guis:
+  #What kind of input would you like? 3 Avalabile
+  #1. 'sign'
+  #2. 'anvil'
+  #3. 'chat'
+  input-type: 'sign'
+  #If you use chat setting, this message will be shown
+  #after 20 seconds of opening the chat listener
+  chat-listener-end-message: '&cYou took too long to enter an input.'
+  deposit-coins:
+    lines:
+      - '^^^^^^^^^^^^^^^^'
+      - 'Enter the amount'
+      - 'you want to deposit'
+    success-message: '&fYou have deposited &6%amount% coins &fin your bank!'
+    fail-message: '&fYou don''t have &6%amount% coins &fin your purse!'
+    invalid-number: '&cPlease enter a valid number.'
+  withdraw-coins:
+    lines:
+      - '^^^^^^^^^^^^^^^^'
+      - 'Enter the amount'
+      - 'you want to withdraw'
+    success-message: '&fYou have withdrawn &6%amount% coins &ffrom your bank!'
+    fail-message: '&fYou don''t have &6%amount% coins &fin your bank!'
+    invalid-number: '&cPlease enter a valid number.'
+
+piggy-bank:
+  use-piggy-banks: true
+  texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19'
+  name: '&aPiggy Bank'
+  lore:
+    - '&7Direct access to your'
+    - '&7personal bank.'
+    - ''
+    - '&eClick to open!'
+  #Cooldown in seconds
+  cooldown: 0
+  cooldown-message: '&cYour piggy bank is in cooldown!'
+  version: 1.1

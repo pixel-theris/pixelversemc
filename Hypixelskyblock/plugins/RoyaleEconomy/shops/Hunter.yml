@@ -1,0 +1,89 @@
+title: '&8Adventurer'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STRING
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 5.0
+    buyValue: 10.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SLIME_BALL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 7.5
+    buyValue: 15.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SULPHUR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 12.5
+    buyValue: 25.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

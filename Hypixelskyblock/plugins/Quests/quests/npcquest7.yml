@@ -1,0 +1,30 @@
+tasks:
+  citizensinteract:
+    type: "citizens_interact"
+    npc-name: "lumberer"
+display:
+  name: "&aNPC Quest"
+  lore-normal:
+  - "&7Talk to the Lumberer"
+  lore-started: []
+  type: "PAPER"
+rewards:
+  - "lp user {player} permission set missions.completed.talk-to-the-lumberer true"
+  - "customplaceholders set {player} mission_forest &eReach_Foraging_V"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lOBJECTIVE COMPLETED"
+  - "whisper {player} &7  &fTalk to the Lumberer"
+  - "whisper {player} &7"
+  - "q a moddata start {player} skillquest1"
+  - "whisper {player} &7"
+  - "whisper {player} &7  &6&lNEW OBJECTIVE"
+  - "whisper {player} &7  &fReach Foraging V"
+  - "whisper {player} &7"
+options:
+  category: "other"
+  requires: []
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 2880
+  sort-order: 7

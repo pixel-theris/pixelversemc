@@ -1,0 +1,122 @@
+allSouls:
+  msg: '&aYou found all souls!'
+  rewards: []
+rewards:
+  health:
+    attribute: COMMAND
+    probability: 40
+    amount: 1
+    cmds:
+      - "usbc skills give health <player> 2"
+    msg: "&a2 HP &c❤ Health"
+  defense:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give defense <player> 1"
+    msg: "&a1 ❇ Defense"
+  intelligence:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give intelligence <player> 1"
+    msg: "&a1 &b✎ Intelligence"    
+  strength:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give strength <player> 1"
+    msg: "&a1 &c❁ Strength"
+  speed:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give speed <player> 1"
+    msg: "&a1 &f✦ Speed"    
+  critchance:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give critchance <player> 1"
+    msg: "&a1 &9☣ Crit Chance" 
+  critdamage:
+    attribute: COMMAND
+    probability: 10
+    amount: 1
+    cmds:
+      - "usbc skills give critdamage <player> 1"
+    msg: "&a1 &9☠ &9Crit Damage" 
+locations:
+- Server;330.0;77.0;3.0;0.0;0.0
+- Server;60.0;123.0;391.0;0.0;0.0
+- Server;411.0;91.0;31.0;0.0;0.0
+- Server;10.0;115.0;-339.0;0.0;0.0
+- Server;399.0;86.0;-109.0;0.0;0.0
+- Server;-103.0;171.0;74.0;0.0;0.0
+- Server;289.0;78.0;-58.0;0.0;0.0
+- Server;435.0;145.0;-18.0;0.0;0.0
+- Server;643.0;120.0;82.0;0.0;0.0
+- Server;181.0;90.0;-51.0;0.0;0.0
+- Server;171.0;97.0;-303.0;0.0;0.0
+- Server;170.0;98.0;69.0;0.0;0.0
+- Server;646.0;95.0;45.0;0.0;0.0
+- Server;-303.0;40.0;90.0;0.0;0.0
+- Server;-357.0;31.0;142.0;0.0;0.0
+- Server;-18.0;87.0;94.0;0.0;0.0
+- Server;-262.0;12.0;116.0;0.0;0.0
+- Server;60.0;93.0;94.0;0.0;0.0
+- Server;-21.0;84.0;-74.0;0.0;0.0
+- Server;672.0;136.0;-117.0;0.0;0.0
+- Server;81.0;88.0;102.0;0.0;0.0
+- Server;-272.0;108.0;113.0;0.0;0.0
+- Server;-357.0;104.0;80.0;0.0;0.0
+- Server;-88.0;151.0;57.0;0.0;0.0
+- Server;672.0;85.0;-98.0;0.0;0.0
+- Server;177.0;88.0;-195.0;0.0;0.0
+- Server;-295.0;115.0;80.0;0.0;0.0
+- Server;-284.0;56.0;164.0;0.0;0.0
+- Server;442.0;103.0;187.0;0.0;0.0
+- Server;504.0;30.0;264.0;0.0;0.0
+- Server;36.0;110.0;261.0;0.0;0.0
+- Server;-22.0;114.0;-233.0;0.0;0.0
+- Server;70.0;99.0;308.0;0.0;0.0
+- Server;125.0;104.0;380.0;0.0;0.0
+- Server;501.0;78.0;-4.0;0.0;0.0
+- Server;440.0;181.0;-24.0;0.0;0.0
+- Server;-314.0;101.0;105.0;0.0;0.0
+- Server;-310.0;89.0;131.0;0.0;0.0
+- Server;411.0;195.0;-26.0;0.0;0.0
+- Server;-365.0;69.0;140.0;0.0;0.0
+- Server;123.0;82.0;210.0;0.0;0.0
+- Server;-126.0;101.0;54.0;0.0;0.0
+- Server;-38.0;117.0;-24.0;0.0;0.0
+- Server;-355.0;41.0;122.0;0.0;0.0
+- Server;-254.0;77.0;92.0;0.0;0.0
+- Server;409.0;74.0;263.0;0.0;0.0
+- Server;-7.0;89.0;34.0;0.0;0.0
+- Server;16.0;111.0;-313.0;0.0;0.0
+- Server;135.0;90.0;-228.0;0.0;0.0
+- Server;-360.0;100.0;137.0;0.0;0.0
+- Server;-27.0;88.0;-20.0;0.0;0.0
+- Server;93.0;100.0;-64.0;0.0;0.0
+- Server;38.0;125.0;-60.0;0.0;0.0
+- Server;-278.0;58.0;117.0;0.0;0.0
+- Server;762.0;92.0;25.0;0.0;0.0
+- Server;17.0;94.0;213.0;0.0;0.0
+- Server;-287.0;143.0;145.0;0.0;0.0
+- Server;423.0;117.0;350.0;0.0;0.0
+- Server;13.0;92.0;-133.0;0.0;0.0
+- Server;144.0;104.0;-355.0;0.0;0.0
+- Server;374.0;41.0;403.0;0.0;0.0
+- Server;61.0;87.0;31.0;0.0;0.0
+- Server;133.0;110.0;-381.0;0.0;0.0
+- Server;-310.0;19.0;86.0;0.0;0.0
+- Server;482.0;45.0;395.0;0.0;0.0
+- Server;28.0;101.0;329.0;0.0;0.0
+- Server;-149.0;75.0;64.0;0.0;0.0
+- Server;74.0;86.0;193.0;0.0;0.0

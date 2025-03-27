@@ -1,0 +1,458 @@
+title: '&8Builder'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GRASS
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 0.5
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 8.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SMOOTH_BRICK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 2.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      damage: 1
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      damage: 3
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      damage: 5
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: MOSSY_COBBLESTONE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SMOOTH_BRICK
+      damage: 1
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_BRICK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '11':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SANDSTONE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '12':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_SANDSTONE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '13':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ICE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 0.5
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '14':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PACKED_ICE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 3.0
+    buyValue: 9.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '15':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOL
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '16':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: HARD_CLAY
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '17':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BRICK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '18':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLASS
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '19':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: QUARTZ_BLOCK
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 4.0
+    buyValue: 32.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '20':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '21':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+      damage: 1
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '22':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PRISMARINE
+      damage: 2
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '23':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEA_LANTERN
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 20.0
+    buyValue: 60.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '24':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WATER_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 6.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '25':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 10.0
+    buyValue: 20.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

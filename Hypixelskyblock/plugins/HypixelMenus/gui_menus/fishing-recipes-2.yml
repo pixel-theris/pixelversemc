@@ -1,0 +1,251 @@
+menu_title: '(2/3) Fishing Recipes'
+open_command: 'fishing-recipes-2'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanted-clay:
+        material: CLAY_BALL
+        priority: 1
+        slot: 11
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Clay'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_clay%'
+              output: 100
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-CLAY'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-CLAY'
+
+      enchanted-water-lily:
+        material: WATER_LILY
+        priority: 1
+        slot: 13
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Water Lily'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_water_lily%'
+              output: 50
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-LILY-PAD'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-LILY-PAD'
+
+      enchanted-inksack:
+        material: INK_SACK
+        priority: 1
+        slot: 28
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Ink Sack'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_inksack%'
+              output: 250
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-INK-SACK'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-INK-SACK'
+
+
+      enchanted-sponge:
+        material: SPONGE
+        priority: 1
+        slot: 34
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Sponge'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_sponge%'
+              output: 500
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-SPONGE'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-SPONGE'
+
+      enchanted-wet-sponge:
+        material: SPONGE
+        data: 1
+        priority: 1
+        slot: 37
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Wet Sponge'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_sponge%'
+              output: 1000
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-WET-SPONGE'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-WET-SPONGE'
+
+      fishing:
+        material: FISHING_ROD
+        slot: 4
+        display_name: '&aFishing Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Fishing Recipes!'
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      previous-page:
+        material: ARROW
+        priority: 3
+        slot: 45
+        display_name: '&aPrevious Page'
+        lore:
+        - '&ePage 1'
+        left_click_commands:
+        - '[openguimenu] fishing-recipes'
+        right_click_commands:
+        - '[openguimenu] fishing-recipes'
+
+      next-page:
+        material: ARROW
+        priority: 3
+        slot: 53
+        display_name: '&aNext Page'
+        lore:
+        - '&ePage 3'
+        left_click_commands:
+        - '[openguimenu] fishing-recipes-3'
+        right_click_commands:
+        - '[openguimenu] fishing-recipes-3'
+
+      go-back:
+        material: ARROW
+        slot: 48
+        priority: 5
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

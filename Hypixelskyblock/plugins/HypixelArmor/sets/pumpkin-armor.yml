@@ -1,0 +1,265 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders add {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - customplaceholders remove {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: 1.10
+    damage-reduction: 0.90
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - usbc skills give defense {player} 8
+        - usbc skills give health {player} 8
+      remove:
+        - usbc skills remove defense {player} 8
+        - usbc skills remove health {player} 8
+    name: '&fPumpkin Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+8 HP'
+      - '&7Defense: &a+8'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON HELMET'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 14
+        - usbc skills give health {player} 14
+      remove:
+        - usbc skills remove defense {player} 14
+        - usbc skills remove health {player} 14
+    name: '&fPumpkin Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+14 HP'
+      - '&7Defense: &a+14'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 10
+        - usbc skills give health {player} 10
+      remove:
+        - usbc skills remove defense {player} 10
+        - usbc skills remove health {player} 10
+    name: '&fPumpkin Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+10 HP'
+      - '&7Defense: &a+10'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 8
+        - usbc skills give health {player} 8
+      remove:
+        - usbc skills remove defense {player} 8
+        - usbc skills remove health {player} 8
+    name: '&fPumpkin Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+8 HP'
+      - '&7Defense: &a+8'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fPumpkin Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+8 HP'
+      - '&7Defense: &a+8'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON HELMET'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fPumpkin Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+14 HP'
+      - '&7Defense: &a+14'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fPumpkin Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+10 HP'
+      - '&7Defense: &a+10'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fPumpkin Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Health: &a+8 HP'
+      - '&7Defense: &a+8'
+      - '           '
+      - '&6Full Set Bonus: Pumpkin Buff'
+      - '&7Grants &a+10.0%&7 Damage reduction against'
+      - '&7all damage sources and deals &a+10.0%&7 Damage'
+      - '&8&5'
+      - '&f&lCOMMON BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

@@ -1,0 +1,17 @@
+name: mod
+permissions:
+- replay.command.*
+- essentials.god
+- essentials.vanish
+- rank.HELPER
+- tab.sort.HELPER
+- replay.*
+- weight.5
+parents:
+- helper
+prefixes:
+- '&2[MOD] ':
+    priority: 5
+suffixes:
+- '&2MOD':
+    priority: 5

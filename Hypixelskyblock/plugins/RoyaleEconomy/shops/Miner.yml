@@ -1,0 +1,194 @@
+title: '&8Miner'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 4.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_INGOT
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 3.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_INGOT
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 3.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 24.0
+    buyValue: 48.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 36.0
+    buyValue: 72.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GRAVEL
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 3.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 3.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 1.0
+    buyValue: 6.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '9':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: TORCH
+      amount: 32
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 0.5
+    buyValue: 1.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '10':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fStarter Pickaxe
+        lore:
+        - '           '
+        - §9Efficiency I
+        - §7Increases how quickly your tool
+        - §7breaks blocks.
+        - '          '
+        - §f§lCOMMON §f§lPICKAXE
+        enchants:
+          DIG_SPEED: 1
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_ATTRIBUTES: null
+        internal: H4sIAAAAAAAAAONiYGBk4MvITElNLCkpykwqLUktZmQAAGoc0EoWAAAA
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

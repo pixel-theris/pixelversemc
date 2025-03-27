@@ -1,0 +1,432 @@
+menu_title: 'Fast Travel'
+open_command:
+- warp
+- ewarp
+- ewarps
+- warps
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 17
+        - 18
+        - 20
+        - 22
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      skyblock-hub:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19'
+        slot: 19
+        display_name: '&bSkyblock Hub'
+        lore:
+        - '&8/hub'
+        - ''
+        - '&7Where everything happens'
+        - '&7and everything is possible.'
+        - ''
+        - '&eClick to warp!'
+        left_click_commands:
+        - '[player] spawn'
+        - '[close]'
+        right_click_commands:
+        - '[player] spawn'
+        - '[close]'
+
+      private-island:
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0='
+        slot: 21
+        display_name: '&bPrivate Hub'
+        lore:
+        - '&8/island home'
+        - ''
+        - '&7Your very own chunk of Skyblock.'
+        - '&7Nice housing for your stuff.'
+        - ''
+        - '&eClick to warp!'
+        left_click_commands:
+        - '[player] island home'
+        - '[close]'
+        right_click_commands:
+        - '[player] island home'
+        - '[close]'
+
+
+      spiders-den:
+        display_name: '&aSpider''s Den'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=='
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eIII'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.spiders-den'
+        data: 0
+        slot: 14
+        left_click_commands:
+        - '[console] warp spidersden %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp spidersden %player_name%'
+        - '[close]'
+      spiders-den-locked:
+        display_name: '&aSpider''s Den'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eIII'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      nether:
+        display_name: '&aNether'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVjZThlODM4MzU2M2JjZWY1ZDVhZTBiMWJmZmVkMWQ2MTU4YjlhYjdjMWFjODM0NGMxOGFjNDhmNmI2YTIifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eIV'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.the-nether'
+        data: 0
+        slot: 15
+        left_click_commands:
+        - '[console] warp nether %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp nether %player_name%'
+        - '[close]'
+      nether-locked:
+        display_name: '&aNether'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eIV'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      end:
+        display_name: '&aEnd'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmMjFmNWQ4ODMzMTZmZDY1YTkzNjZmMzJhMzMwMTMxODJlMzM4MWRlYzIxYzE3Yzc4MzU1ZDliZjRmMCJ9fX0='
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eV'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.the-end'
+        data: 0
+        slot: 16
+        left_click_commands:
+        - '[console] warp end %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp end %player_name%'
+        - '[close]'
+      end-locked:
+        display_name: '&aEnd'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bCombat'
+        - '&7Island Tier: &eV'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      deep-caverns:
+        display_name: '&aDeep Caverns'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc4OGY1ZGRhZjUyYzU4NDIyODdiOTQyN2E3NGRhYzhmMDkxOWViMmZkYjFiNTEzNjVhYjI1ZWIzOTJjNDcifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bMining'
+        - '&7Island Tier: &eIII'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.gold-mine'
+        data: 0
+        slot: 23
+        left_click_commands:
+        - '[console] warp deepcaverns %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp deepcaverns %player_name%'
+        - '[close]'
+      deep-caverns-locked:
+        display_name: '&aDeep Caverns'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bMining'
+        - '&7Island Tier: &eIII'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      oak-forest:
+        display_name: '&aOak Forest'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZTMxMDg3OWE2NDUwYWY1NjI1YmNkNDUwOTNkZDdlNWQ4ZjgyN2NjYmZlYWM2OWM4MTUzNzc2ODQwNmIifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bForaging'
+        - '&7Island Tier: &eI'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.oak-forest'
+        data: 0
+        slot: 24
+        left_click_commands:
+        - '[console] warp oakforest %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp oakforest %player_name%'
+        - '[close]'
+      oak-forest-locked:
+        display_name: '&aOak Forest'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bForaging'
+        - '&7Island Tier: &eI'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 24
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      acacia-forest:
+        display_name: '&aAcacia Forest'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NjlmZTJkYmY3ODc5MmEzZTE5MTYyMmE4ZWQxZjllYjgwM2Y4ODI2YzliOTQ5ZDBkYzE1YTUxYzU5MzkxIn19fQ=='
+        lore:
+        - ''
+        - '&7Main Skill: &bForaging'
+        - '&7Island Tier: &eII'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.acacia-forest'
+        data: 0
+        slot: 25
+        left_click_commands:
+        - '[console] warp acaciaforest %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp acaciaforest %player_name%'
+        - '[close]'
+      acacia-forest-locked:
+        display_name: '&aAcacia Forest'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bForaging'
+        - '&7Island Tier: &eII'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 25
+        left_click_commands: []
+        right_click_commands: []
+
+
+      farm:
+        display_name: '&aFarm'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE2NTY5MjZhZGNkNTA3ZmYwNzljZTQyZjUxNzc0MzVjMjhlZjM2OTM1OWNmN2NhNmY5ZDgyNWY1NzY3ZGIifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bFarming'
+        - '&7Island Tier: &eI'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.farm'
+        data: 0
+        slot: 32
+        left_click_commands:
+        - '[console] warp farm %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp farm %player_name%'
+        - '[close]'
+      farm-locked:
+        display_name: '&aFarm'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bFarming'
+        - '&7Island Tier: &eI'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 32
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      barn:
+        display_name: '&aThe Barn'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE2NTY5MjZhZGNkNTA3ZmYwNzljZTQyZjUxNzc0MzVjMjhlZjM2OTM1OWNmN2NhNmY5ZDgyNWY1NzY3ZGIifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bFarming'
+        - '&7Island Tier: &eII'
+        - ''
+        - '&eClick to warp!'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'zone.the-barn'
+        data: 0
+        slot: 33
+        left_click_commands:
+        - '[console] warp barn %player_name%'
+        - '[close]'
+        right_click_commands:
+        - '[console] warp barn %player_name%'
+        - '[close]'
+      barn-locked:
+        display_name: '&aThe Barn'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2M2RhZmFjMWQ5MWE4YzkxZGI1NzZjYWFjNzg0MzM2NzkxYTZlMThkOGY3ZjYyNzc4ZmM0N2JmMTQ2YjYifX19'
+        lore:
+        - ''
+        - '&7Main Skill: &bFarming'
+        - '&7Island Tier: &eII'
+        - ''
+        - '&cWarp not unlocked!'
+        priority: 2
+        slot: 33
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

@@ -1,0 +1,80 @@
+menu_title: 'Visit %skript_1::{player}%'
+open_command: 'xxxxxx'
+size: 27
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+
+      player-island:
+        material: head;%skript_1::{player}%
+        slot: 11
+        display_name: '&a%skript_1::{player}%''s Island'
+        lore:
+        - '&7Island Owner:'
+        - ' &a● &7%skript_1::{player}%'
+        - ''
+        - '&7Profile Name: &aDefault'
+        - '&7Profile Type: &bSolo'
+        - ''
+        - '&7Visitors: &e?&8/&a4'
+        - ''
+        - '&7Ranked players can have'
+        - '&7multiple islands at once!'
+        - ''
+        - '&eClick to visit!'
+        left_click_commands:
+        - '[player] is visit %skript_1::{player}%'
+        - '[player] delete'
+        right_click_commands:
+        - '[player] is visit %skript_1::{player}%'
+        - '[player] delete'
+
+
+      see-other-islands:
+        material: 390
+        slot: 15
+        display_name: '&aSee Other Islands'
+        lore:
+        - '&7Here you can visit other'
+        - '&7Islands owned by this player!'
+        - ''
+        - '&eClick to see!'
+        left_click_commands:
+        - '[message] &cThis player does not have any other islands!'
+        right_click_commands:
+        - '[message] &cThis player does not have any other islands!'

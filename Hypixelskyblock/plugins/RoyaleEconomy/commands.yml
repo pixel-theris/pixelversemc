@@ -1,0 +1,258 @@
+commands:
+  royaleeconomy:
+    command-help:
+      - '&7&m---------------[-&r &cAdmin Commands &7&m-]---------------'
+      - '&c/royaleeconomy purse &7- &fSee purse commands.'
+      - '&c/royaleeconomy bank &7- &fSee bank commands.'
+      - '&c/royaleeconomy sharedbank &7- &fSee shared bank commands.'
+      - '&c/royaleeconomy shops &7- &fSee shops commands.'
+      - '&c/royaleeconomy reload &7- &fReload plugin.'
+      - '&7&m---------------[-&r &eOther Commands &7&m-]---------------'
+      - '&e/talismans help &7- &fSee talismans commands.'
+      - '&e/killcoins &7- &fSee kill coins stats.'
+      - '&e/interest help &7- &fSee interest commands.'
+      - '&e/coinsbag &7- &fSee coins bags commands.'
+      - '&e/reshop &7- &fSee shop commands.'
+      - '&e/balancetop &7- &fSee balance top commands.'
+      - '&e/sharedbank help &7- &fSee shared bank commands.'
+      - '&e/bank help &7- &fSee bank commands.'
+      - '&e/piggybank &7- &fSee piggy bank commands.'
+    player-not-found: '&cThe player you entered is not registered in the database.'
+    invalid-number: '&cYou entered an invalid number.'
+    shops:
+      command-help:
+        - '&c/royaleeconomy shop create'
+        - '&c/royaleeconomy shop manager'
+        - '&c/royaleeconomy shop sortSellItems'
+        - '&c/royaleeconomy shop reload'
+    purse:
+      command-help:
+        - '&c/royaleeconomy purse add <player> <amount>'
+        - '&c/royaleeconomy purse remove <player> <amount>'
+        - '&c/royaleeconomy purse set <player> <amount>'
+      #Use %amount% for amount and %player% for player username
+      add-done-message: '&6%amount% coins &fwere sent to &e%player%&f!'
+      add-done-player-message: '&6%amount% coins &fwere added to your purse!'
+      remove-done-message: '&6%amount% coins &fwere taken from &e%player%&f!'
+      remove-done-player-message: '&6%amount% coins &fwere taken from your purse!'
+      set-done-message: '&e%player%&f''s purse has now &6%amount% coins&f!'
+      set-done-player-message: '&fYou now have &6%amount% coins &fin your purse!'
+    bank:
+      command-help:
+        - '&c/royaleeconomy bank add <player> <amount>'
+        - '&c/royaleeconomy bank remove <player> <amount>'
+        - '&c/royaleeconomy bank set <player> <amount>'
+      #Use %amount% for amount and %player% for player username
+      add-done-message: '&6%amount% coins &fwere sent to &e%player%&f''s bank!'
+      add-done-player-message: '&6%amount% coins &fwere added to your bank!'
+      remove-done-message: '&6%amount% coins &fwere taken from &e%player%&f''s bank!'
+      remove-done-player-message: '&6%amount% coins &fwere taken from your bank!'
+      set-done-message: '&e%player%&f''s personal bank has now &6%amount% coins&f!'
+      set-done-player-message: '&fYou now have &6%amount% coins &fin your bank!'
+    sharedbank:
+      command-help:
+        - '&c/royaleeconomy sharedbank add <player> <amount>'
+        - '&c/royaleeconomy sharedbank remove <player> <amount>'
+        - '&c/royaleeconomy sharedbank set <player> <amount>'
+      #Use %amount% for amount and %player% for player username
+      add-done-message: '&6%amount% coins &fwere sent to &e%player%&f''s shared bank!'
+      add-done-player-message: '&6%amount% coins &fwere added to your bank!'
+      remove-done-message: '&6%amount% coins &fwere taken from &e%player%&f''s shared bank!'
+      remove-done-player-message: '&6%amount% coins &fwere taken from your shared bank!'
+      set-done-message: '&e%player%&f''s shared bank has now &6%amount% coins&f!'
+      set-done-player-message: '&fYou now have &6%amount% coins &fin your shared bank!'
+      not-shared-bank: '&cThat player does not have a shared bank!'
+  balance:
+    #Use %balance% for amount of coins
+    output: '&fYou have &6%balance% coins&f!'
+    #Use %player-name% for the name of the player
+    output-other: '&e%player-name% &fhas &6%balance% coins&f!'
+  reshop:
+    command-help:
+      - '&c/reshop open <name>'
+      - '&c/reshop forceopen <player> <name>'
+    shop-not-found: '&cThere is no shop with that name.'
+    player-not-found: '&cThe player was not found.'
+    success: '&aSuccessfully opened the shop!'
+  pay:
+    no-args-message: '&cUse /pay <player> <amount>'
+    invalid-number: '&cInvalid number.'
+    no-coins-message: '&cYou don''t have enough coins.'
+    #Use %coins% for amount of coins
+    #Use %to-player% for the player that receives the coins
+    #Use %from-player% for the player that gives the coins
+    coins-received-message: '&fYou have received &6%coins% coins &ffrom &e%from-player%&f!'
+    coins-given-message: '&fYou gave &6%coins% coins &fto &e%to-player%&f!'
+    invalid-player: '&cThe player you want to give money to has to be online!'
+  balancetop:
+    command-help:
+      - '&e/balancetop purse &7- &fTop players regarding coins in purse'
+      - '&e/balancetop bank &7- &fTop players regarding coins in bank'
+      - '&e/balancetop sharedbank &7- &fTop banks regarding coins'
+      - '&fThe top updates every &e&n5 minutes&f!'
+    #How many players should be displayed per page
+    display-per-page: 10
+    #If you set this to play, there will be no pages
+    #And the display-per-page will represent how many players
+    #to show
+    display-all: true
+    top-format:
+      #Use %top-position% for the position the playe is on
+      #Use %player-name% for the player's username
+      #Use %coins% for the number of coins the player has
+      #Use %page-number% for the number of the current page
+      sharedbank-top:
+        header: '&7&m-----[-&f &eTop Shared Bank &7&m-]-------'
+        #%player-name% here means the owner of the shared bank's name
+        top-player-structure: '&e#%top-position% &f%player-name%''s Bank &7- &6%coins%'
+        footer: '&7&m---------[-&f &ePage %page-number% &7&m-]-----------'
+      bank-top:
+        header: '&7&m---------[-&f &eTop Bank &7&m-]---------'
+        top-player-structure: '&e#%top-position% &f%player-name% &7- &6%coins%'
+        footer: '&7&m---------[-&f &ePage %page-number% &7&m-]-----------'
+      purse-top:
+        header: '&7&m---------[-&f &eTop Purse &7&m-]--------'
+        top-player-structure: '&e#%top-position% &f%player-name% &7- &6%coins%'
+        footer: '&7&m---------[-&f &ePage %page-number% &7&m-]-----------'
+  bank:
+    command-help:
+      - '&e/bank &7- &fOpen the bank menu.'
+      - '&e/bank balance &7- &fCheck the amount of coins you have.'
+      - '&e/bank balance <player> &7- &fCheck the amount of coins another player has.'
+      - '&e/bank withdraw &7- &fOpen the withdraw menu'
+      - '&e/bank deposit &7- &fOpen the deposit menu'
+    #Use %balance% for amount of coins
+    output:  '&fYou have &6%balance% coins&f in your bank!'
+    #Use %player-name% for the name of the player
+    output-other: '&e%player-name% &fhas &6%balance% coins&f in their bank!'
+    player-not-found: '&cThe player you entered is not registered in the database.'
+  sharedbank:
+    command-help:
+      - '&e/sharedbank &7- &fOpen the shared bank menu.'
+      - '&e/sharedbank create &7- &fCreate a shared bank'
+      - '&e/sharedbank transfer <player> &7- &fTransfer ownership'
+      - '&e/sharedbank disband &7- &fDelete the shared bank'
+      - '&e/sharedbank leave &7- &fLeave the shared bank'
+      - '&e/sharedbank invite <player> &7- &fInvite member in shared bank'
+      - '&e/sharedbank accept <player> &7- &fAccept bank invitation'
+      - '&e/sharedbank kick <player> &7- &fKick player from shared bank'
+      - '&e/sharedbank info <player> &7- &fGives info about someone''s shared bank'
+      - '&e/sharedbank balance &7- &fCheck the amount of coins you have.'
+      - '&e/sharedbank balance <player> &7- &fCheck the amount of coins another player has.'
+      - '&e/sharedbank withdraw &7- &fOpen the withdraw menu'
+      - '&e/sharedbank deposit &7- &fOpen the deposit menu'
+    #Use %balance% for amount of coins
+    output:  '&fYou have &6%balance% coins&f in your bank!'
+    #Use %player-name% for the name of the player
+    output-other: '&e%player-name% &fhas &6%balance% coins&f in their bank!'
+    player-not-found: '&cThe player you entered is not registered in the database.'
+    no-shared-bank: '&cYou are not part of any shared bank.'
+    create-success: '&aYour shared bank was created!'
+    create-fail: '&cYou already have a shared bank!'
+    delete-success: '&fYour shared bank was deleted!'
+    bank-leave: '&fYou have left your shared bank!'
+    bank-leave-fail: '&cYou can''t leave because you are the owner!'
+    invite-sent:
+      - '&e%from-player% &fhas sent you a bank invitation.'
+      - '&e/sharedbank accept %from-player% &f to accept their invitation.'
+    invite-sent2: '&fThe invitation was successfully sent to &e%to-player%&f!'
+    invite-already-sent: '&fYou already sent an invitation to that player.'
+    invite-no-invite: '&fYou don''t have any invitations from that player.'
+    must-be-owner: '&cYou need to be the owner of the bank to do this.'
+    invite-accept: '&fYou accepted the bank invitation from &e%from-player%&f!'
+    invite-accept2: '&e%to-player% &fhas accepted your bank invitation!'
+    player-online: '&cThe player has to be online!'
+    player-has-bank: '&cThat player already has a shared bank.'
+    transfer-ownership-fail: '&cThat player is not part of your bank.'
+    transfer-ownership-success: '&fYou transfered ownership to &e%to-player%&f!'
+    transfer-ownership-success2: '&fYou are now the owner of your shared bank!'
+    kick-fail: '&cThat player is not part of your bank.'
+    kick-success: '&fYou kicked &e%player% &ffrom your shared bank!'
+    kick-player: '&fYou have been kicked fom the shared bank!'
+    confirm-message: '&fAre you sure? Type &e%command%.'
+    bank-info:
+      no-bank: '&cPlayer is not part of any shared bank.'
+      header-message:
+        - '&7&m-------[-&e Bank Info &7&m-]-------'
+        - '&7 * Owner: &b%owner%'
+        - '&7 * Members:'
+      members-display-structure: '&7     - &b%member%'
+      no-members: '&c     No members'
+      footer-message:
+        - '&7 * Balance: &6%balance% coins'
+  talismans:
+    command-help:
+      - '&e/talismans &7- &fOpen a menu from which you can take talismans'
+      - '&e/talismans give <player> <random-coins/death-save/percent-reducer> <tier>'
+    output:  '&aTalisman was successfully given!'
+    tier-not-found: '&cThe selected tier was not found.'
+    player-not-found: '&cThe player you entered was not found'
+  killcoins:
+    not-enabled: '&cStats for coins you gain from killing mobs are disabled.'
+    structure:
+      no-coins-message:
+        - '&cYou have no coins to display here yet.'
+        - '&cKill some mobs and execute the command'
+        - '&cagain to see the stats.'
+      header:
+        - '&8&m-----------------------------'
+        - '&fCoins gained: &6%total% coins&f'
+        - '&fKill more mobs to get more coins!'
+        - ''
+        - '&fThese stats reset daily!'
+        - ''
+        - '&fDetailed Kills:'
+      kill-structure: '&7 - %mob-display-name% Kills&f: %kill-count% &8(&6%amount% coins&8)'
+      #The footer won't be displayed if there are 0 additional kills
+      footer:
+        - ''
+        - '&fBesides the ones listed above you'
+        - '&fkilled an addition of &a%other-kills% entities'
+        - '&fthat make a total of &6%other-amount% coins&f!'
+        - '&8&m-----------------------------'
+  piggybank:
+    command-help:
+      - '&e/piggybank get &7- &fGet a piggy bank'
+      - '&e/piggybank give <player> &7- &fGive a piggy bank to a player'
+    success: '&aPiggy bank was given!'
+    piggy-bank-received: '&fYou have received a &aPiggy Bank&f!'
+    player-not-found: '&cPlayer has to be online.'
+  moneybag:
+    command-help:
+      - '&e/moneybag get <amount> &7- &fPut coins in a bag and get it'
+      - '&e/moneybag adminget <amount> &7- &fGet a bag without taking coins'
+      - '&e/moneybag give <player> <amount> &7- &fSend a player a coins bag'
+    #Use %amount% for the amount of coins the bag contains
+    output-fail: '&cYou don''t have enough coins!'
+    output: '&fYou just got a &ecoins bag &fcontaining &6%amount% coins &fin it!'
+    output-give: '&fYou sent a coins bag!'
+    give-invalid-player: '&cThe player has to be online!'
+    invalid-number: '&cPlease enter a valid number.'
+  interest:
+    command-help:
+      - '&e/interest &7- &fCheck how much time has to pass until a the interest.'
+      - '&e/interest speedup <number of hours> &7- &fRemove a number of hours from the remaining time.'
+      - '&e/interest slowdown <number of hours> &7- &fAdd a number of hours to the remaining time.'
+      - '&e/interest force &7- &fForce a bank interest.'
+      - '&e/interest reset &7- &fReset the timer without triggering a interest.'
+    #Use %interest-cooldown% for the cooldown (format example: 2 Days)
+    #Use %interest-cooldown-detailed% for the detailed cooldown (format example: 2 Days 3 Hours 1 Minute)
+    #Use %interest-cooldown-short% for the short cooldown (format example: 2d3h1m)
+    interest-output:
+      - '&fThere is &b%interest-cooldown-detailed% &funtil interest.'
+      - '&fGeneral interest cooldown: &b31 Hours'
+    reset:
+      output: '&aThe interest cooldown has been reseted!'
+    slowdown:
+      output: '&aThe interest has been slowed down!'
+      invalid-number: '&cYou didn''t enter a valid number of hours.'
+    speedup:
+      output: '&aThe interest has been sped up!'
+      invalid-number: '&cYou didn''t enter a valid number of hours.'
+    force:
+      output: '&aThe interest has been forcefully given.'
+    broadcast:
+      message: '&fYou have received your &eBank Interest&f!'
+      #If you set this to something else than 'none' only players with this permission
+      #will receive an interest message
+      permission: 'none'

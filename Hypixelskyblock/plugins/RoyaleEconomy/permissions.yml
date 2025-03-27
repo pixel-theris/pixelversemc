@@ -1,0 +1,74 @@
+no-permission-message:
+  - '&cYou are not allowed to use this!'
+  - '&cYou need the permission: &e%permission%'
+
+commands:
+  royaleeconomy:
+    command-help: 'rec.admin.help'
+    purse-permission: 'rec.admin.purse'
+    bank-permission: 'rec.admin.bank'
+    sharedbank-permission: 'rec.admin.sharedbank'
+    shops-permission: 'rec.admin.shops'
+    reload-permission: 'rec.admin.reload'
+  balance:
+    own: 'rec.balance'
+    other: 'rec.balance.other'
+  reshop:
+    command-help: 'rec.shop.help'
+    open: 'rec.shop.open'
+    forceopen: 'rec.admin.shop.forceopen'
+  pay: 'rec.pay'
+  balancetop:
+    command-help: 'rec.balancetop.help'
+    top-purse: 'rec.balancetop.purse'
+    top-bank: 'rec.balancetop.bank'
+    top-sharedbank: 'rec.balancetop.sharedbank'
+  bank:
+    command-help: 'rec.bank.help'
+    bank-command: 'rec.bank.command'
+    bank-balance: 'rec.bank.balance'
+    bank-balance-other: 'rec.bank.balance.other'
+    bank-withdraw-command: 'rec.bank.withdraw'
+    bank-deposit-command: 'rec.bank.deposit'
+  sharedbank:
+    command-help: 'rec.sharedbank.help'
+    sharedbank-command: 'rec.sharedbank.command'
+    sharedbank-balance: 'rec.sharedbank.balance'
+    sharedbank-balance-other: 'rec.sharedbank.balance.other'
+    sharedbank-withdraw-command: 'rec.sharedbank.withdraw'
+    sharedbank-deposit-command: 'rec.bank.deposit'
+    sharedbank-create: 'rec.sharedbank.create'
+    sharedbank-transfer: 'rec.sharedbank.transfer'
+    sharedbank-disband: 'rec.sharedbank.disband'
+    sharedbank-leave: 'rec.sharedbank.leave'
+    sharedbank-invite: 'rec.sharedbank.invite'
+    sharedbank-accept: 'rec.sharedbank.accept'
+    sharedbank-kick: 'rec.sharedbank.kick'
+    sharedbank-info: 'rec.sharedbank.info'
+  talismans:
+    command-help: 'rec.talismans.help'
+    menu-open: 'rec.talismans.open'
+    give-command: 'rec.talismans.give'
+  killcoins: 'rec.killcoins.command'
+  piggy-bank:
+    command-help: 'rec.piggybank.help'
+    piggy-bank-get: 'rec.piggybank.get'
+    piggy-bank-give: 'rec.piggybank.give'
+  moneybag:
+    command-help: 'rec.moneybag.help'
+    get-command: 'rec.moneybag.get'
+    adminget-command: 'rec.moneybag.adminget'
+    give-command: 'rec.moneybag.give'
+  interest:
+    command-help: 'rec.interest.help'
+    speedup: 'rec.interest.speedup'
+    slowdown: 'rec.interest.slowdown'
+    reset: 'rec.interest.reset'
+    force: 'rec.interest.force'
+    interest-check: 'rec.interest'
+
+#More kill coins permissions in the kill coins file
+kill-coins-bypass-limit: 'rec.killcoins.bypass.limit'
+moneybag-bank-withdraw: 'rec.moneybag.withdraw'
+piggy-bank-use: 'rec.piggybank.use'
+piggy-bank-cooldown-bypass: 'rec.piggybank.bypass.cooldown'

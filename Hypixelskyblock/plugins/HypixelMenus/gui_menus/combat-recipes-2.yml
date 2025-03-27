@@ -1,0 +1,299 @@
+menu_title: '(2/2) Combat Recipes'
+open_command: 'combat-recipes-2'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      combat:
+        material: STONE_SWORD
+        slot: 4
+        display_name: '&aCombat Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Combat Recipes!'
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanted-blaze-rod:
+        material: BLAZE_ROD
+        priority: 1
+        slot: 10
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Blaze Rod'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_blazerod%'
+              output: 100
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-BLAZE-ROD'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-BLAZE-ROD'
+
+      enchanted-blaze-powder:
+        material: 377
+        priority: 1
+        slot: 11
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Blaze Power'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_blazerod%'
+              output: 250
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-BLAZE-POWDER'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-BLAZE-POWER'
+
+      enchanted-magma-cream:
+        material: MAGMA_CREAM
+        priority: 1
+        slot: 22
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Magma Cream'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_magmacream%'
+              output: 250
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview ENCHANTED-MAGMA-CREAM'
+        right_click_commands:
+        - '[player] fc preview ENCHANTED-MAGMA-CREAM'
+
+      magma-helmet:
+        material: CHAINMAIL_HELMET
+        priority: 1
+        slot: 23
+        hide_attributes: true
+        amount: 1
+        display_name: '&5Magma Helmet'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_magmacream%'
+              output: 500
+        lore:
+        - '&7Health: &a+15 HP'
+        - '&7Defense: &a+50'
+        - '           '
+        - '&6Full Set Bonus: Nether Lord'
+        - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+        - '&7effect while worn. The wearer deal an additional'
+        - '&a+5% &7damage while on fire or in the nether.'
+        - '&c&a'
+        - '&5&lEPIC HELMET'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview MAGMA-HELMET'
+        right_click_commands:
+        - '[player] fc preview MAGMA-HELMET'
+
+      magma-chestplate:
+        material: CHAINMAIL_CHESTPLATE
+        priority: 1
+        slot: 24
+        hide_attributes: true
+        amount: 1
+        display_name: '&5Magma Chestplate'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_magmacream%'
+              output: 500
+        lore:
+        - '&7Health: &a+100 HP'
+        - '&7Defense: &a+30'
+        - '           '
+        - '&6Full Set Bonus: Nether Lord'
+        - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+        - '&7effect while worn. The wearer deal an additional'
+        - '&a+5% &7damage while on fire or in the nether.'
+        - '&c&a'
+        - '&5&lEPIC CHESTPLATE'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview MAGMA-CHESTPLATE'
+        right_click_commands:
+        - '[player] fc preview MAGMA-CHESTPLATE'
+
+      magma-leggings:
+        material: CHAINMAIL_LEGGINGS
+        priority: 1
+        slot: 25
+        hide_attributes: true
+        amount: 1
+        display_name: '&5Magma Leggings'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_magmacream%'
+              output: 500
+        lore:
+        - '&7Health: &a+75 HP'
+        - '&7Defense: &a+25'
+        - '           '
+        - '&6Full Set Bonus: Nether Lord'
+        - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+        - '&7effect while worn. The wearer deal an additional'
+        - '&a+5% &7damage while on fire or in the nether.'
+        - '&c&a'
+        - '&5&lEPIC LEGGINGS'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview MAGMA-LEGGINGS'
+        right_click_commands:
+        - '[player] fc preview MAGMA-LEGGINGS'
+
+      magma-boots:
+        material: CHAINMAIL_BOOTS
+        priority: 1
+        slot: 28
+        hide_attributes: true
+        amount: 1
+        display_name: '&5Magma Boots'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%us_collection_amount_magmacream%'
+              output: 500
+        lore:
+        - '&7Health: &a+45 HP'
+        - '&7Defense: &a+15'
+        - '           '
+        - '&6Full Set Bonus: Nether Lord'
+        - '&7Grants &a+30 &c❁ Strength &7and fire resistance'
+        - '&7effect while worn. The wearer deal an additional'
+        - '&a+5% &7damage while on fire or in the nether.'
+        - '&c&a'
+        - '&5&lEPIC BOOTS'
+        - ''
+        - '&eClick to view recipe!'
+        left_click_commands:
+        - '[player] fc preview MAGMA-BOOTS'
+        right_click_commands:
+        - '[player] fc preview MAGMA-BOOTS'
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 28
+        - 29
+        - 30
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      previous-page:
+        material: ARROW
+        priority: 3
+        slot: 45
+        display_name: '&aPrevious Page'
+        lore:
+        - '&ePage 1'
+        left_click_commands:
+        - '[openguimenu] combat-recipes'
+        right_click_commands:
+        - '[openguimenu] combat-recipes'
+
+      go-back:
+        material: ARROW
+        slot: 48
+        priority: 5
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

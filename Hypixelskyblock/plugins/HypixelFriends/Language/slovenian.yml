@@ -1,0 +1,127 @@
+Language: Slovenian
+Ingame_Only: '&cTa ukaz je na voljo samo v igri.'
+No_Permission: '&cNimate dovoljenja za uporabo tega ukaza!'
+Hyphen: '&8&m--------------------------------------------'
+Exceptions:
+  AlreadySent: '&aZahtevo za prijateljsvo, ste tej osebi že poslali!'
+  AlreadyFriend: '&cS to osebo ste že prijatelj!'
+  Ignored: '&cTa igralec vas je dodal na svoj seznam ignoriranih igralcev!'
+  IsntOnYourFriends: '&6%targetDisplayName &cNi na vašem seznamu prijateljev!'
+  CantAddYourSelf: '&cNe morete dodati sebe kot prijatelja!'
+  CantRemoveYourself: '&cSami sebe ne morete odstraniti!'
+  NoInvited: '&cTa oseba vam ni poslala vabila za prijatelja! &aPoskusite z &e/friend
+    add &8%name'
+  HasntFriend: '&cTa oseba vas ni povabila kot prijatelja! &aPoskusite z &e/friend
+    add &8%name'
+  SlotLimitReached: '&cDosegli ste limit dodajanja prijateljev! Če želite dodati več
+    prijateljev, jih nekaj odstranite!'
+  RequestDeny: '&cTa igralec ima onemogočen, sprejem novih prijateljev!'
+No-Joined-The-Party: '&cZa uporabo tega ukaza morate biti v skupini "Party"!'
+Cant-Find: '&cNi mogoče najti igralca s tem imenom: &6''%name'''
+Friends:
+  Join: '&8[&a+&8] &7%%displayName%% &ePridružen.'
+  Quit: '&8[&c-&8] &7%%displayName%% &eJe zapustil.'
+Add:
+  Usage: '&cUporaba: /friend add <player>'
+  Sent: '&aPoslali ste zahtevo za prijateljstvo igralcu: &6%targetDisplayName&a!'
+  5-Minutes: '&eZa sprejetje je na voljo 5 minut!'
+  Accept:
+    Prefix: '&a&l[ACCEPT]&r'
+    Message: '&aKliknite na &6ACCEPT&a, če želite sprejeti zahtevo za prijateljstvo'
+  Deny:
+    Prefix: '&c&l[DENY]&r'
+    Message: '&cKliknite na &6DENY&c, če želite zavrniti zahtevo za prijateljstvo'
+  Ignore:
+    Prefix: '&7&l[IGNORE]'
+    Message: '&dKliknite na &6IGNORE&d, da blokirate vse prihodnje prošnje za prijateljstvo.'
+  Request:
+    Received: '&2Poslana zahteva za prijateljstvo od %displayName&2!'
+  Expired:
+    YourSelf: '&cVaša zahteva za prijateljstvo z &6%targetDisplayName &cje žal potekla.'
+    Target: '&cZahteva za prijateljstvo od &6%displayName &cje žal potekla.'
+Remove:
+  Usage: '&cUporaba: /friend remove <player>'
+  YourSelf: '&aOdstranili ste &6%targetDisplayName &az vašega seznama prijateljev!'
+  Target: '&6%displayName &cvas je odstranil s seznama prijateljev!'
+  All:
+    Confirm: '&aAli ste prepričani, da želite izbrisati vse prijatelje? Če to res
+      želite, uporabite &c''/f removeall confirm''&a.'
+    Failed: '&cOdstranitev ni uspela: %uuid'
+    Done: '&aVsi prijatelji so bili izbrisani.'
+Accept:
+  Usage: '&cUporaba: /friend accept <player>'
+  YourSelf: '&aZdaj ste prijatelj z &6%targetDisplayName'
+  Target: '&aZdaj ste prijatelj z &6%displayName'
+Deny:
+  Usage: '&cUporaba: /friend deny <player>'
+  Declined: '&cZahteva %targetDisplayName &cza prijateljstvo zavrnjnena!'
+List:
+  DontHave:
+    One: '&eNimate še nobenih prijateljev!'
+    Two: '&eDodate lahko z &8/friend add <player>'
+  Online: '&6%targetDisplayName &eje v &8%server &estrežniku.'
+  Offline: '&6%targetDisplayName &cje trenutno nedosegljiv ali prisoten'
+  Page: '&bPrijatelji (Stran %%currentPage%% od %%maxPage%%)'
+Lang:
+  Usage: '&cNeveljavna uporaba! Uporabi: &8 ''/friend lang <language>'''
+  Available: '&aJeziki, ki so trenutno na voljo:'
+  Update: '&aIzbrani jezik: &6%lang&a!'
+  Updater:
+    LastUpdate: '&aZadnja posodobitev: &8%data'
+    Usage: '&cNeveljavna uporaba! Uporabi: &8 ''/friend lang update <language>'''
+    NeedCheck: '&cPreverite seznam razpoložljivih jezikov! &8(/friend lang update)'
+    Checking: '&7Preverjanje posodobitev...'
+    Failed-Connect: '&cPovezava s strežnikom ni uspela.'
+    Unknown: '&cTega jezika ni mogoče najti.'
+    Available: '&aRazpoložljive datoteke:'
+    Updated: '&a%lang &ajezik je posodobljen! Morda boste morali znova zagnati strežnik.'
+Ignore:
+  Usage:
+    Main: '&cNeveljavna uporaba! Uporabi: &8''/friend ignore <add|remove|list>'''
+    Add: '&cNeveljavna uporaba! Uporabi: &8''/friend ignore add <player>'''
+    Remove: '&cNeveljavna uporaba! Uporabi: &8''/friend ignore add <player>'''
+  Havent:
+    One: '&eNimate še nobenega na ignoriranje &8(IGNORE)&e!'
+    Two: '&eDodate lahko z &8/friend ignore add <player>'
+  Added: '&6%targetDisplayName &aje bil dodan na vaš seznam prezrtih, &8(IGNORE).'
+  AlreadyAdded: '&cTega igralca ste že ignorirali! &6/ignore remove (Ime Igralca)
+    &cče želite ignoriranje odstraniti!'
+  Removed: '&6%targetDisplayName &aje odstranjen s seznama ignoriranih.'
+  NotAdded: '&cTega igralca ne ignorirate! &8/ignore add (ime igralca)&c, če ga želite
+    ignorirati!'
+Force-Add:
+  Usage: '&cUporaba: /friend force-add <player>'
+  YourSelf: '&aZdaj ste prijatelj z &6%targetDisplayName &c&l[FORCE]'
+  Target: '&aSedaj ste prijatelj z &6 %displayName &c&l[FORCE]'
+Prefix:
+  Usage: '&cUporaba: /friend prefix <player> <prefix>'
+  Current: '&6%targetDisplayName&a''s trenutni naziv &8(prefix) &aje ''%prefix&a'''
+  To: '&6%targetDisplayName&a''s naziv &8(prefix) &aje bil spremenjen v ''%prefix&a'''
+Toggle:
+  Enabled: '&ePotrdilo prošnje za prijatelja: &aSprejeto'
+  Disabled: '&ePotrdilo prošnje za prijatelja: &4Zavrnjeno'
+Help:
+  Command: '&eFriend Ukazi:'
+  Help: '&e/friend help &7- &cPrikaže menu za pomoč'
+  Lang: '&e/friend lang &7- &cSpremenite prikazani jezik'
+  Add: '&e/friend add &7- &cDodajte igralca kot prijatelja'
+  Remove: '&e/friend remove &7- &cOdstranite igralca za prijatelja'
+  RemoveAll: '&e/friend removeall &7- &cOdstranite vse prijatelje.'
+  Accept: '&e/friend accept &7- &cSprejmite prošnjo za prijateljstvo'
+  Deny: '&e/friend deny &7- &cZavrni zahtevo za prijateljstvo'
+  List: '&e/friend list &7- &cSeznam prijateljev'
+  Ignore: '&e/friend ignore &7- &cUpravljanje seznama ignoriranih'
+  Force-Add: '&e/friend force-add &7- &cZ igralcem boste prisilno brez potrditve prijatelj.'
+  Prefix: '&e/friend prefix &7- &cNastavite naziv igralca.'
+  Toggle: '&e/friend toggle &7- &cPreklopite zahtevo za prijatelje.'
+Tell-Command:
+  Usage: '&cUporaba: /tell <player> <message>'
+  YourSelf: '&dZa: &6%targetDisplayName&8: &7%message'
+  Target: '&dOd: &e%displayName&8> &7%message'
+  MustBeFriends: '&cMorate biti prijatelj z &6%targetDisplayName&c!'
+  Offline: '&c%targetDisplayName &cTrenutno ni dosegljiv/a!'
+Reply-Command:
+  Usage: '&cUporaba: /reply <message>'
+  Target: '&cOdgovor od: %targetDisplayName'
+OSL:
+  NotFound: '&cNi bilo najdenih odprtokodnih elementov.'

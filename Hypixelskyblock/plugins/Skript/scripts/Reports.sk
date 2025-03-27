@@ -1,0 +1,44 @@
+command /report [<player>]:
+    usage: /report <player>
+    trigger:
+        if arg 1 is set:
+            set {1::%player%} to "%arg 1%"
+            wait 1 ticks
+            make the server execute command "/ibooks open reports-1 %player's name%"
+            delete {1::%player%}
+            delete {2::%player%}
+        else:
+            send ""
+            send "&cPlease specify the player you want to report. (/report player)"
+            send ""
+            delete {1::%player%}
+            delete {2::%player%}
+
+command /areport [<player>] [<text>]:
+    trigger:
+        set {1::%player%} to "%arg 1%"
+        set {2::%player%} to "%arg 2%"
+        wait 1 ticks
+        make the server execute command "/ibooks open reports-2 %player's name%"
+
+command /breport [<player>] [<text>]:
+    trigger:
+        make the server execute command "/ibooks open reports-3 %player's name%"
+        send "&f[REPORTS] &aYou reported &e%arg 1%&a for &e[%arg 2%]" to executor
+        send "&f[REPORTS] &aThanks for your report! The anticheat or a staff member will review it as soon as possible." to executor
+        make the server execute command "/helpop &cThe player &c&l%player% &creported &c&l%arg 1%&c for &c&l%arg 2%&c."
+        wait 1 ticks
+        delete {1::%player%}
+        delete {2::%player%}
+    
+on join:
+    delete {1::%player%}
+    delete {2::%player%}
+
+command /cancelreport:
+    trigger:
+        message ""
+        message "&cYou canceled this report."
+        message ""
+        delete {1::%player%}
+        delete {2::%player%}

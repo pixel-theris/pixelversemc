@@ -1,0 +1,92 @@
+menu_title: '(3/3) Fishing Recipes'
+open_command: 'fishing-recipes-3'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      fishing:
+        material: FISHING_ROD
+        slot: 4
+        display_name: '&aFishing Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Fishing Recipes!'
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      previous-page:
+        material: ARROW
+        priority: 3
+        slot: 45
+        display_name: '&aPrevious Page'
+        lore:
+        - '&ePage 2'
+        left_click_commands:
+        - '[openguimenu] fishing-recipes-2'
+        right_click_commands:
+        - '[openguimenu] fishing-recipes-2'
+
+      go-back:
+        material: ARROW
+        slot: 48
+        priority: 5
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'
+
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

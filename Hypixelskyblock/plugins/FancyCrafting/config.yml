@@ -1,0 +1,179 @@
+messages:
+  prefix: ''
+  # A plugin reload reloads messages and the GUIs.
+  plugin_reload: '&aThe plugin has been reloaded.'
+  # When a command is used incorrectly, or the help page is called, this is the format the commands will show in.
+  command_usage: '&b%command% &7- &f%usage%'
+  recipe_does_not_exist: '&cThe recipe %recipe_name% could not be found.'
+
+# Configuration for the workbench GUI
+workbench:
+  # Title of the GUI
+  title: '&8Crafting Table'
+  # Size of the GUI, make sure you don't define slots above the size-1
+  size: 54
+  # Slots in which can be crafted
+  crafting-slots:
+    - 10
+    - 11
+    - 12
+    - 19
+    - 20
+    - 21
+    - 28
+    - 29
+    - 30
+  # Slots in which the state of the craft will be shown (invalid recipe/valid recipe)
+  craft-state-slots:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+  # Slot in which the back item will be shown
+  back-slot: 49
+  # Slot in which the crafting result will end up
+  result-slot: 24
+
+# Section for the overview of recipes, names should be self-explanatory
+recipe_list:
+  title: '&8Recipe List'
+  size: 54
+  workbench-slot: 48
+  add-recipe-slot: 49
+  back-slot: 50
+  previous-page-slot: 45
+  next-page-slot: 53
+  preview-lore: '&eClick to preview!'
+  edit-lore: '&bRight-Click to edit!'
+
+# Section for the recipe edit GUI
+recipe_edit:
+  title: '&8Edit Recipe'
+  crafting-slots:
+    - 10
+    - 11
+    - 12
+    - 19
+    - 20
+    - 21
+    - 28
+    - 29
+    - 30
+  result-slot: 24
+  save-slot: 53
+  cancel-slot: 45
+  edit-name-slot: 49
+
+# Section for the recipe edit GUI
+recipe_preview:
+  title: '&8Recipe Viewer'
+  crafting-slots:
+    - 10
+    - 11
+    - 12
+    - 19
+    - 20
+    - 21
+    - 28
+    - 29
+    - 30
+  result-slot: 24
+  back-slot: 49
+  return-to-list-slot: 48
+
+# Items that can be configured, follows the following format:
+#<key>:                     | Please don't change this, this is how the plugin finds the item.
+#  material: DIAMOND_SWORD  | The type of the item. https://helpch.at/docs/1.8.8/org/bukkit/Material.html
+#  data: 0                  | OPTIONAL - The "damage" of the item. Used to color glass for example.
+#  displayName: '&fName'    | OPTIONAL - The name of the item. Supports color codes.
+#  lore:                    | OPTIONAL - The lore of the item.
+#    - '&aLine 1'
+#    - '&bLine 2'
+#  enchants:                | OPTIONAL - Enchants of the item. https://helpch.at/docs/1.8.8/org/bukkit/enchantments/Enchantment.html
+#    DAMAGE_ALL: 5
+#    DURABILITY: 3
+items:
+  fill:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayName: '&r'
+  back:
+    material: BARRIER
+    displayName: '&aClose'
+    lore:
+      - '&eClick to close!'
+    # Commands can only be defined for the back item.
+    commands: []
+
+  # Workbench exclusive items
+  valid-craft:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: '&r'
+  invalid-craft:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: '&r'
+  empty-result:
+    material: STAINED_GLASS_PANE
+    data: 8
+    displayName: '&r'
+
+  # List exclusive items
+  add-recipe:
+    material: INK_SACK
+    data: 10
+    displayName: '&aAdd Recipe'
+    lore:
+      - '&eClick to create a new recipe!'
+  workbench:
+    material: WORKBENCH
+    displayName: '&aOpen Workbench'
+    lore:
+      - '&eClick to open a workbench!'
+  next-page:
+    material: ARROW
+    displayName: '&aNext Page'
+    lore:
+      - '&eClick to go'
+  previous-page:
+    material: ARROW
+    displayName: '&aPrevious Page'
+    lore:
+      - '&eClick to go'
+
+  # Recipe edit exclusive items
+  edit-name:
+    material: NAME_TAG
+    displayName: '&aEdit Name'
+    lore:
+      - '&eClick to set the name of this recipe'
+      - ''
+      - '&7Current Name:'
+  cancel:
+    material: STAINED_GLASS_PANE
+    data: 14
+    displayName: '&aCancel Editing'
+    lore:
+      - '&eClick to cancel!'
+  save:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayName: '&aSave Recipe'
+    lore:
+      - '&eClick to save this recipe!'
+
+  # Recipe preview exclusive items
+  return-to-list:
+    material: BOOK
+    displayName: '&aList All Recipes'
+    lore:
+      - '&7See all the available'
+      - '&7recipes.'
+      - ''
+      - '&eClick to see!'
+      - '&cRequires ADMIN or higher'

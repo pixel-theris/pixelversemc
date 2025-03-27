@@ -1,0 +1,39 @@
+# Placeholders:
+#   %effect%      - The name of the effect, defined further down.
+#   %value%       - The level of the effect.
+#   %time%        - The time remaining.
+effect-display: "%effect% %value% &f%time%"
+# The time will be measured in seconds and converted to fit the time format you define here.
+# https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+time-format: "mm:ss"
+# If the user has multiple effects, it'll be separated with this.
+effect-separator: " "
+# If the user does not have any effects, this will be displayed instead.
+no-effect: "&7No active potion effects!"
+
+# The displayed names of the effects.
+# On the left is the internal minecraft name, on the right whatever you want.
+effect-names:
+  SPEED: "&9&lSpeed"
+  SLOW: "&8&lSlowness"
+  FAST_DIGGING: "&e&lHaste"
+  SLOW_DIGGING: "&8&lMining Fatigue"
+  INCREASE_DAMAGE: "&4&lStrength"
+  HEAL: "&c&lInstant Healing"
+  HARM: "&0&lInstant Damage"
+  JUMP: "&b&lJump Boost"
+  CONFUSION: "&2&lNausea"
+  REGENERATION: "&4&lRegeneration"
+  DAMAGE_RESISTANCE: "&f&lResistance"
+  FIRE_RESISTANCE: "&c&lFire Resistance"
+  WATER_BREATHING: "&9&lWater Breathing"
+  INVISIBILITY: "&7&lInvisibility"
+  BLINDNESS: "&0&lBlindness"
+  NIGHT_VISION: "&5&lNight Vision"
+  HUNGER: "&7&lHunger"
+  WEAKNESS: "&7&lWeakness"
+  POISON: "&2&lPoison"
+  WITHER: "&0&lWither"
+  HEALTH_BOOST: "&c&lHealth Boost"
+  ABSORPTION: "&6&lAbsorption"
+  SATURATION: "&4&lSaturation"

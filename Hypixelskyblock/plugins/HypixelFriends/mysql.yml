@@ -1,0 +1,8 @@
+Enable: false
+DebugMode: false
+Username: ROOT
+Password: PASSWORD
+Address: localhost:3306
+Database: bungeefriends
+Timezone: JST
+UseSSL: false

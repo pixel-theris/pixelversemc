@@ -1,0 +1,372 @@
+menu_title: 'Missions'
+open_command:
+- missions
+- missionlist
+- mission
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 42
+        - 41
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: PAPER
+        priority: 2
+        slots:
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        display_name: '&c???'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+        
+      fairy-souls:
+        display_name: '&dFairy Souls'
+        material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2OTIzYWQyNDczMTAwMDdmNmFlNWQzMjZkODQ3YWQ1Mzg2NGNmMTZjMzU2NWExODFkYzhlNmIyMGJlMjM4NyJ9fX0='
+        lore:
+        - '&7Find Fairy Souls scattered'
+        - '&7around the map to earn many'
+        - '&7rewards!'
+        - ''
+        - '&7Total Found: &e%us_fairysouls%&7/&d%us_total_fairysouls%'
+        priority: 1
+        data: 0
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+        
+      getting-started:
+        display_name: '&aGetting Started'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.break-a-log% Break a log'
+        - '&c %player_has_permission_missions.completed.craft-a-workbench% Craft a workbench'
+        - '&c %player_has_permission_missions.completed.craft-a-pickaxe% Craft a wooden pickaxe'
+        - '&c %player_has_permission_missions.completed.go-through-the-portal% Go through the portal'
+        - ''
+        - '&7 Rewards:'
+        - '  &aAccess to the &bHub Island'
+        priority: 1
+        data: 0
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+
+      Introduce-Yourself:
+        display_name: '&aExplorer'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - '&7Visit all the Village places'
+        - '&7to complete this mission.'
+        priority: 1
+        data: 0
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+
+      time-to-mine:
+        display_name: '&aTime to Mine'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.visit-the-coal-mine% Visit the Coal Mine'
+        - '&c %player_has_permission_missions.completed.talk-to-the-miner-guy% Talk to The Miner Guy'
+        - '&c %player_has_permission_missions.completed.collect-some-cobblestone% Collect some cobblestone'
+        - '&c %player_has_permission_missions.completed.talk-to-the-miner-guy-2% Talk to The Miner Guy'
+        - '&c %player_has_permission_missions.completed.collect-some-coal% Collect some coal'
+        - '&c %player_has_permission_missions.completed.talk-to-the-miner-guy-3% Talk to The Miner Guy'
+        - ''
+        - ' &7Rewards:'
+        - '  &8+&61,000 &7coins'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.visit-the-coal-mine'
+        data: 0
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+
+      Intermediate-Farmer:
+        display_name: '&aIntermediate Farmer'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.travel-to-the-farm% Travel to the Farm'
+        - '&c %player_has_permission_missions.completed.talk-to-farmhand% Talk to Farmhand'
+        - '&c %player_has_permission_missions.completed.collect-some-carrots% Collect some carrots'
+        - '&c %player_has_permission_missions.completed.talk-to-farmhand-2% Talk to Farmhand'
+        - '&c %player_has_permission_missions.completed.collect-some-potatoes% Collect some potatoes'
+        - '&c %player_has_permission_missions.completed.talk-to-farmhand-3% Talk to Farmhand'
+        - ''
+        - ' &7Rewards:'
+        - '  &8x1 &aWheat Orb'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.travel-to-the-farm'
+        data: 0
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+      Back-at-the-Barnyard:
+        display_name: '&aBack at the Barnyard'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.warp-to-the-barn% Warp to The Barn'
+        - '&c %player_has_permission_missions.completed.collect-16-cactus% Collect 16 cactus'
+        - '&c %player_has_permission_missions.completed.collect-16-sugar-cane% Collect 16 sugar cane'
+        - '&c %player_has_permission_missions.completed.kill-some-pigs% Kill some pigs'
+        - '&c %player_has_permission_missions.completed.kill-some-cows% Kill some cows'
+        - '&c %player_has_permission_missions.completed.kill-some-chickens% Kill some chickens'
+        - ''
+        - ' &7Rewards:'
+        - '  &8x1 &aCarrot Orb'
+        - '  &8x1 &aPotato Orb'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.warp-to-the-barn'
+        data: 0
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+      Timber:
+        display_name: '&aTimber!'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.visit-the-oak-forest% Visit the Oak Forest'
+        - '&c %player_has_permission_missions.completed.talk-to-the-lumberer% Talk to the Lumberer'
+        - '&c %player_has_permission_missions.completed.reach-foraging-v% Reach Foraging V'
+        - '&c %player_has_permission_missions.completed.talk-to-the-lumberer-2% Talk to the Lumberer'
+        - ''
+        - ' &7Rewards:'
+        - '  &8x1 &fOak Helmet'
+        - '  &8x1 &fOak Chestplate'
+        - '  &8x1 &fOak Leggings'
+        - '  &8x1 &fOak Boots'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.visit-the-oak-forest'
+        data: 0
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+
+      Going-Deeper:
+        display_name: '&aGoing Deeper'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.warp-to-the-gold-mine% Warp to the Gold Mine'
+        - '&c %player_has_permission_missions.completed.talk-to-the-lift-operator% Talk to the Lift Operator'
+        - ''
+        - ' &7Rewards:'
+        - '  &aAccess to the &bLift'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.warp-to-the-gold-mine'
+        data: 0
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+      Going-Deeper-II:
+        display_name: '&aGoing Deeper II'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.visit-the-lapis-quarry% Visit the Lapis Quarry'
+        - '&c %player_has_permission_missions.completed.kill-a-lapis-zombie% Kill a lapis zombie'
+        - ''
+        - ' &7Rewards:'
+        - '  &aLapis Chestplate'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.visit-the-lapis-quarry'
+        data: 0
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+
+      Diamondsssssssssss:
+        display_name: '&aDiamondsssssss!!'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.access-the-diamond-sanctuary% Access the Diamond Sanctuary'
+        - '&c %player_has_permission_missions.completed.collect-some-diamonds% Collect some diamonds'
+        - ''
+        - ' &7Rewards:'
+        - '  &8+&62,500 &7coins'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.access-the-diamond-sanctuary'
+        data: 0
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+      Warriors-Quest:
+        display_name: '&aWarrior''s Quest'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.visit-the-graveyard% Visit the Graveyard'
+        - '&c %player_has_permission_missions.completed.talk-to-the-gravekeeper% Talk to the Gravekeeper'
+        - '&c %player_has_permission_missions.completed.reach-combat-iii% Reach Combat III'
+        - '&c %player_has_permission_missions.completed.talk-to-the-gravekeeper-2% Talk to the Gravekeeper'
+        - ''
+        - ' &7Rewards:'
+        - '  &8+&61,000 &7coins'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.visit-the-graveyard'
+        data: 0
+        slot: 22
+        left_click_commands: []
+        right_click_commands: []
+
+      Beginning-of-The-End:
+        display_name: '&aBeginning of The End'
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        material: PAPER
+        lore:
+        - ''
+        - '&7Mission progress:'
+        - '&c %player_has_permission_missions.completed.warp-to-the-spiders-den% Warp to the Spider''s Den'
+        - '&c %player_has_permission_missions.completed.kill-some-spiders% Kill some spiders'
+        - '&c %player_has_permission_missions.completed.reach-combat-x% Reach Combat X'
+        - ''
+        - ' &7Rewards:'
+        - '  &fLucky Coins Talisman'
+        priority: 1
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'missions.completed.warp-to-the-spiders-den'
+        data: 0
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

@@ -1,0 +1,14 @@
+name: owner
+permissions:
+- '*'
+- rank.OWNER
+- tab.sort.OWNER
+- weight.5
+parents:
+- admin
+prefixes:
+- '&c[OWNER] ':
+    priority: 5
+suffixes:
+- '&cOWNER':
+    priority: 5

@@ -1,0 +1,184 @@
+menu_title: 'Skyblock Settings'
+open_command: 'settings'
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 99
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5 
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      friend-requests:
+        material: 397
+        data: 3
+        priority: 1
+        slot: 10
+        amount: 1
+        display_name: '&aFriend Requests'
+        lore:
+        - '&7Toggle the incoming Friend'
+        - '&7Requests from other players.'
+        left_click_commands: []
+        right_click_commands: []
+
+      friend-requests-2:
+        material: 77
+        data: 0
+        priority: 1
+        slot: 19
+        amount: 1
+        display_name: '&aFriend Requests'
+        lore:
+        - '&eClick to toggle!'
+        left_click_commands:
+        - '[player] friend toggle'
+        right_click_commands:
+        - '[player] friend toggle'
+
+      scoreboard:
+        material: SIGN
+        data: 0
+        priority: 1
+        slot: 11
+        amount: 1
+        display_name: '&aScoreboard'
+        lore:
+        - '&7Toggle the Scoreboard.'
+        left_click_commands: []
+        right_click_commands: []
+
+      scoreboard-2:
+        material: 77
+        data: 0
+        priority: 1
+        slot: 20
+        amount: 1
+        display_name: '&aScoreboard'
+        lore:
+        - '&cCannot be disabled.'
+        left_click_commands: []
+        right_click_commands: []
+
+      bossbar:
+        material: 381
+        data: 0
+        priority: 1
+        slot: 12
+        amount: 1
+        display_name: '&aBoss Bar'
+        lore:
+        - '&7Toggle the Boss Bar.'
+        left_click_commands: []
+        right_click_commands: []
+
+      bossbar-2:
+        material: 77
+        data: 0
+        priority: 1
+        slot: 21
+        amount: 1
+        display_name: '&aBoss Bar'
+        lore:
+        - '&eClick to toggle!'
+        left_click_commands:
+        - '[player] bossbar'
+        right_click_commands:
+        - '[player] bossbar'
+
+      double-tap-to-drop:
+        material: BOAT
+        data: 0
+        priority: 1
+        slot: 13
+        amount: 1
+        display_name: '&aDouble Tap to Drop'
+        lore:
+        - '&7Toggles the Double Tap to'
+        - '&7Drop confirmation.'
+        left_click_commands: []
+        right_click_commands: []
+
+      double-tap-to-drop-2:
+        material: 77
+        data: 0
+        priority: 1
+        slot: 22
+        amount: 1
+        display_name: '&aDouble Tap to Drop'
+        lore:
+        - '&eClick to toggle!'
+        left_click_commands:
+        - '[player] antidrop toggle'
+        right_click_commands:
+        - '[player] antidrop toggle'
+
+      other:
+        material: 404
+        data: 0
+        priority: 1
+        slot: 24
+        amount: 1
+        display_name: '&aOther Settings'
+        lore:
+        - '&cSoon!'
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

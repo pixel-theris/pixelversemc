@@ -1,0 +1,165 @@
+title: '&8Lumberjack'
+permission-to-open: none
+background-color: 15
+items:
+  '1':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 1
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 2
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG
+      damage: 3
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '5':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG_2
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '6':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LOG_2
+      damage: 1
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 2.0
+    buyValue: 5.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  '7':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §fStarter Axe
+        lore:
+        - '           '
+        - §9Efficiency I
+        - §7Increases how quickly your tool
+        - §7breaks blocks.
+        - '          '
+        - §f§lCOMMON §f§lAXE
+        enchants:
+          DIG_SPEED: 1
+        Unbreakable: true
+        ItemFlags: !!set
+          HIDE_ENCHANTS: null
+          HIDE_UNBREAKABLE: null
+          HIDE_ATTRIBUTES: null
+        internal: H4sIAAAAAAAAAONiYGBk4MvITElNLCkpykwqLUktZmQAAGoc0EoWAAAA
+    sellingValue: 0.0
+    buyValue: 25.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '8':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIRT
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        lore:
+        - §f§lCOMMON
+    sellingValue: 6.0
+    buyValue: 12.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

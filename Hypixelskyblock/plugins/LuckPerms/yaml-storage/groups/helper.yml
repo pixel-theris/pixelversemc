@@ -1,0 +1,19 @@
+name: helper
+permissions:
+- chatty.chat.staff.see
+- chatty.chat.staff.write
+- litebans.*
+- chatformat.staff
+- essentials.helpop.receive
+- essentials.tp
+- rank.HELPER
+- tab.sort.HELPER
+- weight.5
+parents:
+- vip
+prefixes:
+- '&9[HELPER] ':
+    priority: 5
+suffixes:
+- '&9HELPER':
+    priority: 5

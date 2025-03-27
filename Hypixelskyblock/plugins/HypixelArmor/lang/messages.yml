@@ -1,0 +1,20 @@
+reload:
+  - '&aYou have successfully reloaded the plugin.'
+
+help:
+  - '&7Please refer to the github wiki page for command, permission and configuration help.'
+
+insufficient-funds:
+  - '&7You do not have sufficient funds to purchase that.'
+
+purchase:
+  - '&aYou just spawned a piece from the &6{set-name} &aset.'
+
+give-piece-giver:
+  - '&7You have given &6{player} {amount}x &7the &6{piece} &7piece(s) from the &6{set-name} &7set.'
+
+give-piece-receiver:
+  - 'This is a blank message'
+
+unsafe-warp-location:
+  - '&7Your &3&lWARP SET &7tried to teleport you but the location was deemed unsafe by the server.'

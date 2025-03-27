@@ -1,0 +1,19 @@
+# Settings for the spawn portal hologram
+portal-hologram:
+  offset-x: 24.5
+  offset-y: 21.5
+  offset-z: -10.5
+  lines:
+    - '&bWarp to:'
+    - '&aHub Island'
+
+# Settings for the island npc
+island-npc:
+  offset-x: 13.5
+  offset-y: 18
+  offset-z: -8.5
+  offset-yaw: -90
+  entityType: VILLAGER
+  lines:
+    - 'Jerry'
+    - '&e&lCLICK'

@@ -1,0 +1,241 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills give health {player} 100
+      - usbc skills give strength {player} 10
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - usbc skills remove health {player} 100
+      - usbc skills remove strength {player} 10
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.20
+        default: 0.20
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  chestplate:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+        - usbc skills give critchance {player} 58
+        - usbc skills give intelligence {player} 60
+      remove:
+        - usbc skills remove defense {player} 35
+        - usbc skills remove critchance {player} 58
+        - usbc skills remove intelligence {player} 60
+    name: '&5Reforged Cheap Tuxedo Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Crit Chance: &c+50% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+50 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC CHESTPLATE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  leggings:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+        - usbc skills give critchance {player} 33
+        - usbc skills give intelligence {player} 35
+      remove:
+        - usbc skills remove defense {player} 35
+        - usbc skills remove critchance {player} 33
+        - usbc skills remove intelligence {player} 35
+    name: '&5Reforged Cheap Tuxedo Leggings'
+    item: leather_leggings
+    data: 0
+    color: 199:199:199
+    lore:
+      - '&7Crit Chance: &c+25% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+25 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC LEGGINGS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+  boots:
+    commands:
+      apply:
+        - usbc skills give defense {player} 35
+        - usbc skills give critchance {player} 33
+        - usbc skills give intelligence {player} 35
+      remove:
+        - usbc skills remove defense {player} 35
+        - usbc skills remove critchance {player} 33
+        - usbc skills remove intelligence {player} 35
+    name: '&5Reforged Cheap Tuxedo Boots'
+    item: leather_boots
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Crit Chance: &c+25% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+25 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC BOOTS'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: chestplate
+    name: '&5Reforged Cheap Tuxedo Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Crit Chance: &c+50% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+50 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC CHESTPLATE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  2:
+    slot: 1
+    action: leggings
+    name: '&5Reforged Cheap Tuxedo Leggings'
+    item: leather_leggings
+    data: 0
+    color: 199:199:199
+    lore:
+      - '&7Crit Chance: &c+25% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+25 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC LEGGINGS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  3:
+    slot: 2
+    action: boots
+    name: '&5Reforged Cheap Tuxedo Boots'
+    item: leather_boots
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Crit Chance: &c+25% &8(+8% Reforged)'
+      - ''
+      - '&7Defense: &a+15 &8(+20 Reforged)'
+      - '&7Intelligence: &a+25 &8(+10 Reforged)'
+      - '           '
+      - '&6Full Set Bonus: Dashing!'
+      - '&7Gain &a+100 &c❤ Health.'
+      - '&7Critical hits deal &c-25%&7 damage.'
+      - '&7Normal hits deal &c+50%&7 damage.'
+      - '&c&c'
+      - '&5&lEPIC BOOTS'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+      - hide_unbreakable
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

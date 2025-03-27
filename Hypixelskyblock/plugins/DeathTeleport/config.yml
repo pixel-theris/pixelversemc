@@ -1,0 +1,181 @@
+DeathTeleports:
+  village:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.0
+      y: 88.0
+      z: 0.0
+      pitch: -0.73010415
+      yaw: 0.54757875
+  spiders-den:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 275.5
+      y: 73.0
+      z: -40.5
+      pitch: 0.81396097
+      yaw: -77.71249
+  the-nether:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 614.5
+      y: 90.0
+      z: -28.5
+      pitch: -5.450225
+      yaw: -90.04587
+  nether-fortress:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 614.5
+      y: 90.0
+      z: -28.5
+      pitch: -5.450225
+      yaw: -90.04587
+  farm:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 58.5
+      y: 87.0
+      z: 158.5
+      pitch: -3.8652515
+      yaw: 0.39743516
+  the-barn:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 76.5
+      y: 99.0
+      z: 310.5
+      pitch: -3.6827273
+      yaw: 1.492599
+  acacia-forest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.5
+      y: 108.0
+      z: -212.5
+      pitch: -1.8360181
+      yaw: 186.21194
+  spruce-forest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.5
+      y: 108.0
+      z: -212.5
+      pitch: -1.8360181
+      yaw: 186.21194
+  birch-forest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.5
+      y: 108.0
+      z: -212.5
+      pitch: -1.8360181
+      yaw: 186.21194
+  dark-oak-forest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.5
+      y: 108.0
+      z: -212.5
+      pitch: -1.8360181
+      yaw: 186.21194
+  jungle-forest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 0.5
+      y: 108.0
+      z: -212.5
+      pitch: -1.8360181
+      yaw: 186.21194
+  gold-mine:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -4.9198337
+      yaw: -304.32355
+  lapis-quarry:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -4.9198337
+      yaw: -304.32355
+  redstone-mine:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -4.9198337
+      yaw: -304.32355
+  emerald-sanctuary:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -5.0673127
+      yaw: -304.32355
+  diamond-reserve:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -5.0673127
+      yaw: -304.32355
+  obsidian-sanctuary:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: -255.5
+      y: 107.0
+      z: 82.5
+      pitch: -1.5278149
+      yaw: -309.04272
+  the-end:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 424.5
+      y: 101.0
+      z: 178.5
+      pitch: -0.3707963
+      yaw: -2.4988098
+  dragon-nest:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 424.5
+      y: 101.0
+      z: 178.5
+      pitch: -0.3707963
+      yaw: -2.4988098
+  dragon-altar:
+    Location:
+      ==: org.bukkit.Location
+      world: Server
+      x: 424.5
+      y: 101.0
+      z: 178.5
+      pitch: -0.3707963
+      yaw: -2.4988098
