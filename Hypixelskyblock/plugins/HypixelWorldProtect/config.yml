@@ -7,4 +7,5 @@
 Messages:
   reloadConfig: '&aThe config file has been reloaded!'
   noPermission: '&fUnknown command.'
-Punishment-Command: kick %player% §cYou cannot join while having  §bWorld Downloader Mod§c
+Punishment-Command: kick %player% §cYou cannot join while having  §bWorld Downloader
+  Mod§c

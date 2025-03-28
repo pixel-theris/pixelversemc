@@ -122,7 +122,8 @@ worldedit:
   navigation:
     navigation_wand_error: '&cNothing to pass through'
   anvil:
-    world_is_loaded: The world shouldn't be in use when executing. Unload the world, or use use -f to override (save first)
+    world_is_loaded: The world shouldn't be in use when executing. Unload the world,
+      or use use -f to override (save first)
   brush:
     brush_reset: Reset your brush. (SHIFT + Click)
     brush_none: You aren't holding a brush!
@@ -136,12 +137,14 @@ worldedit:
     brush_try_other: |-
       &cThere are other more suitable brushes e.g.
       &8 - &7//br height [radius=5] [#clipboard|file=null] [rotation=0] [yscale=1.00]
-    brush_copy: Left click the base of an object to copy, right click to paste. Increase the brush radius if necessary.
+    brush_copy: Left click the base of an object to copy, right click to paste. Increase
+      the brush radius if necessary.
     brush_height_invalid: Invalid height map file (%s0)
     brush_smooth: 'Note: Use the blend brush if you want to smooth overhangs or caves.'
     brush_spline: Click to add a point, click the same spot to finish
     brush_line_primary: Added point %s0, click another position to create the line
-    brush_catenary_direction: Added point %s0, click the direction you want to create the spline
+    brush_catenary_direction: Added point %s0, click the direction you want to create
+      the spline
     brush_line_secondary: Created spline
     brush_spline_primary_2: Added position, Click the same spot to join!
     brush_spline_secondary_error: Not enough positions set!
@@ -257,8 +260,10 @@ cancel:
   worldedit_cancel_reason_max_entities: Too many entities
   worldedit_cancel_reason_max_iterations: Max iterations
   worldedit_cancel_reason_outside_level: Outside world
-  worldedit_cancel_reason_outside_region: Outside allowed region (bypass with /wea, or disable `region-restrictions` in config.yml)
-  worldedit_cancel_reason_no_region: No allowed region (bypass with /wea, or disable `region-restrictions` in config.yml)
+  worldedit_cancel_reason_outside_region: Outside allowed region (bypass with /wea,
+    or disable `region-restrictions` in config.yml)
+  worldedit_cancel_reason_no_region: No allowed region (bypass with /wea, or disable
+    `region-restrictions` in config.yml)
   worldedit_failed_load_chunk: '&cSkipped loading chunk: &7%s0;%s1&c. Try increasing
     chunk-wait.'
 navigation:

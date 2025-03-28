@@ -102,7 +102,8 @@ diamond-reserve:
 - title %player% subtitle {"text":"New Area Discovered!","color":"green"}
 - title %player% title {"text":"Diamond Reserve","bold":true,"color":"aqua"}
 - lp user %player% permission set zone.diamond-reserve true
-- lp user %player% permission set missions.completed.access-the-diamond-sanctuary true
+- lp user %player% permission set missions.completed.access-the-diamond-sanctuary
+  true
 - customplaceholders set %player% mission_mine &eCollect_some_diamonds
 - q a moddata start %player% miningquest3
 - whisper %player% &7
