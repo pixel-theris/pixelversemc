@@ -1,8 +1,5 @@
-# SigMCX
-The newest and best version of SigMC
-
-# Launch: First time
-none
+# PIXELVERSE MC
+Hi, weclome =D
 
 # Server launchers
 chmod +x hub.sh 
